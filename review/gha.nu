@@ -46,6 +46,7 @@ export def "gha review-inputs" [] {
   | from json
   | upsert extra-args { default "" }
   | upsert extra-build-args { default "" }
+  | upsert relay-after { default "0" | into int }
   | update cells -c [
     x86_64-linux
     aarch64-linux

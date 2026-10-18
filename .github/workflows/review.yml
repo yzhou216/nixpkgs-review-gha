@@ -75,6 +75,11 @@ on:
           - "gha"
           - "remote"
           - "both"
+      relay-after:
+        description: "Minutes after which an unfinished review hands its builds to a follow-up job (0 to disable)"
+        required: true
+        type: number
+        default: 300
       extra-args:
         description: "nixpkgs-review extra args"
         required: false
@@ -150,14 +155,21 @@ jobs:
           - system: ${{ inputs.x86_64-darwin == 'no' && 'x86_64-darwin' || '' }}
           - system: ${{ inputs.aarch64-darwin == 'no' && 'aarch64-darwin' || '' }}
           - system: ${{ !inputs.riscv64-linux && 'riscv64-linux' || '' }}
-    runs-on: >-
+    runs-on: &runs-on >-
       ${{ (matrix.system == 'x86_64-linux' && 'ubuntu-latest')
       || (matrix.system == 'aarch64-linux' && 'ubuntu-24.04-arm')
       || (matrix.system == 'x86_64-darwin' && 'macos-latest')
       || (matrix.system == 'aarch64-darwin' && 'macos-latest')
       || (matrix.system == 'riscv64-linux' && 'ubuntu-24.04-riscv') }}
+    env:
+      RELAY_LEG: 1
+      RELAY_LAST_LEG: false
 
-    steps:
+    steps: &review-steps
+      - name: record start time
+        id: start
+        run: echo "time=$(date +%s)" >> "$GITHUB_OUTPUT"
+
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
@@ -194,7 +206,16 @@ jobs:
           path: nixpkgs
           persist-credentials: false
 
+      - name: download builds from earlier legs
+        if: env.RELAY_LEG != '1'
+        uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
+        with:
+          pattern: relay_${{ matrix.system }}_*
+          path: relay-in
+          merge-multiple: true
+
       - run: nu review/review.nu
+        id: review
         env:
           GITHUB_TOKEN: ${{ github.token }}
           INPUTS: ${{ toJSON(github.event.inputs) }}
@@ -207,23 +228,98 @@ jobs:
           PR_JSON: ${{ needs.prepare.outputs.pr }}
           IDENTIFY_STILL_FAILING_PACKAGES: ${{ vars.IDENTIFY_STILL_FAILING_PACKAGES }}
           IDENTIFY_UNSUPPORTED_PACKAGES: ${{ vars.IDENTIFY_UNSUPPORTED_PACKAGES }}
+          JOB_STARTED_AT: ${{ steps.start.outputs.time }}
 
-      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+      - if: steps.review.outputs.relay != 'true'
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
           name: report_${{ matrix.system }}.json
           path: report_${{ matrix.system }}.json
           if-no-files-found: error
           archive: false
 
+      - name: upload builds for the next leg
+        if: steps.review.outputs.relay == 'true'
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: relay_${{ matrix.system }}_${{ env.RELAY_LEG }}
+          path: relay-out
+          if-no-files-found: error
+          retention-days: 1
+
       - name: start upterm session
-        if: ${{ inputs.upterm }}
+        if: ${{ inputs.upterm && steps.review.outputs.relay != 'true' }}
         uses: owenthereal/action-upterm@175d33786004a53b1538bcf157402b7197ce5029 # v2.6.0
         with:
           limit-access-to-actor: true
 
+  # Each handoff job lists the systems whose review handed off in the previous leg
+  handoff-1:
+    needs: [review]
+    if: ${{ !cancelled() && !failure() && inputs.relay-after > 0 }}
+    runs-on: ubuntu-latest
+    permissions:
+      actions: read
+    env:
+      RELAY_LEG: 1
+    outputs:
+      systems: ${{ steps.handoff.outputs.systems }}
+
+    steps: &handoff-steps
+      - name: find handed off reviews
+        id: handoff
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api "repos/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID/artifacts" --paginate --jq '.artifacts[].name' > artifacts
+          jq -Rnc --arg leg "$RELAY_LEG" '
+            [inputs] as $names
+            | [$names[] | capture("^relay_(?<system>.+)_\($leg)$").system]
+            | map(select(("report_\(.).json") as $report | $names | any(. == $report) | not))
+          ' artifacts | sed 's/^/systems=/' | tee -a "$GITHUB_OUTPUT"
+
+  review-2:
+    needs: [prepare, handoff-1]
+    if: ${{ !cancelled() && !failure() && needs.handoff-1.result == 'success' && needs.handoff-1.outputs.systems != '[]' }}
+    strategy:
+      fail-fast: false
+      matrix:
+        system: ${{ fromJSON(needs.handoff-1.outputs.systems) }}
+    runs-on: *runs-on
+    env:
+      RELAY_LEG: 2
+      RELAY_LAST_LEG: false
+    steps: *review-steps
+
+  handoff-2:
+    needs: [review-2]
+    if: ${{ !cancelled() && !failure() && needs.review-2.result == 'success' }}
+    runs-on: ubuntu-latest
+    permissions:
+      actions: read
+    env:
+      RELAY_LEG: 2
+    outputs:
+      systems: ${{ steps.handoff.outputs.systems }}
+    steps: *handoff-steps
+
+  review-3:
+    needs: [prepare, handoff-2]
+    if: ${{ !cancelled() && !failure() && needs.handoff-2.result == 'success' && needs.handoff-2.outputs.systems != '[]' }}
+    strategy:
+      fail-fast: false
+      matrix:
+        system: ${{ fromJSON(needs.handoff-2.outputs.systems) }}
+    runs-on: *runs-on
+    env:
+      RELAY_LEG: 3
+      RELAY_LAST_LEG: true
+    steps: *review-steps
+
   report:
     runs-on: ubuntu-latest
-    needs: [prepare, review]
+    needs: [prepare, review, review-2, review-3]
+    if: ${{ !cancelled() && !failure() }}
     permissions:
       id-token: write
 
@@ -240,6 +336,7 @@ jobs:
 
       - uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
         with:
+          pattern: report_*
           merge-multiple: true
 
       - run: nu review/report.nu

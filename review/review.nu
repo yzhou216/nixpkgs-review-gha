@@ -1,4 +1,5 @@
 use gha.nu *
+use relay.nu *
 
 let inputs = gha review-inputs
 let pushToAttic = $inputs.push-to-cache and $env.ATTIC_SERVER != '' and $env.ATTIC_CACHE != ''
@@ -10,35 +11,85 @@ let merge = $pr.merge_commit_sha
 let jobsArg = if $inputs.builders == "remote" { "-j0" } else { "" }
 let system = nix config show system
 let buildArgs = --build-args=($"-L ($jobsArg) ($inputs.extra-build-args)")
+let relayLeg = $env.RELAY_LEG | into int
+# The last leg has no successor, so it keeps the job's full time limit
+let relayDeadline = if $inputs.relay-after > 0 and $env.RELAY_LAST_LEG != "true" {
+  ($env.JOB_STARTED_AT | into int) + $inputs.relay-after * 60
+}
 
 if $inputs.allow-unfree { $env.NIXPKGS_ALLOW_UNFREE = 1 }
 if $inputs.allow-insecure { $env.NIXPKGS_ALLOW_INSECURE = 1 }
 
+let installSystem = match $system {
+  "x86_64-darwin" => "aarch64-darwin"
+  _ => $system
+}
+
 gha group "install packages" {
-  let system = match $system {
-    "x86_64-darwin" => "aarch64-darwin"
-    _ => $system
-  }
-  
   [ nixpkgs-review ]
   | if $pushToAttic { $in ++ [ attic-client ] } else { }
   | if $pushToCachix { $in ++ [ cachix ] } else { }
   | each { $".#($in)" }
-  | nix profile add --system $system ...$in --builders ''
+  | nix profile add --system $installSystem ...$in --builders ''
 }
+
+if ("relay-in" | path exists) {
+  gha group "import builds from earlier legs" {
+    try {
+      relay load ("relay-in" | path expand)
+    } catch {|err|
+      gha warning $"Could not import builds from earlier legs, rebuilding them instead: ($err.msg)"
+    }
+  }
+}
+
+let review = [
+  nixpkgs-review "--" pr ($inputs.pr | into string)
+  --no-shell
+  --no-exit-status
+  --no-headers
+  --print-result
+  $buildArgs
+  --pr-json=($env.PR_JSON)
+  ...$inputs.extra-args
+]
+
+# GNU timeout, which macOS does not ship
+let timeout = if $relayDeadline != null {
+  nix build --system $installSystem --no-link --print-out-paths .#coreutils
+  | lines
+  | first
+  | path join bin timeout
+}
+
+let reviewStartedAt = (date now | into int) // 1_000_000_000
 
 gha group $"run nixpkgs-review ($inputs.extra-args-raw) ($buildArgs)" {
   cd nixpkgs
-  nixpkgs-review -- pr $inputs.pr ...[
-    --no-shell
-    --no-exit-status
-    --no-headers
-    --print-result
-    $buildArgs
-    --pr-json=($env.PR_JSON)
-    ...$inputs.extra-args
-  ]
+  if $relayDeadline == null {
+    run-external ...$review
+    return 0
+  }
+
+  let remaining = [($relayDeadline - (date now | into int) // 1_000_000_000) 1] | math max
+  print $"handing off to leg ($relayLeg + 1) if nixpkgs-review is still running in ($remaining)s"
+  try {
+    run-external $timeout "--signal=INT" "--kill-after=5m" $"($remaining)s" ...$review
+    0
+  } catch {|err|
+    $err.exit_code? | default 1
+  }
+} | let reviewExitCode
+
+# timeout exits with 124, or 137 if nixpkgs-review ignored the interrupt
+if $reviewExitCode in [124 137] {
+  gha group $"hand off to leg ($relayLeg + 1)" {
+    relay save ("relay-out" | path expand) $relayLeg $reviewStartedAt
+  }
+  "true" | gha output relay
+  exit
 }
+if $reviewExitCode != 0 { exit $reviewExitCode }
 
 let reviewDir = $"~/.cache/nixpkgs-review/pr-($inputs.pr)" | path expand
 let reportJson = $"($reviewDir)/report.json"

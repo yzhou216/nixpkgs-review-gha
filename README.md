@@ -12,6 +12,7 @@ Run [nixpkgs-review](https://github.com/Mic92/nixpkgs-review) in GitHub Actions
 - After a successful review, automatically mark the PR as ready for review, approve it, or merge it (directly or via the [nixpkgs-merge-bot](https://github.com/NixOS/nixpkgs-merge-bot))
 - Optionally use [Nix remote builders](https://nix.dev/manual/nix/latest/advanced-topics/distributed-builds) (either in addition to or instead of the local GitHub Actions runner).
 - Add a "Run nixpkgs-review" shortcut to pull request pages in nixpkgs
+- Hand unfinished reviews over to follow-up jobs before the 6 hour job limit of GitHub Actions
 
 ## Setup
 1. [Fork](https://github.com/Defelo/nixpkgs-review-gha/fork) this repository.
@@ -110,6 +111,16 @@ The userscript assumes that you forked this repository to your personal account 
 2. Click on "Run workflow"
 3. Enter the number of the pull request in nixpkgs you would like to review and click on "Run workflow"
 4. Reload the page if necessary and click on the review run to see the logs
+
+### Long Reviews
+GitHub-hosted runners stop a job after 6 hours.
+If `nixpkgs-review` is still running `relay-after` minutes (300 by default) after the review job started, the job exports every store path it built itself and uploads it as an artifact.
+A follow-up job imports those paths and runs `nixpkgs-review` again, so builds that already finished are not repeated.
+A review can be handed off twice, so it gets up to three jobs per system, and the last job keeps the full 6 hours.
+Set `relay-after` to `0` to disable hand-offs.
+
+A build that is still running at the hand-off starts over in the next job, so a single build that takes longer than `relay-after` minutes cannot finish.
+Builds that failed are retried by the next job.
 
 ## Experimental Features
 
