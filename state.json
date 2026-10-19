@@ -1,0 +1,467 @@
+{
+ "records": {
+  "575572": {
+   "run_id": 39247396412,
+   "status": "dispatched",
+   "time": "2026-10-19T11:49:12+00:00",
+   "title": "signalbackup-tools: 20261001 -> 20261014"
+  },
+  "575573": {
+   "run_id": 39247185984,
+   "status": "dispatched",
+   "time": "2026-10-19T11:47:26+00:00",
+   "title": "vscode-extensions.discloud.discloud: 2.29.14 -> 2.30.0"
+  },
+  "575574": {
+   "reason": "not open",
+   "status": "skipped",
+   "tries": 0
+  },
+  "575579": {
+   "reason": "mergeable=False",
+   "status": "skipped",
+   "tries": 0
+  },
+  "575583": {
+   "run_id": 39246952294,
+   "status": "dispatched",
+   "time": "2026-10-19T11:45:31+00:00",
+   "title": "python3Packages.glyphslib: 6.15.0 -> 6.16.1"
+  },
+  "575587": {
+   "run_id": 39246735538,
+   "status": "dispatched",
+   "time": "2026-10-19T11:43:49+00:00",
+   "title": "capacities: 1.71.19 -> 1.71.32"
+  },
+  "575589": {
+   "run_id": 39246439879,
+   "status": "dispatched",
+   "time": "2026-10-19T11:41:19+00:00",
+   "title": "python3Packages.bgutil-ytdlp-pot-provider: 2.0.0 -> 2.0.2"
+  },
+  "575612": {
+   "reason": "not open",
+   "status": "skipped",
+   "tries": 0
+  },
+  "575614": {
+   "run_id": 39246172602,
+   "status": "dispatched",
+   "time": "2026-10-19T11:39:08+00:00",
+   "title": "lxgw-wenkai-screen: 1.522 -> 1.530"
+  },
+  "575617": {
+   "run_id": 39245965171,
+   "status": "dispatched",
+   "time": "2026-10-19T11:37:22+00:00",
+   "title": "picgo: 3.0.2 -> 3.0.3"
+  },
+  "575626": {
+   "run_id": 39245756556,
+   "status": "dispatched",
+   "time": "2026-10-19T11:35:39+00:00",
+   "title": "gh-poi: 0.18.4 -> 0.18.5"
+  },
+  "575627": {
+   "run_id": 39245538417,
+   "status": "dispatched",
+   "time": "2026-10-19T11:33:53+00:00",
+   "title": "libretro.genesis-plus-gx: 0-unstable-2026-10-02 -> 0-unstable-2026-10-16"
+  },
+  "575632": {
+   "run_id": 39245329918,
+   "status": "dispatched",
+   "time": "2026-10-19T11:32:08+00:00",
+   "title": "libretro.vecx: 0-unstable-2026-04-11 -> 0-unstable-2026-10-16"
+  },
+  "575635": {
+   "run_id": 39245115352,
+   "status": "dispatched",
+   "time": "2026-10-19T11:30:23+00:00",
+   "title": "stevenblack-blocklist: 3.16.119 -> 3.16.121"
+  },
+  "575641": {
+   "run_id": 39244859009,
+   "status": "dispatched",
+   "time": "2026-10-19T11:28:17+00:00",
+   "title": "mdwatch: 0.2.8 -> 0.2.9"
+  },
+  "575645": {
+   "run_id": 39244657050,
+   "status": "dispatched",
+   "time": "2026-10-19T11:26:33+00:00",
+   "title": "grafanaPlugins.grafana-exploretraces-app: 2.2.1 -> 3.0.0"
+  },
+  "575649": {
+   "run_id": 39244447158,
+   "status": "dispatched",
+   "time": "2026-10-19T11:24:49+00:00",
+   "title": "elmPackages.elm-watch: 1.2.8 -> 1.2.9"
+  },
+  "575650": {
+   "run_id": 39244236806,
+   "status": "dispatched",
+   "time": "2026-10-19T11:23:04+00:00",
+   "title": "dysk: 3.7.1 -> 3.8.1"
+  },
+  "575665": {
+   "run_id": 39244033955,
+   "status": "dispatched",
+   "time": "2026-10-19T11:21:22+00:00",
+   "title": "stylua: 2.5.2 -> 2.6.0"
+  },
+  "575670": {
+   "run_id": 39243829063,
+   "status": "dispatched",
+   "time": "2026-10-19T11:19:39+00:00",
+   "title": "aptakube: 1.21.2 -> 1.21.4"
+  },
+  "575685": {
+   "run_id": 39243625372,
+   "status": "dispatched",
+   "time": "2026-10-19T11:17:55+00:00",
+   "title": "bootdev-cli: 1.32.5 -> 1.32.6"
+  },
+  "575687": {
+   "run_id": 39243416947,
+   "status": "dispatched",
+   "time": "2026-10-19T11:16:11+00:00",
+   "title": "framework-control: 0.5.4 -> 0.5.6"
+  },
+  "575688": {
+   "run_id": 39243199052,
+   "status": "dispatched",
+   "time": "2026-10-19T11:14:26+00:00",
+   "title": "material-symbols: 4.0.0-unstable-2026-10-02 -> 4.0.0-unstable-2026-10-09"
+  },
+  "575695": {
+   "run_id": 39242985366,
+   "status": "dispatched",
+   "time": "2026-10-19T11:12:42+00:00",
+   "title": "grafanaPlugins.grafana-googlesheets-datasource: 2.7.0 -> 2.7.1"
+  },
+  "575711": {
+   "run_id": 39242774675,
+   "status": "dispatched",
+   "time": "2026-10-19T11:10:58+00:00",
+   "title": "surface-control: 0.5.0-1 -> 0.5.1-1"
+  },
+  "575718": {
+   "run_id": 39242561398,
+   "status": "dispatched",
+   "time": "2026-10-19T11:09:14+00:00",
+   "title": "vscode-extensions.streetsidesoftware.code-spell-checker: 4.9.3 -> 4.10.0"
+  },
+  "575721": {
+   "run_id": 39242157757,
+   "status": "dispatched",
+   "time": "2026-10-19T11:05:58+00:00",
+   "title": "plantuml-server: 1.2026.8 -> 1.2026.9"
+  },
+  "575725": {
+   "run_id": 39241942807,
+   "status": "dispatched",
+   "time": "2026-10-19T11:04:12+00:00",
+   "title": "lichess-bot: 2026.8.9.2 -> 2026.10.11.1"
+  },
+  "575726": {
+   "run_id": 39241737252,
+   "status": "dispatched",
+   "time": "2026-10-19T11:02:28+00:00",
+   "title": "buck2: 2026-10-01 -> 2026-10-15"
+  },
+  "575729": {
+   "run_id": 39241531504,
+   "status": "dispatched",
+   "time": "2026-10-19T11:00:45+00:00",
+   "title": "nng: 1.12.4 -> 2.0.0"
+  },
+  "575731": {
+   "run_id": 39241328686,
+   "status": "dispatched",
+   "time": "2026-10-19T10:59:02+00:00",
+   "title": "ctx7: 0.5.14 -> 0.8.0"
+  },
+  "575739": {
+   "run_id": 39241134901,
+   "status": "dispatched",
+   "time": "2026-10-19T10:57:19+00:00",
+   "title": "kddockwidgets: 2.4.1 -> 2.5.0"
+  },
+  "575741": {
+   "run_id": 39240931165,
+   "status": "dispatched",
+   "time": "2026-10-19T10:55:34+00:00",
+   "title": "gbsplay: 0.0.102 -> 0.0.103"
+  },
+  "575742": {
+   "run_id": 39240720170,
+   "status": "dispatched",
+   "time": "2026-10-19T10:53:50+00:00",
+   "title": "gitea: 28.1.0 -> 28.2.0"
+  },
+  "575753": {
+   "reason": "not open",
+   "status": "skipped",
+   "tries": 0
+  },
+  "575755": {
+   "run_id": 39240502007,
+   "status": "dispatched",
+   "time": "2026-10-19T10:52:01+00:00",
+   "title": "vscode-extensions.vscjava.vscode-java-pack: 0.31.1 -> 0.31.2"
+  },
+  "575758": {
+   "run_id": 39240290486,
+   "status": "dispatched",
+   "time": "2026-10-19T10:50:14+00:00",
+   "title": "komga: 1.28.1 -> 1.29.1"
+  },
+  "575761": {
+   "run_id": 39240088597,
+   "status": "dispatched",
+   "time": "2026-10-19T10:48:31+00:00",
+   "title": "sticky: 1.32 -> 1.33"
+  },
+  "575762": {
+   "run_id": 39239886909,
+   "status": "dispatched",
+   "time": "2026-10-19T10:46:48+00:00",
+   "title": "rapidraw: 1.6.5 -> 1.6.6"
+  },
+  "575770": {
+   "run_id": 39239672349,
+   "status": "dispatched",
+   "time": "2026-10-19T10:45:04+00:00",
+   "title": "home-assistant-custom-components.homematicip_local: 2.12.0 -> 2.12.1"
+  },
+  "575777": {
+   "run_id": 39239468618,
+   "status": "dispatched",
+   "time": "2026-10-19T10:43:21+00:00",
+   "title": "torrserver: 145.2 -> 147"
+  },
+  "575785": {
+   "run_id": 39239266429,
+   "status": "dispatched",
+   "time": "2026-10-19T10:41:38+00:00",
+   "title": "python3Packages.reactivex: 5.1.0 -> 6.0.0"
+  },
+  "575787": {
+   "run_id": 39239062359,
+   "status": "dispatched",
+   "time": "2026-10-19T10:39:55+00:00",
+   "title": "vscode-extensions.visualjj.visualjj: 0.35.4 -> 0.36.1"
+  },
+  "575794": {
+   "run_id": 39238860948,
+   "status": "dispatched",
+   "time": "2026-10-19T10:38:11+00:00",
+   "title": "karakeep: 0.33.2 -> 0.34.0"
+  },
+  "575796": {
+   "run_id": 39238659569,
+   "status": "dispatched",
+   "time": "2026-10-19T10:36:28+00:00",
+   "title": "cocoon: 0.13 -> 0.13.2"
+  },
+  "575797": {
+   "run_id": 39238448992,
+   "status": "dispatched",
+   "time": "2026-10-19T10:34:43+00:00",
+   "title": "zennotes-desktop: 2.70.0 -> 2.71.0"
+  },
+  "575798": {
+   "run_id": 39238247409,
+   "status": "dispatched",
+   "time": "2026-10-19T10:33:01+00:00",
+   "title": "llama-swap: 262 -> 265"
+  },
+  "575799": {
+   "run_id": 39237996050,
+   "status": "dispatched",
+   "time": "2026-10-19T10:30:52+00:00",
+   "title": "ocamlPackages.dockerfile: 8.4.4 -> 8.4.5"
+  },
+  "575802": {
+   "run_id": 39237784446,
+   "status": "dispatched",
+   "time": "2026-10-19T10:29:08+00:00",
+   "title": "python3Packages.tank-utility: 1.5.1 -> 1.5.3"
+  },
+  "575804": {
+   "run_id": 39237488926,
+   "status": "dispatched",
+   "time": "2026-10-19T10:26:35+00:00",
+   "title": "goperf: 0-unstable-2026-09-08 -> 0-unstable-2026-10-09"
+  },
+  "575805": {
+   "run_id": 39237280534,
+   "status": "dispatched",
+   "time": "2026-10-19T10:24:50+00:00",
+   "title": "pgschema: 1.13.1 -> 1.13.3"
+  },
+  "575807": {
+   "run_id": 39236752672,
+   "status": "dispatched",
+   "time": "2026-10-19T10:20:26+00:00",
+   "title": "vscode-extensions.streetsidesoftware.code-spell-checker-german: 2.3.4 -> 3.0.0"
+  },
+  "575810": {
+   "run_id": 39235695421,
+   "status": "dispatched",
+   "time": "2026-10-19T10:11:49+00:00",
+   "title": "python3Packages.jc: 1.26.0 -> 1.26.1"
+  },
+  "575811": {
+   "run_id": 39235189399,
+   "status": "dispatched",
+   "time": "2026-10-19T10:07:45+00:00",
+   "title": "cargo-modules: 0.27.0 -> 0.28.0"
+  },
+  "575814": {
+   "run_id": 39234974156,
+   "status": "dispatched",
+   "time": "2026-10-19T10:06:02+00:00",
+   "title": "dua: 2.45.1 -> 2.46.0"
+  },
+  "575816": {
+   "run_id": 39234617280,
+   "status": "dispatched",
+   "time": "2026-10-19T10:03:08+00:00",
+   "title": "ast-grep: 0.50.0 -> 0.51.0"
+  },
+  "575822": {
+   "run_id": 39234403986,
+   "status": "dispatched",
+   "time": "2026-10-19T10:01:23+00:00",
+   "title": "makejinja: 2.8.2 -> 2.9.1"
+  },
+  "575825": {
+   "run_id": 39233951184,
+   "status": "dispatched",
+   "time": "2026-10-19T09:57:45+00:00",
+   "title": "oras: 1.3.4 -> 1.3.5"
+  },
+  "575827": {
+   "run_id": 39233744350,
+   "status": "dispatched",
+   "time": "2026-10-19T09:56:02+00:00",
+   "title": "python3Packages.pytest-docker: 3.2.5 -> 3.2.6"
+  },
+  "575828": {
+   "run_id": 39233524946,
+   "status": "dispatched",
+   "time": "2026-10-19T09:54:17+00:00",
+   "title": "vscode-extensions.charliermarsh.ruff: 2026.84.0 -> 2026.88.0"
+  },
+  "575829": {
+   "run_id": 39233310743,
+   "status": "dispatched",
+   "time": "2026-10-19T09:52:32+00:00",
+   "title": "skim: 5.7.3 -> 5.7.4"
+  },
+  "575833": {
+   "run_id": 39233148885,
+   "status": "dispatched",
+   "time": "2026-10-19T09:51:13+00:00",
+   "title": "libretro.swanstation: 0-unstable-2026-10-08 -> 0-unstable-2026-10-15"
+  },
+  "575834": {
+   "run_id": 39232931131,
+   "status": "dispatched",
+   "time": "2026-10-19T09:49:26+00:00",
+   "title": "python3Packages.rjsmin: 1.2.5 -> 1.3.0"
+  },
+  "575836": {
+   "run_id": 39232387928,
+   "status": "dispatched",
+   "time": "2026-10-19T09:44:59+00:00",
+   "title": "tuios: 0.10.0 -> 0.10.1"
+  },
+  "575837": {
+   "run_id": 39232175601,
+   "status": "dispatched",
+   "time": "2026-10-19T09:43:15+00:00",
+   "title": "zathuraPkgs.zathura_core: 2026.07.18 -> 2026.10.4"
+  },
+  "575838": {
+   "run_id": 39231717566,
+   "status": "dispatched",
+   "time": "2026-10-19T09:39:35+00:00",
+   "title": "grafanaPlugins.grafana-metricsdrilldown-app: 2.5.1 -> 3.0.0"
+  },
+  "575841": {
+   "run_id": 39231507789,
+   "status": "dispatched",
+   "time": "2026-10-19T09:37:52+00:00",
+   "title": "vscode-extensions.tuttieee.emacs-mcx: 0.111.3 -> 0.111.5"
+  },
+  "575842": {
+   "run_id": 39231297937,
+   "status": "dispatched",
+   "time": "2026-10-19T09:36:10+00:00",
+   "title": "gurk-rs: 0.10.1 -> 0.10.2"
+  },
+  "575844": {
+   "run_id": 39231082663,
+   "status": "dispatched",
+   "time": "2026-10-19T09:34:27+00:00",
+   "title": "exegol: 6.0.1 -> 6.0.2"
+  },
+  "575845": {
+   "run_id": 39230863822,
+   "status": "dispatched",
+   "time": "2026-10-19T09:32:40+00:00",
+   "title": "python3Packages.teslajsonpy: 3.13.2 -> 3.14.1"
+  },
+  "575848": {
+   "run_id": 39230645570,
+   "status": "dispatched",
+   "time": "2026-10-19T09:30:58+00:00",
+   "title": "wayland-bongocat: 2.0.2 -> 2.1.0"
+  },
+  "575850": {
+   "run_id": 39230414108,
+   "status": "dispatched",
+   "time": "2026-10-19T09:29:11+00:00",
+   "title": "python3Packages.meep: 1.34.0 -> 1.35.0"
+  },
+  "575853": {
+   "run_id": 39230198392,
+   "status": "dispatched",
+   "time": "2026-10-19T09:27:27+00:00",
+   "title": "nco: 5.4.0 -> 5.4.1"
+  },
+  "575857": {
+   "run_id": 39230038668,
+   "status": "dispatched",
+   "time": "2026-10-19T09:26:10+00:00",
+   "title": "xeve: 0.7.0 -> 0.7.1"
+  },
+  "575858": {
+   "reason": "has nixpkgs-review-gha comment",
+   "status": "skipped",
+   "tries": 0
+  },
+  "575871": {
+   "run_id": 39229608217,
+   "status": "dispatched",
+   "time": "2026-10-19T09:22:46+00:00",
+   "title": "autotiling-rs: 0.2.0 -> 0.2.1"
+  },
+  "575876": {
+   "run_id": 39229400147,
+   "status": "dispatched",
+   "time": "2026-10-19T09:21:06+00:00",
+   "title": "durdraw: 0.30.1 -> 0.31.0"
+  },
+  "575880": {
+   "run_id": 39228261361,
+   "status": "dispatched",
+   "time": "2026-10-19T09:12:08+00:00",
+   "title": "gelly: 1.14.0 -> 1.16.3"
+  }
+ }
+}
