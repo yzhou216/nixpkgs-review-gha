@@ -36,8 +36,9 @@ TIME_BUDGET = int(os.environ.get("TIME_BUDGET") or 19200)
 MAX_INFLIGHT = 8
 MAX_TOTAL_INFLIGHT = 12
 MIN_INTERVAL = 75
-MIN_RATE_REMAINING = 300
-MAX_TRIES = 3
+MIN_RATE_REMAINING = 1000
+MAX_TRIES = 5
+RETRY_POSITION = 15
 COMMIT_INTERVAL = 1800
 ENABLED_CHECK_INTERVAL = 120
 ACTIVE = {"queued", "in_progress", "waiting", "pending", "requested"}
@@ -288,15 +289,15 @@ def commit_state(state_path):
     def git(*args):
         return subprocess.run(["git", "-C", repo_dir, *args], capture_output=True, text=True)
 
+    git("config", "user.name", "github-actions[bot]")
+    git("config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com")
     git("add", os.path.basename(state_path))
     if git("diff", "--cached", "--quiet").returncode == 0:
         return
-    git(
-        "-c", "user.name=github-actions[bot]",
-        "-c", "user.email=41898282+github-actions[bot]@users.noreply.github.com",
-        "commit", "-q", "-m", "batch-review: update state",
-    )
+    git("commit", "-q", "-m", "batch-review: update state")
+    # Rebase onto commits pushed meanwhile, such as dispatcher updates
     url = f"https://x-access-token:{os.environ['GH_TOKEN']}@github.com/{REPO}.git"
+    git("pull", "-q", "--rebase", url, "batch-review")
     p = git("push", "-q", url, "HEAD:batch-review")
     log("committed state" if p.returncode == 0 else f"state push failed: {p.stderr.strip()[:200]}")
 
@@ -346,6 +347,8 @@ def main():
         if not DRY_RUN and now - committed > COMMIT_INTERVAL:
             committed = now
             commit_state(state_path)
+            remaining, limit = rate()
+            log(f"dispatched {dispatched} so far, {len(queue)} left in queue, rate limit {remaining}/{limit}")
         # Reuse the run list briefly so that consecutive skips stay cheap
         if now - fetched > 20:
             runs = fork_runs()
@@ -387,6 +390,9 @@ def main():
             records[str(n)] = {"status": status, "reason": reason, "title": title, "tries": tries}
             log(f"#{n} {status}: {reason} ({title})")
             save()
+            # Give GitHub time to finish computing mergeability before trying again
+            if status == "retry" and tries < MAX_TRIES:
+                queue.insert(min(len(queue), RETRY_POSITION), cand)
             continue
         if DRY_RUN:
             log(f"#{n} would dispatch: {title}")
