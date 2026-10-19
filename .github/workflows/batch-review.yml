@@ -15,7 +15,8 @@ on:
         type: boolean
         default: false
   schedule:
-    - cron: "*/15 * * * *"
+    # Fallback only, since each run starts the next one
+    - cron: "17 * * * *"
 
 concurrency:
   group: batch-review
@@ -24,7 +25,7 @@ concurrency:
 jobs:
   dispatch:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 345
     permissions:
       actions: write
       contents: write
