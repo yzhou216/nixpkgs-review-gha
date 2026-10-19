@@ -1,17 +1,22 @@
-"""Scheduled nixpkgs-review-gha batch dispatcher.
+"""Self-chaining nixpkgs-review-gha batch dispatcher.
 
 Each run of the batch-review workflow calls this script.  It dispatches
 review.yml for the next candidate pull requests, newest first, and keeps the
 number of in-flight review runs under a cap.  Every pull request is checked
 again just before its review is dispatched, and the outcome of that check is
-recorded in the state file so that later runs skip it.  Once every candidate
-has been handled and no batch review is still running, the script disables
-the batch-review workflow.
+recorded in the state file so that later runs skip it.
+
+A run lasts up to TIME_BUDGET seconds, commits the state file every
+COMMIT_INTERVAL seconds, and then dispatches the next batch-review run, so
+the batch does not depend on GitHub's unreliable cron schedule.  Disabling
+the batch-review workflow stops the current run within a few minutes and
+ends the chain.  Once every candidate has been handled and no batch review
+is still running, the script disables the workflow itself.
 
 Usage: dispatch.py CANDIDATES_JSON STATE_JSON
 
 Environment: GH_TOKEN, REPO, OWNER, and optionally LIMIT, DRY_RUN and
-TIME_BUDGET (seconds).
+TIME_BUDGET (seconds).  Runs with a LIMIT or DRY_RUN do not chain.
 """
 
 import datetime
@@ -26,13 +31,15 @@ REPO = os.environ["REPO"]
 OWNER = os.environ["OWNER"]
 LIMIT = int(os.environ["LIMIT"]) if os.environ.get("LIMIT") else None
 DRY_RUN = os.environ.get("DRY_RUN") == "true"
-TIME_BUDGET = int(os.environ.get("TIME_BUDGET") or 750)
+TIME_BUDGET = int(os.environ.get("TIME_BUDGET") or 19200)
 
 MAX_INFLIGHT = 8
 MAX_TOTAL_INFLIGHT = 12
 MIN_INTERVAL = 75
 MIN_RATE_REMAINING = 300
 MAX_TRIES = 3
+COMMIT_INTERVAL = 1800
+ENABLED_CHECK_INTERVAL = 120
 ACTIVE = {"queued", "in_progress", "waiting", "pending", "requested"}
 SMALL = {"1", "1-10", "11-100"}
 INPUTS = {
@@ -270,6 +277,30 @@ def rate():
     return core["remaining"], core["limit"]
 
 
+def workflow_enabled():
+    return api(f"repos/{REPO}/actions/workflows/batch-review.yml")["state"] == "active"
+
+
+def commit_state(state_path):
+    """Commit the state file and push it to the batch-review branch."""
+    repo_dir = os.path.dirname(os.path.abspath(state_path))
+
+    def git(*args):
+        return subprocess.run(["git", "-C", repo_dir, *args], capture_output=True, text=True)
+
+    git("add", os.path.basename(state_path))
+    if git("diff", "--cached", "--quiet").returncode == 0:
+        return
+    git(
+        "-c", "user.name=github-actions[bot]",
+        "-c", "user.email=41898282+github-actions[bot]@users.noreply.github.com",
+        "commit", "-q", "-m", "batch-review: update state",
+    )
+    url = f"https://x-access-token:{os.environ['GH_TOKEN']}@github.com/{REPO}.git"
+    p = git("push", "-q", url, "HEAD:batch-review")
+    log("committed state" if p.returncode == 0 else f"state push failed: {p.stderr.strip()[:200]}")
+
+
 def main():
     start = time.time()
     candidates = json.load(open(sys.argv[1]))
@@ -300,21 +331,38 @@ def main():
     dispatched = 0
     last = 0.0
     fetched = 0.0
+    checked = committed = start
+    chain = LIMIT is None and not DRY_RUN
     while True:
+        now = time.time()
+        if now - start > TIME_BUDGET or LIMIT is not None and dispatched >= LIMIT:
+            break
+        if now - checked > ENABLED_CHECK_INTERVAL:
+            checked = now
+            if not workflow_enabled():
+                log("batch-review is disabled, stopping without starting another run")
+                chain = False
+                break
+        if not DRY_RUN and now - committed > COMMIT_INTERVAL:
+            committed = now
+            commit_state(state_path)
         # Reuse the run list briefly so that consecutive skips stay cheap
-        if time.time() - fetched > 20:
+        if now - fetched > 20:
             runs = fork_runs()
-            fetched = time.time()
+            fetched = now
         seen |= {pr_of(r) for r in runs} - {None}
         active = [r for r in runs if r["status"] in ACTIVE]
         mine = sum(pr_of(r) in numbers for r in active)
         if not queue:
-            if mine == 0 and not DRY_RUN:
-                log("all candidates handled and no batch review in flight, disabling batch-review")
-                gh(["workflow", "disable", "batch-review.yml", "-R", REPO])
-            break
-        if LIMIT is not None and dispatched >= LIMIT or time.time() - start > TIME_BUDGET:
-            break
+            if mine == 0:
+                if not DRY_RUN:
+                    log("all candidates handled and no batch review in flight, disabling batch-review")
+                    gh(["workflow", "disable", "batch-review.yml", "-R", REPO])
+                chain = False
+                break
+            time.sleep(60)
+            fetched = 0.0
+            continue
         remaining, _ = rate()
         if mine >= MAX_INFLIGHT or len(active) >= MAX_TOTAL_INFLIGHT or remaining < MIN_RATE_REMAINING:
             time.sleep(30)
@@ -360,6 +408,9 @@ def main():
 
     remaining, limit = rate()
     log(f"dispatched {dispatched}, {len(queue)} left in queue, rate limit {remaining}/{limit}")
+    if chain:
+        log("starting the next batch-review run")
+        gh(["workflow", "run", "batch-review.yml", "-R", REPO, "--ref", "main"])
 
 
 if __name__ == "__main__":
