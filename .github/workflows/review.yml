@@ -14,6 +14,9 @@ run-name: >-
 
 permissions: {}
 
+env:
+  VM_DIR: /nix/nrgha-vm
+
 on:
   workflow_dispatch:
     inputs:
@@ -80,6 +83,11 @@ on:
         required: true
         type: number
         default: 300
+      vm:
+        description: "Run the x86_64-linux review in a VM that moves to the next leg at hand-offs, so that running builds continue"
+        required: true
+        type: boolean
+        default: false
       extra-args:
         description: "nixpkgs-review extra args"
         required: false
@@ -200,6 +208,7 @@ jobs:
           ssh-cert: ${{ inputs.builders != 'gha' && secrets.SSH_CERT || '' }}
 
       - name: clone nixpkgs
+        if: ${{ !(inputs.vm && matrix.system == 'x86_64-linux') }}
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           repository: NixOS/nixpkgs
@@ -207,15 +216,40 @@ jobs:
           persist-credentials: false
 
       - name: download builds from earlier legs
-        if: env.RELAY_LEG != '1'
+        if: ${{ env.RELAY_LEG != '1' && !(inputs.vm && matrix.system == 'x86_64-linux') }}
         uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
         with:
           pattern: relay_${{ matrix.system }}_*
           path: relay-in
           merge-multiple: true
 
+      - name: create the VM directory
+        if: ${{ inputs.vm && matrix.system == 'x86_64-linux' }}
+        run: sudo mkdir -p "$VM_DIR/in" && sudo chown -R "$USER" "$VM_DIR"
+
+      - name: download the VM from the previous leg
+        if: ${{ env.RELAY_LEG != '1' && inputs.vm && matrix.system == 'x86_64-linux' }}
+        uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
+        with:
+          name: vm_${{ matrix.system }}_${{ env.RELAY_PREV_LEG }}
+          path: ${{ env.VM_DIR }}/in
+
+      - name: run the review in a VM
+        id: vm
+        if: ${{ inputs.vm && matrix.system == 'x86_64-linux' }}
+        run: nix run .#python3 -- review/vm/host.py
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          INPUTS: ${{ toJSON(github.event.inputs) }}
+          PR_JSON: ${{ needs.prepare.outputs.pr }}
+          IDENTIFY_STILL_FAILING_PACKAGES: ${{ vars.IDENTIFY_STILL_FAILING_PACKAGES }}
+          IDENTIFY_UNSUPPORTED_PACKAGES: ${{ vars.IDENTIFY_UNSUPPORTED_PACKAGES }}
+          EXTRA_NIX_CONFIG: ${{ vars.EXTRA_NIX_CONFIG }}
+          JOB_STARTED_AT: ${{ steps.start.outputs.time }}
+
       - run: nu review/review.nu
         id: review
+        if: ${{ !(inputs.vm && matrix.system == 'x86_64-linux') }}
         env:
           GITHUB_TOKEN: ${{ github.token }}
           INPUTS: ${{ toJSON(github.event.inputs) }}
@@ -230,7 +264,7 @@ jobs:
           IDENTIFY_UNSUPPORTED_PACKAGES: ${{ vars.IDENTIFY_UNSUPPORTED_PACKAGES }}
           JOB_STARTED_AT: ${{ steps.start.outputs.time }}
 
-      - if: steps.review.outputs.relay != 'true'
+      - if: steps.review.outputs.relay != 'true' && steps.vm.outputs.relay != 'true'
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
           name: report_${{ matrix.system }}.json
@@ -247,8 +281,18 @@ jobs:
           if-no-files-found: error
           retention-days: 1
 
+      - name: upload the VM for the next leg
+        if: steps.vm.outputs.relay == 'true'
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: vm_${{ matrix.system }}_${{ env.RELAY_LEG }}
+          path: ${{ env.VM_DIR }}/out
+          if-no-files-found: error
+          retention-days: 1
+          compression-level: 0
+
       - name: start upterm session
-        if: ${{ inputs.upterm && steps.review.outputs.relay != 'true' }}
+        if: ${{ inputs.upterm && steps.review.outputs.relay != 'true' && steps.vm.outputs.relay != 'true' }}
         uses: owenthereal/action-upterm@175d33786004a53b1538bcf157402b7197ce5029 # v2.6.0
         with:
           limit-access-to-actor: true
@@ -274,7 +318,7 @@ jobs:
           gh api "repos/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID/artifacts" --paginate --jq '.artifacts[].name' > artifacts
           jq -Rnc --arg leg "$RELAY_LEG" '
             [inputs] as $names
-            | [$names[] | capture("^relay_(?<system>.+)_\($leg)$").system]
+            | [$names[] | capture("^(relay|vm)_(?<system>.+)_\($leg)$").system]
             | map(select(("report_\(.).json") as $report | $names | any(. == $report) | not))
           ' artifacts | sed 's/^/systems=/' | tee -a "$GITHUB_OUTPUT"
 
@@ -288,6 +332,7 @@ jobs:
     runs-on: *runs-on
     env:
       RELAY_LEG: 2
+      RELAY_PREV_LEG: 1
       RELAY_LAST_LEG: false
     steps: *review-steps
 
@@ -313,6 +358,7 @@ jobs:
     runs-on: *runs-on
     env:
       RELAY_LEG: 3
+      RELAY_PREV_LEG: 2
       RELAY_LAST_LEG: true
     steps: *review-steps
 

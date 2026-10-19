@@ -34,6 +34,24 @@
     ];
   };
 
+  formatter.ruff = {
+    command = lib.getExe pkgs.ruff;
+    includes = [ "*.py" ];
+    options = [
+      "format"
+      "--line-length=120"
+    ];
+  };
+
+  formatter.shfmt = {
+    command = lib.getExe pkgs.shfmt;
+    includes = [ "*.sh" ];
+    options = [
+      "--write"
+      "--indent=2"
+    ];
+  };
+
   formatter.rustfmt = {
     command = lib.getExe pkgs.rustfmt;
     includes = [ "*.rs" ];

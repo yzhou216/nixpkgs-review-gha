@@ -122,6 +122,14 @@ Set `relay-after` to `0` to disable hand-offs.
 A build that is still running at the hand-off starts over in the next job, so a single build that takes longer than `relay-after` minutes cannot finish.
 Builds that failed are retried by the next job.
 
+#### VM Mode (experimental)
+With `vm` enabled, the `x86_64-linux` review runs inside a QEMU VM on the runner instead.
+At a hand-off, the VM is paused, and its memory and disk are uploaded as an artifact, so the next job resumes the VM where it stopped.
+Builds that are running at the hand-off simply continue, so a single build can take longer than one job, up to the three jobs that a review gets.
+
+Hand-offs in VM mode are larger, because the VM's disk holds everything that the review downloaded and built, and they take a few minutes each.
+The uploaded VM state contains the job's `GITHUB_TOKEN`, which has no permissions in the review job, so VM mode does not support remote builders or pushing to a cache, which would need secrets inside the VM.
+
 ## Experimental Features
 
 ### Identify still failing packages
