@@ -8,7 +8,9 @@ recorded in the state file so that later runs skip it.
 
 A run lasts up to TIME_BUDGET seconds, commits the state file every
 COMMIT_INTERVAL seconds, and then dispatches the next batch-review run, so
-the batch does not depend on GitHub's unreliable cron schedule.  Disabling
+the batch does not depend on GitHub's unreliable cron schedule.  It also
+starts the next run after a crash, unless the crash came within ten minutes
+of starting, which would otherwise repeat in a tight loop.  Disabling
 the batch-review workflow stops the current run within a few minutes and
 ends the chain.  Once every candidate has been handled and no batch review
 is still running, the script disables the workflow itself.
@@ -302,8 +304,11 @@ def commit_state(state_path):
     log("committed state" if p.returncode == 0 else f"state push failed: {p.stderr.strip()[:200]}")
 
 
-def main():
-    start = time.time()
+def run(start):
+    """Dispatch reviews until the time budget is used up.
+
+    Return whether another batch-review run should follow this one.
+    """
     candidates = json.load(open(sys.argv[1]))
     state_path = sys.argv[2]
     state = json.load(open(state_path))
@@ -414,9 +419,26 @@ def main():
 
     remaining, limit = rate()
     log(f"dispatched {dispatched}, {len(queue)} left in queue, rate limit {remaining}/{limit}")
+    return chain
+
+
+def start_next_run():
+    gh(["workflow", "run", "batch-review.yml", "-R", REPO, "--ref", "main"])
+
+
+def main():
+    start = time.time()
+    try:
+        chain = run(start)
+    except Exception:
+        # Keep the batch going after a crash, but not in a tight loop
+        if LIMIT is None and not DRY_RUN and time.time() - start > 600:
+            log("dispatcher crashed, starting the next batch-review run anyway")
+            start_next_run()
+        raise
     if chain:
         log("starting the next batch-review run")
-        gh(["workflow", "run", "batch-review.yml", "-R", REPO, "--ref", "main"])
+        start_next_run()
 
 
 if __name__ == "__main__":
