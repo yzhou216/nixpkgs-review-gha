@@ -1,0 +1,85 @@
+# Proof of concept: continue one long build across jobs by moving the VM that
+# runs it.  Each leg runs the VM until LEG_MINUTES after the job started, then
+# saves its memory and disk as an artifact, and the next leg restores it.
+name: vm relay poc
+
+on:
+  push:
+    branches: [vm-relay-poc]
+
+permissions: {}
+
+env:
+  LEG_MINUTES: 10
+  POC_DIR: /nix/poc
+
+jobs:
+  leg-1:
+    runs-on: ubuntu-latest
+    env:
+      LEG: 1
+      LAST_LEG: false
+    outputs:
+      relay: ${{ steps.leg.outputs.relay }}
+
+    steps: &leg-steps
+      - name: record start time
+        id: start
+        run: echo "time=$(date +%s)" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: setup nix
+        uses: $/.github/actions/setup-nix
+        with:
+          system: x86_64-linux
+
+      - name: create the VM directory
+        run: sudo mkdir -p "$POC_DIR" && sudo chown "$USER" "$POC_DIR"
+
+      - name: download the VM from the previous leg
+        if: env.LEG != '1'
+        uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
+        with:
+          name: vm-leg-${{ env.PREV_LEG }}
+          path: ${{ env.POC_DIR }}/in
+
+      - name: run the VM
+        id: leg
+        env:
+          JOB_STARTED_AT: ${{ steps.start.outputs.time }}
+        run: nix run .#python3 -- poc/leg.py
+
+      - name: upload the VM for the next leg
+        if: steps.leg.outputs.relay == 'true'
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: vm-leg-${{ env.LEG }}
+          path: ${{ env.POC_DIR }}/out
+          if-no-files-found: error
+          retention-days: 1
+          compression-level: 0
+
+  leg-2:
+    needs: leg-1
+    if: needs.leg-1.outputs.relay == 'true'
+    runs-on: ubuntu-latest
+    env:
+      LEG: 2
+      PREV_LEG: 1
+      LAST_LEG: false
+    outputs:
+      relay: ${{ steps.leg.outputs.relay }}
+    steps: *leg-steps
+
+  leg-3:
+    needs: leg-2
+    if: needs.leg-2.outputs.relay == 'true'
+    runs-on: ubuntu-latest
+    env:
+      LEG: 3
+      PREV_LEG: 2
+      LAST_LEG: true
+    steps: *leg-steps
