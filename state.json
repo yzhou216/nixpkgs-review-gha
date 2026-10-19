@@ -1,5 +1,59 @@
 {
  "records": {
+  "575527": {
+   "run_id": 39333976165,
+   "status": "dispatched",
+   "time": "2026-10-19T22:18:17+00:00",
+   "title": "wrangler: 4.148.0 -> 4.151.1"
+  },
+  "575533": {
+   "run_id": 39333810338,
+   "status": "dispatched",
+   "time": "2026-10-19T22:16:51+00:00",
+   "title": "python3Packages.django-allauth: 65.19.7 -> 65.20.0"
+  },
+  "575540": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "libretro.fceumm: 0-unstable-2026-09-26 -> 0-unstable-2026-10-11",
+   "tries": 0
+  },
+  "575542": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "keycloakPlugins.keycloak-magic-link: 0.89 -> 0.92",
+   "tries": 0
+  },
+  "575544": {
+   "run_id": 39333629182,
+   "status": "dispatched",
+   "time": "2026-10-19T22:15:22+00:00",
+   "title": "unpoller: 5.5.1 -> 5.6.2"
+  },
+  "575546": {
+   "run_id": 39333451224,
+   "status": "dispatched",
+   "time": "2026-10-19T22:13:56+00:00",
+   "title": "wordcraft: 0.6.1 -> 0.8.0"
+  },
+  "575547": {
+   "run_id": 39333278468,
+   "status": "dispatched",
+   "time": "2026-10-19T22:12:29+00:00",
+   "title": "python3Packages.besen: 0.4.7 -> 0.4.8"
+  },
+  "575550": {
+   "reason": "mergeability unknown",
+   "status": "retry",
+   "title": "python3Packages.sofar-modbus: 0.18.0 -> 0.23.0",
+   "tries": 1
+  },
+  "575558": {
+   "reason": "mergeability unknown",
+   "status": "retry",
+   "title": "wavelog: 3.2.3 -> 3.2.4",
+   "tries": 1
+  },
   "575565": {
    "run_id": 39304609671,
    "status": "dispatched",
