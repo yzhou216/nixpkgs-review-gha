@@ -1,5 +1,53 @@
 {
  "records": {
+  "575421": {
+   "run_id": 39339080078,
+   "status": "dispatched",
+   "time": "2026-10-19T23:03:01+00:00",
+   "title": "python3Packages.uncalled-for: 0.4.0 -> 0.4.1"
+  },
+  "575426": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "wdt: 1.27.1612021-unstable-2026-09-15 -> 1.27.1612021-unstable-2026-10-07",
+   "tries": 0
+  },
+  "575436": {
+   "run_id": 39338918099,
+   "status": "dispatched",
+   "time": "2026-10-19T23:01:34+00:00",
+   "title": "fvm: 4.3.1 -> 4.3.2"
+  },
+  "575445": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "cloudflare-speed-cli: 1.0.9 -> 1.0.10",
+   "tries": 0
+  },
+  "575446": {
+   "run_id": 39338465272,
+   "status": "dispatched",
+   "time": "2026-10-19T22:57:25+00:00",
+   "title": "python3Packages.typeshed-client: 2.13.0 -> 2.14.0"
+  },
+  "575449": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "chezmoi: 2.73.0 -> 2.73.2",
+   "tries": 0
+  },
+  "575451": {
+   "run_id": 39338190646,
+   "status": "dispatched",
+   "time": "2026-10-19T22:54:53+00:00",
+   "title": "ispc: 1.31.0 -> 1.32.0"
+  },
+  "575453": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "ciel: 3.11.0 -> 3.11.4",
+   "tries": 0
+  },
   "575454": {
    "run_id": 39337518645,
    "status": "dispatched",
@@ -91,10 +139,10 @@
    "title": "yacreader: 10.3.2 -> 10.4.0"
   },
   "575514": {
-   "reason": "mergeability unknown",
-   "status": "retry",
-   "title": "sidplayfp: 3.2.1 -> 3.2.2",
-   "tries": 1
+   "run_id": 39337799085,
+   "status": "dispatched",
+   "time": "2026-10-19T22:51:17+00:00",
+   "title": "sidplayfp: 3.2.1 -> 3.2.2"
   },
   "575515": {
    "reason": "not open",
