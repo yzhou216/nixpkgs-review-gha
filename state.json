@@ -1,5 +1,47 @@
 {
  "records": {
+  "573113": {
+   "run_id": 39438664023,
+   "status": "dispatched",
+   "time": "2026-10-20T14:22:42+00:00",
+   "title": "python3Packages.eccodes: 2.48.0 -> 2.49.0"
+  },
+  "573120": {
+   "run_id": 39438189244,
+   "status": "dispatched",
+   "time": "2026-10-20T14:19:35+00:00",
+   "title": "invoiceplane: 1.7.2.1 -> 1.7.2"
+  },
+  "573145": {
+   "run_id": 39437972052,
+   "status": "dispatched",
+   "time": "2026-10-20T14:18:08+00:00",
+   "title": "vscode-extensions.ufo5260987423.magic-scheme: 0.0.16 -> 0.0.17"
+  },
+  "573151": {
+   "run_id": 39437098430,
+   "status": "dispatched",
+   "time": "2026-10-20T14:12:14+00:00",
+   "title": "wayland-proxy-virtwl: 0-unstable-2026-09-04 -> 0-unstable-2026-10-08"
+  },
+  "573160": {
+   "run_id": 39436795361,
+   "status": "dispatched",
+   "time": "2026-10-20T14:10:10+00:00",
+   "title": "typos-lsp: 0.1.56 -> 0.1.57"
+  },
+  "573164": {
+   "run_id": 39436579352,
+   "status": "dispatched",
+   "time": "2026-10-20T14:08:43+00:00",
+   "title": "vkquake: 1.36.0 -> 1.37.0"
+  },
+  "573171": {
+   "run_id": 39436359524,
+   "status": "dispatched",
+   "time": "2026-10-20T14:07:15+00:00",
+   "title": "pbm: 1.5.1 -> 1.5.2"
+  },
   "573174": {
    "run_id": 39435985101,
    "status": "dispatched",
