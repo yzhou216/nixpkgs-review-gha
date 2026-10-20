@@ -1,5 +1,23 @@
 {
  "records": {
+  "573991": {
+   "run_id": 39391564683,
+   "status": "dispatched",
+   "time": "2026-10-20T08:11:03+00:00",
+   "title": "bicep: 0.47.16 -> 0.48.1"
+  },
+  "573997": {
+   "run_id": 39391392552,
+   "status": "dispatched",
+   "time": "2026-10-20T08:09:36+00:00",
+   "title": "python3Packages.jack-client: 0.5.5 -> 0.5.7"
+  },
+  "574044": {
+   "run_id": 39390374158,
+   "status": "dispatched",
+   "time": "2026-10-20T08:00:53+00:00",
+   "title": "python3Packages.datafusion: 54.0.0 -> 55.0.0"
+  },
   "574060": {
    "run_id": 39387280279,
    "status": "dispatched",
