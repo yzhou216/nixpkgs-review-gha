@@ -1,5 +1,71 @@
 {
  "records": {
+  "574932": {
+   "run_id": 39367619647,
+   "status": "dispatched",
+   "time": "2026-10-20T04:04:29+00:00",
+   "title": "xiu: 0.13.0 -> 0.14.0"
+  },
+  "574948": {
+   "run_id": 39367447214,
+   "status": "dispatched",
+   "time": "2026-10-20T04:02:30+00:00",
+   "title": "google-alloydb-auth-proxy: 1.17.0 -> 1.17.1"
+  },
+  "574952": {
+   "run_id": 39367120095,
+   "status": "dispatched",
+   "time": "2026-10-20T03:58:54+00:00",
+   "title": "python3Packages.airgradient: 0.10.0 -> 0.11.0"
+  },
+  "574958": {
+   "run_id": 39366620887,
+   "status": "dispatched",
+   "time": "2026-10-20T03:53:09+00:00",
+   "title": "kubectl-gadget: 0.56.2 -> 0.57.0"
+  },
+  "574966": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "keymapper: 5.7.2 -> 5.7.3",
+   "tries": 0
+  },
+  "574972": {
+   "run_id": 39366495854,
+   "status": "dispatched",
+   "time": "2026-10-20T03:51:43+00:00",
+   "title": "python3Packages.rpy2-robjects: 3.6.5 -> 3.6.6"
+  },
+  "574981": {
+   "run_id": 39366322694,
+   "status": "dispatched",
+   "time": "2026-10-20T03:49:44+00:00",
+   "title": "fn-cli: 0.6.70 -> 0.6.73"
+  },
+  "574982": {
+   "run_id": 39366155602,
+   "status": "dispatched",
+   "time": "2026-10-20T03:47:47+00:00",
+   "title": "livekit-cli: 2.18.8 -> 2.19.0"
+  },
+  "574992": {
+   "run_id": 39366040727,
+   "status": "dispatched",
+   "time": "2026-10-20T03:46:26+00:00",
+   "title": "temporal-ui-server: 2.55.0 -> 2.56.0"
+  },
+  "575006": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "python3Packages.ansible-compat: 26.9.0 -> 26.10.0",
+   "tries": 0
+  },
+  "575012": {
+   "run_id": 39365912316,
+   "status": "dispatched",
+   "time": "2026-10-20T03:44:59+00:00",
+   "title": "tree-sitter-grammars.tree-sitter-erlang: 0.1.0 -> 0.21.0"
+  },
   "575016": {
    "run_id": 39365534084,
    "status": "dispatched",
@@ -37,10 +103,10 @@
    "title": "hcloud: 1.70.0 -> 1.70.1"
   },
   "575045": {
-   "reason": "mergeability unknown",
-   "status": "retry",
-   "title": "python3Packages.whirlpool-sixth-sense: 2.1.0 -> 2.1.1",
-   "tries": 1
+   "run_id": 39365788836,
+   "status": "dispatched",
+   "time": "2026-10-20T03:43:32+00:00",
+   "title": "python3Packages.whirlpool-sixth-sense: 2.1.0 -> 2.1.1"
   },
   "575046": {
    "run_id": 39364721275,
