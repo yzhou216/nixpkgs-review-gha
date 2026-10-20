@@ -1,5 +1,41 @@
 {
  "records": {
+  "573789": {
+   "run_id": 39411752440,
+   "status": "dispatched",
+   "time": "2026-10-20T10:59:13+00:00",
+   "title": "python3Packages.py-synologydsm-api: 2.10.4 -> 2.11.0"
+  },
+  "573792": {
+   "run_id": 39411467755,
+   "status": "dispatched",
+   "time": "2026-10-20T10:56:40+00:00",
+   "title": "element-call: 0.26.1 -> 0.28.0"
+  },
+  "573801": {
+   "reason": "mergeability unknown",
+   "status": "retry",
+   "title": "python3Packages.sendspin: 7.6.0 -> 8.0.0",
+   "tries": 1
+  },
+  "573816": {
+   "run_id": 39410842441,
+   "status": "dispatched",
+   "time": "2026-10-20T10:51:13+00:00",
+   "title": "hydralauncher: 4.1.5 -> 4.1.6"
+  },
+  "573828": {
+   "run_id": 39410098540,
+   "status": "dispatched",
+   "time": "2026-10-20T10:44:46+00:00",
+   "title": "vassal: 3.7.28 -> 3.7.29"
+  },
+  "573829": {
+   "run_id": 39409212852,
+   "status": "dispatched",
+   "time": "2026-10-20T10:37:10+00:00",
+   "title": "python3Packages.uhi: 1.2.0 -> 1.2.1"
+  },
   "573841": {
    "run_id": 39408250726,
    "status": "dispatched",
