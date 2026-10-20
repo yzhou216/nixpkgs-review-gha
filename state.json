@@ -1,5 +1,23 @@
 {
  "records": {
+  "572249": {
+   "run_id": 39477243641,
+   "status": "dispatched",
+   "time": "2026-10-20T18:43:30+00:00",
+   "title": "k8sgpt: 0.4.39 -> 0.4.40"
+  },
+  "572250": {
+   "run_id": 39476479089,
+   "status": "dispatched",
+   "time": "2026-10-20T18:38:11+00:00",
+   "title": "python3Packages.redisvl: 0.27.2 -> 0.28.0"
+  },
+  "572257": {
+   "run_id": 39476265728,
+   "status": "dispatched",
+   "time": "2026-10-20T18:36:45+00:00",
+   "title": "vscode-extensions.ms-python.python: 2026.4.0 -> 2026.10.0"
+  },
   "572262": {
    "run_id": 39473908541,
    "status": "dispatched",
