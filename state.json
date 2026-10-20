@@ -1,5 +1,35 @@
 {
  "records": {
+  "575199": {
+   "run_id": 39355402471,
+   "status": "dispatched",
+   "time": "2026-10-20T01:47:46+00:00",
+   "title": "python3Packages.ghome-foyer-api: 1.2.3 -> 2.0.0"
+  },
+  "575200": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "omnictl: 1.12.3 -> 1.12.4",
+   "tries": 0
+  },
+  "575201": {
+   "run_id": 39354831677,
+   "status": "dispatched",
+   "time": "2026-10-20T01:41:29+00:00",
+   "title": "python3Packages.ttp-templates: 0.6.14 -> 0.6.18"
+  },
+  "575202": {
+   "run_id": 39354264727,
+   "status": "dispatched",
+   "time": "2026-10-20T01:35:19+00:00",
+   "title": "python3Packages.pudb: 2025.1.5 -> 2026.1"
+  },
+  "575207": {
+   "run_id": 39353563307,
+   "status": "dispatched",
+   "time": "2026-10-20T01:27:53+00:00",
+   "title": "python3Packages.pyschlage: 2026.9.0 -> 2026.10.0"
+  },
   "575216": {
    "run_id": 39349478015,
    "status": "dispatched",
