@@ -1,5 +1,41 @@
 {
  "records": {
+  "572283": {
+   "run_id": 39469631504,
+   "status": "dispatched",
+   "time": "2026-10-20T17:51:00+00:00",
+   "title": "plink2: 2.0.0-a.7.9 -> 2.0.0-a.7.11"
+  },
+  "572293": {
+   "run_id": 39469426254,
+   "status": "dispatched",
+   "time": "2026-10-20T17:49:33+00:00",
+   "title": "go2tv: 2.6.1 -> 2.7.0"
+  },
+  "572298": {
+   "run_id": 39468748620,
+   "status": "dispatched",
+   "time": "2026-10-20T17:44:48+00:00",
+   "title": "fishPlugins.pure: 4.19.0 -> 4.19.1"
+  },
+  "572299": {
+   "run_id": 39467896120,
+   "status": "dispatched",
+   "time": "2026-10-20T17:38:52+00:00",
+   "title": "docker-credential-helpers: 0.9.9 -> 0.9.10"
+  },
+  "572306": {
+   "run_id": 39467211667,
+   "status": "dispatched",
+   "time": "2026-10-20T17:34:05+00:00",
+   "title": "antigen: 2.2.3 -> 2.3.0"
+  },
+  "572310": {
+   "run_id": 39466171869,
+   "status": "dispatched",
+   "time": "2026-10-20T17:27:04+00:00",
+   "title": "tarlz: 0.30 -> 0.31"
+  },
   "572318": {
    "run_id": 39462704487,
    "status": "dispatched",
