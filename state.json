@@ -1,5 +1,59 @@
 {
  "records": {
+  "575016": {
+   "run_id": 39365534084,
+   "status": "dispatched",
+   "time": "2026-10-20T03:40:33+00:00",
+   "title": "pinchflat-ngx: 2026.10.15 -> 2026.10.16"
+  },
+  "575018": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "tcl8Packages.rl_json: 0.17.7 -> 0.17.8",
+   "tries": 0
+  },
+  "575020": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "tcl9Packages.rl_json: 0.17.7 -> 0.17.8",
+   "tries": 0
+  },
+  "575021": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "rucio: 41.4.0 -> 41.5.0",
+   "tries": 0
+  },
+  "575031": {
+   "run_id": 39365218076,
+   "status": "dispatched",
+   "time": "2026-10-20T03:36:51+00:00",
+   "title": "obs-studio-plugins.obs-vertical-canvas: 1.6.5 -> 1.6.6"
+  },
+  "575038": {
+   "run_id": 39365095275,
+   "status": "dispatched",
+   "time": "2026-10-20T03:35:26+00:00",
+   "title": "hcloud: 1.70.0 -> 1.70.1"
+  },
+  "575045": {
+   "reason": "mergeability unknown",
+   "status": "retry",
+   "title": "python3Packages.whirlpool-sixth-sense: 2.1.0 -> 2.1.1",
+   "tries": 1
+  },
+  "575046": {
+   "run_id": 39364721275,
+   "status": "dispatched",
+   "time": "2026-10-20T03:31:15+00:00",
+   "title": "wgpu-native: 27.0.4.0 -> 29.0.1.1"
+  },
+  "575050": {
+   "run_id": 39364490926,
+   "status": "dispatched",
+   "time": "2026-10-20T03:28:42+00:00",
+   "title": "drawterm: 0-unstable-2026-10-01 -> 0-unstable-2026-10-12"
+  },
   "575054": {
    "run_id": 39363365150,
    "status": "dispatched",
