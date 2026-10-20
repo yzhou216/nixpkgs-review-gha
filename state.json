@@ -1,5 +1,41 @@
 {
  "records": {
+  "572092": {
+   "run_id": 39483204930,
+   "status": "dispatched",
+   "time": "2026-10-20T19:24:35+00:00",
+   "title": "tic-80: 1.2.0 -> 1.3.1"
+  },
+  "572112": {
+   "run_id": 39482996170,
+   "status": "dispatched",
+   "time": "2026-10-20T19:23:07+00:00",
+   "title": "python3Packages.rich-rst: 2.1.0 -> 2.2.0"
+  },
+  "572161": {
+   "run_id": 39480952949,
+   "status": "dispatched",
+   "time": "2026-10-20T19:08:58+00:00",
+   "title": "retroarch-assets: 1.22.0-unstable-2026-08-13 -> 1.22.0-unstable-2026-10-01"
+  },
+  "572214": {
+   "run_id": 39479683271,
+   "status": "dispatched",
+   "time": "2026-10-20T19:00:18+00:00",
+   "title": "kool: 3.6.0 -> 3.7.0"
+  },
+  "572231": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "mdfried: 0.22.6 -> 0.22.8",
+   "tries": 0
+  },
+  "572248": {
+   "run_id": 39479392338,
+   "status": "dispatched",
+   "time": "2026-10-20T18:58:18+00:00",
+   "title": "python3Packages.awslambdaric: 4.1.0 -> 4.2.2"
+  },
   "572249": {
    "run_id": 39477243641,
    "status": "dispatched",
