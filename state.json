@@ -1,5 +1,41 @@
 {
  "records": {
+  "574879": {
+   "run_id": 39371081123,
+   "status": "dispatched",
+   "time": "2026-10-20T04:43:30+00:00",
+   "title": "cdogs-sdl: 2.4.0 -> 2.5.0"
+  },
+  "574885": {
+   "run_id": 39369225609,
+   "status": "dispatched",
+   "time": "2026-10-20T04:22:26+00:00",
+   "title": "python3Packages.django-hijack: 3.7.9 -> 3.8.0"
+  },
+  "574898": {
+   "run_id": 39369098544,
+   "status": "dispatched",
+   "time": "2026-10-20T04:20:59+00:00",
+   "title": "mautrix-signal: 26.09 -> 26.10"
+  },
+  "574905": {
+   "run_id": 39368977390,
+   "status": "dispatched",
+   "time": "2026-10-20T04:19:38+00:00",
+   "title": "mautrix-meta: 26.09 -> 26.10"
+  },
+  "574918": {
+   "run_id": 39368860467,
+   "status": "dispatched",
+   "time": "2026-10-20T04:18:16+00:00",
+   "title": "sshwifty: 0.4.11-beta-release -> 0.4.12-beta-release"
+  },
+  "574924": {
+   "run_id": 39368735552,
+   "status": "dispatched",
+   "time": "2026-10-20T04:16:51+00:00",
+   "title": "syntaqlite: 0.12.1 -> 0.13.0"
+  },
   "574932": {
    "run_id": 39367619647,
    "status": "dispatched",
