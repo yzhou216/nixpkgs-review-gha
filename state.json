@@ -1,5 +1,41 @@
 {
  "records": {
+  "574199": {
+   "run_id": 39383586809,
+   "status": "dispatched",
+   "time": "2026-10-20T06:58:56+00:00",
+   "title": "gi-crystal: 0.25.1 -> 0.26.0"
+  },
+  "574202": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "python3Packages.pyperscan: 0.3.0 -> 0.4.0",
+   "tries": 0
+  },
+  "574208": {
+   "run_id": 39383444073,
+   "status": "dispatched",
+   "time": "2026-10-20T06:57:29+00:00",
+   "title": "rapids-logger: 0.2.3 -> 0.3.0"
+  },
+  "574218": {
+   "run_id": 39383299785,
+   "status": "dispatched",
+   "time": "2026-10-20T06:56:02+00:00",
+   "title": "unionfs-fuse: 3.7 -> 3.8"
+  },
+  "574230": {
+   "run_id": 39382443415,
+   "status": "dispatched",
+   "time": "2026-10-20T06:47:27+00:00",
+   "title": "python3Packages.altcha: 2.2.0 -> 2.3.0"
+  },
+  "574239": {
+   "run_id": 39382256931,
+   "status": "dispatched",
+   "time": "2026-10-20T06:45:34+00:00",
+   "title": "buf: 1.73.0 -> 1.74.0"
+  },
   "574243": {
    "run_id": 39382110122,
    "status": "dispatched",
