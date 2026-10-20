@@ -1,5 +1,95 @@
 {
  "records": {
+  "574608": {
+   "run_id": 39376363285,
+   "status": "dispatched",
+   "time": "2026-10-20T05:42:53+00:00",
+   "title": "bngblaster: 0.9.39 -> 1.0.0"
+  },
+  "574613": {
+   "run_id": 39376185653,
+   "status": "dispatched",
+   "time": "2026-10-20T05:40:53+00:00",
+   "title": "art: 1.26.9 -> 1.26.10"
+  },
+  "574627": {
+   "run_id": 39375767215,
+   "status": "dispatched",
+   "time": "2026-10-20T05:36:07+00:00",
+   "title": "go-ethereum: 1.17.7 -> 1.17.8"
+  },
+  "574631": {
+   "run_id": 39374997930,
+   "status": "dispatched",
+   "time": "2026-10-20T05:27:32+00:00",
+   "title": "seer: 2.6 -> 2.8"
+  },
+  "574670": {
+   "run_id": 39374871702,
+   "status": "dispatched",
+   "time": "2026-10-20T05:26:06+00:00",
+   "title": "fricas: 1.3.13 -> 1.4.0"
+  },
+  "574679": {
+   "run_id": 39374743593,
+   "status": "dispatched",
+   "time": "2026-10-20T05:24:41+00:00",
+   "title": "ossia-score: 3.8.2 -> 3.9.0"
+  },
+  "574691": {
+   "run_id": 39374616788,
+   "status": "dispatched",
+   "time": "2026-10-20T05:23:15+00:00",
+   "title": "github-mcp-server: 1.14.0 -> 2.0.2"
+  },
+  "574733": {
+   "run_id": 39374485905,
+   "status": "dispatched",
+   "time": "2026-10-20T05:21:50+00:00",
+   "title": "rtmidi: 6.0.0 -> 6.1.0"
+  },
+  "574751": {
+   "run_id": 39374362763,
+   "status": "dispatched",
+   "time": "2026-10-20T05:20:24+00:00",
+   "title": "inform6: 6.44-r3 -> 6.44-r7"
+  },
+  "574755": {
+   "reason": "mergeability unknown",
+   "status": "retry",
+   "title": "muvm: 0.6.0 -> 0.7.0",
+   "tries": 1
+  },
+  "574760": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "opa-envoy-plugin: 1.21.1-envoy -> 1.21.2-envoy-3",
+   "tries": 0
+  },
+  "574781": {
+   "run_id": 39374168325,
+   "status": "dispatched",
+   "time": "2026-10-20T05:18:16+00:00",
+   "title": "i3pystatus: 3.35-unstable-2026-10-02 -> 3.35-unstable-2026-10-07"
+  },
+  "574785": {
+   "run_id": 39374048300,
+   "status": "dispatched",
+   "time": "2026-10-20T05:16:55+00:00",
+   "title": "python3Packages.langgraph-checkpoint-mongodb: 0.5.0 -> 0.5.1"
+  },
+  "574790": {
+   "run_id": 39373927952,
+   "status": "dispatched",
+   "time": "2026-10-20T05:15:33+00:00",
+   "title": "coroot: 1.27.2 -> 1.27.4"
+  },
+  "574792": {
+   "run_id": 39373803540,
+   "status": "dispatched",
+   "time": "2026-10-20T05:14:11+00:00",
+   "title": "sysdig-cli-scanner: 1.30.1 -> 1.30.2"
+  },
   "574797": {
    "run_id": 39373579798,
    "status": "dispatched",
