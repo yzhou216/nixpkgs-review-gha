@@ -1,5 +1,35 @@
 {
  "records": {
+  "573337": {
+   "run_id": 39430848138,
+   "status": "dispatched",
+   "time": "2026-10-20T13:29:38+00:00",
+   "title": "bobby: 50.0.2 -> 51.0.2"
+  },
+  "573345": {
+   "run_id": 39430332939,
+   "status": "dispatched",
+   "time": "2026-10-20T13:25:58+00:00",
+   "title": "python3Packages.google-cloud-monitoring: 2.31.0 -> 2.32.0"
+  },
+  "573371": {
+   "run_id": 39430129116,
+   "status": "dispatched",
+   "time": "2026-10-20T13:24:31+00:00",
+   "title": "pwsafe: 1.25.0 -> 1.26.0fp"
+  },
+  "573379": {
+   "run_id": 39428623287,
+   "status": "dispatched",
+   "time": "2026-10-20T13:13:50+00:00",
+   "title": "python3Packages.django-tenants: 3.14.0 -> 4.0.0"
+  },
+  "573432": {
+   "run_id": 39427725986,
+   "status": "dispatched",
+   "time": "2026-10-20T13:07:22+00:00",
+   "title": "gifsicle: 1.96 -> 1.97"
+  },
   "573439": {
    "run_id": 39425595915,
    "status": "dispatched",
@@ -73,10 +103,10 @@
    "title": "m17n_lib: 1.8.6 -> 1.8.7"
   },
   "573617": {
-   "reason": "mergeability unknown",
-   "status": "retry",
-   "title": "python3Packages.lark-oapi: 1.7.3 -> 1.7.4",
-   "tries": 1
+   "run_id": 39429922547,
+   "status": "dispatched",
+   "time": "2026-10-20T13:23:05+00:00",
+   "title": "python3Packages.lark-oapi: 1.7.3 -> 1.7.4"
   },
   "573639": {
    "run_id": 39417505961,
