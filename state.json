@@ -1,5 +1,29 @@
 {
  "records": {
+  "573908": {
+   "run_id": 39399874479,
+   "status": "dispatched",
+   "time": "2026-10-20T09:19:50+00:00",
+   "title": "recyclarr: 8.7.2 -> 8.7.3"
+  },
+  "573937": {
+   "run_id": 39399435936,
+   "status": "dispatched",
+   "time": "2026-10-20T09:16:09+00:00",
+   "title": "python3Packages.langchain-core: 1.6.6 -> 1.6.10"
+  },
+  "573945": {
+   "run_id": 39398990394,
+   "status": "dispatched",
+   "time": "2026-10-20T09:12:30+00:00",
+   "title": "quake3e: 2025-10-14 -> 2026-10-14"
+  },
+  "573947": {
+   "run_id": 39398814307,
+   "status": "dispatched",
+   "time": "2026-10-20T09:11:02+00:00",
+   "title": "vscode-extensions.redhat.vscode-yaml: 1.24.0 -> 1.25.0"
+  },
   "573959": {
    "run_id": 39397714741,
    "status": "dispatched",
