@@ -1,5 +1,29 @@
 {
  "records": {
+  "571955": {
+   "run_id": 39512686861,
+   "status": "dispatched",
+   "time": "2026-10-20T23:05:38+00:00",
+   "title": "mhost: 0.11.4 -> 0.12.1"
+  },
+  "571959": {
+   "run_id": 39511882337,
+   "status": "dispatched",
+   "time": "2026-10-20T22:58:39+00:00",
+   "title": "python3Packages.google-cloud-pubsub: 2.41.0 -> 2.43.0"
+  },
+  "571977": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "libretro.pcsx2: 0-unstable-2026-09-17 -> 0-unstable-2026-10-18",
+   "tries": 0
+  },
+  "571978": {
+   "reason": "head changed, now non-trivial: pkgs/by-name/li/libzakalwe/package.nix: postPatch = '' | substituteInPlace Makefile.in \\ | --replace-fail 'libzakalwe.so' \"libzakalwe${stdenv.hostPlat",
+   "status": "skipped",
+   "title": "libzakalwe: 1.0.0-unstable-2024-02-26 -> 1.0.0-unstable-2026-09-20",
+   "tries": 0
+  },
   "572029": {
    "run_id": 39505302701,
    "status": "dispatched",
