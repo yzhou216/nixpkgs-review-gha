@@ -1,5 +1,29 @@
 {
  "records": {
+  "573841": {
+   "run_id": 39408250726,
+   "status": "dispatched",
+   "time": "2026-10-20T10:29:02+00:00",
+   "title": "python3Packages.ansible-builder: 3.1.1 -> 3.2.0"
+  },
+  "573871": {
+   "run_id": 39408082119,
+   "status": "dispatched",
+   "time": "2026-10-20T10:27:36+00:00",
+   "title": "nlohmann_json_schema_validator: 2.4.0 -> 2.4.1"
+  },
+  "573879": {
+   "run_id": 39407515179,
+   "status": "dispatched",
+   "time": "2026-10-20T10:22:48+00:00",
+   "title": "garnet: 2.1.8 -> 2.2.1"
+  },
+  "573881": {
+   "run_id": 39405950748,
+   "status": "dispatched",
+   "time": "2026-10-20T10:09:44+00:00",
+   "title": "source-meta-json-schema: 16.12.0 -> 17.2.1"
+  },
   "573889": {
    "run_id": 39402675574,
    "status": "dispatched",
