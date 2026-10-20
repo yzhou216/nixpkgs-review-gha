@@ -1,5 +1,89 @@
 {
  "records": {
+  "574797": {
+   "run_id": 39373579798,
+   "status": "dispatched",
+   "time": "2026-10-20T05:11:42+00:00",
+   "title": "python3Packages.pvextractor: 0.4 -> 0.5"
+  },
+  "574800": {
+   "run_id": 39373453252,
+   "status": "dispatched",
+   "time": "2026-10-20T05:10:17+00:00",
+   "title": "python3Packages.pysatochip: 0.18.0 -> 0.18.5"
+  },
+  "574801": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "grafanaPlugins.marcusolsson-json-datasource: 1.4.2 -> 1.4.3",
+   "tries": 0
+  },
+  "574811": {
+   "run_id": 39373126282,
+   "status": "dispatched",
+   "time": "2026-10-20T05:06:39+00:00",
+   "title": "vscode-extensions.kilocode.kilo-code: 7.8.3 -> 7.8.12"
+  },
+  "574814": {
+   "run_id": 39372397873,
+   "status": "dispatched",
+   "time": "2026-10-20T04:58:34+00:00",
+   "title": "gdevelop: 5.6.283 -> 5.6.284"
+  },
+  "574817": {
+   "run_id": 39372275400,
+   "status": "dispatched",
+   "time": "2026-10-20T04:57:09+00:00",
+   "title": "python3Packages.tensorly: 0.9.0 -> 0.10.0"
+  },
+  "574831": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "snapraid: 14.10 -> 15.0",
+   "tries": 0
+  },
+  "574832": {
+   "run_id": 39371677414,
+   "status": "dispatched",
+   "time": "2026-10-20T04:50:16+00:00",
+   "title": "jfrog-cli: 2.124.0 -> 2.127.0"
+  },
+  "574837": {
+   "run_id": 39371551878,
+   "status": "dispatched",
+   "time": "2026-10-20T04:48:48+00:00",
+   "title": "python3Packages.spglib: 2.7.0 -> 2.8.0"
+  },
+  "574842": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "igir: 5.7.0 -> 5.7.2",
+   "tries": 0
+  },
+  "574852": {
+   "run_id": 39371425663,
+   "status": "dispatched",
+   "time": "2026-10-20T04:47:22+00:00",
+   "title": "python3Packages.xknx: 3.20.0 -> 4.0.0"
+  },
+  "574862": {
+   "run_id": 39371301129,
+   "status": "dispatched",
+   "time": "2026-10-20T04:45:56+00:00",
+   "title": "kaminpar: 3.7.3 -> 3.7.4"
+  },
+  "574865": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "osmium: 0.0.42-alpha -> 0.1.2",
+   "tries": 0
+  },
+  "574876": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "tinymist: 0.15.8 -> 0.15.10",
+   "tries": 0
+  },
   "574879": {
    "run_id": 39371081123,
    "status": "dispatched",
