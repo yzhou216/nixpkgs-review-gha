@@ -1,5 +1,11 @@
 {
  "records": {
+  "572085": {
+   "run_id": 39485228947,
+   "status": "dispatched",
+   "time": "2026-10-20T19:38:51+00:00",
+   "title": "cobang: 2.8.0 -> 2.11.0"
+  },
   "572092": {
    "run_id": 39483204930,
    "status": "dispatched",
