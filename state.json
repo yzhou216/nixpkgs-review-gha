@@ -1,5 +1,53 @@
 {
  "records": {
+  "573562": {
+   "run_id": 39418564645,
+   "status": "dispatched",
+   "time": "2026-10-20T11:56:35+00:00",
+   "title": "valhalla: 3.9.0 -> 3.9.1"
+  },
+  "573566": {
+   "reason": "mergeability unknown",
+   "status": "retry",
+   "title": "darkly: 0.5.39 -> 0.5.41",
+   "tries": 1
+  },
+  "573591": {
+   "run_id": 39418245745,
+   "status": "dispatched",
+   "time": "2026-10-20T11:53:54+00:00",
+   "title": "python3Packages.py7zr: 1.1.3 -> 1.1.4"
+  },
+  "573610": {
+   "run_id": 39418073278,
+   "status": "dispatched",
+   "time": "2026-10-20T11:52:28+00:00",
+   "title": "m17n_lib: 1.8.6 -> 1.8.7"
+  },
+  "573617": {
+   "reason": "mergeability unknown",
+   "status": "retry",
+   "title": "python3Packages.lark-oapi: 1.7.3 -> 1.7.4",
+   "tries": 1
+  },
+  "573639": {
+   "run_id": 39417505961,
+   "status": "dispatched",
+   "time": "2026-10-20T11:47:45+00:00",
+   "title": "auto-editor: 31.6.0 -> 31.7.2"
+  },
+  "573675": {
+   "run_id": 39416743660,
+   "status": "dispatched",
+   "time": "2026-10-20T11:41:25+00:00",
+   "title": "wl-proxy: 0.1.4 -> 0.1.5"
+  },
+  "573689": {
+   "run_id": 39416303808,
+   "status": "dispatched",
+   "time": "2026-10-20T11:37:44+00:00",
+   "title": "python3Packages.lmdb: 2.3.0 -> 3.0.0"
+  },
   "573709": {
    "run_id": 39415728614,
    "status": "dispatched",
@@ -67,10 +115,10 @@
    "title": "element-call: 0.26.1 -> 0.28.0"
   },
   "573801": {
-   "reason": "mergeability unknown",
-   "status": "retry",
-   "title": "python3Packages.sendspin: 7.6.0 -> 8.0.0",
-   "tries": 1
+   "run_id": 39417898426,
+   "status": "dispatched",
+   "time": "2026-10-20T11:51:01+00:00",
+   "title": "python3Packages.sendspin: 7.6.0 -> 8.0.0"
   },
   "573816": {
    "run_id": 39410842441,
