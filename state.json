@@ -1,5 +1,89 @@
 {
  "records": {
+  "574440": {
+   "run_id": 39379187744,
+   "status": "dispatched",
+   "time": "2026-10-20T06:13:51+00:00",
+   "title": "python3Packages.ufolib2: 0.18.1 -> 0.19.1"
+  },
+  "574501": {
+   "run_id": 39378850000,
+   "status": "dispatched",
+   "time": "2026-10-20T06:10:13+00:00",
+   "title": "tree-sitter-grammars.tree-sitter-cue: 0.1.0 -> 0.2.0"
+  },
+  "574506": {
+   "run_id": 39378720488,
+   "status": "dispatched",
+   "time": "2026-10-20T06:08:48+00:00",
+   "title": "sensu-go-cli: 6.14.2 -> 6.15.0"
+  },
+  "574507": {
+   "run_id": 39378588173,
+   "status": "dispatched",
+   "time": "2026-10-20T06:07:21+00:00",
+   "title": "sensu-go-agent: 6.14.2 -> 6.15.0"
+  },
+  "574508": {
+   "run_id": 39378337645,
+   "status": "dispatched",
+   "time": "2026-10-20T06:04:48+00:00",
+   "title": "sensu-go-backend: 6.14.2 -> 6.15.0"
+  },
+  "574511": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "sogo: 5.12.11 -> 5.12.12",
+   "tries": 0
+  },
+  "574529": {
+   "run_id": 39378054210,
+   "status": "dispatched",
+   "time": "2026-10-20T06:01:44+00:00",
+   "title": "libdict: 1.0.6 -> 1.0.7"
+  },
+  "574555": {
+   "run_id": 39377766750,
+   "status": "dispatched",
+   "time": "2026-10-20T05:58:40+00:00",
+   "title": "raylib: 6.0 -> 6.2"
+  },
+  "574559": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "croaring: 5.2.3 -> 5.2.4",
+   "tries": 0
+  },
+  "574560": {
+   "run_id": 39377321677,
+   "status": "dispatched",
+   "time": "2026-10-20T05:53:36+00:00",
+   "title": "arcdps-log-manager: 1.17 -> 1.17.1"
+  },
+  "574570": {
+   "run_id": 39377190344,
+   "status": "dispatched",
+   "time": "2026-10-20T05:52:08+00:00",
+   "title": "memtest86plus: 8.10 -> 9.00"
+  },
+  "574575": {
+   "run_id": 39377064403,
+   "status": "dispatched",
+   "time": "2026-10-20T05:50:41+00:00",
+   "title": "conftest: 0.71.0 -> 0.71.1"
+  },
+  "574579": {
+   "run_id": 39376921432,
+   "status": "dispatched",
+   "time": "2026-10-20T05:49:06+00:00",
+   "title": "foundry: 1.8.4 -> 1.8.5"
+  },
+  "574605": {
+   "run_id": 39376600663,
+   "status": "dispatched",
+   "time": "2026-10-20T05:45:28+00:00",
+   "title": "backintime-common: 1.6.1 -> 1.6.2"
+  },
   "574608": {
    "run_id": 39376363285,
    "status": "dispatched",
@@ -55,10 +139,10 @@
    "title": "inform6: 6.44-r3 -> 6.44-r7"
   },
   "574755": {
-   "reason": "mergeability unknown",
-   "status": "retry",
-   "title": "muvm: 0.6.0 -> 0.7.0",
-   "tries": 1
+   "run_id": 39377550633,
+   "status": "dispatched",
+   "time": "2026-10-20T05:56:10+00:00",
+   "title": "muvm: 0.6.0 -> 0.7.0"
   },
   "574760": {
    "reason": "not open",
