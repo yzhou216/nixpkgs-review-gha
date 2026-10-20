@@ -1,5 +1,17 @@
 {
  "records": {
+  "572029": {
+   "run_id": 39505302701,
+   "status": "dispatched",
+   "time": "2026-10-20T22:03:59+00:00",
+   "title": "subsurface: 6.0.5707 -> 6.0.5738"
+  },
+  "572031": {
+   "run_id": 39503496913,
+   "status": "dispatched",
+   "time": "2026-10-20T21:49:52+00:00",
+   "title": "python3Packages.flask-socketio: 5.6.1 -> 5.7.0"
+  },
   "572042": {
    "run_id": 39502061265,
    "status": "dispatched",
