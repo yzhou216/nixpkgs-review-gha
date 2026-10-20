@@ -1,5 +1,95 @@
 {
  "records": {
+  "572849": {
+   "run_id": 39447561651,
+   "status": "dispatched",
+   "time": "2026-10-20T15:20:57+00:00",
+   "title": "python3Packages.servestatic: 4.3.4 -> 4.4.0"
+  },
+  "572864": {
+   "run_id": 39447339849,
+   "status": "dispatched",
+   "time": "2026-10-20T15:19:30+00:00",
+   "title": "triforce-lv2: 0.3.2 -> 0.4.0"
+  },
+  "572868": {
+   "run_id": 39447041504,
+   "status": "dispatched",
+   "time": "2026-10-20T15:17:31+00:00",
+   "title": "claude-agent-acp: 0.88.0 -> 0.93.0"
+  },
+  "572880": {
+   "run_id": 39446822443,
+   "status": "dispatched",
+   "time": "2026-10-20T15:16:05+00:00",
+   "title": "neonmodem: 1.1.0 -> 2.0.0"
+  },
+  "572892": {
+   "run_id": 39445203090,
+   "status": "dispatched",
+   "time": "2026-10-20T15:05:24+00:00",
+   "title": "kubedb-cli: 0.66.0 -> 0.68.0"
+  },
+  "572903": {
+   "run_id": 39444970443,
+   "status": "dispatched",
+   "time": "2026-10-20T15:03:55+00:00",
+   "title": "python3Packages.casa-formats-io: 0.3.0 -> 0.3.1"
+  },
+  "572906": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "grafanaPlugins.grafana-lokiexplore-app: 2.6.0 -> 3.0.0",
+   "tries": 0
+  },
+  "572908": {
+   "reason": "mergeability unknown",
+   "status": "retry",
+   "title": "shopify-cli: 4.8.3 -> 4.9.3",
+   "tries": 1
+  },
+  "572910": {
+   "reason": "mergeability unknown",
+   "status": "retry",
+   "title": "rpi-imager: 2.0.11.1 -> 2.0.12",
+   "tries": 1
+  },
+  "572913": {
+   "run_id": 39444531314,
+   "status": "dispatched",
+   "time": "2026-10-20T15:01:05+00:00",
+   "title": "hey-mail: 1.3.7 -> 1.3.8"
+  },
+  "572931": {
+   "reason": "mergeability unknown",
+   "status": "retry",
+   "title": "romm: 5.2.0 -> 5.4.0",
+   "tries": 1
+  },
+  "572938": {
+   "run_id": 39444201483,
+   "status": "dispatched",
+   "time": "2026-10-20T14:58:58+00:00",
+   "title": "gede: 2.22.1 -> 2.23.1"
+  },
+  "572955": {
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "silverbullet: 2.11.1 -> 2.12.0",
+   "tries": 0
+  },
+  "572958": {
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "python3Packages.aiomelcloudhome: 0.2.4 -> 0.3.0",
+   "tries": 0
+  },
+  "572960": {
+   "run_id": 39443949311,
+   "status": "dispatched",
+   "time": "2026-10-20T14:57:18+00:00",
+   "title": "python3Packages.aio-wattwaechter: 1.1.0 -> 1.2.0"
+  },
   "572979": {
    "run_id": 39442707044,
    "status": "dispatched",
@@ -25,10 +115,10 @@
    "title": "vue-language-server: 3.3.12 -> 3.3.13"
   },
   "573068": {
-   "reason": "mergeability unknown",
-   "status": "retry",
-   "title": "libretro.beetle-vb: 0-unstable-2026-08-23 -> 0-unstable-2026-10-09",
-   "tries": 1
+   "run_id": 39446345821,
+   "status": "dispatched",
+   "time": "2026-10-20T15:12:58+00:00",
+   "title": "libretro.beetle-vb: 0-unstable-2026-08-23 -> 0-unstable-2026-10-09"
   },
   "573078": {
    "run_id": 39440285369,
