@@ -1,5 +1,29 @@
 {
  "records": {
+  "571755": {
+   "run_id": 39517305321,
+   "status": "dispatched",
+   "time": "2026-10-20T23:47:44+00:00",
+   "title": "gvm-libs: 23.11.0 -> 23.13.0"
+  },
+  "571758": {
+   "run_id": 39516176509,
+   "status": "dispatched",
+   "time": "2026-10-20T23:36:58+00:00",
+   "title": "nushellPlugins.desktop_notifications: 0.115.0 -> 0.116.0"
+  },
+  "571848": {
+   "run_id": 39514750957,
+   "status": "dispatched",
+   "time": "2026-10-20T23:24:00+00:00",
+   "title": "python3Packages.griffelib: 2.3.0 -> 2.3.2"
+  },
+  "571854": {
+   "run_id": 39514590502,
+   "status": "dispatched",
+   "time": "2026-10-20T23:22:34+00:00",
+   "title": "espup: 0.17.1 -> 0.18.0"
+  },
   "571955": {
    "run_id": 39512686861,
    "status": "dispatched",
