@@ -1,5 +1,59 @@
 {
  "records": {
+  "573709": {
+   "run_id": 39415728614,
+   "status": "dispatched",
+   "time": "2026-10-20T11:32:53+00:00",
+   "title": "confluent-cli: 4.78.0 -> 4.79.0"
+  },
+  "573713": {
+   "run_id": 39415214986,
+   "status": "dispatched",
+   "time": "2026-10-20T11:28:39+00:00",
+   "title": "python3Packages.ansible-core: 2.21.4 -> 2.21.5"
+  },
+  "573749": {
+   "run_id": 39415047209,
+   "status": "dispatched",
+   "time": "2026-10-20T11:27:12+00:00",
+   "title": "kumactl: 2.14.5 -> 2.14.6"
+  },
+  "573750": {
+   "run_id": 39414682005,
+   "status": "dispatched",
+   "time": "2026-10-20T11:24:06+00:00",
+   "title": "kuma-cp: 2.14.5 -> 2.14.6"
+  },
+  "573751": {
+   "run_id": 39413657087,
+   "status": "dispatched",
+   "time": "2026-10-20T11:15:28+00:00",
+   "title": "kuma-experimental: 2.14.5 -> 2.14.6"
+  },
+  "573754": {
+   "run_id": 39413481684,
+   "status": "dispatched",
+   "time": "2026-10-20T11:14:01+00:00",
+   "title": "kuma: 2.14.5 -> 2.14.6"
+  },
+  "573756": {
+   "run_id": 39413118213,
+   "status": "dispatched",
+   "time": "2026-10-20T11:10:53+00:00",
+   "title": "kuma-dp: 2.14.5 -> 2.14.6"
+  },
+  "573769": {
+   "run_id": 39412947132,
+   "status": "dispatched",
+   "time": "2026-10-20T11:09:26+00:00",
+   "title": "seconlay: 0-unstable-2026-09-01 -> 0-unstable-2026-10-08"
+  },
+  "573777": {
+   "run_id": 39412784161,
+   "status": "dispatched",
+   "time": "2026-10-20T11:08:01+00:00",
+   "title": "censor: 0.10.1 -> 0.10.2"
+  },
   "573789": {
    "run_id": 39411752440,
    "status": "dispatched",
