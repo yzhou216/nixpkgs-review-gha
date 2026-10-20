@@ -1,5 +1,29 @@
 {
  "records": {
+  "573439": {
+   "run_id": 39425595915,
+   "status": "dispatched",
+   "time": "2026-10-20T12:51:48+00:00",
+   "title": "gretl: 2026b -> 2026c"
+  },
+  "573447": {
+   "run_id": 39425036912,
+   "status": "dispatched",
+   "time": "2026-10-20T12:47:35+00:00",
+   "title": "python3Packages.ansible: 14.4.0 -> 14.5.0"
+  },
+  "573458": {
+   "run_id": 39424543094,
+   "status": "dispatched",
+   "time": "2026-10-20T12:43:51+00:00",
+   "title": "libretro.stella: 0-unstable-2026-09-25 -> 0-unstable-2026-10-12"
+  },
+  "573509": {
+   "run_id": 39423825520,
+   "status": "dispatched",
+   "time": "2026-10-20T12:38:27+00:00",
+   "title": "python3Packages.hyperscan: 0.8.2 -> 0.9.1"
+  },
   "573516": {
    "run_id": 39423271753,
    "status": "dispatched",
