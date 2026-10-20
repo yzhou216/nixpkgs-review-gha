@@ -1,5 +1,29 @@
 {
  "records": {
+  "573516": {
+   "run_id": 39423271753,
+   "status": "dispatched",
+   "time": "2026-10-20T12:34:10+00:00",
+   "title": "ergo: 6.0.7 -> 6.0.8"
+  },
+  "573521": {
+   "run_id": 39422499194,
+   "status": "dispatched",
+   "time": "2026-10-20T12:28:19+00:00",
+   "title": "orbstack: 2.2.3-20963 -> 2.2.4-21120"
+  },
+  "573549": {
+   "run_id": 39420836587,
+   "status": "dispatched",
+   "time": "2026-10-20T12:15:06+00:00",
+   "title": "python3Packages.pybase64: 1.5.0 -> 1.5.1"
+  },
+  "573551": {
+   "run_id": 39420657350,
+   "status": "dispatched",
+   "time": "2026-10-20T12:13:40+00:00",
+   "title": "syft: 1.54.0 -> 1.54.1"
+  },
   "573562": {
    "run_id": 39418564645,
    "status": "dispatched",
