@@ -1,5 +1,29 @@
 {
  "records": {
+  "574060": {
+   "run_id": 39387280279,
+   "status": "dispatched",
+   "time": "2026-10-20T07:33:23+00:00",
+   "title": "python3Packages.parsedmarc: 11.0.2 -> 11.0.3"
+  },
+  "574091": {
+   "run_id": 39387129878,
+   "status": "dispatched",
+   "time": "2026-10-20T07:32:01+00:00",
+   "title": "incus-spawn: 0.2.15 -> 0.3.12"
+  },
+  "574100": {
+   "run_id": 39386603242,
+   "status": "dispatched",
+   "time": "2026-10-20T07:27:14+00:00",
+   "title": "libretro.ppsspp: 0-unstable-2026-09-22 -> 0-unstable-2026-10-14"
+  },
+  "574162": {
+   "run_id": 39386149773,
+   "status": "dispatched",
+   "time": "2026-10-20T07:23:05+00:00",
+   "title": "python3Packages.lzallright: 0.2.6 -> 0.3.0"
+  },
   "574199": {
    "run_id": 39383586809,
    "status": "dispatched",
