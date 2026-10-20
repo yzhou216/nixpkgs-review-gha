@@ -1,5 +1,47 @@
 {
  "records": {
+  "575054": {
+   "run_id": 39363365150,
+   "status": "dispatched",
+   "time": "2026-10-20T03:15:50+00:00",
+   "title": "peergos: 1.36.0 -> 1.38.0"
+  },
+  "575056": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "hut: 0.8.0 -> 0.9.0",
+   "tries": 0
+  },
+  "575057": {
+   "run_id": 39363236964,
+   "status": "dispatched",
+   "time": "2026-10-20T03:14:25+00:00",
+   "title": "survex: 1.4.22 -> 1.4.24"
+  },
+  "575082": {
+   "run_id": 39363063146,
+   "status": "dispatched",
+   "time": "2026-10-20T03:12:26+00:00",
+   "title": "python3Packages.rcssmin: 1.2.2 -> 1.3.0"
+  },
+  "575086": {
+   "run_id": 39362456120,
+   "status": "dispatched",
+   "time": "2026-10-20T03:05:35+00:00",
+   "title": "tomcat11: 11.0.24 -> 11.0.27"
+  },
+  "575093": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "vscode-extensions.jellyedwards.gitsweep: 1.0.0 -> 1.0.2",
+   "tries": 0
+  },
+  "575105": {
+   "run_id": 39361288289,
+   "status": "dispatched",
+   "time": "2026-10-20T02:52:46+00:00",
+   "title": "llmfit: 1.1.16 -> 1.1.17"
+  },
   "575112": {
    "run_id": 39361159198,
    "status": "dispatched",
