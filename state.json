@@ -1,5 +1,47 @@
 {
  "records": {
+  "575158": {
+   "run_id": 39357855307,
+   "status": "dispatched",
+   "time": "2026-10-20T02:14:41+00:00",
+   "title": "python3Packages.eurotronic-cometblue-ha: 1.4.0 -> 2.0.0"
+  },
+  "575168": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "millet: 0.15.2 -> 0.15.3",
+   "tries": 0
+  },
+  "575173": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "peazip: 11.3.0 -> 11.4.0",
+   "tries": 0
+  },
+  "575174": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "git-delete-merged-branches: 7.6.1 -> 7.7.0",
+   "tries": 0
+  },
+  "575181": {
+   "run_id": 39356876899,
+   "status": "dispatched",
+   "time": "2026-10-20T02:03:59+00:00",
+   "title": "python3Packages.gdown: 6.4.1 -> 6.4.2"
+  },
+  "575185": {
+   "run_id": 39356747204,
+   "status": "dispatched",
+   "time": "2026-10-20T02:02:34+00:00",
+   "title": "reaction: 2.5.1 -> 2.6.0"
+  },
+  "575197": {
+   "run_id": 39356360340,
+   "status": "dispatched",
+   "time": "2026-10-20T01:58:24+00:00",
+   "title": "nextcloud-talk-desktop: 2.3.2 -> 2.3.3"
+  },
   "575199": {
    "run_id": 39355402471,
    "status": "dispatched",
