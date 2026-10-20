@@ -1,5 +1,35 @@
 {
  "records": {
+  "572750": {
+   "run_id": 39451518610,
+   "status": "dispatched",
+   "time": "2026-10-20T15:46:33+00:00",
+   "title": "python3Packages.pykka: 4.4.2 -> 4.5.0"
+  },
+  "572778": {
+   "run_id": 39450041800,
+   "status": "dispatched",
+   "time": "2026-10-20T15:36:54+00:00",
+   "title": "dutctl: 1.0.0-alpha.4-unstable-2026-09-29 -> 1.0.0-alpha.5-unstable-2026-10-06"
+  },
+  "572783": {
+   "run_id": 39449293322,
+   "status": "dispatched",
+   "time": "2026-10-20T15:32:03+00:00",
+   "title": "python3Packages.bytecode: 0.19.0 -> 0.19.1"
+  },
+  "572792": {
+   "run_id": 39449067178,
+   "status": "dispatched",
+   "time": "2026-10-20T15:30:37+00:00",
+   "title": "vega-lite: 6.4.3 -> 6.5.0"
+  },
+  "572818": {
+   "run_id": 39448832640,
+   "status": "dispatched",
+   "time": "2026-10-20T15:29:09+00:00",
+   "title": "python3Packages.fenics-ufl: 2026.1.0 -> 2026.2.0"
+  },
   "572849": {
    "run_id": 39447561651,
    "status": "dispatched",
@@ -43,14 +73,14 @@
    "tries": 0
   },
   "572908": {
-   "reason": "mergeability unknown",
-   "status": "retry",
-   "title": "shopify-cli: 4.8.3 -> 4.9.3",
-   "tries": 1
+   "run_id": 39452245191,
+   "status": "dispatched",
+   "time": "2026-10-20T15:51:26+00:00",
+   "title": "shopify-cli: 4.8.3 -> 4.9.3"
   },
   "572910": {
-   "reason": "mergeability unknown",
-   "status": "retry",
+   "reason": "has nixpkgs-review-gha comment",
+   "status": "skipped",
    "title": "rpi-imager: 2.0.11.1 -> 2.0.12",
    "tries": 1
   },
@@ -61,10 +91,10 @@
    "title": "hey-mail: 1.3.7 -> 1.3.8"
   },
   "572931": {
-   "reason": "mergeability unknown",
-   "status": "retry",
-   "title": "romm: 5.2.0 -> 5.4.0",
-   "tries": 1
+   "run_id": 39451049234,
+   "status": "dispatched",
+   "time": "2026-10-20T15:43:26+00:00",
+   "title": "romm: 5.2.0 -> 5.4.0"
   },
   "572938": {
    "run_id": 39444201483,
