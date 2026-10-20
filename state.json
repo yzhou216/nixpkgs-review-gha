@@ -1,5 +1,65 @@
 {
  "records": {
+  "572445": {
+   "run_id": 39461132205,
+   "status": "dispatched",
+   "time": "2026-10-20T16:51:44+00:00",
+   "title": "shaarli: 0.16.7 -> 0.16.9"
+  },
+  "572462": {
+   "run_id": 39460214789,
+   "status": "dispatched",
+   "time": "2026-10-20T16:45:19+00:00",
+   "title": "stable-diffusion-cpp: master-874-656a135 -> master-951-f89d9b1"
+  },
+  "572476": {
+   "run_id": 39460005192,
+   "status": "dispatched",
+   "time": "2026-10-20T16:43:53+00:00",
+   "title": "crengine-ng: 0.9.13 -> 0.9.14"
+  },
+  "572477": {
+   "run_id": 39459638405,
+   "status": "dispatched",
+   "time": "2026-10-20T16:41:20+00:00",
+   "title": "couchdb3: 3.5.2 -> 3.5.3"
+  },
+  "572482": {
+   "run_id": 39459349367,
+   "status": "dispatched",
+   "time": "2026-10-20T16:39:20+00:00",
+   "title": "libretro.opera: 0-unstable-2026-08-21 -> 0-unstable-2026-10-09"
+  },
+  "572489": {
+   "run_id": 39458898187,
+   "status": "dispatched",
+   "time": "2026-10-20T16:36:15+00:00",
+   "title": "pdftoipe: 7.2.29.2 -> 7.3.1.1"
+  },
+  "572529": {
+   "run_id": 39458684284,
+   "status": "dispatched",
+   "time": "2026-10-20T16:34:49+00:00",
+   "title": "libretro.prboom: 0-unstable-2026-09-28 -> 0-unstable-2026-10-05"
+  },
+  "572541": {
+   "run_id": 39457970725,
+   "status": "dispatched",
+   "time": "2026-10-20T16:30:01+00:00",
+   "title": "aws-ofi-nccl: 1.21.1 -> 1.22.0a2"
+  },
+  "572546": {
+   "run_id": 39457760653,
+   "status": "dispatched",
+   "time": "2026-10-20T16:28:34+00:00",
+   "title": "proton-vpn-cli: 1.0.2 -> 1.0.5"
+  },
+  "572591": {
+   "run_id": 39457386937,
+   "status": "dispatched",
+   "time": "2026-10-20T16:26:00+00:00",
+   "title": "murex: 7.2.1001 -> 7.3.1231"
+  },
   "572593": {
    "run_id": 39456745149,
    "status": "dispatched",
