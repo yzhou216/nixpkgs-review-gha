@@ -1,5 +1,59 @@
 {
  "records": {
+  "572593": {
+   "run_id": 39456745149,
+   "status": "dispatched",
+   "time": "2026-10-20T16:21:43+00:00",
+   "title": "fishPlugins.exercism-cli-fish-wrapper: 0-unstable-2026-09-29 -> 0-unstable-2026-10-09"
+  },
+  "572597": {
+   "run_id": 39456208017,
+   "status": "dispatched",
+   "time": "2026-10-20T16:18:03+00:00",
+   "title": "inputplumber: 0.81.0 -> 0.82.0"
+  },
+  "572623": {
+   "run_id": 39455740451,
+   "status": "dispatched",
+   "time": "2026-10-20T16:14:54+00:00",
+   "title": "python3Packages.flufl-bounce: 5.0.1 -> 5.1.0"
+  },
+  "572658": {
+   "run_id": 39455360184,
+   "status": "dispatched",
+   "time": "2026-10-20T16:12:20+00:00",
+   "title": "jetty: 12.1.13 -> 12.1.14"
+  },
+  "572660": {
+   "run_id": 39455143586,
+   "status": "dispatched",
+   "time": "2026-10-20T16:10:53+00:00",
+   "title": "npm-check-updates: 23.1.0 -> 23.1.1"
+  },
+  "572673": {
+   "run_id": 39454926587,
+   "status": "dispatched",
+   "time": "2026-10-20T16:09:25+00:00",
+   "title": "pulumiPackages.pulumi-java: 1.37.3 -> 1.37.4"
+  },
+  "572704": {
+   "run_id": 39454226353,
+   "status": "dispatched",
+   "time": "2026-10-20T16:04:40+00:00",
+   "title": "postgresqlPackages.pg_textsearch: 1.4.0 -> 1.5.1"
+  },
+  "572714": {
+   "run_id": 39453844991,
+   "status": "dispatched",
+   "time": "2026-10-20T16:02:09+00:00",
+   "title": "wiiuse: 0.15.7 -> 0.16.0"
+  },
+  "572742": {
+   "run_id": 39453372556,
+   "status": "dispatched",
+   "time": "2026-10-20T15:59:02+00:00",
+   "title": "erlang-language-platform: 2026-08-10 -> 2026-10-05"
+  },
   "572750": {
    "run_id": 39451518610,
    "status": "dispatched",
