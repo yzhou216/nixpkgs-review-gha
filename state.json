@@ -1,5 +1,17 @@
 {
  "records": {
+  "569619": {
+   "run_id": 39594064434,
+   "status": "dispatched",
+   "time": "2026-10-21T11:43:28+00:00",
+   "title": "python3Packages.casaconfig: 1.5.0 -> 1.5.2"
+  },
+  "569639": {
+   "run_id": 39593481586,
+   "status": "dispatched",
+   "time": "2026-10-21T11:38:45+00:00",
+   "title": "subnetcalc: 2.7.5 -> 2.7.6"
+  },
   "569655": {
    "run_id": 39586957317,
    "status": "dispatched",
