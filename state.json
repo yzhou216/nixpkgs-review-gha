@@ -1,5 +1,23 @@
 {
  "records": {
+  "568393": {
+   "run_id": 39654206181,
+   "status": "dispatched",
+   "time": "2026-10-21T18:36:12+00:00",
+   "title": "ticktick: 8.0.11 -> 8.0.20"
+  },
+  "568410": {
+   "run_id": 39653807508,
+   "status": "dispatched",
+   "time": "2026-10-21T18:33:34+00:00",
+   "title": "nushellPlugins.skim: 0.30.0 -> 0.31.0"
+  },
+  "568440": {
+   "run_id": 39652575606,
+   "status": "dispatched",
+   "time": "2026-10-21T18:25:27+00:00",
+   "title": "libretro.mupen64plus: 0-unstable-2026-09-12 -> 0-unstable-2026-10-01"
+  },
   "568443": {
    "run_id": 39650169090,
    "status": "dispatched",
