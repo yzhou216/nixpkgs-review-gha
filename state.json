@@ -1,5 +1,17 @@
 {
  "records": {
+  "571697": {
+   "run_id": 39523636605,
+   "status": "dispatched",
+   "time": "2026-10-21T00:49:32+00:00",
+   "title": "kotlin: 2.4.20 -> 2.4.21"
+  },
+  "571741": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "cudaPackages.cudnn-frontend: 1.31.0 -> 1.32.0.dev74371060",
+   "tries": 0
+  },
   "571754": {
    "run_id": 39518142942,
    "status": "dispatched",
