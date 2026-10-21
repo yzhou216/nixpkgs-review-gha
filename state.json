@@ -1,5 +1,47 @@
 {
  "records": {
+  "569687": {
+   "run_id": 39584496185,
+   "status": "dispatched",
+   "time": "2026-10-21T10:25:36+00:00",
+   "title": "aws-cdk-cli: 2.1142.0 -> 2.1145.0"
+  },
+  "569717": {
+   "run_id": 39584321112,
+   "status": "dispatched",
+   "time": "2026-10-21T10:24:09+00:00",
+   "title": "python3Packages.cysignals: 1.12.6 -> 1.13.1"
+  },
+  "569722": {
+   "run_id": 39583801363,
+   "status": "dispatched",
+   "time": "2026-10-21T10:19:56+00:00",
+   "title": "morewaita-icon-theme: 49 -> 50.1"
+  },
+  "569790": {
+   "run_id": 39583624445,
+   "status": "dispatched",
+   "time": "2026-10-21T10:18:30+00:00",
+   "title": "networkmanager-strongswan: 1.6.5 -> 1.6.6"
+  },
+  "569825": {
+   "run_id": 39583028477,
+   "status": "dispatched",
+   "time": "2026-10-21T10:13:44+00:00",
+   "title": "gcompris: 26.1 -> 26.2"
+  },
+  "569844": {
+   "run_id": 39582427926,
+   "status": "dispatched",
+   "time": "2026-10-21T10:08:56+00:00",
+   "title": "lima-full: 2.2.0 -> 2.2.1"
+  },
+  "569865": {
+   "run_id": 39581823603,
+   "status": "dispatched",
+   "time": "2026-10-21T10:04:11+00:00",
+   "title": "zrok: 2.0.4 -> 2.0.8"
+  },
   "569878": {
    "run_id": 39581130723,
    "status": "dispatched",
