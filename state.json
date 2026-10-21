@@ -1,5 +1,41 @@
 {
  "records": {
+  "570532": {
+   "run_id": 39561925785,
+   "status": "dispatched",
+   "time": "2026-10-21T07:25:58+00:00",
+   "title": "postcss: 8.5.28 -> 8.5.30"
+  },
+  "570539": {
+   "run_id": 39561755796,
+   "status": "dispatched",
+   "time": "2026-10-21T07:24:33+00:00",
+   "title": "vscode-extensions.reditorsupport.r: 2.8.8 -> 3.2.0"
+  },
+  "570568": {
+   "run_id": 39561023580,
+   "status": "dispatched",
+   "time": "2026-10-21T07:18:10+00:00",
+   "title": "python3Packages.victron-mqtt: 2026.9.10 -> 2026.9.14"
+  },
+  "570576": {
+   "run_id": 39560238520,
+   "status": "dispatched",
+   "time": "2026-10-21T07:11:16+00:00",
+   "title": "python3Packages.pyadjoint-ad: 2026.9.0 -> 2026.10.0"
+  },
+  "570581": {
+   "run_id": 39559716101,
+   "status": "dispatched",
+   "time": "2026-10-21T07:06:35+00:00",
+   "title": "freescout: 1.8.241 -> 1.8.247"
+  },
+  "570592": {
+   "run_id": 39559181291,
+   "status": "dispatched",
+   "time": "2026-10-21T07:01:52+00:00",
+   "title": "amazon-ec2-net-utils: 2.7.6 -> 2.7.7"
+  },
   "570594": {
    "run_id": 39558599346,
    "status": "dispatched",
