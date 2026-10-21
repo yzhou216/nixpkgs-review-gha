@@ -1,5 +1,11 @@
 {
  "records": {
+  "568078": {
+   "run_id": 39678011642,
+   "status": "dispatched",
+   "time": "2026-10-21T21:20:43+00:00",
+   "title": "petsc: 3.25.5 -> 3.26.0"
+  },
   "568109": {
    "run_id": 39676575734,
    "status": "dispatched",
