@@ -1,5 +1,41 @@
 {
  "records": {
+  "568320": {
+   "run_id": 39658962745,
+   "status": "dispatched",
+   "time": "2026-10-21T19:08:15+00:00",
+   "title": "python3Packages.plantuml-markdown: 3.11.2 -> 3.11.3"
+  },
+  "568327": {
+   "run_id": 39657665283,
+   "status": "dispatched",
+   "time": "2026-10-21T18:59:31+00:00",
+   "title": "eccodes: 2.48.0 -> 2.49.0"
+  },
+  "568332": {
+   "run_id": 39656369318,
+   "status": "dispatched",
+   "time": "2026-10-21T18:50:46+00:00",
+   "title": "dosage-tracker: 2.1.8 -> 2.1.9"
+  },
+  "568342": {
+   "run_id": 39656153990,
+   "status": "dispatched",
+   "time": "2026-10-21T18:49:19+00:00",
+   "title": "fwts: 26.07.00 -> 26.09.00"
+  },
+  "568369": {
+   "run_id": 39654768385,
+   "status": "dispatched",
+   "time": "2026-10-21T18:40:02+00:00",
+   "title": "python3Packages.pyairtable: 3.4.2 -> 3.5.0.post1"
+  },
+  "568379": {
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "pixelflasher: 9.2.1.0 -> 10.1.1.1",
+   "tries": 0
+  },
   "568393": {
    "run_id": 39654206181,
    "status": "dispatched",
