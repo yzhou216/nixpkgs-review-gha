@@ -1,5 +1,29 @@
 {
  "records": {
+  "568242": {
+   "run_id": 39667183936,
+   "status": "dispatched",
+   "time": "2026-10-21T20:04:52+00:00",
+   "title": "calc: 2.17.0.0 -> 2.17.0.2"
+  },
+  "568243": {
+   "reason": "has nixpkgs-review-gha comment",
+   "status": "skipped",
+   "title": "pgpool: 4.7.2 -> 4.7.3",
+   "tries": 0
+  },
+  "568257": {
+   "run_id": 39666957885,
+   "status": "dispatched",
+   "time": "2026-10-21T20:03:18+00:00",
+   "title": "python3Packages.geoarrow-c: 0.3.1 -> 0.4.0"
+  },
+  "568269": {
+   "run_id": 39663872418,
+   "status": "dispatched",
+   "time": "2026-10-21T19:41:46+00:00",
+   "title": "steampipePackages.steampipe-plugin-aws: 1.33.0 -> 1.34.0"
+  },
   "568292": {
    "run_id": 39661634559,
    "status": "dispatched",
