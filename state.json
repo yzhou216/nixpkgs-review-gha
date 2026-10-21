@@ -1,5 +1,35 @@
 {
  "records": {
+  "571408": {
+   "run_id": 39530169882,
+   "status": "dispatched",
+   "time": "2026-10-21T01:56:21+00:00",
+   "title": "python3Packages.google-cloud-translate: 3.27.0 -> 3.28.0"
+  },
+  "571436": {
+   "run_id": 39529830829,
+   "status": "dispatched",
+   "time": "2026-10-21T01:52:46+00:00",
+   "title": "python3Packages.frida-python: 17.19.0 -> 17.24.2"
+  },
+  "571484": {
+   "run_id": 39529291341,
+   "status": "dispatched",
+   "time": "2026-10-21T01:47:00+00:00",
+   "title": "python3Packages.google-cloud-texttospeech: 2.37.0 -> 2.38.0"
+  },
+  "571571": {
+   "run_id": 39528802498,
+   "status": "dispatched",
+   "time": "2026-10-21T01:41:44+00:00",
+   "title": "libabigail: 2.10 -> 3.0"
+  },
+  "571573": {
+   "run_id": 39528668125,
+   "status": "dispatched",
+   "time": "2026-10-21T01:40:19+00:00",
+   "title": "codeql: 2.27.1 -> 2.27.2"
+  },
   "571577": {
    "run_id": 39528112097,
    "status": "dispatched",
