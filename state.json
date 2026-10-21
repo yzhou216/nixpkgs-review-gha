@@ -1,5 +1,29 @@
 {
  "records": {
+  "568784": {
+   "run_id": 39638188966,
+   "status": "dispatched",
+   "time": "2026-10-21T16:49:13+00:00",
+   "title": "python3Packages.identify: 2.6.19 -> 2.6.20"
+  },
+  "568825": {
+   "run_id": 39636739847,
+   "status": "dispatched",
+   "time": "2026-10-21T16:39:33+00:00",
+   "title": "libpg_query: 18.0.0 -> 18.1.0"
+  },
+  "568842": {
+   "run_id": 39635858864,
+   "status": "dispatched",
+   "time": "2026-10-21T16:33:39+00:00",
+   "title": "kea: 3.2.0 -> 3.2.1"
+  },
+  "568853": {
+   "run_id": 39634049572,
+   "status": "dispatched",
+   "time": "2026-10-21T16:21:37+00:00",
+   "title": "ghidra-extensions.kaiju: 260608 -> 260910"
+  },
   "568861": {
    "run_id": 39633484622,
    "status": "dispatched",
@@ -67,10 +91,10 @@
    "title": "geant4: 11.4.2 -> 11.4.3"
   },
   "569041": {
-   "reason": "mergeability unknown",
-   "status": "retry",
-   "title": "lcalc: 2.2.1 -> 2.2.2",
-   "tries": 1
+   "run_id": 39637975797,
+   "status": "dispatched",
+   "time": "2026-10-21T16:47:46+00:00",
+   "title": "lcalc: 2.2.1 -> 2.2.2"
   },
   "569124": {
    "run_id": 39626220121,
