@@ -1,5 +1,71 @@
 {
  "records": {
+  "567305": {
+   "run_id": 39693849390,
+   "status": "dispatched",
+   "time": "2026-10-21T23:30:24+00:00",
+   "title": "gdlv: 1.16.0 -> 1.17.0"
+  },
+  "567307": {
+   "run_id": 39693220433,
+   "status": "dispatched",
+   "time": "2026-10-21T23:24:34+00:00",
+   "title": "lis: 2.1.11 -> 2.1.16"
+  },
+  "567341": {
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "vulkan-extension-layer: 1.4.357.0 -> 1.4.363",
+   "tries": 0
+  },
+  "567386": {
+   "run_id": 39692934620,
+   "status": "dispatched",
+   "time": "2026-10-21T23:21:58+00:00",
+   "title": "python3Packages.aioftp: 0.28.0 -> 0.28.3"
+  },
+  "567390": {
+   "run_id": 39692778253,
+   "status": "dispatched",
+   "time": "2026-10-21T23:20:31+00:00",
+   "title": "windowtolayer: 0.3.1 -> 0.4.0"
+  },
+  "567467": {
+   "run_id": 39692621683,
+   "status": "dispatched",
+   "time": "2026-10-21T23:19:05+00:00",
+   "title": "python3Packages.phonors: 0.5.0 -> 0.6.0"
+  },
+  "567469": {
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "nushell: 0.115.1 -> 0.116.0",
+   "tries": 0
+  },
+  "567477": {
+   "run_id": 39692142849,
+   "status": "dispatched",
+   "time": "2026-10-21T23:14:49+00:00",
+   "title": "guile-lsp-server: 0.4.8 -> 0.4.10"
+  },
+  "567504": {
+   "run_id": 39691800249,
+   "status": "dispatched",
+   "time": "2026-10-21T23:11:45+00:00",
+   "title": "amazon-ssm-agent: 3.3.5226.0 -> 3.3.5538.0"
+  },
+  "567543": {
+   "run_id": 39691020309,
+   "status": "dispatched",
+   "time": "2026-10-21T23:04:55+00:00",
+   "title": "python3Packages.datastar-py: 1.0.2 -> 1.0.3"
+  },
+  "567547": {
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "butler: 15.30.0 -> 15.31.0",
+   "tries": 0
+  },
   "567595": {
    "run_id": 39690078665,
    "status": "dispatched",
