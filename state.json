@@ -1,5 +1,17 @@
 {
  "records": {
+  "570854": {
+   "run_id": 39542732576,
+   "status": "dispatched",
+   "time": "2026-10-21T04:12:11+00:00",
+   "title": "libretro.flycast: 0-unstable-2026-09-26 -> 0-unstable-2026-10-17"
+  },
+  "570867": {
+   "run_id": 39542545153,
+   "status": "dispatched",
+   "time": "2026-10-21T04:10:14+00:00",
+   "title": "mediainfo: 26.05 -> 26.10"
+  },
   "570870": {
    "run_id": 39542162656,
    "status": "dispatched",
