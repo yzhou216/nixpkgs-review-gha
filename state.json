@@ -1,5 +1,53 @@
 {
  "records": {
+  "569878": {
+   "run_id": 39581130723,
+   "status": "dispatched",
+   "time": "2026-10-21T09:58:50+00:00",
+   "title": "python3Packages.python-pooldose: 0.9.14 -> 0.9.15"
+  },
+  "569879": {
+   "run_id": 39580662888,
+   "status": "dispatched",
+   "time": "2026-10-21T09:55:09+00:00",
+   "title": "libretro.vice-x128: 0-unstable-2026-09-22 -> 0-unstable-2026-10-03"
+  },
+  "569918": {
+   "run_id": 39578843843,
+   "status": "dispatched",
+   "time": "2026-10-21T09:40:57+00:00",
+   "title": "copyq: 16.0.0 -> 17.0.0"
+  },
+  "569941": {
+   "run_id": 39578585007,
+   "status": "dispatched",
+   "time": "2026-10-21T09:38:57+00:00",
+   "title": "qbittorrent-enhanced-nox: 5.2.3.10 -> 5.2.4.10"
+  },
+  "570019": {
+   "run_id": 39578194955,
+   "status": "dispatched",
+   "time": "2026-10-21T09:35:53+00:00",
+   "title": "python3Packages.mayim: 1.3.2 -> 1.4.2"
+  },
+  "570032": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "dashy-ui: 4.6.14 -> 4.8.3",
+   "tries": 0
+  },
+  "570041": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "flix: 0.76.2 -> 0.78.0",
+   "tries": 0
+  },
+  "570074": {
+   "run_id": 39577938009,
+   "status": "dispatched",
+   "time": "2026-10-21T09:33:53+00:00",
+   "title": "myanon: 0.8.5 -> 0.8.7"
+  },
   "570075": {
    "run_id": 39577165859,
    "status": "dispatched",
