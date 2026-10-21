@@ -1,5 +1,29 @@
 {
  "records": {
+  "571184": {
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "home-assistant-custom-components.yandex-station: 3.21.4 -> 3.22.1",
+   "tries": 0
+  },
+  "571203": {
+   "run_id": 39536650571,
+   "status": "dispatched",
+   "time": "2026-10-21T03:05:36+00:00",
+   "title": "mactracker: 8.2.1 -> 8.3.1"
+  },
+  "571240": {
+   "run_id": 39535749109,
+   "status": "dispatched",
+   "time": "2026-10-21T02:55:58+00:00",
+   "title": "libkrun: 1.19.5 -> 1.19.6"
+  },
+  "571303": {
+   "run_id": 39535267527,
+   "status": "dispatched",
+   "time": "2026-10-21T02:50:46+00:00",
+   "title": "webtunnel: 0.0.5 -> 0.0.7"
+  },
   "571408": {
    "run_id": 39530169882,
    "status": "dispatched",
