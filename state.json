@@ -1,5 +1,41 @@
 {
  "records": {
+  "571577": {
+   "run_id": 39528112097,
+   "status": "dispatched",
+   "time": "2026-10-21T01:34:31+00:00",
+   "title": "authentik: 2026.5.6 -> 2026.5.7"
+  },
+  "571587": {
+   "run_id": 39527593068,
+   "status": "dispatched",
+   "time": "2026-10-21T01:29:16+00:00",
+   "title": "python3Packages.libvirt-python: 12.7.0 -> 12.8.0"
+  },
+  "571624": {
+   "run_id": 39527455622,
+   "status": "dispatched",
+   "time": "2026-10-21T01:27:50+00:00",
+   "title": "ccls: 0.20250815.1 -> 0.20261004"
+  },
+  "571659": {
+   "run_id": 39527320207,
+   "status": "dispatched",
+   "time": "2026-10-21T01:26:25+00:00",
+   "title": "sioyek: 2.0.0-unstable-2026-09-24 -> 2.0.0-unstable-2026-10-07"
+  },
+  "571680": {
+   "run_id": 39525792674,
+   "status": "dispatched",
+   "time": "2026-10-21T01:10:50+00:00",
+   "title": "mbuffer: 20260926 -> 20260929"
+  },
+  "571681": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "parla: 0.9.9 -> 0.10.0",
+   "tries": 0
+  },
   "571686": {
    "run_id": 39524548852,
    "status": "dispatched",
