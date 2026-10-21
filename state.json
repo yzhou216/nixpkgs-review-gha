@@ -1,5 +1,41 @@
 {
  "records": {
+  "570594": {
+   "run_id": 39558599346,
+   "status": "dispatched",
+   "time": "2026-10-21T06:56:37+00:00",
+   "title": "stardust-xr-gravity: 0.51.1 -> 0.52.0"
+  },
+  "570598": {
+   "run_id": 39556926807,
+   "status": "dispatched",
+   "time": "2026-10-21T06:40:55+00:00",
+   "title": "libretro.beetle-psx: 0-unstable-2026-09-21 -> 0-unstable-2026-10-12"
+  },
+  "570615": {
+   "run_id": 39556430493,
+   "status": "dispatched",
+   "time": "2026-10-21T06:36:10+00:00",
+   "title": "railway-wallet: 5.24.21 -> 5.26.1"
+  },
+  "570660": {
+   "run_id": 39555994993,
+   "status": "dispatched",
+   "time": "2026-10-21T06:32:02+00:00",
+   "title": "elmPackages.elm-test: 0.19.2-1 -> 0.19.3-0"
+  },
+  "570726": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "wheelwizard: 2.5.7 -> 2.6.2",
+   "tries": 0
+  },
+  "570732": {
+   "run_id": 39555601918,
+   "status": "dispatched",
+   "time": "2026-10-21T06:28:21+00:00",
+   "title": "await: 2.8.0 -> 2.11.0"
+  },
   "570736": {
    "run_id": 39554705467,
    "status": "dispatched",
