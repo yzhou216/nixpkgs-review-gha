@@ -1,5 +1,53 @@
 {
  "records": {
+  "570429": {
+   "run_id": 39565715162,
+   "status": "dispatched",
+   "time": "2026-10-21T07:57:50+00:00",
+   "title": "prometheus-postfix-exporter: 0.20.4 -> 0.21.2"
+  },
+  "570434": {
+   "run_id": 39565277339,
+   "status": "dispatched",
+   "time": "2026-10-21T07:54:13+00:00",
+   "title": "python3Packages.pyunormalize: 17.0.0 -> 18.0.0"
+  },
+  "570460": {
+   "run_id": 39565106935,
+   "status": "dispatched",
+   "time": "2026-10-21T07:52:47+00:00",
+   "title": "python3Packages.ledger-bitcoin: 0.4.1 -> 0.4.2"
+  },
+  "570471": {
+   "run_id": 39564471701,
+   "status": "dispatched",
+   "time": "2026-10-21T07:47:28+00:00",
+   "title": "python3Packages.pylamarzocco: 2.4.4 -> 2.5.2"
+  },
+  "570472": {
+   "run_id": 39564302902,
+   "status": "dispatched",
+   "time": "2026-10-21T07:46:02+00:00",
+   "title": "lazysql: 0.5.9 -> 0.7.0"
+  },
+  "570477": {
+   "run_id": 39563098113,
+   "status": "dispatched",
+   "time": "2026-10-21T07:35:48+00:00",
+   "title": "kubernetes-helmPlugins.helm-diff: 3.15.14 -> 3.15.15"
+  },
+  "570481": {
+   "run_id": 39562861846,
+   "status": "dispatched",
+   "time": "2026-10-21T07:33:50+00:00",
+   "title": "verifpal: 1.6.1 -> 1.6.6"
+  },
+  "570519": {
+   "run_id": 39562690874,
+   "status": "dispatched",
+   "time": "2026-10-21T07:32:24+00:00",
+   "title": "templ: 0.3.1020 -> 0.3.1070"
+  },
   "570532": {
    "run_id": 39561925785,
    "status": "dispatched",
