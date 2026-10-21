@@ -1,5 +1,47 @@
 {
  "records": {
+  "569000": {
+   "run_id": 39628995769,
+   "status": "dispatched",
+   "time": "2026-10-21T15:48:22+00:00",
+   "title": "meshoptimizer: 1.2 -> 1.3"
+  },
+  "569003": {
+   "run_id": 39628786267,
+   "status": "dispatched",
+   "time": "2026-10-21T15:46:55+00:00",
+   "title": "parca: 0.28.0 -> 0.29.1"
+  },
+  "569017": {
+   "run_id": 39628571489,
+   "status": "dispatched",
+   "time": "2026-10-21T15:45:28+00:00",
+   "title": "libretro.pcsx-rearmed: 0-unstable-2026-09-05 -> 0-unstable-2026-10-02"
+  },
+  "569025": {
+   "run_id": 39628091740,
+   "status": "dispatched",
+   "time": "2026-10-21T15:42:18+00:00",
+   "title": "maildrop: 4.0.4 -> 4.0.5"
+  },
+  "569029": {
+   "run_id": 39626863345,
+   "status": "dispatched",
+   "time": "2026-10-21T15:34:09+00:00",
+   "title": "geant4: 11.4.2 -> 11.4.3"
+  },
+  "569041": {
+   "reason": "mergeability unknown",
+   "status": "retry",
+   "title": "lcalc: 2.2.1 -> 2.2.2",
+   "tries": 1
+  },
+  "569124": {
+   "run_id": 39626220121,
+   "status": "dispatched",
+   "time": "2026-10-21T15:29:50+00:00",
+   "title": "vitess: 24.0.3 -> 24.0.4"
+  },
   "569141": {
    "run_id": 39623806608,
    "status": "dispatched",
