@@ -1,5 +1,47 @@
 {
  "records": {
+  "567595": {
+   "run_id": 39690078665,
+   "status": "dispatched",
+   "time": "2026-10-21T22:56:44+00:00",
+   "title": "lyx: 2.5.1 -> 2.5.3"
+  },
+  "567596": {
+   "run_id": 39689478825,
+   "status": "dispatched",
+   "time": "2026-10-21T22:51:28+00:00",
+   "title": "python3Packages.linode-metadata: 0.3.5 -> 0.4.0"
+  },
+  "567606": {
+   "run_id": 39688932805,
+   "status": "dispatched",
+   "time": "2026-10-21T22:46:44+00:00",
+   "title": "ocamlPackages.pure-html: 3.11.2 -> 4.0.0"
+  },
+  "567608": {
+   "run_id": 39688431606,
+   "status": "dispatched",
+   "time": "2026-10-21T22:42:34+00:00",
+   "title": "ocamlPackages.dream-html: 3.11.2 -> 4.0.0"
+  },
+  "567616": {
+   "run_id": 39687745665,
+   "status": "dispatched",
+   "time": "2026-10-21T22:36:46+00:00",
+   "title": "lzbench: 2.3 -> 2.4"
+  },
+  "567622": {
+   "run_id": 39687313637,
+   "status": "dispatched",
+   "time": "2026-10-21T22:33:10+00:00",
+   "title": "python3Packages.insteon-frontend-home-assistant: 0.6.2 -> 0.7.0"
+  },
+  "567643": {
+   "run_id": 39687076496,
+   "status": "dispatched",
+   "time": "2026-10-21T22:31:11+00:00",
+   "title": "glaze: 8.4.0 -> 9.0.0"
+  },
   "567701": {
    "run_id": 39686791569,
    "status": "dispatched",
