@@ -1,5 +1,47 @@
 {
  "records": {
+  "569415": {
+   "run_id": 39598090084,
+   "status": "dispatched",
+   "time": "2026-10-21T12:14:58+00:00",
+   "title": "twilio-cli: 6.2.4 -> 7.2.0"
+  },
+  "569424": {
+   "run_id": 39597526520,
+   "status": "dispatched",
+   "time": "2026-10-21T12:10:41+00:00",
+   "title": "vscode-extensions.ms-dotnettools.vscode-dotnet-runtime: 3.1.0 -> 3.2.0"
+  },
+  "569442": {
+   "run_id": 39595903106,
+   "status": "dispatched",
+   "time": "2026-10-21T11:58:07+00:00",
+   "title": "msrtool: 26.06 -> 26.09"
+  },
+  "569514": {
+   "run_id": 39595587577,
+   "status": "dispatched",
+   "time": "2026-10-21T11:55:34+00:00",
+   "title": "python3Packages.google-cloud-appengine-logging: 1.10.0 -> 1.11.0"
+  },
+  "569537": {
+   "run_id": 39595263403,
+   "status": "dispatched",
+   "time": "2026-10-21T11:53:00+00:00",
+   "title": "python3Packages.pyathena: 3.36.0 -> 3.37.0"
+  },
+  "569552": {
+   "run_id": 39594869580,
+   "status": "dispatched",
+   "time": "2026-10-21T11:49:54+00:00",
+   "title": "yle-dl: 20260716 -> 20261002"
+  },
+  "569571": {
+   "run_id": 39594694817,
+   "status": "dispatched",
+   "time": "2026-10-21T11:48:28+00:00",
+   "title": "hydrogen: 1.2.6 -> 1.2.7"
+  },
   "569619": {
    "run_id": 39594064434,
    "status": "dispatched",
