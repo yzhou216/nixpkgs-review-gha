@@ -1,5 +1,17 @@
 {
  "records": {
+  "569293": {
+   "run_id": 39604386485,
+   "status": "dispatched",
+   "time": "2026-10-21T13:01:33+00:00",
+   "title": "libsolv: 0.7.39 -> 0.7.40"
+  },
+  "569327": {
+   "run_id": 39603539672,
+   "status": "dispatched",
+   "time": "2026-10-21T12:55:28+00:00",
+   "title": "cloud-custodian: 0.9.52.0 -> 0.9.53.0"
+  },
   "569378": {
    "run_id": 39601716331,
    "status": "dispatched",
