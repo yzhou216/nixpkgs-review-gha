@@ -1,5 +1,23 @@
 {
  "records": {
+  "568678": {
+   "run_id": 39640970257,
+   "status": "dispatched",
+   "time": "2026-10-21T17:07:32+00:00",
+   "title": "upterm: 0.29.0 -> 0.37.0"
+  },
+  "568682": {
+   "run_id": 39640576812,
+   "status": "dispatched",
+   "time": "2026-10-21T17:04:57+00:00",
+   "title": "libretro.dolphin: 0-unstable-2026-09-19 -> 0-unstable-2026-10-11"
+  },
+  "568720": {
+   "run_id": 39638583312,
+   "status": "dispatched",
+   "time": "2026-10-21T16:51:49+00:00",
+   "title": "yeswiki: 4.6.7 -> 4.7.0"
+  },
   "568784": {
    "run_id": 39638188966,
    "status": "dispatched",
