@@ -1,5 +1,41 @@
 {
  "records": {
+  "570736": {
+   "run_id": 39554705467,
+   "status": "dispatched",
+   "time": "2026-10-21T06:19:30+00:00",
+   "title": "smartgit: 26.1.055 -> 26.1.057"
+  },
+  "570738": {
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "webstorm: 2026.2.0.1 -> 2026.2.3",
+   "tries": 0
+  },
+  "570739": {
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "phpstorm: 2026.2.0.1 -> 2026.2.3",
+   "tries": 0
+  },
+  "570741": {
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "datagrip: 2026.2.2 -> 2026.2.6",
+   "tries": 0
+  },
+  "570742": {
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "goland: 2026.2.2.1 -> 2026.2.3",
+   "tries": 0
+  },
+  "570743": {
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "rider: 2026.2.0.1 -> 2026.2.3.1",
+   "tries": 0
+  },
   "570783": {
    "run_id": 39548918289,
    "status": "dispatched",
