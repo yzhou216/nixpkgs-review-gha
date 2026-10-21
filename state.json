@@ -1,5 +1,47 @@
 {
  "records": {
+  "570870": {
+   "run_id": 39542162656,
+   "status": "dispatched",
+   "time": "2026-10-21T04:06:01+00:00",
+   "title": "libmediainfo: 26.05 -> 26.10"
+  },
+  "570879": {
+   "run_id": 39541392469,
+   "status": "dispatched",
+   "time": "2026-10-21T03:57:28+00:00",
+   "title": "quartoMinimal: 1.10.18 -> 1.10.19"
+  },
+  "570911": {
+   "run_id": 39541268192,
+   "status": "dispatched",
+   "time": "2026-10-21T03:56:02+00:00",
+   "title": "mprisence: 1.8.8 -> 1.9.0"
+  },
+  "570950": {
+   "run_id": 39540897857,
+   "status": "dispatched",
+   "time": "2026-10-21T03:51:52+00:00",
+   "title": "crossmacro-daemon: 1.3.1 -> 1.5.1"
+  },
+  "570959": {
+   "run_id": 39540620768,
+   "status": "dispatched",
+   "time": "2026-10-21T03:48:48+00:00",
+   "title": "bigloo: 4.7a -> 4.7b"
+  },
+  "570963": {
+   "run_id": 39540147144,
+   "status": "dispatched",
+   "time": "2026-10-21T03:43:35+00:00",
+   "title": "h2o: 2.3.0-rolling-2026-09-10 \u2192 2.3.0-rolling-2026-10-20"
+  },
+  "570986": {
+   "run_id": 39540024747,
+   "status": "dispatched",
+   "time": "2026-10-21T03:42:14+00:00",
+   "title": "silver-platter: 0.8.4 -> 0.8.5"
+  },
   "570997": {
    "run_id": 39539296343,
    "status": "dispatched",
