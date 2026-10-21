@@ -1,5 +1,41 @@
 {
  "records": {
+  "567919": {
+   "run_id": 39684745859,
+   "status": "dispatched",
+   "time": "2026-10-21T22:12:10+00:00",
+   "title": "sourcey: 3.6.5 -> 3.8.1"
+  },
+  "567927": {
+   "run_id": 39684140580,
+   "status": "dispatched",
+   "time": "2026-10-21T22:07:23+00:00",
+   "title": "python3Packages.pytapo: 3.4.19 -> 3.4.28"
+  },
+  "567954": {
+   "run_id": 39683955419,
+   "status": "dispatched",
+   "time": "2026-10-21T22:05:55+00:00",
+   "title": "libspecbleach: 0.3.1 -> 0.4.1"
+  },
+  "568018": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "mozhi: 0-unstable-2026-08-30 -> 0-unstable-2026-10-15",
+   "tries": 0
+  },
+  "568035": {
+   "run_id": 39682700767,
+   "status": "dispatched",
+   "time": "2026-10-21T21:56:06+00:00",
+   "title": "python3Packages.stackit-objectstorage: 1.6.0 -> 1.7.0"
+  },
+  "568066": {
+   "run_id": 39682152801,
+   "status": "dispatched",
+   "time": "2026-10-21T21:51:51+00:00",
+   "title": "archivemount: 1b -> 1c"
+  },
   "568078": {
    "run_id": 39678011642,
    "status": "dispatched",
