@@ -1,5 +1,23 @@
 {
  "records": {
+  "569233": {
+   "run_id": 39614394609,
+   "status": "dispatched",
+   "time": "2026-10-21T14:09:41+00:00",
+   "title": "rtabmap: 0.23.8 -> 0.23.13-rolling"
+  },
+  "569256": {
+   "run_id": 39612066896,
+   "status": "dispatched",
+   "time": "2026-10-21T13:54:11+00:00",
+   "title": "python3Packages.petsctools: 2026.0 -> 2026.1"
+  },
+  "569270": {
+   "run_id": 39611365332,
+   "status": "dispatched",
+   "time": "2026-10-21T13:49:24+00:00",
+   "title": "python3Packages.llguidance: 1.8.0 -> 1.9.1"
+  },
   "569277": {
    "run_id": 39609093846,
    "status": "dispatched",
