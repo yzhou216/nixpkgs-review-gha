@@ -1,5 +1,23 @@
 {
  "records": {
+  "566418": {
+   "run_id": 39713920559,
+   "status": "dispatched",
+   "time": "2026-10-22T02:54:22+00:00",
+   "title": "python3Packages.url-normalize: 3.0.0 -> 3.0.1"
+  },
+  "566446": {
+   "run_id": 39712766326,
+   "status": "dispatched",
+   "time": "2026-10-22T02:41:30+00:00",
+   "title": "sudachi-rs: 0.6.11 -> 0.7.0"
+  },
+  "566454": {
+   "run_id": 39712397377,
+   "status": "dispatched",
+   "time": "2026-10-22T02:37:23+00:00",
+   "title": "python3Packages.aiostream: 0.7.2 -> 0.8.1"
+  },
   "566493": {
    "run_id": 39710847975,
    "status": "dispatched",
