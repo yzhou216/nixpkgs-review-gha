@@ -1,5 +1,47 @@
 {
  "records": {
+  "562055": {
+   "run_id": 39842356100,
+   "status": "dispatched",
+   "time": "2026-10-22T19:41:55+00:00",
+   "title": "calamares: 3.4.2 -> 3.4.3"
+  },
+  "562107": {
+   "run_id": 39841845248,
+   "status": "dispatched",
+   "time": "2026-10-22T19:38:21+00:00",
+   "title": "python3Packages.bce-python-sdk: 0.9.76 -> 0.9.79"
+  },
+  "562172": {
+   "run_id": 39841627891,
+   "status": "dispatched",
+   "time": "2026-10-22T19:36:51+00:00",
+   "title": "google-guest-oslogin: 20260214.00 -> 20261009.00"
+  },
+  "562222": {
+   "run_id": 39841414390,
+   "status": "dispatched",
+   "time": "2026-10-22T19:35:22+00:00",
+   "title": "openxr-loader: 1.1.62 -> 1.1.63"
+  },
+  "562225": {
+   "reason": "mergeability unknown",
+   "status": "retry",
+   "title": "asmjit: 0-unstable-2026-03-26 -> 0-unstable-2026-10-12",
+   "tries": 1
+  },
+  "562237": {
+   "run_id": 39839278775,
+   "status": "dispatched",
+   "time": "2026-10-22T19:20:56+00:00",
+   "title": "mssql_jdbc: 13.4.0 -> 13.6.0"
+  },
+  "562278": {
+   "run_id": 39838248613,
+   "status": "dispatched",
+   "time": "2026-10-22T19:13:49+00:00",
+   "title": "opengamepadui: 0.46.0 -> 0.46.1"
+  },
   "562279": {
    "run_id": 39837957108,
    "status": "dispatched",
