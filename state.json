@@ -1,5 +1,29 @@
 {
  "records": {
+  "561667": {
+   "run_id": 39856986443,
+   "status": "dispatched",
+   "time": "2026-10-22T21:24:22+00:00",
+   "title": "yarp: 4.0.0 -> 4.0.1"
+  },
+  "561681": {
+   "run_id": 39854815311,
+   "status": "dispatched",
+   "time": "2026-10-22T21:08:37+00:00",
+   "title": "klassy: 6.7.1 -> 6.7.3"
+  },
+  "561697": {
+   "run_id": 39854610705,
+   "status": "dispatched",
+   "time": "2026-10-22T21:07:08+00:00",
+   "title": "cryptoverif: 2.12 -> 2.13"
+  },
+  "561706": {
+   "run_id": 39854406249,
+   "status": "dispatched",
+   "time": "2026-10-22T21:05:39+00:00",
+   "title": "python3Packages.llama-index-node-parser-docling: 0.4.2 -> 0.5.0"
+  },
   "561721": {
    "run_id": 39853285275,
    "status": "dispatched",
@@ -43,10 +67,10 @@
    "title": "kurve: 3.5.1 -> 3.6.1"
   },
   "561837": {
-   "reason": "mergeability unknown",
-   "status": "retry",
-   "title": "rpcs3: 0.0.42-unstable-2026-08-15 -> 0.0.43-unstable-2026-10-11",
-   "tries": 1
+   "run_id": 39854054489,
+   "status": "dispatched",
+   "time": "2026-10-22T21:03:08+00:00",
+   "title": "rpcs3: 0.0.42-unstable-2026-08-15 -> 0.0.43-unstable-2026-10-11"
   },
   "561892": {
    "run_id": 39847596978,
