@@ -1,5 +1,41 @@
 {
  "records": {
+  "561767": {
+   "run_id": 39850590912,
+   "status": "dispatched",
+   "time": "2026-10-22T20:38:23+00:00",
+   "title": "snagboot: 2.4 -> 3.0.1"
+  },
+  "561768": {
+   "run_id": 39849636028,
+   "status": "dispatched",
+   "time": "2026-10-22T20:31:45+00:00",
+   "title": "djlint: 1.43.1 -> 1.46.4"
+  },
+  "561777": {
+   "run_id": 39849408327,
+   "status": "dispatched",
+   "time": "2026-10-22T20:30:14+00:00",
+   "title": "snd: 26.6 -> 26.7"
+  },
+  "561813": {
+   "run_id": 39847910176,
+   "status": "dispatched",
+   "time": "2026-10-22T20:19:57+00:00",
+   "title": "kurve: 3.5.1 -> 3.6.1"
+  },
+  "561837": {
+   "reason": "mergeability unknown",
+   "status": "retry",
+   "title": "rpcs3: 0.0.42-unstable-2026-08-15 -> 0.0.43-unstable-2026-10-11",
+   "tries": 1
+  },
+  "561892": {
+   "run_id": 39847596978,
+   "status": "dispatched",
+   "time": "2026-10-22T20:17:49+00:00",
+   "title": "home-assistant-custom-components.mitsubishi: 0.6.0 -> 0.6.1"
+  },
   "561931": {
    "run_id": 39846820198,
    "status": "dispatched",
