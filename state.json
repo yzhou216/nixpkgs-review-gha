@@ -1,5 +1,95 @@
 {
  "records": {
+  "566603": {
+   "run_id": 39708964671,
+   "status": "dispatched",
+   "time": "2026-10-22T02:00:40+00:00",
+   "title": "python3Packages.nats-py: 2.15.0 -> 2.16.0"
+  },
+  "566657": {
+   "run_id": 39708819651,
+   "status": "dispatched",
+   "time": "2026-10-22T01:59:13+00:00",
+   "title": "lcm: 1.5.2 -> 1.5.3"
+  },
+  "566672": {
+   "run_id": 39708373776,
+   "status": "dispatched",
+   "time": "2026-10-22T01:54:31+00:00",
+   "title": "python3Packages.brother: 6.1.2 -> 6.2.0"
+  },
+  "566686": {
+   "run_id": 39707923671,
+   "status": "dispatched",
+   "time": "2026-10-22T01:49:51+00:00",
+   "title": "segger-ozone: 3.50a -> 3.50b"
+  },
+  "566689": {
+   "run_id": 39707692448,
+   "status": "dispatched",
+   "time": "2026-10-22T01:47:21+00:00",
+   "title": "tree-sitter-grammars.tree-sitter-php: 0.24.2 -> 0.25.1"
+  },
+  "566694": {
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "python3Packages.holidays: 0.104 -> 0.105",
+   "tries": 0
+  },
+  "566709": {
+   "run_id": 39707448844,
+   "status": "dispatched",
+   "time": "2026-10-22T01:44:46+00:00",
+   "title": "python3Packages.fireworks-ai: 1.2.11 -> 1.2.26"
+  },
+  "566717": {
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "python3Packages.boto3-stubs: 1.43.100 -> 1.43.102",
+   "tries": 0
+  },
+  "566752": {
+   "run_id": 39707205035,
+   "status": "dispatched",
+   "time": "2026-10-22T01:42:11+00:00",
+   "title": "libewf-legacy: 20140816 -> 20140817"
+  },
+  "566759": {
+   "run_id": 39707071547,
+   "status": "dispatched",
+   "time": "2026-10-22T01:40:46+00:00",
+   "title": "python3Packages.anndata: 0.13.3.post0 -> 0.13.4"
+  },
+  "566779": {
+   "run_id": 39706932661,
+   "status": "dispatched",
+   "time": "2026-10-22T01:39:20+00:00",
+   "title": "python3Packages.langchain-deepseek: 1.1.0 -> 1.1.1"
+  },
+  "566793": {
+   "run_id": 39706746388,
+   "status": "dispatched",
+   "time": "2026-10-22T01:37:22+00:00",
+   "title": "gdown: 6.4.1 -> 6.4.2"
+  },
+  "566798": {
+   "run_id": 39706601660,
+   "status": "dispatched",
+   "time": "2026-10-22T01:35:52+00:00",
+   "title": "bitcomet: 2.21.2 -> 2.23.0"
+  },
+  "566809": {
+   "run_id": 39706465347,
+   "status": "dispatched",
+   "time": "2026-10-22T01:34:27+00:00",
+   "title": "python3Packages.towncrier: 25.8.0 -> 26.9.0"
+  },
+  "566815": {
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "python3Packages.phonopy: 4.4.0 -> 4.6.0",
+   "tries": 0
+  },
   "566826": {
    "run_id": 39705676161,
    "status": "dispatched",
@@ -67,8 +157,8 @@
    "tries": 0
   },
   "567019": {
-   "reason": "mergeability unknown",
-   "status": "retry",
+   "reason": "merge conflict",
+   "status": "skipped",
    "title": "ruby-mine: 2026.2 -> 2026.2.3",
    "tries": 1
   },
