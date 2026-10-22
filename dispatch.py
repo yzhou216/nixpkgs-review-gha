@@ -397,6 +397,18 @@ def reviewed_head(run_id):
     return None
 
 
+def rerun_failed_jobs(run_id, rec):
+    """Re-run the failed jobs of a run, and return whether GitHub accepted it."""
+    if DRY_RUN:
+        return True
+    try:
+        gh(["api", "-X", "POST", f"repos/{REPO}/actions/runs/{run_id}/rerun-failed-jobs"])
+    except RuntimeError as e:
+        rec["final"] = f"re-run refused: {e}"[:300]
+        return False
+    return True
+
+
 def rerun(n, rec, cand):
     """Re-run the failed jobs of a batch review, or review a changed head afresh.
 
@@ -406,14 +418,18 @@ def rerun(n, rec, cand):
     kind = rec.pop("rerun")
     rec.pop("rerun_after", None)
     run_id = rec["run_id"]
+    # Someone else may have re-run it meanwhile, and the scan sees any new failure
+    run = api(f"repos/{REPO}/actions/runs/{run_id}")
+    if run["status"] != "completed" or run["conclusion"] != "failure":
+        return False, f"run {run_id} is {run['conclusion'] or run['status']} now, not re-running it"
     pr = api(f"repos/NixOS/nixpkgs/pulls/{n}")
     if pr["state"] != "open":
         rec["final"] = f"{pr['state']} before the re-run"
         return False, rec["final"]
     head = reviewed_head(run_id) if kind == "no runner" else None
     if kind == "no runner" and head == pr["head"]["sha"]:
-        if not DRY_RUN:
-            gh(["api", "-X", "POST", f"repos/{REPO}/actions/runs/{run_id}/rerun-failed-jobs"])
+        if not rerun_failed_jobs(run_id, rec):
+            return False, rec["final"]
         return True, f"re-ran the failed jobs of run {run_id}"
     # The head that will be built has not been checked yet
     status, reason, title = check_pr({"number": n, "headRefOid": head or cand["headRefOid"]})
@@ -426,8 +442,8 @@ def rerun(n, rec, cand):
         rec["final"] = f"not re-run: {reason}"
         return False, rec["final"]
     if kind == "prepare":
-        if not DRY_RUN:
-            gh(["api", "-X", "POST", f"repos/{REPO}/actions/runs/{run_id}/rerun-failed-jobs"])
+        if not rerun_failed_jobs(run_id, rec):
+            return False, rec["final"]
         return True, f"re-ran run {run_id}"
     new_id = None if DRY_RUN else dispatch(n)
     for key in ("examined", "no_runner_at", "tries"):
