@@ -1,5 +1,83 @@
 {
  "records": {
+  "564147": {
+   "run_id": 39804254405,
+   "status": "dispatched",
+   "time": "2026-10-22T15:22:41+00:00",
+   "title": "sipexer: 2.0.0 -> 2.1.0"
+  },
+  "564156": {
+   "run_id": 39803714097,
+   "status": "dispatched",
+   "time": "2026-10-22T15:19:18+00:00",
+   "title": "yffi: 0.27.4 -> 0.28.0"
+  },
+  "564185": {
+   "run_id": 39802547280,
+   "status": "dispatched",
+   "time": "2026-10-22T15:12:00+00:00",
+   "title": "iio-hyprland: 0-unstable-2026-02-26 -> 0-unstable-2026-09-07"
+  },
+  "564222": {
+   "run_id": 39802149416,
+   "status": "dispatched",
+   "time": "2026-10-22T15:09:29+00:00",
+   "title": "kics: 2.1.21 -> 2.2.0"
+  },
+  "564276": {
+   "run_id": 39801787021,
+   "status": "dispatched",
+   "time": "2026-10-22T15:07:10+00:00",
+   "title": "python3Packages.aiocomelit: 2.0.7 -> 3.0.0"
+  },
+  "564317": {
+   "run_id": 39801338915,
+   "status": "dispatched",
+   "time": "2026-10-22T15:04:19+00:00",
+   "title": "mstflint: 4.37.0-1 -> 4.37.0-1.1"
+  },
+  "564319": {
+   "run_id": 39800779420,
+   "status": "dispatched",
+   "time": "2026-10-22T15:00:42+00:00",
+   "title": "libnats-c: 3.13.0 -> 3.14.0"
+  },
+  "564331": {
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "python3Packages.aioautomower: 2.8.1 -> 3.0.0",
+   "tries": 0
+  },
+  "564336": {
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "python3Packages.midea-local: 11.0.1 -> 12.0.0",
+   "tries": 0
+  },
+  "564378": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "civicrm: 6.18.0 -> 6.19.1",
+   "tries": 0
+  },
+  "564388": {
+   "run_id": 39800523197,
+   "status": "dispatched",
+   "time": "2026-10-22T14:59:01+00:00",
+   "title": "python3Packages.insightface: 1.0.1 -> 2.1"
+  },
+  "564420": {
+   "run_id": 39800303768,
+   "status": "dispatched",
+   "time": "2026-10-22T14:57:32+00:00",
+   "title": "zef: 1.1.3 -> 1.1.4"
+  },
+  "564435": {
+   "run_id": 39800082574,
+   "status": "dispatched",
+   "time": "2026-10-22T14:56:04+00:00",
+   "title": "ocamlPackages.miou: 0.10.0 -> 0.10.2"
+  },
   "564450": {
    "run_id": 39785315450,
    "status": "dispatched",
