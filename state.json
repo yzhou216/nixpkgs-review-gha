@@ -792,8 +792,6 @@
   "568410": {
    "examined": 1,
    "no_runner_at": "2026-10-21T18:48:47+00:00",
-   "rerun": "no runner",
-   "rerun_after": "2026-10-21T19:18:47+00:00",
    "run_id": 39653807508,
    "status": "dispatched",
    "time": "2026-10-21T18:33:34+00:00",
@@ -808,8 +806,6 @@
   "568443": {
    "examined": 1,
    "no_runner_at": "2026-10-21T18:24:42+00:00",
-   "rerun": "no runner",
-   "rerun_after": "2026-10-21T18:54:42+00:00",
    "run_id": 39650169090,
    "status": "dispatched",
    "time": "2026-10-21T18:09:28+00:00",
@@ -830,8 +826,6 @@
   "568483": {
    "examined": 1,
    "no_runner_at": "2026-10-21T18:21:56+00:00",
-   "rerun": "no runner",
-   "rerun_after": "2026-10-21T18:51:56+00:00",
    "run_id": 39649762024,
    "status": "dispatched",
    "time": "2026-10-21T18:06:43+00:00",
@@ -840,8 +834,6 @@
   "568562": {
    "examined": 1,
    "no_runner_at": "2026-10-21T18:08:58+00:00",
-   "rerun": "no runner",
-   "rerun_after": "2026-10-21T18:38:58+00:00",
    "run_id": 39647836554,
    "status": "dispatched",
    "time": "2026-10-21T17:53:43+00:00",
@@ -850,8 +842,6 @@
   "568571": {
    "examined": 1,
    "no_runner_at": "2026-10-21T18:06:19+00:00",
-   "rerun": "no runner",
-   "rerun_after": "2026-10-21T18:36:19+00:00",
    "run_id": 39647454582,
    "status": "dispatched",
    "time": "2026-10-21T17:51:07+00:00",
@@ -860,8 +850,6 @@
   "568590": {
    "examined": 1,
    "no_runner_at": "2026-10-21T17:59:10+00:00",
-   "rerun": "no runner",
-   "rerun_after": "2026-10-21T18:29:10+00:00",
    "run_id": 39646398776,
    "status": "dispatched",
    "time": "2026-10-21T17:43:58+00:00",
