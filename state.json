@@ -199,6 +199,8 @@
    "title": "python3Packages.slepc4py: 3.25.1 -> 3.25.2"
   },
   "565710": {
+   "examined": 1,
+   "final": "review (aarch64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ; review (x86_64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ",
    "run_id": 39753103517,
    "status": "dispatched",
    "time": "2026-10-22T09:08:28+00:00",
