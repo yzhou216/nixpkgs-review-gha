@@ -1,5 +1,29 @@
 {
  "records": {
+  "565979": {
+   "run_id": 39723627811,
+   "status": "dispatched",
+   "time": "2026-10-22T04:39:54+00:00",
+   "title": "python3Packages.iminuit: 2.32.0 -> 2.33.0"
+  },
+  "565996": {
+   "run_id": 39722885671,
+   "status": "dispatched",
+   "time": "2026-10-22T04:31:50+00:00",
+   "title": "jbang: 0.141.0 -> 0.142.0"
+  },
+  "565997": {
+   "run_id": 39722393909,
+   "status": "dispatched",
+   "time": "2026-10-22T04:26:33+00:00",
+   "title": "python3Packages.mistral-common: 1.11.7 -> 1.12.0"
+  },
+  "566001": {
+   "run_id": 39722108155,
+   "status": "dispatched",
+   "time": "2026-10-22T04:23:29+00:00",
+   "title": "python3Packages.pysigma: 1.5.0 -> 1.5.1"
+  },
   "566018": {
    "run_id": 39721716697,
    "status": "dispatched",
