@@ -6,19 +6,33 @@ number of in-flight review runs under a cap.  Every pull request is checked
 again just before its review is dispatched, and the outcome of that check is
 recorded in the state file so that later runs skip it.
 
+GitHub often has no macOS arm64 runner to spare during US working hours.
+The aarch64-darwin job of a review then fails after about fifteen minutes
+without starting, and the review posts nothing.  The script re-runs only the
+failed jobs of such a review once runners are available again, which keeps
+its Linux results, provided that the head of the pull request is unchanged.
+If the head changed, it checks the pull request again and dispatches a new
+review.  While these failures are recent, it keeps fewer reviews in flight
+and holds back re-runs.  Reviews that run for a long time, usually large
+Linux rebuilds, count against a separate cap so that they do not stall the
+batch.
+
 A run lasts up to TIME_BUDGET seconds, commits the state file every
 COMMIT_INTERVAL seconds, and then dispatches the next batch-review run, so
 the batch does not depend on GitHub's unreliable cron schedule.  It also
 starts the next run after a crash, unless the crash came within ten minutes
-of starting, which would otherwise repeat in a tight loop.  Disabling
-the batch-review workflow stops the current run within a few minutes and
-ends the chain.  Once every candidate has been handled and no batch review
-is still running, the script disables the workflow itself.
+of starting, which would otherwise repeat in a tight loop.  A scheduled run
+exits at once while another batch-review run is active, so the schedule only
+restarts a broken chain.  Disabling the batch-review workflow stops the
+current run within a few minutes and ends the chain.  Once every candidate
+has been handled and no batch review is still running or waiting for a
+re-run, the script disables the workflow itself.
 
 Usage: dispatch.py CANDIDATES_JSON STATE_JSON
 
-Environment: GH_TOKEN, REPO, OWNER, and optionally LIMIT, DRY_RUN and
-TIME_BUDGET (seconds).  Runs with a LIMIT or DRY_RUN do not chain.
+Environment: GH_TOKEN, REPO, OWNER, and optionally EVENT, RUN_ID, LIMIT,
+DRY_RUN and TIME_BUDGET (seconds).  Runs with a LIMIT or DRY_RUN do not
+chain.
 """
 
 import datetime
@@ -31,19 +45,32 @@ import time
 
 REPO = os.environ["REPO"]
 OWNER = os.environ["OWNER"]
+EVENT = os.environ.get("EVENT", "")
+RUN_ID = int(os.environ.get("RUN_ID") or 0)
 LIMIT = int(os.environ["LIMIT"]) if os.environ.get("LIMIT") else None
 DRY_RUN = os.environ.get("DRY_RUN") == "true"
 TIME_BUDGET = int(os.environ.get("TIME_BUDGET") or 19200)
 
 MAX_INFLIGHT = 8
+MAX_INFLIGHT_CONSTRAINED = 3
+MAX_LONG = 6
+LONG_RUN = 5400
 MAX_TOTAL_INFLIGHT = 12
 MIN_INTERVAL = 75
 MIN_RATE_REMAINING = 1000
 MAX_TRIES = 5
+MAX_ATTEMPTS = 8
 RETRY_POSITION = 15
+RERUN_DELAY = 1800
+MAX_RERUN_DELAY = 14400
+CAPACITY_WINDOW = 1800
+SCAN_INTERVAL = 300
+POLL_INTERVAL = 30
+SEEN_INTERVAL = 60
 COMMIT_INTERVAL = 1800
 ENABLED_CHECK_INTERVAL = 120
 ACTIVE = {"queued", "in_progress", "waiting", "pending", "requested"}
+NOT_ACQUIRED = "was not acquired by Runner"
 SMALL = {"1", "1-10", "11-100"}
 INPUTS = {
     "x86_64-linux": "true",
@@ -90,6 +117,14 @@ def log(*args):
     print(ts, *args, flush=True)
 
 
+def epoch(stamp):
+    return datetime.datetime.fromisoformat(stamp.replace("Z", "+00:00")).timestamp()
+
+
+def iso(t):
+    return datetime.datetime.fromtimestamp(t, datetime.timezone.utc).isoformat(timespec="seconds")
+
+
 def gh(args):
     for attempt in range(6):
         p = subprocess.run(["gh", *args], capture_output=True, text=True)
@@ -117,6 +152,18 @@ def fork_runs(pages=1):
         if len(d["workflow_runs"]) < 100:
             break
     return runs
+
+
+def active_runs():
+    """Return the queued and in-progress review runs.
+
+    Unlike the most recent runs, this includes re-run attempts of old runs.
+    """
+    runs = {}
+    for status in ("queued", "in_progress"):
+        d = api(f"repos/{REPO}/actions/workflows/review.yml/runs?status={status}&per_page=100")
+        runs |= {r["id"]: r for r in d["workflow_runs"]}
+    return list(runs.values())
 
 
 def pr_of(run):
@@ -275,6 +322,120 @@ def dispatch(n):
     return None
 
 
+def failure_kind(run_id):
+    """Classify why the latest attempt of a failed review run failed.
+
+    Return a (kind, time, reason) tuple.  The kind is "no runner" when every
+    failed job is a review job that never got a runner, "prepare" when only
+    the prepare job failed, for example while GitHub was still computing
+    mergeability, and "other" otherwise.  The time is when the last failed
+    job ended.
+    """
+    jobs = api(f"repos/{REPO}/actions/runs/{run_id}/jobs?per_page=50")["jobs"]
+    bad = [j for j in jobs if j["conclusion"] not in ("success", "skipped")]
+    if not bad:
+        return "other", time.time(), "no failed job found"
+    for j in bad:
+        notes = api(f"repos/{REPO}/check-runs/{j['id']}/annotations")
+        j["notes"] = [a["message"] for a in notes if a["annotation_level"] == "failure"]
+    when = max((epoch(j["completed_at"]) for j in bad if j["completed_at"]), default=time.time())
+    if all(j["name"].startswith("review") and any(NOT_ACQUIRED in m for m in j["notes"]) for j in bad):
+        return "no runner", when, "no runner"
+    if [j["name"] for j in bad] == ["prepare"]:
+        return "prepare", when, "prepare failed"
+    return "other", when, "; ".join(f"{j['name']}: {(j['notes'] or [j['conclusion']])[0][:100]}" for j in bad)
+
+
+def scan_failures(records, since):
+    """Examine batch reviews whose latest attempt failed, and schedule re-runs.
+
+    Each failed attempt is examined once.  Reviews that failed for lack of a
+    runner, or in the prepare job, are re-run up to MAX_ATTEMPTS attempts in
+    total, and other failures are recorded as final.  The delay before a
+    re-run doubles with every attempt, so that one busy afternoon does not
+    use up all attempts.  Return the end time of the most recent failure for
+    lack of a runner.
+    """
+    by_run = {r.get("run_id"): n for n, r in records.items() if r["status"] == "dispatched"}
+    page = 1
+    while True:
+        d = api(
+            f"repos/{REPO}/actions/workflows/review.yml/runs"
+            f"?status=failure&created=%3E%3D{since}&per_page=100&page={page}"
+        )
+        for run in d["workflow_runs"]:
+            n = by_run.get(run["id"])
+            rec = records.get(n) if n else None
+            if rec is None or rec.get("examined") == run["run_attempt"]:
+                continue
+            kind, when, reason = failure_kind(run["id"])
+            rec["examined"] = run["run_attempt"]
+            if kind == "no runner":
+                rec["no_runner_at"] = iso(when)
+            if kind != "other" and run["run_attempt"] < MAX_ATTEMPTS:
+                rec["rerun"] = kind
+                delay = min(RERUN_DELAY * 2 ** (run["run_attempt"] - 1), MAX_RERUN_DELAY)
+                rec["rerun_after"] = iso(when + delay)
+                rec.pop("final", None)
+                log(f"#{n} run {run['id']} attempt {run['run_attempt']} failed ({kind}), re-run scheduled")
+            else:
+                rec.pop("rerun", None)
+                rec.pop("rerun_after", None)
+                rec["final"] = reason if kind == "other" else f"{kind}, gave up after {run['run_attempt']} attempts"
+                log(f"#{n} run {run['id']} attempt {run['run_attempt']} failed: {rec['final']}")
+        if len(d["workflow_runs"]) < 100:
+            break
+        page += 1
+    return max((epoch(r["no_runner_at"]) for r in records.values() if r.get("no_runner_at")), default=0.0)
+
+
+def reviewed_head(run_id):
+    """Return the pull request head that a review run built, from its report artifacts."""
+    for a in api(f"repos/{REPO}/actions/runs/{run_id}/artifacts")["artifacts"]:
+        if a["name"].startswith("report_") and not a["expired"]:
+            return json.loads(gh(["api", a["archive_download_url"]]))["head"]
+    return None
+
+
+def rerun(n, rec, cand):
+    """Re-run the failed jobs of a batch review, or review a changed head afresh.
+
+    Return whether a review was started, and a short description of what
+    was done.
+    """
+    kind = rec.pop("rerun")
+    rec.pop("rerun_after", None)
+    run_id = rec["run_id"]
+    pr = api(f"repos/NixOS/nixpkgs/pulls/{n}")
+    if pr["state"] != "open":
+        rec["final"] = f"{pr['state']} before the re-run"
+        return False, rec["final"]
+    head = reviewed_head(run_id) if kind == "no runner" else None
+    if kind == "no runner" and head == pr["head"]["sha"]:
+        if not DRY_RUN:
+            gh(["api", "-X", "POST", f"repos/{REPO}/actions/runs/{run_id}/rerun-failed-jobs"])
+        return True, f"re-ran the failed jobs of run {run_id}"
+    # The head that will be built has not been checked yet
+    status, reason, title = check_pr({"number": n, "headRefOid": head or cand["headRefOid"]})
+    if status == "retry" and rec.get("tries", 0) < MAX_TRIES:
+        rec["tries"] = rec.get("tries", 0) + 1
+        rec["rerun"] = kind
+        rec["rerun_after"] = iso(time.time() + RERUN_DELAY)
+        return False, f"re-run postponed: {reason}"
+    if status != "ok":
+        rec["final"] = f"not re-run: {reason}"
+        return False, rec["final"]
+    if kind == "prepare":
+        if not DRY_RUN:
+            gh(["api", "-X", "POST", f"repos/{REPO}/actions/runs/{run_id}/rerun-failed-jobs"])
+        return True, f"re-ran run {run_id}"
+    new_id = None if DRY_RUN else dispatch(n)
+    for key in ("examined", "no_runner_at", "tries"):
+        rec.pop(key, None)
+    rec.update(run_id=new_id, title=title, time=iso(time.time()), redispatched=True)
+    return True, f"head changed since run {run_id}, dispatched run {new_id}: {title}"
+
+
 def rate():
     core = api("rate_limit")["resources"]["core"]
     return core["remaining"], core["limit"]
@@ -282,6 +443,11 @@ def rate():
 
 def workflow_enabled():
     return api(f"repos/{REPO}/actions/workflows/batch-review.yml")["state"] == "active"
+
+
+def other_dispatcher_active():
+    runs = api(f"repos/{REPO}/actions/workflows/batch-review.yml/runs?per_page=20")["workflow_runs"]
+    return any(r["status"] in ACTIVE and r["id"] != RUN_ID for r in runs)
 
 
 def commit_state(state_path):
@@ -305,7 +471,7 @@ def commit_state(state_path):
 
 
 def run(start):
-    """Dispatch reviews until the time budget is used up.
+    """Dispatch reviews and re-runs until the time budget is used up.
 
     Return whether another batch-review run should follow this one.
     """
@@ -314,6 +480,8 @@ def run(start):
     state = json.load(open(state_path))
     records = state["records"]
     numbers = {c["number"] for c in candidates}
+    by_number = {c["number"]: c for c in candidates}
+    since = min(r["time"] for r in records.values() if r.get("time"))[:10]
 
     def save():
         if DRY_RUN:
@@ -328,15 +496,20 @@ def run(start):
         r = records.get(str(c["number"]))
         return r is None or r["status"] == "retry" and r.get("tries", 0) < MAX_TRIES
 
+    def due_reruns(now):
+        due = [n for n, r in records.items() if r.get("rerun") and epoch(r["rerun_after"]) <= now]
+        return sorted(due, key=lambda n: records[n]["rerun_after"])
+
     queue = [c for c in candidates if pending(c)]
     seen = {pr_of(r) for r in fork_runs(pages=3)} - {None}
     seen |= {int(n) for n, r in records.items() if r["status"] == "dispatched"}
     remaining, limit = rate()
     log(f"queue {len(queue)} of {len(candidates)}, rate limit {remaining}/{limit}, dry run {DRY_RUN}")
 
-    dispatched = 0
+    dispatched = reran = 0
     last = 0.0
-    fetched = 0.0
+    fetched = scanned = seen_at = 0.0
+    no_runner_at = 0.0
     checked = committed = start
     chain = LIMIT is None and not DRY_RUN
     while True:
@@ -353,16 +526,24 @@ def run(start):
             committed = now
             commit_state(state_path)
             remaining, limit = rate()
-            log(f"dispatched {dispatched} so far, {len(queue)} left in queue, rate limit {remaining}/{limit}")
-        # Reuse the run list briefly so that consecutive skips stay cheap
-        if now - fetched > 20:
-            runs = fork_runs()
+            waiting = sum(bool(r.get("rerun")) for r in records.values())
+            log(
+                f"dispatched {dispatched} and re-ran {reran} so far, {len(queue)} left in queue,"
+                f" {waiting} waiting for a re-run, rate limit {remaining}/{limit}"
+            )
+        if now - scanned > SCAN_INTERVAL:
+            scanned = now
+            no_runner_at = scan_failures(records, since)
+            save()
+        if now - fetched > POLL_INTERVAL:
+            active = active_runs()
             fetched = now
-        seen |= {pr_of(r) for r in runs} - {None}
-        active = [r for r in runs if r["status"] in ACTIVE]
-        mine = sum(pr_of(r) in numbers for r in active)
-        if not queue:
-            if mine == 0:
+        batch = [r for r in active if pr_of(r) in numbers]
+        long_runs = [r for r in batch if now - epoch(r["run_started_at"]) > LONG_RUN]
+        constrained = now - no_runner_at < CAPACITY_WINDOW
+        reruns = [] if constrained else due_reruns(now)
+        if not queue and not reruns:
+            if not batch and not any(r.get("rerun") for r in records.values()):
                 if not DRY_RUN:
                     log("all candidates handled and no batch review in flight, disabling batch-review")
                     gh(["workflow", "disable", "batch-review.yml", "-R", REPO])
@@ -372,7 +553,13 @@ def run(start):
             fetched = 0.0
             continue
         remaining, _ = rate()
-        if mine >= MAX_INFLIGHT or len(active) >= MAX_TOTAL_INFLIGHT or remaining < MIN_RATE_REMAINING:
+        cap = MAX_INFLIGHT_CONSTRAINED if constrained else MAX_INFLIGHT
+        if (
+            len(batch) - len(long_runs) >= cap
+            or len(long_runs) >= MAX_LONG
+            or len(active) - len(long_runs) >= MAX_TOTAL_INFLIGHT
+            or remaining < MIN_RATE_REMAINING
+        ):
             time.sleep(30)
             fetched = 0.0
             continue
@@ -381,6 +568,28 @@ def run(start):
             time.sleep(wait)
             fetched = 0.0
             continue
+        # Re-runs come first, since their pull requests are already half reviewed
+        if reruns:
+            n = reruns[0]
+            try:
+                started, what = rerun(int(n), records[n], by_number[int(n)])
+            except LookupError as e:
+                started, what = False, f"re-run lookup failed: {e}"
+                records[n]["final"] = what
+            log(f"#{n} {what}")
+            save()
+            if started:
+                last = time.time()
+                fetched = 0.0
+                reran += 1
+            continue
+        if not queue:
+            time.sleep(60)
+            fetched = 0.0
+            continue
+        if time.time() - seen_at > SEEN_INTERVAL:
+            seen |= {pr_of(r) for r in fork_runs()} - {None}
+            seen_at = time.time()
         cand = queue.pop(0)
         n = cand["number"]
         if n in seen:
@@ -412,13 +621,13 @@ def run(start):
             "status": "dispatched",
             "run_id": run_id,
             "title": title,
-            "time": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"),
+            "time": iso(time.time()),
         }
         log(f"#{n} dispatched run {run_id}: {title}")
         save()
 
     remaining, limit = rate()
-    log(f"dispatched {dispatched}, {len(queue)} left in queue, rate limit {remaining}/{limit}")
+    log(f"dispatched {dispatched} and re-ran {reran}, {len(queue)} left in queue, rate limit {remaining}/{limit}")
     return chain
 
 
@@ -427,6 +636,9 @@ def start_next_run():
 
 
 def main():
+    if EVENT == "schedule" and other_dispatcher_active():
+        log("another batch-review run is active, so this scheduled run has nothing to do")
+        return
     start = time.time()
     try:
         chain = run(start)
