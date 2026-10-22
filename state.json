@@ -1,5 +1,47 @@
 {
  "records": {
+  "563280": {
+   "run_id": 39819653954,
+   "status": "dispatched",
+   "time": "2026-10-22T17:05:45+00:00",
+   "title": "home-assistant-custom-components.frigidaire: 0.1.43 -> 1.0.0b2"
+  },
+  "563311": {
+   "run_id": 39818633455,
+   "status": "dispatched",
+   "time": "2026-10-22T16:58:53+00:00",
+   "title": "brainflow: 5.22.2 -> 5.23.0"
+  },
+  "563353": {
+   "run_id": 39818037928,
+   "status": "dispatched",
+   "time": "2026-10-22T16:54:41+00:00",
+   "title": "screenly-cli: 1.2.1 -> 26.9.0"
+  },
+  "563410": {
+   "run_id": 39817748351,
+   "status": "dispatched",
+   "time": "2026-10-22T16:52:41+00:00",
+   "title": "go2tv-lite: 2.6.1 -> 2.7.0"
+  },
+  "563435": {
+   "run_id": 39817528256,
+   "status": "dispatched",
+   "time": "2026-10-22T16:51:13+00:00",
+   "title": "weaviate: 1.39.2 -> 1.40.1"
+  },
+  "563436": {
+   "run_id": 39817208453,
+   "status": "dispatched",
+   "time": "2026-10-22T16:49:11+00:00",
+   "title": "unordered_dense: 4.11.0 -> 5.3.2"
+  },
+  "563457": {
+   "run_id": 39816204772,
+   "status": "dispatched",
+   "time": "2026-10-22T16:42:35+00:00",
+   "title": "asyncapi: 6.0.2 -> 6.1.0"
+  },
   "563502": {
    "run_id": 39815731634,
    "status": "dispatched",
@@ -93,8 +135,6 @@
   "563943": {
    "examined": 1,
    "no_runner_at": "2026-10-22T16:13:35+00:00",
-   "rerun": "no runner",
-   "rerun_after": "2026-10-22T16:43:35+00:00",
    "run_id": 39808578381,
    "status": "dispatched",
    "time": "2026-10-22T15:50:27+00:00",
