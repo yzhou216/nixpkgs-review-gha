@@ -1,5 +1,59 @@
 {
  "records": {
+  "562505": {
+   "run_id": 39833167817,
+   "status": "dispatched",
+   "time": "2026-10-22T18:38:35+00:00",
+   "title": "python3Packages.zigpy: 2.2.0 -> 2.3.0"
+  },
+  "562528": {
+   "run_id": 39832738452,
+   "status": "dispatched",
+   "time": "2026-10-22T18:35:32+00:00",
+   "title": "python3Packages.demetriek: 1.3.0 -> 1.4.1"
+  },
+  "562539": {
+   "run_id": 39831815947,
+   "status": "dispatched",
+   "time": "2026-10-22T18:29:15+00:00",
+   "title": "officecli: 1.0.146 -> 1.0.157"
+  },
+  "562568": {
+   "run_id": 39831574136,
+   "status": "dispatched",
+   "time": "2026-10-22T18:27:44+00:00",
+   "title": "python3Packages.xhtml2pdf: 0.2.17 -> 0.2.23"
+  },
+  "562591": {
+   "run_id": 39831343949,
+   "status": "dispatched",
+   "time": "2026-10-22T18:26:14+00:00",
+   "title": "metacubexd: 1.273.0 -> 1.273.1"
+  },
+  "562611": {
+   "run_id": 39831125749,
+   "status": "dispatched",
+   "time": "2026-10-22T18:24:46+00:00",
+   "title": "python3Packages.plum-dispatch: 2.9.0 -> 2.10.1"
+  },
+  "562620": {
+   "run_id": 39830627327,
+   "status": "dispatched",
+   "time": "2026-10-22T18:21:35+00:00",
+   "title": "python3Packages.django-otp: 1.7.0 -> 1.7.4"
+  },
+  "562623": {
+   "run_id": 39830139523,
+   "status": "dispatched",
+   "time": "2026-10-22T18:18:12+00:00",
+   "title": "patool: 4.0.5 -> 4.1.0"
+  },
+  "562655": {
+   "run_id": 39829918892,
+   "status": "dispatched",
+   "time": "2026-10-22T18:16:42+00:00",
+   "title": "lbreakouthd: 1.2.3 -> 1.2.4"
+  },
   "562669": {
    "run_id": 39829275829,
    "status": "dispatched",
@@ -111,8 +165,6 @@
   "563435": {
    "examined": 1,
    "no_runner_at": "2026-10-22T17:53:02+00:00",
-   "rerun": "no runner",
-   "rerun_after": "2026-10-22T18:23:02+00:00",
    "run_id": 39817528256,
    "status": "dispatched",
    "time": "2026-10-22T16:51:13+00:00",
