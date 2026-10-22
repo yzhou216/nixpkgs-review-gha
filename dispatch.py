@@ -462,8 +462,17 @@ def workflow_enabled():
 
 
 def other_dispatcher_active():
+    """Return whether another batch-review run is running or about to start.
+
+    A queued run counts only for a quarter of an hour, since GitHub sometimes
+    leaves a run queued for good, and it would block the schedule forever.
+    """
     runs = api(f"repos/{REPO}/actions/workflows/batch-review.yml/runs?per_page=20")["workflow_runs"]
-    return any(r["status"] in ACTIVE and r["id"] != RUN_ID for r in runs)
+    return any(
+        r["id"] != RUN_ID
+        and (r["status"] == "in_progress" or r["status"] in ACTIVE and time.time() - epoch(r["created_at"]) < 900)
+        for r in runs
+    )
 
 
 def commit_state(state_path):
