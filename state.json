@@ -722,8 +722,6 @@
   "568176": {
    "examined": 1,
    "no_runner_at": "2026-10-21T21:04:23+00:00",
-   "rerun": "no runner",
-   "rerun_after": "2026-10-21T21:34:23+00:00",
    "run_id": 39673578412,
    "status": "dispatched",
    "time": "2026-10-21T20:49:07+00:00",
