@@ -1,5 +1,35 @@
 {
  "records": {
+  "566181": {
+   "run_id": 39718879635,
+   "status": "dispatched",
+   "time": "2026-10-22T03:48:37+00:00",
+   "title": "fetchmail: 6.6.7 -> 6.6.9"
+  },
+  "566222": {
+   "run_id": 39718497748,
+   "status": "dispatched",
+   "time": "2026-10-22T03:44:27+00:00",
+   "title": "parallel: 20260822 -> 20260922"
+  },
+  "566250": {
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "python3Packages.amazon-ion: 0.14.6 -> 0.15.0",
+   "tries": 0
+  },
+  "566259": {
+   "run_id": 39718009001,
+   "status": "dispatched",
+   "time": "2026-10-22T03:39:09+00:00",
+   "title": "lovely-injector: 0.9.0 -> 0.10.0"
+  },
+  "566263": {
+   "run_id": 39717576733,
+   "status": "dispatched",
+   "time": "2026-10-22T03:34:25+00:00",
+   "title": "drumkv1: 1.4.3 -> 1.5.0"
+  },
   "566321": {
    "run_id": 39716285683,
    "status": "dispatched",
