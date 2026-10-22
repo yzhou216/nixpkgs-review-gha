@@ -2118,32 +2118,24 @@
   "572293": {
    "examined": 1,
    "no_runner_at": "2026-10-20T18:13:34+00:00",
-   "rerun": "no runner",
-   "rerun_after": "2026-10-20T18:43:34+00:00",
    "run_id": 39469426254,
    "status": "dispatched",
    "time": "2026-10-20T17:49:33+00:00",
    "title": "go2tv: 2.6.1 -> 2.7.0"
   },
   "572298": {
-   "examined": 1,
-   "no_runner_at": "2026-10-20T18:08:34+00:00",
-   "rerun": "no runner",
-   "rerun_after": "2026-10-20T18:38:34+00:00",
-   "run_id": 39468748620,
+   "redispatched": true,
+   "run_id": 39731164247,
    "status": "dispatched",
-   "time": "2026-10-20T17:44:48+00:00",
-   "title": "fishPlugins.pure: 4.19.0 -> 4.19.1"
+   "time": "2026-10-22T05:59:15+00:00",
+   "title": "fishPlugins.pure: 4.19.0 -> 4.19.2"
   },
   "572299": {
-   "examined": 1,
-   "no_runner_at": "2026-10-20T17:58:33+00:00",
-   "rerun": "no runner",
-   "rerun_after": "2026-10-20T18:28:33+00:00",
-   "run_id": 39467896120,
+   "redispatched": true,
+   "run_id": 39731027221,
    "status": "dispatched",
-   "time": "2026-10-20T17:38:52+00:00",
-   "title": "docker-credential-helpers: 0.9.9 -> 0.9.10"
+   "time": "2026-10-22T05:57:48+00:00",
+   "title": "docker-credential-helpers: 0.9.9 -> 0.9.12"
   },
   "572306": {
    "run_id": 39467211667,
@@ -2154,8 +2146,6 @@
   "572310": {
    "examined": 1,
    "no_runner_at": "2026-10-20T17:44:08+00:00",
-   "rerun": "no runner",
-   "rerun_after": "2026-10-20T18:14:08+00:00",
    "run_id": 39466171869,
    "status": "dispatched",
    "time": "2026-10-20T17:27:04+00:00",
@@ -2210,14 +2200,11 @@
    "title": "libretro.opera: 0-unstable-2026-08-21 -> 0-unstable-2026-10-09"
   },
   "572489": {
-   "examined": 1,
-   "no_runner_at": "2026-10-20T16:56:01+00:00",
-   "rerun": "no runner",
-   "rerun_after": "2026-10-20T17:26:01+00:00",
-   "run_id": 39458898187,
+   "redispatched": true,
+   "run_id": 39730766748,
    "status": "dispatched",
-   "time": "2026-10-20T16:36:15+00:00",
-   "title": "pdftoipe: 7.2.29.2 -> 7.3.1.1"
+   "time": "2026-10-22T05:55:05+00:00",
+   "title": "pdftoipe: 7.2.29.2 -> 7.3.1.2"
   },
   "572529": {
    "run_id": 39458684284,
@@ -2246,8 +2233,6 @@
   "572593": {
    "examined": 1,
    "no_runner_at": "2026-10-20T16:38:49+00:00",
-   "rerun": "no runner",
-   "rerun_after": "2026-10-20T17:08:49+00:00",
    "run_id": 39456745149,
    "status": "dispatched",
    "time": "2026-10-20T16:21:43+00:00",
@@ -2256,8 +2241,6 @@
   "572597": {
    "examined": 1,
    "no_runner_at": "2026-10-20T16:35:26+00:00",
-   "rerun": "no runner",
-   "rerun_after": "2026-10-20T17:05:26+00:00",
    "run_id": 39456208017,
    "status": "dispatched",
    "time": "2026-10-20T16:18:03+00:00",
@@ -2272,8 +2255,6 @@
   "572658": {
    "examined": 1,
    "no_runner_at": "2026-10-20T16:28:16+00:00",
-   "rerun": "no runner",
-   "rerun_after": "2026-10-20T16:58:16+00:00",
    "run_id": 39455360184,
    "status": "dispatched",
    "time": "2026-10-20T16:12:20+00:00",
@@ -2300,8 +2281,6 @@
   "572714": {
    "examined": 1,
    "no_runner_at": "2026-10-20T16:17:21+00:00",
-   "rerun": "no runner",
-   "rerun_after": "2026-10-20T16:47:21+00:00",
    "run_id": 39453844991,
    "status": "dispatched",
    "time": "2026-10-20T16:02:09+00:00",
@@ -2310,8 +2289,6 @@
   "572742": {
    "examined": 1,
    "no_runner_at": "2026-10-20T16:14:16+00:00",
-   "rerun": "no runner",
-   "rerun_after": "2026-10-20T16:44:16+00:00",
    "run_id": 39453372556,
    "status": "dispatched",
    "time": "2026-10-20T15:59:02+00:00",
@@ -2320,8 +2297,6 @@
   "572750": {
    "examined": 1,
    "no_runner_at": "2026-10-20T16:01:46+00:00",
-   "rerun": "no runner",
-   "rerun_after": "2026-10-20T16:31:46+00:00",
    "run_id": 39451518610,
    "status": "dispatched",
    "time": "2026-10-20T15:46:33+00:00",
@@ -2342,8 +2317,6 @@
   "572792": {
    "examined": 1,
    "no_runner_at": "2026-10-20T15:45:52+00:00",
-   "rerun": "no runner",
-   "rerun_after": "2026-10-20T16:15:52+00:00",
    "run_id": 39449067178,
    "status": "dispatched",
    "time": "2026-10-20T15:30:37+00:00",
@@ -2352,8 +2325,6 @@
   "572818": {
    "examined": 1,
    "no_runner_at": "2026-10-20T15:44:28+00:00",
-   "rerun": "no runner",
-   "rerun_after": "2026-10-20T16:14:28+00:00",
    "run_id": 39448832640,
    "status": "dispatched",
    "time": "2026-10-20T15:29:09+00:00",
@@ -2380,8 +2351,6 @@
   "572880": {
    "examined": 1,
    "no_runner_at": "2026-10-20T15:31:19+00:00",
-   "rerun": "no runner",
-   "rerun_after": "2026-10-20T16:01:19+00:00",
    "run_id": 39446822443,
    "status": "dispatched",
    "time": "2026-10-20T15:16:05+00:00",
@@ -2390,8 +2359,6 @@
   "572892": {
    "examined": 1,
    "no_runner_at": "2026-10-20T15:20:40+00:00",
-   "rerun": "no runner",
-   "rerun_after": "2026-10-20T15:50:40+00:00",
    "run_id": 39445203090,
    "status": "dispatched",
    "time": "2026-10-20T15:05:24+00:00",
@@ -2434,8 +2401,6 @@
   "572931": {
    "examined": 1,
    "no_runner_at": "2026-10-20T15:58:40+00:00",
-   "rerun": "no runner",
-   "rerun_after": "2026-10-20T16:28:40+00:00",
    "run_id": 39451049234,
    "status": "dispatched",
    "time": "2026-10-20T15:43:26+00:00",
