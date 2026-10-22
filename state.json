@@ -1,5 +1,47 @@
 {
  "records": {
+  "566826": {
+   "run_id": 39705676161,
+   "status": "dispatched",
+   "time": "2026-10-22T01:26:22+00:00",
+   "title": "oxfmt: 0.68.0 -> 0.73.0"
+  },
+  "566853": {
+   "run_id": 39705215836,
+   "status": "dispatched",
+   "time": "2026-10-22T01:21:37+00:00",
+   "title": "pgpdump: 0.37 -> 0.38"
+  },
+  "566893": {
+   "run_id": 39705022471,
+   "status": "dispatched",
+   "time": "2026-10-22T01:19:38+00:00",
+   "title": "caf: 1.1.0 -> 1.2.0"
+  },
+  "566919": {
+   "run_id": 39704890967,
+   "status": "dispatched",
+   "time": "2026-10-22T01:18:13+00:00",
+   "title": "yamlscript: 0.3.0 -> 0.3.5"
+  },
+  "566938": {
+   "run_id": 39704652049,
+   "status": "dispatched",
+   "time": "2026-10-22T01:15:43+00:00",
+   "title": "xfstests: 2026.09.02 -> 2026.09.22"
+  },
+  "566963": {
+   "run_id": 39704509614,
+   "status": "dispatched",
+   "time": "2026-10-22T01:14:17+00:00",
+   "title": "python3Packages.govee-ble: 1.4.0 -> 1.5.1"
+  },
+  "566968": {
+   "run_id": 39704371696,
+   "status": "dispatched",
+   "time": "2026-10-22T01:12:52+00:00",
+   "title": "python3Packages.troposphere: 4.10.2 -> 4.11.0"
+  },
   "566999": {
    "run_id": 39701071790,
    "status": "dispatched",
