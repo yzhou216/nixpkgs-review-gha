@@ -1,5 +1,23 @@
 {
  "records": {
+  "566321": {
+   "run_id": 39716285683,
+   "status": "dispatched",
+   "time": "2026-10-22T03:20:27+00:00",
+   "title": "castxml: 0.7.0 -> 0.8.0"
+  },
+  "566370": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "python3Packages.langgraph-cli: 0.4.33 -> 0.4.35",
+   "tries": 0
+  },
+  "566400": {
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "molecule: 26.6.0 -> 26.9.0",
+   "tries": 0
+  },
   "566418": {
    "run_id": 39713920559,
    "status": "dispatched",
