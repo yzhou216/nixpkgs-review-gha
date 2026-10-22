@@ -1,5 +1,29 @@
 {
  "records": {
+  "566493": {
+   "run_id": 39710847975,
+   "status": "dispatched",
+   "time": "2026-10-22T02:20:34+00:00",
+   "title": "steampipePackages.steampipe-plugin-azure: 1.13.0 -> 1.16.0"
+  },
+  "566502": {
+   "run_id": 39710362187,
+   "status": "dispatched",
+   "time": "2026-10-22T02:15:19+00:00",
+   "title": "numcpp: 2.16.1 -> 2.17.0"
+  },
+  "566526": {
+   "run_id": 39709920224,
+   "status": "dispatched",
+   "time": "2026-10-22T02:10:37+00:00",
+   "title": "interactsh: 1.3.1 -> 1.4.1"
+  },
+  "566545": {
+   "run_id": 39709263078,
+   "status": "dispatched",
+   "time": "2026-10-22T02:03:44+00:00",
+   "title": "python3Packages.langgraph-sdk: 0.4.4 -> 0.4.7"
+  },
   "566603": {
    "run_id": 39708964671,
    "status": "dispatched",
