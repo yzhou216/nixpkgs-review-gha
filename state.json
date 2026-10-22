@@ -1,5 +1,59 @@
 {
  "records": {
+  "563715": {
+   "run_id": 39811832153,
+   "status": "dispatched",
+   "time": "2026-10-22T16:11:22+00:00",
+   "title": "fwup: 1.15.1 -> 1.17.1"
+  },
+  "563846": {
+   "run_id": 39811315191,
+   "status": "dispatched",
+   "time": "2026-10-22T16:07:57+00:00",
+   "title": "gnote: 50.1 -> 51.0"
+  },
+  "563876": {
+   "run_id": 39810829740,
+   "status": "dispatched",
+   "time": "2026-10-22T16:04:50+00:00",
+   "title": "httrack: 3.50.3 -> 3.50.5"
+  },
+  "563912": {
+   "run_id": 39810596688,
+   "status": "dispatched",
+   "time": "2026-10-22T16:03:21+00:00",
+   "title": "last-resort: 17.000 -> 18.000"
+  },
+  "563927": {
+   "run_id": 39810008167,
+   "status": "dispatched",
+   "time": "2026-10-22T15:59:40+00:00",
+   "title": "goa: 3.30.0 -> 3.32.0"
+  },
+  "563930": {
+   "run_id": 39809238304,
+   "status": "dispatched",
+   "time": "2026-10-22T15:54:39+00:00",
+   "title": "gammu: 1.44.1 -> 1.45.0"
+  },
+  "563943": {
+   "run_id": 39808578381,
+   "status": "dispatched",
+   "time": "2026-10-22T15:50:27+00:00",
+   "title": "kener: 4.1.4 -> 4.1.7"
+  },
+  "563984": {
+   "run_id": 39807523029,
+   "status": "dispatched",
+   "time": "2026-10-22T15:43:37+00:00",
+   "title": "linuxPackages.amneziawg: 3.1.20260828 -> 3.1.20260906"
+  },
+  "564002": {
+   "run_id": 39807295234,
+   "status": "dispatched",
+   "time": "2026-10-22T15:42:08+00:00",
+   "title": "spdx-license-list-data: 3.28.0 -> 3.29.0"
+  },
   "564081": {
    "run_id": 39806956000,
    "status": "dispatched",
@@ -19,6 +73,10 @@
    "title": "gtranslator: 50.0 -> 51.0"
   },
   "564142": {
+   "examined": 1,
+   "no_runner_at": "2026-10-22T15:41:41+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-22T16:11:41+00:00",
    "run_id": 39804789117,
    "status": "dispatched",
    "time": "2026-10-22T15:26:04+00:00",
@@ -107,6 +165,8 @@
    "title": "ocamlPackages.miou: 0.10.0 -> 0.10.2"
   },
   "564450": {
+   "examined": 1,
+   "final": "review (x86_64-linux): Process completed with exit code 1.",
    "run_id": 39785315450,
    "status": "dispatched",
    "time": "2026-10-22T13:15:58+00:00",
