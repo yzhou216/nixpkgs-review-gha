@@ -1,5 +1,59 @@
 {
  "records": {
+  "562279": {
+   "run_id": 39837957108,
+   "status": "dispatched",
+   "time": "2026-10-22T19:11:47+00:00",
+   "title": "mikmod: 3.2.9 -> 3.2.10"
+  },
+  "562310": {
+   "run_id": 39837438339,
+   "status": "dispatched",
+   "time": "2026-10-22T19:08:10+00:00",
+   "title": "python3Packages.django-countries: 9.0.0 -> 9.1.0"
+  },
+  "562314": {
+   "run_id": 39836586444,
+   "status": "dispatched",
+   "time": "2026-10-22T19:02:24+00:00",
+   "title": "schemacrawler: 17.14.1 -> 17.15.7"
+  },
+  "562319": {
+   "run_id": 39835996328,
+   "status": "dispatched",
+   "time": "2026-10-22T18:58:16+00:00",
+   "title": "libbde: 20240502 -> 20260916"
+  },
+  "562361": {
+   "run_id": 39835103886,
+   "status": "dispatched",
+   "time": "2026-10-22T18:51:58+00:00",
+   "title": "aliyun-cli: 3.4.11 -> 3.5.1"
+  },
+  "562429": {
+   "run_id": 39834502233,
+   "status": "dispatched",
+   "time": "2026-10-22T18:47:49+00:00",
+   "title": "python3Packages.siphash24: 1.8 -> 1.9"
+  },
+  "562436": {
+   "run_id": 39834288290,
+   "status": "dispatched",
+   "time": "2026-10-22T18:46:20+00:00",
+   "title": "python3Packages.colcon: 0.21.1 -> 0.21.3"
+  },
+  "562485": {
+   "run_id": 39833981562,
+   "status": "dispatched",
+   "time": "2026-10-22T18:44:17+00:00",
+   "title": "python3Packages.crewai-core: 1.15.18 -> 1.15.21"
+  },
+  "562487": {
+   "run_id": 39833761516,
+   "status": "dispatched",
+   "time": "2026-10-22T18:42:48+00:00",
+   "title": "tinyssh: 20260601 -> 20261001"
+  },
   "562505": {
    "run_id": 39833167817,
    "status": "dispatched",
