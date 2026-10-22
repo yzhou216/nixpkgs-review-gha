@@ -19,6 +19,8 @@
    "title": "librepo: 1.20.0 -> 1.21.2"
   },
   "564568": {
+   "examined": 1,
+   "final": "review (aarch64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ",
    "run_id": 39778887949,
    "status": "dispatched",
    "time": "2026-10-22T12:30:23+00:00",
