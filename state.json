@@ -1,5 +1,29 @@
 {
  "records": {
+  "563161": {
+   "run_id": 39824661543,
+   "status": "dispatched",
+   "time": "2026-10-22T17:39:48+00:00",
+   "title": "equicord: 2026-09-03 -> 2026-10-08"
+  },
+  "563223": {
+   "run_id": 39824449052,
+   "status": "dispatched",
+   "time": "2026-10-22T17:38:18+00:00",
+   "title": "spicy-parser-generator: 1.16.1 -> 1.17.0"
+  },
+  "563245": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "gfold: 2026.3.0 -> 2026.9.0",
+   "tries": 0
+  },
+  "563251": {
+   "run_id": 39823857658,
+   "status": "dispatched",
+   "time": "2026-10-22T17:34:11+00:00",
+   "title": "jicofo: 1.0-1189 -> 1.0-1205"
+  },
   "563280": {
    "run_id": 39819653954,
    "status": "dispatched",
