@@ -14,8 +14,9 @@ its Linux results, provided that the head of the pull request is unchanged.
 If the head changed, it checks the pull request again and dispatches a new
 review.  While these failures are recent, it keeps fewer reviews in flight
 and holds back re-runs.  Reviews that run for a long time, usually large
-Linux rebuilds, count against a separate cap so that they do not stall the
-batch.
+rebuilds, count against a separate cap.  The script cancels a review that is
+still running after MAX_RUNTIME seconds, since few of them finish before
+GitHub's six-hour job limit, and they hold runners that other reviews need.
 
 A run lasts up to TIME_BUDGET seconds, commits the state file every
 COMMIT_INTERVAL seconds, and then dispatches the next batch-review run, so
@@ -55,6 +56,7 @@ MAX_INFLIGHT = 8
 MAX_INFLIGHT_CONSTRAINED = 3
 MAX_LONG = 6
 LONG_RUN = 5400
+MAX_RUNTIME = 14400
 MAX_TOTAL_INFLIGHT = 12
 MIN_INTERVAL = 75
 MIN_RATE_REMAINING = 1000
@@ -133,6 +135,9 @@ def gh(args):
         err = p.stderr
         if "Not Found" in err or "HTTP 404" in err:
             raise LookupError(err.strip()[:200])
+        # Retrying cannot help with a request that GitHub rejects as such
+        if "HTTP 409" in err or "HTTP 422" in err:
+            raise RuntimeError(err.strip()[:200])
         log("gh error, retrying:", " ".join(args[:3]), err.strip()[:200])
         time.sleep(15 * (attempt + 1))
     raise RuntimeError(f"gh {' '.join(args[:3])} failed: {err.strip()[:300]}")
@@ -535,6 +540,7 @@ def run(start):
     last = 0.0
     fetched = scanned = seen_at = 0.0
     no_runner_at = 0.0
+    cancelled = set()
     checked = committed = start
     chain = LIMIT is None and not DRY_RUN
     while True:
@@ -565,6 +571,24 @@ def run(start):
             fetched = now
         batch = [r for r in active if pr_of(r) in numbers]
         long_runs = [r for r in batch if now - epoch(r["run_started_at"]) > LONG_RUN]
+        # Few reviews still running by now finish before the six-hour job limit
+        for r in long_runs:
+            n = str(pr_of(r))
+            if (
+                now - epoch(r["run_started_at"]) > MAX_RUNTIME
+                and records.get(n, {}).get("run_id") == r["id"]
+                and r["id"] not in cancelled
+            ):
+                cancelled.add(r["id"])
+                if not DRY_RUN:
+                    try:
+                        gh(["api", "-X", "POST", f"repos/{REPO}/actions/runs/{r['id']}/cancel"])
+                    except RuntimeError as e:
+                        log(f"#{n} could not cancel run {r['id']}: {e}")
+                        continue
+                records[n]["final"] = f"cancelled after {MAX_RUNTIME // 3600} hours"
+                log(f"#{n} run {r['id']} cancelled after {MAX_RUNTIME // 3600} hours: {records[n]['title']}")
+                save()
         constrained = now - no_runner_at < CAPACITY_WINDOW
         reruns = [] if constrained else due_reruns(now)
         if not queue and not reruns:
