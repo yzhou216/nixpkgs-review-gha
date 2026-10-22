@@ -249,6 +249,8 @@
    "title": "metacubexd: 1.273.0 -> 1.273.1"
   },
   "562611": {
+   "examined": 1,
+   "final": "review (aarch64-linux): The operation was canceled.; review (x86_64-linux): The operation was canceled.",
    "run_id": 39831125749,
    "status": "dispatched",
    "time": "2026-10-22T18:24:46+00:00",
