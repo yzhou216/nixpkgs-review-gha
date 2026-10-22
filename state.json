@@ -151,6 +151,8 @@
    "title": "interactsh: 1.3.1 -> 1.4.1"
   },
   "566545": {
+   "examined": 1,
+   "final": "review (aarch64-linux): Process completed with exit code 137.",
    "run_id": 39709263078,
    "status": "dispatched",
    "time": "2026-10-22T02:03:44+00:00",
@@ -589,30 +591,47 @@
    "title": "python3Packages.stackit-objectstorage: 1.6.0 -> 1.7.0"
   },
   "568066": {
+   "examined": 1,
+   "rerun": "prepare",
+   "rerun_after": "2026-10-21T22:25:37+00:00",
    "run_id": 39682152801,
    "status": "dispatched",
    "time": "2026-10-21T21:51:51+00:00",
    "title": "archivemount: 1b -> 1c"
   },
   "568078": {
+   "examined": 1,
+   "final": "review (aarch64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ; review (x86_64-linux): The operation was canceled.",
    "run_id": 39678011642,
    "status": "dispatched",
    "time": "2026-10-21T21:20:43+00:00",
    "title": "petsc: 3.25.5 -> 3.26.0"
   },
   "568109": {
+   "examined": 1,
+   "no_runner_at": "2026-10-21T21:25:34+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-21T21:55:34+00:00",
    "run_id": 39676575734,
    "status": "dispatched",
    "time": "2026-10-21T21:10:18+00:00",
    "title": "swiftPackages.swift-crypto: 4.5.1 -> 5.0.3"
   },
   "568110": {
+   "examined": 1,
+   "no_runner_at": "2026-10-21T21:14:00+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-21T21:44:00+00:00",
    "run_id": 39674946668,
    "status": "dispatched",
    "time": "2026-10-21T20:58:47+00:00",
    "title": "swiftPackages.swift-asn1: 1.7.1 -> 1.7.3"
   },
   "568115": {
+   "examined": 1,
+   "no_runner_at": "2026-10-21T21:05:48+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-21T21:35:48+00:00",
    "run_id": 39673794903,
    "status": "dispatched",
    "time": "2026-10-21T20:50:36+00:00",
@@ -625,24 +644,40 @@
    "tries": 0
   },
   "568176": {
+   "examined": 1,
+   "no_runner_at": "2026-10-21T21:04:23+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-21T21:34:23+00:00",
    "run_id": 39673578412,
    "status": "dispatched",
    "time": "2026-10-21T20:49:07+00:00",
    "title": "python3Packages.webauthn: 3.0.0 -> 3.0.1"
   },
   "568207": {
+   "examined": 1,
+   "no_runner_at": "2026-10-21T20:58:24+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-21T21:28:24+00:00",
    "run_id": 39672643295,
    "status": "dispatched",
    "time": "2026-10-21T20:42:37+00:00",
    "title": "python3Packages.seekpath: 2.2.1 -> 2.2.2"
   },
   "568219": {
+   "examined": 1,
+   "no_runner_at": "2026-10-21T20:48:33+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-21T21:18:33+00:00",
    "run_id": 39671314759,
    "status": "dispatched",
    "time": "2026-10-21T20:33:20+00:00",
    "title": "wiki-js: 2.5.314 -> 2.5.315"
   },
   "568231": {
+   "examined": 1,
+   "no_runner_at": "2026-10-21T20:45:46+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-21T21:15:46+00:00",
    "run_id": 39670206557,
    "status": "dispatched",
    "time": "2026-10-21T20:25:43+00:00",
@@ -655,6 +690,10 @@
    "title": "keychain: 3.0.4 -> 3.0.7"
   },
   "568242": {
+   "examined": 1,
+   "no_runner_at": "2026-10-21T20:20:06+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-21T20:50:06+00:00",
    "run_id": 39667183936,
    "status": "dispatched",
    "time": "2026-10-21T20:04:52+00:00",
@@ -667,6 +706,10 @@
    "tries": 0
   },
   "568257": {
+   "examined": 1,
+   "no_runner_at": "2026-10-21T20:18:36+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-21T20:48:36+00:00",
    "run_id": 39666957885,
    "status": "dispatched",
    "time": "2026-10-21T20:03:18+00:00",
@@ -679,6 +722,10 @@
    "title": "steampipePackages.steampipe-plugin-aws: 1.33.0 -> 1.34.0"
   },
   "568292": {
+   "examined": 1,
+   "no_runner_at": "2026-10-21T19:41:32+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-21T20:11:32+00:00",
    "run_id": 39661634559,
    "status": "dispatched",
    "time": "2026-10-21T19:26:20+00:00",
@@ -691,18 +738,28 @@
    "title": "micronaut: 5.1.5 -> 5.2.2"
   },
   "568320": {
+   "examined": 1,
+   "no_runner_at": "2026-10-21T19:25:58+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-21T19:55:58+00:00",
    "run_id": 39658962745,
    "status": "dispatched",
    "time": "2026-10-21T19:08:15+00:00",
    "title": "python3Packages.plantuml-markdown: 3.11.2 -> 3.11.3"
   },
   "568327": {
+   "examined": 1,
+   "final": "review (x86_64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ",
    "run_id": 39657665283,
    "status": "dispatched",
    "time": "2026-10-21T18:59:31+00:00",
    "title": "eccodes: 2.48.0 -> 2.49.0"
   },
   "568332": {
+   "examined": 1,
+   "no_runner_at": "2026-10-21T19:07:33+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-21T19:37:33+00:00",
    "run_id": 39656369318,
    "status": "dispatched",
    "time": "2026-10-21T18:50:46+00:00",
@@ -733,6 +790,10 @@
    "title": "ticktick: 8.0.11 -> 8.0.20"
   },
   "568410": {
+   "examined": 1,
+   "no_runner_at": "2026-10-21T18:48:47+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-21T19:18:47+00:00",
    "run_id": 39653807508,
    "status": "dispatched",
    "time": "2026-10-21T18:33:34+00:00",
@@ -745,6 +806,10 @@
    "title": "libretro.mupen64plus: 0-unstable-2026-09-12 -> 0-unstable-2026-10-01"
   },
   "568443": {
+   "examined": 1,
+   "no_runner_at": "2026-10-21T18:24:42+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-21T18:54:42+00:00",
    "run_id": 39650169090,
    "status": "dispatched",
    "time": "2026-10-21T18:09:28+00:00",
@@ -763,24 +828,40 @@
    "tries": 0
   },
   "568483": {
+   "examined": 1,
+   "no_runner_at": "2026-10-21T18:21:56+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-21T18:51:56+00:00",
    "run_id": 39649762024,
    "status": "dispatched",
    "time": "2026-10-21T18:06:43+00:00",
    "title": "http-nu: 0.17.2 -> 0.18.0"
   },
   "568562": {
+   "examined": 1,
+   "no_runner_at": "2026-10-21T18:08:58+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-21T18:38:58+00:00",
    "run_id": 39647836554,
    "status": "dispatched",
    "time": "2026-10-21T17:53:43+00:00",
    "title": "ghq: 1.10.1 -> 1.11.2"
   },
   "568571": {
+   "examined": 1,
+   "no_runner_at": "2026-10-21T18:06:19+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-21T18:36:19+00:00",
    "run_id": 39647454582,
    "status": "dispatched",
    "time": "2026-10-21T17:51:07+00:00",
    "title": "star-history: 1.0.32 -> 1.0.33"
   },
   "568590": {
+   "examined": 1,
+   "no_runner_at": "2026-10-21T17:59:10+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-21T18:29:10+00:00",
    "run_id": 39646398776,
    "status": "dispatched",
    "time": "2026-10-21T17:43:58+00:00",
@@ -793,6 +874,10 @@
    "title": "python3Packages.mcstatus: 14.1.0 -> 14.2.0"
   },
   "568644": {
+   "examined": 1,
+   "no_runner_at": "2026-10-21T17:43:22+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-21T18:13:22+00:00",
    "run_id": 39644052502,
    "status": "dispatched",
    "time": "2026-10-21T17:28:08+00:00",
@@ -805,24 +890,40 @@
    "title": "libretro.picodrive: 0-unstable-2026-09-04 -> 0-unstable-2026-09-26"
   },
   "568678": {
+   "examined": 1,
+   "no_runner_at": "2026-10-21T17:22:45+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-21T17:52:45+00:00",
    "run_id": 39640970257,
    "status": "dispatched",
    "time": "2026-10-21T17:07:32+00:00",
    "title": "upterm: 0.29.0 -> 0.37.0"
   },
   "568682": {
+   "examined": 1,
+   "no_runner_at": "2026-10-21T17:20:12+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-21T17:50:12+00:00",
    "run_id": 39640576812,
    "status": "dispatched",
    "time": "2026-10-21T17:04:57+00:00",
    "title": "libretro.dolphin: 0-unstable-2026-09-19 -> 0-unstable-2026-10-11"
   },
   "568720": {
+   "examined": 1,
+   "no_runner_at": "2026-10-21T17:07:07+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-21T17:37:07+00:00",
    "run_id": 39638583312,
    "status": "dispatched",
    "time": "2026-10-21T16:51:49+00:00",
    "title": "yeswiki: 4.6.7 -> 4.7.0"
   },
   "568784": {
+   "examined": 1,
+   "no_runner_at": "2026-10-21T17:04:29+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-21T17:34:29+00:00",
    "run_id": 39638188966,
    "status": "dispatched",
    "time": "2026-10-21T16:49:13+00:00",
@@ -835,108 +936,180 @@
    "title": "libpg_query: 18.0.0 -> 18.1.0"
   },
   "568842": {
+   "examined": 1,
+   "no_runner_at": "2026-10-21T16:48:52+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-21T17:18:52+00:00",
    "run_id": 39635858864,
    "status": "dispatched",
    "time": "2026-10-21T16:33:39+00:00",
    "title": "kea: 3.2.0 -> 3.2.1"
   },
   "568853": {
+   "examined": 1,
+   "no_runner_at": "2026-10-21T16:36:49+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-21T17:06:49+00:00",
    "run_id": 39634049572,
    "status": "dispatched",
    "time": "2026-10-21T16:21:37+00:00",
    "title": "ghidra-extensions.kaiju: 260608 -> 260910"
   },
   "568861": {
+   "examined": 1,
+   "no_runner_at": "2026-10-21T16:33:09+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-21T17:03:09+00:00",
    "run_id": 39633484622,
    "status": "dispatched",
    "time": "2026-10-21T16:17:54+00:00",
    "title": "python3Packages.langgraph-runtime-inmem: 0.34.1 -> 0.36.0"
   },
   "568867": {
+   "examined": 1,
+   "no_runner_at": "2026-10-21T16:29:19+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-21T16:59:19+00:00",
    "run_id": 39632930868,
    "status": "dispatched",
    "time": "2026-10-21T16:14:05+00:00",
    "title": "python3Packages.flufl-lock: 9.1.0 -> 9.2.0"
   },
   "568936": {
+   "examined": 1,
+   "no_runner_at": "2026-10-21T16:20:59+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-21T16:50:59+00:00",
    "run_id": 39631411996,
    "status": "dispatched",
    "time": "2026-10-21T16:04:15+00:00",
    "title": "centrifugo: 6.9.6 -> 6.9.7"
   },
   "568940": {
+   "examined": 1,
+   "no_runner_at": "2026-10-21T16:17:08+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-21T16:47:08+00:00",
    "run_id": 39630435320,
    "status": "dispatched",
    "time": "2026-10-21T15:57:48+00:00",
    "title": "velero: 1.18.3 -> 1.18.4"
   },
   "568976": {
+   "examined": 1,
+   "no_runner_at": "2026-10-21T16:13:37+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-21T16:43:37+00:00",
    "run_id": 39630216715,
    "status": "dispatched",
    "time": "2026-10-21T15:56:21+00:00",
    "title": "jpylyzer: 2.2.1 -> 2.3.0b1"
   },
   "568985": {
+   "examined": 1,
+   "no_runner_at": "2026-10-21T16:12:35+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-21T16:42:35+00:00",
    "run_id": 39629994452,
    "status": "dispatched",
    "time": "2026-10-21T15:54:55+00:00",
    "title": "python3Packages.traits: 7.1.0 -> 7.2.0"
   },
   "569000": {
+   "examined": 1,
+   "no_runner_at": "2026-10-21T16:07:15+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-21T16:37:15+00:00",
    "run_id": 39628995769,
    "status": "dispatched",
    "time": "2026-10-21T15:48:22+00:00",
    "title": "meshoptimizer: 1.2 -> 1.3"
   },
   "569003": {
+   "examined": 1,
+   "no_runner_at": "2026-10-21T16:03:37+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-21T16:33:37+00:00",
    "run_id": 39628786267,
    "status": "dispatched",
    "time": "2026-10-21T15:46:55+00:00",
    "title": "parca: 0.28.0 -> 0.29.1"
   },
   "569017": {
+   "examined": 1,
+   "no_runner_at": "2026-10-21T16:02:14+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-21T16:32:14+00:00",
    "run_id": 39628571489,
    "status": "dispatched",
    "time": "2026-10-21T15:45:28+00:00",
    "title": "libretro.pcsx-rearmed: 0-unstable-2026-09-05 -> 0-unstable-2026-10-02"
   },
   "569025": {
+   "examined": 1,
+   "no_runner_at": "2026-10-21T15:57:34+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-21T16:27:34+00:00",
    "run_id": 39628091740,
    "status": "dispatched",
    "time": "2026-10-21T15:42:18+00:00",
    "title": "maildrop: 4.0.4 -> 4.0.5"
   },
   "569029": {
+   "examined": 1,
+   "no_runner_at": "2026-10-21T15:49:22+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-21T16:19:22+00:00",
    "run_id": 39626863345,
    "status": "dispatched",
    "time": "2026-10-21T15:34:09+00:00",
    "title": "geant4: 11.4.2 -> 11.4.3"
   },
   "569041": {
+   "examined": 1,
+   "no_runner_at": "2026-10-21T17:03:01+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-21T17:33:01+00:00",
    "run_id": 39637975797,
    "status": "dispatched",
    "time": "2026-10-21T16:47:46+00:00",
    "title": "lcalc: 2.2.1 -> 2.2.2"
   },
   "569124": {
+   "examined": 1,
+   "no_runner_at": "2026-10-21T15:45:04+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-21T16:15:04+00:00",
    "run_id": 39626220121,
    "status": "dispatched",
    "time": "2026-10-21T15:29:50+00:00",
    "title": "vitess: 24.0.3 -> 24.0.4"
   },
   "569141": {
+   "examined": 1,
+   "no_runner_at": "2026-10-21T15:29:31+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-21T15:59:31+00:00",
    "run_id": 39623806608,
    "status": "dispatched",
    "time": "2026-10-21T15:14:17+00:00",
    "title": "reflection-cpp: 0.4.0 -> 0.5.0"
   },
   "569187": {
+   "examined": 1,
+   "no_runner_at": "2026-10-21T15:24:11+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-21T15:54:11+00:00",
    "run_id": 39623064967,
    "status": "dispatched",
    "time": "2026-10-21T15:08:56+00:00",
    "title": "python3Packages.demetriek: 1.3.0 -> 1.4.1"
   },
   "569201": {
+   "examined": 1,
+   "no_runner_at": "2026-10-21T15:14:01+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-21T15:44:01+00:00",
    "run_id": 39620913644,
    "status": "dispatched",
    "time": "2026-10-21T14:54:00+00:00",
@@ -949,36 +1122,58 @@
    "tries": 1
   },
   "569230": {
+   "examined": 1,
+   "no_runner_at": "2026-10-21T14:52:40+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-21T15:22:40+00:00",
    "run_id": 39618461399,
    "status": "dispatched",
    "time": "2026-10-21T14:37:26+00:00",
    "title": "gyb: 1.95 -> 1.97"
   },
   "569233": {
+   "examined": 1,
+   "no_runner_at": "2026-10-21T14:24:54+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-21T14:54:54+00:00",
    "run_id": 39614394609,
    "status": "dispatched",
    "time": "2026-10-21T14:09:41+00:00",
    "title": "rtabmap: 0.23.8 -> 0.23.13-rolling"
   },
   "569256": {
+   "examined": 1,
+   "no_runner_at": "2026-10-21T14:09:25+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-21T14:39:25+00:00",
    "run_id": 39612066896,
    "status": "dispatched",
    "time": "2026-10-21T13:54:11+00:00",
    "title": "python3Packages.petsctools: 2026.0 -> 2026.1"
   },
   "569270": {
+   "examined": 1,
+   "final": "review (x86_64-linux): The operation was canceled.; review (aarch64-darwin): The job was not acquired by Runner of type hosted even after multiple attempts",
    "run_id": 39611365332,
    "status": "dispatched",
    "time": "2026-10-21T13:49:24+00:00",
    "title": "python3Packages.llguidance: 1.8.0 -> 1.9.1"
   },
   "569277": {
+   "examined": 1,
+   "no_runner_at": "2026-10-21T13:49:05+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-21T14:19:05+00:00",
    "run_id": 39609093846,
    "status": "dispatched",
    "time": "2026-10-21T13:33:52+00:00",
    "title": "vscode-extensions.ms-python.vscode-pylance: 2026.3.1 -> 2026.4.1"
   },
   "569293": {
+   "examined": 1,
+   "no_runner_at": "2026-10-21T13:16:46+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-21T13:46:46+00:00",
    "run_id": 39604386485,
    "status": "dispatched",
    "time": "2026-10-21T13:01:33+00:00",
@@ -1003,6 +1198,8 @@
    "tries": 0
   },
   "569392": {
+   "examined": 1,
+   "final": "review (x86_64-linux): The operation was canceled.; review (aarch64-linux): The operation was canceled.",
    "run_id": 39600086362,
    "status": "dispatched",
    "time": "2026-10-21T12:30:04+00:00",
@@ -1033,6 +1230,8 @@
    "title": "msrtool: 26.06 -> 26.09"
   },
   "569514": {
+   "examined": 1,
+   "final": "review (aarch64-linux): The operation was canceled.; review (x86_64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ",
    "run_id": 39595587577,
    "status": "dispatched",
    "time": "2026-10-21T11:55:34+00:00",
@@ -1213,6 +1412,10 @@
    "title": "stardust-xr-non-spatial-input: 0.51.1 -> 0.52.0"
   },
   "570330": {
+   "examined": 1,
+   "no_runner_at": "2026-10-21T09:18:21+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-21T09:48:21+00:00",
    "run_id": 39573949544,
    "status": "dispatched",
    "time": "2026-10-21T09:03:09+00:00",
@@ -1549,6 +1752,8 @@
    "title": "mactracker: 8.2.1 -> 8.3.1"
   },
   "571240": {
+   "examined": 1,
+   "final": "review (aarch64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ",
    "run_id": 39535749109,
    "status": "dispatched",
    "time": "2026-10-21T02:55:58+00:00",
@@ -1591,6 +1796,8 @@
    "title": "codeql: 2.27.1 -> 2.27.2"
   },
   "571577": {
+   "examined": 1,
+   "final": "review (aarch64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ",
    "run_id": 39528112097,
    "status": "dispatched",
    "time": "2026-10-21T01:34:31+00:00",
@@ -1663,6 +1870,8 @@
    "title": "nushellPlugins.desktop_notifications: 0.115.0 -> 0.116.0"
   },
   "571848": {
+   "examined": 1,
+   "final": "review (aarch64-linux): The operation was canceled.; review (x86_64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ",
    "run_id": 39514750957,
    "status": "dispatched",
    "time": "2026-10-20T23:24:00+00:00",
@@ -1723,60 +1932,92 @@
    "title": "fnlfmt: 0.3.2 -> 0.4.0"
   },
   "572050": {
+   "examined": 1,
+   "no_runner_at": "2026-10-20T21:34:01+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-20T22:04:01+00:00",
    "run_id": 39499251864,
    "status": "dispatched",
    "time": "2026-10-20T21:18:17+00:00",
    "title": "signify: 32 -> 33"
   },
   "572053": {
+   "examined": 1,
+   "final": "review (x86_64-linux): The job has exceeded the maximum execution time of 6h0m0s; review (aarch64-linux): The job has exceeded the maximum execution time of 6h0m0s; review (aarch64-darwin): The job was not acquired by Runner of type hosted even after multiple attempts",
    "run_id": 39495197238,
    "status": "dispatched",
    "time": "2026-10-20T20:49:00+00:00",
    "title": "tellico: 4.2.2 -> 4.3"
   },
   "572054": {
+   "examined": 1,
+   "no_runner_at": "2026-10-20T20:48:17+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-20T21:18:17+00:00",
    "run_id": 39492925521,
    "status": "dispatched",
    "time": "2026-10-20T20:33:02+00:00",
    "title": "layerx: 1.6.1 -> 1.6.2"
   },
   "572068": {
+   "examined": 1,
+   "no_runner_at": "2026-10-20T20:32:28+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-20T21:02:28+00:00",
    "run_id": 39490670310,
    "status": "dispatched",
    "time": "2026-10-20T20:17:14+00:00",
    "title": "az-pim-cli: 1.16.0 -> 1.17.0"
   },
   "572080": {
+   "examined": 1,
+   "no_runner_at": "2026-10-20T20:16:56+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-20T20:46:56+00:00",
    "run_id": 39488453559,
    "status": "dispatched",
    "time": "2026-10-20T20:01:38+00:00",
    "title": "lego: 5.5.1 -> 5.5.2"
   },
   "572085": {
+   "examined": 1,
+   "final": "review (aarch64-darwin): The job was not acquired by Runner of type hosted even after multiple attempts; review (x86_64-linux): The job has exceeded the maximum execution time of 6h0m0s",
    "run_id": 39485228947,
    "status": "dispatched",
    "time": "2026-10-20T19:38:51+00:00",
    "title": "cobang: 2.8.0 -> 2.11.0"
   },
   "572092": {
+   "examined": 1,
+   "no_runner_at": "2026-10-20T19:46:42+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-20T20:16:42+00:00",
    "run_id": 39483204930,
    "status": "dispatched",
    "time": "2026-10-20T19:24:35+00:00",
    "title": "tic-80: 1.2.0 -> 1.3.1"
   },
   "572112": {
+   "examined": 1,
+   "final": "review (aarch64-darwin): The job was not acquired by Runner of type hosted even after multiple attempts; review (aarch64-linux): The job has exceeded the maximum execution time of 6h0m0s; review (x86_64-linux): The operation was canceled.",
    "run_id": 39482996170,
    "status": "dispatched",
    "time": "2026-10-20T19:23:07+00:00",
    "title": "python3Packages.rich-rst: 2.1.0 -> 2.2.0"
   },
   "572161": {
+   "examined": 1,
+   "final": "review (x86_64-linux): The job has exceeded the maximum execution time of 6h0m0s; review (aarch64-darwin): The job was not acquired by Runner of type hosted even after multiple attempts",
    "run_id": 39480952949,
    "status": "dispatched",
    "time": "2026-10-20T19:08:58+00:00",
    "title": "retroarch-assets: 1.22.0-unstable-2026-08-13 -> 1.22.0-unstable-2026-10-01"
   },
   "572214": {
+   "examined": 1,
+   "no_runner_at": "2026-10-20T19:23:14+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-20T19:53:14+00:00",
    "run_id": 39479683271,
    "status": "dispatched",
    "time": "2026-10-20T19:00:18+00:00",
@@ -1789,6 +2030,10 @@
    "tries": 0
   },
   "572248": {
+   "examined": 1,
+   "no_runner_at": "2026-10-20T19:22:53+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-20T19:52:53+00:00",
    "run_id": 39479392338,
    "status": "dispatched",
    "time": "2026-10-20T18:58:18+00:00",
@@ -1801,60 +2046,100 @@
    "title": "k8sgpt: 0.4.39 -> 0.4.40"
   },
   "572250": {
+   "examined": 1,
+   "no_runner_at": "2026-10-20T19:00:01+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-20T19:30:01+00:00",
    "run_id": 39476479089,
    "status": "dispatched",
    "time": "2026-10-20T18:38:11+00:00",
    "title": "python3Packages.redisvl: 0.27.2 -> 0.28.0"
   },
   "572257": {
+   "examined": 1,
+   "no_runner_at": "2026-10-20T18:57:52+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-20T19:27:52+00:00",
    "run_id": 39476265728,
    "status": "dispatched",
    "time": "2026-10-20T18:36:45+00:00",
    "title": "vscode-extensions.ms-python.python: 2026.4.0 -> 2026.10.0"
   },
   "572262": {
+   "examined": 1,
+   "no_runner_at": "2026-10-20T18:42:51+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-20T19:12:51+00:00",
    "run_id": 39473908541,
    "status": "dispatched",
    "time": "2026-10-20T18:20:43+00:00",
    "title": "sacad: 3.0.2 -> 3.0.3"
   },
   "572267": {
+   "examined": 1,
+   "no_runner_at": "2026-10-20T18:37:51+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-20T19:07:51+00:00",
    "run_id": 39473149752,
    "status": "dispatched",
    "time": "2026-10-20T18:15:22+00:00",
    "title": "taze: 21.2.0 -> 21.3.0"
   },
   "572280": {
+   "examined": 1,
+   "no_runner_at": "2026-10-20T18:36:31+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-20T19:06:31+00:00",
    "run_id": 39472935200,
    "status": "dispatched",
    "time": "2026-10-20T18:13:54+00:00",
    "title": "stamp: 0-unstable-2026-09-12 -> 0-unstable-2026-10-09"
   },
   "572282": {
+   "examined": 1,
+   "no_runner_at": "2026-10-20T18:23:35+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-20T18:53:35+00:00",
    "run_id": 39470787334,
    "status": "dispatched",
    "time": "2026-10-20T17:59:10+00:00",
    "title": "python3Packages.silero-vad: 6.2.1 -> 6.2.3"
   },
   "572283": {
+   "examined": 1,
+   "no_runner_at": "2026-10-20T18:14:58+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-20T18:44:58+00:00",
    "run_id": 39469631504,
    "status": "dispatched",
    "time": "2026-10-20T17:51:00+00:00",
    "title": "plink2: 2.0.0-a.7.9 -> 2.0.0-a.7.11"
   },
   "572293": {
+   "examined": 1,
+   "no_runner_at": "2026-10-20T18:13:34+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-20T18:43:34+00:00",
    "run_id": 39469426254,
    "status": "dispatched",
    "time": "2026-10-20T17:49:33+00:00",
    "title": "go2tv: 2.6.1 -> 2.7.0"
   },
   "572298": {
+   "examined": 1,
+   "no_runner_at": "2026-10-20T18:08:34+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-20T18:38:34+00:00",
    "run_id": 39468748620,
    "status": "dispatched",
    "time": "2026-10-20T17:44:48+00:00",
    "title": "fishPlugins.pure: 4.19.0 -> 4.19.1"
   },
   "572299": {
+   "examined": 1,
+   "no_runner_at": "2026-10-20T17:58:33+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-20T18:28:33+00:00",
    "run_id": 39467896120,
    "status": "dispatched",
    "time": "2026-10-20T17:38:52+00:00",
@@ -1867,6 +2152,10 @@
    "title": "antigen: 2.2.3 -> 2.3.0"
   },
   "572310": {
+   "examined": 1,
+   "no_runner_at": "2026-10-20T17:44:08+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-20T18:14:08+00:00",
    "run_id": 39466171869,
    "status": "dispatched",
    "time": "2026-10-20T17:27:04+00:00",
@@ -1921,6 +2210,10 @@
    "title": "libretro.opera: 0-unstable-2026-08-21 -> 0-unstable-2026-10-09"
   },
   "572489": {
+   "examined": 1,
+   "no_runner_at": "2026-10-20T16:56:01+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-20T17:26:01+00:00",
    "run_id": 39458898187,
    "status": "dispatched",
    "time": "2026-10-20T16:36:15+00:00",
@@ -1951,12 +2244,20 @@
    "title": "murex: 7.2.1001 -> 7.3.1231"
   },
   "572593": {
+   "examined": 1,
+   "no_runner_at": "2026-10-20T16:38:49+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-20T17:08:49+00:00",
    "run_id": 39456745149,
    "status": "dispatched",
    "time": "2026-10-20T16:21:43+00:00",
    "title": "fishPlugins.exercism-cli-fish-wrapper: 0-unstable-2026-09-29 -> 0-unstable-2026-10-09"
   },
   "572597": {
+   "examined": 1,
+   "no_runner_at": "2026-10-20T16:35:26+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-20T17:05:26+00:00",
    "run_id": 39456208017,
    "status": "dispatched",
    "time": "2026-10-20T16:18:03+00:00",
@@ -1969,6 +2270,10 @@
    "title": "python3Packages.flufl-bounce: 5.0.1 -> 5.1.0"
   },
   "572658": {
+   "examined": 1,
+   "no_runner_at": "2026-10-20T16:28:16+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-20T16:58:16+00:00",
    "run_id": 39455360184,
    "status": "dispatched",
    "time": "2026-10-20T16:12:20+00:00",
@@ -1993,18 +2298,30 @@
    "title": "postgresqlPackages.pg_textsearch: 1.4.0 -> 1.5.1"
   },
   "572714": {
+   "examined": 1,
+   "no_runner_at": "2026-10-20T16:17:21+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-20T16:47:21+00:00",
    "run_id": 39453844991,
    "status": "dispatched",
    "time": "2026-10-20T16:02:09+00:00",
    "title": "wiiuse: 0.15.7 -> 0.16.0"
   },
   "572742": {
+   "examined": 1,
+   "no_runner_at": "2026-10-20T16:14:16+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-20T16:44:16+00:00",
    "run_id": 39453372556,
    "status": "dispatched",
    "time": "2026-10-20T15:59:02+00:00",
    "title": "erlang-language-platform: 2026-08-10 -> 2026-10-05"
   },
   "572750": {
+   "examined": 1,
+   "no_runner_at": "2026-10-20T16:01:46+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-20T16:31:46+00:00",
    "run_id": 39451518610,
    "status": "dispatched",
    "time": "2026-10-20T15:46:33+00:00",
@@ -2023,12 +2340,20 @@
    "title": "python3Packages.bytecode: 0.19.0 -> 0.19.1"
   },
   "572792": {
+   "examined": 1,
+   "no_runner_at": "2026-10-20T15:45:52+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-20T16:15:52+00:00",
    "run_id": 39449067178,
    "status": "dispatched",
    "time": "2026-10-20T15:30:37+00:00",
    "title": "vega-lite: 6.4.3 -> 6.5.0"
   },
   "572818": {
+   "examined": 1,
+   "no_runner_at": "2026-10-20T15:44:28+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-20T16:14:28+00:00",
    "run_id": 39448832640,
    "status": "dispatched",
    "time": "2026-10-20T15:29:09+00:00",
@@ -2053,18 +2378,28 @@
    "title": "claude-agent-acp: 0.88.0 -> 0.93.0"
   },
   "572880": {
+   "examined": 1,
+   "no_runner_at": "2026-10-20T15:31:19+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-20T16:01:19+00:00",
    "run_id": 39446822443,
    "status": "dispatched",
    "time": "2026-10-20T15:16:05+00:00",
    "title": "neonmodem: 1.1.0 -> 2.0.0"
   },
   "572892": {
+   "examined": 1,
+   "no_runner_at": "2026-10-20T15:20:40+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-20T15:50:40+00:00",
    "run_id": 39445203090,
    "status": "dispatched",
    "time": "2026-10-20T15:05:24+00:00",
    "title": "kubedb-cli: 0.66.0 -> 0.68.0"
   },
   "572903": {
+   "examined": 1,
+   "no_runner_at": "2026-10-20T15:19:10+00:00",
    "run_id": 39444970443,
    "status": "dispatched",
    "time": "2026-10-20T15:03:55+00:00",
@@ -2089,12 +2424,18 @@
    "tries": 1
   },
   "572913": {
+   "examined": 1,
+   "no_runner_at": "2026-10-20T15:16:21+00:00",
    "run_id": 39444531314,
    "status": "dispatched",
    "time": "2026-10-20T15:01:05+00:00",
    "title": "hey-mail: 1.3.7 -> 1.3.8"
   },
   "572931": {
+   "examined": 1,
+   "no_runner_at": "2026-10-20T15:58:40+00:00",
+   "rerun": "no runner",
+   "rerun_after": "2026-10-20T16:28:40+00:00",
    "run_id": 39451049234,
    "status": "dispatched",
    "time": "2026-10-20T15:43:26+00:00",
@@ -2119,6 +2460,8 @@
    "tries": 0
   },
   "572960": {
+   "examined": 1,
+   "no_runner_at": "2026-10-20T15:12:31+00:00",
    "run_id": 39443949311,
    "status": "dispatched",
    "time": "2026-10-20T14:57:18+00:00",
@@ -2137,12 +2480,16 @@
    "title": "amiberry: 8.3.0 -> 8.4.0"
   },
   "573059": {
+   "examined": 1,
+   "no_runner_at": "2026-10-20T14:58:20+00:00",
    "run_id": 39441761497,
    "status": "dispatched",
    "time": "2026-10-20T14:42:58+00:00",
    "title": "home-assistant-custom-components.emporia_vue: 0.12.4 -> 0.13.0"
   },
   "573060": {
+   "examined": 1,
+   "no_runner_at": "2026-10-20T14:56:45+00:00",
    "run_id": 39441539792,
    "status": "dispatched",
    "time": "2026-10-20T14:41:32+00:00",
@@ -2155,6 +2502,8 @@
    "title": "libretro.beetle-vb: 0-unstable-2026-08-23 -> 0-unstable-2026-10-09"
   },
   "573078": {
+   "examined": 1,
+   "no_runner_at": "2026-10-20T14:48:31+00:00",
    "run_id": 39440285369,
    "status": "dispatched",
    "time": "2026-10-20T14:33:19+00:00",
@@ -2167,18 +2516,24 @@
    "title": "python3Packages.surepy: 0.9.0 -> 0.10.0"
   },
   "573089": {
+   "examined": 1,
+   "no_runner_at": "2026-10-20T14:43:31+00:00",
    "run_id": 39439488086,
    "status": "dispatched",
    "time": "2026-10-20T14:28:12+00:00",
    "title": "typstyle: 0.15.1 -> 0.15.2"
   },
   "573100": {
+   "examined": 1,
+   "no_runner_at": "2026-10-20T14:41:27+00:00",
    "run_id": 39439171652,
    "status": "dispatched",
    "time": "2026-10-20T14:26:09+00:00",
    "title": "unrtf: 0.21.10 -> 0.21.12"
   },
   "573113": {
+   "examined": 1,
+   "final": "review (aarch64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ; review (aarch64-darwin): The job was not acquired by Runner of type hosted even after multiple attempts; review (x86_64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ",
    "run_id": 39438664023,
    "status": "dispatched",
    "time": "2026-10-20T14:22:42+00:00",
@@ -2197,12 +2552,16 @@
    "title": "vscode-extensions.ufo5260987423.magic-scheme: 0.0.16 -> 0.0.17"
   },
   "573151": {
+   "examined": 1,
+   "no_runner_at": "2026-10-20T14:27:26+00:00",
    "run_id": 39437098430,
    "status": "dispatched",
    "time": "2026-10-20T14:12:14+00:00",
    "title": "wayland-proxy-virtwl: 0-unstable-2026-09-04 -> 0-unstable-2026-10-08"
   },
   "573160": {
+   "examined": 1,
+   "no_runner_at": "2026-10-20T14:25:27+00:00",
    "run_id": 39436795361,
    "status": "dispatched",
    "time": "2026-10-20T14:10:10+00:00",
@@ -2233,6 +2592,8 @@
    "tries": 0
   },
   "573184": {
+   "examined": 1,
+   "no_runner_at": "2026-10-20T14:18:46+00:00",
    "run_id": 39435765303,
    "status": "dispatched",
    "time": "2026-10-20T14:03:07+00:00",
@@ -2245,36 +2606,48 @@
    "tries": 0
   },
   "573291": {
+   "examined": 1,
+   "no_runner_at": "2026-10-20T14:08:02+00:00",
    "run_id": 39434225263,
    "status": "dispatched",
    "time": "2026-10-20T13:52:43+00:00",
    "title": "python3Packages.mariadb: 1.1.14 -> 1.1.15"
   },
   "573320": {
+   "examined": 1,
+   "no_runner_at": "2026-10-20T14:06:28+00:00",
    "run_id": 39434009138,
    "status": "dispatched",
    "time": "2026-10-20T13:51:15+00:00",
    "title": "di-tui: 1.15.0 -> 1.15.1"
   },
   "573321": {
+   "examined": 1,
+   "no_runner_at": "2026-10-20T14:03:54+00:00",
    "run_id": 39433631009,
    "status": "dispatched",
    "time": "2026-10-20T13:48:41+00:00",
    "title": "coder: 2.36.6 -> 2.36.7"
   },
   "573334": {
+   "examined": 1,
+   "no_runner_at": "2026-10-20T14:02:31+00:00",
    "run_id": 39433425613,
    "status": "dispatched",
    "time": "2026-10-20T13:47:14+00:00",
    "title": "nfpm: 2.47.0 -> 2.48.0"
   },
   "573337": {
+   "examined": 1,
+   "no_runner_at": "2026-10-20T13:48:21+00:00",
    "run_id": 39430848138,
    "status": "dispatched",
    "time": "2026-10-20T13:29:38+00:00",
    "title": "bobby: 50.0.2 -> 51.0.2"
   },
   "573345": {
+   "examined": 1,
+   "no_runner_at": "2026-10-20T13:43:35+00:00",
    "run_id": 39430332939,
    "status": "dispatched",
    "time": "2026-10-20T13:25:58+00:00",
@@ -2287,24 +2660,32 @@
    "title": "pwsafe: 1.25.0 -> 1.26.0fp"
   },
   "573379": {
+   "examined": 1,
+   "no_runner_at": "2026-10-20T13:29:05+00:00",
    "run_id": 39428623287,
    "status": "dispatched",
    "time": "2026-10-20T13:13:50+00:00",
    "title": "python3Packages.django-tenants: 3.14.0 -> 4.0.0"
   },
   "573432": {
+   "examined": 1,
+   "no_runner_at": "2026-10-20T13:22:37+00:00",
    "run_id": 39427725986,
    "status": "dispatched",
    "time": "2026-10-20T13:07:22+00:00",
    "title": "gifsicle: 1.96 -> 1.97"
   },
   "573439": {
+   "examined": 1,
+   "no_runner_at": "2026-10-20T13:06:59+00:00",
    "run_id": 39425595915,
    "status": "dispatched",
    "time": "2026-10-20T12:51:48+00:00",
    "title": "gretl: 2026b -> 2026c"
   },
   "573447": {
+   "examined": 1,
+   "no_runner_at": "2026-10-20T13:02:48+00:00",
    "run_id": 39425036912,
    "status": "dispatched",
    "time": "2026-10-20T12:47:35+00:00",
@@ -2335,6 +2716,8 @@
    "title": "orbstack: 2.2.3-20963 -> 2.2.4-21120"
   },
   "573549": {
+   "examined": 1,
+   "final": "review (aarch64-linux): The job has exceeded the maximum execution time of 6h0m0s; review (x86_64-linux): The operation was canceled.",
    "run_id": 39420836587,
    "status": "dispatched",
    "time": "2026-10-20T12:15:06+00:00",
@@ -2557,6 +2940,8 @@
    "title": "git-credential-keepassxc: 0.14.3 -> 0.14.4"
   },
   "573967": {
+   "examined": 1,
+   "final": "review (aarch64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ; review (x86_64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ",
    "run_id": 39395477005,
    "status": "dispatched",
    "time": "2026-10-20T08:43:39+00:00",
@@ -2587,6 +2972,8 @@
    "title": "python3Packages.jack-client: 0.5.5 -> 0.5.7"
   },
   "574044": {
+   "examined": 1,
+   "final": "review (x86_64-linux): The operation was canceled.; review (aarch64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ; review (aarch64-darwin): The job has exceeded the maximum execution time of 6h0m0s",
    "run_id": 39390374158,
    "status": "dispatched",
    "time": "2026-10-20T08:00:53+00:00",
@@ -2677,6 +3064,8 @@
    "title": "poethepoet: 0.48.0 -> 0.49.0"
   },
   "574334": {
+   "examined": 1,
+   "final": "review (aarch64-linux): The operation was canceled.",
    "run_id": 39379871560,
    "status": "dispatched",
    "time": "2026-10-20T06:21:10+00:00",
@@ -3169,6 +3558,8 @@
    "title": "dufs: 0.46.0 -> 0.47.0"
   },
   "575124": {
+   "examined": 1,
+   "final": "review (aarch64-linux): The operation was canceled.",
    "run_id": 39359452553,
    "status": "dispatched",
    "time": "2026-10-20T02:32:15+00:00",
@@ -3523,6 +3914,8 @@
    "tries": 0
   },
   "575451": {
+   "examined": 1,
+   "final": "review (x86_64-linux): The job has exceeded the maximum execution time of 6h0m0s; review (aarch64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ",
    "run_id": 39338190646,
    "status": "dispatched",
    "time": "2026-10-19T22:54:53+00:00",
@@ -4077,6 +4470,8 @@
    "title": "libretro.swanstation: 0-unstable-2026-10-08 -> 0-unstable-2026-10-15"
   },
   "575834": {
+   "examined": 1,
+   "final": "report: Failed to FinalizeArtifact: Unable to make request: ECONNRESET\nIf you are using self-hosted runners,",
    "run_id": 39232931131,
    "status": "dispatched",
    "time": "2026-10-19T09:49:26+00:00",
