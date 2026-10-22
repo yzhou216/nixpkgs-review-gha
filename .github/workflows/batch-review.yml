@@ -19,7 +19,8 @@ on:
     - cron: "17 * * * *"
 
 concurrency:
-  group: batch-review
+  # Scheduled runs only restart a broken chain, so they must not wait behind it
+  group: ${{ github.event_name == 'schedule' && format('batch-review-{0}', github.run_id) || 'batch-review' }}
   cancel-in-progress: false
 
 jobs:
@@ -28,6 +29,7 @@ jobs:
     timeout-minutes: 345
     permissions:
       actions: write
+      checks: read
       contents: write
 
     steps:
@@ -42,6 +44,8 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           REPO: ${{ github.repository }}
           OWNER: ${{ github.repository_owner }}
+          EVENT: ${{ github.event_name }}
+          RUN_ID: ${{ github.run_id }}
           LIMIT: ${{ inputs.limit }}
           DRY_RUN: ${{ inputs.dry-run }}
 
