@@ -876,8 +876,6 @@
   "568644": {
    "examined": 1,
    "no_runner_at": "2026-10-21T17:43:22+00:00",
-   "rerun": "no runner",
-   "rerun_after": "2026-10-21T18:13:22+00:00",
    "run_id": 39644052502,
    "status": "dispatched",
    "time": "2026-10-21T17:28:08+00:00",
@@ -892,8 +890,6 @@
   "568678": {
    "examined": 1,
    "no_runner_at": "2026-10-21T17:22:45+00:00",
-   "rerun": "no runner",
-   "rerun_after": "2026-10-21T17:52:45+00:00",
    "run_id": 39640970257,
    "status": "dispatched",
    "time": "2026-10-21T17:07:32+00:00",
@@ -902,8 +898,6 @@
   "568682": {
    "examined": 1,
    "no_runner_at": "2026-10-21T17:20:12+00:00",
-   "rerun": "no runner",
-   "rerun_after": "2026-10-21T17:50:12+00:00",
    "run_id": 39640576812,
    "status": "dispatched",
    "time": "2026-10-21T17:04:57+00:00",
@@ -912,8 +906,6 @@
   "568720": {
    "examined": 1,
    "no_runner_at": "2026-10-21T17:07:07+00:00",
-   "rerun": "no runner",
-   "rerun_after": "2026-10-21T17:37:07+00:00",
    "run_id": 39638583312,
    "status": "dispatched",
    "time": "2026-10-21T16:51:49+00:00",
@@ -922,8 +914,6 @@
   "568784": {
    "examined": 1,
    "no_runner_at": "2026-10-21T17:04:29+00:00",
-   "rerun": "no runner",
-   "rerun_after": "2026-10-21T17:34:29+00:00",
    "run_id": 39638188966,
    "status": "dispatched",
    "time": "2026-10-21T16:49:13+00:00",
@@ -938,8 +928,6 @@
   "568842": {
    "examined": 1,
    "no_runner_at": "2026-10-21T16:48:52+00:00",
-   "rerun": "no runner",
-   "rerun_after": "2026-10-21T17:18:52+00:00",
    "run_id": 39635858864,
    "status": "dispatched",
    "time": "2026-10-21T16:33:39+00:00",
@@ -948,8 +936,6 @@
   "568853": {
    "examined": 1,
    "no_runner_at": "2026-10-21T16:36:49+00:00",
-   "rerun": "no runner",
-   "rerun_after": "2026-10-21T17:06:49+00:00",
    "run_id": 39634049572,
    "status": "dispatched",
    "time": "2026-10-21T16:21:37+00:00",
@@ -1046,8 +1032,6 @@
   "569041": {
    "examined": 1,
    "no_runner_at": "2026-10-21T17:03:01+00:00",
-   "rerun": "no runner",
-   "rerun_after": "2026-10-21T17:33:01+00:00",
    "run_id": 39637975797,
    "status": "dispatched",
    "time": "2026-10-21T16:47:46+00:00",
