@@ -1,5 +1,47 @@
 {
  "records": {
+  "566018": {
+   "run_id": 39721716697,
+   "status": "dispatched",
+   "time": "2026-10-22T04:19:17+00:00",
+   "title": "arouteserver: 1.23.2 -> 1.24.0"
+  },
+  "566053": {
+   "run_id": 39721584893,
+   "status": "dispatched",
+   "time": "2026-10-22T04:17:51+00:00",
+   "title": "lycheeslicer: 7.6.6 -> 7.6.7"
+  },
+  "566054": {
+   "run_id": 39721037183,
+   "status": "dispatched",
+   "time": "2026-10-22T04:12:03+00:00",
+   "title": "slibGuile: 3c2 -> 3c3"
+  },
+  "566067": {
+   "run_id": 39720330126,
+   "status": "dispatched",
+   "time": "2026-10-22T04:04:36+00:00",
+   "title": "jitsi-meet-prosody: 1.0.9365 -> 1.0.9442"
+  },
+  "566093": {
+   "run_id": 39720199865,
+   "status": "dispatched",
+   "time": "2026-10-22T04:03:10+00:00",
+   "title": "goffice: 0.10.61 -> 0.10.62"
+  },
+  "566096": {
+   "run_id": 39719371888,
+   "status": "dispatched",
+   "time": "2026-10-22T03:54:03+00:00",
+   "title": "python3Packages.fastcrc: 0.3.6 -> 0.5.0"
+  },
+  "566105": {
+   "run_id": 39719186701,
+   "status": "dispatched",
+   "time": "2026-10-22T03:52:01+00:00",
+   "title": "python3Packages.bellows: 1.0.1 -> 1.1.0"
+  },
   "566181": {
    "run_id": 39718879635,
    "status": "dispatched",
