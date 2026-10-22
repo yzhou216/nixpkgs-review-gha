@@ -668,8 +668,6 @@
   },
   "568066": {
    "examined": 1,
-   "rerun": "prepare",
-   "rerun_after": "2026-10-21T22:25:37+00:00",
    "run_id": 39682152801,
    "status": "dispatched",
    "time": "2026-10-21T21:51:51+00:00",
@@ -685,9 +683,8 @@
   },
   "568109": {
    "examined": 1,
+   "final": "closed before the re-run",
    "no_runner_at": "2026-10-21T21:25:34+00:00",
-   "rerun": "no runner",
-   "rerun_after": "2026-10-21T21:55:34+00:00",
    "run_id": 39676575734,
    "status": "dispatched",
    "time": "2026-10-21T21:10:18+00:00",
@@ -695,9 +692,8 @@
   },
   "568110": {
    "examined": 1,
+   "final": "closed before the re-run",
    "no_runner_at": "2026-10-21T21:14:00+00:00",
-   "rerun": "no runner",
-   "rerun_after": "2026-10-21T21:44:00+00:00",
    "run_id": 39674946668,
    "status": "dispatched",
    "time": "2026-10-21T20:58:47+00:00",
@@ -705,9 +701,8 @@
   },
   "568115": {
    "examined": 1,
+   "final": "closed before the re-run",
    "no_runner_at": "2026-10-21T21:05:48+00:00",
-   "rerun": "no runner",
-   "rerun_after": "2026-10-21T21:35:48+00:00",
    "run_id": 39673794903,
    "status": "dispatched",
    "time": "2026-10-21T20:50:36+00:00",
@@ -905,8 +900,6 @@
   "568571": {
    "examined": 2,
    "no_runner_at": "2026-10-22T08:17:39+00:00",
-   "rerun": "no runner",
-   "rerun_after": "2026-10-22T09:17:39+00:00",
    "run_id": 39647454582,
    "status": "dispatched",
    "time": "2026-10-21T17:51:07+00:00",
@@ -915,8 +908,6 @@
   "568590": {
    "examined": 2,
    "no_runner_at": "2026-10-22T08:14:06+00:00",
-   "rerun": "no runner",
-   "rerun_after": "2026-10-22T09:14:06+00:00",
    "run_id": 39646398776,
    "status": "dispatched",
    "time": "2026-10-21T17:43:58+00:00",
