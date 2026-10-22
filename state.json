@@ -1,5 +1,77 @@
 {
  "records": {
+  "567044": {
+   "run_id": 39696245521,
+   "status": "dispatched",
+   "time": "2026-10-21T23:53:00+00:00",
+   "title": "tvm: 0.26.0 -> 0.27.0.post1"
+  },
+  "567045": {
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "zookeeper: 3.9.5 -> 3.9.6",
+   "tries": 0
+  },
+  "567057": {
+   "run_id": 39695523246,
+   "status": "dispatched",
+   "time": "2026-10-21T23:46:04+00:00",
+   "title": "python3Packages.langchain: 1.4.0 -> 1.4.2"
+  },
+  "567063": {
+   "run_id": 39695256247,
+   "status": "dispatched",
+   "time": "2026-10-21T23:43:34+00:00",
+   "title": "python3Packages.gguf: 10798 -> 11707"
+  },
+  "567064": {
+   "run_id": 39694990022,
+   "status": "dispatched",
+   "time": "2026-10-21T23:41:04+00:00",
+   "title": "nicotine-plus: 3.3.10 -> 3.3.11"
+  },
+  "567130": {
+   "run_id": 39694720986,
+   "status": "dispatched",
+   "time": "2026-10-21T23:38:33+00:00",
+   "title": "nats-server: 2.14.7 -> 2.15.1"
+  },
+  "567172": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "inspircdMinimal: 4.12.0 -> 4.12.1",
+   "tries": 0
+  },
+  "567234": {
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "insulator2: 2.14.0 -> 2.14.1",
+   "tries": 0
+  },
+  "567256": {
+   "run_id": 39694556614,
+   "status": "dispatched",
+   "time": "2026-10-21T23:37:02+00:00",
+   "title": "sstorytime: 1.0-beta-unstable-2026-09-15 -> 1.0-beta-unstable-2026-10-17"
+  },
+  "567264": {
+   "run_id": 39694405182,
+   "status": "dispatched",
+   "time": "2026-10-21T23:35:37+00:00",
+   "title": "trailbase: 0.32.2 -> 0.33.22"
+  },
+  "567282": {
+   "run_id": 39694071243,
+   "status": "dispatched",
+   "time": "2026-10-21T23:32:29+00:00",
+   "title": "oxvg: 0.0.7 -> 0.0.9"
+  },
+  "567298": {
+   "reason": "mergeability unknown",
+   "status": "retry",
+   "title": "airgorah: 0.8.1 -> 0.9.0",
+   "tries": 1
+  },
   "567305": {
    "run_id": 39693849390,
    "status": "dispatched",
