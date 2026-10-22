@@ -1,5 +1,23 @@
 {
  "records": {
+  "561514": {
+   "run_id": 39861653946,
+   "status": "dispatched",
+   "time": "2026-10-22T22:00:13+00:00",
+   "title": "neocities: 0.0.20 -> 0.2.1"
+  },
+  "561550": {
+   "run_id": 39859750090,
+   "status": "dispatched",
+   "time": "2026-10-22T21:45:05+00:00",
+   "title": "tree-sitter-grammars.tree-sitter-kdl: 1.1.0 -> 2.0.0"
+  },
+  "561598": {
+   "reason": "mergeability unknown",
+   "status": "retry",
+   "title": "python3Packages.nitypes: 1.1.0 -> 1.1.0.dev3",
+   "tries": 1
+  },
   "561667": {
    "run_id": 39856986443,
    "status": "dispatched",
@@ -481,6 +499,8 @@
    "title": "kener: 4.1.4 -> 4.1.7"
   },
   "563984": {
+   "examined": 1,
+   "final": "review (x86_64-linux): The job has exceeded the maximum execution time of 6h0m0s; review (aarch64-darwin): The job was not acquired by Runner of type hosted even after multiple attempts",
    "run_id": 39807523029,
    "status": "dispatched",
    "time": "2026-10-22T15:43:37+00:00",
