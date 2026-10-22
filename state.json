@@ -1088,8 +1088,6 @@
   "569141": {
    "examined": 1,
    "no_runner_at": "2026-10-21T15:29:31+00:00",
-   "rerun": "no runner",
-   "rerun_after": "2026-10-21T15:59:31+00:00",
    "run_id": 39623806608,
    "status": "dispatched",
    "time": "2026-10-21T15:14:17+00:00",
@@ -1098,8 +1096,6 @@
   "569187": {
    "examined": 1,
    "no_runner_at": "2026-10-21T15:24:11+00:00",
-   "rerun": "no runner",
-   "rerun_after": "2026-10-21T15:54:11+00:00",
    "run_id": 39623064967,
    "status": "dispatched",
    "time": "2026-10-21T15:08:56+00:00",
@@ -1108,8 +1104,6 @@
   "569201": {
    "examined": 1,
    "no_runner_at": "2026-10-21T15:14:01+00:00",
-   "rerun": "no runner",
-   "rerun_after": "2026-10-21T15:44:01+00:00",
    "run_id": 39620913644,
    "status": "dispatched",
    "time": "2026-10-21T14:54:00+00:00",
@@ -1124,8 +1118,6 @@
   "569230": {
    "examined": 1,
    "no_runner_at": "2026-10-21T14:52:40+00:00",
-   "rerun": "no runner",
-   "rerun_after": "2026-10-21T15:22:40+00:00",
    "run_id": 39618461399,
    "status": "dispatched",
    "time": "2026-10-21T14:37:26+00:00",
@@ -1134,8 +1126,6 @@
   "569233": {
    "examined": 1,
    "no_runner_at": "2026-10-21T14:24:54+00:00",
-   "rerun": "no runner",
-   "rerun_after": "2026-10-21T14:54:54+00:00",
    "run_id": 39614394609,
    "status": "dispatched",
    "time": "2026-10-21T14:09:41+00:00",
@@ -1144,8 +1134,6 @@
   "569256": {
    "examined": 1,
    "no_runner_at": "2026-10-21T14:09:25+00:00",
-   "rerun": "no runner",
-   "rerun_after": "2026-10-21T14:39:25+00:00",
    "run_id": 39612066896,
    "status": "dispatched",
    "time": "2026-10-21T13:54:11+00:00",
@@ -1162,8 +1150,6 @@
   "569277": {
    "examined": 1,
    "no_runner_at": "2026-10-21T13:49:05+00:00",
-   "rerun": "no runner",
-   "rerun_after": "2026-10-21T14:19:05+00:00",
    "run_id": 39609093846,
    "status": "dispatched",
    "time": "2026-10-21T13:33:52+00:00",
@@ -1172,8 +1158,6 @@
   "569293": {
    "examined": 1,
    "no_runner_at": "2026-10-21T13:16:46+00:00",
-   "rerun": "no runner",
-   "rerun_after": "2026-10-21T13:46:46+00:00",
    "run_id": 39604386485,
    "status": "dispatched",
    "time": "2026-10-21T13:01:33+00:00",
@@ -1414,8 +1398,6 @@
   "570330": {
    "examined": 1,
    "no_runner_at": "2026-10-21T09:18:21+00:00",
-   "rerun": "no runner",
-   "rerun_after": "2026-10-21T09:48:21+00:00",
    "run_id": 39573949544,
    "status": "dispatched",
    "time": "2026-10-21T09:03:09+00:00",
@@ -1934,8 +1916,6 @@
   "572050": {
    "examined": 1,
    "no_runner_at": "2026-10-20T21:34:01+00:00",
-   "rerun": "no runner",
-   "rerun_after": "2026-10-20T22:04:01+00:00",
    "run_id": 39499251864,
    "status": "dispatched",
    "time": "2026-10-20T21:18:17+00:00",
@@ -1952,8 +1932,6 @@
   "572054": {
    "examined": 1,
    "no_runner_at": "2026-10-20T20:48:17+00:00",
-   "rerun": "no runner",
-   "rerun_after": "2026-10-20T21:18:17+00:00",
    "run_id": 39492925521,
    "status": "dispatched",
    "time": "2026-10-20T20:33:02+00:00",
@@ -1962,8 +1940,6 @@
   "572068": {
    "examined": 1,
    "no_runner_at": "2026-10-20T20:32:28+00:00",
-   "rerun": "no runner",
-   "rerun_after": "2026-10-20T21:02:28+00:00",
    "run_id": 39490670310,
    "status": "dispatched",
    "time": "2026-10-20T20:17:14+00:00",
@@ -1972,8 +1948,6 @@
   "572080": {
    "examined": 1,
    "no_runner_at": "2026-10-20T20:16:56+00:00",
-   "rerun": "no runner",
-   "rerun_after": "2026-10-20T20:46:56+00:00",
    "run_id": 39488453559,
    "status": "dispatched",
    "time": "2026-10-20T20:01:38+00:00",
@@ -1990,8 +1964,6 @@
   "572092": {
    "examined": 1,
    "no_runner_at": "2026-10-20T19:46:42+00:00",
-   "rerun": "no runner",
-   "rerun_after": "2026-10-20T20:16:42+00:00",
    "run_id": 39483204930,
    "status": "dispatched",
    "time": "2026-10-20T19:24:35+00:00",
@@ -2016,8 +1988,6 @@
   "572214": {
    "examined": 1,
    "no_runner_at": "2026-10-20T19:23:14+00:00",
-   "rerun": "no runner",
-   "rerun_after": "2026-10-20T19:53:14+00:00",
    "run_id": 39479683271,
    "status": "dispatched",
    "time": "2026-10-20T19:00:18+00:00",
@@ -2032,8 +2002,6 @@
   "572248": {
    "examined": 1,
    "no_runner_at": "2026-10-20T19:22:53+00:00",
-   "rerun": "no runner",
-   "rerun_after": "2026-10-20T19:52:53+00:00",
    "run_id": 39479392338,
    "status": "dispatched",
    "time": "2026-10-20T18:58:18+00:00",
@@ -2048,8 +2016,6 @@
   "572250": {
    "examined": 1,
    "no_runner_at": "2026-10-20T19:00:01+00:00",
-   "rerun": "no runner",
-   "rerun_after": "2026-10-20T19:30:01+00:00",
    "run_id": 39476479089,
    "status": "dispatched",
    "time": "2026-10-20T18:38:11+00:00",
@@ -2058,8 +2024,6 @@
   "572257": {
    "examined": 1,
    "no_runner_at": "2026-10-20T18:57:52+00:00",
-   "rerun": "no runner",
-   "rerun_after": "2026-10-20T19:27:52+00:00",
    "run_id": 39476265728,
    "status": "dispatched",
    "time": "2026-10-20T18:36:45+00:00",
@@ -2068,8 +2032,6 @@
   "572262": {
    "examined": 1,
    "no_runner_at": "2026-10-20T18:42:51+00:00",
-   "rerun": "no runner",
-   "rerun_after": "2026-10-20T19:12:51+00:00",
    "run_id": 39473908541,
    "status": "dispatched",
    "time": "2026-10-20T18:20:43+00:00",
@@ -2078,8 +2040,6 @@
   "572267": {
    "examined": 1,
    "no_runner_at": "2026-10-20T18:37:51+00:00",
-   "rerun": "no runner",
-   "rerun_after": "2026-10-20T19:07:51+00:00",
    "run_id": 39473149752,
    "status": "dispatched",
    "time": "2026-10-20T18:15:22+00:00",
@@ -2087,9 +2047,8 @@
   },
   "572280": {
    "examined": 1,
+   "final": "closed before the re-run",
    "no_runner_at": "2026-10-20T18:36:31+00:00",
-   "rerun": "no runner",
-   "rerun_after": "2026-10-20T19:06:31+00:00",
    "run_id": 39472935200,
    "status": "dispatched",
    "time": "2026-10-20T18:13:54+00:00",
@@ -2098,22 +2057,17 @@
   "572282": {
    "examined": 1,
    "no_runner_at": "2026-10-20T18:23:35+00:00",
-   "rerun": "no runner",
-   "rerun_after": "2026-10-20T18:53:35+00:00",
    "run_id": 39470787334,
    "status": "dispatched",
    "time": "2026-10-20T17:59:10+00:00",
    "title": "python3Packages.silero-vad: 6.2.1 -> 6.2.3"
   },
   "572283": {
-   "examined": 1,
-   "no_runner_at": "2026-10-20T18:14:58+00:00",
-   "rerun": "no runner",
-   "rerun_after": "2026-10-20T18:44:58+00:00",
-   "run_id": 39469631504,
+   "redispatched": true,
+   "run_id": 39731441155,
    "status": "dispatched",
-   "time": "2026-10-20T17:51:00+00:00",
-   "title": "plink2: 2.0.0-a.7.9 -> 2.0.0-a.7.11"
+   "time": "2026-10-22T06:01:59+00:00",
+   "title": "plink2: 2.0.0-a.7.9 -> 2.0.0-b.1.0"
   },
   "572293": {
    "examined": 1,
