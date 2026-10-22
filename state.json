@@ -1,5 +1,29 @@
 {
  "records": {
+  "567007": {
+   "run_id": 39699616457,
+   "status": "dispatched",
+   "time": "2026-10-22T00:25:41+00:00",
+   "title": "openscadPackages.bosl2: 2.0.755 -> 2.0.769"
+  },
+  "567016": {
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "clion: 2026.2.0.1 -> 2026.2.3.1",
+   "tries": 0
+  },
+  "567019": {
+   "reason": "mergeability unknown",
+   "status": "retry",
+   "title": "ruby-mine: 2026.2 -> 2026.2.3",
+   "tries": 1
+  },
+  "567030": {
+   "run_id": 39699018282,
+   "status": "dispatched",
+   "time": "2026-10-22T00:19:39+00:00",
+   "title": "elmPackages.elm-language-server: 2.8.0 -> 2.10.0"
+  },
   "567044": {
    "run_id": 39696245521,
    "status": "dispatched",
@@ -67,10 +91,10 @@
    "title": "oxvg: 0.0.7 -> 0.0.9"
   },
   "567298": {
-   "reason": "mergeability unknown",
-   "status": "retry",
-   "title": "airgorah: 0.8.1 -> 0.9.0",
-   "tries": 1
+   "run_id": 39700022895,
+   "status": "dispatched",
+   "time": "2026-10-22T00:29:49+00:00",
+   "title": "airgorah: 0.8.1 -> 0.9.0"
   },
   "567305": {
    "run_id": 39693849390,
