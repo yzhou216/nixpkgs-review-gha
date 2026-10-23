@@ -1,5 +1,65 @@
 {
  "records": {
+  "554012": {
+   "run_id": 39936174489,
+   "status": "dispatched",
+   "time": "2026-10-23T10:02:02+00:00",
+   "title": "cantata: 3.4.0 -> 3.5.0"
+  },
+  "554035": {
+   "run_id": 39935993543,
+   "status": "dispatched",
+   "time": "2026-10-23T10:00:35+00:00",
+   "title": "dcrd: 2.1.5 -> 2.1.7"
+  },
+  "554056": {
+   "run_id": 39935753360,
+   "status": "dispatched",
+   "time": "2026-10-23T09:58:36+00:00",
+   "title": "tomcat: 11.0.24 -> 11.0.26"
+  },
+  "554063": {
+   "run_id": 39935573302,
+   "status": "dispatched",
+   "time": "2026-10-23T09:57:05+00:00",
+   "title": "bazel-gazelle: 0.52.2 -> 2.0.0-3"
+  },
+  "554088": {
+   "run_id": 39935397826,
+   "status": "dispatched",
+   "time": "2026-10-23T09:55:37+00:00",
+   "title": "linuxPackages.hid-tmff2: 0.83-unstable-2026-08-09 -> 0.83-unstable-2026-08-25"
+  },
+  "554104": {
+   "run_id": 39934959920,
+   "status": "dispatched",
+   "time": "2026-10-23T09:52:01+00:00",
+   "title": "skrooge: 26.4.0 -> 26.8.0"
+  },
+  "554128": {
+   "run_id": 39934409893,
+   "status": "dispatched",
+   "time": "2026-10-23T09:47:24+00:00",
+   "title": "vk-bootstrap: 1.4.350 -> 1.4.363"
+  },
+  "554131": {
+   "run_id": 39934035735,
+   "status": "dispatched",
+   "time": "2026-10-23T09:44:20+00:00",
+   "title": "python3Packages.protobuf-py-ext: 0.3.0 -> 0.6.0"
+  },
+  "554143": {
+   "run_id": 39933224782,
+   "status": "dispatched",
+   "time": "2026-10-23T09:37:36+00:00",
+   "title": "ccusage: 20.0.17 -> 20.0.37"
+  },
+  "554230": {
+   "run_id": 39932730361,
+   "status": "dispatched",
+   "time": "2026-10-23T09:33:28+00:00",
+   "title": "python3Packages.azure-mgmt-recoveryservices: 4.1.0 -> 4.2.0"
+  },
   "554296": {
    "run_id": 39932351486,
    "status": "dispatched",
@@ -7,6 +67,8 @@
    "title": "confy: 0.9.0 -> 0.9.1"
   },
   "554315": {
+   "examined": 1,
+   "final": "review (x86_64-linux): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.",
    "run_id": 39931794012,
    "status": "dispatched",
    "time": "2026-10-23T09:25:48+00:00",
