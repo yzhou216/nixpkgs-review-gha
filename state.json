@@ -1,5 +1,77 @@
 {
  "records": {
+  "553479": {
+   "run_id": 39938369606,
+   "status": "dispatched",
+   "time": "2026-10-23T10:20:15+00:00",
+   "title": "zimfw: 1.20.0 -> 1.20.1"
+  },
+  "553481": {
+   "run_id": 39938126697,
+   "status": "dispatched",
+   "time": "2026-10-23T10:18:10+00:00",
+   "title": "putty: 0.84 -> 0.85"
+  },
+  "553483": {
+   "run_id": 39937955737,
+   "status": "dispatched",
+   "time": "2026-10-23T10:16:43+00:00",
+   "title": "freetds: 1.5.18 -> 1.5.19"
+  },
+  "553491": {
+   "run_id": 39937775651,
+   "status": "dispatched",
+   "time": "2026-10-23T10:15:13+00:00",
+   "title": "v2raya: 2.2.7.5 -> 2.5.10"
+  },
+  "553518": {
+   "run_id": 39937597527,
+   "status": "dispatched",
+   "time": "2026-10-23T10:13:45+00:00",
+   "title": "fsel: 3.6.0 -> 3.7.0"
+  },
+  "553526": {
+   "run_id": 39937423463,
+   "status": "dispatched",
+   "time": "2026-10-23T10:12:19+00:00",
+   "title": "prow: 0-unstable-2026-08-08 -> 0-unstable-2026-10-16"
+  },
+  "553528": {
+   "run_id": 39937252101,
+   "status": "dispatched",
+   "time": "2026-10-23T10:10:52+00:00",
+   "title": "python3Packages.types-protobuf: 6.32.1.20260221 -> 7.35.1.20260906"
+  },
+  "553529": {
+   "run_id": 39937073243,
+   "status": "dispatched",
+   "time": "2026-10-23T10:09:23+00:00",
+   "title": "waypipe: 0.11.0 -> 0.11.2"
+  },
+  "553538": {
+   "run_id": 39936833295,
+   "status": "dispatched",
+   "time": "2026-10-23T10:07:22+00:00",
+   "title": "linuxPackages.corefreq: 2.1.2 -> 2.1.5"
+  },
+  "553600": {
+   "run_id": 39936654518,
+   "status": "dispatched",
+   "time": "2026-10-23T10:05:54+00:00",
+   "title": "solana-agave: 4.2.0 -> 4.2.2"
+  },
+  "553611": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "python3Packages.qcengine: 0.51.0 -> 0.52.0",
+   "tries": 0
+  },
+  "553785": {
+   "run_id": 39936356557,
+   "status": "dispatched",
+   "time": "2026-10-23T10:03:32+00:00",
+   "title": "risor: 2.1.0 -> 2.2.0"
+  },
   "554012": {
    "run_id": 39936174489,
    "status": "dispatched",
