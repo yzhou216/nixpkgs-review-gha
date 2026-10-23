@@ -1,5 +1,131 @@
 {
  "records": {
+  "550111": {
+   "run_id": 39956511024,
+   "status": "dispatched",
+   "time": "2026-10-23T12:51:30+00:00",
+   "title": "python3Packages.google-cloud-storage-control: 1.13.0 -> 1.15.0"
+  },
+  "550224": {
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "hcli: 0.18.5 -> 0.19.0",
+   "tries": 0
+  },
+  "550357": {
+   "run_id": 39956304510,
+   "status": "dispatched",
+   "time": "2026-10-23T12:49:56+00:00",
+   "title": "babl: 0.1.126 -> 0.1.128"
+  },
+  "550375": {
+   "run_id": 39956113693,
+   "status": "dispatched",
+   "time": "2026-10-23T12:48:24+00:00",
+   "title": "flat-remix-icon-theme: 20240201 -> 20250709"
+  },
+  "550391": {
+   "reason": "mergeability unknown",
+   "status": "retry",
+   "title": "rocksdb: 10.10.1 -> 11.8.1",
+   "tries": 1
+  },
+  "550462": {
+   "run_id": 39955848443,
+   "status": "dispatched",
+   "time": "2026-10-23T12:46:19+00:00",
+   "title": "python3Packages.strawberry-graphql-django: 0.86.5 -> 0.88.0"
+  },
+  "550677": {
+   "run_id": 39955657294,
+   "status": "dispatched",
+   "time": "2026-10-23T12:44:53+00:00",
+   "title": "python3Packages.skyfield: 1.54 -> 1.55"
+  },
+  "550749": {
+   "run_id": 39955468413,
+   "status": "dispatched",
+   "time": "2026-10-23T12:43:24+00:00",
+   "title": "python3Packages.docling-parse: 7.8.1 -> 7.17.0"
+  },
+  "550886": {
+   "run_id": 39955279328,
+   "status": "dispatched",
+   "time": "2026-10-23T12:41:55+00:00",
+   "title": "python3Packages.prophet: 1.3.0 -> 1.5.0"
+  },
+  "551021": {
+   "run_id": 39955095477,
+   "status": "dispatched",
+   "time": "2026-10-23T12:40:28+00:00",
+   "title": "sleek-todo: 2.0.28 -> 2.1.1"
+  },
+  "551059": {
+   "run_id": 39954909587,
+   "status": "dispatched",
+   "time": "2026-10-23T12:39:00+00:00",
+   "title": "ugs: 2.1.24 -> 2.1.27"
+  },
+  "551098": {
+   "run_id": 39954728878,
+   "status": "dispatched",
+   "time": "2026-10-23T12:37:32+00:00",
+   "title": "python3Packages.logbook: 1.9.2 -> 1.10.1"
+  },
+  "551109": {
+   "run_id": 39954546403,
+   "status": "dispatched",
+   "time": "2026-10-23T12:36:04+00:00",
+   "title": "python3Packages.docling-core: 2.90.0 -> 2.92.0"
+  },
+  "551304": {
+   "run_id": 39954360938,
+   "status": "dispatched",
+   "time": "2026-10-23T12:34:38+00:00",
+   "title": "python3Packages.mayavi: 4.8.3 -> 4.9.0"
+  },
+  "551351": {
+   "run_id": 39954174090,
+   "status": "dispatched",
+   "time": "2026-10-23T12:33:11+00:00",
+   "title": "poliedros: 1.5.3 -> 2.0.0"
+  },
+  "551439": {
+   "run_id": 39953983307,
+   "status": "dispatched",
+   "time": "2026-10-23T12:31:40+00:00",
+   "title": "python3Packages.osc: 1.27.2 -> 1.28.0"
+  },
+  "551484": {
+   "run_id": 39953789959,
+   "status": "dispatched",
+   "time": "2026-10-23T12:30:12+00:00",
+   "title": "spoofer: 1.4.13 -> 1.5.0"
+  },
+  "551552": {
+   "run_id": 39953607659,
+   "status": "dispatched",
+   "time": "2026-10-23T12:28:45+00:00",
+   "title": "python3Packages.azure-mgmt-synapse: 2.1.0b5 -> 2.0.0"
+  },
+  "551603": {
+   "run_id": 39953425728,
+   "status": "dispatched",
+   "time": "2026-10-23T12:27:19+00:00",
+   "title": "clusterctl: 1.13.4 -> 1.14.3"
+  },
+  "551643": {
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "python3Packages.pywebpush: 2.3.0 -> 2.5.0",
+   "tries": 0
+  },
+  "551703": {
+   "run_id": 39953228764,
+   "status": "dispatched",
+   "time": "2026-10-23T12:25:44+00:00",
+   "title": "adminer: 5.5.1 -> 6.1.2"
+  },
   "551742": {
    "run_id": 39952857203,
    "status": "dispatched",
@@ -13,6 +139,8 @@
    "title": "heimdall-proxy: 0.17.19 -> 0.17.20"
   },
   "551821": {
+   "examined": 1,
+   "final": "review (aarch64-darwin): Failed to FinalizeArtifact: Unable to make request: ECONNRESET\nIf you are using self-hosted runners,",
    "run_id": 39952317432,
    "status": "dispatched",
    "time": "2026-10-23T12:18:21+00:00",
@@ -79,10 +207,10 @@
    "title": "coc-json: 1.9.3 -> 1.9.16"
   },
   "552090": {
-   "reason": "mergeability unknown",
-   "status": "retry",
-   "title": "coc-snippets: 3.4.7 -> 3.4.10",
-   "tries": 1
+   "run_id": 39953044722,
+   "status": "dispatched",
+   "time": "2026-10-23T12:24:16+00:00",
+   "title": "coc-snippets: 3.4.7 -> 3.4.10"
   },
   "552240": {
    "run_id": 39950400101,
@@ -499,6 +627,7 @@
    "title": "python3Packages.sklearn2pmml: 0.132.0 -> 0.133.1"
   },
   "554589": {
+   "final": "cancelled after 4 hours",
    "run_id": 39924518125,
    "status": "dispatched",
    "time": "2026-10-23T08:25:22+00:00",
