@@ -1,5 +1,101 @@
 {
  "records": {
+  "545898": {
+   "run_id": 39993097609,
+   "status": "dispatched",
+   "time": "2026-10-23T17:11:59+00:00",
+   "title": "common-licenses: 13 -> 13.8+deb13u6"
+  },
+  "546000": {
+   "run_id": 39992898662,
+   "status": "dispatched",
+   "time": "2026-10-23T17:10:31+00:00",
+   "title": "patatt: 0.7.0 -> 0.8.0"
+  },
+  "546050": {
+   "run_id": 39992185500,
+   "status": "dispatched",
+   "time": "2026-10-23T17:05:20+00:00",
+   "title": "lightwalletd: 0.4.19 -> 0.5.5"
+  },
+  "546090": {
+   "run_id": 39991328111,
+   "status": "dispatched",
+   "time": "2026-10-23T16:59:20+00:00",
+   "title": "python3Packages.localstack-client: 2.11 -> 2.12"
+  },
+  "546100": {
+   "run_id": 39991127666,
+   "status": "dispatched",
+   "time": "2026-10-23T16:57:52+00:00",
+   "title": "python3Packages.coredis: 6.7.0 -> 6.9.0"
+  },
+  "546320": {
+   "reason": "mergeability unknown",
+   "status": "retry",
+   "title": "python3Packages.txredisapi: 1.4.12 -> 1.5.0",
+   "tries": 1
+  },
+  "546322": {
+   "reason": "mergeability unknown",
+   "status": "retry",
+   "title": "python3Packages.types-docutils: 0.22.3.20260712 -> 0.23.0.20260923",
+   "tries": 1
+  },
+  "546385": {
+   "run_id": 39990742517,
+   "status": "dispatched",
+   "time": "2026-10-23T16:55:04+00:00",
+   "title": "librime-octagram: 0-unstable-2026-07-11 -> 0-unstable-2026-08-31"
+  },
+  "546523": {
+   "run_id": 39990532471,
+   "status": "dispatched",
+   "time": "2026-10-23T16:53:33+00:00",
+   "title": "ghc_filesystem: 1.5.14 -> 1.5.16"
+  },
+  "546682": {
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "python3Packages.types-deprecated: 1.3.1.20260520 -> 1.3.1.20260928",
+   "tries": 0
+  },
+  "546846": {
+   "run_id": 39990305114,
+   "status": "dispatched",
+   "time": "2026-10-23T16:51:58+00:00",
+   "title": "multipath-tools: 0.14.3 -> 0.15.1"
+  },
+  "546898": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "python3Packages.npe2: 0.8.1 -> 0.10.0",
+   "tries": 0
+  },
+  "546979": {
+   "run_id": 39990096345,
+   "status": "dispatched",
+   "time": "2026-10-23T16:50:25+00:00",
+   "title": "brickstore: 2026.3.2 -> 2026.9.1"
+  },
+  "547089": {
+   "run_id": 39989894294,
+   "status": "dispatched",
+   "time": "2026-10-23T16:48:57+00:00",
+   "title": "log4cxx: 1.7.0 -> 1.8.0"
+  },
+  "547213": {
+   "run_id": 39989700162,
+   "status": "dispatched",
+   "time": "2026-10-23T16:47:30+00:00",
+   "title": "docker-buildx: 0.35.0 -> 0.38.0"
+  },
+  "547264": {
+   "run_id": 39989500066,
+   "status": "dispatched",
+   "time": "2026-10-23T16:46:02+00:00",
+   "title": "libmysqlconnectorcpp: 9.7.0 -> 26.7.0"
+  },
   "547271": {
    "run_id": 39978393494,
    "status": "dispatched",
@@ -187,6 +283,7 @@
    "title": "python3Packages.lazr-uri: 1.0.8 -> 4.0.0"
   },
   "550111": {
+   "final": "cancelled after 4 hours",
    "run_id": 39956511024,
    "status": "dispatched",
    "time": "2026-10-23T12:51:30+00:00",
@@ -223,12 +320,14 @@
    "title": "python3Packages.strawberry-graphql-django: 0.86.5 -> 0.88.0"
   },
   "550677": {
+   "final": "cancelled after 4 hours",
    "run_id": 39955657294,
    "status": "dispatched",
    "time": "2026-10-23T12:44:53+00:00",
    "title": "python3Packages.skyfield: 1.54 -> 1.55"
   },
   "550749": {
+   "final": "cancelled after 4 hours",
    "run_id": 39955468413,
    "status": "dispatched",
    "time": "2026-10-23T12:43:24+00:00",
