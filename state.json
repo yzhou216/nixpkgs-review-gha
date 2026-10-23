@@ -1,5 +1,83 @@
 {
  "records": {
+  "561279": {
+   "run_id": 39876070170,
+   "status": "dispatched",
+   "time": "2026-10-23T00:06:27+00:00",
+   "title": "liblognorm: 2.1.0 -> 2.1.1"
+  },
+  "561285": {
+   "run_id": 39875907185,
+   "status": "dispatched",
+   "time": "2026-10-23T00:05:01+00:00",
+   "title": "git-toolbelt: 1.11.0 -> 1.12.0"
+  },
+  "561307": {
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "vfox: 1.0.11 -> 1.0.12",
+   "tries": 0
+  },
+  "561310": {
+   "run_id": 39875745320,
+   "status": "dispatched",
+   "time": "2026-10-23T00:03:30+00:00",
+   "title": "f2: 2.2.2 -> 2.2.3"
+  },
+  "561315": {
+   "run_id": 39874879098,
+   "status": "dispatched",
+   "time": "2026-10-22T23:55:10+00:00",
+   "title": "python3Packages.asn1tools: 0.167.0 -> 0.169.0"
+  },
+  "561321": {
+   "run_id": 39874729279,
+   "status": "dispatched",
+   "time": "2026-10-22T23:53:43+00:00",
+   "title": "python3Packages.pydash: 8.0.6 -> 8.1.0"
+  },
+  "561332": {
+   "run_id": 39874577225,
+   "status": "dispatched",
+   "time": "2026-10-22T23:52:17+00:00",
+   "title": "opengrok: 1.14.17 -> 1.14.20"
+  },
+  "561354": {
+   "run_id": 39874423585,
+   "status": "dispatched",
+   "time": "2026-10-22T23:50:48+00:00",
+   "title": "python3Packages.streamlit: 1.62.0 -> 1.66.0"
+  },
+  "561364": {
+   "run_id": 39874268804,
+   "status": "dispatched",
+   "time": "2026-10-22T23:49:21+00:00",
+   "title": "xlights: 2026.16 -> 2026.18"
+  },
+  "561367": {
+   "run_id": 39874117915,
+   "status": "dispatched",
+   "time": "2026-10-22T23:47:54+00:00",
+   "title": "python3Packages.troi: 2026.07.31.0 -> 2026.09.01.0"
+  },
+  "561430": {
+   "run_id": 39873971331,
+   "status": "dispatched",
+   "time": "2026-10-22T23:46:28+00:00",
+   "title": "visualvm: 2.2.1 -> 2.2.2"
+  },
+  "561471": {
+   "run_id": 39873812513,
+   "status": "dispatched",
+   "time": "2026-10-22T23:44:59+00:00",
+   "title": "comigo: 1.3.4 -> 1.3.7"
+  },
+  "561483": {
+   "run_id": 39873663825,
+   "status": "dispatched",
+   "time": "2026-10-22T23:43:32+00:00",
+   "title": "python3Packages.openinference-semantic-conventions: 0.1.32 -> 0.1.39"
+  },
   "561514": {
    "run_id": 39861653946,
    "status": "dispatched",
@@ -13,10 +91,10 @@
    "title": "tree-sitter-grammars.tree-sitter-kdl: 1.1.0 -> 2.0.0"
   },
   "561598": {
-   "reason": "mergeability unknown",
-   "status": "retry",
-   "title": "python3Packages.nitypes: 1.1.0 -> 1.1.0.dev3",
-   "tries": 1
+   "run_id": 39873508587,
+   "status": "dispatched",
+   "time": "2026-10-22T23:42:05+00:00",
+   "title": "python3Packages.nitypes: 1.1.0 -> 1.1.0.dev3"
   },
   "561667": {
    "run_id": 39856986443,
@@ -115,6 +193,7 @@
    "title": "python3Packages.pyhanko-certvalidator: 0.31.4 -> 0.32.1"
   },
   "561978": {
+   "final": "cancelled after 4 hours",
    "run_id": 39843419352,
    "status": "dispatched",
    "time": "2026-10-22T19:49:19+00:00",
@@ -127,6 +206,7 @@
    "title": "calamares: 3.4.2 -> 3.4.3"
   },
   "562107": {
+   "final": "cancelled after 4 hours",
    "run_id": 39841845248,
    "status": "dispatched",
    "time": "2026-10-22T19:38:21+00:00",
@@ -141,6 +221,7 @@
    "title": "google-guest-oslogin: 20260214.00 -> 20261009.00"
   },
   "562222": {
+   "final": "cancelled after 4 hours",
    "run_id": 39841414390,
    "status": "dispatched",
    "time": "2026-10-22T19:35:22+00:00",
