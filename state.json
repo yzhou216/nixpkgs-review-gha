@@ -1,5 +1,59 @@
 {
  "records": {
+  "554296": {
+   "run_id": 39932351486,
+   "status": "dispatched",
+   "time": "2026-10-23T09:30:24+00:00",
+   "title": "confy: 0.9.0 -> 0.9.1"
+  },
+  "554315": {
+   "run_id": 39931794012,
+   "status": "dispatched",
+   "time": "2026-10-23T09:25:48+00:00",
+   "title": "amazon-cloudwatch-agent: 1.300071.0 -> 1.300074.0"
+  },
+  "554322": {
+   "run_id": 39931609599,
+   "status": "dispatched",
+   "time": "2026-10-23T09:24:17+00:00",
+   "title": "linuxPackages.facetimehd: 0.7.0.2 -> 0.7.2"
+  },
+  "554340": {
+   "run_id": 39931177678,
+   "status": "dispatched",
+   "time": "2026-10-23T09:20:44+00:00",
+   "title": "nitter: 0-unstable-2026-07-11 -> 0-unstable-2026-10-10"
+  },
+  "554349": {
+   "run_id": 39930233656,
+   "status": "dispatched",
+   "time": "2026-10-23T09:12:55+00:00",
+   "title": "ticcutils: 0.37 -> 0.38"
+  },
+  "554354": {
+   "run_id": 39930045493,
+   "status": "dispatched",
+   "time": "2026-10-23T09:11:23+00:00",
+   "title": "python3Packages.bitstruct: 8.22.1 -> 8.23.0"
+  },
+  "554361": {
+   "run_id": 39929676593,
+   "status": "dispatched",
+   "time": "2026-10-23T09:08:21+00:00",
+   "title": "tomcat9: 9.0.120 -> 9.0.123"
+  },
+  "554394": {
+   "run_id": 39929322558,
+   "status": "dispatched",
+   "time": "2026-10-23T09:05:26+00:00",
+   "title": "auth0-cli: 1.32.0 -> 1.33.0"
+  },
+  "554400": {
+   "run_id": 39928953366,
+   "status": "dispatched",
+   "time": "2026-10-23T09:02:24+00:00",
+   "title": "masterpdfeditor: 5.9.98 -> 5.9.99"
+  },
   "554472": {
    "run_id": 39928067459,
    "status": "dispatched",
@@ -79,10 +133,10 @@
    "title": "python3Packages.striprtf: 0.0.32 -> 0.0.33"
   },
   "554772": {
-   "reason": "mergeability unknown",
-   "status": "retry",
-   "title": "ifm-web: 4.1.1 -> 4.1.2",
-   "tries": 1
+   "run_id": 39929497309,
+   "status": "dispatched",
+   "time": "2026-10-23T09:06:52+00:00",
+   "title": "ifm-web: 4.1.1 -> 4.1.2"
   },
   "554781": {
    "run_id": 39921496836,
