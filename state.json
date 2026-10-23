@@ -1,5 +1,65 @@
 {
  "records": {
+  "555273": {
+   "run_id": 39918022659,
+   "status": "dispatched",
+   "time": "2026-10-23T07:28:50+00:00",
+   "title": "coc-eslint: 3.0.15 -> 3.1.4"
+  },
+  "555281": {
+   "run_id": 39917665882,
+   "status": "dispatched",
+   "time": "2026-10-23T07:25:48+00:00",
+   "title": "scite: 5.6.5 -> 5.6.7"
+  },
+  "555337": {
+   "run_id": 39917492252,
+   "status": "dispatched",
+   "time": "2026-10-23T07:24:21+00:00",
+   "title": "elektroid: 3.3.2 -> 3.4"
+  },
+  "555376": {
+   "run_id": 39916956330,
+   "status": "dispatched",
+   "time": "2026-10-23T07:19:12+00:00",
+   "title": "lightning-terminal: 0.17.0-alpha -> 0.17.6"
+  },
+  "555402": {
+   "run_id": 39916812981,
+   "status": "dispatched",
+   "time": "2026-10-23T07:17:44+00:00",
+   "title": "odpic: 5.6.2 -> 26.0.0"
+  },
+  "555451": {
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "secretspec-ffi: 0.19.0 -> 0.19.1",
+   "tries": 0
+  },
+  "555506": {
+   "run_id": 39916270589,
+   "status": "dispatched",
+   "time": "2026-10-23T07:12:27+00:00",
+   "title": "fluent-bit: 5.1.0 -> 5.1.4"
+  },
+  "555509": {
+   "run_id": 39916127619,
+   "status": "dispatched",
+   "time": "2026-10-23T07:11:00+00:00",
+   "title": "diylc: 6.2.0 -> 6.7.0"
+  },
+  "555571": {
+   "run_id": 39915653372,
+   "status": "dispatched",
+   "time": "2026-10-23T07:06:22+00:00",
+   "title": "mysqltuner: 2.9.1 -> 2.9.2"
+  },
+  "555617": {
+   "run_id": 39915206093,
+   "status": "dispatched",
+   "time": "2026-10-23T07:02:16+00:00",
+   "title": "source2viewer-cli: 19.2 -> 20.0"
+  },
   "555636": {
    "run_id": 39914042350,
    "status": "dispatched",
