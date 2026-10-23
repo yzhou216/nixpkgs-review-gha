@@ -1,5 +1,89 @@
 {
  "records": {
+  "560466": {
+   "run_id": 39882420898,
+   "status": "dispatched",
+   "time": "2026-10-23T01:09:53+00:00",
+   "title": "open-policy-agent: 1.19.1 -> 1.21.2"
+  },
+  "560657": {
+   "run_id": 39882286686,
+   "status": "dispatched",
+   "time": "2026-10-23T01:08:27+00:00",
+   "title": "nfdump: 1.7.8 -> 1.7.10"
+  },
+  "560699": {
+   "run_id": 39882142728,
+   "status": "dispatched",
+   "time": "2026-10-23T01:06:59+00:00",
+   "title": "linuxPackages.nct6687d: 0-unstable-2026-08-15 -> 0-unstable-2026-10-18"
+  },
+  "560811": {
+   "run_id": 39881704780,
+   "status": "dispatched",
+   "time": "2026-10-23T01:02:36+00:00",
+   "title": "novelwriter: 26.1.2 -> 26.2.2"
+  },
+  "560921": {
+   "run_id": 39881494407,
+   "status": "dispatched",
+   "time": "2026-10-23T01:00:34+00:00",
+   "title": "ts-warp: 1.5.11 -> 1.5.12"
+  },
+  "560967": {
+   "run_id": 39881343742,
+   "status": "dispatched",
+   "time": "2026-10-23T00:59:07+00:00",
+   "title": "alt-ergo: 2.6.3 -> 2.6.4"
+  },
+  "560981": {
+   "run_id": 39881208872,
+   "status": "dispatched",
+   "time": "2026-10-23T00:57:40+00:00",
+   "title": "ghost-cli: 1.32.2 -> 1.33.7"
+  },
+  "561091": {
+   "run_id": 39881013806,
+   "status": "dispatched",
+   "time": "2026-10-23T00:55:40+00:00",
+   "title": "python3Packages.quart: 0.22.0 -> 0.23.1"
+  },
+  "561102": {
+   "run_id": 39880767772,
+   "status": "dispatched",
+   "time": "2026-10-23T00:53:11+00:00",
+   "title": "swayr: 0.28.2 -> 0.28.3"
+  },
+  "561119": {
+   "run_id": 39880621761,
+   "status": "dispatched",
+   "time": "2026-10-23T00:51:44+00:00",
+   "title": "safeeyes: 3.5.0 -> 3.5.1"
+  },
+  "561141": {
+   "run_id": 39880473395,
+   "status": "dispatched",
+   "time": "2026-10-23T00:50:15+00:00",
+   "title": "python3Packages.llama-index-llms-openai: 0.7.10 -> 0.8.3"
+  },
+  "561186": {
+   "run_id": 39879856202,
+   "status": "dispatched",
+   "time": "2026-10-23T00:43:59+00:00",
+   "title": "coturn: 4.17.2 -> 4.18.0"
+  },
+  "561195": {
+   "run_id": 39879712843,
+   "status": "dispatched",
+   "time": "2026-10-23T00:42:32+00:00",
+   "title": "python3Packages.crispy-bootstrap5: 2026.3 -> 2026.9"
+  },
+  "561205": {
+   "run_id": 39879572801,
+   "status": "dispatched",
+   "time": "2026-10-23T00:41:06+00:00",
+   "title": "python3Packages.pinecone: 9.1.0 -> 10.0.0"
+  },
   "561210": {
    "run_id": 39879418962,
    "status": "dispatched",
@@ -145,6 +229,7 @@
    "title": "cryptoverif: 2.12 -> 2.13"
   },
   "561706": {
+   "final": "cancelled after 4 hours",
    "run_id": 39854406249,
    "status": "dispatched",
    "time": "2026-10-22T21:05:39+00:00",
@@ -157,6 +242,7 @@
    "title": "jacktrip: 3.0.0 -> 3.0.1"
   },
   "561732": {
+   "final": "cancelled after 4 hours",
    "run_id": 39852491337,
    "status": "dispatched",
    "time": "2026-10-22T20:51:54+00:00",
@@ -258,6 +344,7 @@
    "title": "openxr-loader: 1.1.62 -> 1.1.63"
   },
   "562225": {
+   "final": "cancelled after 4 hours",
    "run_id": 39852208729,
    "status": "dispatched",
    "time": "2026-10-22T20:49:53+00:00",
