@@ -1,6 +1,86 @@
 {
  "records": {
+  "539813": {
+   "run_id": 40017318548,
+   "status": "dispatched",
+   "time": "2026-10-23T20:11:44+00:00",
+   "title": "suwayomi-server: 2.1.1867 -> 2.3.2243"
+  },
+  "539815": {
+   "run_id": 40016638779,
+   "status": "dispatched",
+   "time": "2026-10-23T20:06:30+00:00",
+   "title": "python3Packages.iplotx: 1.7.1 -> 1.8.0"
+  },
+  "539981": {
+   "run_id": 40016312142,
+   "status": "dispatched",
+   "time": "2026-10-23T20:04:01+00:00",
+   "title": "tunnelx: 2023-09-29 -> 2026-07-10"
+  },
+  "540003": {
+   "run_id": 40015567238,
+   "status": "dispatched",
+   "time": "2026-10-23T19:58:18+00:00",
+   "title": "python3Packages.molecule-plugins: 25.8.12 -> 26.10.12"
+  },
+  "540344": {
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "python3Packages.subarulink: 0.7.19 -> 0.7.20",
+   "tries": 0
+  },
+  "540480": {
+   "run_id": 40015293528,
+   "status": "dispatched",
+   "time": "2026-10-23T19:56:09+00:00",
+   "title": "prometheus-graphite-exporter: 0.16.0 -> 0.17.0"
+  },
+  "540567": {
+   "run_id": 40015114014,
+   "status": "dispatched",
+   "time": "2026-10-23T19:54:42+00:00",
+   "title": "python3Packages.tt-perf-report: 1.2.4 -> 1.4.1"
+  },
+  "540630": {
+   "run_id": 40014927950,
+   "status": "dispatched",
+   "time": "2026-10-23T19:53:15+00:00",
+   "title": "python3Packages.sgp4: 2.26 -> 2.27"
+  },
+  "540673": {
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "stable-diffusion-cpp-rocm: master-874-656a135 -> master-951-f89d9b1",
+   "tries": 0
+  },
+  "540785": {
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "python3Packages.editdistpy: 0.1.6 -> 0.2.0",
+   "tries": 0
+  },
+  "540937": {
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "obs-studio-plugins.waveform: 1.8.1 -> 1.9.1",
+   "tries": 0
+  },
+  "540977": {
+   "run_id": 40014699429,
+   "status": "dispatched",
+   "time": "2026-10-23T19:51:28+00:00",
+   "title": "hyperion-ng: 2.1.1 -> 2.2.1"
+  },
+  "541126": {
+   "reason": "mergeability unknown",
+   "status": "retry",
+   "title": "python3Packages.cohere: 7.0.4 -> 7.0.5",
+   "tries": 1
+  },
   "541194": {
+   "examined": 1,
+   "final": "review (aarch64-linux): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.",
    "run_id": 40013472840,
    "status": "dispatched",
    "time": "2026-10-23T19:42:06+00:00",
@@ -13,30 +93,40 @@
    "title": "katriawm: 26.03 -> 26.08"
   },
   "541242": {
+   "examined": 1,
+   "final": "review (aarch64-darwin): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.",
    "run_id": 40013022286,
    "status": "dispatched",
    "time": "2026-10-23T19:38:41+00:00",
    "title": "python3Packages.svg-path: 7.0 -> 7.1"
   },
   "541264": {
+   "examined": 1,
+   "final": "review (aarch64-linux): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.",
    "run_id": 40012828608,
    "status": "dispatched",
    "time": "2026-10-23T19:37:14+00:00",
    "title": "python3Packages.autograd: 1.9.0 -> 1.9.1"
   },
   "541296": {
+   "examined": 1,
+   "final": "review (x86_64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.",
    "run_id": 40012359834,
    "status": "dispatched",
    "time": "2026-10-23T19:33:39+00:00",
    "title": "prometheus-elasticsearch-exporter: 1.10.0 -> 1.11.0"
   },
   "541325": {
+   "examined": 1,
+   "final": "review (aarch64-linux): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.",
    "run_id": 40011951997,
    "status": "dispatched",
    "time": "2026-10-23T19:30:30+00:00",
    "title": "python3Packages.azure-mgmt-domainregistration: 1.0.0b1 -> 1.0.0"
   },
   "541346": {
+   "examined": 1,
+   "final": "review (x86_64-linux): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.",
    "run_id": 40011488454,
    "status": "dispatched",
    "time": "2026-10-23T19:26:57+00:00",
