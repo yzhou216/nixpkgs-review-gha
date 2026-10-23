@@ -1,5 +1,65 @@
 {
  "records": {
+  "552547": {
+   "run_id": 39949056411,
+   "status": "dispatched",
+   "time": "2026-10-23T11:51:36+00:00",
+   "title": "bosh-cli: 7.10.8 -> 7.11.1"
+  },
+  "552571": {
+   "run_id": 39948383263,
+   "status": "dispatched",
+   "time": "2026-10-23T11:45:56+00:00",
+   "title": "stax: 0.102.2 -> 0.116.0"
+  },
+  "552573": {
+   "run_id": 39948013901,
+   "status": "dispatched",
+   "time": "2026-10-23T11:42:54+00:00",
+   "title": "karate: 2.1.1 -> 2.1.3"
+  },
+  "552674": {
+   "run_id": 39947840046,
+   "status": "dispatched",
+   "time": "2026-10-23T11:41:25+00:00",
+   "title": "xcpc: 0.52.1 -> 0.53.0"
+  },
+  "552681": {
+   "run_id": 39947547082,
+   "status": "dispatched",
+   "time": "2026-10-23T11:38:56+00:00",
+   "title": "clingo: 5.8.1 -> 5.8.2"
+  },
+  "552683": {
+   "run_id": 39947008307,
+   "status": "dispatched",
+   "time": "2026-10-23T11:34:19+00:00",
+   "title": "arkade: 0.11.116 -> 0.11.132"
+  },
+  "552695": {
+   "run_id": 39946584928,
+   "status": "dispatched",
+   "time": "2026-10-23T11:30:43+00:00",
+   "title": "monitoring-plugins: 2.4.0 -> 3.0.3"
+  },
+  "552710": {
+   "run_id": 39946043337,
+   "status": "dispatched",
+   "time": "2026-10-23T11:26:06+00:00",
+   "title": "dbgate: 7.2.4 -> 7.3.1"
+  },
+  "552795": {
+   "run_id": 39945689497,
+   "status": "dispatched",
+   "time": "2026-10-23T11:23:05+00:00",
+   "title": "shpool: 0.11.0 -> 0.11.5"
+  },
+  "552808": {
+   "reason": "mergeability unknown",
+   "status": "retry",
+   "title": "kine: 0.16.3 -> 0.17.2",
+   "tries": 1
+  },
   "552831": {
    "run_id": 39944459459,
    "status": "dispatched",
@@ -431,6 +491,7 @@
    "title": "vespa-cli: 8.697.20 -> 8.738.17"
   },
   "555016": {
+   "final": "cancelled after 4 hours",
    "run_id": 39918996667,
    "status": "dispatched",
    "time": "2026-10-23T07:37:25+00:00",
