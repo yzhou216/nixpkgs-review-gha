@@ -1,5 +1,59 @@
 {
  "records": {
+  "547361": {
+   "run_id": 39973230980,
+   "status": "dispatched",
+   "time": "2026-10-23T14:51:35+00:00",
+   "title": "mysql_jdbc: 9.7.0 -> 26.7.0"
+  },
+  "547415": {
+   "run_id": 39972861552,
+   "status": "dispatched",
+   "time": "2026-10-23T14:49:02+00:00",
+   "title": "astal.source: 0-unstable-2026-07-19 -> 0-unstable-2026-09-23"
+  },
+  "547471": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "kubevirt: 1.8.4 -> 1.9.1",
+   "tries": 0
+  },
+  "547539": {
+   "run_id": 39972653455,
+   "status": "dispatched",
+   "time": "2026-10-23T14:47:34+00:00",
+   "title": "python3Packages.multimethod: 2.0.2 -> 2.1"
+  },
+  "547626": {
+   "run_id": 39972376588,
+   "status": "dispatched",
+   "time": "2026-10-23T14:45:35+00:00",
+   "title": "simpleitk: 2.5.5 -> 2.5.6"
+  },
+  "547660": {
+   "run_id": 39972154035,
+   "status": "dispatched",
+   "time": "2026-10-23T14:44:04+00:00",
+   "title": "endlessh-go: 2026.0328.0 -> 2026.0730.0"
+  },
+  "547818": {
+   "run_id": 39971513384,
+   "status": "dispatched",
+   "time": "2026-10-23T14:39:36+00:00",
+   "title": "g3proxy: 1.12.3 -> 1.12.4"
+  },
+  "547913": {
+   "run_id": 39971163423,
+   "status": "dispatched",
+   "time": "2026-10-23T14:37:06+00:00",
+   "title": "uutils-tar: 0-unstable-2026-07-22 -> 0-unstable-2026-10-18"
+  },
+  "548012": {
+   "run_id": 39970646452,
+   "status": "dispatched",
+   "time": "2026-10-23T14:33:29+00:00",
+   "title": "rofi-rbw-x11: 1.6.1 -> 1.7.0"
+  },
   "548040": {
    "run_id": 39968989032,
    "status": "dispatched",
