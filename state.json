@@ -1,5 +1,113 @@
 {
  "records": {
+  "557556": {
+   "run_id": 39901811349,
+   "status": "dispatched",
+   "time": "2026-10-23T04:43:09+00:00",
+   "title": "ucto: 0.36 -> 0.37"
+  },
+  "557568": {
+   "run_id": 39901682091,
+   "status": "dispatched",
+   "time": "2026-10-23T04:41:43+00:00",
+   "title": "orthanc: 1.12.11 -> 1.13.0"
+  },
+  "557650": {
+   "run_id": 39901547823,
+   "status": "dispatched",
+   "time": "2026-10-23T04:40:13+00:00",
+   "title": "python3Packages.pykcs11: 1.5.18 -> 1.5.20"
+  },
+  "557653": {
+   "run_id": 39901419539,
+   "status": "dispatched",
+   "time": "2026-10-23T04:38:47+00:00",
+   "title": "python3Packages.google-cloud-audit-log: 0.6.1 -> 0.6.2"
+  },
+  "557656": {
+   "run_id": 39901294028,
+   "status": "dispatched",
+   "time": "2026-10-23T04:37:21+00:00",
+   "title": "python3Packages.azure-keyvault-securitydomain: 1.0.0b1 -> 1.0.0b4"
+  },
+  "557677": {
+   "run_id": 39901168139,
+   "status": "dispatched",
+   "time": "2026-10-23T04:35:53+00:00",
+   "title": "python3Packages.pykmtronic: 0.3.0 -> 0.4.0"
+  },
+  "557707": {
+   "run_id": 39901039013,
+   "status": "dispatched",
+   "time": "2026-10-23T04:34:26+00:00",
+   "title": "headlamp-server: 0.43.0 -> 0.46.0"
+  },
+  "557730": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "stable-diffusion-cpp-vulkan: master-951-f89d9b1 -> master-982-0518b34",
+   "tries": 0
+  },
+  "557802": {
+   "run_id": 39900907181,
+   "status": "dispatched",
+   "time": "2026-10-23T04:32:58+00:00",
+   "title": "mudlet: 4.22.0 -> 5.0.1"
+  },
+  "557856": {
+   "run_id": 39900777729,
+   "status": "dispatched",
+   "time": "2026-10-23T04:31:31+00:00",
+   "title": "zsh-f-sy-h: 1.67 -> 1.67.1"
+  },
+  "557858": {
+   "run_id": 39900645254,
+   "status": "dispatched",
+   "time": "2026-10-23T04:30:04+00:00",
+   "title": "xtermcontrol: 3.10 -> 3.11"
+  },
+  "557889": {
+   "run_id": 39900471675,
+   "status": "dispatched",
+   "time": "2026-10-23T04:28:05+00:00",
+   "title": "uftrace: 0.19 -> 0.20"
+  },
+  "557892": {
+   "run_id": 39900346399,
+   "status": "dispatched",
+   "time": "2026-10-23T04:26:39+00:00",
+   "title": "tree-sitter-grammars.tree-sitter-c3: 0.11.0 -> 0.12.0"
+  },
+  "557893": {
+   "run_id": 39900167546,
+   "status": "dispatched",
+   "time": "2026-10-23T04:24:40+00:00",
+   "title": "uftraceFull: 0.19 -> 0.20"
+  },
+  "557899": {
+   "run_id": 39900037379,
+   "status": "dispatched",
+   "time": "2026-10-23T04:23:12+00:00",
+   "title": "tsx: 4.23.12 -> 4.23.15"
+  },
+  "557908": {
+   "run_id": 39899864517,
+   "status": "dispatched",
+   "time": "2026-10-23T04:21:13+00:00",
+   "title": "python3Packages.sphinx-argparse: 0.6.0 -> 0.6.1"
+  },
+  "557942": {
+   "run_id": 39899524436,
+   "status": "dispatched",
+   "time": "2026-10-23T04:17:20+00:00",
+   "title": "reticulum-group-chat: 1.15.0 -> 1.17.3"
+  },
+  "557954": {
+   "run_id": 39899349316,
+   "status": "dispatched",
+   "time": "2026-10-23T04:15:22+00:00",
+   "title": "testkube: 2.12.2 -> 2.14.0"
+  },
   "557963": {
    "run_id": 39899214658,
    "status": "dispatched",
@@ -91,6 +199,8 @@
    "title": "zuban: 0.9.1 -> 0.10.1"
   },
   "558227": {
+   "examined": 1,
+   "final": "review (x86_64-linux): The operation was canceled.; review (aarch64-linux): The operation was canceled.",
    "run_id": 39896109442,
    "status": "dispatched",
    "time": "2026-10-23T03:38:44+00:00",
@@ -671,6 +781,7 @@
    "title": "coturn: 4.17.2 -> 4.18.0"
   },
   "561195": {
+   "final": "cancelled after 4 hours",
    "run_id": 39879712843,
    "status": "dispatched",
    "time": "2026-10-23T00:42:32+00:00",
