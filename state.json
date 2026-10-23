@@ -1,5 +1,59 @@
 {
  "records": {
+  "554554": {
+   "run_id": 39925306585,
+   "status": "dispatched",
+   "time": "2026-10-23T08:31:58+00:00",
+   "title": "iceshelf: 0-unstable-2025-06-29 -> 0-unstable-2026-09-17"
+  },
+  "554560": {
+   "run_id": 39925130990,
+   "status": "dispatched",
+   "time": "2026-10-23T08:30:31+00:00",
+   "title": "python3Packages.sklearn2pmml: 0.132.0 -> 0.133.1"
+  },
+  "554589": {
+   "run_id": 39924518125,
+   "status": "dispatched",
+   "time": "2026-10-23T08:25:22+00:00",
+   "title": "wkg: 0.15.1 -> 0.16.1"
+  },
+  "554635": {
+   "run_id": 39923908409,
+   "status": "dispatched",
+   "time": "2026-10-23T08:20:10+00:00",
+   "title": "ghui: 0.4.6 -> 0.9.1"
+  },
+  "554673": {
+   "run_id": 39923503295,
+   "status": "dispatched",
+   "time": "2026-10-23T08:16:33+00:00",
+   "title": "riffdiff: 3.6.1 -> 3.6.2"
+  },
+  "554696": {
+   "run_id": 39923334014,
+   "status": "dispatched",
+   "time": "2026-10-23T08:15:06+00:00",
+   "title": "supabase-cli: 2.111.0 -> 2.115.0"
+  },
+  "554724": {
+   "run_id": 39922855221,
+   "status": "dispatched",
+   "time": "2026-10-23T08:11:00+00:00",
+   "title": "coccinelle: 1.3.1 -> 1.3.3"
+  },
+  "554746": {
+   "run_id": 39922367397,
+   "status": "dispatched",
+   "time": "2026-10-23T08:06:54+00:00",
+   "title": "python3Packages.striprtf: 0.0.32 -> 0.0.33"
+  },
+  "554772": {
+   "reason": "mergeability unknown",
+   "status": "retry",
+   "title": "ifm-web: 4.1.1 -> 4.1.2",
+   "tries": 1
+  },
   "554781": {
    "run_id": 39921496836,
    "status": "dispatched",
