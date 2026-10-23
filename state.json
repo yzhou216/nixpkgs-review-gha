@@ -1,5 +1,71 @@
 {
  "records": {
+  "555636": {
+   "run_id": 39914042350,
+   "status": "dispatched",
+   "time": "2026-10-23T06:51:11+00:00",
+   "title": "precious: 0.11.0 -> 1.0.0"
+  },
+  "555652": {
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "python3Packages.lib50: 3.2.1 -> 3.2.3",
+   "tries": 0
+  },
+  "555737": {
+   "run_id": 39913878930,
+   "status": "dispatched",
+   "time": "2026-10-23T06:49:38+00:00",
+   "title": "steel: 0.8.2 -> 0.8.3"
+  },
+  "555764": {
+   "run_id": 39913679943,
+   "status": "dispatched",
+   "time": "2026-10-23T06:47:40+00:00",
+   "title": "python3Packages.evdev: 1.9.3 -> 2.0.0"
+  },
+  "555794": {
+   "run_id": 39913533610,
+   "status": "dispatched",
+   "time": "2026-10-23T06:46:13+00:00",
+   "title": "python3Packages.formulae: 0.6.2 -> 0.9.0"
+  },
+  "555869": {
+   "run_id": 39913379250,
+   "status": "dispatched",
+   "time": "2026-10-23T06:44:46+00:00",
+   "title": "libe57format: 3.3.0 -> 3.4.1"
+  },
+  "555887": {
+   "run_id": 39912852149,
+   "status": "dispatched",
+   "time": "2026-10-23T06:39:39+00:00",
+   "title": "python3Packages.oras: 0.2.42 -> 0.2.43"
+  },
+  "555923": {
+   "run_id": 39912703380,
+   "status": "dispatched",
+   "time": "2026-10-23T06:38:11+00:00",
+   "title": "toolhive: 0.43.0 -> 0.46.0"
+  },
+  "555953": {
+   "run_id": 39912451782,
+   "status": "dispatched",
+   "time": "2026-10-23T06:35:42+00:00",
+   "title": "python3Packages.django-treebeard: 7.0.0 -> 7.0.2"
+  },
+  "555984": {
+   "run_id": 39912298906,
+   "status": "dispatched",
+   "time": "2026-10-23T06:34:15+00:00",
+   "title": "tinfoil-cli: 0.14.7 -> 0.18.5"
+  },
+  "556024": {
+   "run_id": 39912141170,
+   "status": "dispatched",
+   "time": "2026-10-23T06:32:46+00:00",
+   "title": "gophertube: 2.8.0 -> 2.8.2"
+  },
   "556062": {
    "run_id": 39911993825,
    "status": "dispatched",
@@ -20,8 +86,6 @@
   },
   "556156": {
    "examined": 1,
-   "rerun": "prepare",
-   "rerun_after": "2026-10-23T06:56:14+00:00",
    "run_id": 39911430762,
    "status": "dispatched",
    "time": "2026-10-23T06:25:54+00:00",
