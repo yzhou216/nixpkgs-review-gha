@@ -1,5 +1,89 @@
 {
  "records": {
+  "556981": {
+   "run_id": 39906078401,
+   "status": "dispatched",
+   "time": "2026-10-23T05:29:57+00:00",
+   "title": "mvfst: 2026.07.27.00 -> 2026.08.24.00"
+  },
+  "557000": {
+   "run_id": 39905946374,
+   "status": "dispatched",
+   "time": "2026-10-23T05:28:30+00:00",
+   "title": "home-manager: 0-unstable-2026-08-06 -> 0-unstable-2026-10-06"
+  },
+  "557039": {
+   "run_id": 39905812759,
+   "status": "dispatched",
+   "time": "2026-10-23T05:27:00+00:00",
+   "title": "python3Packages.plover: 5.4.0 -> 5.4.2"
+  },
+  "557044": {
+   "run_id": 39905682418,
+   "status": "dispatched",
+   "time": "2026-10-23T05:25:34+00:00",
+   "title": "percona-server: 8.4.10-10 -> 8.4.11-11"
+  },
+  "557045": {
+   "run_id": 39905549201,
+   "status": "dispatched",
+   "time": "2026-10-23T05:24:07+00:00",
+   "title": "tanka: 0.38.0 -> 0.39.4"
+  },
+  "557067": {
+   "run_id": 39905266704,
+   "status": "dispatched",
+   "time": "2026-10-23T05:21:03+00:00",
+   "title": "agru: 0.1.19 -> 0.3.0"
+  },
+  "557154": {
+   "run_id": 39905083516,
+   "status": "dispatched",
+   "time": "2026-10-23T05:19:06+00:00",
+   "title": "rabbitmqadmin-ng: 2.33.0 -> 2.35.0"
+  },
+  "557175": {
+   "run_id": 39904955638,
+   "status": "dispatched",
+   "time": "2026-10-23T05:17:40+00:00",
+   "title": "brave-search-cli: 1.5.0 -> 1.7.0"
+  },
+  "557210": {
+   "run_id": 39904671892,
+   "status": "dispatched",
+   "time": "2026-10-23T05:14:38+00:00",
+   "title": "debianutils: 5.23.2 -> 5.24"
+  },
+  "557249": {
+   "run_id": 39904543093,
+   "status": "dispatched",
+   "time": "2026-10-23T05:13:13+00:00",
+   "title": "musicus: 0.1.0 -> 0.2.0"
+  },
+  "557287": {
+   "run_id": 39904172896,
+   "status": "dispatched",
+   "time": "2026-10-23T05:09:09+00:00",
+   "title": "mainsail: 2.18.2 -> 2.19.0"
+  },
+  "557295": {
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "python3Packages.skidl: 2.2.1 -> 2.2.3",
+   "tries": 0
+  },
+  "557344": {
+   "run_id": 39903595252,
+   "status": "dispatched",
+   "time": "2026-10-23T05:02:52+00:00",
+   "title": "airwindows: 0-unstable-2026-08-16 -> 0-unstable-2026-10-17"
+  },
+  "557384": {
+   "run_id": 39903461684,
+   "status": "dispatched",
+   "time": "2026-10-23T05:01:25+00:00",
+   "title": "cilium-cli: 0.19.7 -> 0.20.1"
+  },
   "557387": {
    "run_id": 39903287368,
    "status": "dispatched",
