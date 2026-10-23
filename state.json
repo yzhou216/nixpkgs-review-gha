@@ -1,12 +1,76 @@
 {
  "records": {
+  "539231": {
+   "run_id": 40020990492,
+   "status": "dispatched",
+   "time": "2026-10-23T20:40:08+00:00",
+   "title": "cgreen: 1.6.5 -> 1.7.0"
+  },
+  "539344": {
+   "run_id": 40020811152,
+   "status": "dispatched",
+   "time": "2026-10-23T20:38:41+00:00",
+   "title": "python3Packages.nocasedict: 2.2.0 -> 2.3.0a0"
+  },
+  "539366": {
+   "reason": "mergeability unknown",
+   "status": "retry",
+   "title": "ocamlPackages.ocamlformat-mlx-lib: 0.28.1.2 -> 0.29.0.1",
+   "tries": 1
+  },
+  "539367": {
+   "run_id": 40019635524,
+   "status": "dispatched",
+   "time": "2026-10-23T20:29:40+00:00",
+   "title": "ocamlPackages.ocamlformat-mlx: 0.28.1.2 -> 0.29.0.1"
+  },
+  "539394": {
+   "run_id": 40019111121,
+   "status": "dispatched",
+   "time": "2026-10-23T20:25:34+00:00",
+   "title": "coc-markdownlint: 0-unstable-2026-06-17 -> 0-unstable-2026-10-01"
+  },
+  "539422": {
+   "run_id": 40018913079,
+   "status": "dispatched",
+   "time": "2026-10-23T20:24:02+00:00",
+   "title": "serfdom: 0.10.2 -> 0.11.0"
+  },
+  "539592": {
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "python3Packages.jupyterlite-core: 0.8.0 -> 0.9.0a1",
+   "tries": 0
+  },
+  "539685": {
+   "run_id": 40018108931,
+   "status": "dispatched",
+   "time": "2026-10-23T20:17:48+00:00",
+   "title": "python3Packages.conda-package-streaming: 0.12.0 -> 0.13.0"
+  },
+  "539693": {
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "python3Packages.types-pytz: 2026.1.1.20260304 -> 2026.4.0.20260926",
+   "tries": 0
+  },
+  "539742": {
+   "run_id": 40017797616,
+   "status": "dispatched",
+   "time": "2026-10-23T20:15:24+00:00",
+   "title": "python3Packages.diffusers: 0.38.0 -> 0.40.0"
+  },
   "539813": {
+   "examined": 1,
+   "final": "review (x86_64-linux): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.",
    "run_id": 40017318548,
    "status": "dispatched",
    "time": "2026-10-23T20:11:44+00:00",
    "title": "suwayomi-server: 2.1.1867 -> 2.3.2243"
   },
   "539815": {
+   "examined": 1,
+   "final": "review (x86_64-linux): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.",
    "run_id": 40016638779,
    "status": "dispatched",
    "time": "2026-10-23T20:06:30+00:00",
@@ -31,6 +95,8 @@
    "tries": 0
   },
   "540480": {
+   "examined": 1,
+   "final": "review (aarch64-darwin): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.",
    "run_id": 40015293528,
    "status": "dispatched",
    "time": "2026-10-23T19:56:09+00:00",
@@ -43,6 +109,8 @@
    "title": "python3Packages.tt-perf-report: 1.2.4 -> 1.4.1"
   },
   "540630": {
+   "examined": 1,
+   "final": "review (aarch64-linux): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.",
    "run_id": 40014927950,
    "status": "dispatched",
    "time": "2026-10-23T19:53:15+00:00",
@@ -67,16 +135,18 @@
    "tries": 0
   },
   "540977": {
+   "examined": 1,
+   "final": "review (aarch64-linux): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.",
    "run_id": 40014699429,
    "status": "dispatched",
    "time": "2026-10-23T19:51:28+00:00",
    "title": "hyperion-ng: 2.1.1 -> 2.2.1"
   },
   "541126": {
-   "reason": "mergeability unknown",
-   "status": "retry",
-   "title": "python3Packages.cohere: 7.0.4 -> 7.0.5",
-   "tries": 1
+   "run_id": 40018441044,
+   "status": "dispatched",
+   "time": "2026-10-23T20:20:23+00:00",
+   "title": "python3Packages.cohere: 7.0.4 -> 7.0.5"
   },
   "541194": {
    "examined": 1,
