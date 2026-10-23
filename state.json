@@ -1,5 +1,104 @@
 {
  "records": {
+  "556062": {
+   "run_id": 39911993825,
+   "status": "dispatched",
+   "time": "2026-10-23T06:31:20+00:00",
+   "title": "juju: 4.0.12 -> 4.0.15"
+  },
+  "556091": {
+   "run_id": 39911834447,
+   "status": "dispatched",
+   "time": "2026-10-23T06:29:53+00:00",
+   "title": "nwjs-ffmpeg-prebuilt: 0.114.2 -> 0.118.0"
+  },
+  "556132": {
+   "run_id": 39911574592,
+   "status": "dispatched",
+   "time": "2026-10-23T06:27:20+00:00",
+   "title": "jailer: 17.2.1 -> 17.3"
+  },
+  "556156": {
+   "examined": 1,
+   "rerun": "prepare",
+   "rerun_after": "2026-10-23T06:56:14+00:00",
+   "run_id": 39911430762,
+   "status": "dispatched",
+   "time": "2026-10-23T06:25:54+00:00",
+   "title": "fedistar: 1.13.1 -> 1.13.3"
+  },
+  "556261": {
+   "run_id": 39911284736,
+   "status": "dispatched",
+   "time": "2026-10-23T06:24:27+00:00",
+   "title": "polyphone: 2.5.1 -> 2.6.0"
+  },
+  "556293": {
+   "run_id": 39911140645,
+   "status": "dispatched",
+   "time": "2026-10-23T06:23:01+00:00",
+   "title": "zoraxy: 3.3.1 -> 3.3.4"
+  },
+  "556345": {
+   "run_id": 39910994853,
+   "status": "dispatched",
+   "time": "2026-10-23T06:21:33+00:00",
+   "title": "python3Packages.opencc: 1.4.1 -> 1.4.2"
+  },
+  "556353": {
+   "run_id": 39910850905,
+   "status": "dispatched",
+   "time": "2026-10-23T06:20:07+00:00",
+   "title": "iwe: 0.19.1 -> 0.20.1"
+  },
+  "556414": {
+   "run_id": 39910710071,
+   "status": "dispatched",
+   "time": "2026-10-23T06:18:40+00:00",
+   "title": "nanopb: 0.4.9.1 -> 0.4.9.2"
+  },
+  "556419": {
+   "run_id": 39910568547,
+   "status": "dispatched",
+   "time": "2026-10-23T06:17:14+00:00",
+   "title": "nanopbMalloc: 0.4.9.1 -> 0.4.9.2"
+  },
+  "556591": {
+   "run_id": 39910423010,
+   "status": "dispatched",
+   "time": "2026-10-23T06:15:44+00:00",
+   "title": "duo-unix: 2.2.3 -> 2.3.0"
+  },
+  "556675": {
+   "run_id": 39910221304,
+   "status": "dispatched",
+   "time": "2026-10-23T06:13:45+00:00",
+   "title": "metabase: 0.63.5 -> 0.64.1"
+  },
+  "556723": {
+   "run_id": 39910081848,
+   "status": "dispatched",
+   "time": "2026-10-23T06:12:19+00:00",
+   "title": "bacnet-stack: 1.5.0 -> 1.6.1"
+  },
+  "556731": {
+   "run_id": 39909838413,
+   "status": "dispatched",
+   "time": "2026-10-23T06:09:48+00:00",
+   "title": "rtl_wmbus: 1.1.0 -> d2be82c"
+  },
+  "556740": {
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "protonmail-bridge: 3.25.0 -> 3.27.0",
+   "tries": 0
+  },
+  "556749": {
+   "run_id": 39909692880,
+   "status": "dispatched",
+   "time": "2026-10-23T06:08:15+00:00",
+   "title": "ocamlPackages.conan-cli: 0.0.7 -> 0.0.8"
+  },
   "556750": {
    "run_id": 39908814943,
    "status": "dispatched",
