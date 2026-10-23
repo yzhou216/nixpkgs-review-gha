@@ -1,5 +1,107 @@
 {
  "records": {
+  "554781": {
+   "run_id": 39921496836,
+   "status": "dispatched",
+   "time": "2026-10-23T07:59:31+00:00",
+   "title": "gridtracker2: 2.260723.0 -> 260808.2"
+  },
+  "554791": {
+   "run_id": 39921341287,
+   "status": "dispatched",
+   "time": "2026-10-23T07:58:06+00:00",
+   "title": "apprise: 1.13.0 -> 2.0.1"
+  },
+  "554799": {
+   "run_id": 39921121784,
+   "status": "dispatched",
+   "time": "2026-10-23T07:56:11+00:00",
+   "title": "fizz: 2026.07.27.00 -> 2026.10.19.00"
+  },
+  "554835": {
+   "run_id": 39920964816,
+   "status": "dispatched",
+   "time": "2026-10-23T07:54:49+00:00",
+   "title": "viskores: 1.1.1 -> 1.2.0"
+  },
+  "554849": {
+   "run_id": 39920811404,
+   "status": "dispatched",
+   "time": "2026-10-23T07:53:27+00:00",
+   "title": "tomcat10: 10.1.57 -> 10.1.60"
+  },
+  "554880": {
+   "run_id": 39920403385,
+   "status": "dispatched",
+   "time": "2026-10-23T07:49:53+00:00",
+   "title": "kamailio: 6.1.3 -> 6.1.4"
+  },
+  "554916": {
+   "run_id": 39920246467,
+   "status": "dispatched",
+   "time": "2026-10-23T07:48:25+00:00",
+   "title": "yandex-cloud: 1.25.0 -> 1.40.0"
+  },
+  "554968": {
+   "run_id": 39920082528,
+   "status": "dispatched",
+   "time": "2026-10-23T07:46:56+00:00",
+   "title": "govc: 0.55.1 -> 0.56.0"
+  },
+  "554977": {
+   "run_id": 39919915840,
+   "status": "dispatched",
+   "time": "2026-10-23T07:45:27+00:00",
+   "title": "urlscan: 1.0.9 -> 1.2.0"
+  },
+  "554978": {
+   "run_id": 39919323445,
+   "status": "dispatched",
+   "time": "2026-10-23T07:40:18+00:00",
+   "title": "clpeak: 2.0.13 -> 3.0.1"
+  },
+  "554994": {
+   "run_id": 39919158220,
+   "status": "dispatched",
+   "time": "2026-10-23T07:38:52+00:00",
+   "title": "vespa-cli: 8.697.20 -> 8.738.17"
+  },
+  "555016": {
+   "run_id": 39918996667,
+   "status": "dispatched",
+   "time": "2026-10-23T07:37:25+00:00",
+   "title": "dart-bin: 3.13.0 -> 3.13.5"
+  },
+  "555053": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "adminneo: 5.5.1 -> 5.6.0",
+   "tries": 0
+  },
+  "555085": {
+   "run_id": 39918768685,
+   "status": "dispatched",
+   "time": "2026-10-23T07:35:23+00:00",
+   "title": "eddy: 3.7.1 -> 3.9"
+  },
+  "555246": {
+   "run_id": 39918603017,
+   "status": "dispatched",
+   "time": "2026-10-23T07:33:57+00:00",
+   "title": "python3Packages.zope-hookable: 8.2 -> 8.3"
+  },
+  "555262": {
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "zabbix-agent2-plugin-postgresql: 7.4.13 -> 7.4.14",
+   "tries": 0
+  },
+  "555272": {
+   "run_id": 39918432921,
+   "status": "dispatched",
+   "time": "2026-10-23T07:32:25+00:00",
+   "title": "coc-lists: 1.5.4 -> 1.5.9"
+  },
   "555273": {
    "run_id": 39918022659,
    "status": "dispatched",
@@ -73,6 +175,8 @@
    "tries": 0
   },
   "555737": {
+   "examined": 1,
+   "final": "review (aarch64-linux): The operation was canceled.; review (x86_64-linux): The operation was canceled.",
    "run_id": 39913878930,
    "status": "dispatched",
    "time": "2026-10-23T06:49:38+00:00",
