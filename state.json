@@ -1,5 +1,53 @@
 {
  "records": {
+  "548040": {
+   "run_id": 39968989032,
+   "status": "dispatched",
+   "time": "2026-10-23T14:21:55+00:00",
+   "title": "python3Packages.timg: 1.1.6 -> 1.2.0"
+  },
+  "548148": {
+   "run_id": 39968101844,
+   "status": "dispatched",
+   "time": "2026-10-23T14:15:38+00:00",
+   "title": "python3Packages.azure-mgmt-eventhub: 11.2.0 -> 12.0.0"
+  },
+  "548254": {
+   "run_id": 39967834089,
+   "status": "dispatched",
+   "time": "2026-10-23T14:13:46+00:00",
+   "title": "python3Packages.lazr-delegates: 2.1.1 -> 4.0.0"
+  },
+  "548273": {
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "python3Packages.python-gitlab: 8.4.0 -> 8.6.0",
+   "tries": 0
+  },
+  "548627": {
+   "run_id": 39967540682,
+   "status": "dispatched",
+   "time": "2026-10-23T14:11:40+00:00",
+   "title": "python3Packages.nsz: 4.6.1 -> 5.0.0"
+  },
+  "549247": {
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "python3Packages.gtfs-realtime-bindings: 2.1.0 -> 3.0.0",
+   "tries": 0
+  },
+  "549363": {
+   "run_id": 39966944289,
+   "status": "dispatched",
+   "time": "2026-10-23T14:07:24+00:00",
+   "title": "vault: 2.0.3 -> 2.1.2"
+  },
+  "549430": {
+   "run_id": 39966734396,
+   "status": "dispatched",
+   "time": "2026-10-23T14:05:55+00:00",
+   "title": "python3Packages.subarulink: 0.7.19 -> 0.7.21"
+  },
   "549530": {
    "run_id": 39961497785,
    "status": "dispatched",
@@ -91,10 +139,10 @@
    "title": "flat-remix-icon-theme: 20240201 -> 20250709"
   },
   "550391": {
-   "reason": "mergeability unknown",
-   "status": "retry",
-   "title": "rocksdb: 10.10.1 -> 11.8.1",
-   "tries": 1
+   "run_id": 39965688567,
+   "status": "dispatched",
+   "time": "2026-10-23T13:58:39+00:00",
+   "title": "rocksdb: 10.10.1 -> 11.8.1"
   },
   "550462": {
    "run_id": 39955848443,
@@ -497,6 +545,7 @@
    "title": "prow: 0-unstable-2026-08-08 -> 0-unstable-2026-10-16"
   },
   "553528": {
+   "final": "cancelled after 4 hours",
    "run_id": 39937252101,
    "status": "dispatched",
    "time": "2026-10-23T10:10:52+00:00",
