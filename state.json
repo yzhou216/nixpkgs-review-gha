@@ -1,5 +1,47 @@
 {
  "records": {
+  "557387": {
+   "run_id": 39903287368,
+   "status": "dispatched",
+   "time": "2026-10-23T04:59:39+00:00",
+   "title": "trilinos-mpi: 16.1.0 -> 17.2.0"
+  },
+  "557424": {
+   "run_id": 39903023636,
+   "status": "dispatched",
+   "time": "2026-10-23T04:56:38+00:00",
+   "title": "python3Packages.mscerts: 2026.7.1 -> 2026.8.28"
+  },
+  "557430": {
+   "run_id": 39902753982,
+   "status": "dispatched",
+   "time": "2026-10-23T04:53:38+00:00",
+   "title": "python3Packages.appthreat-vulnerability-db: 6.7.2 -> 7.0.0"
+  },
+  "557462": {
+   "run_id": 39902622972,
+   "status": "dispatched",
+   "time": "2026-10-23T04:52:12+00:00",
+   "title": "python3Packages.zope-i18nmessageid: 8.2 -> 8.4"
+  },
+  "557498": {
+   "run_id": 39902489977,
+   "status": "dispatched",
+   "time": "2026-10-23T04:50:43+00:00",
+   "title": "python3Packages.docling-ibm-models: 3.14.0 -> 4.0.3"
+  },
+  "557527": {
+   "run_id": 39902174533,
+   "status": "dispatched",
+   "time": "2026-10-23T04:47:11+00:00",
+   "title": "oh-my-zsh: 2026-08-16 -> 2026-10-20"
+  },
+  "557528": {
+   "run_id": 39902041935,
+   "status": "dispatched",
+   "time": "2026-10-23T04:45:41+00:00",
+   "title": "video-compare: 20260708 -> 20261004"
+  },
   "557556": {
    "run_id": 39901811349,
    "status": "dispatched",
