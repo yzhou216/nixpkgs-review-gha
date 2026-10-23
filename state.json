@@ -1,5 +1,35 @@
 {
  "records": {
+  "539130": {
+   "run_id": 40023484574,
+   "status": "dispatched",
+   "time": "2026-10-23T21:00:02+00:00",
+   "title": "python3Packages.pyoxigraph: 0.5.9 -> 0.5.11"
+  },
+  "539132": {
+   "run_id": 40023309973,
+   "status": "dispatched",
+   "time": "2026-10-23T20:58:34+00:00",
+   "title": "tela-icon-theme: 2025-02-10 -> 2026-07-07"
+  },
+  "539138": {
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "qt6Packages.kquickimageedit: 0.6.1 -> 0.6.2.1",
+   "tries": 0
+  },
+  "539144": {
+   "run_id": 40022600362,
+   "status": "dispatched",
+   "time": "2026-10-23T20:52:46+00:00",
+   "title": "python3Packages.azure-mgmt-network: 30.2.0 -> 33.1.0"
+  },
+  "539210": {
+   "run_id": 40022404183,
+   "status": "dispatched",
+   "time": "2026-10-23T20:51:13+00:00",
+   "title": "opentelemetry-collector-builder: 0.155.0 -> 0.156.0"
+  },
   "539231": {
    "run_id": 40020990492,
    "status": "dispatched",
@@ -43,6 +73,8 @@
    "tries": 0
   },
   "539685": {
+   "examined": 1,
+   "final": "review (aarch64-linux): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.",
    "run_id": 40018108931,
    "status": "dispatched",
    "time": "2026-10-23T20:17:48+00:00",
@@ -143,6 +175,8 @@
    "title": "hyperion-ng: 2.1.1 -> 2.2.1"
   },
   "541126": {
+   "examined": 1,
+   "final": "review (x86_64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.",
    "run_id": 40018441044,
    "status": "dispatched",
    "time": "2026-10-23T20:20:23+00:00",
