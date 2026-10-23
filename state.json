@@ -1,6 +1,58 @@
 {
  "records": {
+  "541707": {
+   "run_id": 40009367258,
+   "status": "dispatched",
+   "time": "2026-10-23T19:11:00+00:00",
+   "title": "python3Packages.pylink-square: 1.6.0 -> 2.0.2"
+  },
+  "541957": {
+   "run_id": 40008956649,
+   "status": "dispatched",
+   "time": "2026-10-23T19:07:55+00:00",
+   "title": "python3Packages.azure-mgmt-datafactory: 9.3.0 -> 10.0.0"
+  },
+  "542021": {
+   "run_id": 40008551932,
+   "status": "dispatched",
+   "time": "2026-10-23T19:04:53+00:00",
+   "title": "python3Packages.napari: 0.7.1 -> 0.8.0"
+  },
+  "542023": {
+   "run_id": 40008349183,
+   "status": "dispatched",
+   "time": "2026-10-23T19:03:22+00:00",
+   "title": "icinga2: 2.16.3 -> 2.16.5"
+  },
+  "542092": {
+   "run_id": 40007365628,
+   "status": "dispatched",
+   "time": "2026-10-23T18:56:05+00:00",
+   "title": "vrcvideocacher: 2026.5.2 -> 2026.9.10"
+  },
+  "542167": {
+   "run_id": 40007169649,
+   "status": "dispatched",
+   "time": "2026-10-23T18:54:38+00:00",
+   "title": "python3Packages.libtmux: 0.61.0 -> 0.62.0"
+  },
+  "542199": {
+   "examined": 1,
+   "final": "review (aarch64-darwin): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.",
+   "run_id": 40006526543,
+   "status": "dispatched",
+   "time": "2026-10-23T18:49:58+00:00",
+   "title": "gccmakedep: 1.0.4 -> 1.0.5"
+  },
+  "542575": {
+   "run_id": 40005899157,
+   "status": "dispatched",
+   "time": "2026-10-23T18:45:20+00:00",
+   "title": "python3Packages.pypresence: 4.6.1 -> 4.6.2"
+  },
   "542847": {
+   "examined": 1,
+   "final": "review (aarch64-darwin): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.",
    "run_id": 40005537662,
    "status": "dispatched",
    "time": "2026-10-23T18:42:44+00:00",
@@ -25,6 +77,8 @@
    "title": "kdiff3: 1.12.4 -> 1.12.6"
   },
   "543100": {
+   "examined": 1,
+   "final": "review (aarch64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.",
    "run_id": 40003603759,
    "status": "dispatched",
    "time": "2026-10-23T18:28:44+00:00",
@@ -37,12 +91,16 @@
    "tries": 0
   },
   "543137": {
+   "examined": 1,
+   "final": "review (aarch64-darwin): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.",
    "run_id": 40003378714,
    "status": "dispatched",
    "time": "2026-10-23T18:27:06+00:00",
    "title": "python3Packages.nampa: 1.0-unstable-2024-12-18 -> 1.0-unstable-2026-07-10"
   },
   "543187": {
+   "examined": 1,
+   "final": "review (aarch64-darwin): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.",
    "run_id": 40002894272,
    "status": "dispatched",
    "time": "2026-10-23T18:23:32+00:00",
