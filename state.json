@@ -1,5 +1,113 @@
 {
  "records": {
+  "559026": {
+   "run_id": 39890956578,
+   "status": "dispatched",
+   "time": "2026-10-23T02:41:39+00:00",
+   "title": "mandown: 1.1.0 -> 1.1.1"
+  },
+  "559033": {
+   "run_id": 39890825255,
+   "status": "dispatched",
+   "time": "2026-10-23T02:40:13+00:00",
+   "title": "python3Packages.harlequin-postgres: 1.3.1 -> 1.5.0"
+  },
+  "559178": {
+   "run_id": 39890649659,
+   "status": "dispatched",
+   "time": "2026-10-23T02:38:15+00:00",
+   "title": "zarf: 0.83.0 -> 0.87.0"
+  },
+  "559186": {
+   "run_id": 39890521395,
+   "status": "dispatched",
+   "time": "2026-10-23T02:36:48+00:00",
+   "title": "python3Packages.weheat: 2026.4.8 -> 2026.9.3"
+  },
+  "559236": {
+   "run_id": 39890243962,
+   "status": "dispatched",
+   "time": "2026-10-23T02:33:46+00:00",
+   "title": "xpar: 1.1 -> 2.0"
+  },
+  "559286": {
+   "run_id": 39890065338,
+   "status": "dispatched",
+   "time": "2026-10-23T02:31:48+00:00",
+   "title": "espanso-wayland: 2.4.0 -> 2.4.1"
+  },
+  "559295": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "buildkit: 0.32.2 -> 0.34.0",
+   "tries": 0
+  },
+  "559320": {
+   "run_id": 39889927505,
+   "status": "dispatched",
+   "time": "2026-10-23T02:30:20+00:00",
+   "title": "amazon-ec2-utils: 2.2.0 -> 2.3.0"
+  },
+  "559334": {
+   "run_id": 39889788744,
+   "status": "dispatched",
+   "time": "2026-10-23T02:28:51+00:00",
+   "title": "libweaver: 0-unstable-2026-07-25 -> 0-unstable-2026-08-21"
+  },
+  "559338": {
+   "run_id": 39889658460,
+   "status": "dispatched",
+   "time": "2026-10-23T02:27:24+00:00",
+   "title": "imapgoose: 0.5.3 -> 0.5.5"
+  },
+  "559340": {
+   "run_id": 39889529166,
+   "status": "dispatched",
+   "time": "2026-10-23T02:25:57+00:00",
+   "title": "lombok: 1.18.46 -> 1.18.48"
+  },
+  "559341": {
+   "run_id": 39889399118,
+   "status": "dispatched",
+   "time": "2026-10-23T02:24:30+00:00",
+   "title": "grml-zsh-config: 0.20.1 -> 0.20.2"
+  },
+  "559342": {
+   "run_id": 39889073555,
+   "status": "dispatched",
+   "time": "2026-10-23T02:20:56+00:00",
+   "title": "sqlmap: 1.10.9 -> 1.10.10"
+  },
+  "559343": {
+   "run_id": 39888940618,
+   "status": "dispatched",
+   "time": "2026-10-23T02:19:30+00:00",
+   "title": "python3Packages.mcstatus: 14.1.0 -> 14.2.0"
+  },
+  "559370": {
+   "run_id": 39888809440,
+   "status": "dispatched",
+   "time": "2026-10-23T02:18:01+00:00",
+   "title": "python3Packages.tilelang: 0.1.13 -> 0.1.14"
+  },
+  "559390": {
+   "run_id": 39888585921,
+   "status": "dispatched",
+   "time": "2026-10-23T02:15:32+00:00",
+   "title": "surelog: 1.86 -> 1.87"
+  },
+  "559396": {
+   "run_id": 39888451427,
+   "status": "dispatched",
+   "time": "2026-10-23T02:14:06+00:00",
+   "title": "byobu: 7.18 -> 7.21"
+  },
+  "559518": {
+   "run_id": 39888315036,
+   "status": "dispatched",
+   "time": "2026-10-23T02:12:37+00:00",
+   "title": "python3Packages.beancount-black: 1.0.5 -> 1.0.6"
+  },
   "559520": {
    "run_id": 39888182381,
    "status": "dispatched",
