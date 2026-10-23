@@ -1,5 +1,17 @@
 {
  "records": {
+  "538920": {
+   "run_id": 40025665717,
+   "status": "dispatched",
+   "time": "2026-10-23T21:17:25+00:00",
+   "title": "python3Packages.azure-mgmt-cosmosdb: 9.9.0 -> 10.0.0"
+  },
+  "539020": {
+   "run_id": 40025426738,
+   "status": "dispatched",
+   "time": "2026-10-23T21:15:28+00:00",
+   "title": "xpointerbarrier: 25.08 -> 26.06"
+  },
   "539130": {
    "run_id": 40023484574,
    "status": "dispatched",
@@ -31,22 +43,26 @@
    "title": "opentelemetry-collector-builder: 0.155.0 -> 0.156.0"
   },
   "539231": {
+   "examined": 1,
+   "final": "review (aarch64-linux): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.",
    "run_id": 40020990492,
    "status": "dispatched",
    "time": "2026-10-23T20:40:08+00:00",
    "title": "cgreen: 1.6.5 -> 1.7.0"
   },
   "539344": {
+   "examined": 1,
+   "final": "review (aarch64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.",
    "run_id": 40020811152,
    "status": "dispatched",
    "time": "2026-10-23T20:38:41+00:00",
    "title": "python3Packages.nocasedict: 2.2.0 -> 2.3.0a0"
   },
   "539366": {
-   "reason": "mergeability unknown",
-   "status": "retry",
-   "title": "ocamlPackages.ocamlformat-mlx-lib: 0.28.1.2 -> 0.29.0.1",
-   "tries": 1
+   "run_id": 40023993790,
+   "status": "dispatched",
+   "time": "2026-10-23T21:04:01+00:00",
+   "title": "ocamlPackages.ocamlformat-mlx-lib: 0.28.1.2 -> 0.29.0.1"
   },
   "539367": {
    "run_id": 40019635524,
