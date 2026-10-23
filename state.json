@@ -1,6 +1,79 @@
 {
  "records": {
+  "423352": {
+   "head": "f29c1d4e2b3dedaf1a1ec9a236fa2d4c619ca6c1",
+   "on_success": "nothing",
+   "requeued": true,
+   "run_id": 40028842591,
+   "status": "dispatched",
+   "time": "2026-10-23T21:43:34+00:00",
+   "title": "clink: init at 2024.12.07-unstable-2026-09-11"
+  },
+  "429520": {
+   "head": "3d01faaae7c70879abc7aebb0e9f9314c8d6058e",
+   "on_success": "nothing",
+   "requeued": true,
+   "run_id": 40028874535,
+   "status": "dispatched",
+   "time": "2026-10-23T21:43:51+00:00",
+   "title": "autograder: init at 0-unstable-2026-08-02"
+  },
+  "431108": {
+   "head": "be04848410248acd9829ef9d6648a5095c121462",
+   "on_success": "nothing",
+   "requeued": true,
+   "run_id": 40028910099,
+   "status": "dispatched",
+   "time": "2026-10-23T21:44:08+00:00",
+   "title": "cargo-doc2readme: init at 0.7.3"
+  },
+  "482412": {
+   "head": "86e6d27ddf5a0914e227f2ce0a771c3b3acd5535",
+   "on_success": "nothing",
+   "requeued": true,
+   "run_id": 40028945059,
+   "status": "dispatched",
+   "time": "2026-10-23T21:44:26+00:00",
+   "title": "metalang99: init at 1.13.5, datatype99: init at 1.6.5, slice99: init at 0.7.8, interface99: init at 1.0.2"
+  },
+  "501543": {
+   "head": "c071100f9f5bba88801a910feedea883c4732551",
+   "on_success": "nothing",
+   "requeued": true,
+   "run_id": 40028979848,
+   "status": "dispatched",
+   "time": "2026-10-23T21:44:43+00:00",
+   "title": "hevel: init at 0-unstable-2026-05-07, neuswc: init at 0-unstable-2026-10-02, neuwld: init at 0-unstable-2026-08-13, nixos/hevel: init"
+  },
+  "501860": {
+   "head": "ebd87c9d7a1096ba1d6eaa6978e93539e873ab2c",
+   "on_success": "nothing",
+   "requeued": true,
+   "run_id": 40029010112,
+   "status": "dispatched",
+   "time": "2026-10-23T21:45:00+00:00",
+   "title": "driftwm: init at 0.19.0, nixos/driftwm: init"
+  },
+  "504310": {
+   "head": "ca4ba59adcd2dc512a6b68fe1d774f80beb730b7",
+   "on_success": "nothing",
+   "requeued": true,
+   "run_id": 40029043525,
+   "status": "dispatched",
+   "time": "2026-10-23T21:45:17+00:00",
+   "title": "bum: init at 2.3"
+  },
+  "534821": {
+   "head": "ccf048e99b846ad6ef70cb4b45b81aa8d5663398",
+   "on_success": "nothing",
+   "requeued": true,
+   "run_id": 40029075878,
+   "status": "dispatched",
+   "time": "2026-10-23T21:45:35+00:00",
+   "title": "bezel: init at 1.1.0, nixos/bezel: init"
+  },
   "538875": {
+   "final": "cancelled, r-ryantm PRs are skipped",
    "run_id": 40027932815,
    "status": "dispatched",
    "time": "2026-10-23T21:35:54+00:00",
@@ -13,24 +86,28 @@
    "tries": 0
   },
   "538920": {
+   "final": "cancelled, r-ryantm PRs are skipped",
    "run_id": 40025665717,
    "status": "dispatched",
    "time": "2026-10-23T21:17:25+00:00",
    "title": "python3Packages.azure-mgmt-cosmosdb: 9.9.0 -> 10.0.0"
   },
   "539020": {
+   "final": "cancelled, r-ryantm PRs are skipped",
    "run_id": 40025426738,
    "status": "dispatched",
    "time": "2026-10-23T21:15:28+00:00",
    "title": "xpointerbarrier: 25.08 -> 26.06"
   },
   "539130": {
+   "final": "cancelled, r-ryantm PRs are skipped",
    "run_id": 40023484574,
    "status": "dispatched",
    "time": "2026-10-23T21:00:02+00:00",
    "title": "python3Packages.pyoxigraph: 0.5.9 -> 0.5.11"
   },
   "539132": {
+   "final": "cancelled, r-ryantm PRs are skipped",
    "run_id": 40023309973,
    "status": "dispatched",
    "time": "2026-10-23T20:58:34+00:00",
@@ -43,12 +120,14 @@
    "tries": 0
   },
   "539144": {
+   "final": "cancelled, r-ryantm PRs are skipped",
    "run_id": 40022600362,
    "status": "dispatched",
    "time": "2026-10-23T20:52:46+00:00",
    "title": "python3Packages.azure-mgmt-network: 30.2.0 -> 33.1.0"
   },
   "539210": {
+   "final": "cancelled, r-ryantm PRs are skipped",
    "run_id": 40022404183,
    "status": "dispatched",
    "time": "2026-10-23T20:51:13+00:00",
@@ -71,6 +150,7 @@
    "title": "python3Packages.nocasedict: 2.2.0 -> 2.3.0a0"
   },
   "539366": {
+   "final": "cancelled, r-ryantm PRs are skipped",
    "run_id": 40023993790,
    "status": "dispatched",
    "time": "2026-10-23T21:04:01+00:00",
@@ -115,6 +195,7 @@
    "tries": 0
   },
   "539742": {
+   "final": "cancelled, r-ryantm PRs are skipped",
    "run_id": 40017797616,
    "status": "dispatched",
    "time": "2026-10-23T20:15:24+00:00",
@@ -419,6 +500,7 @@
    "title": "python3Packages.pyghmi: 1.6.18 -> 1.6.19"
   },
   "543188": {
+   "final": "cancelled, r-ryantm PRs are skipped",
    "run_id": 40002623641,
    "status": "dispatched",
    "time": "2026-10-23T18:21:30+00:00",
@@ -433,6 +515,7 @@
    "title": "cosmic-ext-tweaks: 0.2.2 -> 0.2.5"
   },
   "543374": {
+   "final": "cancelled, r-ryantm PRs are skipped",
    "run_id": 40001088369,
    "status": "dispatched",
    "time": "2026-10-23T18:10:11+00:00",
@@ -868,6 +951,15 @@
    "time": "2026-10-23T13:58:39+00:00",
    "title": "rocksdb: 10.10.1 -> 11.8.1"
   },
+  "550395": {
+   "head": "7f59dc984c7f4f58211782a50b8abda85d548702",
+   "on_success": "nothing",
+   "requeued": true,
+   "run_id": 40029107403,
+   "status": "dispatched",
+   "time": "2026-10-23T21:45:52+00:00",
+   "title": "nixos/river: init, kwm: init at 0.3.0, kwim: init at 0.2.0"
+  },
   "550462": {
    "run_id": 39955848443,
    "status": "dispatched",
@@ -1077,6 +1169,7 @@
    "title": "iay: 0.5.0 -> 0.5.1"
   },
   "552410": {
+   "final": "updated after the review, not re-run because r-ryantm PRs are skipped",
    "run_id": 39949432173,
    "status": "dispatched",
    "time": "2026-10-23T11:54:42+00:00",
@@ -1536,18 +1629,21 @@
    "title": "viskores: 1.1.1 -> 1.2.0"
   },
   "554849": {
+   "final": "updated after the review, not re-run because r-ryantm PRs are skipped",
    "run_id": 39920811404,
    "status": "dispatched",
    "time": "2026-10-23T07:53:27+00:00",
    "title": "tomcat10: 10.1.57 -> 10.1.60"
   },
   "554880": {
+   "final": "updated after the review, not re-run because r-ryantm PRs are skipped",
    "run_id": 39920403385,
    "status": "dispatched",
    "time": "2026-10-23T07:49:53+00:00",
    "title": "kamailio: 6.1.3 -> 6.1.4"
   },
   "554916": {
+   "final": "updated after the review, not re-run because r-ryantm PRs are skipped",
    "run_id": 39920246467,
    "status": "dispatched",
    "time": "2026-10-23T07:48:25+00:00",
@@ -1631,6 +1727,15 @@
    "status": "dispatched",
    "time": "2026-10-23T07:24:21+00:00",
    "title": "elektroid: 3.3.2 -> 3.4"
+  },
+  "555353": {
+   "head": "54c41520bedb733627e5b6c96f8afa0ee5cede5c",
+   "on_success": "nothing",
+   "requeued": true,
+   "run_id": 40029143061,
+   "status": "dispatched",
+   "time": "2026-10-23T21:46:10+00:00",
+   "title": "gpupad: 3.4.1 -> 4.5.1, spirv-reflect: init at 1.4.363.0, directxtex: init at may2026, directxmath: init at jun2026"
   },
   "555376": {
    "run_id": 39916956330,
@@ -2995,6 +3100,7 @@
    "title": "kurve: 3.5.1 -> 3.6.1"
   },
   "561837": {
+   "final": "updated after the review, not re-run because r-ryantm PRs are skipped",
    "run_id": 39854054489,
    "status": "dispatched",
    "time": "2026-10-22T21:03:08+00:00",
@@ -4665,6 +4771,7 @@
   },
   "568678": {
    "examined": 1,
+   "final": "updated after the review, not re-run because r-ryantm PRs are skipped",
    "no_runner_at": "2026-10-21T17:22:45+00:00",
    "run_id": 39640970257,
    "status": "dispatched",
@@ -4681,6 +4788,7 @@
   },
   "568720": {
    "examined": 1,
+   "final": "updated after the review, not re-run because r-ryantm PRs are skipped",
    "no_runner_at": "2026-10-21T17:07:07+00:00",
    "run_id": 39638583312,
    "status": "dispatched",
@@ -5848,6 +5956,7 @@
    "title": "cairo-lang: 2.20.0 -> 2.21.0"
   },
   "572331": {
+   "final": "updated after the review, not re-run because r-ryantm PRs are skipped",
    "run_id": 39462026498,
    "status": "dispatched",
    "time": "2026-10-20T16:58:01+00:00",
@@ -5872,6 +5981,7 @@
    "title": "stable-diffusion-cpp: master-874-656a135 -> master-951-f89d9b1"
   },
   "572476": {
+   "final": "updated after the review, not re-run because r-ryantm PRs are skipped",
    "run_id": 39460005192,
    "status": "dispatched",
    "time": "2026-10-20T16:43:53+00:00",
@@ -5957,6 +6067,7 @@
    "title": "npm-check-updates: 23.1.0 -> 23.1.1"
   },
   "572673": {
+   "final": "updated after the review, not re-run because r-ryantm PRs are skipped",
    "run_id": 39454926587,
    "status": "dispatched",
    "time": "2026-10-20T16:09:25+00:00",
@@ -6069,6 +6180,7 @@
    "tries": 0
   },
   "572908": {
+   "final": "updated after the review, not re-run because r-ryantm PRs are skipped",
    "run_id": 39452245191,
    "status": "dispatched",
    "time": "2026-10-20T15:51:26+00:00",
@@ -6082,6 +6194,7 @@
   },
   "572913": {
    "examined": 1,
+   "final": "updated after the review, not re-run because r-ryantm PRs are skipped",
    "no_runner_at": "2026-10-20T15:16:21+00:00",
    "run_id": 39444531314,
    "status": "dispatched",
@@ -6090,6 +6203,7 @@
   },
   "572931": {
    "examined": 1,
+   "final": "updated after the review, not re-run because r-ryantm PRs are skipped",
    "no_runner_at": "2026-10-20T15:58:40+00:00",
    "run_id": 39451049234,
    "status": "dispatched",
@@ -6123,6 +6237,7 @@
    "title": "python3Packages.aio-wattwaechter: 1.1.0 -> 1.2.0"
   },
   "572979": {
+   "final": "updated after the review, not re-run because r-ryantm PRs are skipped",
    "run_id": 39442707044,
    "status": "dispatched",
    "time": "2026-10-20T14:49:10+00:00",
@@ -6151,6 +6266,7 @@
    "title": "vue-language-server: 3.3.12 -> 3.3.13"
   },
   "573068": {
+   "final": "updated after the review, not re-run because r-ryantm PRs are skipped",
    "run_id": 39446345821,
    "status": "dispatched",
    "time": "2026-10-20T15:12:58+00:00",
@@ -8023,10 +8139,14 @@
    "title": "cocoon: 0.13 -> 0.13.2"
   },
   "575797": {
-   "run_id": 39238448992,
+   "head": "1ad64e06449ce79d21c03358a36ef813c1da95ef",
+   "on_success": "approve",
+   "previous_run_id": 39238448992,
+   "requeued": true,
+   "run_id": 40028773445,
    "status": "dispatched",
-   "time": "2026-10-19T10:34:43+00:00",
-   "title": "zennotes-desktop: 2.70.0 -> 2.71.0"
+   "time": "2026-10-23T21:42:59+00:00",
+   "title": "zennotes-desktop: 2.70.0 -> 2.75.0"
   },
   "575798": {
    "run_id": 39238247409,
@@ -8075,6 +8195,15 @@
    "status": "dispatched",
    "time": "2026-10-19T10:07:45+00:00",
    "title": "cargo-modules: 0.27.0 -> 0.28.0"
+  },
+  "575813": {
+   "head": "79727d12486b09379745a72a860875d3327d239d",
+   "on_success": "nothing",
+   "requeued": true,
+   "run_id": 40028809648,
+   "status": "dispatched",
+   "time": "2026-10-23T21:43:17+00:00",
+   "title": "nuklear: init at 4.13.3"
   },
   "575814": {
    "run_id": 39234974156,

@@ -18,6 +18,12 @@ rebuilds, count against a separate cap.  The script cancels a review that is
 still running after MAX_RUNTIME seconds, since few of them finish before
 GitHub's six-hour job limit, and they hold runners that other reviews need.
 
+Pull requests by SKIPPED_AUTHORS are not reviewed, since a committer asked
+on #550000 for no automated approvals of r-ryantm's pull requests.  The
+state file can also hold re-reviews of pull requests that are not
+candidates, such as the user's own, which run with their own on-success
+setting and are tracked like any other review.
+
 A run lasts up to TIME_BUDGET seconds, commits the state file every
 COMMIT_INTERVAL seconds, and then dispatches the next batch-review run, so
 the batch does not depend on GitHub's unreliable cron schedule.  It also
@@ -52,12 +58,12 @@ LIMIT = int(os.environ["LIMIT"]) if os.environ.get("LIMIT") else None
 DRY_RUN = os.environ.get("DRY_RUN") == "true"
 TIME_BUDGET = int(os.environ.get("TIME_BUDGET") or 19200)
 
-MAX_INFLIGHT = 8
+MAX_INFLIGHT = 10
 MAX_INFLIGHT_CONSTRAINED = 3
-MAX_LONG = 6
+MAX_LONG = 10
 LONG_RUN = 5400
 MAX_RUNTIME = 14400
-MAX_TOTAL_INFLIGHT = 12
+MAX_TOTAL_INFLIGHT = 20
 MIN_INTERVAL = 75
 MIN_RATE_REMAINING = 1000
 MAX_TRIES = 5
@@ -74,6 +80,7 @@ ENABLED_CHECK_INTERVAL = 120
 ACTIVE = {"queued", "in_progress", "waiting", "pending", "requested"}
 NOT_ACQUIRED = "was not acquired by Runner"
 SMALL = {"1", "1-10", "11-100"}
+SKIPPED_AUTHORS = {"r-ryantm"}
 INPUTS = {
     "x86_64-linux": "true",
     "aarch64-linux": "true",
@@ -258,13 +265,15 @@ def bucket(labels, prefix):
     return big[0] if big else sorted(vals)[0]
 
 
-def check_pr(cand):
+def check_pr(cand, ignore_own=False):
     """Check a candidate just before its review is dispatched.
 
     Return a (status, reason, title) tuple.  The status is "ok" when the
     review can be dispatched, "skipped" when the pull request no longer
     qualifies, and "retry" when the check could not be decided yet, for
-    example while GitHub is still computing mergeability.
+    example while GitHub is still computing mergeability.  With ignore_own,
+    earlier results and reviews by the owner do not count, as when a pull
+    request is reviewed again after an update.
     """
     n = cand["number"]
     pr = api(f"repos/NixOS/nixpkgs/pulls/{n}")
@@ -280,6 +289,8 @@ def check_pr(cand):
         return skip("base not master")
     if pr["user"]["login"] == OWNER:
         return skip("own PR")
+    if pr["user"]["login"] in SKIPPED_AUTHORS:
+        return skip(f"{pr['user']['login']} PRs are skipped")
     if not BUMP.match(pr["title"].strip()):
         return skip("title no longer a plain bump")
     if pr["head"]["sha"] != cand["headRefOid"]:
@@ -303,17 +314,20 @@ def check_pr(cand):
     if "nixpkgs-review-gha" in (pr["body"] or ""):
         return skip("gha in PR body")
     comments = api(f"repos/NixOS/nixpkgs/issues/{n}/comments?per_page=100", paginate=True)
+    if ignore_own:
+        comments = [c for c in comments if (c["user"] or {}).get("login") != OWNER]
     if any("nixpkgs-review-gha" in (c["body"] or "") for c in comments):
         return skip("has nixpkgs-review-gha comment")
     reviews = api(f"repos/NixOS/nixpkgs/pulls/{n}/reviews?per_page=100", paginate=True)
-    if any((r["user"] or {}).get("login") == OWNER for r in reviews):
+    if not ignore_own and any((r["user"] or {}).get("login") == OWNER for r in reviews):
         return skip("already reviewed by owner")
     return "ok", None, pr["title"]
 
 
-def dispatch(n):
+def dispatch(n, on_success="approve"):
+    inputs = INPUTS | {"on-success": on_success}
     args = ["workflow", "run", "review.yml", "-R", REPO, "--ref", "main", "-f", f"pr={n}"]
-    args += [a for k, v in INPUTS.items() for a in ("-f", f"{k}={v}")]
+    args += [a for k, v in inputs.items() for a in ("-f", f"{k}={v}")]
     started = datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(seconds=10)
     m = re.search(r"/actions/runs/(\d+)", gh(args))
     if m:
@@ -431,13 +445,22 @@ def rerun(n, rec, cand):
     if pr["state"] != "open":
         rec["final"] = f"{pr['state']} before the re-run"
         return False, rec["final"]
+    if pr["user"]["login"] in SKIPPED_AUTHORS:
+        rec["final"] = f"not re-run: {pr['user']['login']} PRs are skipped"
+        return False, rec["final"]
+    on_success = rec.get("on_success", "approve")
     head = reviewed_head(run_id) if kind == "no runner" else None
     if kind == "no runner" and head == pr["head"]["sha"]:
         if not rerun_failed_jobs(run_id, rec):
             return False, rec["final"]
         return True, f"re-ran the failed jobs of run {run_id}"
-    # The head that will be built has not been checked yet
-    status, reason, title = check_pr({"number": n, "headRefOid": head or cand["headRefOid"]})
+    head = head or rec.get("head") or (cand or {}).get("headRefOid") or pr["head"]["sha"]
+    if on_success != "approve":
+        # Without an approval, a review of the latest head needs no triviality check
+        status, reason, title = "ok", None, pr["title"]
+    else:
+        # The head that will be built has not been checked yet
+        status, reason, title = check_pr({"number": n, "headRefOid": head}, ignore_own=rec.get("requeued", False))
     if status == "retry" and rec.get("tries", 0) < MAX_TRIES:
         rec["tries"] = rec.get("tries", 0) + 1
         rec["rerun"] = kind
@@ -450,10 +473,10 @@ def rerun(n, rec, cand):
         if not rerun_failed_jobs(run_id, rec):
             return False, rec["final"]
         return True, f"re-ran run {run_id}"
-    new_id = None if DRY_RUN else dispatch(n)
+    new_id = None if DRY_RUN else dispatch(n, on_success)
     for key in ("examined", "no_runner_at", "tries"):
         rec.pop(key, None)
-    rec.update(run_id=new_id, title=title, time=iso(time.time()), redispatched=True)
+    rec.update(run_id=new_id, title=title, time=iso(time.time()), head=pr["head"]["sha"], redispatched=True)
     return True, f"head changed since run {run_id}, dispatched run {new_id}: {title}"
 
 
@@ -509,7 +532,8 @@ def run(start):
     state_path = sys.argv[2]
     state = json.load(open(state_path))
     records = state["records"]
-    numbers = {c["number"] for c in candidates}
+    # Re-reviews of pull requests outside the candidates count as batch reviews too
+    numbers = {c["number"] for c in candidates} | {int(n) for n in records}
     by_number = {c["number"]: c for c in candidates}
     since = min(r["time"] for r in records.values() if r.get("time"))[:10]
 
@@ -621,7 +645,7 @@ def run(start):
         if reruns:
             n = reruns[0]
             try:
-                started, what = rerun(int(n), records[n], by_number[int(n)])
+                started, what = rerun(int(n), records[n], by_number.get(int(n)))
             except LookupError as e:
                 started, what = False, f"re-run lookup failed: {e}"
                 records[n]["final"] = what
