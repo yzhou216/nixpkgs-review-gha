@@ -1,5 +1,41 @@
 {
  "records": {
+  "556750": {
+   "run_id": 39908814943,
+   "status": "dispatched",
+   "time": "2026-10-23T05:59:24+00:00",
+   "title": "ocamlPackages.conan-lwt: 0.0.7 -> 0.0.8"
+  },
+  "556754": {
+   "run_id": 39907954053,
+   "status": "dispatched",
+   "time": "2026-10-23T05:50:06+00:00",
+   "title": "zsnes2: 2.2.2 -> 2.2.3"
+  },
+  "556780": {
+   "run_id": 39907303564,
+   "status": "dispatched",
+   "time": "2026-10-23T05:43:03+00:00",
+   "title": "closurecompiler: 20260804 -> 20261015"
+  },
+  "556786": {
+   "run_id": 39906828676,
+   "status": "dispatched",
+   "time": "2026-10-23T05:37:57+00:00",
+   "title": "python3Packages.appthreat-vulnerability-db: 6.7.2 -> 7.0.2"
+  },
+  "556926": {
+   "run_id": 39906406176,
+   "status": "dispatched",
+   "time": "2026-10-23T05:33:22+00:00",
+   "title": "ibus-engines.typing-booster-unwrapped: 2.30.11 -> 2.31.2"
+  },
+  "556936": {
+   "run_id": 39906273758,
+   "status": "dispatched",
+   "time": "2026-10-23T05:31:56+00:00",
+   "title": "python3Packages.sphinx-autoapi: 3.8.0 -> 3.8.1"
+  },
   "556981": {
    "run_id": 39906078401,
    "status": "dispatched",
