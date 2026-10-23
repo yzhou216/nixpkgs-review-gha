@@ -1,5 +1,59 @@
 {
  "records": {
+  "549699": {
+   "run_id": 39960550735,
+   "status": "dispatched",
+   "time": "2026-10-23T13:21:44+00:00",
+   "title": "lug-helper: 4.14 -> 4.17"
+  },
+  "549749": {
+   "run_id": 39959951034,
+   "status": "dispatched",
+   "time": "2026-10-23T13:17:17+00:00",
+   "title": "ostree: 2026.2 -> 2026.4"
+  },
+  "549750": {
+   "run_id": 39959461215,
+   "status": "dispatched",
+   "time": "2026-10-23T13:13:42+00:00",
+   "title": "ostree-full: 2026.2 -> 2026.4"
+  },
+  "549856": {
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "python3Packages.python-engineio: 4.13.3 -> 4.14.0",
+   "tries": 0
+  },
+  "549952": {
+   "run_id": 39959252666,
+   "status": "dispatched",
+   "time": "2026-10-23T13:12:10+00:00",
+   "title": "libreoffice-bin: 26.2.4 -> 26.2.5"
+  },
+  "549989": {
+   "run_id": 39958904944,
+   "status": "dispatched",
+   "time": "2026-10-23T13:09:35+00:00",
+   "title": "questdb: 9.4.3 -> 10.0.1"
+  },
+  "550000": {
+   "run_id": 39958496922,
+   "status": "dispatched",
+   "time": "2026-10-23T13:06:33+00:00",
+   "title": "python3Packages.ttkbootstrap: 2.0.1 -> 2.2.3"
+  },
+  "550020": {
+   "run_id": 39957370532,
+   "status": "dispatched",
+   "time": "2026-10-23T12:58:09+00:00",
+   "title": "python3Packages.pyside6-qtads: 5.0.0 -> 5.1.1"
+  },
+  "550040": {
+   "run_id": 39956977811,
+   "status": "dispatched",
+   "time": "2026-10-23T12:55:06+00:00",
+   "title": "python3Packages.lazr-uri: 1.0.8 -> 4.0.0"
+  },
   "550111": {
    "run_id": 39956511024,
    "status": "dispatched",
