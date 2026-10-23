@@ -1,5 +1,125 @@
 {
  "records": {
+  "559895": {
+   "run_id": 39884908412,
+   "status": "dispatched",
+   "time": "2026-10-23T01:35:59+00:00",
+   "title": "firecracker: 1.16.1 -> 1.17.0"
+  },
+  "559897": {
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "pangomm: 2.46.4 -> 2.46.5",
+   "tries": 0
+  },
+  "559971": {
+   "run_id": 39884610193,
+   "status": "dispatched",
+   "time": "2026-10-23T01:32:52+00:00",
+   "title": "rutorrent: 5.3.12 -> 5.3.16"
+  },
+  "559988": {
+   "run_id": 39884470564,
+   "status": "dispatched",
+   "time": "2026-10-23T01:31:25+00:00",
+   "title": "tree-sitter-grammars.tree-sitter-proto: 0-unstable-2026-03-15 -> 0.6.0-unstable-2026-10-15"
+  },
+  "560003": {
+   "run_id": 39884323970,
+   "status": "dispatched",
+   "time": "2026-10-23T01:29:58+00:00",
+   "title": "jx: 3.17.80 -> 3.17.116"
+  },
+  "560017": {
+   "run_id": 39884142861,
+   "status": "dispatched",
+   "time": "2026-10-23T01:28:01+00:00",
+   "title": "python3Packages.llama-index-embeddings-openai: 0.6.0 -> 0.7.0"
+  },
+  "560053": {
+   "run_id": 39884009132,
+   "status": "dispatched",
+   "time": "2026-10-23T01:26:34+00:00",
+   "title": "faas-cli: 0.18.12 -> 0.18.16"
+  },
+  "560061": {
+   "run_id": 39883874335,
+   "status": "dispatched",
+   "time": "2026-10-23T01:25:07+00:00",
+   "title": "credhub-cli: 2.9.60 -> 2.9.62"
+  },
+  "560070": {
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "python3Packages.lancedb: 0.37.1 -> 0.38.0",
+   "tries": 0
+  },
+  "560107": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "diffyml: 1.8.0 -> 1.8.2",
+   "tries": 0
+  },
+  "560158": {
+   "run_id": 39883725555,
+   "status": "dispatched",
+   "time": "2026-10-23T01:23:32+00:00",
+   "title": "tree-sitter-grammars.tree-sitter-ssh-client-config: 2026.8.20 -> 2026.10.15"
+  },
+  "560199": {
+   "run_id": 39883584127,
+   "status": "dispatched",
+   "time": "2026-10-23T01:22:05+00:00",
+   "title": "python3Packages.quart-schema: 0.24.0 -> 0.25.0"
+  },
+  "560258": {
+   "run_id": 39883449257,
+   "status": "dispatched",
+   "time": "2026-10-23T01:20:39+00:00",
+   "title": "libtorrent-rakshasa: 0.16.22 -> 0.16.25"
+  },
+  "560293": {
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "kubectl-view-allocations: 3.0.2 -> 3.1.0",
+   "tries": 0
+  },
+  "560308": {
+   "run_id": 39883304482,
+   "status": "dispatched",
+   "time": "2026-10-23T01:19:07+00:00",
+   "title": "arsenik: 0.2.0 -> 0.3.0"
+  },
+  "560369": {
+   "run_id": 39883126053,
+   "status": "dispatched",
+   "time": "2026-10-23T01:17:10+00:00",
+   "title": "libgourou: 0.8.9 -> 0.8.10"
+  },
+  "560371": {
+   "run_id": 39882988721,
+   "status": "dispatched",
+   "time": "2026-10-23T01:15:43+00:00",
+   "title": "python3Packages.fronius-modbus: 0.2.0 -> 0.3.0"
+  },
+  "560389": {
+   "run_id": 39882847729,
+   "status": "dispatched",
+   "time": "2026-10-23T01:14:17+00:00",
+   "title": "mmdoc: 0.26.0 -> 0.27.0"
+  },
+  "560390": {
+   "run_id": 39882703154,
+   "status": "dispatched",
+   "time": "2026-10-23T01:12:47+00:00",
+   "title": "mieru: 3.36.0 -> 3.38.1"
+  },
+  "560436": {
+   "run_id": 39882564555,
+   "status": "dispatched",
+   "time": "2026-10-23T01:11:20+00:00",
+   "title": "ibmcloud-cli: 2.46.0 -> 2.47.1"
+  },
   "560466": {
    "run_id": 39882420898,
    "status": "dispatched",
@@ -157,6 +277,8 @@
    "title": "opengrok: 1.14.17 -> 1.14.20"
   },
   "561354": {
+   "examined": 1,
+   "final": "review (aarch64-linux): The operation was canceled.; review (x86_64-linux): The operation was canceled.",
    "run_id": 39874423585,
    "status": "dispatched",
    "time": "2026-10-22T23:50:48+00:00",
