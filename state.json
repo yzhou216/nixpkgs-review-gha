@@ -1,5 +1,35 @@
 {
  "records": {
+  "554472": {
+   "run_id": 39928067459,
+   "status": "dispatched",
+   "time": "2026-10-23T08:55:05+00:00",
+   "title": "libnss-mysql: 1.7.2 -> 1.7.3"
+  },
+  "554477": {
+   "run_id": 39927197431,
+   "status": "dispatched",
+   "time": "2026-10-23T08:47:50+00:00",
+   "title": "systemdgenie: 0.99.0-unstable-2026-07-27 -> 0.99.0-unstable-2026-10-12"
+  },
+  "554497": {
+   "run_id": 39926645267,
+   "status": "dispatched",
+   "time": "2026-10-23T08:43:12+00:00",
+   "title": "filebeat8: 8.19.19 -> 8.19.23"
+  },
+  "554507": {
+   "run_id": 39925651250,
+   "status": "dispatched",
+   "time": "2026-10-23T08:34:52+00:00",
+   "title": "buildkite-cli: 3.54.2 -> 3.56.0"
+  },
+  "554544": {
+   "run_id": 39925478422,
+   "status": "dispatched",
+   "time": "2026-10-23T08:33:25+00:00",
+   "title": "avro-c: 1.12.1 -> 1.12.2"
+  },
   "554554": {
    "run_id": 39925306585,
    "status": "dispatched",
@@ -520,6 +550,7 @@
    "title": "python3Packages.appthreat-vulnerability-db: 6.7.2 -> 7.0.0"
   },
   "557462": {
+   "final": "cancelled after 4 hours",
    "run_id": 39902622972,
    "status": "dispatched",
    "time": "2026-10-23T04:52:12+00:00",
@@ -562,6 +593,7 @@
    "title": "python3Packages.pykcs11: 1.5.18 -> 1.5.20"
   },
   "557653": {
+   "final": "cancelled after 4 hours",
    "run_id": 39901419539,
    "status": "dispatched",
    "time": "2026-10-23T04:38:47+00:00",
