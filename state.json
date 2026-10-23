@@ -1,6 +1,58 @@
 {
  "records": {
+  "543374": {
+   "run_id": 40001088369,
+   "status": "dispatched",
+   "time": "2026-10-23T18:10:11+00:00",
+   "title": "cminpack: 1.3.11 -> 1.3.14"
+  },
+  "543431": {
+   "run_id": 40000751260,
+   "status": "dispatched",
+   "time": "2026-10-23T18:07:41+00:00",
+   "title": "python3Packages.scp: 0.15.0 -> 0.16.1"
+  },
+  "543500": {
+   "run_id": 40000243828,
+   "status": "dispatched",
+   "time": "2026-10-23T18:04:04+00:00",
+   "title": "python3Packages.jsbeautifier: 1.15.4 -> 2.0.3"
+  },
+  "543851": {
+   "run_id": 40000041736,
+   "status": "dispatched",
+   "time": "2026-10-23T18:02:37+00:00",
+   "title": "pkg: 2.7.5 -> 2.8.2"
+  },
+  "544023": {
+   "run_id": 39999683253,
+   "status": "dispatched",
+   "time": "2026-10-23T18:00:05+00:00",
+   "title": "python3Packages.starlark: 0.5.0 -> 0.6.0"
+  },
+  "544025": {
+   "run_id": 39999482320,
+   "status": "dispatched",
+   "time": "2026-10-23T17:58:37+00:00",
+   "title": "python3Packages.multiaddr: 0.0.11 -> 0.2.0"
+  },
+  "544608": {
+   "run_id": 39999290340,
+   "status": "dispatched",
+   "time": "2026-10-23T17:57:10+00:00",
+   "title": "dotnet-ef: 10.0.9 -> 10.0.13"
+  },
+  "544653": {
+   "examined": 1,
+   "final": "review (aarch64-darwin): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.",
+   "run_id": 39999082046,
+   "status": "dispatched",
+   "time": "2026-10-23T17:55:38+00:00",
+   "title": "python3Packages.reptor: 0.34 -> 0.35"
+  },
   "544730": {
+   "examined": 1,
+   "final": "review (aarch64-darwin): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.",
    "run_id": 39997145980,
    "status": "dispatched",
    "time": "2026-10-23T17:41:32+00:00",
@@ -87,14 +139,14 @@
    "title": "python3Packages.coredis: 6.7.0 -> 6.9.0"
   },
   "546320": {
-   "reason": "mergeability unknown",
-   "status": "retry",
-   "title": "python3Packages.txredisapi: 1.4.12 -> 1.5.0",
-   "tries": 1
+   "run_id": 39997500960,
+   "status": "dispatched",
+   "time": "2026-10-23T17:44:09+00:00",
+   "title": "python3Packages.txredisapi: 1.4.12 -> 1.5.0"
   },
   "546322": {
-   "reason": "mergeability unknown",
-   "status": "retry",
+   "reason": "merge conflict",
+   "status": "skipped",
    "title": "python3Packages.types-docutils: 0.22.3.20260712 -> 0.23.0.20260923",
    "tries": 1
   },
@@ -105,6 +157,8 @@
    "title": "librime-octagram: 0-unstable-2026-07-11 -> 0-unstable-2026-08-31"
   },
   "546523": {
+   "examined": 1,
+   "final": "review (aarch64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ; review (x86_64-linux): The operation was canceled.",
    "run_id": 39990532471,
    "status": "dispatched",
    "time": "2026-10-23T16:53:33+00:00",
@@ -366,6 +420,7 @@
    "title": "flat-remix-icon-theme: 20240201 -> 20250709"
   },
   "550391": {
+   "final": "cancelled after 4 hours",
    "run_id": 39965688567,
    "status": "dispatched",
    "time": "2026-10-23T13:58:39+00:00",
