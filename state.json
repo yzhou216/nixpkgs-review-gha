@@ -1,5 +1,67 @@
 {
  "records": {
+  "542847": {
+   "run_id": 40005537662,
+   "status": "dispatched",
+   "time": "2026-10-23T18:42:44+00:00",
+   "title": "python3Packages.certomancer: 0.14.0 -> 0.16.0"
+  },
+  "542930": {
+   "run_id": 40005341288,
+   "status": "dispatched",
+   "time": "2026-10-23T18:41:17+00:00",
+   "title": "svix-server: 1.96.1 -> 2.8.0"
+  },
+  "543002": {
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "python3Packages.jianpu-ly: 1.870 -> 1.890",
+   "tries": 0
+  },
+  "543098": {
+   "run_id": 40004611924,
+   "status": "dispatched",
+   "time": "2026-10-23T18:36:00+00:00",
+   "title": "kdiff3: 1.12.4 -> 1.12.6"
+  },
+  "543100": {
+   "run_id": 40003603759,
+   "status": "dispatched",
+   "time": "2026-10-23T18:28:44+00:00",
+   "title": "libaacs: 0.11.1 -> 0.12.0"
+  },
+  "543131": {
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "python3Packages.unicode-segmentation-rs: 0.2.4 -> 0.3.0",
+   "tries": 0
+  },
+  "543137": {
+   "run_id": 40003378714,
+   "status": "dispatched",
+   "time": "2026-10-23T18:27:06+00:00",
+   "title": "python3Packages.nampa: 1.0-unstable-2024-12-18 -> 1.0-unstable-2026-07-10"
+  },
+  "543187": {
+   "run_id": 40002894272,
+   "status": "dispatched",
+   "time": "2026-10-23T18:23:32+00:00",
+   "title": "python3Packages.pyghmi: 1.6.18 -> 1.6.19"
+  },
+  "543188": {
+   "run_id": 40002623641,
+   "status": "dispatched",
+   "time": "2026-10-23T18:21:30+00:00",
+   "title": "primesieve: 12.14 -> 12.16"
+  },
+  "543211": {
+   "examined": 1,
+   "final": "review (aarch64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.",
+   "run_id": 40001580113,
+   "status": "dispatched",
+   "time": "2026-10-23T18:13:48+00:00",
+   "title": "cosmic-ext-tweaks: 0.2.2 -> 0.2.5"
+  },
   "543374": {
    "run_id": 40001088369,
    "status": "dispatched",
@@ -7,12 +69,16 @@
    "title": "cminpack: 1.3.11 -> 1.3.14"
   },
   "543431": {
+   "examined": 1,
+   "final": "review (x86_64-linux): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.",
    "run_id": 40000751260,
    "status": "dispatched",
    "time": "2026-10-23T18:07:41+00:00",
    "title": "python3Packages.scp: 0.15.0 -> 0.16.1"
   },
   "543500": {
+   "examined": 1,
+   "final": "review (aarch64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.",
    "run_id": 40000243828,
    "status": "dispatched",
    "time": "2026-10-23T18:04:04+00:00",
@@ -25,12 +91,16 @@
    "title": "pkg: 2.7.5 -> 2.8.2"
   },
   "544023": {
+   "examined": 1,
+   "final": "review (x86_64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.",
    "run_id": 39999683253,
    "status": "dispatched",
    "time": "2026-10-23T18:00:05+00:00",
    "title": "python3Packages.starlark: 0.5.0 -> 0.6.0"
   },
   "544025": {
+   "examined": 1,
+   "final": "review (aarch64-linux): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.",
    "run_id": 39999482320,
    "status": "dispatched",
    "time": "2026-10-23T17:58:37+00:00",
@@ -77,10 +147,10 @@
    "tries": 0
   },
   "545258": {
-   "reason": "mergeability unknown",
-   "status": "retry",
-   "title": "packer: 1.15.4 -> 1.16.1",
-   "tries": 1
+   "run_id": 40001778752,
+   "status": "dispatched",
+   "time": "2026-10-23T18:15:15+00:00",
+   "title": "packer: 1.15.4 -> 1.16.1"
   },
   "545264": {
    "run_id": 39994927237,
