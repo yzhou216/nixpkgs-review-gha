@@ -1,5 +1,125 @@
 {
  "records": {
+  "559520": {
+   "run_id": 39888182381,
+   "status": "dispatched",
+   "time": "2026-10-23T02:11:09+00:00",
+   "title": "python3Packages.patool: 4.0.5 -> 4.1.0"
+  },
+  "559543": {
+   "run_id": 39888048738,
+   "status": "dispatched",
+   "time": "2026-10-23T02:09:42+00:00",
+   "title": "sbt-extras: 2026-05-04 -> 2026-08-30"
+  },
+  "559552": {
+   "run_id": 39887918543,
+   "status": "dispatched",
+   "time": "2026-10-23T02:08:16+00:00",
+   "title": "python3Packages.llama-index-readers-weather: 0.5.0 -> 0.6.0"
+  },
+  "559633": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "owncast: 0.2.5 -> 0.3.0",
+   "tries": 0
+  },
+  "559641": {
+   "run_id": 39887782648,
+   "status": "dispatched",
+   "time": "2026-10-23T02:06:46+00:00",
+   "title": "ibus-engines.table: 1.17.19 -> 1.18.0"
+  },
+  "559670": {
+   "run_id": 39887412666,
+   "status": "dispatched",
+   "time": "2026-10-23T02:02:54+00:00",
+   "title": "vscode-extensions.sourcery.sourcery: 1.44.0 -> 1.46.0"
+  },
+  "559686": {
+   "run_id": 39887278339,
+   "status": "dispatched",
+   "time": "2026-10-23T02:01:27+00:00",
+   "title": "google-cloud-sql-proxy: 2.25.3 -> 2.26.2"
+  },
+  "559696": {
+   "run_id": 39887081436,
+   "status": "dispatched",
+   "time": "2026-10-23T01:59:29+00:00",
+   "title": "netbird-dashboard: 2.94.0 -> 2.95.0"
+  },
+  "559710": {
+   "run_id": 39886951853,
+   "status": "dispatched",
+   "time": "2026-10-23T01:58:01+00:00",
+   "title": "_2bwm: 0.3 -> 0.4"
+  },
+  "559712": {
+   "run_id": 39886722955,
+   "status": "dispatched",
+   "time": "2026-10-23T01:55:30+00:00",
+   "title": "seafile-shared: 9.0.20 -> 9.0.22"
+  },
+  "559725": {
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "home-assistant-custom-components.midea_ac: 2026.8.2 -> 2026.8.3",
+   "tries": 0
+  },
+  "559728": {
+   "run_id": 39886582248,
+   "status": "dispatched",
+   "time": "2026-10-23T01:53:58+00:00",
+   "title": "graalvmPackages.graalnodejs: 25.2.4 -> 25.4.4.1.1"
+  },
+  "559731": {
+   "run_id": 39886449430,
+   "status": "dispatched",
+   "time": "2026-10-23T01:52:33+00:00",
+   "title": "jmol: 16.4.21 -> 16.5.3"
+  },
+  "559764": {
+   "run_id": 39886312108,
+   "status": "dispatched",
+   "time": "2026-10-23T01:51:04+00:00",
+   "title": "python3Packages.django-statici18n: 2.7.1 -> 2.8.0"
+  },
+  "559767": {
+   "run_id": 39886179329,
+   "status": "dispatched",
+   "time": "2026-10-23T01:49:38+00:00",
+   "title": "python3Packages.textparser: 0.24.0 -> 0.26.2"
+  },
+  "559835": {
+   "run_id": 39886048475,
+   "status": "dispatched",
+   "time": "2026-10-23T01:48:12+00:00",
+   "title": "xpipe: 23.9 -> 24.6"
+  },
+  "559836": {
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "python3Packages.radio-beam: 0.3.9 -> 0.3.10",
+   "tries": 0
+  },
+  "559845": {
+   "run_id": 39885908325,
+   "status": "dispatched",
+   "time": "2026-10-23T01:46:40+00:00",
+   "title": "ocamlPackages.patricia-tree: 0.14.0 -> 0.15.0"
+  },
+  "559871": {
+   "run_id": 39885764944,
+   "status": "dispatched",
+   "time": "2026-10-23T01:45:10+00:00",
+   "title": "python3Packages.home-connect-async: 0.8.6 -> 0.8.8"
+  },
+  "559881": {
+   "run_id": 39885631617,
+   "status": "dispatched",
+   "time": "2026-10-23T01:43:44+00:00",
+   "title": "pietrasanta-traceroute: 0.0.5-unstable-2024-09-06 -> 0.1.36-unstable-2026-09-01"
+  },
   "559895": {
    "run_id": 39884908412,
    "status": "dispatched",
