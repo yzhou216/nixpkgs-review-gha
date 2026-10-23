@@ -1,5 +1,160 @@
 [
  {
+  "number": 577972,
+  "title": "alcom: 1.1.8 -> 1.1.9",
+  "headRefOid": "34556066542da75491ee522fc9c450572b9f0a43"
+ },
+ {
+  "number": 577913,
+  "title": "wealthfolio: 3.10.0 -> 3.11.0",
+  "headRefOid": "a845563589004b371ebdb626862d6ba8d1d9fc80"
+ },
+ {
+  "number": 577873,
+  "title": "vivaldi: 8.2.4133.87 -> 8.2.4133.94",
+  "headRefOid": "001efb1256c88859ae67e197dceef4b78cd4895b"
+ },
+ {
+  "number": 577840,
+  "title": "cloudflare-warp: 2026.8.2110.0 -> 2026.8.2115.0",
+  "headRefOid": "d0fdd02155a254227dce86380a58a4bf94f1e56f"
+ },
+ {
+  "number": 577831,
+  "title": "h2o: 2.3.0-rolling-2026-10-21 \u2192 2.3.0-rolling-2026-10-23",
+  "headRefOid": "36aaf035f6089fd8862105caa9beeeaffdc6f36e"
+ },
+ {
+  "number": 577756,
+  "title": "envoy-bin: 1.40.0 -> 1.40.1",
+  "headRefOid": "6df98fc447b891120bac49d009b7aaf079e2404e"
+ },
+ {
+  "number": 577742,
+  "title": "discord: 1.0.161 -> 1.0.164",
+  "headRefOid": "fed686e3822e793e7c86840030aa6b3c76b8c27b"
+ },
+ {
+  "number": 577709,
+  "title": "wanderer: 0.21.0 -> 0.21.1",
+  "headRefOid": "d5d9ef6730bc7a0fb81532d96a22ab36da296a35"
+ },
+ {
+  "number": 577610,
+  "title": "man-pages: 6.19 -> 6.20",
+  "headRefOid": "87babc3eca037541e327ec14e54b2f15df4c3120"
+ },
+ {
+  "number": 577596,
+  "title": "eslint: 10.12.0 -> 10.13.0",
+  "headRefOid": "fc7fa6a3c3e9831de70760068e13346562894ff6"
+ },
+ {
+  "number": 577591,
+  "title": "chatgpt: 26.1013.40934 -> 26.1016.61520",
+  "headRefOid": "42d8168647f066187728f8ea771b7e22e75ae59d"
+ },
+ {
+  "number": 577532,
+  "title": "python3Packages.airthings-cloud: 0.3.0 -> 0.3.1",
+  "headRefOid": "1621add2f1aca297e12980fef76be906c6af80a9"
+ },
+ {
+  "number": 577421,
+  "title": "protonmail-desktop: 1.15.1 -> 1.16.0",
+  "headRefOid": "15e069f14be4acbf4625188cd18d95726ed8ebf0"
+ },
+ {
+  "number": 577354,
+  "title": "bun: 1.4.2 -> 1.4.4",
+  "headRefOid": "0d765791b09356dd5b356559c1b67c1600ca3c5b"
+ },
+ {
+  "number": 577326,
+  "title": "python3Packages.embreex: 4.4.0 -> 4.4.0.post1",
+  "headRefOid": "078f0c14ed127c9fbff3e2400ccbe97f91fb742e"
+ },
+ {
+  "number": 577132,
+  "title": "getmail6: 6.20.01 -> 6.20.02",
+  "headRefOid": "380eebbba40db070e278065a78b168b19d8b9c01"
+ },
+ {
+  "number": 577015,
+  "title": "python3Packages.aiomealie: 2.1.2 -> 2.1.3",
+  "headRefOid": "fd10f7a5910a545d257003161f7205d4d4674b9a"
+ },
+ {
+  "number": 577014,
+  "title": "python3Packages.python-bsblan: 6.1.9 -> 6.1.11",
+  "headRefOid": "3e4f006fb9936dcd782d62f017482e52dcf50bc8"
+ },
+ {
+  "number": 576986,
+  "title": "xray: 26.9.9 -> 26.10.21",
+  "headRefOid": "93fcc51e7131b18c22f94859dc7225c8cd3d376e"
+ },
+ {
+  "number": 576971,
+  "title": "anyrun: 26.6.1 -> 26.10.0",
+  "headRefOid": "ae83a3abd21b34032868916f3e5b1e54d6ecd35b"
+ },
+ {
+  "number": 576948,
+  "title": "cloudflare-warp: 2026.8.2110.0 -> 2026.8.2115.0",
+  "headRefOid": "9ecfb65831493ead9b982b3cf32411f961261c09"
+ },
+ {
+  "number": 576762,
+  "title": "cloudflared: 2026.10.1 -> 2026.10.3",
+  "headRefOid": "6ed958b166ece07c2ef51894610b876cbcda6a93"
+ },
+ {
+  "number": 576761,
+  "title": "dwproton-bin: dwproton-11.0-14 -> dwproton-11.0-15",
+  "headRefOid": "3e371b101ffb01e17ab4d66a6e2f37c5581fea0b"
+ },
+ {
+  "number": 576696,
+  "title": "bazel_9: 9.2.0 -> 9.3.1",
+  "headRefOid": "ad25f90a66a2ebc6ef3c9129b2bdda2d547bc2bc"
+ },
+ {
+  "number": 576689,
+  "title": "_1password-gui: 8.12.40 -> 8.12.42",
+  "headRefOid": "c12eb7ae8e58c2e285a31559b4a990d68776b290"
+ },
+ {
+  "number": 576537,
+  "title": "plexRaw: 1.43.4.10903 -> 1.43.5.11029",
+  "headRefOid": "40c1ef5669972a5759a241eca8843749e23f80cf"
+ },
+ {
+  "number": 576416,
+  "title": "insomnia: 13.0.0 -> 13.3.1",
+  "headRefOid": "bf3bba8c236169e9b7c9d21c7375b1c132495d6c"
+ },
+ {
+  "number": 576297,
+  "title": "rift-wm: 0.6.7 -> 0.7.0",
+  "headRefOid": "66e7075689d27311a44c113bc6238ab3d9b0f36c"
+ },
+ {
+  "number": 576090,
+  "title": "packer: 1.15.4 -> 1.16.1",
+  "headRefOid": "b3bfd1ceea250e426a6a6feda1cbbe0b45c385e4"
+ },
+ {
+  "number": 575994,
+  "title": "middleclick: 3.2.0 -> 3.3.0",
+  "headRefOid": "5c3a8c373602781f2c06097e5e864a11ff5559b8"
+ },
+ {
+  "number": 575993,
+  "title": "cyberduck: 9.2.4.43667 -> 9.5.4.45528",
+  "headRefOid": "881d5516cbf28f2e8e0499567e86774e1ba40094"
+ },
+ {
   "number": 575880,
   "title": "gelly: 1.14.0 -> 1.16.3",
   "headRefOid": "2a9a46c73f872bbfd071df084271a215afaf2e76"

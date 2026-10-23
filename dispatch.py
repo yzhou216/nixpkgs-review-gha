@@ -12,11 +12,17 @@ without starting, and the review posts nothing.  The script re-runs only the
 failed jobs of such a review once runners are available again, which keeps
 its Linux results, provided that the head of the pull request is unchanged.
 If the head changed, it checks the pull request again and dispatches a new
-review.  While these failures are recent, it keeps fewer reviews in flight
-and holds back re-runs.  Reviews that run for a long time, usually large
-rebuilds, count against a separate cap.  The script cancels a review that is
-still running after MAX_RUNTIME seconds, since few of them finish before
-GitHub's six-hour job limit, and they hold runners that other reviews need.
+review.  While these failures are recent, it keeps fewer Darwin reviews in
+flight and holds back re-runs.  The script cancels a review that is still
+running after MAX_RUNTIME seconds, since few of them finish before GitHub's
+six-hour job limit, and they hold runners that other reviews need.
+
+GitHub Pro runs 40 jobs at a time but only 5 of them on macOS.  The script
+therefore counts the jobs that review runs occupy rather than the runs, and
+caps Darwin reviews separately.  A pull request whose CI label reports no
+Darwin rebuilds is reviewed without the aarch64-darwin job, so it needs no
+Mac at all.  While the Darwin cap is full, the script keeps dispatching such
+Linux-only reviews.
 
 Pull requests by SKIPPED_AUTHORS are not reviewed, since a committer asked
 on #550000 for no automated approvals of r-ryantm's pull requests.  The
@@ -58,13 +64,13 @@ LIMIT = int(os.environ["LIMIT"]) if os.environ.get("LIMIT") else None
 DRY_RUN = os.environ.get("DRY_RUN") == "true"
 TIME_BUDGET = int(os.environ.get("TIME_BUDGET") or 19200)
 
-MAX_INFLIGHT = 10
-MAX_INFLIGHT_CONSTRAINED = 3
+MAX_JOBS = 36
+MAX_DARWIN = 8
+MAX_DARWIN_CONSTRAINED = 3
 MAX_LONG = 10
 LONG_RUN = 5400
 MAX_RUNTIME = 14400
-MAX_TOTAL_INFLIGHT = 20
-MIN_INTERVAL = 75
+MIN_INTERVAL = 30
 MIN_RATE_REMAINING = 1000
 MAX_TRIES = 5
 MAX_ATTEMPTS = 8
@@ -265,13 +271,19 @@ def bucket(labels, prefix):
     return big[0] if big else sorted(vals)[0]
 
 
+def needs_darwin(pr):
+    """Return whether a pull request rebuilds anything on Darwin, going by its CI label."""
+    return bucket([l["name"] for l in pr["labels"]], "10.rebuild-darwin") != "0"
+
+
 def check_pr(cand, ignore_own=False):
     """Check a candidate just before its review is dispatched.
 
-    Return a (status, reason, title) tuple.  The status is "ok" when the
-    review can be dispatched, "skipped" when the pull request no longer
+    Return a (status, reason, title, darwin) tuple.  The status is "ok" when
+    the review can be dispatched, "skipped" when the pull request no longer
     qualifies, and "retry" when the check could not be decided yet, for
-    example while GitHub is still computing mergeability.  With ignore_own,
+    example while GitHub is still computing mergeability.  The darwin flag
+    tells whether the review needs the aarch64-darwin job.  With ignore_own,
     earlier results and reviews by the owner do not count, as when a pull
     request is reviewed again after an update.
     """
@@ -279,7 +291,7 @@ def check_pr(cand, ignore_own=False):
     pr = api(f"repos/NixOS/nixpkgs/pulls/{n}")
 
     def skip(reason, status="skipped"):
-        return status, reason, pr["title"]
+        return status, reason, pr["title"], None
 
     if pr["state"] != "open":
         return skip("not open")
@@ -321,11 +333,13 @@ def check_pr(cand, ignore_own=False):
     reviews = api(f"repos/NixOS/nixpkgs/pulls/{n}/reviews?per_page=100", paginate=True)
     if not ignore_own and any((r["user"] or {}).get("login") == OWNER for r in reviews):
         return skip("already reviewed by owner")
-    return "ok", None, pr["title"]
+    return "ok", None, pr["title"], needs_darwin(pr)
 
 
-def dispatch(n, on_success="approve"):
+def dispatch(n, on_success="approve", darwin=True):
     inputs = INPUTS | {"on-success": on_success}
+    if not darwin:
+        inputs["aarch64-darwin"] = "no"
     args = ["workflow", "run", "review.yml", "-R", REPO, "--ref", "main", "-f", f"pr={n}"]
     args += [a for k, v in inputs.items() for a in ("-f", f"{k}={v}")]
     started = datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(seconds=10)
@@ -457,10 +471,11 @@ def rerun(n, rec, cand):
     head = head or rec.get("head") or (cand or {}).get("headRefOid") or pr["head"]["sha"]
     if on_success != "approve":
         # Without an approval, a review of the latest head needs no triviality check
-        status, reason, title = "ok", None, pr["title"]
+        status, reason, title, darwin = "ok", None, pr["title"], needs_darwin(pr)
     else:
         # The head that will be built has not been checked yet
-        status, reason, title = check_pr({"number": n, "headRefOid": head}, ignore_own=rec.get("requeued", False))
+        cand = {"number": n, "headRefOid": head}
+        status, reason, title, darwin = check_pr(cand, ignore_own=rec.get("requeued", False))
     if status == "retry" and rec.get("tries", 0) < MAX_TRIES:
         rec["tries"] = rec.get("tries", 0) + 1
         rec["rerun"] = kind
@@ -473,10 +488,11 @@ def rerun(n, rec, cand):
         if not rerun_failed_jobs(run_id, rec):
             return False, rec["final"]
         return True, f"re-ran run {run_id}"
-    new_id = None if DRY_RUN else dispatch(n, on_success)
+    new_id = None if DRY_RUN else dispatch(n, on_success, darwin)
     for key in ("examined", "no_runner_at", "tries"):
         rec.pop(key, None)
-    rec.update(run_id=new_id, title=title, time=iso(time.time()), head=pr["head"]["sha"], redispatched=True)
+    rec.update(run_id=new_id, title=title, time=iso(time.time()), head=pr["head"]["sha"], darwin=darwin)
+    rec["redispatched"] = True
     return True, f"head changed since run {run_id}, dispatched run {new_id}: {title}"
 
 
@@ -565,6 +581,9 @@ def run(start):
     fetched = scanned = seen_at = 0.0
     no_runner_at = 0.0
     cancelled = set()
+    # Whether a candidate needed Darwin when last checked, to pass over it while Macs are busy
+    darwin_hint = {}
+    jobs = darwin_reviews = 0
     checked = committed = start
     chain = LIMIT is None and not DRY_RUN
     while True:
@@ -586,6 +605,7 @@ def run(start):
                 f"dispatched {dispatched} and re-ran {reran} so far, {len(queue)} left in queue,"
                 f" {waiting} waiting for a re-run, rate limit {remaining}/{limit}"
             )
+            log(f"{jobs} of {MAX_JOBS} jobs and {darwin_reviews} Darwin reviews in flight")
         if now - scanned > SCAN_INTERVAL:
             scanned = now
             no_runner_at = scan_failures(records, since)
@@ -615,6 +635,21 @@ def run(start):
                 save()
         constrained = now - no_runner_at < CAPACITY_WINDOW
         reruns = [] if constrained else due_reruns(now)
+
+        def ours(r):
+            rec = records.get(str(pr_of(r)))
+            return rec if rec and rec.get("run_id") == r["id"] else None
+
+        def uses_mac(r):
+            # Re-run attempts repeat the darwin job, and other people's runs may use a Mac too
+            return r["run_attempt"] > 1 or (ours(r) or {}).get("darwin", True)
+
+        def footprint(r):
+            return 1 if r["run_attempt"] > 1 else 3 if uses_mac(r) else 2
+
+        jobs = sum(footprint(r) for r in active)
+        darwin_reviews = sum(1 for r in batch if r not in long_runs and uses_mac(r))
+        darwin_room = darwin_reviews < (MAX_DARWIN_CONSTRAINED if constrained else MAX_DARWIN)
         if not queue and not reruns:
             if not batch and not any(r.get("rerun") for r in records.values()):
                 if not DRY_RUN:
@@ -626,13 +661,7 @@ def run(start):
             fetched = 0.0
             continue
         remaining, _ = rate()
-        cap = MAX_INFLIGHT_CONSTRAINED if constrained else MAX_INFLIGHT
-        if (
-            len(batch) - len(long_runs) >= cap
-            or len(long_runs) >= MAX_LONG
-            or len(active) - len(long_runs) >= MAX_TOTAL_INFLIGHT
-            or remaining < MIN_RATE_REMAINING
-        ):
+        if jobs + 2 > MAX_JOBS or len(long_runs) >= MAX_LONG or remaining < MIN_RATE_REMAINING:
             time.sleep(30)
             fetched = 0.0
             continue
@@ -642,7 +671,7 @@ def run(start):
             fetched = 0.0
             continue
         # Re-runs come first, since their pull requests are already half reviewed
-        if reruns:
+        if reruns and darwin_room:
             n = reruns[0]
             try:
                 started, what = rerun(int(n), records[n], by_number.get(int(n)))
@@ -663,15 +692,25 @@ def run(start):
         if time.time() - seen_at > SEEN_INTERVAL:
             seen |= {pr_of(r) for r in fork_runs()} - {None}
             seen_at = time.time()
-        cand = queue.pop(0)
+        # With the Darwin cap full, pass over candidates known to need a Mac
+        pick = 0 if darwin_room else next((i for i, c in enumerate(queue) if darwin_hint.get(c["number"]) is not True), None)
+        if pick is None:
+            time.sleep(30)
+            fetched = 0.0
+            continue
+        cand = queue.pop(pick)
         n = cand["number"]
         if n in seen:
-            status, reason, title = "skipped", "fork already has a run", cand["title"]
+            status, reason, title, darwin = "skipped", "fork already has a run", cand["title"], None
         else:
             try:
-                status, reason, title = check_pr(cand)
+                status, reason, title, darwin = check_pr(cand)
             except LookupError as e:
-                status, reason, title = "skipped", f"lookup failed: {e}", cand["title"]
+                status, reason, title, darwin = "skipped", f"lookup failed: {e}", cand["title"], None
+        darwin_hint[n] = darwin
+        if status == "ok" and darwin and not darwin_room:
+            queue.insert(0, cand)
+            continue
         if status != "ok":
             tries = records.get(str(n), {}).get("tries", 0) + (status == "retry")
             records[str(n)] = {"status": status, "reason": reason, "title": title, "tries": tries}
@@ -682,10 +721,10 @@ def run(start):
                 queue.insert(min(len(queue), RETRY_POSITION), cand)
             continue
         if DRY_RUN:
-            log(f"#{n} would dispatch: {title}")
+            log(f"#{n} would dispatch{'' if darwin else ' without Darwin'}: {title}")
             dispatched += 1
             continue
-        run_id = dispatch(n)
+        run_id = dispatch(n, darwin=darwin)
         last = time.time()
         fetched = 0.0
         dispatched += 1
@@ -695,8 +734,9 @@ def run(start):
             "run_id": run_id,
             "title": title,
             "time": iso(time.time()),
+            "darwin": darwin,
         }
-        log(f"#{n} dispatched run {run_id}: {title}")
+        log(f"#{n} dispatched run {run_id}{'' if darwin else ' without Darwin'}: {title}")
         save()
 
     remaining, limit = rate()
