@@ -9513,6 +9513,7 @@
   },
   "576297": {
    "darwin": true,
+   "final": "cancelled after 4 hours",
    "run_id": 40034004482,
    "status": "dispatched",
    "time": "2026-10-23T22:30:05+00:00",
@@ -9611,6 +9612,7 @@
   },
   "577354": {
    "darwin": true,
+   "final": "cancelled after 4 hours",
    "run_id": 40033588805,
    "status": "dispatched",
    "time": "2026-10-23T22:26:08+00:00",
