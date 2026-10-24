@@ -1599,10 +1599,14 @@
    "title": "confy: 0.9.0 -> 0.9.1"
   },
   "554315": {
+   "darwin": true,
    "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 39931794012,
-   "reason": "no CI evaluation",
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 40137082863,
+   "status": "dispatched",
+   "time": "2026-10-24T22:05:52+00:00",
    "title": "amazon-cloudwatch-agent: 1.300071.0 -> 1.300074.0"
   },
   "554322": {
@@ -1760,11 +1764,14 @@
    "title": "viskores: 1.1.1 -> 1.2.0"
   },
   "554849": {
-   "head": "3bebc8c37a434cf49f78f33c464b106aa9a6dcde",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39920811404,
-   "reason": "updated after the review",
-   "status": "requeue",
-   "title": "tomcat10: 10.1.57 -> 10.1.60"
+   "requeued": true,
+   "run_id": 40137034542,
+   "status": "dispatched",
+   "time": "2026-10-24T22:05:13+00:00",
+   "title": "tomcat10: 10.1.57 -> 10.1.61"
   },
   "554880": {
    "darwin": false,
@@ -1781,14 +1788,16 @@
    "previous_run_id": 39920246467,
    "reason": "updated after the review",
    "status": "requeue",
-   "title": "yandex-cloud: 1.25.0 -> 1.40.0"
+   "title": "yandex-cloud: 1.25.0 -> 1.40.0",
+   "tries": 1
   },
   "554968": {
    "head": "1f5dffd0b19f8da3c345175b0fdb09bc09e1ff25",
    "previous_run_id": 39920082528,
    "reason": "updated after the review",
    "status": "requeue",
-   "title": "govc: 0.55.1 -> 0.56.0"
+   "title": "govc: 0.55.1 -> 0.56.0",
+   "tries": 1
   },
   "554977": {
    "run_id": 39919915840,
@@ -2432,11 +2441,14 @@
    "title": "python3Packages.bx-python: 0.14.0 -> 0.15.1"
   },
   "558201": {
-   "head": "d0fd5e1c07aa29e17ea65b7bc7688b348abfb511",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39896364115,
-   "reason": "updated after the review",
-   "status": "requeue",
-   "title": "octavePackages.statistics: 1.8.4 -> 2.0.0"
+   "requeued": true,
+   "run_id": 40136806058,
+   "status": "dispatched",
+   "time": "2026-10-24T22:02:07+00:00",
+   "title": "octavePackages.statistics: 1.8.4 -> 2.0.1"
   },
   "558219": {
    "run_id": 39896236055,
@@ -3236,11 +3248,14 @@
    "title": "kurve: 3.5.1 -> 3.6.1"
   },
   "561837": {
-   "head": "6373fad5e2bae8b5d9e4de09d89f3bbdbe33bdca",
+   "darwin": false,
+   "on_success": "nothing",
    "previous_run_id": 39854054489,
-   "reason": "updated after the review",
-   "status": "requeue",
-   "title": "rpcs3: 0.0.42-unstable-2026-08-15 -> 0.0.43-unstable-2026-10-11"
+   "requeued": true,
+   "run_id": 40136756478,
+   "status": "dispatched",
+   "time": "2026-10-24T22:01:24+00:00",
+   "title": "rpcs3: 0.0.42-unstable-2026-08-15 -> 0.0.43-unstable-2026-10-23"
   },
   "561892": {
    "run_id": 39847596978,
@@ -3288,10 +3303,14 @@
    "title": "python3Packages.bce-python-sdk: 0.9.76 -> 0.9.79"
   },
   "562172": {
+   "darwin": false,
+   "on_success": "nothing",
    "previous_run_id": 39841627891,
-   "reason": "artifact upload error",
-   "status": "requeue",
-   "title": "google-guest-oslogin: 20260214.00 -> 20261009.00"
+   "requeued": true,
+   "run_id": 40137273199,
+   "status": "dispatched",
+   "time": "2026-10-24T22:08:35+00:00",
+   "title": "google-guest-oslogin: 20260214.00 -> 20261021.00"
   },
   "562222": {
    "final": "cancelled after 4 hours",
@@ -6110,11 +6129,14 @@
    "title": "stable-diffusion-cpp: master-874-656a135 -> master-951-f89d9b1"
   },
   "572476": {
-   "head": "67e74b986333b23e4b4b659137073eab12b8af45",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39460005192,
-   "reason": "updated after the review",
-   "status": "requeue",
-   "title": "crengine-ng: 0.9.13 -> 0.9.14"
+   "requeued": true,
+   "run_id": 40138015370,
+   "status": "dispatched",
+   "time": "2026-10-24T22:18:53+00:00",
+   "title": "crengine-ng: 0.9.13 -> 0.9.14.1"
   },
   "572477": {
    "run_id": 39459638405,
@@ -6196,11 +6218,14 @@
    "title": "npm-check-updates: 23.1.0 -> 23.1.1"
   },
   "572673": {
-   "head": "a943e5d4f5ab5bc7b816f3cb48e7e4594325607f",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39454926587,
-   "reason": "updated after the review",
-   "status": "requeue",
-   "title": "pulumiPackages.pulumi-java: 1.37.3 -> 1.37.4"
+   "requeued": true,
+   "run_id": 40137864216,
+   "status": "dispatched",
+   "time": "2026-10-24T22:16:46+00:00",
+   "title": "pulumiPackages.pulumi-java: 1.37.3 -> 1.37.6"
   },
   "572704": {
    "run_id": 39454226353,
@@ -6309,11 +6334,14 @@
    "tries": 0
   },
   "572908": {
-   "head": "f2e649ef8cfefbfb1c79528a334ab3409046a9fa",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39452245191,
-   "reason": "updated after the review",
-   "status": "requeue",
-   "title": "shopify-cli: 4.8.3 -> 4.9.3"
+   "requeued": true,
+   "run_id": 40137818154,
+   "status": "dispatched",
+   "time": "2026-10-24T22:16:07+00:00",
+   "title": "shopify-cli: 4.8.3 -> 4.9.4"
   },
   "572910": {
    "reason": "has nixpkgs-review-gha comment",
@@ -6322,18 +6350,24 @@
    "tries": 1
   },
   "572913": {
-   "head": "6b986fd70c2a7cac42324e87b8f26b2c60a98635",
+   "darwin": false,
+   "on_success": "nothing",
    "previous_run_id": 39444531314,
-   "reason": "updated after the review",
-   "status": "requeue",
-   "title": "hey-mail: 1.3.7 -> 1.3.8"
+   "requeued": true,
+   "run_id": 40137436028,
+   "status": "dispatched",
+   "time": "2026-10-24T22:10:52+00:00",
+   "title": "hey-mail: 1.3.7 -> 1.3.9"
   },
   "572931": {
-   "head": "404ae40aa0a97314caf6ba3182b36beb8c9064bc",
+   "darwin": false,
+   "on_success": "nothing",
    "previous_run_id": 39451049234,
-   "reason": "updated after the review",
-   "status": "requeue",
-   "title": "romm: 5.2.0 -> 5.4.0"
+   "requeued": true,
+   "run_id": 40137484947,
+   "status": "dispatched",
+   "time": "2026-10-24T22:11:34+00:00",
+   "title": "romm: 5.2.0 -> 5.4.1"
   },
   "572938": {
    "run_id": 39444201483,
@@ -6391,11 +6425,14 @@
    "title": "vue-language-server: 3.3.12 -> 3.3.13"
   },
   "573068": {
-   "head": "416db50c88181432276f4b2608ec362a4d60bed7",
+   "darwin": false,
+   "on_success": "nothing",
    "previous_run_id": 39446345821,
-   "reason": "updated after the review",
-   "status": "requeue",
-   "title": "libretro.beetle-vb: 0-unstable-2026-08-23 -> 0-unstable-2026-10-09"
+   "requeued": true,
+   "run_id": 40137581943,
+   "status": "dispatched",
+   "time": "2026-10-24T22:12:54+00:00",
+   "title": "libretro.beetle-vb: 0-unstable-2026-08-23 -> 0-unstable-2026-10-12"
   },
   "573078": {
    "examined": 1,
@@ -6424,7 +6461,8 @@
    "previous_run_id": 39439171652,
    "reason": "updated after the review",
    "status": "requeue",
-   "title": "unrtf: 0.21.10 -> 0.21.12"
+   "title": "unrtf: 0.21.10 -> 0.21.12",
+   "tries": 3
   },
   "573113": {
    "examined": 1,
@@ -6475,11 +6513,14 @@
    "title": "pbm: 1.5.1 -> 1.5.2"
   },
   "573174": {
-   "head": "9d446af5fb5b840f3019acc58463850120ed6c1d",
+   "darwin": false,
+   "on_success": "nothing",
    "previous_run_id": 39435985101,
-   "reason": "updated after the review",
-   "status": "requeue",
-   "title": "ubridge: 1.2.3 -> 1.3.0"
+   "requeued": true,
+   "run_id": 40137716394,
+   "status": "dispatched",
+   "time": "2026-10-24T22:14:46+00:00",
+   "title": "ubridge: 1.2.3 -> 1.3.1"
   },
   "573182": {
    "reason": "not open",
@@ -6563,11 +6604,14 @@
    "title": "python3Packages.django-tenants: 3.14.0 -> 4.0.0"
   },
   "573432": {
-   "head": "ff78a809e868135f86f30583cb2fade6f54e8df4",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39427725986,
-   "reason": "updated after the review",
-   "status": "requeue",
-   "title": "gifsicle: 1.96 -> 1.97"
+   "requeued": true,
+   "run_id": 40138148542,
+   "status": "dispatched",
+   "time": "2026-10-24T22:20:42+00:00",
+   "title": "gifsicle: 1.96 -> 1.98"
   },
   "573439": {
    "examined": 1,
@@ -6586,11 +6630,14 @@
    "title": "python3Packages.ansible: 14.4.0 -> 14.5.0"
   },
   "573458": {
-   "head": "5ceba25ff392fa9dad2cc9dc7420fd6c7e7ecd39",
+   "darwin": false,
+   "on_success": "nothing",
    "previous_run_id": 39424543094,
-   "reason": "updated after the review",
-   "status": "requeue",
-   "title": "libretro.stella: 0-unstable-2026-09-25 -> 0-unstable-2026-10-12"
+   "requeued": true,
+   "run_id": 40138103310,
+   "status": "dispatched",
+   "time": "2026-10-24T22:20:07+00:00",
+   "title": "libretro.stella: 0-unstable-2026-09-25 -> 0-unstable-2026-10-24"
   },
   "573509": {
    "run_id": 39423825520,
@@ -7967,11 +8014,10 @@
    "title": "unpoller: 5.5.1 -> 5.6.2"
   },
   "575546": {
-   "head": "4e515c14f7dea1171a7dcc4360290ca9572d6d83",
-   "previous_run_id": 39333451224,
-   "reason": "updated after the review",
-   "status": "requeue",
-   "title": "wordcraft: 0.6.1 -> 0.8.0"
+   "reason": "has nixpkgs-review-gha comment",
+   "status": "skipped",
+   "title": "wordcraft: 0.6.1 -> 0.9.0",
+   "tries": 0
   },
   "575547": {
    "run_id": 39333278468,
@@ -8264,11 +8310,10 @@
    "title": "cocoon: 0.13 -> 0.13.2"
   },
   "575797": {
-   "head": "1ad64e06449ce79d21c03358a36ef813c1da95ef",
-   "previous_run_id": 40028773445,
-   "reason": "updated after the review",
-   "status": "requeue",
-   "title": "zennotes-desktop: 2.70.0 -> 2.75.0"
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "zennotes-desktop: 2.70.0 -> 2.76.0",
+   "tries": 0
   },
   "575798": {
    "run_id": 39238247409,
@@ -8688,6 +8733,56 @@
    "status": "dispatched",
    "time": "2026-10-23T22:11:04+00:00",
    "title": "alcom: 1.1.8 -> 1.1.9"
+  },
+  "578424": {
+   "darwin": false,
+   "on_success": "nothing",
+   "run_id": 40138805354,
+   "status": "dispatched",
+   "time": "2026-10-24T22:29:55+00:00",
+   "title": "deepseek-harness: 0.2.1-alpha.3 -> 0.2.1-rc.3"
+  },
+  "578445": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "python3Packages.elevenlabs: 2.71.0 -> 2.74.1",
+   "tries": 0
+  },
+  "578461": {
+   "darwin": false,
+   "on_success": "nothing",
+   "run_id": 40138670730,
+   "status": "dispatched",
+   "time": "2026-10-24T22:27:56+00:00",
+   "title": "spotatui: 0.45.0 -> 0.46.0"
+  },
+  "578479": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "jetbrains-toolbox: 3.8.1.88030 -> 3.9.0.88839",
+   "tries": 0
+  },
+  "578480": {
+   "darwin": false,
+   "on_success": "nothing",
+   "run_id": 40138615536,
+   "status": "dispatched",
+   "time": "2026-10-24T22:27:10+00:00",
+   "title": "obs-studio-plugins.obs-shaderfilter: 2.6.0 -> 2.6.1"
+  },
+  "578485": {
+   "darwin": false,
+   "on_success": "nothing",
+   "run_id": 40138250537,
+   "status": "dispatched",
+   "time": "2026-10-24T22:22:06+00:00",
+   "title": "textcompare: 0.1.11 -> 0.1.12"
+  },
+  "578495": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "whisrs: 0.1.29 -> 0.1.30",
+   "tries": 0
   }
  }
 }
