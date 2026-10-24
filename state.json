@@ -8734,6 +8734,196 @@
    "time": "2026-10-23T22:11:04+00:00",
    "title": "alcom: 1.1.8 -> 1.1.9"
   },
+  "578303": {
+   "darwin": false,
+   "on_success": "nothing",
+   "run_id": 40140863443,
+   "status": "dispatched",
+   "time": "2026-10-24T22:59:38+00:00",
+   "title": "soundcraft: 0.6.1 -> 0.12.1"
+  },
+  "578309": {
+   "reason": "fork already has a run",
+   "status": "skipped",
+   "title": "clink: 2024.12.07-unstable-2026-09-11 -> 2024.12.07-unstable-2026-10-18",
+   "tries": 0
+  },
+  "578314": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40140816032,
+   "status": "dispatched",
+   "time": "2026-10-24T22:58:55+00:00",
+   "title": "sherpa: 3.0.4 -> 3.0.5"
+  },
+  "578321": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40140747739,
+   "status": "dispatched",
+   "time": "2026-10-24T22:57:50+00:00",
+   "title": "sccache: 0.18.0 -> 0.19.0"
+  },
+  "578324": {
+   "darwin": false,
+   "on_success": "nothing",
+   "run_id": 40140408098,
+   "status": "dispatched",
+   "time": "2026-10-24T22:52:40+00:00",
+   "title": "home-assistant-custom-components.llm_intents: 1.10.3 -> 1.11.1"
+  },
+  "578327": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "python3Packages.pyisy: 3.7.0 -> 3.8.0",
+   "tries": 0
+  },
+  "578338": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "python3Packages.python-google-weather-api: 0.0.8 -> 0.0.9",
+   "tries": 0
+  },
+  "578339": {
+   "darwin": false,
+   "on_success": "nothing",
+   "run_id": 40140016776,
+   "status": "dispatched",
+   "time": "2026-10-24T22:47:00+00:00",
+   "title": "home-assistant-custom-components.ingress: 1.3.2 -> 1.4.0"
+  },
+  "578345": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "python3Packages.icalendar-searcher: 1.1.0 -> 1.3.0",
+   "tries": 0
+  },
+  "578349": {
+   "reason": "mergeability unknown",
+   "status": "retry",
+   "title": "python3Packages.trimesh: 5.1.1 -> 5.2.0",
+   "tries": 2
+  },
+  "578351": {
+   "reason": "mergeability unknown",
+   "status": "retry",
+   "title": "chirpstack-mqtt-forwarder: 4.6.1 -> 4.7.0-test.2",
+   "tries": 2
+  },
+  "578355": {
+   "reason": "mergeability unknown",
+   "status": "retry",
+   "title": "vscode-extensions.databricks.databricks: 2.21.0 -> 2.22.0",
+   "tries": 3
+  },
+  "578356": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40140333550,
+   "status": "dispatched",
+   "time": "2026-10-24T22:51:36+00:00",
+   "title": "python3Packages.fastbencode: 0.3.11 -> 0.3.12"
+  },
+  "578362": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40140586173,
+   "status": "dispatched",
+   "time": "2026-10-24T22:55:22+00:00",
+   "title": "vscode-extensions.julialang.language-julia: 1.249.2 -> 1.250.2"
+  },
+  "578367": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40140673732,
+   "status": "dispatched",
+   "time": "2026-10-24T22:56:41+00:00",
+   "title": "python3Packages.pydyf: 0.12.1 -> 0.13.0"
+  },
+  "578377": {
+   "darwin": false,
+   "on_success": "nothing",
+   "run_id": 40139903723,
+   "status": "dispatched",
+   "time": "2026-10-24T22:45:23+00:00",
+   "title": "feedbackd: 0.8.9 -> 0.8.10"
+  },
+  "578378": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "python3Packages.aiosomecomfort: 0.0.38 -> 0.0.39",
+   "tries": 0
+  },
+  "578389": {
+   "darwin": false,
+   "on_success": "nothing",
+   "run_id": 40139850112,
+   "status": "dispatched",
+   "time": "2026-10-24T22:44:37+00:00",
+   "title": "rspamd: 4.2.2 -> 4.2.3"
+  },
+  "578399": {
+   "darwin": false,
+   "on_success": "nothing",
+   "run_id": 40139758700,
+   "status": "dispatched",
+   "time": "2026-10-24T22:43:17+00:00",
+   "title": "tuxbox: 3.6.0 -> 3.7.0"
+  },
+  "578402": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40139800392,
+   "status": "dispatched",
+   "time": "2026-10-24T22:43:52+00:00",
+   "title": "rtorrent: 0.16.22 -> 0.16.26"
+  },
+  "578409": {
+   "darwin": false,
+   "on_success": "nothing",
+   "run_id": 40139381986,
+   "status": "dispatched",
+   "time": "2026-10-24T22:37:52+00:00",
+   "title": "pyfa: 2.69.2 -> 2.69.3"
+  },
+  "578410": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40139421902,
+   "status": "dispatched",
+   "time": "2026-10-24T22:38:26+00:00",
+   "title": "arity: 0.24.0 -> 0.26.0"
+  },
+  "578411": {
+   "reason": "mergeability unknown",
+   "status": "retry",
+   "title": "claude-agent-acp: 0.93.0 -> 0.95.0",
+   "tries": 1
+  },
+  "578416": {
+   "darwin": false,
+   "on_success": "nothing",
+   "run_id": 40138885361,
+   "status": "dispatched",
+   "time": "2026-10-24T22:30:52+00:00",
+   "title": "defmt-print: 1.1.0 -> 1.2.0"
+  },
+  "578417": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40138925959,
+   "status": "dispatched",
+   "time": "2026-10-24T22:31:26+00:00",
+   "title": "gh-dash: 4.26.1 -> 4.26.2"
+  },
+  "578421": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40139317060,
+   "status": "dispatched",
+   "time": "2026-10-24T22:36:57+00:00",
+   "title": "gowrap: 1.4.3 -> 1.5.0"
+  },
   "578424": {
    "darwin": false,
    "on_success": "nothing",
@@ -8741,6 +8931,33 @@
    "status": "dispatched",
    "time": "2026-10-24T22:29:55+00:00",
    "title": "deepseek-harness: 0.2.1-alpha.3 -> 0.2.1-rc.3"
+  },
+  "578426": {
+   "darwin": true,
+   "examined": 1,
+   "on_success": "nothing",
+   "rerun": "prepare",
+   "rerun_after": "2026-10-24T23:05:57+00:00",
+   "run_id": 40139213392,
+   "status": "dispatched",
+   "time": "2026-10-24T22:35:26+00:00",
+   "title": "yggdrasil: 0.5.14 -> 0.5.15"
+  },
+  "578431": {
+   "darwin": true,
+   "on_success": "approve",
+   "run_id": 40139518247,
+   "status": "dispatched",
+   "time": "2026-10-24T22:39:51+00:00",
+   "title": "ogre: 14.6.1 -> 14.6.2"
+  },
+  "578432": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40139658253,
+   "status": "dispatched",
+   "time": "2026-10-24T22:41:50+00:00",
+   "title": "tutanota-desktop: 361.261006.0 -> 362.261023.2"
   },
   "578445": {
    "reason": "not open",
