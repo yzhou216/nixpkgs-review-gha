@@ -336,10 +336,13 @@ def check_pr(cand, ignore_own=False):
     return "ok", None, pr["title"], needs_darwin(pr)
 
 
-def dispatch(n, on_success="approve", darwin=True):
+def dispatch(n, on_success="approve", darwin=True, extra_args=None):
     inputs = INPUTS | {"on-success": on_success}
     if not darwin:
         inputs["aarch64-darwin"] = "no"
+    # For example --eval local, when the CI evaluation of an old pull request has expired
+    if extra_args:
+        inputs["extra-args"] = extra_args
     args = ["workflow", "run", "review.yml", "-R", REPO, "--ref", "main", "-f", f"pr={n}"]
     args += [a for k, v in inputs.items() for a in ("-f", f"{k}={v}")]
     started = datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(seconds=10)
@@ -488,7 +491,7 @@ def rerun(n, rec, cand):
         if not rerun_failed_jobs(run_id, rec):
             return False, rec["final"]
         return True, f"re-ran run {run_id}"
-    new_id = None if DRY_RUN else dispatch(n, on_success, darwin)
+    new_id = None if DRY_RUN else dispatch(n, on_success, darwin, rec.get("extra_args"))
     for key in ("examined", "no_runner_at", "tries"):
         rec.pop(key, None)
     rec.update(run_id=new_id, title=title, time=iso(time.time()), head=pr["head"]["sha"], darwin=darwin)
