@@ -177,7 +177,8 @@
    "previous_run_id": 40027932815,
    "reason": "cancelled when r-ryantm was skipped",
    "status": "requeue",
-   "title": "python3Packages.bracex: 3.0.1 -> 3.2"
+   "title": "python3Packages.bracex: 3.0.1 -> 3.2",
+   "tries": 2
   },
   "538895": {
    "reason": "merge conflict",
@@ -189,24 +190,41 @@
    "previous_run_id": 40025665717,
    "reason": "cancelled when r-ryantm was skipped",
    "status": "requeue",
-   "title": "python3Packages.azure-mgmt-cosmosdb: 9.9.0 -> 10.0.0"
+   "title": "python3Packages.azure-mgmt-cosmosdb: 9.9.0 -> 10.0.0",
+   "tries": 2
   },
   "539020": {
+   "darwin": false,
+   "examined": 1,
+   "final": "review (aarch64-linux): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.",
+   "on_success": "nothing",
    "previous_run_id": 40025426738,
-   "reason": "cancelled when r-ryantm was skipped",
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 40134663972,
+   "status": "dispatched",
+   "time": "2026-10-24T21:32:20+00:00",
    "title": "xpointerbarrier: 25.08 -> 26.06"
   },
   "539130": {
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 40023484574,
-   "reason": "cancelled when r-ryantm was skipped",
-   "status": "requeue",
-   "title": "python3Packages.pyoxigraph: 0.5.9 -> 0.5.11"
+   "requeued": true,
+   "run_id": 40134712876,
+   "status": "dispatched",
+   "time": "2026-10-24T21:33:00+00:00",
+   "title": "python3Packages.pyoxigraph: 0.5.9 -> 0.5.13"
   },
   "539132": {
+   "darwin": false,
+   "examined": 1,
+   "final": "review (aarch64-linux): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.",
+   "on_success": "nothing",
    "previous_run_id": 40023309973,
-   "reason": "cancelled when r-ryantm was skipped",
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 40134764432,
+   "status": "dispatched",
+   "time": "2026-10-24T21:33:42+00:00",
    "title": "tela-icon-theme: 2025-02-10 -> 2026-07-07"
   },
   "539138": {
@@ -216,35 +234,55 @@
    "tries": 0
   },
   "539144": {
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 40022600362,
-   "reason": "cancelled when r-ryantm was skipped",
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 40134812746,
+   "status": "dispatched",
+   "time": "2026-10-24T21:34:21+00:00",
    "title": "python3Packages.azure-mgmt-network: 30.2.0 -> 33.1.0"
   },
   "539210": {
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 40022404183,
-   "reason": "cancelled when r-ryantm was skipped",
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 40134866594,
+   "status": "dispatched",
+   "time": "2026-10-24T21:35:05+00:00",
    "title": "opentelemetry-collector-builder: 0.155.0 -> 0.156.0"
   },
   "539231": {
+   "darwin": true,
    "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40020990492,
-   "reason": "no CI evaluation",
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 40134918440,
+   "status": "dispatched",
+   "time": "2026-10-24T21:35:48+00:00",
    "title": "cgreen: 1.6.5 -> 1.7.0"
   },
   "539344": {
+   "darwin": true,
    "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40020811152,
-   "reason": "no CI evaluation",
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 40134971361,
+   "status": "dispatched",
+   "time": "2026-10-24T21:36:30+00:00",
    "title": "python3Packages.nocasedict: 2.2.0 -> 2.3.0a0"
   },
   "539366": {
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 40023993790,
-   "reason": "cancelled when r-ryantm was skipped",
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 40135016360,
+   "status": "dispatched",
+   "time": "2026-10-24T21:37:10+00:00",
    "title": "ocamlPackages.ocamlformat-mlx-lib: 0.28.1.2 -> 0.29.0.1"
   },
   "539367": {
@@ -272,10 +310,14 @@
    "tries": 0
   },
   "539685": {
+   "darwin": true,
    "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40018108931,
-   "reason": "no CI evaluation",
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 40135071288,
+   "status": "dispatched",
+   "time": "2026-10-24T21:37:55+00:00",
    "title": "python3Packages.conda-package-streaming: 0.12.0 -> 0.13.0"
   },
   "539693": {
@@ -285,16 +327,24 @@
    "tries": 0
   },
   "539742": {
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 40017797616,
-   "reason": "cancelled when r-ryantm was skipped",
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 40135118743,
+   "status": "dispatched",
+   "time": "2026-10-24T21:38:35+00:00",
    "title": "python3Packages.diffusers: 0.38.0 -> 0.40.0"
   },
   "539813": {
+   "darwin": true,
    "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40017318548,
-   "reason": "no CI evaluation",
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 40135533772,
+   "status": "dispatched",
+   "time": "2026-10-24T21:44:20+00:00",
    "title": "suwayomi-server: 2.1.1867 -> 2.3.2243"
   },
   "539815": {
@@ -302,7 +352,8 @@
    "previous_run_id": 40016638779,
    "reason": "no CI evaluation",
    "status": "requeue",
-   "title": "python3Packages.iplotx: 1.7.1 -> 1.8.0"
+   "title": "python3Packages.iplotx: 1.7.1 -> 1.8.0",
+   "tries": 1
   },
   "539981": {
    "run_id": 40016312142,
@@ -327,7 +378,8 @@
    "previous_run_id": 40015293528,
    "reason": "no CI evaluation",
    "status": "requeue",
-   "title": "prometheus-graphite-exporter: 0.16.0 -> 0.17.0"
+   "title": "prometheus-graphite-exporter: 0.16.0 -> 0.17.0",
+   "tries": 1
   },
   "540567": {
    "run_id": 40015114014,
@@ -340,7 +392,8 @@
    "previous_run_id": 40014927950,
    "reason": "no CI evaluation",
    "status": "requeue",
-   "title": "python3Packages.sgp4: 2.26 -> 2.27"
+   "title": "python3Packages.sgp4: 2.26 -> 2.27",
+   "tries": 1
   },
   "540673": {
    "reason": "merge conflict",
@@ -361,17 +414,25 @@
    "tries": 0
   },
   "540977": {
+   "darwin": false,
    "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40014699429,
-   "reason": "no CI evaluation",
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 40135222952,
+   "status": "dispatched",
+   "time": "2026-10-24T21:40:03+00:00",
    "title": "hyperion-ng: 2.1.1 -> 2.2.1"
   },
   "541126": {
+   "darwin": true,
    "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40018441044,
-   "reason": "no CI evaluation",
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 40135582436,
+   "status": "dispatched",
+   "time": "2026-10-24T21:45:02+00:00",
    "title": "python3Packages.cohere: 7.0.4 -> 7.0.5"
   },
   "541194": {
@@ -399,7 +460,8 @@
    "previous_run_id": 40012828608,
    "reason": "no CI evaluation",
    "status": "requeue",
-   "title": "python3Packages.autograd: 1.9.0 -> 1.9.1"
+   "title": "python3Packages.autograd: 1.9.0 -> 1.9.1",
+   "tries": 4
   },
   "541296": {
    "extra_args": "--eval local",
@@ -474,10 +536,14 @@
    "title": "python3Packages.azure-mgmt-datafactory: 9.3.0 -> 10.0.0"
   },
   "542021": {
+   "darwin": false,
    "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40008551932,
-   "reason": "no CI evaluation",
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 40135808928,
+   "status": "dispatched",
+   "time": "2026-10-24T21:48:06+00:00",
    "title": "python3Packages.napari: 0.7.1 -> 0.8.0"
   },
   "542023": {
@@ -500,10 +566,14 @@
    "title": "python3Packages.libtmux: 0.61.0 -> 0.62.0"
   },
   "542199": {
+   "darwin": true,
    "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40006526543,
-   "reason": "no CI evaluation",
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 40136013877,
+   "status": "dispatched",
+   "time": "2026-10-24T21:50:57+00:00",
    "title": "gccmakedep: 1.0.4 -> 1.0.5"
   },
   "542575": {
@@ -572,10 +642,14 @@
    "title": "primesieve: 12.14 -> 12.16"
   },
   "543211": {
+   "darwin": false,
    "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40001580113,
-   "reason": "no CI evaluation",
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 40136129049,
+   "status": "dispatched",
+   "time": "2026-10-24T21:52:31+00:00",
    "title": "cosmic-ext-tweaks: 0.2.2 -> 0.2.5"
   },
   "543374": {
@@ -605,11 +679,10 @@
    "title": "pkg: 2.7.5 -> 2.8.2"
   },
   "544023": {
-   "extra_args": "--eval local",
-   "previous_run_id": 39999683253,
-   "reason": "no CI evaluation",
-   "status": "requeue",
-   "title": "python3Packages.starlark: 0.5.0 -> 0.6.0"
+   "reason": "mergeability unknown",
+   "status": "retry",
+   "title": "python3Packages.starlark: 0.5.0 -> 0.6.0",
+   "tries": 6
   },
   "544025": {
    "extra_args": "--eval local",
@@ -632,10 +705,14 @@
    "title": "python3Packages.reptor: 0.34 -> 0.35"
   },
   "544730": {
+   "darwin": false,
    "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 39997145980,
-   "reason": "no CI evaluation",
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 40136496621,
+   "status": "dispatched",
+   "time": "2026-10-24T21:57:53+00:00",
    "title": "google-drive-ocamlfuse: 0.9.0 -> 0.9.1"
   },
   "544804": {
@@ -1151,11 +1228,14 @@
    "title": "miniupnpd: 2.3.10 -> 2.3.11"
   },
   "551946": {
-   "head": "a6c4a5d1496ec6c2ffc368fc4943a8fc011c60bd",
+   "darwin": false,
+   "on_success": "nothing",
    "previous_run_id": 39951758343,
-   "reason": "updated after the review",
-   "status": "requeue",
-   "title": "crosvm: 0-unstable-2026-08-03 -> 0-unstable-2026-10-12"
+   "requeued": true,
+   "run_id": 40136561175,
+   "status": "dispatched",
+   "time": "2026-10-24T21:58:51+00:00",
+   "title": "crosvm: 0-unstable-2026-08-03 -> 0-unstable-2026-10-24"
   },
   "551947": {
    "reason": "merge conflict",
@@ -1224,11 +1304,10 @@
    "title": "iay: 0.5.0 -> 0.5.1"
   },
   "552410": {
-   "head": "56fab84805d67ca7c351f642af0b1958489f3561",
-   "previous_run_id": 39949432173,
-   "reason": "updated after the review",
-   "status": "requeue",
-   "title": "python3Packages.govee-local-api: 2.4.0 -> 3.1.0"
+   "reason": "head changed, now non-trivial: pkgs/development/python-modules/govee-local-api/default.nix: buildPythonPackage rec { | tag = \"v${version}\"; | changelog = \"https://github.com/Galorha",
+   "status": "skipped",
+   "title": "python3Packages.govee-local-api: 2.4.0 -> 3.1.0",
+   "tries": 0
   },
   "552547": {
    "run_id": 39949056411,
@@ -1688,11 +1767,14 @@
    "title": "tomcat10: 10.1.57 -> 10.1.60"
   },
   "554880": {
-   "head": "f5b9384e46a0dda2c7c1f1cfa4f9fef1e60a1870",
+   "darwin": false,
+   "on_success": "nothing",
    "previous_run_id": 39920403385,
-   "reason": "updated after the review",
-   "status": "requeue",
-   "title": "kamailio: 6.1.3 -> 6.1.4"
+   "requeued": true,
+   "run_id": 40136674003,
+   "status": "dispatched",
+   "time": "2026-10-24T22:00:23+00:00",
+   "title": "kamailio: 6.1.3 -> 6.1.5"
   },
   "554916": {
    "head": "52d623e6f4d06a78eddbb5e01afdb2d3a257439a",
