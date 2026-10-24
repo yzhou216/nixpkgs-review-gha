@@ -1,5 +1,1160 @@
 [
  {
+  "number": 578504,
+  "title": "iosevka: 34.9.0 -> 34.9.1",
+  "headRefOid": "7b68d9317a00543a1bf6b36e9110781cea90dfee"
+ },
+ {
+  "number": 578495,
+  "title": "whisrs: 0.1.29 -> 0.1.30",
+  "headRefOid": "786c3d3fcc52d4905f0f1546849bba909009a516"
+ },
+ {
+  "number": 578493,
+  "title": "nss_latest: 3.131.1 -> 3.132",
+  "headRefOid": "806ae6af4159c4e7d03558ad683530510072de9a"
+ },
+ {
+  "number": 578492,
+  "title": "par-lang: 0-unstable-2026-10-12 -> 0-unstable-2026-10-19",
+  "headRefOid": "833233f464e6ed6aaa564233f210279be6adc109"
+ },
+ {
+  "number": 578485,
+  "title": "textcompare: 0.1.11 -> 0.1.12",
+  "headRefOid": "b3ef80c62332bd891ff2f3ab1737bd82cac2352b"
+ },
+ {
+  "number": 578482,
+  "title": "muffet: 2.11.6 -> 2.11.7",
+  "headRefOid": "bd0e369c7d6e0ad1ccfa58d90e861b285268c1da"
+ },
+ {
+  "number": 578480,
+  "title": "obs-studio-plugins.obs-shaderfilter: 2.6.0 -> 2.6.1",
+  "headRefOid": "b69db81bdc17f4a755a8c7ddf7cc7b53526b791d"
+ },
+ {
+  "number": 578479,
+  "title": "jetbrains-toolbox: 3.8.1.88030 -> 3.9.0.88839",
+  "headRefOid": "ca85775017a167b713b0e94315ed373126e4adb6"
+ },
+ {
+  "number": 578474,
+  "title": "python3Packages.whirlpool-sixth-sense: 2.1.0 -> 2.1.1",
+  "headRefOid": "e9600bba39ea90834af5df77d7af1f0c56243b4c"
+ },
+ {
+  "number": 578461,
+  "title": "spotatui: 0.45.0 -> 0.46.0",
+  "headRefOid": "3c647f9c7b250ed21cb7cf43c5eaea113dcd4169"
+ },
+ {
+  "number": 578458,
+  "title": "impactor: 2.7.1 -> 2.7.2",
+  "headRefOid": "659aec09ff8a46946997915eb169078bc35c70fc"
+ },
+ {
+  "number": 578450,
+  "title": "rime-moegirl: 20260911 -> 20261024",
+  "headRefOid": "1a06270587b29dcde7327a0e6643c11b7b633c2f"
+ },
+ {
+  "number": 578445,
+  "title": "python3Packages.elevenlabs: 2.71.0 -> 2.74.1",
+  "headRefOid": "6cbc4edfff3039c8beb755e3c7393e443f5bcfd4"
+ },
+ {
+  "number": 578440,
+  "title": "fatou: 0.23.0 -> 0.24.0",
+  "headRefOid": "5e0945d2ed5e4c7c563c9214f7e7f870e1315b6f"
+ },
+ {
+  "number": 578432,
+  "title": "tutanota-desktop: 361.261006.0 -> 362.261023.2",
+  "headRefOid": "c02e0978ad9adaec2fe5b7ddb7bbf1669401ec14"
+ },
+ {
+  "number": 578431,
+  "title": "ogre: 14.6.1 -> 14.6.2",
+  "headRefOid": "28d11d32d22c8fce9b4c3b885ba6e31d5b76be45"
+ },
+ {
+  "number": 578426,
+  "title": "yggdrasil: 0.5.14 -> 0.5.15",
+  "headRefOid": "f0abdd6d6175dc1d2b435340d28cd14d4f84873f"
+ },
+ {
+  "number": 578424,
+  "title": "deepseek-harness: 0.2.1-alpha.3 -> 0.2.1-rc.3",
+  "headRefOid": "196d30985269bdc0013ea6aab970abd9941389ac"
+ },
+ {
+  "number": 578421,
+  "title": "gowrap: 1.4.3 -> 1.5.0",
+  "headRefOid": "fd3a81857a96c59a8fb0bc8030ce0971474eed2a"
+ },
+ {
+  "number": 578417,
+  "title": "gh-dash: 4.26.1 -> 4.26.2",
+  "headRefOid": "10ec972db8c176e31c3260aec4587c66ff6a4b73"
+ },
+ {
+  "number": 578416,
+  "title": "defmt-print: 1.1.0 -> 1.2.0",
+  "headRefOid": "667776fadfbbf2f40280b520117457d2d84f6bec"
+ },
+ {
+  "number": 578411,
+  "title": "claude-agent-acp: 0.93.0 -> 0.95.0",
+  "headRefOid": "ebc1beca8d9153b8e84270045626b0968fe87268"
+ },
+ {
+  "number": 578410,
+  "title": "arity: 0.24.0 -> 0.26.0",
+  "headRefOid": "d7213357ae8ce62734aa7dad8e3a958264c25c81"
+ },
+ {
+  "number": 578409,
+  "title": "pyfa: 2.69.2 -> 2.69.3",
+  "headRefOid": "2ac8cb0700a2ef5b82d4788129265264037b62f9"
+ },
+ {
+  "number": 578402,
+  "title": "rtorrent: 0.16.22 -> 0.16.26",
+  "headRefOid": "5641740f506e6b9ab9422af4170de3f52b556365"
+ },
+ {
+  "number": 578399,
+  "title": "tuxbox: 3.6.0 -> 3.7.0",
+  "headRefOid": "fe9e7ee316dc0c90a6214667d71eeed3fb8ecc36"
+ },
+ {
+  "number": 578389,
+  "title": "rspamd: 4.2.2 -> 4.2.3",
+  "headRefOid": "43367327fc7100a7bd319a1bf4e7dffeb7626a29"
+ },
+ {
+  "number": 578387,
+  "title": "garage_2: 2.4.1 -> 2.5.0",
+  "headRefOid": "c2eef0e0ea8870e956484f1a64708f1c79debbea"
+ },
+ {
+  "number": 578378,
+  "title": "python3Packages.aiosomecomfort: 0.0.38 -> 0.0.39",
+  "headRefOid": "36c52a2d27cfc9946a1bd57226e93b102dd4d93e"
+ },
+ {
+  "number": 578377,
+  "title": "feedbackd: 0.8.9 -> 0.8.10",
+  "headRefOid": "a07423af45bfcd9d8eefb56c9b3f8877e20586d2"
+ },
+ {
+  "number": 578373,
+  "title": "warpgate: 0.29.2 -> 0.30.0",
+  "headRefOid": "bce419b489c24263b1797079eaebc361d008fdf4"
+ },
+ {
+  "number": 578372,
+  "title": "vscode-extensions.ionide.ionide-fsharp: 7.31.1 -> 8.0.1",
+  "headRefOid": "095ab44923a3e058c5c6a8c1c34a0319022f3e7a"
+ },
+ {
+  "number": 578367,
+  "title": "python3Packages.pydyf: 0.12.1 -> 0.13.0",
+  "headRefOid": "61c9d286ee9bffc12582f58de0a36b79464f9659"
+ },
+ {
+  "number": 578362,
+  "title": "vscode-extensions.julialang.language-julia: 1.249.2 -> 1.250.2",
+  "headRefOid": "47d842ce04e1bddd84fa64662e259798bc567e00"
+ },
+ {
+  "number": 578356,
+  "title": "python3Packages.fastbencode: 0.3.11 -> 0.3.12",
+  "headRefOid": "1f6b3f6e9c5c394cada51b55f00446a4c3167742"
+ },
+ {
+  "number": 578355,
+  "title": "vscode-extensions.databricks.databricks: 2.21.0 -> 2.22.0",
+  "headRefOid": "00fc82f0908c18a5e7985e074a44070b23cc1a5f"
+ },
+ {
+  "number": 578351,
+  "title": "chirpstack-mqtt-forwarder: 4.6.1 -> 4.7.0-test.2",
+  "headRefOid": "c116144b26a6f085b8a821406cb2c7d476c1b104"
+ },
+ {
+  "number": 578349,
+  "title": "python3Packages.trimesh: 5.1.1 -> 5.2.0",
+  "headRefOid": "9da98bef6ade8c8dc751bf7fc6fca679360e4585"
+ },
+ {
+  "number": 578345,
+  "title": "python3Packages.icalendar-searcher: 1.1.0 -> 1.3.0",
+  "headRefOid": "1c287e4f43e2762ac8b16dd8d7f112c9759092d4"
+ },
+ {
+  "number": 578339,
+  "title": "home-assistant-custom-components.ingress: 1.3.2 -> 1.4.0",
+  "headRefOid": "5a6713605b37e3c14bdde7eb7899287b8cceb1c7"
+ },
+ {
+  "number": 578338,
+  "title": "python3Packages.python-google-weather-api: 0.0.8 -> 0.0.9",
+  "headRefOid": "42c21a683d7304289854986fa5a7c5b39f2151d9"
+ },
+ {
+  "number": 578327,
+  "title": "python3Packages.pyisy: 3.7.0 -> 3.8.0",
+  "headRefOid": "f1999ae3dd815dd4fc3ae609274eb2921263aec0"
+ },
+ {
+  "number": 578324,
+  "title": "home-assistant-custom-components.llm_intents: 1.10.3 -> 1.11.1",
+  "headRefOid": "c95aabab268b0b52a225e7845c965ce30a807fef"
+ },
+ {
+  "number": 578321,
+  "title": "sccache: 0.18.0 -> 0.19.0",
+  "headRefOid": "b9bc58852faf48b2f65a82676c2d9be7e17066ab"
+ },
+ {
+  "number": 578319,
+  "title": "python3Packages.python-ndn: 0.5.0 -> 0.5.2",
+  "headRefOid": "c0ce19a9f9f426e6d20c0d0e0ecc54a59c44a278"
+ },
+ {
+  "number": 578318,
+  "title": "sqldef: 3.11.26 -> 3.11.27",
+  "headRefOid": "bc8d59964b3c4053a1414b957d4270062d7dabb3"
+ },
+ {
+  "number": 578317,
+  "title": "python3Packages.oca-port: 0.22 -> 0.24",
+  "headRefOid": "ee749b05a7d70c01a18accb3df4d4d3c2609c28f"
+ },
+ {
+  "number": 578314,
+  "title": "sherpa: 3.0.4 -> 3.0.5",
+  "headRefOid": "0c27c22a1135ed974b23f6c0751efaa99c6f25ca"
+ },
+ {
+  "number": 578309,
+  "title": "clink: 2024.12.07-unstable-2026-09-11 -> 2024.12.07-unstable-2026-10-18",
+  "headRefOid": "48da605cc16d01226c6529147df55d22c1e7abff"
+ },
+ {
+  "number": 578303,
+  "title": "soundcraft: 0.6.1 -> 0.12.1",
+  "headRefOid": "3b7321621e65c2c5146a74dc66c27f677849bb21"
+ },
+ {
+  "number": 578302,
+  "title": "python3Packages.copykitten: 2.0.0 -> 2.1.0",
+  "headRefOid": "5e3a415f1e9ef4e07712476feda0f9299cde2d68"
+ },
+ {
+  "number": 578295,
+  "title": "vscode-extensions.danielsanmedium.dscodegpt: 3.24.77 -> 3.24.79",
+  "headRefOid": "34c379996190fc2de644eb6e35138eea9714efea"
+ },
+ {
+  "number": 578294,
+  "title": "gokrazy: 0-unstable-2026-09-13 -> 0-unstable-2026-10-20",
+  "headRefOid": "3159e309af75337ef453dc23b8a814dac441f372"
+ },
+ {
+  "number": 578282,
+  "title": "tree-sitter-grammars.tree-sitter-markdown: 0.5.3 -> 0.5.4",
+  "headRefOid": "e978ff3ca30cddfce035e58ae749f1c265d39047"
+ },
+ {
+  "number": 578281,
+  "title": "tree-sitter-grammars.tree-sitter-markdown-inline: 0.5.3 -> 0.5.4",
+  "headRefOid": "56aed46fdaf510aa047da031e408804dedf239dd"
+ },
+ {
+  "number": 578280,
+  "title": "tock: 2.0.4 -> 2.0.8",
+  "headRefOid": "16a2373563fb83bf9732a40b5ddcf31302d7dbb7"
+ },
+ {
+  "number": 578257,
+  "title": "onedrive: 2.5.11 -> 2.5.12",
+  "headRefOid": "cd1669afda570105cb69f06d2a6b5b91a1582080"
+ },
+ {
+  "number": 578226,
+  "title": "bazel-remote: 2.6.3 -> 2.6.4",
+  "headRefOid": "de99eb84d82db99d1c8859731752197be089beec"
+ },
+ {
+  "number": 578224,
+  "title": "python3Packages.allure-python-commons-test: 2.16.0 -> 2.16.2",
+  "headRefOid": "24028b8fc620b0b24becbcc001fb94a51ae17e0b"
+ },
+ {
+  "number": 578220,
+  "title": "vermin: 1.8.0 -> 1.9.2",
+  "headRefOid": "8aacaad0740545770672c95d33df09bc1fe87b36"
+ },
+ {
+  "number": 578219,
+  "title": "libcpr: 1.15.0 -> 1.15.1",
+  "headRefOid": "bcdc26f4e31f45cc4d5ae96c7d5509e52b087990"
+ },
+ {
+  "number": 578203,
+  "title": "phpPackages.grumphp: 2.25.0 -> 2.26.0",
+  "headRefOid": "714f1c4229b3b2ec7b13c150cb71427ef3e55ec9"
+ },
+ {
+  "number": 578199,
+  "title": "gale: 1.23.1 -> 1.23.2",
+  "headRefOid": "3578ef260b79ef4b2af256f1aeb8a4b116752d82"
+ },
+ {
+  "number": 578196,
+  "title": "python3Packages.kaldi-native-fbank: 1.22.3 -> 1.22.4",
+  "headRefOid": "7213195c21766f272c3863e8b61c9245c07ec6bf"
+ },
+ {
+  "number": 578194,
+  "title": "python3Packages.gekko: 1.3.2 -> 1.3.3",
+  "headRefOid": "bcb4cf476bc818dc84cc59c84043e67e38c8bb76"
+ },
+ {
+  "number": 578191,
+  "title": "thunderbird-153-unwrapped: 153.4.0esr -> 153.5.1esr",
+  "headRefOid": "b8bdce9437240681d066602ea2e7159cc6a8b9c0"
+ },
+ {
+  "number": 578190,
+  "title": "python3Packages.odfdo: 3.27.1 -> 3.27.2",
+  "headRefOid": "e615780b7646089826df3daa687bc0bbcde57aae"
+ },
+ {
+  "number": 578184,
+  "title": "lstk: 1.4.1 -> 1.4.2",
+  "headRefOid": "7227f4df067754ac6f424ad321af61d1072c55e7"
+ },
+ {
+  "number": 578180,
+  "title": "python3Packages.recipe-scrapers: 15.12.0 -> 15.13.0",
+  "headRefOid": "8702a6b7e74619ce97e7ee339fc3b8fa39e845f5"
+ },
+ {
+  "number": 578175,
+  "title": "python3Packages.pyinstaller-hooks-contrib: 2026.8 -> 2026.9",
+  "headRefOid": "bb912e6c86d2f9529da282ec30b5b6018d7c81e6"
+ },
+ {
+  "number": 578150,
+  "title": "python3Packages.kneed: 0.8.6 -> 0.9.0",
+  "headRefOid": "e5c86847fb9191d98e0ec8fb076f10eb5d753253"
+ },
+ {
+  "number": 578145,
+  "title": "home-assistant-custom-components.tuya_local: 2026.9.2-rel -> 2026.10.0",
+  "headRefOid": "a55b2426689bd40599d20b71526b93621738cb51"
+ },
+ {
+  "number": 578144,
+  "title": "updatecli: 0.122.1 -> 0.123.0",
+  "headRefOid": "19d1fd4e2071e839399e19029e69f343468bc9f8"
+ },
+ {
+  "number": 578143,
+  "title": "vscode-extensions.usernamehw.errorlens: 3.29.0 -> 3.30.0",
+  "headRefOid": "954bc1d3addc3ea7302ab58a228c983f46f8e612"
+ },
+ {
+  "number": 578137,
+  "title": "python3Packages.yara-x: 1.21.0 -> 1.22.0",
+  "headRefOid": "d448c88c8378da6fce08f97117adfa06d54151de"
+ },
+ {
+  "number": 578135,
+  "title": "oapi-codegen: 2.8.0 -> 2.8.1",
+  "headRefOid": "e046fc8571db42e70aa1d9bfc958e07498632beb"
+ },
+ {
+  "number": 578134,
+  "title": "libtransmission_4: 4.1.3 -> 4.1.4",
+  "headRefOid": "e10cbb779c275a1472817f68453effcec0ed329b"
+ },
+ {
+  "number": 578130,
+  "title": "teams-for-linux: 2.25.0 -> 2.27.0",
+  "headRefOid": "3ba58e8c45f0deff3825439249e394981162c9fb"
+ },
+ {
+  "number": 578119,
+  "title": "vtm: 2026.10.05 -> 2026.10.12",
+  "headRefOid": "d2c28ef5b13f791188cd859821122a6c5be85d6a"
+ },
+ {
+  "number": 578118,
+  "title": "fairywren: 0-unstable-2026-09-28 -> 0-unstable-2026-10-24",
+  "headRefOid": "a9cf13427fc7df8ccd74983ecc42818212976f52"
+ },
+ {
+  "number": 578115,
+  "title": "wasm-tools: 1.261.0 -> 1.262.0",
+  "headRefOid": "f8e99fed1257e145ab3a0143038ff039fbd6ed25"
+ },
+ {
+  "number": 578114,
+  "title": "wait4x: 3.7.2 -> 3.7.3",
+  "headRefOid": "963fbccfac6564dcfe82ea8afd50c764563cb57f"
+ },
+ {
+  "number": 578107,
+  "title": "renovate: 44.151.2 -> 44.181.0",
+  "headRefOid": "ae9ea63b06002f8a941ec67b0dc7010de6018663"
+ },
+ {
+  "number": 578104,
+  "title": "aws-lc: 5.11.0 -> 5.12.0",
+  "headRefOid": "bf7dc4cb03435bb6cd43a4bfbbd590e9c5373df3"
+ },
+ {
+  "number": 578102,
+  "title": "coroot-node-agent: 1.36.1 -> 1.37.0",
+  "headRefOid": "f760e193d262b7e6ef32ffbe53edc61f4a7651fe"
+ },
+ {
+  "number": 578098,
+  "title": "go-dnscollector: 3.2.0 -> 3.2.2",
+  "headRefOid": "fbea54019a45aa4984914f77f7ef92951289a05b"
+ },
+ {
+  "number": 578079,
+  "title": "piped: 0-unstable-2026-09-11 -> 0-unstable-2026-10-17",
+  "headRefOid": "fc047b846eeb41b372741563425e042c2e79898a"
+ },
+ {
+  "number": 578070,
+  "title": "python3Packages.pyhive-integration: 1.0.9 -> 1.0.10",
+  "headRefOid": "dbc2894c1dfd83c7b5365ea4fa04ad0ac2273a20"
+ },
+ {
+  "number": 578066,
+  "title": "cargo-dist: 0.33.0 -> 0.33.1",
+  "headRefOid": "68c0b44931abde96497e551fb15026658542e905"
+ },
+ {
+  "number": 578064,
+  "title": "containerd: 2.4.1 -> 2.4.2",
+  "headRefOid": "336f6fa9d9411a848cf3c21adab2ebeaa690d3a5"
+ },
+ {
+  "number": 578063,
+  "title": "vscode-extensions.banacorn.agda-mode: 0.10.5 -> 0.10.9",
+  "headRefOid": "10e2c64de7288fcc5de94841305575c4620bde03"
+ },
+ {
+  "number": 578060,
+  "title": "bookstack: 26.09.1 -> 26.09.2",
+  "headRefOid": "99c47fc25618e79765c6184a66af28546961401f"
+ },
+ {
+  "number": 578059,
+  "title": "python3Packages.cuda-pathfinder: 1.8.3 -> 1.8.4",
+  "headRefOid": "123c568d1a867592d8d09cde8c5f2dcccf4cff6f"
+ },
+ {
+  "number": 578045,
+  "title": "fsrx: 1.0.2 -> 1.0.3",
+  "headRefOid": "fa1723f7f16ef17c3f5b90bca9eda500b715ac7a"
+ },
+ {
+  "number": 578030,
+  "title": "libargs: 6.6.0 -> 6.6.1",
+  "headRefOid": "bace3788fe43af8488d100c19b8a140b93470d64"
+ },
+ {
+  "number": 578020,
+  "title": "python3Packages.apache-tvm-ffi: 0.1.14-post1 -> 0.1.15-post0",
+  "headRefOid": "19dbc7dfc98a0019c80143c335ea634c3f69f0c0"
+ },
+ {
+  "number": 578010,
+  "title": "cubeb: 0-unstable-2026-09-16 -> 0-unstable-2026-10-22",
+  "headRefOid": "52335c3020de81688c757d983500b64a1123d850"
+ },
+ {
+  "number": 578002,
+  "title": "nu_scripts: 0-unstable-2026-10-02 -> 0-unstable-2026-10-23",
+  "headRefOid": "85cff5d0d74d768c5e37536656eec662bcd2bb7a"
+ },
+ {
+  "number": 577999,
+  "title": "tinycbor: 7.0 -> 7.1",
+  "headRefOid": "c44cf393d2343ee0d00cede448151e7fb40fa798"
+ },
+ {
+  "number": 577978,
+  "title": "fokus: 3.1.3 -> 3.2.0",
+  "headRefOid": "0e651b4f565e7bc30a9cfb852d3062e15815311a"
+ },
+ {
+  "number": 577907,
+  "title": "fmi-reference-fmus: 0.0.41 -> 0.0.42",
+  "headRefOid": "00ce8acabb92d0b80be57902e38a49e5c59a5412"
+ },
+ {
+  "number": 577878,
+  "title": "ocamlPackages.alcobar: 0.3.2 -> 0.4.0",
+  "headRefOid": "57513a11ea247d9b075c4bc25d970a0aa4ed3098"
+ },
+ {
+  "number": 577872,
+  "title": "xandikos: 0.4.9 -> 0.4.10",
+  "headRefOid": "22e2063af38160d8ec1e01db098ddbdb84b81bce"
+ },
+ {
+  "number": 577868,
+  "title": "time-decode: 10.4.2 -> 11.0.0",
+  "headRefOid": "d656366088551e506ac244b39a3d8eb4456ce45b"
+ },
+ {
+  "number": 577867,
+  "title": "stylelint: 17.14.1 -> 18.0.0-next.0",
+  "headRefOid": "5bac0ad79542b4c50e18ec531c7f6eb68d74c328"
+ },
+ {
+  "number": 577838,
+  "title": "python3Packages.python3-xcaplib: 2.0.2-unstable-2026-07-09 -> 2.0.3b-unstable-2026-10-18",
+  "headRefOid": "85db34572631a09b92b149052f1ea9fd4aa8a6fc"
+ },
+ {
+  "number": 577837,
+  "title": "openvfs: 0.1.0-unstable-2026-09-09 -> 0-unstable-2026-10-21",
+  "headRefOid": "e28c33c7f7e3182f4c8722b623eaf11940096d55"
+ },
+ {
+  "number": 577822,
+  "title": "drawio: 32.4.1 -> 32.5.5",
+  "headRefOid": "2b52d5a3cb1a12fef995a282fd5b2a42c83af0b5"
+ },
+ {
+  "number": 577813,
+  "title": "libretro.dolphin: 0-unstable-2026-10-11 -> 0-unstable-2026-10-23",
+  "headRefOid": "043413c8217b236d6ce1b55f7e60f1b51d4b1905"
+ },
+ {
+  "number": 577774,
+  "title": "python3Packages.persim: 0.3.8 -> 0.4.1",
+  "headRefOid": "905501b5ec2deeaa092e0da1d068cad331ba4026"
+ },
+ {
+  "number": 577771,
+  "title": "protonup-qt: 2.15.1 -> 2.16.0",
+  "headRefOid": "99ab0bdecac7597aec00ad381c56b3ea1f308396"
+ },
+ {
+  "number": 577761,
+  "title": "roswell: 26.10.117 -> 26.10.118",
+  "headRefOid": "9b18c495647447e5775ad01ccaed9c3d97e1dbd4"
+ },
+ {
+  "number": 577749,
+  "title": "skalibs: 2.15.1.0 -> 2.16.0.0",
+  "headRefOid": "22e66b53aaea6c0402b88e49c003b476be8601df"
+ },
+ {
+  "number": 577744,
+  "title": "python3Packages.pyx: 0.17 -> 0.18",
+  "headRefOid": "7b87465fa1d6f27468a07087877475d21e97b605"
+ },
+ {
+  "number": 577735,
+  "title": "davis: 5.5.0 -> 5.5.1",
+  "headRefOid": "ff4f850d027910254dd37d54c00b6db5e82edec8"
+ },
+ {
+  "number": 577733,
+  "title": "vscode-extensions.betterthantomorrow.calva: 2.0.599 -> 2.0.601",
+  "headRefOid": "e11a2afd46c58663917676b826e33657dec3e43c"
+ },
+ {
+  "number": 577711,
+  "title": "dart-sass: 1.105.1 -> 1.106.1",
+  "headRefOid": "790cedf68ce82c9e917baa4c23117fb9cacd3dbb"
+ },
+ {
+  "number": 577700,
+  "title": "python3Packages.azure-storage-queue: 12.17.0 -> 12.18.0",
+  "headRefOid": "d7649223ab747627a5299383b161d65085c0a3b2"
+ },
+ {
+  "number": 577698,
+  "title": "spacenavd: 1.3.1 -> 1.4",
+  "headRefOid": "625b8ba710215ca327e4ba8909bdb8fd04462b3e"
+ },
+ {
+  "number": 577665,
+  "title": "grav_2: 2.2.6 -> 2.2.11",
+  "headRefOid": "7899395cae13c83790406d371e563a8677db70ab"
+ },
+ {
+  "number": 577663,
+  "title": "dislocker: 0.7.3-unstable-2026-08-31 -> 0.7.4-unstable-2026-10-21",
+  "headRefOid": "3fefe3531e1bc9f5ac6730c3262c1c7f2c0cf540"
+ },
+ {
+  "number": 577642,
+  "title": "firecrawl-cli: 1.26.3 -> 1.26.22",
+  "headRefOid": "67aeef8304096d1aa2ca6db59ab505603c59d58a"
+ },
+ {
+  "number": 577633,
+  "title": "babashka-unwrapped: 1.13.225 -> 1.13.226",
+  "headRefOid": "8dcdfd7cbde4ac6f2525514fa30579a9d5443d90"
+ },
+ {
+  "number": 577630,
+  "title": "python3Packages.pywfa: 0.5.1 -> 0.6.0",
+  "headRefOid": "7a3153f222611daf68a8335033b471190c928359"
+ },
+ {
+  "number": 577625,
+  "title": "python3Packages.satel-integra: 1.5.0 -> 1.6.0",
+  "headRefOid": "484d364f99bae950c4d93dacf82d38fea0e835c7"
+ },
+ {
+  "number": 577620,
+  "title": "kde-rounded-corners: 0.10.0 -> 0.11.0",
+  "headRefOid": "0ff856adba9e36a426a8fd5cd191d8742011fb0e"
+ },
+ {
+  "number": 577618,
+  "title": "python3Packages.libipld: 3.4.1 -> 3.5.0",
+  "headRefOid": "1e99b2c5b0f67f4493c76ae26b7f45ce73c6d135"
+ },
+ {
+  "number": 577615,
+  "title": "python3Packages.google-cloud-dataproc: 5.31.0 -> 5.32.0",
+  "headRefOid": "899beac51c7b710d042b2b340968ebcf088645d3"
+ },
+ {
+  "number": 577613,
+  "title": "etcd_3_7: 3.7.2 -> 3.7.3",
+  "headRefOid": "2b138d5075649f2928af11fd63d07a765bef8ebc"
+ },
+ {
+  "number": 577601,
+  "title": "python3Packages.levenshtein: 0.27.4 -> 0.27.5",
+  "headRefOid": "ebaa18e04722d7afbb942e627af5cc1df7866ff8"
+ },
+ {
+  "number": 577597,
+  "title": "utpm: 0.3.0 -> 0.4.1",
+  "headRefOid": "a3e32eff88a83b965de27f576e2578dc8a65007a"
+ },
+ {
+  "number": 577592,
+  "title": "commons-fileupload: 1.5 -> 1.6.0",
+  "headRefOid": "5f7af394fd285cd24f9e570adfce2365e8d395c0"
+ },
+ {
+  "number": 577568,
+  "title": "devin-desktop: 3.10.48 -> 3.10.67",
+  "headRefOid": "d93104c9bb1f58f6e02564d0a3a8fd8a6c8005d0"
+ },
+ {
+  "number": 577558,
+  "title": "grafana-loki: 3.7.8 -> 3.7.9",
+  "headRefOid": "028a924adc87353cf8b046be8bf7b9748e7d3704"
+ },
+ {
+  "number": 577539,
+  "title": "python3Packages.django-mfa3: 1.1.1 -> 1.1.2",
+  "headRefOid": "b459019f6d9a103a1c45c680b224eaf97070674b"
+ },
+ {
+  "number": 577537,
+  "title": "python3Packages.python-didl-lite: 1.5.1 -> 1.5.2",
+  "headRefOid": "4bd7844bdc3ac0b56ddbc33e22ee619d0e3de7f4"
+ },
+ {
+  "number": 577531,
+  "title": "seadrive-fuse: 3.0.26 -> 3.0.27",
+  "headRefOid": "54d5a86e7ff43a4f5ffb7bd86a771c0eb2cc37b2"
+ },
+ {
+  "number": 577527,
+  "title": "seadrive-gui: 3.0.26 -> 3.0.27",
+  "headRefOid": "d01248ad6fdfc8962f048d8c0e7191ec683b365e"
+ },
+ {
+  "number": 577512,
+  "title": "apptainer-overriden-nixos: 1.5.4 -> 1.5.5",
+  "headRefOid": "289ae7d67427253f8453cf06ead8ebf7c9bad90a"
+ },
+ {
+  "number": 577495,
+  "title": "ecs-agent: 1.108.0 -> 1.108.1",
+  "headRefOid": "cf77a9cebf20503a1780cd7773c149d864630362"
+ },
+ {
+  "number": 577491,
+  "title": "apkid: 3.1.0 -> 3.2.0",
+  "headRefOid": "38376d5d55d8cb027a049d06d4260d1911cd6617"
+ },
+ {
+  "number": 577487,
+  "title": "gitkraken: 12.6.0 -> 12.6.1",
+  "headRefOid": "d66eba1c4de32efdfc2d6554504c0ece37fcd3cb"
+ },
+ {
+  "number": 577467,
+  "title": "wails: 2.16.0 -> 2.17.0",
+  "headRefOid": "2599ecf734c00d97cd8bd3715a59874f5a63b7ad"
+ },
+ {
+  "number": 577452,
+  "title": "principia: 2026.09.19 -> 2026.10.22",
+  "headRefOid": "a58ab364c55ef401b0ac93875d2a82ada7218ab4"
+ },
+ {
+  "number": 577433,
+  "title": "libguestfs-appliance: 1.56.0 -> 1.58.1",
+  "headRefOid": "4de8661a35c187b0ab3499ecc69cd483da263c37"
+ },
+ {
+  "number": 577427,
+  "title": "aws-vault: 7.16.2 -> 7.17.1",
+  "headRefOid": "ce1505be6e461374295dc6ad47a9255cf4740331"
+ },
+ {
+  "number": 577405,
+  "title": "juicefs: 1.4.1 -> 1.4.2",
+  "headRefOid": "455a49c4a8d60f2341805d1b5456cec254513593"
+ },
+ {
+  "number": 577402,
+  "title": "lifecycled: 3.6.0 -> 3.7.0",
+  "headRefOid": "3f5477e6fa6f8443dfcf6b32df3fb5af0c0b257f"
+ },
+ {
+  "number": 577399,
+  "title": "knowsmore: 0.1.51 -> 0.1.52",
+  "headRefOid": "3591546b61a0763802d831576f9ccb3beef99d07"
+ },
+ {
+  "number": 577396,
+  "title": "typesetter: 0.16.1 -> 0.16.5",
+  "headRefOid": "b8e3ebfaba0b3a43bd72c5bfc233589c6f2be9e4"
+ },
+ {
+  "number": 577345,
+  "title": "hax11: 0-unstable-2025-04-29 -> 0-unstable-2026-10-11",
+  "headRefOid": "55089e6feae365bd9afbc6f5c6e256d44dc53ae5"
+ },
+ {
+  "number": 577332,
+  "title": "python3Packages.pytest-check: 2.9.1 -> 3.0.3",
+  "headRefOid": "8657b53ecb69c45c85f6cb2410976cfc21b9ae61"
+ },
+ {
+  "number": 577278,
+  "title": "yaml-language-server: 1.25.0 -> 2.0.0",
+  "headRefOid": "312a807ebf37969d2b53c3201c181f37f7408908"
+ },
+ {
+  "number": 577271,
+  "title": "ankiAddons.anki-connect: 25.11.9.0 -> 26.10.14.0",
+  "headRefOid": "85607826520fa5522d007982dca7bc9c7116952b"
+ },
+ {
+  "number": 577258,
+  "title": "python3Packages.apycula: 0.34 -> 0.35",
+  "headRefOid": "2ed65ab43df7f200b25ed5eafb42b86e211c1c88"
+ },
+ {
+  "number": 577254,
+  "title": "signaturepdf: 1.9.2 -> 1.11.0",
+  "headRefOid": "8974d22639cc8392a38674f6c01898d841af4cfb"
+ },
+ {
+  "number": 577253,
+  "title": "ansible-navigator: 26.9.0 -> 26.10.0",
+  "headRefOid": "37ef38e73985d8280f1b097d6509de01bca86267"
+ },
+ {
+  "number": 577238,
+  "title": "ocamlPackages.grenier: 0.16 -> 0.17",
+  "headRefOid": "8e20b4d8ef74d798f4fe9e7d9b032cc80f502dbb"
+ },
+ {
+  "number": 577236,
+  "title": "atmos: 1.231.0 -> 1.233.0",
+  "headRefOid": "b5a68ffcae9425c4cd4d6f5012fdbbe9483ccddc"
+ },
+ {
+  "number": 577235,
+  "title": "cato-client: 5.7.0.5525 -> 5.8.1.7658",
+  "headRefOid": "f2489b25fc16f8f5abd6fa827b70be05ea472260"
+ },
+ {
+  "number": 577217,
+  "title": "cedar: 4.13.0 -> 4.14.0",
+  "headRefOid": "a073c085441fbe2d8c8df997119f4f95a1b68452"
+ },
+ {
+  "number": 577190,
+  "title": "python3Packages.pytimeparse: 1.1.9 -> 1.1.10",
+  "headRefOid": "08c42b0584648125a3005c7090382716dd5b2bc2"
+ },
+ {
+  "number": 577164,
+  "title": "libxisf: 0.2.13 -> 0.2.14",
+  "headRefOid": "ccfdccdd202c2e73d581585f4ea5c3bea0aef76a"
+ },
+ {
+  "number": 577159,
+  "title": "iir1: 1.10.0 -> 1.11.0",
+  "headRefOid": "8277dda6c395f7464c2c5edcb1e013953bcb41a0"
+ },
+ {
+  "number": 577105,
+  "title": "python3Packages.conjure-python-client: 3.3.0 -> 3.4.0",
+  "headRefOid": "7ae85cb590fdca0ae8b092cb787a7d0c0dfb5e57"
+ },
+ {
+  "number": 577000,
+  "title": "draco: 1.5.7 -> 1.5.9",
+  "headRefOid": "9877409f4eab19d044ee02bd5b6b4d6fca3fb09d"
+ },
+ {
+  "number": 576990,
+  "title": "mendingwall: 0.3.9 -> 0.3.10",
+  "headRefOid": "bf14981c4d8ed2326f7861a50ab5b9d188d0aefc"
+ },
+ {
+  "number": 576977,
+  "title": "leaf-markdown-viewer: 1.28.3 -> 1.29.1",
+  "headRefOid": "a20e7617cbf54382cfa83d26abfcacad5de33f3c"
+ },
+ {
+  "number": 576954,
+  "title": "unixodbcDrivers.duckdb: 1.5.6.0 -> 2.0.0.0",
+  "headRefOid": "f7d4414f51ec22dae2a207cb6f33574ff857e749"
+ },
+ {
+  "number": 576920,
+  "title": "python3Packages.indexed-zstd: 1.7.1 -> 1.7.2",
+  "headRefOid": "35221b36753381af97b90cccbc58389c6582799b"
+ },
+ {
+  "number": 576884,
+  "title": "transcribe: 9.70.1 -> 9.70.3",
+  "headRefOid": "a862f2e54728262ec093cc3ab74f4d9c55612cf3"
+ },
+ {
+  "number": 576846,
+  "title": "snowflake: 2.15.1 -> 2.15.2",
+  "headRefOid": "7c43c1ac193dcc32faa15759ef29b0fdc1d2f00a"
+ },
+ {
+  "number": 576834,
+  "title": "i2p: 2.13.0 -> 2.14.0",
+  "headRefOid": "8c0fd722d3f4ed8e1c75749e26805152ed4b41db"
+ },
+ {
+  "number": 576832,
+  "title": "python3Packages.cloudcheck: 11.1.0 -> 11.2.0",
+  "headRefOid": "3254b436137796a8ccaaeada8e415c3f703def37"
+ },
+ {
+  "number": 576830,
+  "title": "zbus-xmlgen: 5.4.1 -> 6.0.0",
+  "headRefOid": "770bac89e52f59ca35d9b017291ef01d8c3ae24d"
+ },
+ {
+  "number": 576826,
+  "title": "unihan-database: 17.0.0 -> 18.0.0",
+  "headRefOid": "9fb90ad7c3d1084853992de9f804b3a7e7cb6327"
+ },
+ {
+  "number": 576822,
+  "title": "geonkick: 3.7.0 -> 3.9.0",
+  "headRefOid": "36b7fccab61a18cd530abf7dce18d84c1be9c4d8"
+ },
+ {
+  "number": 576799,
+  "title": "python3Packages.getjump: 2.10.2 -> 3.0.2",
+  "headRefOid": "dc2fba14eb356cfcf5782391f121cf41d8f71c57"
+ },
+ {
+  "number": 576751,
+  "title": "solvespace: 3.2 -> 3.3",
+  "headRefOid": "cdfdf5ed987a6e047175a16b594338ad3009c930"
+ },
+ {
+  "number": 576726,
+  "title": "python3Packages.langgraph-checkpoint: 4.2.0 -> 4.3.0",
+  "headRefOid": "53cb1febbf129d5d36d4d41f7fd964cab5e43a4f"
+ },
+ {
+  "number": 576648,
+  "title": "vscode-extensions.sumneko.lua: 3.19.1 -> 3.19.2",
+  "headRefOid": "89036e4cbdd53ebbe12ceb85f6a27505a25a3644"
+ },
+ {
+  "number": 576646,
+  "title": "langgraph-cli: 0.4.35 -> 0.4.37",
+  "headRefOid": "77c7210a7092d0629a4f370fa5707954ca2d7ff9"
+ },
+ {
+  "number": 576639,
+  "title": "azure-storage-azcopy: 10.32.8 -> 10.34.0",
+  "headRefOid": "8babb3e5ce67b5a233f6303914c46d4caf9c0e66"
+ },
+ {
+  "number": 576622,
+  "title": "home-assistant-custom-lovelace-modules.auto-entities: 2.8.2 -> 2.8.3",
+  "headRefOid": "6274e0b7e4425d2f36ef5f00fd5b7d3e9a6eacb1"
+ },
+ {
+  "number": 576620,
+  "title": "headsetcontrol: 4.1.0 -> 4.2.0",
+  "headRefOid": "afba46c8a9f64ccb61005e63f47741bff060e637"
+ },
+ {
+  "number": 576619,
+  "title": "cloud-nuke: 0.52.0 -> 0.53.0",
+  "headRefOid": "4c0315b258857fc59601baaf1b9676393ce383f3"
+ },
+ {
+  "number": 576617,
+  "title": "batik: 1.19 -> 1.20",
+  "headRefOid": "544264bbe950e7757b508b5214a68a1f257dce5c"
+ },
+ {
+  "number": 576614,
+  "title": "i2pd: 2.61.0 -> 3.0.0",
+  "headRefOid": "3b833f88cc61dd5a95370a564cd7e8e0abf1d35a"
+ },
+ {
+  "number": 576611,
+  "title": "nextcloud-notify_push: 1.4.1 -> 1.4.2",
+  "headRefOid": "24fe9b98ea58af69354e6e5d98521c7b9a5e72e4"
+ },
+ {
+  "number": 576608,
+  "title": "wtype: 0.4 -> 0.5",
+  "headRefOid": "d4ee2ec789d6514f806daac9b9a89aafbd37ab7c"
+ },
+ {
+  "number": 576603,
+  "title": "plakar: 1.1.7 -> 1.1.8",
+  "headRefOid": "550632ef3c1ae298536fd078691222ec76d19ad7"
+ },
+ {
+  "number": 576554,
+  "title": "rs-reticulum: 1.2.0 -> 1.3.0",
+  "headRefOid": "22c4cd6114eda2202fde43834452bcc57cc09a81"
+ },
+ {
+  "number": 576549,
+  "title": "python3Packages.stackit-iaas: 1.6.0 -> 1.7.0",
+  "headRefOid": "8bab51cba2768bf7159828622dd1e734dab6ff47"
+ },
+ {
+  "number": 576530,
+  "title": "dtop: 0.9.4 -> 0.10.4",
+  "headRefOid": "5b1a9f626ad9145f7dcea7848560b93e5fdfbb0a"
+ },
+ {
+  "number": 576462,
+  "title": "python3Packages.ingredient-parser-nlp: 2.8.0 -> 2.9.1",
+  "headRefOid": "2de28e62253067756129cdf052eed280cf58394d"
+ },
+ {
+  "number": 576439,
+  "title": "gcfflasher: 4.12.1 -> 4.12.2",
+  "headRefOid": "84e1cc6969d4f3240d520209e51c08b604eba67f"
+ },
+ {
+  "number": 576436,
+  "title": "buildkite-agent: 4.3.0 -> 4.6.0",
+  "headRefOid": "62b804865e16fc774ff2c9d1c783df764732f344"
+ },
+ {
+  "number": 576389,
+  "title": "uftp: 5.0.3 -> 5.0.4",
+  "headRefOid": "73cb1b07a2c1c1872f16bc5798ed17cd94b92728"
+ },
+ {
+  "number": 576366,
+  "title": "rapids-cmake: 26.08.00 -> 26.10.00",
+  "headRefOid": "9dbb842c127915de7d66cb1b3584564403c6a890"
+ },
+ {
+  "number": 576354,
+  "title": "python3Packages.cxxheaderparser: 1.9.2 -> 2.2.0",
+  "headRefOid": "4eaa7673441e77d2cced66c68918f7c79be0af93"
+ },
+ {
+  "number": 576332,
+  "title": "python3Packages.citeproc-py: 0.11.0 -> 0.11.1",
+  "headRefOid": "50d3f970b34613f3d806c3539b68c60aad321a76"
+ },
+ {
+  "number": 576330,
+  "title": "chawan: 0.4.4 -> 0.5.0",
+  "headRefOid": "b99c2f33a3bf2f11f4b6ef724663d32f73b9d2c5"
+ },
+ {
+  "number": 576325,
+  "title": "python3Packages.python-calamine: 0.8.3 -> 0.9.0",
+  "headRefOid": "3f77d528365c0da888af3dc5027d2e09b1eeec1b"
+ },
+ {
+  "number": 576310,
+  "title": "deploy-rs: 0-unstable-2026-10-07 -> 1.0.0-unstable-2026-10-19",
+  "headRefOid": "b0fc8fdf9381066a580f2405926ffe9445d78163"
+ },
+ {
+  "number": 576308,
+  "title": "python3Packages.python-xz: 0.6.0 -> 0.7.0",
+  "headRefOid": "9d14cd5e763696f10135f12bc1979808e9761cb4"
+ },
+ {
+  "number": 576288,
+  "title": "plasticity: 26.1.4 -> 26.2.0",
+  "headRefOid": "3552c0612feda92b7a58f18b36140843b53c7b18"
+ },
+ {
+  "number": 576279,
+  "title": "python3Packages.signxml: 5.1.0 -> 5.2.0",
+  "headRefOid": "c9f0b0ad7acc167232aea182c1900bccb28b25d1"
+ },
+ {
+  "number": 576278,
+  "title": "bitwarden-desktop: 2026.9.1 -> 2026.10.0",
+  "headRefOid": "af60357e7a1885c2e19d9394972021851f499b0d"
+ },
+ {
+  "number": 576267,
+  "title": "ketch: 0.18.1 -> 0.20.0",
+  "headRefOid": "99a0fd0daced634cfc94317afd6850d5578d2a8b"
+ },
+ {
+  "number": 576250,
+  "title": "matrix-synapse-plugins.matrix-synapse-mjolnir-antispam: 1.12.1 -> 2.0.1",
+  "headRefOid": "9ac7f918bac40b951ea197071990d6ad100c8189"
+ },
+ {
+  "number": 576244,
+  "title": "python3Packages.patiencediff: 0.2.19 -> 1.0.1",
+  "headRefOid": "8bf0e09cee2b9a4f57236a59eb0580074e85381c"
+ },
+ {
+  "number": 576240,
+  "title": "python3Packages.marshmallow-sqlalchemy: 1.5.0 -> 1.6.0",
+  "headRefOid": "b5f35f1e30f0936893677d511ea40a06474395b2"
+ },
+ {
+  "number": 576204,
+  "title": "python3Packages.wcmatch: 10.2.1 -> 11.1",
+  "headRefOid": "596371f3a60034c884ae0c69c780fc753b3d2d39"
+ },
+ {
+  "number": 576171,
+  "title": "python3Packages.django-mptt: 0.18 -> 0.19.1",
+  "headRefOid": "b66fc4cc12d5ee8c250cf2c4bd5fc8aa3f8d72e7"
+ },
+ {
+  "number": 576169,
+  "title": "opkssh: 0.17.0 -> 0.19.0",
+  "headRefOid": "b7579666b4c17336cd6b9037ee4243534d2e57d5"
+ },
+ {
+  "number": 576165,
+  "title": "python3Packages.sphinxcontrib-openapi: 0.9.0 -> 0.10.0",
+  "headRefOid": "8ed0db962a0b529c031b73e07e3d7ee5d647c3cf"
+ },
+ {
+  "number": 576144,
+  "title": "open-scq30: 2.12.0 -> 2.13.0",
+  "headRefOid": "e1010e52e40f67b96af41d020bb8bd97fb5b017a"
+ },
+ {
+  "number": 576140,
+  "title": "python3Packages.texttable: 1.7.0 -> 1.7.2",
+  "headRefOid": "669c9b65f4b22458a7d0bb7cff9bad6573e38633"
+ },
+ {
+  "number": 576129,
+  "title": "decktape: 3.16.1 -> 3.17.0",
+  "headRefOid": "41a3c2e1de6cbb2f15ef576af09c86a27f6cdabc"
+ },
+ {
+  "number": 576119,
+  "title": "postman: 12.20.1 -> 11.99.0",
+  "headRefOid": "4a3cc178cedcb6cde3be91c0bfe2c4e9d4134636"
+ },
+ {
+  "number": 576080,
+  "title": "quarkus: 3.40.1 -> 3.40.1.1",
+  "headRefOid": "e2e9a3f9a21a67a2ceea8e36c29155b7562057f7"
+ },
+ {
+  "number": 576077,
+  "title": "rusty-psn-gui: 0.6.0 -> 0.7.0",
+  "headRefOid": "b2cc6afe0235aadc26f12977703f46d2bbbc9ec5"
+ },
+ {
+  "number": 576076,
+  "title": "rusty-psn: 0.6.0 -> 0.7.0",
+  "headRefOid": "9ba1d0ceec77b9859f5cdfd862b582fa1e6dda8a"
+ },
+ {
+  "number": 576071,
+  "title": "tree-sitter-grammars.tree-sitter-rshtml: 0.1.6 -> 0.1.7",
+  "headRefOid": "88063c141397d487c398b882a880dc84302acc5c"
+ },
+ {
+  "number": 576045,
+  "title": "check50: 3.4.0 -> 3.5.0",
+  "headRefOid": "8064bc60cc82cf7d0da1c45b48fcbd5d0222012e"
+ },
+ {
+  "number": 576029,
+  "title": "kicad-testing-small: 10.0-2026-10-07 -> 10.0-2026-10-19",
+  "headRefOid": "7290525e2effcf8be93d3d404ad1eb8e96ef21b2"
+ },
+ {
+  "number": 576017,
+  "title": "vscode-extensions.coder.coder-remote: 1.16.4 -> 1.17.1",
+  "headRefOid": "7ddfdb0dc24b09e16d96e8e3016b756288e3dd3e"
+ },
+ {
+  "number": 576002,
+  "title": "marvin: 26.1.1 -> 26.1.4",
+  "headRefOid": "67a85ff9e3205ebb9372d22752c758fd3fba52ba"
+ },
+ {
+  "number": 575943,
+  "title": "multi-scrobbler: 0.19.2 -> 0.20.0",
+  "headRefOid": "3c51cbda3509233e5a52b0489868f230ff7b3cd1"
+ },
+ {
+  "number": 575941,
+  "title": "gemini-cli-bin: 0.63.0 -> 0.64.0",
+  "headRefOid": "827a374aa4e97c51908da544061dd5b6de9b6a4c"
+ },
+ {
+  "number": 575887,
+  "title": "muse: 4.2.1 -> 4.3.0",
+  "headRefOid": "2ce5a2101df8b1397478ab087a6510fd5c3b2bd8"
+ },
+ {
   "number": 577972,
   "title": "alcom: 1.1.8 -> 1.1.9",
   "headRefOid": "34556066542da75491ee522fc9c450572b9f0a43"

@@ -85,388 +85,10 @@
    "time": "2026-10-23T21:45:17+00:00",
    "title": "bum: init at 2.3"
   },
-  "511393": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.milc: 1.10.0 -> 2.1.0",
-   "tries": 0
-  },
-  "511618": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.ratarmount: 1.2.2 -> 1.2.3",
-   "tries": 0
-  },
-  "511633": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.azure-keyvault-secrets: 4.10.0 -> 4.11.2",
-   "tries": 0
-  },
-  "512243": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "openturns: 1.26 -> 1.27.3",
-   "tries": 0
-  },
-  "512301": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "tree-sitter-grammars.tree-sitter-opam: 0-unstable-2026-04-05 -> 0.1.0-unstable-2026-10-11",
-   "tries": 0
-  },
-  "512792": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "networkmanager-l2tp: 1.52.0 -> 1.52.6",
-   "tries": 0
-  },
-  "512861": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.pydeck: 0.9.2 -> 0.9.3",
-   "tries": 0
-  },
-  "512908": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.py2bit: 0.3.3 -> 1.0.1",
-   "tries": 0
-  },
-  "513366": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "intel-ipsec-mb: 2.0.1 -> 2.0.2",
-   "tries": 0
-  },
-  "513377": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "trinity: 1.9-unstable-2026-04-11 -> 1.9-unstable-2026-05-12",
-   "tries": 0
-  },
   "513382": {
    "reason": "not open",
    "status": "skipped",
    "title": "uhttpd: 0-unstable-2025-12-24 -> 0-unstable-2026-10-10",
-   "tries": 0
-  },
-  "513601": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.secure: 1.0.1 -> 2.0.1",
-   "tries": 0
-  },
-  "514133": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.ftputil: 5.1.0 -> 5.2.0",
-   "tries": 0
-  },
-  "514448": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.openturns: 1.26 -> 1.27",
-   "tries": 0
-  },
-  "514541": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "gamenetworkingsockets: 1.4.1 -> 1.6.1",
-   "tries": 0
-  },
-  "514583": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.pyslim: 1.1.0 -> 1.1.1",
-   "tries": 0
-  },
-  "514591": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "laravel: 5.25.3 -> 5.32.0",
-   "tries": 0
-  },
-  "514663": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.flask-wtf: 1.2.2 -> 1.3.0",
-   "tries": 0
-  },
-  "514755": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "verdict: 1.4.4 -> 1.4.5",
-   "tries": 0
-  },
-  "514781": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "ktls-utils: 1.3.0 -> 1.5.0",
-   "tries": 0
-  },
-  "514893": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.jupyter-repo2docker: 2025.12.0 -> 2026.04.0",
-   "tries": 0
-  },
-  "515635": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.uritools: 6.0.2 -> 6.1.0",
-   "tries": 0
-  },
-  "515655": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.backrefs: 6.2 -> 7.0",
-   "tries": 0
-  },
-  "515711": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "ocamlPackages.lem: 2025-03-13 -> 2026-05-01",
-   "tries": 0
-  },
-  "515724": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.s3fs: 2026.3.0 -> 2026.7.0",
-   "tries": 0
-  },
-  "516691": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "bozohttpd: 20240126 -> 20260503",
-   "tries": 0
-  },
-  "516933": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.appimage: 1.2.0 -> 2.0.1",
-   "tries": 0
-  },
-  "517153": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.btrees: 6.3 -> 6.5",
-   "tries": 0
-  },
-  "517427": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "sydbox: 3.51.2 -> 3.59.0",
-   "tries": 0
-  },
-  "517485": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "antimicrox: 3.5.1 -> 3.6.1",
-   "tries": 0
-  },
-  "517654": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.drf-standardized-errors: 0.15.0 -> 0.16.0",
-   "tries": 0
-  },
-  "517842": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.python3-gnutls: 3.1.10 -> 3.1.14",
-   "tries": 0
-  },
-  "517910": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "devpi-client: 7.2.1 -> 7.3.0",
-   "tries": 0
-  },
-  "517911": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.bubop: 0.2.3 -> 0.2.4a0",
-   "tries": 0
-  },
-  "517959": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "anders: 5.0.0 -> 5.1.0",
-   "tries": 0
-  },
-  "518041": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.csvw: 3.7.0 -> 4.1.0",
-   "tries": 0
-  },
-  "518145": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.quil: 0.35.0 -> 0.36.0",
-   "tries": 0
-  },
-  "518151": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "gpac-unstable: 26.07.0-unstable-2026-08-04 -> 26.07.0-unstable-2026-10-12",
-   "tries": 0
-  },
-  "518174": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "ocamlPackages.unisim_archisec: 0.0.13 -> 0.0.14",
-   "tries": 0
-  },
-  "518224": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "grafanaPlugins.grafana-clickhouse-datasource: 4.16.0 -> 4.22.1",
-   "tries": 0
-  },
-  "518288": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "constructium: 2026-04-12 -> 2026-09-21",
-   "tries": 0
-  },
-  "518462": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.onedrive-personal-sdk: 0.1.7 -> 1.1.1",
-   "tries": 0
-  },
-  "518502": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.downloader-cli: 0.3.4 -> 2019.11.15",
-   "tries": 0
-  },
-  "518559": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.weblate-schemas: 2026.4 -> 2026.6",
-   "tries": 0
-  },
-  "518562": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "tree-sitter-grammars.tree-sitter-ocaml-interface: 0.24.2 -> 0.26.0",
-   "tries": 0
-  },
-  "518565": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.azure-mgmt-netapp: 16.0.0 -> 17.1.0",
-   "tries": 0
-  },
-  "518591": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.typepy: 1.3.4 -> 2.0.0",
-   "tries": 0
-  },
-  "518595": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.persistent: 6.5 -> 6.8",
-   "tries": 0
-  },
-  "518726": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.google-cloud-dns: 0.37.0 -> 0.37.1",
-   "tries": 0
-  },
-  "518807": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "azure-artifacts-credprovider: 2.0.1 -> 2.0.5",
-   "tries": 0
-  },
-  "519247": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "tree-sitter-grammars.tree-sitter-tact: 1.6.0-unstable-2025-05-01 -> 1.6.0-unstable-2026-07-08",
-   "tries": 0
-  },
-  "519256": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "tree-sitter-grammars.tree-sitter-d: 0.8.2-unstable-2025-06-29 -> 0.9.1-unstable-2026-06-19",
-   "tries": 0
-  },
-  "519289": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.snappy-manifolds: 1.4 -> 1.9",
-   "tries": 0
-  },
-  "519489": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "voxinput: 1.0.0 -> 2.0.1",
-   "tries": 0
-  },
-  "519618": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "tree-sitter-grammars.tree-sitter-pod: 1.0.0-unstable-2026-03-23 -> 1.1.0-unstable-2026-05-31",
-   "tries": 0
-  },
-  "520013": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.dbt-adapters: 1.22.10 -> 1.24.2",
-   "tries": 0
-  },
-  "520065": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "uutils-util-linux: 0.0.1-unstable-2026-09-01 -> 0.0.1-unstable-2026-09-24",
-   "tries": 0
-  },
-  "520070": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.pysma: 1.1.9 -> 1.1.10",
-   "tries": 0
-  },
-  "520320": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "azure-sdk-for-cpp.storage-queues: 12.6.0 -> 12.7.0",
-   "tries": 0
-  },
-  "520439": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "prometheus-nut-exporter: 3.2.5 -> 3.3.0",
-   "tries": 0
-  },
-  "520584": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.limnoria: 2026.3.21 -> 2026.5.8",
-   "tries": 0
-  },
-  "520931": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.broadbean: 0.14.0 -> 0.15.0",
-   "tries": 0
-  },
-  "520979": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.django-parler: 2.3 -> 2.4",
-   "tries": 0
-  },
-  "521035": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "libucontext: 1.5 -> 1.5.2",
    "tries": 0
   },
   "521319": {
@@ -479,82 +101,10 @@
    "time": "2026-10-24T04:03:38+00:00",
    "title": "tl-expected: 1.1.0 -> 1.3.1"
   },
-  "521804": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.redshift-connector: 2.1.13 -> 2.2.0",
-   "tries": 0
-  },
-  "521836": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "elmPackages.elm-optimize-level-2: 0.3.4-unstable-2022-04-05 -> 0.4.0-unstable-2026-05-12",
-   "tries": 0
-  },
-  "521902": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "v2ray: 5.49.0 -> 5.54.2",
-   "tries": 0
-  },
-  "521950": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.sasmodels: 1.0.12 -> 1.1.0b1",
-   "tries": 0
-  },
-  "522096": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.gocardless-pro: 3.3.0 -> 3.21.0",
-   "tries": 0
-  },
   "522102": {
    "reason": "merge conflict",
    "status": "skipped",
    "title": "tmuxPlugins.rose-pine: unstable-2024-01-08 -> 0-unstable-2026-03-24",
-   "tries": 0
-  },
-  "522156": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.cli-helpers: 2.15.1 -> 2.15.2",
-   "tries": 0
-  },
-  "522187": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.doublemetaphone: 1.2i -> 1.2",
-   "tries": 0
-  },
-  "522199": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.genshi: 0.7.10 -> 0.7.11",
-   "tries": 0
-  },
-  "522435": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.litestar: 2.21.1 -> 2.23.0",
-   "tries": 0
-  },
-  "522629": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "tartan: 0.3.0-unstable-2025-01-07 -> 0.3.0-unstable-2025-11-09",
-   "tries": 0
-  },
-  "522717": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "uutils-hostname: 0-unstable-2026-05-12 -> 0-unstable-2026-10-17",
-   "tries": 0
-  },
-  "522748": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.glymur: 0.14.7 -> 0.14.8",
    "tries": 0
   },
   "522873": {
@@ -565,96 +115,6 @@
    "status": "dispatched",
    "time": "2026-10-24T04:03:25+00:00",
    "title": "vkd3d-proton: 2.14.1 -> 3.0.1"
-  },
-  "522878": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "serviio: 2.4 -> 2.5",
-   "tries": 0
-  },
-  "522922": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.diofant: 0.15.0 -> 0.16.0a2",
-   "tries": 0
-  },
-  "523078": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.pypcode: 3.3.3 -> 4.0.1",
-   "tries": 0
-  },
-  "523082": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.archspec: 0.2.5 -> 0.2.6",
-   "tries": 0
-  },
-  "523215": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.pyshp: 3.0.3 -> 3.0.9",
-   "tries": 0
-  },
-  "523217": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.onnxslim: 0.1.93 -> 0.1.95",
-   "tries": 0
-  },
-  "523539": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.mercadopago: 2.4.0 -> 3.6.0",
-   "tries": 0
-  },
-  "523710": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "sunxi-tools: 0-unstable-2025-03-29 -> 0-unstable-2026-10-11",
-   "tries": 0
-  },
-  "523751": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.plone-testing: 9.0.7 -> 10.0.0",
-   "tries": 0
-  },
-  "523755": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.simpy: 4.1.1 -> 4.1.2",
-   "tries": 0
-  },
-  "523939": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.htmltools: 0.6.1 -> 0.7.0",
-   "tries": 0
-  },
-  "523970": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.junos-eznc: 2.7.6 -> 2.8.2",
-   "tries": 0
-  },
-  "524058": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "prometheus-pve-exporter: 3.8.3 -> 3.10.1",
-   "tries": 0
-  },
-  "524090": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "juce: 8.0.12 -> 9.0.4",
-   "tries": 0
-  },
-  "524114": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.azure-mgmt-storage: 24.0.1 -> 25.2.0",
-   "tries": 0
   },
   "524299": {
    "darwin": true,
@@ -683,186 +143,6 @@
    "time": "2026-10-24T04:02:45+00:00",
    "title": "n2n: 3.0 -> 3.1.1"
   },
-  "524424": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.pydal: 20260313.1 -> 20260520.0",
-   "tries": 0
-  },
-  "524597": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "libsForQt5.quazip: 1.5 -> 1.7.2",
-   "tries": 0
-  },
-  "524598": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "kdePackages.quazip: 1.5 -> 1.7.2",
-   "tries": 0
-  },
-  "525005": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "graalvmPackages.graaljs: 25.2.4 -> 25.4.4.1.1",
-   "tries": 0
-  },
-  "525095": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "qt6Packages.quazip: 1.5 -> 1.7.0",
-   "tries": 0
-  },
-  "525556": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "libgbinder: 1.1.45 -> 1.1.54",
-   "tries": 0
-  },
-  "525561": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "nvidia-modprobe: 595.71.05 -> 615.71.09",
-   "tries": 0
-  },
-  "525788": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.hpccm: 26.1.0 -> 26.5.0",
-   "tries": 0
-  },
-  "526159": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.hdbscan: 0.8.41 -> 0.8.44",
-   "tries": 0
-  },
-  "526618": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "nengo-gui: 0.4.9 -> 0.6.0",
-   "tries": 0
-  },
-  "526758": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "faudio: 26.05 -> 26.10",
-   "tries": 0
-  },
-  "526761": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "cpu_features: 0.10.1 -> 0.11.0",
-   "tries": 0
-  },
-  "526845": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.cantools: 41.3.1 -> 42.0.3",
-   "tries": 0
-  },
-  "526927": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.qutip: 5.2.3.post1 -> 5.3.1",
-   "tries": 0
-  },
-  "527277": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "openimagedenoise: 2.4.1 -> 2.5.1",
-   "tries": 0
-  },
-  "528154": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "noson: 5.6.25 -> 5.7.6",
-   "tries": 0
-  },
-  "528676": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "odhcp6c: 0-unstable-2026-01-25 -> 0-unstable-2026-06-27",
-   "tries": 0
-  },
-  "528947": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "solo5: 0.10.1 -> 0.13.0",
-   "tries": 0
-  },
-  "529113": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.starlette-wtf: 0.4.5 -> 0.5.0",
-   "tries": 0
-  },
-  "529414": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.hyrule: 1.0.1 -> 1.1.0",
-   "tries": 0
-  },
-  "529473": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "jose: 14 -> 15",
-   "tries": 0
-  },
-  "529645": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "rpm-ostree: 2026.1 -> 2026.3",
-   "tries": 0
-  },
-  "529695": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "pacemaker: 3.0.1 -> 3.0.3",
-   "tries": 0
-  },
-  "529757": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "rabbitmq-c: 0.15.0 -> 0.18.1",
-   "tries": 0
-  },
-  "529766": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.ihm: 2.10 -> 2.12",
-   "tries": 0
-  },
-  "529827": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "uutils-acl: 0.0.1-unstable-2026-05-29 -> 0.0.1-unstable-2026-10-17",
-   "tries": 0
-  },
-  "530202": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "pipekit: 6.65.5 -> 8.5.8",
-   "tries": 0
-  },
-  "530253": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "highscore-stella: 0-unstable-2026-06-01 -> 0-unstable-2026-06-27",
-   "tries": 0
-  },
-  "530256": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "octavePackages.doctest: 0.8.1 -> 0.8.2",
-   "tries": 0
-  },
-  "530383": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "gmm: 5.4.4 -> 5.5",
-   "tries": 0
-  },
   "531046": {
    "darwin": false,
    "extra_args": "--eval local",
@@ -872,112 +152,10 @@
    "time": "2026-10-24T04:02:32+00:00",
    "title": "scarlett2: 0-unstable-2024-04-06 -> 1.0"
   },
-  "531070": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.moonraker-api: 2.0.6 -> 4.0.0",
-   "tries": 0
-  },
-  "531207": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "kubernetes-helmPlugins.helm-secrets: 4.7.6 -> 4.7.9",
-   "tries": 0
-  },
-  "531638": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "pysolfc: 3.4.1 -> 3.6.0",
-   "tries": 0
-  },
-  "531834": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.mozart-api: 6.2.0.44.1 -> 6.2.0.44.2",
-   "tries": 0
-  },
-  "532144": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "monit: 5.35.2 -> 6.0.0",
-   "tries": 0
-  },
-  "532317": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "cifs-utils: 7.5 -> 7.9",
-   "tries": 0
-  },
-  "532580": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "agdaPackages.standard-library: 2.3 -> 2.4",
-   "tries": 0
-  },
-  "532593": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "go-toml: 2.3.1 -> 2.4.3",
-   "tries": 0
-  },
-  "532837": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "libmpdclient: 2.24 -> 2.27",
-   "tries": 0
-  },
-  "532967": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "planarity: 4.0.1.0 -> 5.1.0.0",
-   "tries": 0
-  },
   "533251": {
    "reason": "not open",
    "status": "skipped",
    "title": "audacious-plugins: 4.5.1 -> 4.6.1",
-   "tries": 0
-  },
-  "533348": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "highscore-nestopia: 0-unstable-2026-05-31 -> 0-unstable-2026-06-27",
-   "tries": 0
-  },
-  "533349": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "highscore-prosystem: 0-unstable-2026-05-16 -> 0-unstable-2026-06-27",
-   "tries": 0
-  },
-  "533470": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "kdePackages.kquickimageedit: 0.6.1 -> 0.6.2",
-   "tries": 0
-  },
-  "533478": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "liblo: 0.35 -> 0.36",
-   "tries": 0
-  },
-  "533842": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.conda: 26.5.2 -> 26.7.2",
-   "tries": 0
-  },
-  "534430": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "dleyna: 0.8.3 -> 0.8.5",
-   "tries": 0
-  },
-  "534675": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.inscriptis: 2.7.1 -> 2.7.5",
    "tries": 0
   },
   "534821": {
@@ -989,263 +167,16 @@
    "time": "2026-10-23T21:45:35+00:00",
    "title": "bezel: init at 1.1.0, nixos/bezel: init"
   },
-  "534856": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "piv-agent: 0.24.0 -> 2.0.0",
-   "tries": 0
-  },
-  "534890": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "livepeer: 0.8.10 -> 0.9.2",
-   "tries": 0
-  },
-  "534990": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "asahi-btsync: 0.2.5 -> 0.2.6",
-   "tries": 0
-  },
-  "534992": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "asahi-bless: 0.4.3 -> 0.4.4",
-   "tries": 0
-  },
-  "534994": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "asahi-wifisync: 0.2.3 -> 0.2.4",
-   "tries": 0
-  },
-  "535000": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "asahi-nvram: 0.2.4 -> 0.2.5",
-   "tries": 0
-  },
-  "535010": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "gaugePlugins.js: 5.0.6 -> 5.0.8",
-   "tries": 0
-  },
-  "535100": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.translate-toolkit: 3.19.11 -> 3.20.0",
-   "tries": 0
-  },
-  "535116": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.libpulse: 0.7 -> 0.7.1",
-   "tries": 0
-  },
-  "535132": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.pymunk: 7.3.0 -> 7.3.1",
-   "tries": 0
-  },
-  "535223": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "sharing: 1.2.2 -> 1.4.0",
-   "tries": 0
-  },
-  "535280": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "jsbeautifier: 1.15.4 -> 2.0.3",
-   "tries": 0
-  },
-  "535467": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "libcpucycles: 20260105 -> 20260901",
-   "tries": 0
-  },
-  "535656": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "tmuxPlugins.tmux-nova: 1.2.0 -> 1.2.1",
-   "tries": 0
-  },
-  "535816": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "inkcut: 2.1.7 -> 2.1.8",
-   "tries": 0
-  },
-  "535968": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "toml-f: 0.5.1 -> 0.5.2",
-   "tries": 0
-  },
-  "536175": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.coloraide: 8.8.1 -> 8.13.1",
-   "tries": 0
-  },
-  "536193": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "libhighscore: 0-unstable-2026-04-01 -> 0-unstable-2026-10-09",
-   "tries": 0
-  },
-  "536194": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "highscore-mgba: 0-unstable-2026-06-19 -> 0-unstable-2026-08-09",
-   "tries": 0
-  },
-  "536202": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "cloud-utils: 0.33 -> 0.34",
-   "tries": 0
-  },
-  "536356": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "highs: 1.14.0 -> 1.15.1",
-   "tries": 0
-  },
-  "536371": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "wgpu-native: 27.0.4.0 -> 29.0.1.1",
-   "tries": 0
-  },
-  "536386": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "galene: 1.0 -> 1.2.1",
-   "tries": 0
-  },
-  "536480": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.jsonschema-rs: 0.46.5 -> 0.56.0",
-   "tries": 0
-  },
-  "536542": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.pydeprecate: 0.9.0 -> 0.13.0",
-   "tries": 0
-  },
-  "536847": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "signls: 0.7.1 -> 0.9.0",
-   "tries": 0
-  },
-  "536863": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "pari: 2.17.3 -> 2.17.4",
-   "tries": 0
-  },
   "536954": {
    "reason": "merge conflict",
    "status": "skipped",
    "title": "python3Packages.pysma: 1.1.2 -> 1.1.4",
    "tries": 0
   },
-  "537135": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.azure-mgmt-billing: 7.0.0 -> 8.0.0",
-   "tries": 0
-  },
-  "537302": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.azure-mgmt-frontdoor: 1.2.0 -> 2.0.0",
-   "tries": 0
-  },
-  "537483": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.conda-libmamba-solver: 26.4.2 -> 26.7.0",
-   "tries": 0
-  },
-  "537654": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.azure-mgmt-managementgroups: 1.1.0 -> 2.0.0",
-   "tries": 0
-  },
-  "537682": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.treq: 25.5.0 -> 26.7.0",
-   "tries": 0
-  },
-  "537834": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "libmeshb: 7.80 -> 8.02",
-   "tries": 0
-  },
-  "537947": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "libcotp: 4.1.0 -> 4.2.2",
-   "tries": 0
-  },
-  "537991": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "tmuxPlugins.catppuccin: 2.1.3 -> 2.3.2",
-   "tries": 0
-  },
-  "538110": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.dataclass-wizard: 0.39.1 -> 1.0.0",
-   "tries": 0
-  },
-  "538292": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "cimg: 3.7.6 -> 4.0.6",
-   "tries": 0
-  },
-  "538562": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.apprise: 1.13.0 -> 2.0.1",
-   "tries": 0
-  },
-  "538677": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "python3Packages.livekit-protocol: 1.1.17 -> 1.1.27",
-   "tries": 0
-  },
-  "538791": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "js-beautify: 1.15.4 -> 2.0.3",
-   "tries": 0
-  },
-  "538852": {
-   "reason": "r-ryantm PRs are skipped",
-   "status": "skipped",
-   "title": "openntpd: 6.8p1 -> 7.9p1",
-   "tries": 0
-  },
   "538875": {
-   "final": "cancelled, r-ryantm PRs are skipped",
-   "run_id": 40027932815,
-   "status": "dispatched",
-   "time": "2026-10-23T21:35:54+00:00",
+   "previous_run_id": 40027932815,
+   "reason": "cancelled when r-ryantm was skipped",
+   "status": "requeue",
    "title": "python3Packages.bracex: 3.0.1 -> 3.2"
   },
   "538895": {
@@ -1255,31 +186,27 @@
    "tries": 0
   },
   "538920": {
-   "final": "cancelled, r-ryantm PRs are skipped",
-   "run_id": 40025665717,
-   "status": "dispatched",
-   "time": "2026-10-23T21:17:25+00:00",
+   "previous_run_id": 40025665717,
+   "reason": "cancelled when r-ryantm was skipped",
+   "status": "requeue",
    "title": "python3Packages.azure-mgmt-cosmosdb: 9.9.0 -> 10.0.0"
   },
   "539020": {
-   "final": "cancelled, r-ryantm PRs are skipped",
-   "run_id": 40025426738,
-   "status": "dispatched",
-   "time": "2026-10-23T21:15:28+00:00",
+   "previous_run_id": 40025426738,
+   "reason": "cancelled when r-ryantm was skipped",
+   "status": "requeue",
    "title": "xpointerbarrier: 25.08 -> 26.06"
   },
   "539130": {
-   "final": "cancelled, r-ryantm PRs are skipped",
-   "run_id": 40023484574,
-   "status": "dispatched",
-   "time": "2026-10-23T21:00:02+00:00",
+   "previous_run_id": 40023484574,
+   "reason": "cancelled when r-ryantm was skipped",
+   "status": "requeue",
    "title": "python3Packages.pyoxigraph: 0.5.9 -> 0.5.11"
   },
   "539132": {
-   "final": "cancelled, r-ryantm PRs are skipped",
-   "run_id": 40023309973,
-   "status": "dispatched",
-   "time": "2026-10-23T20:58:34+00:00",
+   "previous_run_id": 40023309973,
+   "reason": "cancelled when r-ryantm was skipped",
+   "status": "requeue",
    "title": "tela-icon-theme: 2025-02-10 -> 2026-07-07"
   },
   "539138": {
@@ -1289,40 +216,35 @@
    "tries": 0
   },
   "539144": {
-   "final": "cancelled, r-ryantm PRs are skipped",
-   "run_id": 40022600362,
-   "status": "dispatched",
-   "time": "2026-10-23T20:52:46+00:00",
+   "previous_run_id": 40022600362,
+   "reason": "cancelled when r-ryantm was skipped",
+   "status": "requeue",
    "title": "python3Packages.azure-mgmt-network: 30.2.0 -> 33.1.0"
   },
   "539210": {
-   "final": "cancelled, r-ryantm PRs are skipped",
-   "run_id": 40022404183,
-   "status": "dispatched",
-   "time": "2026-10-23T20:51:13+00:00",
+   "previous_run_id": 40022404183,
+   "reason": "cancelled when r-ryantm was skipped",
+   "status": "requeue",
    "title": "opentelemetry-collector-builder: 0.155.0 -> 0.156.0"
   },
   "539231": {
-   "examined": 1,
-   "final": "review (aarch64-linux): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.",
-   "run_id": 40020990492,
-   "status": "dispatched",
-   "time": "2026-10-23T20:40:08+00:00",
+   "extra_args": "--eval local",
+   "previous_run_id": 40020990492,
+   "reason": "no CI evaluation",
+   "status": "requeue",
    "title": "cgreen: 1.6.5 -> 1.7.0"
   },
   "539344": {
-   "examined": 1,
-   "final": "review (aarch64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.",
-   "run_id": 40020811152,
-   "status": "dispatched",
-   "time": "2026-10-23T20:38:41+00:00",
+   "extra_args": "--eval local",
+   "previous_run_id": 40020811152,
+   "reason": "no CI evaluation",
+   "status": "requeue",
    "title": "python3Packages.nocasedict: 2.2.0 -> 2.3.0a0"
   },
   "539366": {
-   "final": "cancelled, r-ryantm PRs are skipped",
-   "run_id": 40023993790,
-   "status": "dispatched",
-   "time": "2026-10-23T21:04:01+00:00",
+   "previous_run_id": 40023993790,
+   "reason": "cancelled when r-ryantm was skipped",
+   "status": "requeue",
    "title": "ocamlPackages.ocamlformat-mlx-lib: 0.28.1.2 -> 0.29.0.1"
   },
   "539367": {
@@ -1350,11 +272,10 @@
    "tries": 0
   },
   "539685": {
-   "examined": 1,
-   "final": "review (aarch64-linux): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.",
-   "run_id": 40018108931,
-   "status": "dispatched",
-   "time": "2026-10-23T20:17:48+00:00",
+   "extra_args": "--eval local",
+   "previous_run_id": 40018108931,
+   "reason": "no CI evaluation",
+   "status": "requeue",
    "title": "python3Packages.conda-package-streaming: 0.12.0 -> 0.13.0"
   },
   "539693": {
@@ -1364,26 +285,23 @@
    "tries": 0
   },
   "539742": {
-   "final": "cancelled, r-ryantm PRs are skipped",
-   "run_id": 40017797616,
-   "status": "dispatched",
-   "time": "2026-10-23T20:15:24+00:00",
+   "previous_run_id": 40017797616,
+   "reason": "cancelled when r-ryantm was skipped",
+   "status": "requeue",
    "title": "python3Packages.diffusers: 0.38.0 -> 0.40.0"
   },
   "539813": {
-   "examined": 1,
-   "final": "review (x86_64-linux): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.",
-   "run_id": 40017318548,
-   "status": "dispatched",
-   "time": "2026-10-23T20:11:44+00:00",
+   "extra_args": "--eval local",
+   "previous_run_id": 40017318548,
+   "reason": "no CI evaluation",
+   "status": "requeue",
    "title": "suwayomi-server: 2.1.1867 -> 2.3.2243"
   },
   "539815": {
-   "examined": 1,
-   "final": "review (x86_64-linux): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.",
-   "run_id": 40016638779,
-   "status": "dispatched",
-   "time": "2026-10-23T20:06:30+00:00",
+   "extra_args": "--eval local",
+   "previous_run_id": 40016638779,
+   "reason": "no CI evaluation",
+   "status": "requeue",
    "title": "python3Packages.iplotx: 1.7.1 -> 1.8.0"
   },
   "539981": {
@@ -1405,11 +323,10 @@
    "tries": 0
   },
   "540480": {
-   "examined": 1,
-   "final": "review (aarch64-darwin): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.",
-   "run_id": 40015293528,
-   "status": "dispatched",
-   "time": "2026-10-23T19:56:09+00:00",
+   "extra_args": "--eval local",
+   "previous_run_id": 40015293528,
+   "reason": "no CI evaluation",
+   "status": "requeue",
    "title": "prometheus-graphite-exporter: 0.16.0 -> 0.17.0"
   },
   "540567": {
@@ -1419,11 +336,10 @@
    "title": "python3Packages.tt-perf-report: 1.2.4 -> 1.4.1"
   },
   "540630": {
-   "examined": 1,
-   "final": "review (aarch64-linux): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.",
-   "run_id": 40014927950,
-   "status": "dispatched",
-   "time": "2026-10-23T19:53:15+00:00",
+   "extra_args": "--eval local",
+   "previous_run_id": 40014927950,
+   "reason": "no CI evaluation",
+   "status": "requeue",
    "title": "python3Packages.sgp4: 2.26 -> 2.27"
   },
   "540673": {
@@ -1445,27 +361,24 @@
    "tries": 0
   },
   "540977": {
-   "examined": 1,
-   "final": "review (aarch64-linux): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.",
-   "run_id": 40014699429,
-   "status": "dispatched",
-   "time": "2026-10-23T19:51:28+00:00",
+   "extra_args": "--eval local",
+   "previous_run_id": 40014699429,
+   "reason": "no CI evaluation",
+   "status": "requeue",
    "title": "hyperion-ng: 2.1.1 -> 2.2.1"
   },
   "541126": {
-   "examined": 1,
-   "final": "review (x86_64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.",
-   "run_id": 40018441044,
-   "status": "dispatched",
-   "time": "2026-10-23T20:20:23+00:00",
+   "extra_args": "--eval local",
+   "previous_run_id": 40018441044,
+   "reason": "no CI evaluation",
+   "status": "requeue",
    "title": "python3Packages.cohere: 7.0.4 -> 7.0.5"
   },
   "541194": {
-   "examined": 1,
-   "final": "review (aarch64-linux): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.",
-   "run_id": 40013472840,
-   "status": "dispatched",
-   "time": "2026-10-23T19:42:06+00:00",
+   "extra_args": "--eval local",
+   "previous_run_id": 40013472840,
+   "reason": "no CI evaluation",
+   "status": "requeue",
    "title": "python3Packages.datasketch: 1.10.0 -> 2.0.0"
   },
   "541233": {
@@ -1475,43 +388,38 @@
    "title": "katriawm: 26.03 -> 26.08"
   },
   "541242": {
-   "examined": 1,
-   "final": "review (aarch64-darwin): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.",
-   "run_id": 40013022286,
-   "status": "dispatched",
-   "time": "2026-10-23T19:38:41+00:00",
+   "extra_args": "--eval local",
+   "previous_run_id": 40013022286,
+   "reason": "no CI evaluation",
+   "status": "requeue",
    "title": "python3Packages.svg-path: 7.0 -> 7.1"
   },
   "541264": {
-   "examined": 1,
-   "final": "review (aarch64-linux): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.",
-   "run_id": 40012828608,
-   "status": "dispatched",
-   "time": "2026-10-23T19:37:14+00:00",
+   "extra_args": "--eval local",
+   "previous_run_id": 40012828608,
+   "reason": "no CI evaluation",
+   "status": "requeue",
    "title": "python3Packages.autograd: 1.9.0 -> 1.9.1"
   },
   "541296": {
-   "examined": 1,
-   "final": "review (x86_64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.",
-   "run_id": 40012359834,
-   "status": "dispatched",
-   "time": "2026-10-23T19:33:39+00:00",
+   "extra_args": "--eval local",
+   "previous_run_id": 40012359834,
+   "reason": "no CI evaluation",
+   "status": "requeue",
    "title": "prometheus-elasticsearch-exporter: 1.10.0 -> 1.11.0"
   },
   "541325": {
-   "examined": 1,
-   "final": "review (aarch64-linux): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.",
-   "run_id": 40011951997,
-   "status": "dispatched",
-   "time": "2026-10-23T19:30:30+00:00",
+   "extra_args": "--eval local",
+   "previous_run_id": 40011951997,
+   "reason": "no CI evaluation",
+   "status": "requeue",
    "title": "python3Packages.azure-mgmt-domainregistration: 1.0.0b1 -> 1.0.0"
   },
   "541346": {
-   "examined": 1,
-   "final": "review (x86_64-linux): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.",
-   "run_id": 40011488454,
-   "status": "dispatched",
-   "time": "2026-10-23T19:26:57+00:00",
+   "extra_args": "--eval local",
+   "previous_run_id": 40011488454,
+   "reason": "no CI evaluation",
+   "status": "requeue",
    "title": "python3Packages.ago: 0.1.0 -> 0.1.1"
   },
   "541387": {
@@ -1527,11 +435,10 @@
    "title": "tmuxPlugins.session-wizard: 1.4.0 -> 1.6.0"
   },
   "541472": {
-   "examined": 1,
-   "final": "review (x86_64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.",
-   "run_id": 40010198457,
-   "status": "dispatched",
-   "time": "2026-10-23T19:17:13+00:00",
+   "extra_args": "--eval local",
+   "previous_run_id": 40010198457,
+   "reason": "no CI evaluation",
+   "status": "requeue",
    "title": "kubernetes-metrics-server: 0.6.4 -> 0.9.0"
   },
   "541502": {
@@ -1547,11 +454,10 @@
    "tries": 0
   },
   "541619": {
-   "examined": 1,
-   "final": "review (x86_64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.",
-   "run_id": 40009920966,
-   "status": "dispatched",
-   "time": "2026-10-23T19:15:09+00:00",
+   "extra_args": "--eval local",
+   "previous_run_id": 40009920966,
+   "reason": "no CI evaluation",
+   "status": "requeue",
    "title": "python3Packages.py3amf: 0.8.11 -> 0.9.1"
   },
   "541707": {
@@ -1561,19 +467,17 @@
    "title": "python3Packages.pylink-square: 1.6.0 -> 2.0.2"
   },
   "541957": {
-   "examined": 1,
-   "final": "review (aarch64-linux): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.",
-   "run_id": 40008956649,
-   "status": "dispatched",
-   "time": "2026-10-23T19:07:55+00:00",
+   "extra_args": "--eval local",
+   "previous_run_id": 40008956649,
+   "reason": "no CI evaluation",
+   "status": "requeue",
    "title": "python3Packages.azure-mgmt-datafactory: 9.3.0 -> 10.0.0"
   },
   "542021": {
-   "examined": 1,
-   "final": "review (aarch64-darwin): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.",
-   "run_id": 40008551932,
-   "status": "dispatched",
-   "time": "2026-10-23T19:04:53+00:00",
+   "extra_args": "--eval local",
+   "previous_run_id": 40008551932,
+   "reason": "no CI evaluation",
+   "status": "requeue",
    "title": "python3Packages.napari: 0.7.1 -> 0.8.0"
   },
   "542023": {
@@ -1589,35 +493,31 @@
    "title": "vrcvideocacher: 2026.5.2 -> 2026.9.10"
   },
   "542167": {
-   "examined": 1,
-   "final": "review (aarch64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.",
-   "run_id": 40007169649,
-   "status": "dispatched",
-   "time": "2026-10-23T18:54:38+00:00",
+   "extra_args": "--eval local",
+   "previous_run_id": 40007169649,
+   "reason": "no CI evaluation",
+   "status": "requeue",
    "title": "python3Packages.libtmux: 0.61.0 -> 0.62.0"
   },
   "542199": {
-   "examined": 1,
-   "final": "review (aarch64-darwin): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.",
-   "run_id": 40006526543,
-   "status": "dispatched",
-   "time": "2026-10-23T18:49:58+00:00",
+   "extra_args": "--eval local",
+   "previous_run_id": 40006526543,
+   "reason": "no CI evaluation",
+   "status": "requeue",
    "title": "gccmakedep: 1.0.4 -> 1.0.5"
   },
   "542575": {
-   "examined": 1,
-   "final": "review (aarch64-darwin): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.",
-   "run_id": 40005899157,
-   "status": "dispatched",
-   "time": "2026-10-23T18:45:20+00:00",
+   "extra_args": "--eval local",
+   "previous_run_id": 40005899157,
+   "reason": "no CI evaluation",
+   "status": "requeue",
    "title": "python3Packages.pypresence: 4.6.1 -> 4.6.2"
   },
   "542847": {
-   "examined": 1,
-   "final": "review (aarch64-darwin): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.",
-   "run_id": 40005537662,
-   "status": "dispatched",
-   "time": "2026-10-23T18:42:44+00:00",
+   "extra_args": "--eval local",
+   "previous_run_id": 40005537662,
+   "reason": "no CI evaluation",
+   "status": "requeue",
    "title": "python3Packages.certomancer: 0.14.0 -> 0.16.0"
   },
   "542930": {
@@ -1639,11 +539,10 @@
    "title": "kdiff3: 1.12.4 -> 1.12.6"
   },
   "543100": {
-   "examined": 1,
-   "final": "review (aarch64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.",
-   "run_id": 40003603759,
-   "status": "dispatched",
-   "time": "2026-10-23T18:28:44+00:00",
+   "extra_args": "--eval local",
+   "previous_run_id": 40003603759,
+   "reason": "no CI evaluation",
+   "status": "requeue",
    "title": "libaacs: 0.11.1 -> 0.12.0"
   },
   "543131": {
@@ -1653,57 +552,50 @@
    "tries": 0
   },
   "543137": {
-   "examined": 1,
-   "final": "review (aarch64-darwin): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.",
-   "run_id": 40003378714,
-   "status": "dispatched",
-   "time": "2026-10-23T18:27:06+00:00",
+   "extra_args": "--eval local",
+   "previous_run_id": 40003378714,
+   "reason": "no CI evaluation",
+   "status": "requeue",
    "title": "python3Packages.nampa: 1.0-unstable-2024-12-18 -> 1.0-unstable-2026-07-10"
   },
   "543187": {
-   "examined": 1,
-   "final": "review (aarch64-darwin): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.",
-   "run_id": 40002894272,
-   "status": "dispatched",
-   "time": "2026-10-23T18:23:32+00:00",
+   "extra_args": "--eval local",
+   "previous_run_id": 40002894272,
+   "reason": "no CI evaluation",
+   "status": "requeue",
    "title": "python3Packages.pyghmi: 1.6.18 -> 1.6.19"
   },
   "543188": {
-   "final": "cancelled, r-ryantm PRs are skipped",
-   "run_id": 40002623641,
-   "status": "dispatched",
-   "time": "2026-10-23T18:21:30+00:00",
+   "previous_run_id": 40002623641,
+   "reason": "cancelled when r-ryantm was skipped",
+   "status": "requeue",
    "title": "primesieve: 12.14 -> 12.16"
   },
   "543211": {
-   "examined": 1,
-   "final": "review (aarch64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.",
-   "run_id": 40001580113,
-   "status": "dispatched",
-   "time": "2026-10-23T18:13:48+00:00",
+   "extra_args": "--eval local",
+   "previous_run_id": 40001580113,
+   "reason": "no CI evaluation",
+   "status": "requeue",
    "title": "cosmic-ext-tweaks: 0.2.2 -> 0.2.5"
   },
   "543374": {
-   "final": "cancelled, r-ryantm PRs are skipped",
-   "run_id": 40001088369,
-   "status": "dispatched",
-   "time": "2026-10-23T18:10:11+00:00",
+   "previous_run_id": 40001088369,
+   "reason": "cancelled when r-ryantm was skipped",
+   "status": "requeue",
    "title": "cminpack: 1.3.11 -> 1.3.14"
   },
   "543431": {
-   "examined": 1,
-   "final": "review (x86_64-linux): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.",
-   "run_id": 40000751260,
-   "status": "dispatched",
-   "time": "2026-10-23T18:07:41+00:00",
+   "extra_args": "--eval local",
+   "previous_run_id": 40000751260,
+   "reason": "no CI evaluation",
+   "status": "requeue",
    "title": "python3Packages.scp: 0.15.0 -> 0.16.1"
   },
   "543500": {
-   "examined": 1,
-   "final": "review (aarch64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.",
-   "run_id": 40000243828,
-   "status": "dispatched",
-   "time": "2026-10-23T18:04:04+00:00",
+   "extra_args": "--eval local",
+   "previous_run_id": 40000243828,
+   "reason": "no CI evaluation",
+   "status": "requeue",
    "title": "python3Packages.jsbeautifier: 1.15.4 -> 2.0.3"
   },
   "543851": {
@@ -1713,19 +605,17 @@
    "title": "pkg: 2.7.5 -> 2.8.2"
   },
   "544023": {
-   "examined": 1,
-   "final": "review (x86_64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.",
-   "run_id": 39999683253,
-   "status": "dispatched",
-   "time": "2026-10-23T18:00:05+00:00",
+   "extra_args": "--eval local",
+   "previous_run_id": 39999683253,
+   "reason": "no CI evaluation",
+   "status": "requeue",
    "title": "python3Packages.starlark: 0.5.0 -> 0.6.0"
   },
   "544025": {
-   "examined": 1,
-   "final": "review (aarch64-linux): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.",
-   "run_id": 39999482320,
-   "status": "dispatched",
-   "time": "2026-10-23T17:58:37+00:00",
+   "extra_args": "--eval local",
+   "previous_run_id": 39999482320,
+   "reason": "no CI evaluation",
+   "status": "requeue",
    "title": "python3Packages.multiaddr: 0.0.11 -> 0.2.0"
   },
   "544608": {
@@ -1735,19 +625,17 @@
    "title": "dotnet-ef: 10.0.9 -> 10.0.13"
   },
   "544653": {
-   "examined": 1,
-   "final": "review (aarch64-darwin): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.",
-   "run_id": 39999082046,
-   "status": "dispatched",
-   "time": "2026-10-23T17:55:38+00:00",
+   "extra_args": "--eval local",
+   "previous_run_id": 39999082046,
+   "reason": "no CI evaluation",
+   "status": "requeue",
    "title": "python3Packages.reptor: 0.34 -> 0.35"
   },
   "544730": {
-   "examined": 1,
-   "final": "review (aarch64-darwin): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.",
-   "run_id": 39997145980,
-   "status": "dispatched",
-   "time": "2026-10-23T17:41:32+00:00",
+   "extra_args": "--eval local",
+   "previous_run_id": 39997145980,
+   "reason": "no CI evaluation",
+   "status": "requeue",
    "title": "google-drive-ocamlfuse: 0.9.0 -> 0.9.1"
   },
   "544804": {
@@ -1783,11 +671,10 @@
    "title": "python3Packages.glfw: 2.10.0 -> 2.11.0"
   },
   "545541": {
-   "examined": 1,
-   "final": "review (aarch64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.",
-   "run_id": 39994641008,
-   "status": "dispatched",
-   "time": "2026-10-23T17:23:20+00:00",
+   "extra_args": "--eval local",
+   "previous_run_id": 39994641008,
+   "reason": "no CI evaluation",
+   "status": "requeue",
    "title": "python3Packages.backtesting: 0.6.5 -> 0.6.6"
   },
   "545755": {
@@ -2240,11 +1127,9 @@
    "title": "heimdall-proxy: 0.17.19 -> 0.17.20"
   },
   "551821": {
-   "examined": 1,
-   "final": "review (aarch64-darwin): Failed to FinalizeArtifact: Unable to make request: ECONNRESET\nIf you are using self-hosted runners,",
-   "run_id": 39952317432,
-   "status": "dispatched",
-   "time": "2026-10-23T12:18:21+00:00",
+   "previous_run_id": 39952317432,
+   "reason": "artifact upload error",
+   "status": "requeue",
    "title": "python3Packages.azure-keyvault-administration: 4.8.0b2 -> 4.7.2"
   },
   "551868": {
@@ -2266,9 +1151,10 @@
    "title": "miniupnpd: 2.3.10 -> 2.3.11"
   },
   "551946": {
-   "run_id": 39951758343,
-   "status": "dispatched",
-   "time": "2026-10-23T12:13:48+00:00",
+   "head": "a6c4a5d1496ec6c2ffc368fc4943a8fc011c60bd",
+   "previous_run_id": 39951758343,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "crosvm: 0-unstable-2026-08-03 -> 0-unstable-2026-10-12"
   },
   "551947": {
@@ -2338,10 +1224,10 @@
    "title": "iay: 0.5.0 -> 0.5.1"
   },
   "552410": {
-   "final": "updated after the review, not re-run because r-ryantm PRs are skipped",
-   "run_id": 39949432173,
-   "status": "dispatched",
-   "time": "2026-10-23T11:54:42+00:00",
+   "head": "56fab84805d67ca7c351f642af0b1958489f3561",
+   "previous_run_id": 39949432173,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "python3Packages.govee-local-api: 2.4.0 -> 3.1.0"
   },
   "552547": {
@@ -2399,11 +1285,9 @@
    "title": "shpool: 0.11.0 -> 0.11.5"
   },
   "552808": {
-   "examined": 1,
-   "final": "review (aarch64-darwin): Failed to download archive 'https://codeload.github.com/yzhou216/nixpkgs-review-gha/tar.gz/c11ea10d9",
-   "run_id": 39950661014,
-   "status": "dispatched",
-   "time": "2026-10-23T12:04:51+00:00",
+   "previous_run_id": 39950661014,
+   "reason": "artifact upload error",
+   "status": "requeue",
    "title": "kine: 0.16.3 -> 0.17.2"
   },
   "552831": {
@@ -2636,11 +1520,10 @@
    "title": "confy: 0.9.0 -> 0.9.1"
   },
   "554315": {
-   "examined": 1,
-   "final": "review (x86_64-linux): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.",
-   "run_id": 39931794012,
-   "status": "dispatched",
-   "time": "2026-10-23T09:25:48+00:00",
+   "extra_args": "--eval local",
+   "previous_run_id": 39931794012,
+   "reason": "no CI evaluation",
+   "status": "requeue",
    "title": "amazon-cloudwatch-agent: 1.300071.0 -> 1.300074.0"
   },
   "554322": {
@@ -2798,30 +1681,31 @@
    "title": "viskores: 1.1.1 -> 1.2.0"
   },
   "554849": {
-   "final": "updated after the review, not re-run because r-ryantm PRs are skipped",
-   "run_id": 39920811404,
-   "status": "dispatched",
-   "time": "2026-10-23T07:53:27+00:00",
+   "head": "3bebc8c37a434cf49f78f33c464b106aa9a6dcde",
+   "previous_run_id": 39920811404,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "tomcat10: 10.1.57 -> 10.1.60"
   },
   "554880": {
-   "final": "updated after the review, not re-run because r-ryantm PRs are skipped",
-   "run_id": 39920403385,
-   "status": "dispatched",
-   "time": "2026-10-23T07:49:53+00:00",
+   "head": "f5b9384e46a0dda2c7c1f1cfa4f9fef1e60a1870",
+   "previous_run_id": 39920403385,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "kamailio: 6.1.3 -> 6.1.4"
   },
   "554916": {
-   "final": "updated after the review, not re-run because r-ryantm PRs are skipped",
-   "run_id": 39920246467,
-   "status": "dispatched",
-   "time": "2026-10-23T07:48:25+00:00",
+   "head": "52d623e6f4d06a78eddbb5e01afdb2d3a257439a",
+   "previous_run_id": 39920246467,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "yandex-cloud: 1.25.0 -> 1.40.0"
   },
   "554968": {
-   "run_id": 39920082528,
-   "status": "dispatched",
-   "time": "2026-10-23T07:46:56+00:00",
+   "head": "1f5dffd0b19f8da3c345175b0fdb09bc09e1ff25",
+   "previous_run_id": 39920082528,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "govc: 0.55.1 -> 0.56.0"
   },
   "554977": {
@@ -3466,9 +2350,10 @@
    "title": "python3Packages.bx-python: 0.14.0 -> 0.15.1"
   },
   "558201": {
-   "run_id": 39896364115,
-   "status": "dispatched",
-   "time": "2026-10-23T03:41:38+00:00",
+   "head": "d0fd5e1c07aa29e17ea65b7bc7688b348abfb511",
+   "previous_run_id": 39896364115,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "octavePackages.statistics: 1.8.4 -> 2.0.0"
   },
   "558219": {
@@ -4269,10 +3154,10 @@
    "title": "kurve: 3.5.1 -> 3.6.1"
   },
   "561837": {
-   "final": "updated after the review, not re-run because r-ryantm PRs are skipped",
-   "run_id": 39854054489,
-   "status": "dispatched",
-   "time": "2026-10-22T21:03:08+00:00",
+   "head": "6373fad5e2bae8b5d9e4de09d89f3bbdbe33bdca",
+   "previous_run_id": 39854054489,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "rpcs3: 0.0.42-unstable-2026-08-15 -> 0.0.43-unstable-2026-10-11"
   },
   "561892": {
@@ -4294,9 +3179,10 @@
    "title": "iqtree: 3.1.3 -> 3.1.4"
   },
   "561974": {
-   "run_id": 39844276544,
-   "status": "dispatched",
-   "time": "2026-10-22T19:55:05+00:00",
+   "head": "ba2c28edf9c74737fb865495c36a92c5035ca012",
+   "previous_run_id": 39844276544,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "python3Packages.pyhanko-certvalidator: 0.31.4 -> 0.32.1"
   },
   "561978": {
@@ -4320,11 +3206,9 @@
    "title": "python3Packages.bce-python-sdk: 0.9.76 -> 0.9.79"
   },
   "562172": {
-   "examined": 1,
-   "final": "review (aarch64-darwin): Failed to CreateArtifact: Unable to make request: ETIMEDOUT\nIf you are using self-hosted runners, pl",
-   "run_id": 39841627891,
-   "status": "dispatched",
-   "time": "2026-10-22T19:36:51+00:00",
+   "previous_run_id": 39841627891,
+   "reason": "artifact upload error",
+   "status": "requeue",
    "title": "google-guest-oslogin: 20260214.00 -> 20261009.00"
   },
   "562222": {
@@ -4342,9 +3226,10 @@
    "title": "asmjit: 0-unstable-2026-03-26 -> 0-unstable-2026-10-12"
   },
   "562237": {
-   "run_id": 39839278775,
-   "status": "dispatched",
-   "time": "2026-10-22T19:20:56+00:00",
+   "head": "c2fb4fab50fac849536739bb8311ee4dbf5524ec",
+   "previous_run_id": 39839278775,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "mssql_jdbc: 13.4.0 -> 13.6.0"
   },
   "562278": {
@@ -4810,11 +3695,10 @@
    "title": "ocamlPackages.miou: 0.10.0 -> 0.10.2"
   },
   "564450": {
-   "examined": 1,
-   "final": "review (x86_64-linux): Process completed with exit code 1.",
-   "run_id": 39785315450,
-   "status": "dispatched",
-   "time": "2026-10-22T13:15:58+00:00",
+   "extra_args": "--eval local",
+   "previous_run_id": 39785315450,
+   "reason": "no CI evaluation",
+   "status": "requeue",
    "title": "python3Packages.mapbox-earcut: 2.0.0 -> 2.1.0"
   },
   "564538": {
@@ -4976,9 +3860,10 @@
    "tries": 0
   },
   "565589": {
-   "run_id": 39766155828,
-   "status": "dispatched",
-   "time": "2026-10-22T10:50:54+00:00",
+   "head": "9c06996dad85de8b5be0aedb76715086d08d519a",
+   "previous_run_id": 39766155828,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "storj-uplink: 1.153.2 -> 1.164.2"
   },
   "565599": {
@@ -5939,12 +4824,10 @@
    "title": "libretro.picodrive: 0-unstable-2026-09-04 -> 0-unstable-2026-09-26"
   },
   "568678": {
-   "examined": 1,
-   "final": "updated after the review, not re-run because r-ryantm PRs are skipped",
-   "no_runner_at": "2026-10-21T17:22:45+00:00",
-   "run_id": 39640970257,
-   "status": "dispatched",
-   "time": "2026-10-21T17:07:32+00:00",
+   "head": "f424fcddd5c26b73468d5be106c9f17775e6191a",
+   "previous_run_id": 39640970257,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "upterm: 0.29.0 -> 0.37.0"
   },
   "568682": {
@@ -5956,12 +4839,10 @@
    "title": "libretro.dolphin: 0-unstable-2026-09-19 -> 0-unstable-2026-10-11"
   },
   "568720": {
-   "examined": 1,
-   "final": "updated after the review, not re-run because r-ryantm PRs are skipped",
-   "no_runner_at": "2026-10-21T17:07:07+00:00",
-   "run_id": 39638583312,
-   "status": "dispatched",
-   "time": "2026-10-21T16:51:49+00:00",
+   "head": "b8359f4f759c9989e9f67e22c4948bab0119cf56",
+   "previous_run_id": 39638583312,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "yeswiki: 4.6.7 -> 4.7.0"
   },
   "568784": {
@@ -6003,11 +4884,10 @@
    "title": "python3Packages.langgraph-runtime-inmem: 0.34.1 -> 0.36.0"
   },
   "568867": {
-   "examined": 1,
-   "no_runner_at": "2026-10-21T16:29:19+00:00",
-   "run_id": 39632930868,
-   "status": "dispatched",
-   "time": "2026-10-21T16:14:05+00:00",
+   "head": "89cc39dfe28cfa6adbe8e71b5ea19229d165726b",
+   "previous_run_id": 39632930868,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "python3Packages.flufl-lock: 9.1.0 -> 9.2.0"
   },
   "568936": {
@@ -6027,11 +4907,10 @@
    "title": "velero: 1.18.3 -> 1.18.4"
   },
   "568976": {
-   "examined": 1,
-   "no_runner_at": "2026-10-21T16:13:37+00:00",
-   "run_id": 39630216715,
-   "status": "dispatched",
-   "time": "2026-10-21T15:56:21+00:00",
+   "head": "c5bc5a58b128253db8894d168217d651adaac00a",
+   "previous_run_id": 39630216715,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "jpylyzer: 2.2.1 -> 2.3.0b1"
   },
   "568985": {
@@ -6091,11 +4970,10 @@
    "title": "lcalc: 2.2.1 -> 2.2.2"
   },
   "569124": {
-   "examined": 1,
-   "no_runner_at": "2026-10-21T15:45:04+00:00",
-   "run_id": 39626220121,
-   "status": "dispatched",
-   "time": "2026-10-21T15:29:50+00:00",
+   "head": "1862856dee964498ac63c71c49a28427c4579202",
+   "previous_run_id": 39626220121,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "vitess: 24.0.3 -> 24.0.4"
   },
   "569141": {
@@ -7125,10 +6003,10 @@
    "title": "cairo-lang: 2.20.0 -> 2.21.0"
   },
   "572331": {
-   "final": "updated after the review, not re-run because r-ryantm PRs are skipped",
-   "run_id": 39462026498,
-   "status": "dispatched",
-   "time": "2026-10-20T16:58:01+00:00",
+   "head": "f955454f1dd7b11d21148058b961c1fd37780f88",
+   "previous_run_id": 39462026498,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "httplib: 0.58.0 -> 0.60.1"
   },
   "572418": {
@@ -7150,10 +6028,10 @@
    "title": "stable-diffusion-cpp: master-874-656a135 -> master-951-f89d9b1"
   },
   "572476": {
-   "final": "updated after the review, not re-run because r-ryantm PRs are skipped",
-   "run_id": 39460005192,
-   "status": "dispatched",
-   "time": "2026-10-20T16:43:53+00:00",
+   "head": "67e74b986333b23e4b4b659137073eab12b8af45",
+   "previous_run_id": 39460005192,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "crengine-ng: 0.9.13 -> 0.9.14"
   },
   "572477": {
@@ -7236,10 +6114,10 @@
    "title": "npm-check-updates: 23.1.0 -> 23.1.1"
   },
   "572673": {
-   "final": "updated after the review, not re-run because r-ryantm PRs are skipped",
-   "run_id": 39454926587,
-   "status": "dispatched",
-   "time": "2026-10-20T16:09:25+00:00",
+   "head": "a943e5d4f5ab5bc7b816f3cb48e7e4594325607f",
+   "previous_run_id": 39454926587,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "pulumiPackages.pulumi-java: 1.37.3 -> 1.37.4"
   },
   "572704": {
@@ -7349,10 +6227,10 @@
    "tries": 0
   },
   "572908": {
-   "final": "updated after the review, not re-run because r-ryantm PRs are skipped",
-   "run_id": 39452245191,
-   "status": "dispatched",
-   "time": "2026-10-20T15:51:26+00:00",
+   "head": "f2e649ef8cfefbfb1c79528a334ab3409046a9fa",
+   "previous_run_id": 39452245191,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "shopify-cli: 4.8.3 -> 4.9.3"
   },
   "572910": {
@@ -7362,21 +6240,17 @@
    "tries": 1
   },
   "572913": {
-   "examined": 1,
-   "final": "updated after the review, not re-run because r-ryantm PRs are skipped",
-   "no_runner_at": "2026-10-20T15:16:21+00:00",
-   "run_id": 39444531314,
-   "status": "dispatched",
-   "time": "2026-10-20T15:01:05+00:00",
+   "head": "6b986fd70c2a7cac42324e87b8f26b2c60a98635",
+   "previous_run_id": 39444531314,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "hey-mail: 1.3.7 -> 1.3.8"
   },
   "572931": {
-   "examined": 1,
-   "final": "updated after the review, not re-run because r-ryantm PRs are skipped",
-   "no_runner_at": "2026-10-20T15:58:40+00:00",
-   "run_id": 39451049234,
-   "status": "dispatched",
-   "time": "2026-10-20T15:43:26+00:00",
+   "head": "404ae40aa0a97314caf6ba3182b36beb8c9064bc",
+   "previous_run_id": 39451049234,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "romm: 5.2.0 -> 5.4.0"
   },
   "572938": {
@@ -7435,10 +6309,10 @@
    "title": "vue-language-server: 3.3.12 -> 3.3.13"
   },
   "573068": {
-   "final": "updated after the review, not re-run because r-ryantm PRs are skipped",
-   "run_id": 39446345821,
-   "status": "dispatched",
-   "time": "2026-10-20T15:12:58+00:00",
+   "head": "416db50c88181432276f4b2608ec362a4d60bed7",
+   "previous_run_id": 39446345821,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "libretro.beetle-vb: 0-unstable-2026-08-23 -> 0-unstable-2026-10-09"
   },
   "573078": {
@@ -7464,11 +6338,10 @@
    "title": "typstyle: 0.15.1 -> 0.15.2"
   },
   "573100": {
-   "examined": 1,
-   "no_runner_at": "2026-10-20T14:41:27+00:00",
-   "run_id": 39439171652,
-   "status": "dispatched",
-   "time": "2026-10-20T14:26:09+00:00",
+   "head": "b5d612431d86d9d941a6b450b8bf18b089efbe43",
+   "previous_run_id": 39439171652,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "unrtf: 0.21.10 -> 0.21.12"
   },
   "573113": {
@@ -7520,9 +6393,10 @@
    "title": "pbm: 1.5.1 -> 1.5.2"
   },
   "573174": {
-   "run_id": 39435985101,
-   "status": "dispatched",
-   "time": "2026-10-20T14:04:36+00:00",
+   "head": "9d446af5fb5b840f3019acc58463850120ed6c1d",
+   "previous_run_id": 39435985101,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "ubridge: 1.2.3 -> 1.3.0"
   },
   "573182": {
@@ -7600,19 +6474,17 @@
    "title": "pwsafe: 1.25.0 -> 1.26.0fp"
   },
   "573379": {
-   "examined": 1,
-   "no_runner_at": "2026-10-20T13:29:05+00:00",
-   "run_id": 39428623287,
-   "status": "dispatched",
-   "time": "2026-10-20T13:13:50+00:00",
+   "head": "1c332ae33ac7de448bcf09742569d6461be0e642",
+   "previous_run_id": 39428623287,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "python3Packages.django-tenants: 3.14.0 -> 4.0.0"
   },
   "573432": {
-   "examined": 1,
-   "no_runner_at": "2026-10-20T13:22:37+00:00",
-   "run_id": 39427725986,
-   "status": "dispatched",
-   "time": "2026-10-20T13:07:22+00:00",
+   "head": "ff78a809e868135f86f30583cb2fade6f54e8df4",
+   "previous_run_id": 39427725986,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "gifsicle: 1.96 -> 1.97"
   },
   "573439": {
@@ -7632,9 +6504,10 @@
    "title": "python3Packages.ansible: 14.4.0 -> 14.5.0"
   },
   "573458": {
-   "run_id": 39424543094,
-   "status": "dispatched",
-   "time": "2026-10-20T12:43:51+00:00",
+   "head": "5ceba25ff392fa9dad2cc9dc7420fd6c7e7ecd39",
+   "previous_run_id": 39424543094,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "libretro.stella: 0-unstable-2026-09-25 -> 0-unstable-2026-10-12"
   },
   "573509": {
@@ -9012,9 +7885,10 @@
    "title": "unpoller: 5.5.1 -> 5.6.2"
   },
   "575546": {
-   "run_id": 39333451224,
-   "status": "dispatched",
-   "time": "2026-10-19T22:13:56+00:00",
+   "head": "4e515c14f7dea1171a7dcc4360290ca9572d6d83",
+   "previous_run_id": 39333451224,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "wordcraft: 0.6.1 -> 0.8.0"
   },
   "575547": {
@@ -9309,12 +8183,9 @@
   },
   "575797": {
    "head": "1ad64e06449ce79d21c03358a36ef813c1da95ef",
-   "on_success": "approve",
-   "previous_run_id": 39238448992,
-   "requeued": true,
-   "run_id": 40028773445,
-   "status": "dispatched",
-   "time": "2026-10-23T21:42:59+00:00",
+   "previous_run_id": 40028773445,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "zennotes-desktop: 2.70.0 -> 2.75.0"
   },
   "575798": {
@@ -9423,11 +8294,9 @@
    "title": "libretro.swanstation: 0-unstable-2026-10-08 -> 0-unstable-2026-10-15"
   },
   "575834": {
-   "examined": 1,
-   "final": "report: Failed to FinalizeArtifact: Unable to make request: ECONNRESET\nIf you are using self-hosted runners,",
-   "run_id": 39232931131,
-   "status": "dispatched",
-   "time": "2026-10-19T09:49:26+00:00",
+   "previous_run_id": 39232931131,
+   "reason": "artifact upload error",
+   "status": "requeue",
    "title": "python3Packages.rjsmin: 1.2.5 -> 1.3.0"
   },
   "575836": {

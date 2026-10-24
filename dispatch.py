@@ -24,11 +24,14 @@ Darwin rebuilds is reviewed without the aarch64-darwin job, so it needs no
 Mac at all.  While the Darwin cap is full, the script keeps dispatching such
 Linux-only reviews.
 
-Pull requests by SKIPPED_AUTHORS are not reviewed, since a committer asked
-on #550000 for no automated approvals of r-ryantm's pull requests.  The
-state file can also hold re-reviews of pull requests that are not
-candidates, such as the user's own, which run with their own on-success
-setting and are tracked like any other review.
+Pull requests by COMMENT_ONLY_AUTHORS get the review result as a comment
+but no approval.  A committer asked on #550000 for no automated approvals of
+r-ryantm's pull requests, and said that the results are still useful, since
+r-ryantm only builds on x86_64-linux.  Records with the status "requeue" ask
+for a pull request to be reviewed again, for example after an update, and go
+to the front of the queue.  The state file can also hold re-reviews of pull
+requests that are not candidates, such as the user's own, which run with
+their own on-success setting and are tracked like any other review.
 
 A run lasts up to TIME_BUDGET seconds, commits the state file every
 COMMIT_INTERVAL seconds, and then dispatches the next batch-review run, so
@@ -86,7 +89,7 @@ ENABLED_CHECK_INTERVAL = 120
 ACTIVE = {"queued", "in_progress", "waiting", "pending", "requested"}
 NOT_ACQUIRED = "was not acquired by Runner"
 SMALL = {"1", "1-10", "11-100"}
-SKIPPED_AUTHORS = {"r-ryantm"}
+COMMENT_ONLY_AUTHORS = {"r-ryantm"}
 INPUTS = {
     "x86_64-linux": "true",
     "aarch64-linux": "true",
@@ -279,11 +282,12 @@ def needs_darwin(pr):
 def check_pr(cand, ignore_own=False):
     """Check a candidate just before its review is dispatched.
 
-    Return a (status, reason, title, darwin) tuple.  The status is "ok" when
-    the review can be dispatched, "skipped" when the pull request no longer
-    qualifies, and "retry" when the check could not be decided yet, for
-    example while GitHub is still computing mergeability.  The darwin flag
-    tells whether the review needs the aarch64-darwin job.  With ignore_own,
+    Return a (status, reason, title, darwin, on_success) tuple.  The status
+    is "ok" when the review can be dispatched, "skipped" when the pull request
+    no longer qualifies, and "retry" when the check could not be decided yet,
+    for example while GitHub is still computing mergeability.  The darwin
+    flag tells whether the review needs the aarch64-darwin job, and
+    on_success whether a successful review may approve.  With ignore_own,
     earlier results and reviews by the owner do not count, as when a pull
     request is reviewed again after an update.
     """
@@ -291,7 +295,7 @@ def check_pr(cand, ignore_own=False):
     pr = api(f"repos/NixOS/nixpkgs/pulls/{n}")
 
     def skip(reason, status="skipped"):
-        return status, reason, pr["title"], None
+        return status, reason, pr["title"], None, None
 
     if pr["state"] != "open":
         return skip("not open")
@@ -301,8 +305,6 @@ def check_pr(cand, ignore_own=False):
         return skip("base not master")
     if pr["user"]["login"] == OWNER:
         return skip("own PR")
-    if pr["user"]["login"] in SKIPPED_AUTHORS:
-        return skip(f"{pr['user']['login']} PRs are skipped")
     if not BUMP.match(pr["title"].strip()):
         return skip("title no longer a plain bump")
     if pr["head"]["sha"] != cand["headRefOid"]:
@@ -333,7 +335,8 @@ def check_pr(cand, ignore_own=False):
     reviews = api(f"repos/NixOS/nixpkgs/pulls/{n}/reviews?per_page=100", paginate=True)
     if not ignore_own and any((r["user"] or {}).get("login") == OWNER for r in reviews):
         return skip("already reviewed by owner")
-    return "ok", None, pr["title"], needs_darwin(pr)
+    on_success = "nothing" if pr["user"]["login"] in COMMENT_ONLY_AUTHORS else "approve"
+    return "ok", None, pr["title"], needs_darwin(pr), on_success
 
 
 def dispatch(n, on_success="approve", darwin=True, extra_args=None):
@@ -462,12 +465,12 @@ def rerun(n, rec, cand):
     if pr["state"] != "open":
         rec["final"] = f"{pr['state']} before the re-run"
         return False, rec["final"]
-    if pr["user"]["login"] in SKIPPED_AUTHORS:
-        rec["final"] = f"not re-run: {pr['user']['login']} PRs are skipped"
-        return False, rec["final"]
-    on_success = rec.get("on_success", "approve")
+    ran_with = rec.get("on_success", "approve")
+    on_success = "nothing" if pr["user"]["login"] in COMMENT_ONLY_AUTHORS else ran_with
+    # Re-running failed jobs keeps the original inputs, including an approval
+    keeps_inputs = on_success == ran_with
     head = reviewed_head(run_id) if kind == "no runner" else None
-    if kind == "no runner" and head == pr["head"]["sha"]:
+    if kind == "no runner" and head == pr["head"]["sha"] and keeps_inputs:
         if not rerun_failed_jobs(run_id, rec):
             return False, rec["final"]
         return True, f"re-ran the failed jobs of run {run_id}"
@@ -478,7 +481,7 @@ def rerun(n, rec, cand):
     else:
         # The head that will be built has not been checked yet
         cand = {"number": n, "headRefOid": head}
-        status, reason, title, darwin = check_pr(cand, ignore_own=rec.get("requeued", False))
+        status, reason, title, darwin, on_success = check_pr(cand, ignore_own=rec.get("requeued", False))
     if status == "retry" and rec.get("tries", 0) < MAX_TRIES:
         rec["tries"] = rec.get("tries", 0) + 1
         rec["rerun"] = kind
@@ -487,7 +490,7 @@ def rerun(n, rec, cand):
     if status != "ok":
         rec["final"] = f"not re-run: {reason}"
         return False, rec["final"]
-    if kind == "prepare":
+    if kind == "prepare" and keeps_inputs:
         if not rerun_failed_jobs(run_id, rec):
             return False, rec["final"]
         return True, f"re-ran run {run_id}"
@@ -495,8 +498,8 @@ def rerun(n, rec, cand):
     for key in ("examined", "no_runner_at", "tries"):
         rec.pop(key, None)
     rec.update(run_id=new_id, title=title, time=iso(time.time()), head=pr["head"]["sha"], darwin=darwin)
-    rec["redispatched"] = True
-    return True, f"head changed since run {run_id}, dispatched run {new_id}: {title}"
+    rec.update(on_success=on_success, redispatched=True)
+    return True, f"dispatched run {new_id} in place of run {run_id}: {title}"
 
 
 def rate():
@@ -573,7 +576,13 @@ def run(start):
         due = [n for n, r in records.items() if r.get("rerun") and epoch(r["rerun_after"]) <= now]
         return sorted(due, key=lambda n: records[n]["rerun_after"])
 
-    queue = [c for c in candidates if pending(c)]
+    # Requested re-reviews go first, compared against the head they last reviewed
+    requeued = [
+        {"number": int(n), "title": r.get("title", ""), "headRefOid": r.get("head"), "requeue": True}
+        for n, r in records.items()
+        if r["status"] == "requeue"
+    ]
+    queue = requeued + [c for c in candidates if pending(c)]
     seen = {pr_of(r) for r in fork_runs(pages=3)} - {None}
     seen |= {int(n) for n, r in records.items() if r["status"] == "dispatched"}
     remaining, limit = rate()
@@ -703,16 +712,24 @@ def run(start):
             continue
         cand = queue.pop(pick)
         n = cand["number"]
-        if n in seen:
-            status, reason, title, darwin = "skipped", "fork already has a run", cand["title"], None
+        requeue = cand.get("requeue", False)
+        old = records.get(str(n), {})
+        if n in seen and not requeue:
+            status, reason, title, darwin, on_success = "skipped", "fork already has a run", cand["title"], None, None
         else:
             try:
-                status, reason, title, darwin = check_pr(cand)
+                status, reason, title, darwin, on_success = check_pr(cand, ignore_own=requeue)
             except LookupError as e:
-                status, reason, title, darwin = "skipped", f"lookup failed: {e}", cand["title"], None
+                status, reason, title, darwin, on_success = "skipped", f"lookup failed: {e}", cand["title"], None, None
         darwin_hint[n] = darwin
         if status == "ok" and darwin and not darwin_room:
             queue.insert(0, cand)
+            continue
+        if requeue and status == "retry" and old.get("tries", 0) < MAX_TRIES:
+            old["tries"] = old.get("tries", 0) + 1
+            log(f"#{n} re-review postponed: {reason}")
+            save()
+            queue.insert(min(len(queue), RETRY_POSITION), cand)
             continue
         if status != "ok":
             tries = records.get(str(n), {}).get("tries", 0) + (status == "retry")
@@ -724,10 +741,12 @@ def run(start):
                 queue.insert(min(len(queue), RETRY_POSITION), cand)
             continue
         if DRY_RUN:
-            log(f"#{n} would dispatch{'' if darwin else ' without Darwin'}: {title}")
+            flags = ("" if darwin else " without Darwin") + ("" if on_success == "approve" else " comment only")
+            log(f"#{n} would dispatch{flags}: {title}")
             dispatched += 1
             continue
-        run_id = dispatch(n, darwin=darwin)
+        extra_args = old.get("extra_args") if requeue else None
+        run_id = dispatch(n, on_success, darwin, extra_args)
         last = time.time()
         fetched = 0.0
         dispatched += 1
@@ -738,8 +757,12 @@ def run(start):
             "title": title,
             "time": iso(time.time()),
             "darwin": darwin,
+            "on_success": on_success,
+            **({"requeued": True, "previous_run_id": old.get("previous_run_id")} if requeue else {}),
+            **({"extra_args": extra_args} if extra_args else {}),
         }
-        log(f"#{n} dispatched run {run_id}{'' if darwin else ' without Darwin'}: {title}")
+        flags = ("" if darwin else " without Darwin") + ("" if on_success == "approve" else " comment only")
+        log(f"#{n} dispatched run {run_id}{flags}: {title}")
         save()
 
     remaining, limit = rate()
