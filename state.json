@@ -10,12 +10,14 @@
    "title": "clink: init at 2024.12.07-unstable-2026-09-11"
   },
   "429520": {
-   "head": "3d01faaae7c70879abc7aebb0e9f9314c8d6058e",
+   "darwin": true,
+   "head": "6ce141b0c7efdff5c45f45828588f3bc56ee9f2e",
    "on_success": "nothing",
+   "previous_run_id": 40028874535,
    "requeued": true,
-   "run_id": 40028874535,
+   "run_id": 40060438739,
    "status": "dispatched",
-   "time": "2026-10-23T21:43:51+00:00",
+   "time": "2026-10-24T03:57:55+00:00",
    "title": "autograder: init at 0-unstable-2026-08-02"
   },
   "431108": {
@@ -26,6 +28,26 @@
    "status": "dispatched",
    "time": "2026-10-23T21:44:08+00:00",
    "title": "cargo-doc2readme: init at 0.7.3"
+  },
+  "431137": {
+   "darwin": false,
+   "head": "61a913c48f4fe4c5db1408e75ad3bf4c8fe5644d",
+   "on_success": "nothing",
+   "requeued": true,
+   "run_id": 40060456591,
+   "status": "dispatched",
+   "time": "2026-10-24T03:58:12+00:00",
+   "title": "core: init at 0-unstable-2026-10-16"
+  },
+  "453737": {
+   "darwin": true,
+   "head": "90b82390d6bb13ca44d7ad34466d2da0ae8ebaeb",
+   "on_success": "nothing",
+   "requeued": true,
+   "run_id": 40060474971,
+   "status": "dispatched",
+   "time": "2026-10-24T03:58:29+00:00",
+   "title": "glang: init at 0.2.0"
   },
   "482412": {
    "head": "86e6d27ddf5a0914e227f2ce0a771c3b3acd5535",
