@@ -10518,6 +10518,14 @@
    "title": "python3Packages.aiosomecomfort: 0.0.38 -> 0.0.39",
    "tries": 0
   },
+  "578387": {
+   "darwin": true,
+   "on_success": "approve",
+   "run_id": 40171377110,
+   "status": "dispatched",
+   "time": "2026-10-25T07:03:57+00:00",
+   "title": "garage_2: 2.4.1 -> 2.5.0"
+  },
   "578389": {
    "darwin": false,
    "on_success": "nothing",
@@ -10559,10 +10567,12 @@
    "title": "arity: 0.24.0 -> 0.26.0"
   },
   "578411": {
-   "reason": "mergeability unknown",
-   "status": "retry",
-   "title": "claude-agent-acp: 0.93.0 -> 0.95.0",
-   "tries": 1
+   "darwin": true,
+   "on_success": "approve",
+   "run_id": 40171175962,
+   "status": "dispatched",
+   "time": "2026-10-25T07:00:45+00:00",
+   "title": "claude-agent-acp: 0.93.0 -> 0.95.0"
   },
   "578416": {
    "darwin": false,
@@ -10621,11 +10631,27 @@
    "time": "2026-10-24T22:41:50+00:00",
    "title": "tutanota-desktop: 361.261006.0 -> 362.261023.2"
   },
+  "578440": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40170995371,
+   "status": "dispatched",
+   "time": "2026-10-25T06:57:55+00:00",
+   "title": "fatou: 0.23.0 -> 0.24.0"
+  },
   "578445": {
    "reason": "not open",
    "status": "skipped",
    "title": "python3Packages.elevenlabs: 2.71.0 -> 2.74.1",
    "tries": 0
+  },
+  "578450": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40170695351,
+   "status": "dispatched",
+   "time": "2026-10-25T06:53:01+00:00",
+   "title": "rime-moegirl: 20260911 -> 20261024"
   },
   "578458": {
    "reason": "not open",
@@ -10640,6 +10666,14 @@
    "status": "dispatched",
    "time": "2026-10-24T22:27:56+00:00",
    "title": "spotatui: 0.45.0 -> 0.46.0"
+  },
+  "578474": {
+   "darwin": true,
+   "on_success": "approve",
+   "run_id": 40170141155,
+   "status": "dispatched",
+   "time": "2026-10-25T06:44:00+00:00",
+   "title": "python3Packages.whirlpool-sixth-sense: 2.1.0 -> 2.1.1"
   },
   "578479": {
    "reason": "not open",
