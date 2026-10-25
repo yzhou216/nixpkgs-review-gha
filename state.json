@@ -609,6 +609,14 @@
    "title": "python3Packages.jsonschema-rs: 0.46.5 -> 0.56.0",
    "tries": 0
   },
+  "536542": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40191030965,
+   "status": "dispatched",
+   "time": "2026-10-25T11:57:33+00:00",
+   "title": "python3Packages.pydeprecate: 0.9.0 -> 0.14.0"
+  },
   "536847": {
    "darwin": false,
    "on_success": "nothing",
@@ -617,14 +625,58 @@
    "time": "2026-10-25T03:47:15+00:00",
    "title": "signls: 0.7.1 -> 0.9.0"
   },
+  "536863": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40190771196,
+   "status": "dispatched",
+   "time": "2026-10-25T11:53:44+00:00",
+   "title": "pari: 2.17.3 -> 2.17.4"
+  },
   "536954": {
    "reason": "merge conflict",
    "status": "skipped",
    "title": "python3Packages.pysma: 1.1.2 -> 1.1.4",
    "tries": 0
   },
+  "537135": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40190429240,
+   "status": "dispatched",
+   "time": "2026-10-25T11:48:48+00:00",
+   "title": "python3Packages.azure-mgmt-billing: 7.0.0 -> 8.0.0"
+  },
+  "537302": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40190155092,
+   "status": "dispatched",
+   "time": "2026-10-25T11:44:53+00:00",
+   "title": "python3Packages.azure-mgmt-frontdoor: 1.2.0 -> 2.0.0"
+  },
+  "537483": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40189809469,
+   "status": "dispatched",
+   "time": "2026-10-25T11:39:56+00:00",
+   "title": "python3Packages.conda-libmamba-solver: 26.4.2 -> 26.7.0"
+  },
+  "537654": {
+   "darwin": true,
+   "examined": 1,
+   "final": "review (aarch64-linux): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.",
+   "on_success": "nothing",
+   "run_id": 40189361589,
+   "status": "dispatched",
+   "time": "2026-10-25T11:33:24+00:00",
+   "title": "python3Packages.azure-mgmt-managementgroups: 1.1.0 -> 2.0.0"
+  },
   "537682": {
    "darwin": true,
+   "examined": 1,
+   "final": "review (x86_64-linux): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.",
    "on_success": "nothing",
    "run_id": 40188865603,
    "status": "dispatched",
@@ -659,6 +711,8 @@
   },
   "538110": {
    "darwin": true,
+   "examined": 1,
+   "final": "review (aarch64-darwin): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.",
    "on_success": "nothing",
    "run_id": 40187938116,
    "status": "dispatched",
@@ -697,6 +751,8 @@
   },
   "538852": {
    "darwin": true,
+   "examined": 1,
+   "final": "review (aarch64-darwin): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.",
    "on_success": "nothing",
    "run_id": 40186980237,
    "status": "dispatched",
@@ -10930,6 +10986,7 @@
   },
   "578349": {
    "darwin": true,
+   "final": "cancelled after 4 hours",
    "on_success": "approve",
    "run_id": 40174135032,
    "status": "dispatched",
