@@ -623,6 +623,14 @@
    "title": "python3Packages.pysma: 1.1.2 -> 1.1.4",
    "tries": 0
   },
+  "537682": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40188865603,
+   "status": "dispatched",
+   "time": "2026-10-25T11:26:23+00:00",
+   "title": "python3Packages.treq: 25.5.0 -> 26.7.0"
+  },
   "537834": {
    "darwin": false,
    "examined": 1,
@@ -632,6 +640,60 @@
    "status": "dispatched",
    "time": "2026-10-25T03:29:34+00:00",
    "title": "libmeshb: 7.80 -> 8.02"
+  },
+  "537947": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40188823172,
+   "status": "dispatched",
+   "time": "2026-10-25T11:25:45+00:00",
+   "title": "libcotp: 4.1.0 -> 4.2.2"
+  },
+  "537991": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40188100662,
+   "status": "dispatched",
+   "time": "2026-10-25T11:15:30+00:00",
+   "title": "tmuxPlugins.catppuccin: 2.1.3 -> 2.3.2"
+  },
+  "538110": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40187938116,
+   "status": "dispatched",
+   "time": "2026-10-25T11:13:11+00:00",
+   "title": "python3Packages.dataclass-wizard: 0.39.1 -> 1.0.0"
+  },
+  "538292": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40187785747,
+   "status": "dispatched",
+   "time": "2026-10-25T11:10:55+00:00",
+   "title": "cimg: 3.7.6 -> 4.0.6"
+  },
+  "538562": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40187700687,
+   "status": "dispatched",
+   "time": "2026-10-25T11:09:43+00:00",
+   "title": "python3Packages.apprise: 1.13.0 -> 2.0.1"
+  },
+  "538677": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40187255036,
+   "status": "dispatched",
+   "time": "2026-10-25T11:03:06+00:00",
+   "title": "python3Packages.livekit-protocol: 1.1.17 -> 1.1.27"
+  },
+  "538791": {
+   "reason": "mergeability unknown",
+   "status": "retry",
+   "title": "js-beautify: 1.15.4 -> 2.0.3",
+   "tries": 1
   },
   "538852": {
    "darwin": true,
@@ -10666,6 +10728,8 @@
   },
   "578196": {
    "darwin": true,
+   "examined": 1,
+   "final": "review (x86_64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ",
    "on_success": "nothing",
    "run_id": 40179355510,
    "status": "dispatched",
