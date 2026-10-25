@@ -91,6 +91,78 @@
    "title": "uhttpd: 0-unstable-2025-12-24 -> 0-unstable-2026-10-10",
    "tries": 0
   },
+  "517485": {
+   "darwin": false,
+   "on_success": "nothing",
+   "run_id": 40166312557,
+   "status": "dispatched",
+   "time": "2026-10-25T05:39:16+00:00",
+   "title": "antimicrox: 3.5.1 -> 3.6.1"
+  },
+  "517654": {
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "python3Packages.drf-standardized-errors: 0.15.0 -> 0.16.0",
+   "tries": 0
+  },
+  "518174": {
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "ocamlPackages.unisim_archisec: 0.0.13 -> 0.0.14",
+   "tries": 0
+  },
+  "518559": {
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "python3Packages.weblate-schemas: 2026.4 -> 2026.6",
+   "tries": 0
+  },
+  "518726": {
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "python3Packages.google-cloud-dns: 0.37.0 -> 0.37.1",
+   "tries": 0
+  },
+  "519489": {
+   "darwin": false,
+   "on_success": "nothing",
+   "run_id": 40166055705,
+   "status": "dispatched",
+   "time": "2026-10-25T05:34:59+00:00",
+   "title": "voxinput: 1.0.0 -> 2.0.1"
+  },
+  "520013": {
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "python3Packages.dbt-adapters: 1.22.10 -> 1.24.2",
+   "tries": 0
+  },
+  "520065": {
+   "darwin": false,
+   "on_success": "nothing",
+   "run_id": 40165889844,
+   "status": "dispatched",
+   "time": "2026-10-25T05:32:11+00:00",
+   "title": "uutils-util-linux: 0.0.1-unstable-2026-09-01 -> 0.0.1-unstable-2026-09-24"
+  },
+  "520070": {
+   "darwin": false,
+   "on_success": "nothing",
+   "run_id": 40165848700,
+   "status": "dispatched",
+   "time": "2026-10-25T05:31:30+00:00",
+   "title": "python3Packages.pysma: 1.1.9 -> 1.1.10"
+  },
+  "521035": {
+   "darwin": false,
+   "examined": 1,
+   "final": "review (x86_64-linux): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.",
+   "on_success": "nothing",
+   "run_id": 40165207601,
+   "status": "dispatched",
+   "time": "2026-10-25T05:20:57+00:00",
+   "title": "libucontext: 1.5 -> 1.5.2"
+  },
   "521319": {
    "darwin": true,
    "extra_args": "--eval local",
@@ -107,6 +179,16 @@
    "title": "tmuxPlugins.rose-pine: unstable-2024-01-08 -> 0-unstable-2026-03-24",
    "tries": 0
   },
+  "522629": {
+   "darwin": false,
+   "examined": 1,
+   "final": "review (x86_64-linux): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.",
+   "on_success": "nothing",
+   "run_id": 40165104544,
+   "status": "dispatched",
+   "time": "2026-10-25T05:19:22+00:00",
+   "title": "tartan: 0.3.0-unstable-2025-01-07 -> 0.3.0-unstable-2025-11-09"
+  },
   "522873": {
    "darwin": false,
    "extra_args": "--eval local",
@@ -118,6 +200,8 @@
   },
   "522878": {
    "darwin": false,
+   "examined": 1,
+   "final": "review (x86_64-linux): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.",
    "on_success": "nothing",
    "run_id": 40164298988,
    "status": "dispatched",
@@ -1101,10 +1185,14 @@
    "title": "dotnet-ef: 10.0.9 -> 10.0.13"
   },
   "544653": {
+   "darwin": true,
    "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 39999082046,
-   "reason": "no CI evaluation",
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 40164726321,
+   "status": "dispatched",
+   "time": "2026-10-25T05:13:13+00:00",
    "title": "python3Packages.reptor: 0.34 -> 0.35"
   },
   "544730": {
@@ -1151,10 +1239,14 @@
    "title": "python3Packages.glfw: 2.10.0 -> 2.11.0"
   },
   "545541": {
+   "darwin": true,
    "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 39994641008,
-   "reason": "no CI evaluation",
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 40165594615,
+   "status": "dispatched",
+   "time": "2026-10-25T05:27:23+00:00",
    "title": "python3Packages.backtesting: 0.6.5 -> 0.6.6"
   },
   "545755": {
@@ -1607,9 +1699,13 @@
    "title": "heimdall-proxy: 0.17.19 -> 0.17.20"
   },
   "551821": {
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39952317432,
-   "reason": "artifact upload error",
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 40165726924,
+   "status": "dispatched",
+   "time": "2026-10-25T05:29:38+00:00",
    "title": "python3Packages.azure-keyvault-administration: 4.8.0b2 -> 4.7.2"
   },
   "551868": {
@@ -1767,9 +1863,13 @@
    "title": "shpool: 0.11.0 -> 0.11.5"
   },
   "552808": {
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39950661014,
-   "reason": "artifact upload error",
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 40165768349,
+   "status": "dispatched",
+   "time": "2026-10-25T05:30:17+00:00",
    "title": "kine: 0.16.3 -> 0.17.2"
   },
   "552831": {
@@ -2192,15 +2292,17 @@
    "reason": "updated after the review",
    "status": "requeue",
    "title": "yandex-cloud: 1.25.0 -> 1.40.0",
-   "tries": 1
+   "tries": 3
   },
   "554968": {
-   "head": "1f5dffd0b19f8da3c345175b0fdb09bc09e1ff25",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39920082528,
-   "reason": "updated after the review",
-   "status": "requeue",
-   "title": "govc: 0.55.1 -> 0.56.0",
-   "tries": 1
+   "requeued": true,
+   "run_id": 40165999065,
+   "status": "dispatched",
+   "time": "2026-10-25T05:34:00+00:00",
+   "title": "govc: 0.55.1 -> 0.56.1"
   },
   "554977": {
    "run_id": 39919915840,
@@ -3679,11 +3781,14 @@
    "title": "iqtree: 3.1.3 -> 3.1.4"
   },
   "561974": {
-   "head": "ba2c28edf9c74737fb865495c36a92c5035ca012",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39844276544,
-   "reason": "updated after the review",
-   "status": "requeue",
-   "title": "python3Packages.pyhanko-certvalidator: 0.31.4 -> 0.32.1"
+   "requeued": true,
+   "run_id": 40166165055,
+   "status": "dispatched",
+   "time": "2026-10-25T05:36:45+00:00",
+   "title": "python3Packages.pyhanko-certvalidator: 0.31.4 -> 0.33.0"
   },
   "561978": {
    "final": "cancelled after 4 hours",
