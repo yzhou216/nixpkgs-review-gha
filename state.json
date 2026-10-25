@@ -10421,6 +10421,14 @@
    "time": "2026-10-24T22:58:55+00:00",
    "title": "sherpa: 3.0.4 -> 3.0.5"
   },
+  "578319": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40174481999,
+   "status": "dispatched",
+   "time": "2026-10-25T07:53:19+00:00",
+   "title": "python3Packages.python-ndn: 0.5.0 -> 0.5.2"
+  },
   "578321": {
    "darwin": true,
    "on_success": "nothing",
@@ -10464,10 +10472,12 @@
    "tries": 0
   },
   "578349": {
-   "reason": "mergeability unknown",
-   "status": "retry",
-   "title": "python3Packages.trimesh: 5.1.1 -> 5.2.0",
-   "tries": 2
+   "darwin": true,
+   "on_success": "approve",
+   "run_id": 40174135032,
+   "status": "dispatched",
+   "time": "2026-10-25T07:47:55+00:00",
+   "title": "python3Packages.trimesh: 5.1.1 -> 5.2.0"
   },
   "578351": {
    "darwin": true,
