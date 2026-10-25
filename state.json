@@ -426,7 +426,9 @@
   },
   "541126": {
    "darwin": true,
+   "examined": 1,
    "extra_args": "--eval local",
+   "final": "review (aarch64-darwin): Connect Timeout Error (attempted address: api.github.com:443, timeout: 10000ms)",
    "on_success": "nothing",
    "previous_run_id": 40018441044,
    "requeued": true,
@@ -8650,12 +8652,74 @@
    "time": "2026-10-23T22:26:46+00:00",
    "title": "protonmail-desktop: 1.15.1 -> 1.16.0"
   },
+  "577495": {
+   "darwin": false,
+   "on_success": "nothing",
+   "run_id": 40144712439,
+   "status": "dispatched",
+   "time": "2026-10-24T23:56:08+00:00",
+   "title": "ecs-agent: 1.108.0 -> 1.108.1"
+  },
+  "577512": {
+   "darwin": false,
+   "on_success": "nothing",
+   "run_id": 40144601780,
+   "status": "dispatched",
+   "time": "2026-10-24T23:54:24+00:00",
+   "title": "apptainer-overriden-nixos: 1.5.4 -> 1.5.5"
+  },
+  "577527": {
+   "darwin": false,
+   "on_success": "nothing",
+   "run_id": 40144384610,
+   "status": "dispatched",
+   "time": "2026-10-24T23:50:56+00:00",
+   "title": "seadrive-gui: 3.0.26 -> 3.0.27"
+  },
+  "577531": {
+   "darwin": false,
+   "on_success": "nothing",
+   "run_id": 40144264325,
+   "status": "dispatched",
+   "time": "2026-10-24T23:49:08+00:00",
+   "title": "seadrive-fuse: 3.0.26 -> 3.0.27"
+  },
   "577532": {
    "darwin": true,
    "run_id": 40032755158,
    "status": "dispatched",
    "time": "2026-10-23T22:18:33+00:00",
    "title": "python3Packages.airthings-cloud: 0.3.0 -> 0.3.1"
+  },
+  "577537": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40144302103,
+   "status": "dispatched",
+   "time": "2026-10-24T23:49:43+00:00",
+   "title": "python3Packages.python-didl-lite: 1.5.1 -> 1.5.2"
+  },
+  "577539": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40144493793,
+   "status": "dispatched",
+   "time": "2026-10-24T23:52:39+00:00",
+   "title": "python3Packages.django-mfa3: 1.1.1 -> 1.1.2"
+  },
+  "577558": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40144995879,
+   "status": "dispatched",
+   "time": "2026-10-25T00:00:35+00:00",
+   "title": "grafana-loki: 3.7.8 -> 3.7.9"
+  },
+  "577568": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "devin-desktop: 3.10.48 -> 3.10.67",
+   "tries": 0
   },
   "577591": {
    "darwin": true,
@@ -8671,6 +8735,12 @@
    "time": "2026-10-23T22:17:11+00:00",
    "title": "eslint: 10.12.0 -> 10.13.0"
   },
+  "577601": {
+   "reason": "has nixpkgs-review-gha comment",
+   "status": "skipped",
+   "title": "python3Packages.levenshtein: 0.27.4 -> 0.27.5",
+   "tries": 0
+  },
   "577610": {
    "darwin": true,
    "run_id": 40032535552,
@@ -8678,12 +8748,46 @@
    "time": "2026-10-23T22:16:31+00:00",
    "title": "man-pages: 6.19 -> 6.20"
   },
+  "577620": {
+   "darwin": false,
+   "on_success": "nothing",
+   "run_id": 40144078368,
+   "status": "dispatched",
+   "time": "2026-10-24T23:46:16+00:00",
+   "title": "kde-rounded-corners: 0.10.0 -> 0.11.0"
+  },
+  "577625": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "python3Packages.satel-integra: 1.5.0 -> 1.6.0",
+   "tries": 0
+  },
+  "577633": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "babashka-unwrapped: 1.13.225 -> 1.13.226",
+   "tries": 0
+  },
+  "577663": {
+   "darwin": false,
+   "on_success": "nothing",
+   "run_id": 40144010673,
+   "status": "dispatched",
+   "time": "2026-10-24T23:45:19+00:00",
+   "title": "dislocker: 0.7.3-unstable-2026-08-31 -> 0.7.4-unstable-2026-10-21"
+  },
   "577709": {
    "darwin": true,
    "run_id": 40032460462,
    "status": "dispatched",
    "time": "2026-10-23T22:15:49+00:00",
    "title": "wanderer: 0.21.0 -> 0.21.1"
+  },
+  "577733": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "vscode-extensions.betterthantomorrow.calva: 2.0.599 -> 2.0.601",
+   "tries": 0
   },
   "577742": {
    "darwin": true,
@@ -8698,6 +8802,26 @@
    "status": "dispatched",
    "time": "2026-10-23T22:14:27+00:00",
    "title": "envoy-bin: 1.40.0 -> 1.40.1"
+  },
+  "577771": {
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "protonup-qt: 2.15.1 -> 2.16.0",
+   "tries": 0
+  },
+  "577813": {
+   "darwin": false,
+   "on_success": "nothing",
+   "run_id": 40143553687,
+   "status": "dispatched",
+   "time": "2026-10-24T23:38:23+00:00",
+   "title": "libretro.dolphin: 0-unstable-2026-10-11 -> 0-unstable-2026-10-23"
+  },
+  "577822": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "drawio: 32.4.1 -> 32.5.5",
+   "tries": 0
   },
   "577831": {
    "darwin": false,
@@ -8729,11 +8853,27 @@
    "time": "2026-10-23T22:13:03+00:00",
    "title": "cloudflare-warp: 2026.8.2110.0 -> 2026.8.2115.0"
   },
+  "577867": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40143627221,
+   "status": "dispatched",
+   "time": "2026-10-24T23:39:32+00:00",
+   "title": "stylelint: 17.14.1 -> 18.0.0-next.0"
+  },
   "577868": {
    "reason": "not open",
    "status": "skipped",
    "title": "time-decode: 10.4.2 -> 11.0.0",
    "tries": 0
+  },
+  "577872": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40143216765,
+   "status": "dispatched",
+   "time": "2026-10-24T23:33:23+00:00",
+   "title": "xandikos: 0.4.9 -> 0.4.10"
   },
   "577873": {
    "darwin": false,
@@ -8741,6 +8881,14 @@
    "status": "dispatched",
    "time": "2026-10-23T22:12:24+00:00",
    "title": "vivaldi: 8.2.4133.87 -> 8.2.4133.94"
+  },
+  "577878": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40143263356,
+   "status": "dispatched",
+   "time": "2026-10-24T23:34:05+00:00",
+   "title": "ocamlPackages.alcobar: 0.3.2 -> 0.4.0"
   },
   "577907": {
    "darwin": false,
@@ -8778,11 +8926,35 @@
    "time": "2026-10-24T23:27:33+00:00",
    "title": "tinycbor: 7.0 -> 7.1"
   },
+  "578002": {
+   "darwin": true,
+   "on_success": "approve",
+   "run_id": 40143382946,
+   "status": "dispatched",
+   "time": "2026-10-24T23:35:50+00:00",
+   "title": "nu_scripts: 0-unstable-2026-10-02 -> 0-unstable-2026-10-23"
+  },
+  "578010": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40143430615,
+   "status": "dispatched",
+   "time": "2026-10-24T23:36:30+00:00",
+   "title": "cubeb: 0-unstable-2026-09-16 -> 0-unstable-2026-10-22"
+  },
   "578020": {
    "reason": "not open",
    "status": "skipped",
    "title": "python3Packages.apache-tvm-ffi: 0.1.14-post1 -> 0.1.15-post0",
    "tries": 0
+  },
+  "578030": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40143886913,
+   "status": "dispatched",
+   "time": "2026-10-24T23:43:28+00:00",
+   "title": "libargs: 6.6.0 -> 6.6.1"
   },
   "578059": {
    "darwin": false,
