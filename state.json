@@ -460,6 +460,38 @@
    "time": "2026-10-25T04:30:14+00:00",
    "title": "cifs-utils: 7.5 -> 7.9"
   },
+  "532580": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40195512298,
+   "status": "dispatched",
+   "time": "2026-10-25T12:58:42+00:00",
+   "title": "agdaPackages.standard-library: 2.3 -> 2.4"
+  },
+  "532593": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40194873780,
+   "status": "dispatched",
+   "time": "2026-10-25T12:50:07+00:00",
+   "title": "go-toml: 2.3.1 -> 2.4.3"
+  },
+  "532837": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40194821154,
+   "status": "dispatched",
+   "time": "2026-10-25T12:49:23+00:00",
+   "title": "libmpdclient: 2.24 -> 2.27"
+  },
+  "532967": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40194578294,
+   "status": "dispatched",
+   "time": "2026-10-25T12:46:05+00:00",
+   "title": "planarity: 4.0.1.0 -> 5.1.0.0"
+  },
   "533251": {
    "reason": "not open",
    "status": "skipped",
@@ -492,11 +524,35 @@
    "title": "kdePackages.kquickimageedit: 0.6.1 -> 0.6.2",
    "tries": 0
   },
+  "533478": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40194483606,
+   "status": "dispatched",
+   "time": "2026-10-25T12:44:52+00:00",
+   "title": "liblo: 0.35 -> 0.36"
+  },
   "533842": {
    "reason": "mergeability unknown",
    "status": "retry",
    "title": "python3Packages.conda: 26.5.2 -> 26.7.2",
    "tries": 2
+  },
+  "534430": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40194310949,
+   "status": "dispatched",
+   "time": "2026-10-25T12:42:32+00:00",
+   "title": "dleyna: 0.8.3 -> 0.8.5"
+  },
+  "534675": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40193824884,
+   "status": "dispatched",
+   "time": "2026-10-25T12:36:02+00:00",
+   "title": "python3Packages.inscriptis: 2.7.1 -> 2.7.5"
   },
   "534821": {
    "head": "ccf048e99b846ad6ef70cb4b45b81aa8d5663398",
@@ -506,6 +562,24 @@
    "status": "dispatched",
    "time": "2026-10-23T21:45:35+00:00",
    "title": "bezel: init at 1.1.0, nixos/bezel: init"
+  },
+  "534856": {
+   "darwin": true,
+   "examined": 1,
+   "final": "review (aarch64-linux): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.",
+   "on_success": "nothing",
+   "run_id": 40193495094,
+   "status": "dispatched",
+   "time": "2026-10-25T12:31:35+00:00",
+   "title": "piv-agent: 0.24.0 -> 2.0.0"
+  },
+  "534890": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40193444553,
+   "status": "dispatched",
+   "time": "2026-10-25T12:30:56+00:00",
+   "title": "livepeer: 0.8.10 -> 0.9.2"
   },
   "534990": {
    "darwin": false,
@@ -581,6 +655,8 @@
   },
   "535223": {
    "darwin": true,
+   "examined": 1,
+   "final": "review (aarch64-darwin): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.",
    "on_success": "nothing",
    "run_id": 40192809904,
    "status": "dispatched",
@@ -589,6 +665,8 @@
   },
   "535280": {
    "darwin": true,
+   "examined": 1,
+   "final": "review (aarch64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.",
    "on_success": "nothing",
    "run_id": 40192413002,
    "status": "dispatched",
