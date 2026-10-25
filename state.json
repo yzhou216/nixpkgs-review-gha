@@ -1171,6 +1171,7 @@
   },
   "543188": {
    "darwin": true,
+   "final": "cancelled after 4 hours",
    "on_success": "nothing",
    "previous_run_id": 40002623641,
    "requeued": true,
@@ -1192,6 +1193,7 @@
   },
   "543374": {
    "darwin": true,
+   "final": "cancelled after 4 hours",
    "on_success": "nothing",
    "previous_run_id": 40001088369,
    "requeued": true,
@@ -1214,6 +1216,7 @@
   "543500": {
    "darwin": true,
    "extra_args": "--eval local",
+   "final": "cancelled after 4 hours",
    "on_success": "nothing",
    "previous_run_id": 40000243828,
    "requeued": true,
@@ -2354,12 +2357,14 @@
    "title": "kamailio: 6.1.3 -> 6.1.5"
   },
   "554916": {
-   "head": "52d623e6f4d06a78eddbb5e01afdb2d3a257439a",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39920246467,
-   "reason": "updated after the review",
-   "status": "requeue",
-   "title": "yandex-cloud: 1.25.0 -> 1.40.0",
-   "tries": 3
+   "requeued": true,
+   "run_id": 40177495523,
+   "status": "dispatched",
+   "time": "2026-10-25T08:39:38+00:00",
+   "title": "yandex-cloud: 1.25.0 -> 1.41.0"
   },
   "554968": {
    "darwin": true,
@@ -10385,11 +10390,35 @@
    "time": "2026-10-24T23:02:23+00:00",
    "title": "gale: 1.23.1 -> 1.23.2"
   },
+  "578219": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40178628354,
+   "status": "dispatched",
+   "time": "2026-10-25T08:56:42+00:00",
+   "title": "libcpr: 1.15.0 -> 1.15.1"
+  },
+  "578220": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40178585814,
+   "status": "dispatched",
+   "time": "2026-10-25T08:56:03+00:00",
+   "title": "vermin: 1.8.0 -> 1.9.2"
+  },
   "578224": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40178433235,
+   "status": "dispatched",
+   "time": "2026-10-25T08:53:43+00:00",
+   "title": "python3Packages.allure-python-commons-test: 2.16.0 -> 2.16.2"
+  },
+  "578226": {
    "reason": "mergeability unknown",
    "status": "retry",
-   "title": "python3Packages.allure-python-commons-test: 2.16.0 -> 2.16.2",
-   "tries": 2
+   "title": "bazel-remote: 2.6.3 -> 2.6.4",
+   "tries": 1
   },
   "578257": {
    "darwin": false,
@@ -10398,6 +10427,54 @@
    "status": "dispatched",
    "time": "2026-10-24T23:01:06+00:00",
    "title": "onedrive: 2.5.11 -> 2.5.12"
+  },
+  "578280": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40178278650,
+   "status": "dispatched",
+   "time": "2026-10-25T08:51:23+00:00",
+   "title": "tock: 2.0.4 -> 2.0.8"
+  },
+  "578281": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40178059226,
+   "status": "dispatched",
+   "time": "2026-10-25T08:48:02+00:00",
+   "title": "tree-sitter-grammars.tree-sitter-markdown-inline: 0.5.3 -> 0.5.4"
+  },
+  "578282": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40177980984,
+   "status": "dispatched",
+   "time": "2026-10-25T08:46:50+00:00",
+   "title": "tree-sitter-grammars.tree-sitter-markdown: 0.5.3 -> 0.5.4"
+  },
+  "578294": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40177862309,
+   "status": "dispatched",
+   "time": "2026-10-25T08:45:06+00:00",
+   "title": "gokrazy: 0-unstable-2026-09-13 -> 0-unstable-2026-10-20"
+  },
+  "578295": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40177814091,
+   "status": "dispatched",
+   "time": "2026-10-25T08:44:24+00:00",
+   "title": "vscode-extensions.danielsanmedium.dscodegpt: 3.24.77 -> 3.24.79"
+  },
+  "578302": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40177772632,
+   "status": "dispatched",
+   "time": "2026-10-25T08:43:45+00:00",
+   "title": "python3Packages.copykitten: 2.0.0 -> 2.1.0"
   },
   "578303": {
    "darwin": false,
@@ -10420,6 +10497,22 @@
    "status": "dispatched",
    "time": "2026-10-24T22:58:55+00:00",
    "title": "sherpa: 3.0.4 -> 3.0.5"
+  },
+  "578317": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40177587311,
+   "status": "dispatched",
+   "time": "2026-10-25T08:40:58+00:00",
+   "title": "python3Packages.oca-port: 0.22 -> 0.24"
+  },
+  "578318": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40177540737,
+   "status": "dispatched",
+   "time": "2026-10-25T08:40:16+00:00",
+   "title": "sqldef: 3.11.26 -> 3.11.27"
   },
   "578319": {
    "darwin": true,
