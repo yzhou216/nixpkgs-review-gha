@@ -145,6 +145,22 @@
    "title": "python3Packages.uritools: 6.0.2 -> 6.1.0",
    "tries": 0
   },
+  "516933": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40208723154,
+   "status": "dispatched",
+   "time": "2026-10-25T15:49:00+00:00",
+   "title": "python3Packages.appimage: 1.2.0 -> 2.0.1"
+  },
+  "517153": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40208423315,
+   "status": "dispatched",
+   "time": "2026-10-25T15:45:09+00:00",
+   "title": "python3Packages.btrees: 6.3 -> 6.5"
+  },
   "517427": {
    "darwin": false,
    "on_success": "nothing",
@@ -169,17 +185,143 @@
    "title": "python3Packages.drf-standardized-errors: 0.15.0 -> 0.16.0",
    "tries": 0
   },
+  "517842": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40208369920,
+   "status": "dispatched",
+   "time": "2026-10-25T15:44:29+00:00",
+   "title": "python3Packages.python3-gnutls: 3.1.10 -> 3.1.14"
+  },
+  "517910": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40208317633,
+   "status": "dispatched",
+   "time": "2026-10-25T15:43:49+00:00",
+   "title": "devpi-client: 7.2.1 -> 7.3.0"
+  },
+  "517911": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40208264103,
+   "status": "dispatched",
+   "time": "2026-10-25T15:43:07+00:00",
+   "title": "python3Packages.bubop: 0.2.3 -> 0.2.4a0"
+  },
+  "517959": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40208201454,
+   "status": "dispatched",
+   "time": "2026-10-25T15:42:21+00:00",
+   "title": "anders: 5.0.0 -> 5.1.0"
+  },
+  "518041": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40207903566,
+   "status": "dispatched",
+   "time": "2026-10-25T15:38:35+00:00",
+   "title": "python3Packages.csvw: 3.7.0 -> 4.1.0"
+  },
+  "518145": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40207856523,
+   "status": "dispatched",
+   "time": "2026-10-25T15:37:57+00:00",
+   "title": "python3Packages.quil: 0.35.0 -> 0.36.0"
+  },
+  "518151": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40207553407,
+   "status": "dispatched",
+   "time": "2026-10-25T15:34:05+00:00",
+   "title": "gpac-unstable: 26.07.0-unstable-2026-08-04 -> 26.07.0-unstable-2026-10-12"
+  },
   "518174": {
    "reason": "merge conflict",
    "status": "skipped",
    "title": "ocamlPackages.unisim_archisec: 0.0.13 -> 0.0.14",
    "tries": 0
   },
+  "518224": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40207231303,
+   "status": "dispatched",
+   "time": "2026-10-25T15:30:09+00:00",
+   "title": "grafanaPlugins.grafana-clickhouse-datasource: 4.16.0 -> 4.22.1"
+  },
+  "518288": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40207179535,
+   "status": "dispatched",
+   "time": "2026-10-25T15:29:30+00:00",
+   "title": "constructium: 2026-04-12 -> 2026-09-21"
+  },
+  "518462": {
+   "darwin": true,
+   "examined": 1,
+   "final": "review (aarch64-darwin): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.",
+   "on_success": "nothing",
+   "run_id": 40206971093,
+   "status": "dispatched",
+   "time": "2026-10-25T15:26:51+00:00",
+   "title": "python3Packages.onedrive-personal-sdk: 0.1.7 -> 1.1.1"
+  },
+  "518502": {
+   "darwin": true,
+   "examined": 1,
+   "final": "review (aarch64-linux): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.",
+   "on_success": "nothing",
+   "run_id": 40206920332,
+   "status": "dispatched",
+   "time": "2026-10-25T15:26:12+00:00",
+   "title": "python3Packages.downloader-cli: 0.3.4 -> 2019.11.15"
+  },
   "518559": {
    "reason": "merge conflict",
    "status": "skipped",
    "title": "python3Packages.weblate-schemas: 2026.4 -> 2026.6",
    "tries": 0
+  },
+  "518562": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40206783168,
+   "status": "dispatched",
+   "time": "2026-10-25T15:24:29+00:00",
+   "title": "tree-sitter-grammars.tree-sitter-ocaml-interface: 0.24.2 -> 0.26.0"
+  },
+  "518565": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40206731068,
+   "status": "dispatched",
+   "time": "2026-10-25T15:23:51+00:00",
+   "title": "python3Packages.azure-mgmt-netapp: 16.0.0 -> 17.1.0"
+  },
+  "518591": {
+   "darwin": true,
+   "examined": 1,
+   "final": "review (aarch64-darwin): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.",
+   "on_success": "nothing",
+   "run_id": 40206679921,
+   "status": "dispatched",
+   "time": "2026-10-25T15:23:10+00:00",
+   "title": "python3Packages.typepy: 1.3.4 -> 2.0.0"
+  },
+  "518595": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40206628867,
+   "status": "dispatched",
+   "time": "2026-10-25T15:22:31+00:00",
+   "title": "python3Packages.persistent: 6.5 -> 6.8"
   },
   "518726": {
    "reason": "merge conflict",
@@ -197,6 +339,8 @@
   },
   "519247": {
    "darwin": true,
+   "examined": 1,
+   "final": "review (x86_64-linux): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.",
    "on_success": "nothing",
    "run_id": 40206110990,
    "status": "dispatched",
@@ -205,6 +349,8 @@
   },
   "519256": {
    "darwin": true,
+   "examined": 1,
+   "final": "review (x86_64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.",
    "on_success": "nothing",
    "run_id": 40205725283,
    "status": "dispatched",
@@ -213,6 +359,8 @@
   },
   "519289": {
    "darwin": true,
+   "examined": 1,
+   "final": "review (aarch64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.",
    "on_success": "nothing",
    "run_id": 40205670351,
    "status": "dispatched",
@@ -231,6 +379,8 @@
   },
   "519618": {
    "darwin": true,
+   "examined": 1,
+   "final": "review (aarch64-darwin): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.",
    "on_success": "nothing",
    "run_id": 40205444977,
    "status": "dispatched",
@@ -261,6 +411,8 @@
   },
   "520320": {
    "darwin": true,
+   "examined": 1,
+   "final": "review (aarch64-linux): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.",
    "on_success": "nothing",
    "run_id": 40205396552,
    "status": "dispatched",
@@ -269,6 +421,8 @@
   },
   "520439": {
    "darwin": true,
+   "examined": 1,
+   "final": "review (x86_64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.",
    "on_success": "nothing",
    "run_id": 40204833963,
    "status": "dispatched",
