@@ -22,7 +22,8 @@ therefore counts the jobs that review runs occupy rather than the runs, and
 caps Darwin reviews separately.  A pull request whose CI label reports no
 Darwin rebuilds is reviewed without the aarch64-darwin job, so it needs no
 Mac at all.  While the Darwin cap is full, the script keeps dispatching such
-Linux-only reviews.
+Linux-only reviews, and the reviews that need a Mac wait in the order they
+arrived until there is room.
 
 Pull requests by COMMENT_ONLY_AUTHORS get the review result as a comment
 but no approval.  A committer asked on #550000 for no automated approvals of
@@ -51,6 +52,7 @@ DRY_RUN and TIME_BUDGET (seconds).  Runs with a LIMIT or DRY_RUN do not
 chain.
 """
 
+import collections
 import datetime
 import json
 import os
@@ -595,6 +597,8 @@ def run(start):
     cancelled = set()
     # Whether a candidate needed Darwin when last checked, to pass over it while Macs are busy
     darwin_hint = {}
+    # Checked candidates that need a Mac while the Darwin cap is full, served first come, first served
+    waiting_for_mac = collections.deque()
     jobs = darwin_reviews = 0
     checked = committed = start
     chain = LIMIT is None and not DRY_RUN
@@ -662,7 +666,7 @@ def run(start):
         jobs = sum(footprint(r) for r in active)
         darwin_reviews = sum(1 for r in batch if r not in long_runs and uses_mac(r))
         darwin_room = darwin_reviews < (MAX_DARWIN_CONSTRAINED if constrained else MAX_DARWIN)
-        if not queue and not reruns:
+        if not queue and not reruns and not waiting_for_mac:
             if not batch and not any(r.get("rerun") for r in records.values()):
                 if not DRY_RUN:
                     log("all candidates handled and no batch review in flight, disabling batch-review")
@@ -697,20 +701,23 @@ def run(start):
                 fetched = 0.0
                 reran += 1
             continue
-        if not queue:
+        if not queue and not (darwin_room and waiting_for_mac):
             time.sleep(60)
             fetched = 0.0
             continue
         if time.time() - seen_at > SEEN_INTERVAL:
             seen |= {pr_of(r) for r in fork_runs()} - {None}
             seen_at = time.time()
-        # With the Darwin cap full, pass over candidates known to need a Mac
-        pick = 0 if darwin_room else next((i for i, c in enumerate(queue) if darwin_hint.get(c["number"]) is not True), None)
-        if pick is None:
-            time.sleep(30)
-            fetched = 0.0
-            continue
-        cand = queue.pop(pick)
+        if darwin_room and waiting_for_mac:
+            cand = waiting_for_mac.popleft()
+        else:
+            # With the Darwin cap full, pass over candidates known to need a Mac
+            pick = 0 if darwin_room else next((i for i, c in enumerate(queue) if darwin_hint.get(c["number"]) is not True), None)
+            if pick is None:
+                time.sleep(30)
+                fetched = 0.0
+                continue
+            cand = queue.pop(pick)
         n = cand["number"]
         requeue = cand.get("requeue", False)
         old = records.get(str(n), {})
@@ -723,7 +730,7 @@ def run(start):
                 status, reason, title, darwin, on_success = "skipped", f"lookup failed: {e}", cand["title"], None, None
         darwin_hint[n] = darwin
         if status == "ok" and darwin and not darwin_room:
-            queue.insert(0, cand)
+            waiting_for_mac.append(cand)
             continue
         if requeue and status == "retry" and old.get("tries", 0) < MAX_TRIES:
             old["tries"] = old.get("tries", 0) + 1
