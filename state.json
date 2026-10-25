@@ -8891,11 +8891,35 @@
    "time": "2026-10-25T02:31:06+00:00",
    "title": "headsetcontrol: 4.1.0 -> 4.2.0"
   },
+  "576622": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40154826687,
+   "status": "dispatched",
+   "time": "2026-10-25T02:32:21+00:00",
+   "title": "home-assistant-custom-lovelace-modules.auto-entities: 2.8.2 -> 2.8.3"
+  },
+  "576639": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40154936247,
+   "status": "dispatched",
+   "time": "2026-10-25T02:34:05+00:00",
+   "title": "azure-storage-azcopy: 10.32.8 -> 10.34.0"
+  },
   "576646": {
    "reason": "not open",
    "status": "skipped",
    "title": "langgraph-cli: 0.4.35 -> 0.4.37",
    "tries": 0
+  },
+  "576648": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40155054575,
+   "status": "dispatched",
+   "time": "2026-10-25T02:35:55+00:00",
+   "title": "vscode-extensions.sumneko.lua: 3.19.1 -> 3.19.2"
   },
   "576689": {
    "darwin": true,
@@ -8910,6 +8934,14 @@
    "status": "dispatched",
    "time": "2026-10-23T22:27:28+00:00",
    "title": "bazel_9: 9.2.0 -> 9.3.1"
+  },
+  "576726": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40155166846,
+   "status": "dispatched",
+   "time": "2026-10-25T02:37:39+00:00",
+   "title": "python3Packages.langgraph-checkpoint: 4.2.0 -> 4.3.0"
   },
   "576751": {
    "darwin": false,
@@ -8933,6 +8965,14 @@
    "time": "2026-10-23T22:22:50+00:00",
    "title": "cloudflared: 2026.10.1 -> 2026.10.3"
   },
+  "576799": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40155207710,
+   "status": "dispatched",
+   "time": "2026-10-25T02:38:18+00:00",
+   "title": "python3Packages.getjump: 2.10.2 -> 3.0.2"
+  },
   "576822": {
    "darwin": false,
    "on_success": "nothing",
@@ -8948,6 +8988,22 @@
    "status": "dispatched",
    "time": "2026-10-25T00:28:36+00:00",
    "title": "unihan-database: 17.0.0 -> 18.0.0"
+  },
+  "576830": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40155283328,
+   "status": "dispatched",
+   "time": "2026-10-25T02:39:31+00:00",
+   "title": "zbus-xmlgen: 5.4.1 -> 6.0.0"
+  },
+  "576832": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40155404415,
+   "status": "dispatched",
+   "time": "2026-10-25T02:41:20+00:00",
+   "title": "python3Packages.cloudcheck: 11.1.0 -> 11.2.0"
   },
   "576834": {
    "darwin": false,
@@ -9000,6 +9056,14 @@
    "status": "dispatched",
    "time": "2026-10-23T22:20:03+00:00",
    "title": "anyrun: 26.6.1 -> 26.10.0"
+  },
+  "576977": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40155482757,
+   "status": "dispatched",
+   "time": "2026-10-25T02:42:32+00:00",
+   "title": "leaf-markdown-viewer: 1.28.3 -> 1.29.1"
   },
   "576986": {
    "darwin": true,
@@ -9055,11 +9119,33 @@
    "time": "2026-10-23T22:24:47+00:00",
    "title": "getmail6: 6.20.01 -> 6.20.02"
   },
+  "577159": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40155519641,
+   "status": "dispatched",
+   "time": "2026-10-25T02:43:07+00:00",
+   "title": "iir1: 1.10.0 -> 1.11.0"
+  },
   "577164": {
    "reason": "not open",
    "status": "skipped",
    "title": "libxisf: 0.2.13 -> 0.2.14",
    "tries": 0
+  },
+  "577190": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40155662580,
+   "status": "dispatched",
+   "time": "2026-10-25T02:45:23+00:00",
+   "title": "python3Packages.pytimeparse: 1.1.9 -> 1.1.10"
+  },
+  "577217": {
+   "reason": "mergeability unknown",
+   "status": "retry",
+   "title": "cedar: 4.13.0 -> 4.14.0",
+   "tries": 1
   },
   "577235": {
    "darwin": false,
@@ -9098,6 +9184,14 @@
    "status": "dispatched",
    "time": "2026-10-25T00:13:56+00:00",
    "title": "signaturepdf: 1.9.2 -> 1.11.0"
+  },
+  "577258": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40155977674,
+   "status": "dispatched",
+   "time": "2026-10-25T02:50:29+00:00",
+   "title": "python3Packages.apycula: 0.34 -> 0.35"
   },
   "577326": {
    "darwin": true,
