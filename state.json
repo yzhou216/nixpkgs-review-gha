@@ -167,6 +167,96 @@
    "time": "2026-10-23T21:45:35+00:00",
    "title": "bezel: init at 1.1.0, nixos/bezel: init"
   },
+  "534992": {
+   "darwin": false,
+   "on_success": "nothing",
+   "run_id": 40160694069,
+   "status": "dispatched",
+   "time": "2026-10-25T04:06:54+00:00",
+   "title": "asahi-bless: 0.4.3 -> 0.4.4"
+  },
+  "534994": {
+   "darwin": false,
+   "on_success": "nothing",
+   "run_id": 40160518276,
+   "status": "dispatched",
+   "time": "2026-10-25T04:04:06+00:00",
+   "title": "asahi-wifisync: 0.2.3 -> 0.2.4"
+  },
+  "535000": {
+   "darwin": false,
+   "on_success": "nothing",
+   "run_id": 40160480121,
+   "status": "dispatched",
+   "time": "2026-10-25T04:03:27+00:00",
+   "title": "asahi-nvram: 0.2.4 -> 0.2.5"
+  },
+  "535100": {
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "python3Packages.translate-toolkit: 3.19.11 -> 3.20.0",
+   "tries": 0
+  },
+  "535116": {
+   "darwin": false,
+   "on_success": "nothing",
+   "run_id": 40160428379,
+   "status": "dispatched",
+   "time": "2026-10-25T04:02:36+00:00",
+   "title": "python3Packages.libpulse: 0.7 -> 0.7.1"
+  },
+  "535968": {
+   "darwin": false,
+   "on_success": "nothing",
+   "run_id": 40159911485,
+   "status": "dispatched",
+   "time": "2026-10-25T03:54:09+00:00",
+   "title": "toml-f: 0.5.1 -> 0.5.2"
+  },
+  "536193": {
+   "darwin": false,
+   "on_success": "nothing",
+   "run_id": 40159801553,
+   "status": "dispatched",
+   "time": "2026-10-25T03:52:20+00:00",
+   "title": "libhighscore: 0-unstable-2026-04-01 -> 0-unstable-2026-10-09"
+  },
+  "536194": {
+   "darwin": false,
+   "on_success": "nothing",
+   "run_id": 40159697745,
+   "status": "dispatched",
+   "time": "2026-10-25T03:50:38+00:00",
+   "title": "highscore-mgba: 0-unstable-2026-06-19 -> 0-unstable-2026-08-09"
+  },
+  "536371": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "wgpu-native: 27.0.4.0 -> 29.0.1.1",
+   "tries": 0
+  },
+  "536386": {
+   "darwin": false,
+   "on_success": "nothing",
+   "run_id": 40159544286,
+   "status": "dispatched",
+   "time": "2026-10-25T03:48:07+00:00",
+   "title": "galene: 1.0 -> 1.2.1"
+  },
+  "536480": {
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "python3Packages.jsonschema-rs: 0.46.5 -> 0.56.0",
+   "tries": 0
+  },
+  "536847": {
+   "darwin": false,
+   "on_success": "nothing",
+   "run_id": 40159492960,
+   "status": "dispatched",
+   "time": "2026-10-25T03:47:15+00:00",
+   "title": "signls: 0.7.1 -> 0.9.0"
+  },
   "536954": {
    "reason": "merge conflict",
    "status": "skipped",
@@ -175,6 +265,8 @@
   },
   "537834": {
    "darwin": false,
+   "examined": 1,
+   "final": "review (x86_64-linux): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.",
    "on_success": "nothing",
    "run_id": 40158402474,
    "status": "dispatched",
@@ -503,24 +595,36 @@
    "title": "python3Packages.autograd: 1.9.0 -> 1.9.1"
   },
   "541296": {
+   "darwin": true,
    "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40012359834,
-   "reason": "no CI evaluation",
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 40159016980,
+   "status": "dispatched",
+   "time": "2026-10-25T03:39:27+00:00",
    "title": "prometheus-elasticsearch-exporter: 1.10.0 -> 1.11.0"
   },
   "541325": {
+   "darwin": true,
    "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40011951997,
-   "reason": "no CI evaluation",
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 40159191085,
+   "status": "dispatched",
+   "time": "2026-10-25T03:42:16+00:00",
    "title": "python3Packages.azure-mgmt-domainregistration: 1.0.0b1 -> 1.0.0"
   },
   "541346": {
+   "darwin": true,
    "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40011488454,
-   "reason": "no CI evaluation",
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 40160079811,
+   "status": "dispatched",
+   "time": "2026-10-25T03:56:56+00:00",
    "title": "python3Packages.ago: 0.1.0 -> 0.1.1"
   },
   "541387": {
@@ -536,10 +640,14 @@
    "title": "tmuxPlugins.session-wizard: 1.4.0 -> 1.6.0"
   },
   "541472": {
+   "darwin": true,
    "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40010198457,
-   "reason": "no CI evaluation",
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 40160374838,
+   "status": "dispatched",
+   "time": "2026-10-25T04:01:45+00:00",
    "title": "kubernetes-metrics-server: 0.6.4 -> 0.9.0"
   },
   "541502": {
