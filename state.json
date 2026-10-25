@@ -245,6 +245,38 @@
    "title": "tmuxPlugins.rose-pine: unstable-2024-01-08 -> 0-unstable-2026-03-24",
    "tries": 0
   },
+  "522156": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40203306118,
+   "status": "dispatched",
+   "time": "2026-10-25T14:40:05+00:00",
+   "title": "python3Packages.cli-helpers: 2.15.1 -> 2.15.2"
+  },
+  "522187": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40203174888,
+   "status": "dispatched",
+   "time": "2026-10-25T14:38:22+00:00",
+   "title": "python3Packages.doublemetaphone: 1.2i -> 1.2"
+  },
+  "522199": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40203031647,
+   "status": "dispatched",
+   "time": "2026-10-25T14:36:31+00:00",
+   "title": "python3Packages.genshi: 0.7.10 -> 0.7.11"
+  },
+  "522435": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40202896916,
+   "status": "dispatched",
+   "time": "2026-10-25T14:34:48+00:00",
+   "title": "python3Packages.litestar: 2.21.1 -> 2.23.0"
+  },
   "522629": {
    "darwin": false,
    "examined": 1,
@@ -254,6 +286,24 @@
    "status": "dispatched",
    "time": "2026-10-25T05:19:22+00:00",
    "title": "tartan: 0.3.0-unstable-2025-01-07 -> 0.3.0-unstable-2025-11-09"
+  },
+  "522717": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40202850838,
+   "status": "dispatched",
+   "time": "2026-10-25T14:34:09+00:00",
+   "title": "uutils-hostname: 0-unstable-2026-05-12 -> 0-unstable-2026-10-17"
+  },
+  "522748": {
+   "darwin": true,
+   "examined": 1,
+   "final": "review (x86_64-linux): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.",
+   "on_success": "nothing",
+   "run_id": 40202050263,
+   "status": "dispatched",
+   "time": "2026-10-25T14:24:04+00:00",
+   "title": "python3Packages.glymur: 0.14.7 -> 0.14.8"
   },
   "522873": {
    "darwin": false,
@@ -274,14 +324,36 @@
    "time": "2026-10-25T05:06:05+00:00",
    "title": "serviio: 2.4 -> 2.5"
   },
+  "522922": {
+   "darwin": true,
+   "examined": 1,
+   "final": "review (aarch64-linux): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.",
+   "on_success": "nothing",
+   "run_id": 40201836345,
+   "status": "dispatched",
+   "time": "2026-10-25T14:21:20+00:00",
+   "title": "python3Packages.diofant: 0.15.0 -> 0.16.0a2"
+  },
   "523078": {
    "reason": "merge conflict",
    "status": "skipped",
    "title": "python3Packages.pypcode: 3.3.3 -> 4.0.1",
    "tries": 0
   },
+  "523082": {
+   "darwin": true,
+   "examined": 1,
+   "final": "review (x86_64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.",
+   "on_success": "nothing",
+   "run_id": 40201788842,
+   "status": "dispatched",
+   "time": "2026-10-25T14:20:42+00:00",
+   "title": "python3Packages.archspec: 0.2.5 -> 0.2.6"
+  },
   "523215": {
    "darwin": true,
+   "examined": 1,
+   "final": "review (x86_64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.",
    "on_success": "nothing",
    "run_id": 40201414696,
    "status": "dispatched",
@@ -314,6 +386,8 @@
   },
   "523751": {
    "darwin": true,
+   "examined": 1,
+   "final": "review (aarch64-darwin): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.",
    "on_success": "nothing",
    "run_id": 40200773704,
    "status": "dispatched",
@@ -322,6 +396,8 @@
   },
   "523755": {
    "darwin": true,
+   "examined": 1,
+   "final": "review (aarch64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.",
    "on_success": "nothing",
    "run_id": 40200460466,
    "status": "dispatched",
@@ -336,6 +412,8 @@
   },
   "523970": {
    "darwin": true,
+   "examined": 1,
+   "final": "review (x86_64-linux): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.",
    "on_success": "nothing",
    "run_id": 40200184517,
    "status": "dispatched",
@@ -10447,6 +10525,7 @@
   },
   "577332": {
    "darwin": true,
+   "final": "cancelled after 4 hours",
    "on_success": "nothing",
    "run_id": 40185624456,
    "status": "dispatched",
