@@ -101,6 +101,8 @@
   },
   "513366": {
    "darwin": false,
+   "examined": 1,
+   "final": "review (aarch64-linux): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.",
    "on_success": "nothing",
    "run_id": 40167213579,
    "status": "dispatched",
@@ -6707,11 +6709,14 @@
    "title": "cairo-lang: 2.20.0 -> 2.21.0"
   },
   "572331": {
-   "head": "f955454f1dd7b11d21148058b961c1fd37780f88",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39462026498,
-   "reason": "updated after the review",
-   "status": "requeue",
-   "title": "httplib: 0.58.0 -> 0.60.1"
+   "requeued": true,
+   "run_id": 40168152467,
+   "status": "dispatched",
+   "time": "2026-10-25T06:10:18+00:00",
+   "title": "httplib: 0.58.0 -> 0.62.0"
   },
   "572418": {
    "run_id": 39461823196,
@@ -7060,12 +7065,14 @@
    "title": "typstyle: 0.15.1 -> 0.15.2"
   },
   "573100": {
-   "head": "b5d612431d86d9d941a6b450b8bf18b089efbe43",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39439171652,
-   "reason": "updated after the review",
-   "status": "requeue",
-   "title": "unrtf: 0.21.10 -> 0.21.12",
-   "tries": 3
+   "requeued": true,
+   "run_id": 40168193323,
+   "status": "dispatched",
+   "time": "2026-10-25T06:10:59+00:00",
+   "title": "unrtf: 0.21.10 -> 0.21.13"
   },
   "573113": {
    "examined": 1,
@@ -7200,11 +7207,14 @@
    "title": "pwsafe: 1.25.0 -> 1.26.0fp"
   },
   "573379": {
-   "head": "1c332ae33ac7de448bcf09742569d6461be0e642",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39428623287,
-   "reason": "updated after the review",
-   "status": "requeue",
-   "title": "python3Packages.django-tenants: 3.14.0 -> 4.0.0"
+   "requeued": true,
+   "run_id": 40168750884,
+   "status": "dispatched",
+   "time": "2026-10-25T06:20:36+00:00",
+   "title": "python3Packages.django-tenants: 3.14.0 -> 4.0.1"
   },
   "573432": {
    "darwin": true,
@@ -9024,9 +9034,13 @@
    "title": "libretro.swanstation: 0-unstable-2026-10-08 -> 0-unstable-2026-10-15"
   },
   "575834": {
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39232931131,
-   "reason": "artifact upload error",
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 40169342120,
+   "status": "dispatched",
+   "time": "2026-10-25T06:30:44+00:00",
    "title": "python3Packages.rjsmin: 1.2.5 -> 1.3.0"
   },
   "575836": {
@@ -10641,6 +10655,14 @@
    "time": "2026-10-24T22:27:10+00:00",
    "title": "obs-studio-plugins.obs-shaderfilter: 2.6.0 -> 2.6.1"
   },
+  "578482": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40169842263,
+   "status": "dispatched",
+   "time": "2026-10-25T06:39:06+00:00",
+   "title": "muffet: 2.11.6 -> 2.11.7"
+  },
   "578485": {
    "darwin": false,
    "on_success": "nothing",
@@ -10655,11 +10677,27 @@
    "title": "par-lang: 0-unstable-2026-10-12 -> 0-unstable-2026-10-19",
    "tries": 0
   },
+  "578493": {
+   "darwin": true,
+   "on_success": "approve",
+   "run_id": 40169709310,
+   "status": "dispatched",
+   "time": "2026-10-25T06:36:48+00:00",
+   "title": "nss_latest: 3.131.1 -> 3.132"
+  },
   "578495": {
    "reason": "not open",
    "status": "skipped",
    "title": "whisrs: 0.1.29 -> 0.1.30",
    "tries": 0
+  },
+  "578504": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40169573086,
+   "status": "dispatched",
+   "time": "2026-10-25T06:34:34+00:00",
+   "title": "iosevka: 34.9.0 -> 34.9.1"
   }
  }
 }
