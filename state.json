@@ -492,6 +492,12 @@
    "title": "kdePackages.kquickimageedit: 0.6.1 -> 0.6.2",
    "tries": 0
   },
+  "533842": {
+   "reason": "mergeability unknown",
+   "status": "retry",
+   "title": "python3Packages.conda: 26.5.2 -> 26.7.2",
+   "tries": 2
+  },
   "534821": {
    "head": "ccf048e99b846ad6ef70cb4b45b81aa8d5663398",
    "on_success": "nothing",
@@ -10299,10 +10305,12 @@
    "title": "wait4x: 3.7.2 -> 3.7.3"
   },
   "578115": {
-   "reason": "mergeability unknown",
-   "status": "retry",
-   "title": "wasm-tools: 1.261.0 -> 1.262.0",
-   "tries": 3
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40180474526,
+   "status": "dispatched",
+   "time": "2026-10-25T09:23:56+00:00",
+   "title": "wasm-tools: 1.261.0 -> 1.262.0"
   },
   "578118": {
    "reason": "not open",
@@ -10319,10 +10327,52 @@
    "title": "vtm: 2026.10.05 -> 2026.10.12"
   },
   "578130": {
-   "reason": "mergeability unknown",
-   "status": "retry",
-   "title": "teams-for-linux: 2.25.0 -> 2.27.0",
-   "tries": 1
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40180324357,
+   "status": "dispatched",
+   "time": "2026-10-25T09:21:46+00:00",
+   "title": "teams-for-linux: 2.25.0 -> 2.27.0"
+  },
+  "578134": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40180278985,
+   "status": "dispatched",
+   "time": "2026-10-25T09:21:05+00:00",
+   "title": "libtransmission_4: 4.1.3 -> 4.1.4"
+  },
+  "578135": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40180233412,
+   "status": "dispatched",
+   "time": "2026-10-25T09:20:26+00:00",
+   "title": "oapi-codegen: 2.8.0 -> 2.8.1"
+  },
+  "578137": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40180065089,
+   "status": "dispatched",
+   "time": "2026-10-25T09:18:02+00:00",
+   "title": "python3Packages.yara-x: 1.21.0 -> 1.22.0"
+  },
+  "578143": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40179776936,
+   "status": "dispatched",
+   "time": "2026-10-25T09:13:49+00:00",
+   "title": "vscode-extensions.usernamehw.errorlens: 3.29.0 -> 3.30.0"
+  },
+  "578144": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40179657173,
+   "status": "dispatched",
+   "time": "2026-10-25T09:12:04+00:00",
+   "title": "updatecli: 0.122.1 -> 0.123.0"
   },
   "578145": {
    "darwin": false,
@@ -10333,22 +10383,28 @@
    "title": "home-assistant-custom-components.tuya_local: 2026.9.2-rel -> 2026.10.0"
   },
   "578150": {
-   "reason": "mergeability unknown",
-   "status": "retry",
-   "title": "python3Packages.kneed: 0.8.6 -> 0.9.0",
-   "tries": 1
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40179533252,
+   "status": "dispatched",
+   "time": "2026-10-25T09:10:15+00:00",
+   "title": "python3Packages.kneed: 0.8.6 -> 0.9.0"
   },
   "578175": {
-   "reason": "mergeability unknown",
-   "status": "retry",
-   "title": "python3Packages.pyinstaller-hooks-contrib: 2026.8 -> 2026.9",
-   "tries": 1
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40179484182,
+   "status": "dispatched",
+   "time": "2026-10-25T09:09:32+00:00",
+   "title": "python3Packages.pyinstaller-hooks-contrib: 2026.8 -> 2026.9"
   },
   "578180": {
-   "reason": "mergeability unknown",
-   "status": "retry",
-   "title": "python3Packages.recipe-scrapers: 15.12.0 -> 15.13.0",
-   "tries": 1
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40179401528,
+   "status": "dispatched",
+   "time": "2026-10-25T09:08:16+00:00",
+   "title": "python3Packages.recipe-scrapers: 15.12.0 -> 15.13.0"
   },
   "578184": {
    "reason": "mergeability unknown",
@@ -10382,6 +10438,14 @@
    "time": "2026-10-24T23:11:38+00:00",
    "title": "python3Packages.gekko: 1.3.2 -> 1.3.3"
   },
+  "578196": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40179355510,
+   "status": "dispatched",
+   "time": "2026-10-25T09:07:34+00:00",
+   "title": "python3Packages.kaldi-native-fbank: 1.22.3 -> 1.22.4"
+  },
   "578199": {
    "darwin": false,
    "on_success": "nothing",
@@ -10389,6 +10453,14 @@
    "status": "dispatched",
    "time": "2026-10-24T23:02:23+00:00",
    "title": "gale: 1.23.1 -> 1.23.2"
+  },
+  "578203": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40178874876,
+   "status": "dispatched",
+   "time": "2026-10-25T09:00:32+00:00",
+   "title": "phpPackages.grumphp: 2.25.0 -> 2.26.0"
   },
   "578219": {
    "darwin": true,
@@ -10415,10 +10487,12 @@
    "title": "python3Packages.allure-python-commons-test: 2.16.0 -> 2.16.2"
   },
   "578226": {
-   "reason": "mergeability unknown",
-   "status": "retry",
-   "title": "bazel-remote: 2.6.3 -> 2.6.4",
-   "tries": 1
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40180775379,
+   "status": "dispatched",
+   "time": "2026-10-25T09:28:20+00:00",
+   "title": "bazel-remote: 2.6.3 -> 2.6.4"
   },
   "578257": {
    "darwin": false,
