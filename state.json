@@ -940,6 +940,7 @@
   "541264": {
    "darwin": true,
    "extra_args": "--eval local",
+   "final": "cancelled after 4 hours",
    "on_success": "nothing",
    "previous_run_id": 40012828608,
    "requeued": true,
@@ -10469,16 +10470,20 @@
    "tries": 2
   },
   "578351": {
-   "reason": "mergeability unknown",
-   "status": "retry",
-   "title": "chirpstack-mqtt-forwarder: 4.6.1 -> 4.7.0-test.2",
-   "tries": 2
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40173617519,
+   "status": "dispatched",
+   "time": "2026-10-25T07:39:51+00:00",
+   "title": "chirpstack-mqtt-forwarder: 4.6.1 -> 4.7.0-test.2"
   },
   "578355": {
-   "reason": "mergeability unknown",
-   "status": "retry",
-   "title": "vscode-extensions.databricks.databricks: 2.21.0 -> 2.22.0",
-   "tries": 3
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40173511590,
+   "status": "dispatched",
+   "time": "2026-10-25T07:38:08+00:00",
+   "title": "vscode-extensions.databricks.databricks: 2.21.0 -> 2.22.0"
   },
   "578356": {
    "darwin": true,
@@ -10503,6 +10508,22 @@
    "status": "dispatched",
    "time": "2026-10-24T22:56:41+00:00",
    "title": "python3Packages.pydyf: 0.12.1 -> 0.13.0"
+  },
+  "578372": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40172370768,
+   "status": "dispatched",
+   "time": "2026-10-25T07:20:05+00:00",
+   "title": "vscode-extensions.ionide.ionide-fsharp: 7.31.1 -> 8.0.1"
+  },
+  "578373": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40172038487,
+   "status": "dispatched",
+   "time": "2026-10-25T07:14:38+00:00",
+   "title": "warpgate: 0.29.2 -> 0.30.0"
   },
   "578377": {
    "darwin": false,
