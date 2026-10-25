@@ -8538,6 +8538,32 @@
    "time": "2026-10-23T22:30:44+00:00",
    "title": "packer: 1.15.4 -> 1.16.1"
   },
+  "576250": {
+   "darwin": false,
+   "on_success": "nothing",
+   "run_id": 40149122677,
+   "status": "dispatched",
+   "time": "2026-10-25T01:03:32+00:00",
+   "title": "matrix-synapse-plugins.matrix-synapse-mjolnir-antispam: 1.12.1 -> 2.0.1"
+  },
+  "576267": {
+   "reason": "mergeability unknown",
+   "status": "retry",
+   "title": "ketch: 0.18.1 -> 0.20.0",
+   "tries": 1
+  },
+  "576278": {
+   "reason": "mergeability unknown",
+   "status": "retry",
+   "title": "bitwarden-desktop: 2026.9.1 -> 2026.10.0",
+   "tries": 1
+  },
+  "576279": {
+   "reason": "mergeability unknown",
+   "status": "retry",
+   "title": "python3Packages.signxml: 5.1.0 -> 5.2.0",
+   "tries": 1
+  },
   "576288": {
    "darwin": false,
    "on_success": "nothing",
@@ -8562,6 +8588,14 @@
    "time": "2026-10-25T01:01:21+00:00",
    "title": "python3Packages.python-xz: 0.6.0 -> 0.7.0"
   },
+  "576310": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40149056811,
+   "status": "dispatched",
+   "time": "2026-10-25T01:02:32+00:00",
+   "title": "deploy-rs: 0-unstable-2026-10-07 -> 1.0.0-unstable-2026-10-19"
+  },
   "576325": {
    "reason": "mergeability unknown",
    "status": "retry",
@@ -8569,16 +8603,20 @@
    "tries": 5
   },
   "576330": {
-   "reason": "mergeability unknown",
-   "status": "retry",
-   "title": "chawan: 0.4.4 -> 0.5.0",
-   "tries": 1
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40149352130,
+   "status": "dispatched",
+   "time": "2026-10-25T01:07:00+00:00",
+   "title": "chawan: 0.4.4 -> 0.5.0"
   },
   "576332": {
-   "reason": "mergeability unknown",
-   "status": "retry",
-   "title": "python3Packages.citeproc-py: 0.11.0 -> 0.11.1",
-   "tries": 1
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40149309361,
+   "status": "dispatched",
+   "time": "2026-10-25T01:06:18+00:00",
+   "title": "python3Packages.citeproc-py: 0.11.0 -> 0.11.1"
   },
   "576354": {
    "darwin": true,
@@ -8650,6 +8688,30 @@
    "time": "2026-10-23T22:28:44+00:00",
    "title": "plexRaw: 1.43.4.10903 -> 1.43.5.11029"
   },
+  "576549": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40149650294,
+   "status": "dispatched",
+   "time": "2026-10-25T01:11:26+00:00",
+   "title": "python3Packages.stackit-iaas: 1.6.0 -> 1.7.0"
+  },
+  "576554": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40149871988,
+   "status": "dispatched",
+   "time": "2026-10-25T01:14:47+00:00",
+   "title": "rs-reticulum: 1.2.0 -> 1.3.0"
+  },
+  "576603": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40149963093,
+   "status": "dispatched",
+   "time": "2026-10-25T01:16:05+00:00",
+   "title": "plakar: 1.1.7 -> 1.1.8"
+  },
   "576608": {
    "reason": "not open",
    "status": "skipped",
@@ -8661,6 +8723,30 @@
    "status": "skipped",
    "title": "nextcloud-notify_push: 1.4.1 -> 1.4.2",
    "tries": 0
+  },
+  "576614": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40150004403,
+   "status": "dispatched",
+   "time": "2026-10-25T01:16:44+00:00",
+   "title": "i2pd: 2.61.0 -> 3.0.0"
+  },
+  "576617": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40150182828,
+   "status": "dispatched",
+   "time": "2026-10-25T01:19:33+00:00",
+   "title": "batik: 1.19 -> 1.20"
+  },
+  "576619": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40150334224,
+   "status": "dispatched",
+   "time": "2026-10-25T01:21:53+00:00",
+   "title": "cloud-nuke: 0.52.0 -> 0.53.0"
   },
   "576646": {
    "reason": "not open",
@@ -8981,6 +9067,8 @@
   },
   "577537": {
    "darwin": true,
+   "examined": 1,
+   "final": "review (aarch64-darwin): Failed to CreateArtifact: Unable to make request: ENOTFOUND\nIf you are using self-hosted runners, pl",
    "on_success": "nothing",
    "run_id": 40144302103,
    "status": "dispatched",
