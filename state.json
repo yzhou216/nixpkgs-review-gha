@@ -10034,6 +10034,30 @@
    "time": "2026-10-24T23:45:19+00:00",
    "title": "dislocker: 0.7.3-unstable-2026-08-31 -> 0.7.4-unstable-2026-10-21"
   },
+  "577665": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40182702113,
+   "status": "dispatched",
+   "time": "2026-10-25T09:56:19+00:00",
+   "title": "grav_2: 2.2.6 -> 2.2.11"
+  },
+  "577698": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40182658650,
+   "status": "dispatched",
+   "time": "2026-10-25T09:55:38+00:00",
+   "title": "spacenavd: 1.3.1 -> 1.4"
+  },
+  "577700": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40182612439,
+   "status": "dispatched",
+   "time": "2026-10-25T09:54:59+00:00",
+   "title": "python3Packages.azure-storage-queue: 12.17.0 -> 12.18.0"
+  },
   "577709": {
    "darwin": true,
    "run_id": 40032460462,
@@ -10041,11 +10065,27 @@
    "time": "2026-10-23T22:15:49+00:00",
    "title": "wanderer: 0.21.0 -> 0.21.1"
   },
+  "577711": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40182355925,
+   "status": "dispatched",
+   "time": "2026-10-25T09:51:10+00:00",
+   "title": "dart-sass: 1.105.1 -> 1.106.1"
+  },
   "577733": {
    "reason": "not open",
    "status": "skipped",
    "title": "vscode-extensions.betterthantomorrow.calva: 2.0.599 -> 2.0.601",
    "tries": 0
+  },
+  "577735": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40181951295,
+   "status": "dispatched",
+   "time": "2026-10-25T09:45:18+00:00",
+   "title": "davis: 5.5.0 -> 5.5.1"
   },
   "577742": {
    "darwin": true,
@@ -10054,6 +10094,22 @@
    "time": "2026-10-23T22:15:10+00:00",
    "title": "discord: 1.0.161 -> 1.0.164"
   },
+  "577744": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40181691577,
+   "status": "dispatched",
+   "time": "2026-10-25T09:41:33+00:00",
+   "title": "python3Packages.pyx: 0.17 -> 0.18"
+  },
+  "577749": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40181483921,
+   "status": "dispatched",
+   "time": "2026-10-25T09:38:32+00:00",
+   "title": "skalibs: 2.15.1.0 -> 2.16.0.0"
+  },
   "577756": {
    "darwin": false,
    "run_id": 40032307536,
@@ -10061,11 +10117,27 @@
    "time": "2026-10-23T22:14:27+00:00",
    "title": "envoy-bin: 1.40.0 -> 1.40.1"
   },
+  "577761": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40181436728,
+   "status": "dispatched",
+   "time": "2026-10-25T09:37:51+00:00",
+   "title": "roswell: 26.10.117 -> 26.10.118"
+  },
   "577771": {
    "reason": "merge conflict",
    "status": "skipped",
    "title": "protonup-qt: 2.15.1 -> 2.16.0",
    "tries": 0
+  },
+  "577774": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40181123701,
+   "status": "dispatched",
+   "time": "2026-10-25T09:33:15+00:00",
+   "title": "python3Packages.persim: 0.3.8 -> 0.4.1"
   },
   "577813": {
    "darwin": false,
@@ -10213,6 +10285,14 @@
    "status": "dispatched",
    "time": "2026-10-24T23:43:28+00:00",
    "title": "libargs: 6.6.0 -> 6.6.1"
+  },
+  "578045": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40180952778,
+   "status": "dispatched",
+   "time": "2026-10-25T09:30:49+00:00",
+   "title": "fsrx: 1.0.2 -> 1.0.3"
   },
   "578059": {
    "darwin": false,
