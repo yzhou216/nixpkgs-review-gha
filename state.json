@@ -173,12 +173,23 @@
    "title": "python3Packages.pysma: 1.1.2 -> 1.1.4",
    "tries": 0
   },
+  "537834": {
+   "darwin": false,
+   "on_success": "nothing",
+   "run_id": 40158402474,
+   "status": "dispatched",
+   "time": "2026-10-25T03:29:34+00:00",
+   "title": "libmeshb: 7.80 -> 8.02"
+  },
   "538875": {
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 40027932815,
-   "reason": "cancelled when r-ryantm was skipped",
-   "status": "requeue",
-   "title": "python3Packages.bracex: 3.0.1 -> 3.2",
-   "tries": 2
+   "requeued": true,
+   "run_id": 40157126709,
+   "status": "dispatched",
+   "time": "2026-10-25T03:08:48+00:00",
+   "title": "python3Packages.bracex: 3.0.1 -> 3.2"
   },
   "538895": {
    "reason": "merge conflict",
@@ -187,11 +198,16 @@
    "tries": 0
   },
   "538920": {
+   "darwin": true,
+   "examined": 1,
+   "final": "review (aarch64-linux): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.",
+   "on_success": "nothing",
    "previous_run_id": 40025665717,
-   "reason": "cancelled when r-ryantm was skipped",
-   "status": "requeue",
-   "title": "python3Packages.azure-mgmt-cosmosdb: 9.9.0 -> 10.0.0",
-   "tries": 2
+   "requeued": true,
+   "run_id": 40157164513,
+   "status": "dispatched",
+   "time": "2026-10-25T03:09:26+00:00",
+   "title": "python3Packages.azure-mgmt-cosmosdb: 9.9.0 -> 10.0.0"
   },
   "539020": {
    "darwin": false,
@@ -349,12 +365,15 @@
    "title": "suwayomi-server: 2.1.1867 -> 2.3.2243"
   },
   "539815": {
+   "darwin": true,
    "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40016638779,
-   "reason": "no CI evaluation",
-   "status": "requeue",
-   "title": "python3Packages.iplotx: 1.7.1 -> 1.8.0",
-   "tries": 1
+   "requeued": true,
+   "run_id": 40157209291,
+   "status": "dispatched",
+   "time": "2026-10-25T03:10:08+00:00",
+   "title": "python3Packages.iplotx: 1.7.1 -> 1.8.0"
   },
   "539981": {
    "run_id": 40016312142,
@@ -375,12 +394,15 @@
    "tries": 0
   },
   "540480": {
+   "darwin": true,
    "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40015293528,
-   "reason": "no CI evaluation",
-   "status": "requeue",
-   "title": "prometheus-graphite-exporter: 0.16.0 -> 0.17.0",
-   "tries": 1
+   "requeued": true,
+   "run_id": 40157249441,
+   "status": "dispatched",
+   "time": "2026-10-25T03:10:46+00:00",
+   "title": "prometheus-graphite-exporter: 0.16.0 -> 0.17.0"
   },
   "540567": {
    "run_id": 40015114014,
@@ -389,12 +411,15 @@
    "title": "python3Packages.tt-perf-report: 1.2.4 -> 1.4.1"
   },
   "540630": {
+   "darwin": true,
    "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40014927950,
-   "reason": "no CI evaluation",
-   "status": "requeue",
-   "title": "python3Packages.sgp4: 2.26 -> 2.27",
-   "tries": 1
+   "requeued": true,
+   "run_id": 40157890752,
+   "status": "dispatched",
+   "time": "2026-10-25T03:21:12+00:00",
+   "title": "python3Packages.sgp4: 2.26 -> 2.27"
   },
   "540673": {
    "reason": "merge conflict",
@@ -439,10 +464,14 @@
    "title": "python3Packages.cohere: 7.0.4 -> 7.0.5"
   },
   "541194": {
+   "darwin": true,
    "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40013472840,
-   "reason": "no CI evaluation",
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 40158053614,
+   "status": "dispatched",
+   "time": "2026-10-25T03:23:50+00:00",
    "title": "python3Packages.datasketch: 1.10.0 -> 2.0.0"
   },
   "541233": {
@@ -452,19 +481,26 @@
    "title": "katriawm: 26.03 -> 26.08"
   },
   "541242": {
+   "darwin": true,
    "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40013022286,
-   "reason": "no CI evaluation",
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 40158677521,
+   "status": "dispatched",
+   "time": "2026-10-25T03:33:52+00:00",
    "title": "python3Packages.svg-path: 7.0 -> 7.1"
   },
   "541264": {
+   "darwin": true,
    "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40012828608,
-   "reason": "no CI evaluation",
-   "status": "requeue",
-   "title": "python3Packages.autograd: 1.9.0 -> 1.9.1",
-   "tries": 4
+   "requeued": true,
+   "run_id": 40158879284,
+   "status": "dispatched",
+   "time": "2026-10-25T03:37:12+00:00",
+   "title": "python3Packages.autograd: 1.9.0 -> 1.9.1"
   },
   "541296": {
    "extra_args": "--eval local",
@@ -5120,11 +5156,14 @@
    "title": "gyb: 1.95 -> 1.97"
   },
   "569233": {
-   "head": "d7c3f2223b4971df0eeaba0577e6df5b6499baf7",
+   "darwin": false,
+   "on_success": "nothing",
    "previous_run_id": 39614394609,
-   "reason": "updated after the review",
-   "status": "requeue",
-   "title": "rtabmap: 0.23.8 -> 0.23.13-rolling"
+   "requeued": true,
+   "run_id": 40157520234,
+   "status": "dispatched",
+   "time": "2026-10-25T03:15:11+00:00",
+   "title": "rtabmap: 0.23.8 -> 0.24.2"
   },
   "569256": {
    "examined": 1,
@@ -8518,6 +8557,14 @@
    "time": "2026-10-19T09:12:08+00:00",
    "title": "gelly: 1.14.0 -> 1.16.3"
   },
+  "575887": {
+   "darwin": false,
+   "on_success": "nothing",
+   "run_id": 40158215182,
+   "status": "dispatched",
+   "time": "2026-10-25T03:26:29+00:00",
+   "title": "muse: 4.2.1 -> 4.3.0"
+  },
   "575993": {
    "darwin": true,
    "run_id": 40034372852,
@@ -8531,6 +8578,14 @@
    "status": "dispatched",
    "time": "2026-10-23T22:34:03+00:00",
    "title": "middleclick: 3.2.0 -> 3.3.0"
+  },
+  "576002": {
+   "darwin": false,
+   "on_success": "nothing",
+   "run_id": 40158163160,
+   "status": "dispatched",
+   "time": "2026-10-25T03:25:39+00:00",
+   "title": "marvin: 26.1.1 -> 26.1.4"
   },
   "576029": {
    "darwin": false,
@@ -9681,6 +9736,12 @@
    "time": "2026-10-24T23:15:20+00:00",
    "title": "vtm: 2026.10.05 -> 2026.10.12"
   },
+  "578130": {
+   "reason": "mergeability unknown",
+   "status": "retry",
+   "title": "teams-for-linux: 2.25.0 -> 2.27.0",
+   "tries": 1
+  },
   "578145": {
    "darwin": false,
    "on_success": "nothing",
@@ -9715,6 +9776,7 @@
   },
   "578190": {
    "darwin": true,
+   "final": "cancelled after 4 hours",
    "on_success": "nothing",
    "run_id": 40141634296,
    "status": "dispatched",
@@ -9723,6 +9785,7 @@
   },
   "578191": {
    "darwin": true,
+   "final": "cancelled after 4 hours",
    "on_success": "nothing",
    "run_id": 40141675027,
    "status": "dispatched",
@@ -9744,6 +9807,12 @@
    "status": "dispatched",
    "time": "2026-10-24T23:02:23+00:00",
    "title": "gale: 1.23.1 -> 1.23.2"
+  },
+  "578224": {
+   "reason": "mergeability unknown",
+   "status": "retry",
+   "title": "python3Packages.allure-python-commons-test: 2.16.0 -> 2.16.2",
+   "tries": 2
   },
   "578257": {
    "darwin": false,
@@ -9982,6 +10051,12 @@
    "title": "python3Packages.elevenlabs: 2.71.0 -> 2.74.1",
    "tries": 0
   },
+  "578458": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "impactor: 2.7.1 -> 2.7.2",
+   "tries": 0
+  },
   "578461": {
    "darwin": false,
    "on_success": "nothing",
@@ -10011,6 +10086,12 @@
    "status": "dispatched",
    "time": "2026-10-24T22:22:06+00:00",
    "title": "textcompare: 0.1.11 -> 0.1.12"
+  },
+  "578492": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "par-lang: 0-unstable-2026-10-12 -> 0-unstable-2026-10-19",
+   "tries": 0
   },
   "578495": {
    "reason": "not open",
