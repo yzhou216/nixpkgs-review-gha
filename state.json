@@ -3355,9 +3355,10 @@
    "title": "python3Packages.django-countries: 9.0.0 -> 9.1.0"
   },
   "562314": {
-   "run_id": 39836586444,
-   "status": "dispatched",
-   "time": "2026-10-22T19:02:24+00:00",
+   "head": "0d7fdb74c56edea6db950baa3d48d583f20920c4",
+   "previous_run_id": 39836586444,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "schemacrawler: 17.14.1 -> 17.15.7"
   },
   "562319": {
@@ -5119,11 +5120,10 @@
    "title": "gyb: 1.95 -> 1.97"
   },
   "569233": {
-   "examined": 1,
-   "no_runner_at": "2026-10-21T14:24:54+00:00",
-   "run_id": 39614394609,
-   "status": "dispatched",
-   "time": "2026-10-21T14:09:41+00:00",
+   "head": "d7c3f2223b4971df0eeaba0577e6df5b6499baf7",
+   "previous_run_id": 39614394609,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "rtabmap: 0.23.8 -> 0.23.13-rolling"
   },
   "569256": {
