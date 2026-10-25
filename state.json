@@ -8538,6 +8538,14 @@
    "time": "2026-10-23T22:30:44+00:00",
    "title": "packer: 1.15.4 -> 1.16.1"
   },
+  "576288": {
+   "darwin": false,
+   "on_success": "nothing",
+   "run_id": 40148742401,
+   "status": "dispatched",
+   "time": "2026-10-25T00:57:59+00:00",
+   "title": "plasticity: 26.1.4 -> 26.2.0"
+  },
   "576297": {
    "darwin": true,
    "final": "cancelled after 4 hours",
@@ -8546,6 +8554,56 @@
    "time": "2026-10-23T22:30:05+00:00",
    "title": "rift-wm: 0.6.7 -> 0.7.0"
   },
+  "576308": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40148976488,
+   "status": "dispatched",
+   "time": "2026-10-25T01:01:21+00:00",
+   "title": "python3Packages.python-xz: 0.6.0 -> 0.7.0"
+  },
+  "576325": {
+   "reason": "mergeability unknown",
+   "status": "retry",
+   "title": "python3Packages.python-calamine: 0.8.3 -> 0.9.0",
+   "tries": 5
+  },
+  "576330": {
+   "reason": "mergeability unknown",
+   "status": "retry",
+   "title": "chawan: 0.4.4 -> 0.5.0",
+   "tries": 1
+  },
+  "576332": {
+   "reason": "mergeability unknown",
+   "status": "retry",
+   "title": "python3Packages.citeproc-py: 0.11.0 -> 0.11.1",
+   "tries": 1
+  },
+  "576354": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40147619251,
+   "status": "dispatched",
+   "time": "2026-10-25T00:40:36+00:00",
+   "title": "python3Packages.cxxheaderparser: 1.9.2 -> 2.2.0"
+  },
+  "576366": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40147661116,
+   "status": "dispatched",
+   "time": "2026-10-25T00:41:15+00:00",
+   "title": "rapids-cmake: 26.08.00 -> 26.10.00"
+  },
+  "576389": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40147840330,
+   "status": "dispatched",
+   "time": "2026-10-25T00:44:03+00:00",
+   "title": "uftp: 5.0.3 -> 5.0.4"
+  },
   "576416": {
    "darwin": true,
    "run_id": 40033932624,
@@ -8553,12 +8611,62 @@
    "time": "2026-10-23T22:29:23+00:00",
    "title": "insomnia: 13.0.0 -> 13.3.1"
   },
+  "576436": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40148025523,
+   "status": "dispatched",
+   "time": "2026-10-25T00:46:51+00:00",
+   "title": "buildkite-agent: 4.3.0 -> 4.6.0"
+  },
+  "576439": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40148243261,
+   "status": "dispatched",
+   "time": "2026-10-25T00:50:15+00:00",
+   "title": "gcfflasher: 4.12.1 -> 4.12.2"
+  },
+  "576462": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40148460763,
+   "status": "dispatched",
+   "time": "2026-10-25T00:53:35+00:00",
+   "title": "python3Packages.ingredient-parser-nlp: 2.8.0 -> 2.9.1"
+  },
+  "576530": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40147212799,
+   "status": "dispatched",
+   "time": "2026-10-25T00:34:18+00:00",
+   "title": "dtop: 0.9.4 -> 0.10.4"
+  },
   "576537": {
    "darwin": false,
    "run_id": 40033861328,
    "status": "dispatched",
    "time": "2026-10-23T22:28:44+00:00",
    "title": "plexRaw: 1.43.4.10903 -> 1.43.5.11029"
+  },
+  "576608": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "wtype: 0.4 -> 0.5",
+   "tries": 0
+  },
+  "576611": {
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "nextcloud-notify_push: 1.4.1 -> 1.4.2",
+   "tries": 0
+  },
+  "576646": {
+   "reason": "not open",
+   "status": "skipped",
+   "title": "langgraph-cli: 0.4.35 -> 0.4.37",
+   "tries": 0
   },
   "576689": {
    "darwin": true,
@@ -9138,6 +9246,8 @@
   },
   "578059": {
    "darwin": false,
+   "examined": 1,
+   "final": "review (x86_64-linux): The operation was canceled.; review (aarch64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ",
    "on_success": "nothing",
    "run_id": 40142537736,
    "status": "dispatched",
