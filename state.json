@@ -329,6 +329,14 @@
    "time": "2026-10-24T04:02:45+00:00",
    "title": "n2n: 3.0 -> 3.1.1"
   },
+  "524424": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40199162857,
+   "status": "dispatched",
+   "time": "2026-10-25T13:46:36+00:00",
+   "title": "python3Packages.pydal: 20260313.1 -> 20260520.0"
+  },
   "524597": {
    "reason": "merge conflict",
    "status": "skipped",
@@ -340,6 +348,14 @@
    "status": "skipped",
    "title": "kdePackages.quazip: 1.5 -> 1.7.2",
    "tries": 0
+  },
+  "525005": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40199069920,
+   "status": "dispatched",
+   "time": "2026-10-25T13:45:24+00:00",
+   "title": "graalvmPackages.graaljs: 25.2.4 -> 25.4.4.1.1"
   },
   "525095": {
    "reason": "merge conflict",
@@ -362,6 +378,50 @@
    "status": "dispatched",
    "time": "2026-10-25T04:59:03+00:00",
    "title": "nvidia-modprobe: 595.71.05 -> 615.71.09"
+  },
+  "525788": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40198638569,
+   "status": "dispatched",
+   "time": "2026-10-25T13:39:54+00:00",
+   "title": "python3Packages.hpccm: 26.1.0 -> 26.5.0"
+  },
+  "526159": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40198593331,
+   "status": "dispatched",
+   "time": "2026-10-25T13:39:16+00:00",
+   "title": "python3Packages.hdbscan: 0.8.41 -> 0.8.44"
+  },
+  "526618": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40198173135,
+   "status": "dispatched",
+   "time": "2026-10-25T13:33:46+00:00",
+   "title": "nengo-gui: 0.4.9 -> 0.6.0"
+  },
+  "526758": {
+   "darwin": true,
+   "examined": 1,
+   "final": "review (aarch64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.",
+   "on_success": "nothing",
+   "run_id": 40198034419,
+   "status": "dispatched",
+   "time": "2026-10-25T13:31:56+00:00",
+   "title": "faudio: 26.05 -> 26.10"
+  },
+  "526761": {
+   "darwin": true,
+   "examined": 1,
+   "final": "review (aarch64-linux): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.",
+   "on_success": "nothing",
+   "run_id": 40197983978,
+   "status": "dispatched",
+   "time": "2026-10-25T13:31:17+00:00",
+   "title": "cpu_features: 0.10.1 -> 0.11.0"
   },
   "526845": {
    "darwin": false,
@@ -411,6 +471,8 @@
   },
   "529113": {
    "darwin": true,
+   "examined": 1,
+   "final": "review (aarch64-linux): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.",
    "on_success": "nothing",
    "run_id": 40197578755,
    "status": "dispatched",
@@ -419,6 +481,8 @@
   },
   "529414": {
    "darwin": true,
+   "examined": 1,
+   "final": "review (aarch64-darwin): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.",
    "on_success": "nothing",
    "run_id": 40197531579,
    "status": "dispatched",
@@ -501,6 +565,8 @@
   },
   "530383": {
    "darwin": true,
+   "examined": 1,
+   "final": "review (x86_64-linux): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.",
    "on_success": "nothing",
    "run_id": 40197033614,
    "status": "dispatched",
