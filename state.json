@@ -547,6 +547,14 @@
    "time": "2026-10-25T04:03:27+00:00",
    "title": "asahi-nvram: 0.2.4 -> 0.2.5"
   },
+  "535010": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40193146688,
+   "status": "dispatched",
+   "time": "2026-10-25T12:26:59+00:00",
+   "title": "gaugePlugins.js: 5.0.6 -> 5.0.8"
+  },
   "535100": {
    "reason": "merge conflict",
    "status": "skipped",
@@ -563,6 +571,58 @@
    "time": "2026-10-25T04:02:36+00:00",
    "title": "python3Packages.libpulse: 0.7 -> 0.7.1"
   },
+  "535132": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40192905911,
+   "status": "dispatched",
+   "time": "2026-10-25T12:23:42+00:00",
+   "title": "python3Packages.pymunk: 7.3.0 -> 7.3.1"
+  },
+  "535223": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40192809904,
+   "status": "dispatched",
+   "time": "2026-10-25T12:22:22+00:00",
+   "title": "sharing: 1.2.2 -> 1.4.0"
+  },
+  "535280": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40192413002,
+   "status": "dispatched",
+   "time": "2026-10-25T12:16:52+00:00",
+   "title": "jsbeautifier: 1.15.4 -> 2.0.3"
+  },
+  "535467": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40192367293,
+   "status": "dispatched",
+   "time": "2026-10-25T12:16:13+00:00",
+   "title": "libcpucycles: 20260105 -> 20260901"
+  },
+  "535656": {
+   "darwin": true,
+   "examined": 1,
+   "final": "review (aarch64-darwin): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.",
+   "on_success": "nothing",
+   "run_id": 40191897057,
+   "status": "dispatched",
+   "time": "2026-10-25T12:09:41+00:00",
+   "title": "tmuxPlugins.tmux-nova: 1.2.0 -> 1.2.1"
+  },
+  "535816": {
+   "darwin": true,
+   "examined": 1,
+   "final": "review (aarch64-darwin): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.",
+   "on_success": "nothing",
+   "run_id": 40191735914,
+   "status": "dispatched",
+   "time": "2026-10-25T12:07:21+00:00",
+   "title": "inkcut: 2.1.7 -> 2.1.8"
+  },
   "535968": {
    "darwin": false,
    "examined": 1,
@@ -572,6 +632,14 @@
    "status": "dispatched",
    "time": "2026-10-25T03:54:09+00:00",
    "title": "toml-f: 0.5.1 -> 0.5.2"
+  },
+  "536175": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40191463067,
+   "status": "dispatched",
+   "time": "2026-10-25T12:03:32+00:00",
+   "title": "python3Packages.coloraide: 8.8.1 -> 8.13.1"
   },
   "536193": {
    "darwin": false,
@@ -588,6 +656,26 @@
    "status": "dispatched",
    "time": "2026-10-25T03:50:38+00:00",
    "title": "highscore-mgba: 0-unstable-2026-06-19 -> 0-unstable-2026-08-09"
+  },
+  "536202": {
+   "darwin": true,
+   "examined": 1,
+   "final": "review (aarch64-linux): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.",
+   "on_success": "nothing",
+   "run_id": 40191415321,
+   "status": "dispatched",
+   "time": "2026-10-25T12:02:50+00:00",
+   "title": "cloud-utils: 0.33 -> 0.34"
+  },
+  "536356": {
+   "darwin": true,
+   "examined": 1,
+   "final": "review (aarch64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.",
+   "on_success": "nothing",
+   "run_id": 40191358183,
+   "status": "dispatched",
+   "time": "2026-10-25T12:02:05+00:00",
+   "title": "highs: 1.14.0 -> 1.15.1"
   },
   "536371": {
    "reason": "not open",
@@ -627,6 +715,8 @@
   },
   "536863": {
    "darwin": true,
+   "examined": 1,
+   "final": "review (x86_64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.",
    "on_success": "nothing",
    "run_id": 40190771196,
    "status": "dispatched",
@@ -641,6 +731,8 @@
   },
   "537135": {
    "darwin": true,
+   "examined": 1,
+   "final": "review (x86_64-linux): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.",
    "on_success": "nothing",
    "run_id": 40190429240,
    "status": "dispatched",
@@ -649,6 +741,8 @@
   },
   "537302": {
    "darwin": true,
+   "examined": 1,
+   "final": "review (aarch64-darwin): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.",
    "on_success": "nothing",
    "run_id": 40190155092,
    "status": "dispatched",
@@ -657,6 +751,8 @@
   },
   "537483": {
    "darwin": true,
+   "examined": 1,
+   "final": "review (aarch64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.",
    "on_success": "nothing",
    "run_id": 40189809469,
    "status": "dispatched",
