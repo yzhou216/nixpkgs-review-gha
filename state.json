@@ -297,6 +297,7 @@
   },
   "515724": {
    "darwin": true,
+   "final": "cancelled after 4 hours",
    "on_success": "nothing",
    "run_id": 40209237788,
    "status": "dispatched",
