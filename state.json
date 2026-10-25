@@ -633,6 +633,14 @@
    "time": "2026-10-25T03:29:34+00:00",
    "title": "libmeshb: 7.80 -> 8.02"
   },
+  "538852": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40186980237,
+   "status": "dispatched",
+   "time": "2026-10-25T10:59:09+00:00",
+   "title": "openntpd: 6.8p1 -> 7.9p1"
+  },
   "538875": {
    "darwin": true,
    "on_success": "nothing",
@@ -9152,6 +9160,22 @@
    "time": "2026-10-25T03:26:29+00:00",
    "title": "muse: 4.2.1 -> 4.3.0"
   },
+  "575941": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40186799634,
+   "status": "dispatched",
+   "time": "2026-10-25T10:56:19+00:00",
+   "title": "gemini-cli-bin: 0.63.0 -> 0.64.0"
+  },
+  "575943": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40186721435,
+   "status": "dispatched",
+   "time": "2026-10-25T10:55:06+00:00",
+   "title": "multi-scrobbler: 0.19.2 -> 0.20.0"
+  },
   "575993": {
    "darwin": true,
    "run_id": 40034372852,
@@ -9173,6 +9197,14 @@
    "status": "dispatched",
    "time": "2026-10-25T03:25:39+00:00",
    "title": "marvin: 26.1.1 -> 26.1.4"
+  },
+  "576017": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40186191398,
+   "status": "dispatched",
+   "time": "2026-10-25T10:47:07+00:00",
+   "title": "vscode-extensions.coder.coder-remote: 1.16.4 -> 1.17.1"
   },
   "576029": {
    "darwin": false,
@@ -9785,10 +9817,12 @@
    "title": "python3Packages.pytimeparse: 1.1.9 -> 1.1.10"
   },
   "577217": {
-   "reason": "mergeability unknown",
-   "status": "retry",
-   "title": "cedar: 4.13.0 -> 4.14.0",
-   "tries": 1
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40185901506,
+   "status": "dispatched",
+   "time": "2026-10-25T10:42:51+00:00",
+   "title": "cedar: 4.13.0 -> 4.14.0"
   },
   "577235": {
    "darwin": false,
@@ -9836,12 +9870,34 @@
    "time": "2026-10-25T02:50:29+00:00",
    "title": "python3Packages.apycula: 0.34 -> 0.35"
   },
+  "577271": {
+   "reason": "mergeability unknown",
+   "status": "retry",
+   "title": "ankiAddons.anki-connect: 25.11.9.0 -> 26.10.14.0",
+   "tries": 5
+  },
+  "577278": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40185666249,
+   "status": "dispatched",
+   "time": "2026-10-25T10:39:24+00:00",
+   "title": "yaml-language-server: 1.25.0 -> 2.0.0"
+  },
   "577326": {
    "darwin": true,
    "run_id": 40033513582,
    "status": "dispatched",
    "time": "2026-10-23T22:25:27+00:00",
    "title": "python3Packages.embreex: 4.4.0 -> 4.4.0.post1"
+  },
+  "577332": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40185624456,
+   "status": "dispatched",
+   "time": "2026-10-25T10:38:45+00:00",
+   "title": "python3Packages.pytest-check: 2.9.1 -> 3.0.3"
   },
   "577345": {
    "darwin": false,
@@ -9859,11 +9915,35 @@
    "time": "2026-10-23T22:26:08+00:00",
    "title": "bun: 1.4.2 -> 1.4.4"
   },
+  "577396": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40185364648,
+   "status": "dispatched",
+   "time": "2026-10-25T10:34:55+00:00",
+   "title": "typesetter: 0.16.1 -> 0.16.5"
+  },
   "577399": {
    "reason": "not open",
    "status": "skipped",
    "title": "knowsmore: 0.1.51 -> 0.1.52",
    "tries": 0
+  },
+  "577402": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40185321098,
+   "status": "dispatched",
+   "time": "2026-10-25T10:34:17+00:00",
+   "title": "lifecycled: 3.6.0 -> 3.7.0"
+  },
+  "577405": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40185130965,
+   "status": "dispatched",
+   "time": "2026-10-25T10:31:29+00:00",
+   "title": "juicefs: 1.4.1 -> 1.4.2"
   },
   "577421": {
    "darwin": true,
@@ -11057,6 +11137,7 @@
   },
   "578493": {
    "darwin": true,
+   "final": "cancelled after 4 hours",
    "on_success": "approve",
    "run_id": 40169709310,
    "status": "dispatched",
