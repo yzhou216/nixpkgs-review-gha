@@ -143,6 +143,36 @@
    "time": "2026-10-24T04:02:45+00:00",
    "title": "n2n: 3.0 -> 3.1.1"
   },
+  "529695": {
+   "darwin": false,
+   "on_success": "nothing",
+   "run_id": 40162592223,
+   "status": "dispatched",
+   "time": "2026-10-25T04:38:01+00:00",
+   "title": "pacemaker: 3.0.1 -> 3.0.3"
+  },
+  "530202": {
+   "darwin": false,
+   "on_success": "nothing",
+   "run_id": 40162393713,
+   "status": "dispatched",
+   "time": "2026-10-25T04:34:44+00:00",
+   "title": "pipekit: 6.65.5 -> 8.5.8"
+  },
+  "530253": {
+   "darwin": false,
+   "on_success": "nothing",
+   "run_id": 40162354743,
+   "status": "dispatched",
+   "time": "2026-10-25T04:34:06+00:00",
+   "title": "highscore-stella: 0-unstable-2026-06-01 -> 0-unstable-2026-06-27"
+  },
+  "530256": {
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "octavePackages.doctest: 0.8.1 -> 0.8.2",
+   "tries": 0
+  },
   "531046": {
    "darwin": false,
    "extra_args": "--eval local",
@@ -152,10 +182,44 @@
    "time": "2026-10-24T04:02:32+00:00",
    "title": "scarlett2: 0-unstable-2024-04-06 -> 1.0"
   },
+  "532317": {
+   "darwin": false,
+   "on_success": "nothing",
+   "run_id": 40162110475,
+   "status": "dispatched",
+   "time": "2026-10-25T04:30:14+00:00",
+   "title": "cifs-utils: 7.5 -> 7.9"
+  },
   "533251": {
    "reason": "not open",
    "status": "skipped",
    "title": "audacious-plugins: 4.5.1 -> 4.6.1",
+   "tries": 0
+  },
+  "533348": {
+   "darwin": false,
+   "examined": 1,
+   "final": "review (x86_64-linux): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.",
+   "on_success": "nothing",
+   "run_id": 40161486978,
+   "status": "dispatched",
+   "time": "2026-10-25T04:19:54+00:00",
+   "title": "highscore-nestopia: 0-unstable-2026-05-31 -> 0-unstable-2026-06-27"
+  },
+  "533349": {
+   "darwin": false,
+   "examined": 1,
+   "final": "review (aarch64-linux): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.",
+   "on_success": "nothing",
+   "run_id": 40161385743,
+   "status": "dispatched",
+   "time": "2026-10-25T04:18:11+00:00",
+   "title": "highscore-prosystem: 0-unstable-2026-05-16 -> 0-unstable-2026-06-27"
+  },
+  "533470": {
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "kdePackages.kquickimageedit: 0.6.1 -> 0.6.2",
    "tries": 0
   },
   "534821": {
@@ -167,8 +231,20 @@
    "time": "2026-10-23T21:45:35+00:00",
    "title": "bezel: init at 1.1.0, nixos/bezel: init"
   },
+  "534990": {
+   "darwin": false,
+   "examined": 1,
+   "final": "review (aarch64-linux): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.",
+   "on_success": "nothing",
+   "run_id": 40161303371,
+   "status": "dispatched",
+   "time": "2026-10-25T04:16:49+00:00",
+   "title": "asahi-btsync: 0.2.5 -> 0.2.6"
+  },
   "534992": {
    "darwin": false,
+   "examined": 1,
+   "final": "review (aarch64-linux): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.",
    "on_success": "nothing",
    "run_id": 40160694069,
    "status": "dispatched",
@@ -177,6 +253,8 @@
   },
   "534994": {
    "darwin": false,
+   "examined": 1,
+   "final": "review (x86_64-linux): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.",
    "on_success": "nothing",
    "run_id": 40160518276,
    "status": "dispatched",
@@ -185,6 +263,8 @@
   },
   "535000": {
    "darwin": false,
+   "examined": 1,
+   "final": "review (aarch64-linux): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.",
    "on_success": "nothing",
    "run_id": 40160480121,
    "status": "dispatched",
@@ -199,6 +279,8 @@
   },
   "535116": {
    "darwin": false,
+   "examined": 1,
+   "final": "review (x86_64-linux): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.",
    "on_success": "nothing",
    "run_id": 40160428379,
    "status": "dispatched",
@@ -207,6 +289,8 @@
   },
   "535968": {
    "darwin": false,
+   "examined": 1,
+   "final": "review (x86_64-linux): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.",
    "on_success": "nothing",
    "run_id": 40159911485,
    "status": "dispatched",
@@ -663,10 +747,14 @@
    "tries": 0
   },
   "541619": {
+   "darwin": true,
    "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40009920966,
-   "reason": "no CI evaluation",
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 40161220392,
+   "status": "dispatched",
+   "time": "2026-10-25T04:15:27+00:00",
    "title": "python3Packages.py3amf: 0.8.11 -> 0.9.1"
   },
   "541707": {
@@ -676,10 +764,14 @@
    "title": "python3Packages.pylink-square: 1.6.0 -> 2.0.2"
   },
   "541957": {
+   "darwin": true,
    "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40008956649,
-   "reason": "no CI evaluation",
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 40161259785,
+   "status": "dispatched",
+   "time": "2026-10-25T04:16:05+00:00",
    "title": "python3Packages.azure-mgmt-datafactory: 9.3.0 -> 10.0.0"
   },
   "542021": {
@@ -706,10 +798,14 @@
    "title": "vrcvideocacher: 2026.5.2 -> 2026.9.10"
   },
   "542167": {
+   "darwin": true,
    "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40007169649,
-   "reason": "no CI evaluation",
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 40161529806,
+   "status": "dispatched",
+   "time": "2026-10-25T04:20:33+00:00",
    "title": "python3Packages.libtmux: 0.61.0 -> 0.62.0"
   },
   "542199": {
@@ -724,17 +820,25 @@
    "title": "gccmakedep: 1.0.4 -> 1.0.5"
   },
   "542575": {
+   "darwin": true,
    "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40005899157,
-   "reason": "no CI evaluation",
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 40161761885,
+   "status": "dispatched",
+   "time": "2026-10-25T04:24:25+00:00",
    "title": "python3Packages.pypresence: 4.6.1 -> 4.6.2"
   },
   "542847": {
+   "darwin": true,
    "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40005537662,
-   "reason": "no CI evaluation",
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 40162222582,
+   "status": "dispatched",
+   "time": "2026-10-25T04:31:56+00:00",
    "title": "python3Packages.certomancer: 0.14.0 -> 0.16.0"
   },
   "542930": {
@@ -756,10 +860,14 @@
    "title": "kdiff3: 1.12.4 -> 1.12.6"
   },
   "543100": {
+   "darwin": true,
    "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40003603759,
-   "reason": "no CI evaluation",
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 40162265466,
+   "status": "dispatched",
+   "time": "2026-10-25T04:32:37+00:00",
    "title": "libaacs: 0.11.1 -> 0.12.0"
   },
   "543131": {
@@ -769,23 +877,35 @@
    "tries": 0
   },
   "543137": {
+   "darwin": true,
    "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40003378714,
-   "reason": "no CI evaluation",
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 40162304810,
+   "status": "dispatched",
+   "time": "2026-10-25T04:33:15+00:00",
    "title": "python3Packages.nampa: 1.0-unstable-2024-12-18 -> 1.0-unstable-2026-07-10"
   },
   "543187": {
+   "darwin": true,
    "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40002894272,
-   "reason": "no CI evaluation",
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 40162529582,
+   "status": "dispatched",
+   "time": "2026-10-25T04:36:58+00:00",
    "title": "python3Packages.pyghmi: 1.6.18 -> 1.6.19"
   },
   "543188": {
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 40002623641,
-   "reason": "cancelled when r-ryantm was skipped",
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 40162631452,
+   "status": "dispatched",
+   "time": "2026-10-25T04:38:39+00:00",
    "title": "primesieve: 12.14 -> 12.16"
   },
   "543211": {
