@@ -280,6 +280,30 @@
    "title": "python3Packages.pypcode: 3.3.3 -> 4.0.1",
    "tries": 0
   },
+  "523215": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40201414696,
+   "status": "dispatched",
+   "time": "2026-10-25T14:15:53+00:00",
+   "title": "python3Packages.pyshp: 3.0.3 -> 3.0.9"
+  },
+  "523217": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40201031393,
+   "status": "dispatched",
+   "time": "2026-10-25T14:11:00+00:00",
+   "title": "python3Packages.onnxslim: 0.1.93 -> 0.1.95"
+  },
+  "523539": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40200817902,
+   "status": "dispatched",
+   "time": "2026-10-25T14:08:15+00:00",
+   "title": "python3Packages.mercadopago: 2.4.0 -> 3.6.0"
+  },
   "523710": {
    "darwin": false,
    "on_success": "nothing",
@@ -288,11 +312,43 @@
    "time": "2026-10-25T05:02:39+00:00",
    "title": "sunxi-tools: 0-unstable-2025-03-29 -> 0-unstable-2026-10-11"
   },
+  "523751": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40200773704,
+   "status": "dispatched",
+   "time": "2026-10-25T14:07:41+00:00",
+   "title": "python3Packages.plone-testing: 9.0.7 -> 10.0.0"
+  },
+  "523755": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40200460466,
+   "status": "dispatched",
+   "time": "2026-10-25T14:03:36+00:00",
+   "title": "python3Packages.simpy: 4.1.1 -> 4.1.2"
+  },
   "523939": {
    "reason": "merge conflict",
    "status": "skipped",
    "title": "python3Packages.htmltools: 0.6.1 -> 0.7.0",
    "tries": 0
+  },
+  "523970": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40200184517,
+   "status": "dispatched",
+   "time": "2026-10-25T14:00:11+00:00",
+   "title": "python3Packages.junos-eznc: 2.7.6 -> 2.8.2"
+  },
+  "524058": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40200016058,
+   "status": "dispatched",
+   "time": "2026-10-25T13:57:56+00:00",
+   "title": "prometheus-pve-exporter: 3.8.3 -> 3.10.1"
   },
   "524090": {
    "darwin": false,
@@ -301,6 +357,14 @@
    "status": "dispatched",
    "time": "2026-10-25T05:01:28+00:00",
    "title": "juce: 8.0.12 -> 9.0.4"
+  },
+  "524114": {
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40199811238,
+   "status": "dispatched",
+   "time": "2026-10-25T13:55:08+00:00",
+   "title": "python3Packages.azure-mgmt-storage: 24.0.1 -> 25.2.0"
   },
   "524299": {
    "darwin": true,
@@ -331,6 +395,8 @@
   },
   "524424": {
    "darwin": true,
+   "examined": 1,
+   "final": "review (x86_64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.",
    "on_success": "nothing",
    "run_id": 40199162857,
    "status": "dispatched",
@@ -381,6 +447,8 @@
   },
   "525788": {
    "darwin": true,
+   "examined": 1,
+   "final": "review (aarch64-darwin): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.",
    "on_success": "nothing",
    "run_id": 40198638569,
    "status": "dispatched",
@@ -389,6 +457,8 @@
   },
   "526159": {
    "darwin": true,
+   "examined": 1,
+   "final": "review (aarch64-darwin): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.",
    "on_success": "nothing",
    "run_id": 40198593331,
    "status": "dispatched",
@@ -397,6 +467,8 @@
   },
   "526618": {
    "darwin": true,
+   "examined": 1,
+   "final": "review (aarch64-darwin): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.",
    "on_success": "nothing",
    "run_id": 40198173135,
    "status": "dispatched",
@@ -583,10 +655,14 @@
    "title": "scarlett2: 0-unstable-2024-04-06 -> 1.0"
   },
   "531070": {
-   "reason": "mergeability unknown",
-   "status": "retry",
-   "title": "python3Packages.moonraker-api: 2.0.6 -> 4.0.0",
-   "tries": 1
+   "darwin": true,
+   "examined": 1,
+   "final": "review (x86_64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.",
+   "on_success": "nothing",
+   "run_id": 40199758410,
+   "status": "dispatched",
+   "time": "2026-10-25T13:54:27+00:00",
+   "title": "python3Packages.moonraker-api: 2.0.6 -> 4.0.0"
   },
   "531207": {
    "darwin": true,
@@ -713,10 +789,12 @@
    "title": "liblo: 0.35 -> 0.36"
   },
   "533842": {
-   "reason": "mergeability unknown",
-   "status": "retry",
-   "title": "python3Packages.conda: 26.5.2 -> 26.7.2",
-   "tries": 2
+   "darwin": true,
+   "on_success": "nothing",
+   "run_id": 40199700645,
+   "status": "dispatched",
+   "time": "2026-10-25T13:53:42+00:00",
+   "title": "python3Packages.conda: 26.5.2 -> 26.7.2"
   },
   "534430": {
    "darwin": true,
@@ -1098,10 +1176,14 @@
    "title": "python3Packages.livekit-protocol: 1.1.17 -> 1.1.27"
   },
   "538791": {
-   "reason": "mergeability unknown",
-   "status": "retry",
-   "title": "js-beautify: 1.15.4 -> 2.0.3",
-   "tries": 1
+   "darwin": true,
+   "examined": 1,
+   "final": "review (aarch64-linux): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.",
+   "on_success": "nothing",
+   "run_id": 40199369021,
+   "status": "dispatched",
+   "time": "2026-10-25T13:49:20+00:00",
+   "title": "js-beautify: 1.15.4 -> 2.0.3"
   },
   "538852": {
    "darwin": true,
@@ -10670,6 +10752,7 @@
   },
   "577700": {
    "darwin": true,
+   "final": "cancelled after 4 hours",
    "on_success": "nothing",
    "run_id": 40182612439,
    "status": "dispatched",
@@ -10685,6 +10768,7 @@
   },
   "577711": {
    "darwin": true,
+   "final": "cancelled after 4 hours",
    "on_success": "nothing",
    "run_id": 40182355925,
    "status": "dispatched",
