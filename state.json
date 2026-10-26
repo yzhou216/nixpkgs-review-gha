@@ -414,11 +414,10 @@
    "title": "python3Packages.quil: 0.35.0 -> 0.36.0"
   },
   "518151": {
-   "darwin": true,
-   "on_success": "nothing",
-   "run_id": 40207553407,
-   "status": "dispatched",
-   "time": "2026-10-25T15:34:05+00:00",
+   "head": "ad35d7e6710df4b20dc911a91c46fcbf42973cb2",
+   "previous_run_id": 40207553407,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "gpac-unstable: 26.07.0-unstable-2026-08-04 -> 26.07.0-unstable-2026-10-12"
   },
   "518174": {
@@ -891,11 +890,10 @@
    "title": "python3Packages.junos-eznc: 2.7.6 -> 2.8.2"
   },
   "524058": {
-   "darwin": true,
-   "on_success": "nothing",
-   "run_id": 40200016058,
-   "status": "dispatched",
-   "time": "2026-10-25T13:57:56+00:00",
+   "head": "c1f2bb05b24561e7e9c1082a4ae58eebc82e59dc",
+   "previous_run_id": 40200016058,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "prometheus-pve-exporter: 3.8.3 -> 3.10.1"
   },
   "524090": {
@@ -907,11 +905,10 @@
    "title": "juce: 8.0.12 -> 9.0.4"
   },
   "524114": {
-   "darwin": true,
-   "on_success": "nothing",
-   "run_id": 40199811238,
-   "status": "dispatched",
-   "time": "2026-10-25T13:55:08+00:00",
+   "head": "3dcb70a6e83cafbdd8a45c3f491ff2105e172199",
+   "previous_run_id": 40199811238,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "python3Packages.azure-mgmt-storage: 24.0.1 -> 25.2.0"
   },
   "524299": {
@@ -1213,11 +1210,10 @@
    "title": "python3Packages.moonraker-api: 2.0.6 -> 4.0.0"
   },
   "531207": {
-   "darwin": true,
-   "on_success": "nothing",
-   "run_id": 40196935671,
-   "status": "dispatched",
-   "time": "2026-10-25T13:17:31+00:00",
+   "head": "342362a5f30096765359600da4700c3d1fe00c2d",
+   "previous_run_id": 40196935671,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "kubernetes-helmPlugins.helm-secrets: 4.7.6 -> 4.7.9"
   },
   "531638": {
@@ -2465,9 +2461,10 @@
    "title": "patatt: 0.7.0 -> 0.8.0"
   },
   "546050": {
-   "run_id": 39992185500,
-   "status": "dispatched",
-   "time": "2026-10-23T17:05:20+00:00",
+   "head": "e74e5f1bb40cd3687f6507542ccb19df1291a43f",
+   "previous_run_id": 39992185500,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "lightwalletd: 0.4.19 -> 0.5.5"
   },
   "546090": {
@@ -3616,15 +3613,17 @@
    "title": "fluent-bit: 5.1.0 -> 5.1.4"
   },
   "555509": {
-   "run_id": 39916127619,
-   "status": "dispatched",
-   "time": "2026-10-23T07:11:00+00:00",
+   "head": "20e0dbc6d0db3c20bea7b0c7b38dc891a1191fb3",
+   "previous_run_id": 39916127619,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "diylc: 6.2.0 -> 6.7.0"
   },
   "555571": {
-   "run_id": 39915653372,
-   "status": "dispatched",
-   "time": "2026-10-23T07:06:22+00:00",
+   "head": "019b67eb7f5cc7cb6e624e14f3881bdcc07cdb93",
+   "previous_run_id": 39915653372,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "mysqltuner: 2.9.1 -> 2.9.2"
   },
   "555617": {
@@ -4291,9 +4290,10 @@
    "title": "routedns: 0.1.237 -> 1.0.1"
   },
   "558941": {
-   "run_id": 39892752193,
-   "status": "dispatched",
-   "time": "2026-10-23T03:01:29+00:00",
+   "head": "79a5a5b7713b1c7ac9b6b16c2226e9e50781cfcf",
+   "previous_run_id": 39892752193,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "python3Packages.pymssql: 2.3.13 -> 2.4.4"
   },
   "558950": {
@@ -5176,9 +5176,10 @@
    "title": "python3Packages.plum-dispatch: 2.9.0 -> 2.10.1"
   },
   "562620": {
-   "run_id": 39830627327,
-   "status": "dispatched",
-   "time": "2026-10-22T18:21:35+00:00",
+   "head": "23284f619622ffd2f10e6495cbfe645680c6ece3",
+   "previous_run_id": 39830627327,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "python3Packages.django-otp: 1.7.0 -> 1.7.4"
   },
   "562623": {
@@ -5200,15 +5201,17 @@
    "title": "rush-parallel: 0.9.0 -> 0.11.0"
   },
   "562758": {
-   "run_id": 39828627575,
-   "status": "dispatched",
-   "time": "2026-10-22T18:07:36+00:00",
+   "head": "4a825f254cf87d224b602aa56115fc143648123a",
+   "previous_run_id": 39828627575,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "ta-lib: 0.7.1 -> 0.8.1"
   },
   "562768": {
-   "run_id": 39828345921,
-   "status": "dispatched",
-   "time": "2026-10-22T18:05:35+00:00",
+   "head": "794e153f1e401ff1ee06abb143a608077c93cefb",
+   "previous_run_id": 39828345921,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "gg-jj: 0.39.1 -> 0.45.0"
   },
   "562841": {
@@ -7040,9 +7043,10 @@
    "title": "eigenwallet: 4.13.3 -> 4.16.1"
   },
   "569687": {
-   "run_id": 39584496185,
-   "status": "dispatched",
-   "time": "2026-10-21T10:25:36+00:00",
+   "head": "ce0ec93f4f9bf2e347950db974e145f5dd9b1dff",
+   "previous_run_id": 39584496185,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "aws-cdk-cli: 2.1142.0 -> 2.1145.0"
   },
   "569717": {
@@ -8638,15 +8642,17 @@
    "title": "garnet: 2.1.8 -> 2.2.4"
   },
   "573881": {
-   "run_id": 39405950748,
-   "status": "dispatched",
-   "time": "2026-10-20T10:09:44+00:00",
+   "head": "780658e976919dc172e1104dd1f6c89f1d8e1def",
+   "previous_run_id": 39405950748,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "source-meta-json-schema: 16.12.0 -> 17.2.1"
   },
   "573889": {
-   "run_id": 39402675574,
-   "status": "dispatched",
-   "time": "2026-10-20T09:42:42+00:00",
+   "head": "a476d5aa9fe75892b772df1885f2c28f8d2a8354",
+   "previous_run_id": 39402675574,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "libretro.beetle-saturn: 0-unstable-2026-09-26 -> 0-unstable-2026-10-12"
   },
   "573907": {
@@ -8706,9 +8712,10 @@
    "title": "halo: 2.26.1 -> 2.27.0"
   },
   "573988": {
-   "run_id": 39392400506,
-   "status": "dispatched",
-   "time": "2026-10-20T08:18:04+00:00",
+   "head": "f07bb1607951bf6b34e1387150080e96c2064c0b",
+   "previous_run_id": 39392400506,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "koboldcpp: 1.119 -> 1.123"
   },
   "573991": {
@@ -10575,11 +10582,10 @@
    "title": "python3Packages.python-xz: 0.6.0 -> 0.7.0"
   },
   "576310": {
-   "darwin": true,
-   "on_success": "nothing",
-   "run_id": 40149056811,
-   "status": "dispatched",
-   "time": "2026-10-25T01:02:32+00:00",
+   "head": "d3b1e49693679a75533d402f4e07e6aa4e22420f",
+   "previous_run_id": 40149056811,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "deploy-rs: 0-unstable-2026-10-07 -> 1.0.0-unstable-2026-10-19"
   },
   "576325": {
@@ -10781,10 +10787,10 @@
    "title": "_1password-gui: 8.12.40 -> 8.12.42"
   },
   "576696": {
-   "darwin": true,
-   "run_id": 40033729040,
-   "status": "dispatched",
-   "time": "2026-10-23T22:27:28+00:00",
+   "head": "c236a6e507da7c314a038d1644cca01ac11e7bf9",
+   "previous_run_id": 40033729040,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "bazel_9: 9.2.0 -> 9.3.1"
   },
   "576726": {
@@ -10918,10 +10924,10 @@
    "title": "leaf-markdown-viewer: 1.28.3 -> 1.29.1"
   },
   "576986": {
-   "darwin": true,
-   "run_id": 40032985244,
-   "status": "dispatched",
-   "time": "2026-10-23T22:20:41+00:00",
+   "head": "620c138020d703af7b96a36de2fba71234ce30d7",
+   "previous_run_id": 40032985244,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "xray: 26.9.9 -> 26.10.21"
   },
   "576990": {
