@@ -845,11 +845,10 @@
    "title": "python3Packages.mercadopago: 2.4.0 -> 3.6.0"
   },
   "523710": {
-   "darwin": false,
-   "on_success": "nothing",
-   "run_id": 40164085491,
-   "status": "dispatched",
-   "time": "2026-10-25T05:02:39+00:00",
+   "head": "30343744c34542b2c024113f4dbf4cdc86e96ebb",
+   "previous_run_id": 40164085491,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "sunxi-tools: 0-unstable-2025-03-29 -> 0-unstable-2026-10-11"
   },
   "523751": {
@@ -2228,9 +2227,10 @@
    "title": "python3Packages.certomancer: 0.14.0 -> 0.16.0"
   },
   "542930": {
-   "run_id": 40005341288,
-   "status": "dispatched",
-   "time": "2026-10-23T18:41:17+00:00",
+   "head": "ae6073c71a4854e469de75c044441f1a1aa6f12a",
+   "previous_run_id": 40005341288,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "svix-server: 1.96.1 -> 2.8.0"
   },
   "543002": {
@@ -2940,9 +2940,10 @@
    "title": "python3Packages.sshfs: 2025.11.0 -> 2026.8.0"
   },
   "552062": {
-   "run_id": 39951192995,
-   "status": "dispatched",
-   "time": "2026-10-23T12:09:18+00:00",
+   "head": "e4e6bd68b9771cf6ed12d11f78dc8f622e02ee44",
+   "previous_run_id": 39951192995,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "glooctl: 1.22.0 -> 1.22.5"
   },
   "552071": {
@@ -2952,9 +2953,10 @@
    "title": "github-commenter: 0.29.0 -> 0.30.0"
   },
   "552088": {
-   "run_id": 39950840372,
-   "status": "dispatched",
-   "time": "2026-10-23T12:06:18+00:00",
+   "head": "3fd758cae60c0e629a6e44f177bae5666c828e3a",
+   "previous_run_id": 39950840372,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "coc-json: 1.9.3 -> 1.9.16"
   },
   "552090": {
@@ -3529,9 +3531,10 @@
    "title": "eddy: 3.7.1 -> 3.9"
   },
   "555246": {
-   "run_id": 39918603017,
-   "status": "dispatched",
-   "time": "2026-10-23T07:33:57+00:00",
+   "head": "fa26a4cf6045292439cbc1855354fe2572db12b0",
+   "previous_run_id": 39918603017,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "python3Packages.zope-hookable: 8.2 -> 8.3"
   },
   "555262": {
@@ -4199,9 +4202,10 @@
    "title": "sqlcl: 26.2.1.222.1617 -> 26.3.0.260.1620"
   },
   "558661": {
-   "run_id": 39895117092,
-   "status": "dispatched",
-   "time": "2026-10-23T03:27:30+00:00",
+   "head": "318f145653ba71c922e43f643f652b205449519d",
+   "previous_run_id": 39895117092,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "mongoc: 1.30.9 -> 2.5.6"
   },
   "558705": {
@@ -4229,9 +4233,10 @@
    "title": "python3Packages.handy-archives: 0.2.0 -> 0.3.0"
   },
   "558757": {
-   "run_id": 39894245084,
-   "status": "dispatched",
-   "time": "2026-10-23T03:17:49+00:00",
+   "head": "93fbaf85ff2744fd2e9b4573ec3228f69dbcbe0c",
+   "previous_run_id": 39894245084,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "bella: 0.1.11 -> 0.1.12"
   },
   "558777": {
@@ -5066,9 +5071,10 @@
    "title": "libbde: 20240502 -> 20260916"
   },
   "562361": {
-   "run_id": 39835103886,
-   "status": "dispatched",
-   "time": "2026-10-22T18:51:58+00:00",
+   "head": "9e65d4d21ad6aa2278aa8bdf69fc2b1a555e9f6b",
+   "previous_run_id": 39835103886,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "aliyun-cli: 3.4.11 -> 3.5.1"
   },
   "562429": {
@@ -5090,9 +5096,10 @@
    "title": "python3Packages.crewai-core: 1.15.18 -> 1.15.21"
   },
   "562487": {
-   "run_id": 39833761516,
-   "status": "dispatched",
-   "time": "2026-10-22T18:42:48+00:00",
+   "head": "5a2a7a6f4138be27cdacf8d2c0919c5545b87049",
+   "previous_run_id": 39833761516,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "tinyssh: 20260601 -> 20261001"
   },
   "562505": {
@@ -5108,15 +5115,17 @@
    "title": "python3Packages.demetriek: 1.3.0 -> 1.4.1"
   },
   "562539": {
-   "run_id": 39831815947,
-   "status": "dispatched",
-   "time": "2026-10-22T18:29:15+00:00",
+   "head": "d2a359fa617db7fa168f5a0fede83041ef5c612d",
+   "previous_run_id": 39831815947,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "officecli: 1.0.146 -> 1.0.157"
   },
   "562568": {
-   "run_id": 39831574136,
-   "status": "dispatched",
-   "time": "2026-10-22T18:27:44+00:00",
+   "head": "326366404f0ca6fd94b87e597d54dec9eb0d4461",
+   "previous_run_id": 39831574136,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "python3Packages.xhtml2pdf: 0.2.17 -> 0.2.23"
   },
   "562591": {
@@ -5751,9 +5760,10 @@
    "title": "pspp: 2.1.1 -> 2.1.2"
   },
   "565852": {
-   "run_id": 39750462739,
-   "status": "dispatched",
-   "time": "2026-10-22T08:48:03+00:00",
+   "head": "5f40ce6d13235f858daa0ac75c7163296de76be0",
+   "previous_run_id": 39750462739,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "amnezia-vpn: 5.0.1.5 -> 5.0.3.0"
   },
   "565884": {
@@ -6874,11 +6884,10 @@
    "title": "vscode-extensions.ms-python.vscode-pylance: 2026.3.1 -> 2026.4.1"
   },
   "569293": {
-   "examined": 1,
-   "no_runner_at": "2026-10-21T13:16:46+00:00",
-   "run_id": 39604386485,
-   "status": "dispatched",
-   "time": "2026-10-21T13:01:33+00:00",
+   "head": "65a3276007298b502722254e13533361473c3292",
+   "previous_run_id": 39604386485,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "libsolv: 0.7.39 -> 0.7.40"
   },
   "569327": {
@@ -6888,9 +6897,10 @@
    "title": "cloud-custodian: 0.9.52.0 -> 0.9.53.0"
   },
   "569378": {
-   "run_id": 39601716331,
-   "status": "dispatched",
-   "time": "2026-10-21T12:42:14+00:00",
+   "head": "1fd7abb28916024c4db9c250ec1283aa1e4a058d",
+   "previous_run_id": 39601716331,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "vscode-extensions.teabyii.ayu: 1.1.12 -> 1.4.1"
   },
   "569384": {
@@ -8466,33 +8476,38 @@
    "title": "python3Packages.ansible-core: 2.21.4 -> 2.21.5"
   },
   "573749": {
-   "run_id": 39415047209,
-   "status": "dispatched",
-   "time": "2026-10-20T11:27:12+00:00",
+   "head": "ce07522c38045c06a5dd15ae5f248b71307158b1",
+   "previous_run_id": 39415047209,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "kumactl: 2.14.5 -> 2.14.6"
   },
   "573750": {
-   "run_id": 39414682005,
-   "status": "dispatched",
-   "time": "2026-10-20T11:24:06+00:00",
+   "head": "4865e045a18c53e0cbaab52916ded369f8d46357",
+   "previous_run_id": 39414682005,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "kuma-cp: 2.14.5 -> 2.14.6"
   },
   "573751": {
-   "run_id": 39413657087,
-   "status": "dispatched",
-   "time": "2026-10-20T11:15:28+00:00",
+   "head": "751f3780abfe2c58356b77d9c69c0752a92274ca",
+   "previous_run_id": 39413657087,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "kuma-experimental: 2.14.5 -> 2.14.6"
   },
   "573754": {
-   "run_id": 39413481684,
-   "status": "dispatched",
-   "time": "2026-10-20T11:14:01+00:00",
+   "head": "b80640f3879db9e9213458fe9367401f4cae5609",
+   "previous_run_id": 39413481684,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "kuma: 2.14.5 -> 2.14.6"
   },
   "573756": {
-   "run_id": 39413118213,
-   "status": "dispatched",
-   "time": "2026-10-20T11:10:53+00:00",
+   "head": "16c1695ede5b40831efb5ac1ee58eb9949b3fcc4",
+   "previous_run_id": 39413118213,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "kuma-dp: 2.14.5 -> 2.14.6"
   },
   "573769": {
@@ -8556,9 +8571,10 @@
    "title": "nlohmann_json_schema_validator: 2.4.0 -> 2.4.1"
   },
   "573879": {
-   "run_id": 39407515179,
-   "status": "dispatched",
-   "time": "2026-10-20T10:22:48+00:00",
+   "head": "91f3093c9e38e3e436cccf41aa8ee0a101b2aa2a",
+   "previous_run_id": 39407515179,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "garnet: 2.1.8 -> 2.2.1"
   },
   "573881": {
@@ -11018,11 +11034,10 @@
    "title": "bun: 1.4.2 -> 1.4.4"
   },
   "577396": {
-   "darwin": true,
-   "on_success": "nothing",
-   "run_id": 40185364648,
-   "status": "dispatched",
-   "time": "2026-10-25T10:34:55+00:00",
+   "head": "b8e3ebfaba0b3a43bd72c5bfc233589c6f2be9e4",
+   "previous_run_id": 40185364648,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "typesetter: 0.16.1 -> 0.16.5"
   },
   "577399": {
@@ -11411,11 +11426,10 @@
    "title": "h2o: 2.3.0-rolling-2026-10-21 \u2192 2.3.0-rolling-2026-10-23"
   },
   "577837": {
-   "darwin": false,
-   "on_success": "nothing",
-   "run_id": 40142896008,
-   "status": "dispatched",
-   "time": "2026-10-24T23:28:43+00:00",
+   "head": "e28c33c7f7e3182f4c8722b623eaf11940096d55",
+   "previous_run_id": 40142896008,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "openvfs: 0.1.0-unstable-2026-09-09 -> 0-unstable-2026-10-21"
   },
   "577838": {
@@ -12051,11 +12065,10 @@
    "tries": 0
   },
   "578387": {
-   "darwin": true,
-   "on_success": "approve",
-   "run_id": 40171377110,
-   "status": "dispatched",
-   "time": "2026-10-25T07:03:57+00:00",
+   "head": "c2eef0e0ea8870e956484f1a64708f1c79debbea",
+   "previous_run_id": 40171377110,
+   "reason": "updated after the review",
+   "status": "requeue",
    "title": "garage_2: 2.4.1 -> 2.5.0"
   },
   "578389": {
