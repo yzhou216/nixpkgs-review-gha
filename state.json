@@ -845,11 +845,14 @@
    "title": "python3Packages.mercadopago: 2.4.0 -> 3.6.0"
   },
   "523710": {
-   "head": "30343744c34542b2c024113f4dbf4cdc86e96ebb",
+   "darwin": false,
+   "on_success": "nothing",
    "previous_run_id": 40164085491,
-   "reason": "updated after the review",
-   "status": "requeue",
-   "title": "sunxi-tools: 0-unstable-2025-03-29 -> 0-unstable-2026-10-11"
+   "requeued": true,
+   "run_id": 40266944906,
+   "status": "dispatched",
+   "time": "2026-10-26T04:01:44+00:00",
+   "title": "sunxi-tools: 0-unstable-2025-03-29 -> 0-unstable-2026-10-20"
   },
   "523751": {
    "darwin": true,
@@ -2227,11 +2230,14 @@
    "title": "python3Packages.certomancer: 0.14.0 -> 0.16.0"
   },
   "542930": {
-   "head": "ae6073c71a4854e469de75c044441f1a1aa6f12a",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 40005341288,
-   "reason": "updated after the review",
-   "status": "requeue",
-   "title": "svix-server: 1.96.1 -> 2.8.0"
+   "requeued": true,
+   "run_id": 40266991029,
+   "status": "dispatched",
+   "time": "2026-10-26T04:02:19+00:00",
+   "title": "svix-server: 1.96.1 -> 2.9.0"
   },
   "543002": {
    "reason": "merge conflict",
@@ -2940,11 +2946,14 @@
    "title": "python3Packages.sshfs: 2025.11.0 -> 2026.8.0"
   },
   "552062": {
-   "head": "e4e6bd68b9771cf6ed12d11f78dc8f622e02ee44",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39951192995,
-   "reason": "updated after the review",
-   "status": "requeue",
-   "title": "glooctl: 1.22.0 -> 1.22.5"
+   "requeued": true,
+   "run_id": 40267040486,
+   "status": "dispatched",
+   "time": "2026-10-26T04:02:55+00:00",
+   "title": "glooctl: 1.22.0 -> 1.22.7"
   },
   "552071": {
    "run_id": 39951015604,
@@ -2953,11 +2962,14 @@
    "title": "github-commenter: 0.29.0 -> 0.30.0"
   },
   "552088": {
-   "head": "3fd758cae60c0e629a6e44f177bae5666c828e3a",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39950840372,
-   "reason": "updated after the review",
-   "status": "requeue",
-   "title": "coc-json: 1.9.3 -> 1.9.16"
+   "requeued": true,
+   "run_id": 40267087442,
+   "status": "dispatched",
+   "time": "2026-10-26T04:03:29+00:00",
+   "title": "coc-json: 1.9.3 -> 1.9.17"
   },
   "552090": {
    "run_id": 39953044722,
@@ -3531,11 +3543,14 @@
    "title": "eddy: 3.7.1 -> 3.9"
   },
   "555246": {
-   "head": "fa26a4cf6045292439cbc1855354fe2572db12b0",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39918603017,
-   "reason": "updated after the review",
-   "status": "requeue",
-   "title": "python3Packages.zope-hookable: 8.2 -> 8.3"
+   "requeued": true,
+   "run_id": 40267137623,
+   "status": "dispatched",
+   "time": "2026-10-26T04:04:05+00:00",
+   "title": "python3Packages.zope-hookable: 8.2 -> 8.4"
   },
   "555262": {
    "reason": "merge conflict",
@@ -4202,11 +4217,14 @@
    "title": "sqlcl: 26.2.1.222.1617 -> 26.3.0.260.1620"
   },
   "558661": {
-   "head": "318f145653ba71c922e43f643f652b205449519d",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39895117092,
-   "reason": "updated after the review",
-   "status": "requeue",
-   "title": "mongoc: 1.30.9 -> 2.5.6"
+   "requeued": true,
+   "run_id": 40267185872,
+   "status": "dispatched",
+   "time": "2026-10-26T04:04:39+00:00",
+   "title": "mongoc: 1.30.9 -> 2.5.7"
   },
   "558705": {
    "run_id": 39894991519,
@@ -4233,11 +4251,14 @@
    "title": "python3Packages.handy-archives: 0.2.0 -> 0.3.0"
   },
   "558757": {
-   "head": "93fbaf85ff2744fd2e9b4573ec3228f69dbcbe0c",
+   "darwin": false,
+   "on_success": "nothing",
    "previous_run_id": 39894245084,
-   "reason": "updated after the review",
-   "status": "requeue",
-   "title": "bella: 0.1.11 -> 0.1.12"
+   "requeued": true,
+   "run_id": 40267238099,
+   "status": "dispatched",
+   "time": "2026-10-26T04:05:15+00:00",
+   "title": "bella: 0.1.11 -> 0.1.13"
   },
   "558777": {
    "run_id": 39893776881,
@@ -5071,11 +5092,14 @@
    "title": "libbde: 20240502 -> 20260916"
   },
   "562361": {
-   "head": "9e65d4d21ad6aa2278aa8bdf69fc2b1a555e9f6b",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39835103886,
-   "reason": "updated after the review",
-   "status": "requeue",
-   "title": "aliyun-cli: 3.4.11 -> 3.5.1"
+   "requeued": true,
+   "run_id": 40267286670,
+   "status": "dispatched",
+   "time": "2026-10-26T04:05:49+00:00",
+   "title": "aliyun-cli: 3.5.1 -> 3.5.2"
   },
   "562429": {
    "run_id": 39834502233,
@@ -5096,11 +5120,14 @@
    "title": "python3Packages.crewai-core: 1.15.18 -> 1.15.21"
   },
   "562487": {
-   "head": "5a2a7a6f4138be27cdacf8d2c0919c5545b87049",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39833761516,
-   "reason": "updated after the review",
-   "status": "requeue",
-   "title": "tinyssh: 20260601 -> 20261001"
+   "requeued": true,
+   "run_id": 40267338165,
+   "status": "dispatched",
+   "time": "2026-10-26T04:06:26+00:00",
+   "title": "tinyssh: 20260601 -> 20261016"
   },
   "562505": {
    "run_id": 39833167817,
@@ -5115,18 +5142,24 @@
    "title": "python3Packages.demetriek: 1.3.0 -> 1.4.1"
   },
   "562539": {
-   "head": "d2a359fa617db7fa168f5a0fede83041ef5c612d",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39831815947,
-   "reason": "updated after the review",
-   "status": "requeue",
-   "title": "officecli: 1.0.146 -> 1.0.157"
+   "requeued": true,
+   "run_id": 40267395261,
+   "status": "dispatched",
+   "time": "2026-10-26T04:07:05+00:00",
+   "title": "officecli: 1.0.146 -> 1.0.158"
   },
   "562568": {
-   "head": "326366404f0ca6fd94b87e597d54dec9eb0d4461",
+   "darwin": false,
+   "on_success": "nothing",
    "previous_run_id": 39831574136,
-   "reason": "updated after the review",
-   "status": "requeue",
-   "title": "python3Packages.xhtml2pdf: 0.2.17 -> 0.2.23"
+   "requeued": true,
+   "run_id": 40267446000,
+   "status": "dispatched",
+   "time": "2026-10-26T04:07:41+00:00",
+   "title": "python3Packages.xhtml2pdf: 0.2.17 -> 0.2.27"
   },
   "562591": {
    "run_id": 39831343949,
@@ -5760,11 +5793,14 @@
    "title": "pspp: 2.1.1 -> 2.1.2"
   },
   "565852": {
-   "head": "5f40ce6d13235f858daa0ac75c7163296de76be0",
+   "darwin": false,
+   "on_success": "nothing",
    "previous_run_id": 39750462739,
-   "reason": "updated after the review",
-   "status": "requeue",
-   "title": "amnezia-vpn: 5.0.1.5 -> 5.0.3.0"
+   "requeued": true,
+   "run_id": 40267494668,
+   "status": "dispatched",
+   "time": "2026-10-26T04:08:15+00:00",
+   "title": "amnezia-vpn: 5.0.3.0 -> 5.0.4.2"
   },
   "565884": {
    "run_id": 39749872075,
@@ -6884,11 +6920,14 @@
    "title": "vscode-extensions.ms-python.vscode-pylance: 2026.3.1 -> 2026.4.1"
   },
   "569293": {
-   "head": "65a3276007298b502722254e13533361473c3292",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39604386485,
-   "reason": "updated after the review",
-   "status": "requeue",
-   "title": "libsolv: 0.7.39 -> 0.7.40"
+   "requeued": true,
+   "run_id": 40267546253,
+   "status": "dispatched",
+   "time": "2026-10-26T04:08:52+00:00",
+   "title": "libsolv: 0.7.39 -> 0.7.41"
   },
   "569327": {
    "run_id": 39603539672,
@@ -6897,11 +6936,14 @@
    "title": "cloud-custodian: 0.9.52.0 -> 0.9.53.0"
   },
   "569378": {
-   "head": "1fd7abb28916024c4db9c250ec1283aa1e4a058d",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39601716331,
-   "reason": "updated after the review",
-   "status": "requeue",
-   "title": "vscode-extensions.teabyii.ayu: 1.1.12 -> 1.4.1"
+   "requeued": true,
+   "run_id": 40267991722,
+   "status": "dispatched",
+   "time": "2026-10-26T04:13:59+00:00",
+   "title": "vscode-extensions.teabyii.ayu: 1.1.12 -> 1.5.0"
   },
   "569384": {
    "reason": "not open",
@@ -8476,39 +8518,54 @@
    "title": "python3Packages.ansible-core: 2.21.4 -> 2.21.5"
   },
   "573749": {
-   "head": "ce07522c38045c06a5dd15ae5f248b71307158b1",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39415047209,
-   "reason": "updated after the review",
-   "status": "requeue",
-   "title": "kumactl: 2.14.5 -> 2.14.6"
+   "requeued": true,
+   "run_id": 40268227957,
+   "status": "dispatched",
+   "time": "2026-10-26T04:16:38+00:00",
+   "title": "kumactl: 2.14.5 -> 3.0.0"
   },
   "573750": {
-   "head": "4865e045a18c53e0cbaab52916ded369f8d46357",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39414682005,
-   "reason": "updated after the review",
-   "status": "requeue",
-   "title": "kuma-cp: 2.14.5 -> 2.14.6"
+   "requeued": true,
+   "run_id": 40268278018,
+   "status": "dispatched",
+   "time": "2026-10-26T04:17:12+00:00",
+   "title": "kuma-cp: 2.14.5 -> 3.0.0"
   },
   "573751": {
-   "head": "751f3780abfe2c58356b77d9c69c0752a92274ca",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39413657087,
-   "reason": "updated after the review",
-   "status": "requeue",
-   "title": "kuma-experimental: 2.14.5 -> 2.14.6"
+   "requeued": true,
+   "run_id": 40268431866,
+   "status": "dispatched",
+   "time": "2026-10-26T04:18:57+00:00",
+   "title": "kuma-experimental: 2.14.5 -> 3.0.0"
   },
   "573754": {
-   "head": "b80640f3879db9e9213458fe9367401f4cae5609",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39413481684,
-   "reason": "updated after the review",
-   "status": "requeue",
-   "title": "kuma: 2.14.5 -> 2.14.6"
+   "requeued": true,
+   "run_id": 40268578207,
+   "status": "dispatched",
+   "time": "2026-10-26T04:20:34+00:00",
+   "title": "kuma: 2.14.5 -> 3.0.0"
   },
   "573756": {
-   "head": "16c1695ede5b40831efb5ac1ee58eb9949b3fcc4",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39413118213,
-   "reason": "updated after the review",
-   "status": "requeue",
-   "title": "kuma-dp: 2.14.5 -> 2.14.6"
+   "requeued": true,
+   "run_id": 40268626839,
+   "status": "dispatched",
+   "time": "2026-10-26T04:21:07+00:00",
+   "title": "kuma-dp: 2.14.5 -> 3.0.0"
   },
   "573769": {
    "run_id": 39412947132,
@@ -8571,11 +8628,14 @@
    "title": "nlohmann_json_schema_validator: 2.4.0 -> 2.4.1"
   },
   "573879": {
-   "head": "91f3093c9e38e3e436cccf41aa8ee0a101b2aa2a",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39407515179,
-   "reason": "updated after the review",
-   "status": "requeue",
-   "title": "garnet: 2.1.8 -> 2.2.1"
+   "requeued": true,
+   "run_id": 40269044583,
+   "status": "dispatched",
+   "time": "2026-10-26T04:25:59+00:00",
+   "title": "garnet: 2.1.8 -> 2.2.4"
   },
   "573881": {
    "run_id": 39405950748,
@@ -11034,11 +11094,10 @@
    "title": "bun: 1.4.2 -> 1.4.4"
   },
   "577396": {
-   "head": "b8e3ebfaba0b3a43bd72c5bfc233589c6f2be9e4",
-   "previous_run_id": 40185364648,
-   "reason": "updated after the review",
-   "status": "requeue",
-   "title": "typesetter: 0.16.1 -> 0.16.5"
+   "reason": "head changed, now non-trivial: pkgs/by-name/ty/typesetter/package.nix: desktop-file-utils | # Upstream does not install a desktop file on darwin, so update-desktop-database fails th",
+   "status": "skipped",
+   "title": "typesetter: 0.16.1 -> 0.16.5",
+   "tries": 0
   },
   "577399": {
    "reason": "not open",
@@ -11426,11 +11485,10 @@
    "title": "h2o: 2.3.0-rolling-2026-10-21 \u2192 2.3.0-rolling-2026-10-23"
   },
   "577837": {
-   "head": "e28c33c7f7e3182f4c8722b623eaf11940096d55",
-   "previous_run_id": 40142896008,
-   "reason": "updated after the review",
-   "status": "requeue",
-   "title": "openvfs: 0.1.0-unstable-2026-09-09 -> 0-unstable-2026-10-21"
+   "reason": "head changed, now non-trivial: pkgs/by-name/op/openvfs/package.nix: stdenv.mkDerivation { | } | ctestCheckHook, | stdenv.mkDerivation (finalAttrs: { | cmakeFlags = [ | (lib.cmakeBoo",
+   "status": "skipped",
+   "title": "openvfs: 0.1.0-unstable-2026-09-09 -> 0-unstable-2026-10-21",
+   "tries": 0
   },
   "577838": {
    "darwin": true,
@@ -12065,11 +12123,10 @@
    "tries": 0
   },
   "578387": {
-   "head": "c2eef0e0ea8870e956484f1a64708f1c79debbea",
-   "previous_run_id": 40171377110,
-   "reason": "updated after the review",
-   "status": "requeue",
-   "title": "garage_2: 2.4.1 -> 2.5.0"
+   "reason": "head changed, now non-trivial: pkgs/tools/filesystems/garage/default.nix: platforms = lib.platforms.linux; | attribute names changed ['cargoHash', 'hash', 'version'] -> ['cargoHash'",
+   "status": "skipped",
+   "title": "garage_2: 2.4.1 -> 2.5.0",
+   "tries": 0
   },
   "578389": {
    "darwin": false,
