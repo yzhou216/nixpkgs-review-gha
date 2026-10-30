@@ -10782,8 +10782,13 @@
    "title": "buck2: 2026-10-01 -> 2026-10-15"
   },
   "575728": {
-   "head": "361682507cae7a71b585e69d9aa43a6182d0fd3e",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41070897607,
+   "status": "dispatched",
+   "time": "2026-10-30T14:19:43+00:00",
    "title": "numix-gtk-theme: 0-unstable-2021-06-08 -> 2.6.7-unstable-2021-06-08"
   },
   "575729": {
@@ -11265,8 +11270,13 @@
    "title": "python3Packages.wcmatch: 10.2.1 -> 11.1"
   },
   "576237": {
-   "head": "76da62d74b8c175d4e6f60e06014f1e97e31b10e",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41070302302,
+   "status": "dispatched",
+   "time": "2026-10-30T14:15:43+00:00",
    "title": "tmuxPlugins.sidebar: 0.7.0-unstable-2018-11-30 -> 0.7.0"
   },
   "576240": {
@@ -11352,8 +11362,13 @@
    "title": "deploy-rs: 0-unstable-2026-10-07 -> 1.0.0"
   },
   "576325": {
-   "head": "3f77d528365c0da888af3dc5027d2e09b1eeec1b",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41070211359,
+   "status": "dispatched",
+   "time": "2026-10-30T14:15:09+00:00",
    "title": "python3Packages.python-calamine: 0.8.3 -> 0.9.0"
   },
   "576330": {
@@ -11822,8 +11837,13 @@
    "title": "python3Packages.apycula: 0.34 -> 0.35"
   },
   "577271": {
-   "head": "85607826520fa5522d007982dca7bc9c7116952b",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41069541972,
+   "status": "dispatched",
+   "time": "2026-10-30T14:10:39+00:00",
    "title": "ankiAddons.anki-connect: 25.11.9.0 -> 26.10.14.0"
   },
   "577278": {
@@ -11985,9 +12005,13 @@
    "title": "python3Packages.airthings-cloud: 0.3.0 -> 0.3.1"
   },
   "577537": {
-   "head": "4bd7844bdc3ac0b56ddbc33e22ee619d0e3de7f4",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 40144302103,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41068641599,
+   "status": "dispatched",
+   "time": "2026-10-30T14:04:36+00:00",
    "title": "python3Packages.python-didl-lite: 1.5.1 -> 1.5.2"
   },
   "577539": {
@@ -12124,14 +12148,23 @@
    "title": "dislocker: 0.7.3-unstable-2026-08-31 -> 0.7.4-unstable-2026-10-21"
   },
   "577665": {
-   "head": "7899395cae13c83790406d371e563a8677db70ab",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 40182702113,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41067821958,
+   "status": "dispatched",
+   "time": "2026-10-30T13:59:07+00:00",
    "title": "grav_2: 2.2.6 -> 2.2.11"
   },
   "577691": {
-   "head": "113c8d8e5b9c9fc1a74eff5447f7957b772801ac",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41067111069,
+   "status": "dispatched",
+   "time": "2026-10-30T13:54:09+00:00",
    "title": "prometheus-mysqld-exporter: 0.20.0 -> 0.21.0"
   },
   "577698": {
@@ -13178,6 +13211,8 @@
   },
   "578615": {
    "darwin": true,
+   "examined": 1,
+   "final": "review (aarch64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ",
    "on_success": "nothing",
    "previous_run_id": null,
    "requeued": true,
@@ -13698,6 +13733,7 @@
   },
   "579371": {
    "darwin": true,
+   "final": "cancelled after 4 hours",
    "on_success": "nothing",
    "previous_run_id": null,
    "requeued": true,
