@@ -374,8 +374,13 @@
    "title": "python3Packages.types-psycopg2: 2.9.21.20251012 -> 2.9.21.20261008"
   },
   "494460": {
-   "head": "c192ab782504416dbd205a1810091a4966fdcf89",
-   "status": "requeue",
+   "darwin": false,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41097646091,
+   "status": "dispatched",
+   "time": "2026-10-30T17:18:21+00:00",
    "title": "singularity-overriden-nixos: 4.4.1 -> 4.6.0"
   },
   "494641": {
@@ -399,9 +404,10 @@
    "title": "python3Packages.h5netcdf: 1.8.0 -> 1.8.1"
   },
   "495061": {
-   "head": "536306473d08cb42db5e1d5281a119064c5484e3",
-   "status": "requeue",
-   "title": "coqPackages.mathcomp-finmap: 2.2.2 -> 2.2.3"
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "coqPackages.mathcomp-finmap: 2.2.2 -> 2.2.3",
+   "tries": 0
   },
   "495074": {
    "head": "a915876305c4c80cd089158c5ac0dcabdf198403",
@@ -434,14 +440,16 @@
    "title": "aspellDicts.en: 2020.12.07-0 -> 2026.02.25-0"
   },
   "496208": {
-   "head": "83e7e33f508b08fed9aad81e3aeafcbdd9817b13",
-   "status": "requeue",
-   "title": "python3Packages.airportsdata: 20251008 -> 20260905"
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "python3Packages.airportsdata: 20251008 -> 20260905",
+   "tries": 0
   },
   "496340": {
-   "head": "5bd41a359d333c363097db992e2e00107a01b228",
-   "status": "requeue",
-   "title": "python3Packages.pvlib: 0.14.0 -> 0.16.1"
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "python3Packages.pvlib: 0.14.0 -> 0.16.1",
+   "tries": 0
   },
   "496500": {
    "head": "33b376ee2e531ef35f68eb20ee285694eeae5e1e",
@@ -454,9 +462,10 @@
    "title": "python3Packages.scikit-rf: 1.9.0 -> 2.1.0"
   },
   "497108": {
-   "head": "4defee5e0caeb0e7fafd356a3c3c564400da03b5",
-   "status": "requeue",
-   "title": "python3Packages.dramatiq: 2.1.0 -> 2.2.1"
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "python3Packages.dramatiq: 2.1.0 -> 2.2.1",
+   "tries": 0
   },
   "497218": {
    "head": "4506bc0fe7e9c188f7bbfa7bbb4baf03da096128",
@@ -504,9 +513,10 @@
    "title": "python3Packages.snakemake-interface-report-plugins: 1.3.0 -> 2.0.1"
   },
   "499665": {
-   "head": "8ac48a085adcef489b236860e5d07e3115f09caf",
-   "status": "requeue",
-   "title": "libsForQt5.kdsoap: 2.2.0 -> 2.3.0"
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "libsForQt5.kdsoap: 2.2.0 -> 2.3.0",
+   "tries": 0
   },
   "500074": {
    "head": "fe45292fbc8b5754dba0c110d475bbf1d5ddefc6",
@@ -529,9 +539,10 @@
    "title": "git-credential-outlook: 5.9.1 -> 5.9.5"
   },
   "500080": {
-   "head": "7f3dbb5e3ffe846bc9d7584318203052fc822f0a",
-   "status": "requeue",
-   "title": "git-credential-gmail: 5.6.2 -> 5.9.4"
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "git-credential-gmail: 5.6.2 -> 5.9.4",
+   "tries": 0
   },
   "500081": {
    "head": "8077994f608b2b3a5d984cbcac8f180eae668962",
@@ -553,8 +564,13 @@
    "title": "hevel: init at 0-unstable-2026-05-07, neuswc: init at 0-unstable-2026-10-02, neuwld: init at 0-unstable-2026-08-13, nixos/hevel: init"
   },
   "501645": {
-   "head": "d9535bc469e32d8ca19b39529095de9ee445127a",
-   "status": "requeue",
+   "darwin": false,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41097310917,
+   "status": "dispatched",
+   "time": "2026-10-30T17:16:04+00:00",
    "title": "linuxPackages.rtw88: 0-unstable-2026-02-12 -> 0-unstable-2026-10-24"
   },
   "501697": {
@@ -582,8 +598,14 @@
    "title": "libhdhomerun: 20250506 -> 20260326"
   },
   "502129": {
-   "head": "89e1fa734e5ac2b84f96b65c4c82a492ad3c6795",
-   "status": "requeue",
+   "darwin": false,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41097201414,
+   "status": "dispatched",
+   "time": "2026-10-30T17:15:21+00:00",
    "title": "libskk: 1.1.0 -> 1.1.1"
   },
   "502226": {
@@ -636,9 +658,10 @@
    "title": "steampipePackages.steampipe-plugin-github: 1.7.0 -> 1.11.0"
   },
   "504695": {
-   "head": "a5b4aa9fbbc10caae865f93d46708a76357f6b6d",
-   "status": "requeue",
-   "title": "python3Packages.echo: 0.12.1 -> 0.16.0"
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "python3Packages.echo: 0.12.1 -> 0.16.0",
+   "tries": 0
   },
   "504698": {
    "head": "b7f27d713f2b11074a60d592fd4d6c518272924f",
@@ -661,8 +684,13 @@
    "title": "python3Packages.urwid: 4.0.11 -> 4.2.5"
   },
   "507194": {
-   "head": "a11471efbf69056918388f047221481379cdb2a4",
-   "status": "requeue",
+   "darwin": false,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41096959647,
+   "status": "dispatched",
+   "time": "2026-10-30T17:13:41+00:00",
    "title": "ssdfs-utils: 4.68 -> 4.76"
   },
   "507225": {
@@ -671,14 +699,21 @@
    "title": "ocamlPackages.lambda-term: 3.3.3 -> 3.4.1"
   },
   "507437": {
-   "head": "d9989ec8b2ec93a40bd9ab7ce4f106e2c246d643",
-   "status": "requeue",
+   "darwin": false,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41096872698,
+   "status": "dispatched",
+   "time": "2026-10-30T17:13:05+00:00",
    "title": "networkmanager-ssh: 1.4.2 -> 1.4.5"
   },
   "507857": {
-   "head": "06d8a2078d142078a55748d2e182e7ebe7ca6cfa",
-   "status": "requeue",
-   "title": "python3Packages.param: 2.3.2 -> 2.5.0b3"
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "python3Packages.param: 2.3.2 -> 2.5.0b3",
+   "tries": 0
   },
   "507956": {
    "head": "9f7dd4282e709e958f05695ef1466aedda96c8af",
@@ -686,9 +721,10 @@
    "title": "python3Packages.python-hcl2: 7.3.1 -> 8.1.4"
   },
   "508027": {
-   "head": "1fb336df8e29a31b9a3e6860c76b8106081f93bf",
-   "status": "requeue",
-   "title": "weechatScripts.weechat-notify-send: 0.10 -> 0.11"
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "weechatScripts.weechat-notify-send: 0.10 -> 0.11",
+   "tries": 0
   },
   "508263": {
    "head": "5a3f11e514d87ae37cc3e4dce6d8116313d98200",
@@ -759,6 +795,8 @@
   },
   "510464": {
    "darwin": false,
+   "examined": 1,
+   "final": "review (x86_64-linux): Process completed with exit code 1.",
    "on_success": "nothing",
    "previous_run_id": null,
    "requeued": true,
@@ -7814,8 +7852,13 @@
    "title": "yle-dl: 20260716 -> 20261002"
   },
   "569557": {
-   "head": "c0aa0fa986d0d228d1fe3c4402088292cf5cce59",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41099884464,
+   "status": "dispatched",
+   "time": "2026-10-30T17:33:40+00:00",
    "title": "python3Packages.discogs-client: 2.9 -> 2.10"
   },
   "569571": {
@@ -7951,9 +7994,13 @@
    "tries": 0
   },
   "570074": {
-   "head": "988945b86910752d956bdcac229c4a6c6154967e",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39577938009,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41099308872,
+   "status": "dispatched",
+   "time": "2026-10-30T17:29:47+00:00",
    "title": "myanon: 0.8.5 -> 0.8.8"
   },
   "570075": {
@@ -7981,9 +8028,13 @@
    "tries": 0
   },
   "570136": {
-   "head": "45be6ce2ea26481f68a7ceeff09edc9ff2046020",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39575885485,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41099074793,
+   "status": "dispatched",
+   "time": "2026-10-30T17:28:07+00:00",
    "title": "u-config: 0.33.1 -> 0.35.0"
   },
   "570329": {
@@ -8065,9 +8116,13 @@
    "title": "python3Packages.pyunormalize: 17.0.0 -> 18.0.0"
   },
   "570460": {
-   "head": "1e398a4200cbb6bd8a4270f4bd2b536c2631e850",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39565106935,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41098988031,
+   "status": "dispatched",
+   "time": "2026-10-30T17:27:30+00:00",
    "title": "python3Packages.ledger-bitcoin: 0.4.1 -> 0.4.2"
   },
   "570471": {
@@ -8089,21 +8144,33 @@
    "title": "kubernetes-helmPlugins.helm-diff: 3.15.14 -> 3.15.15"
   },
   "570481": {
-   "head": "8a0d1dfa988a57997cf2cb8a14135a08e4af8037",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39562861846,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41098885545,
+   "status": "dispatched",
+   "time": "2026-10-30T17:26:48+00:00",
    "title": "verifpal: 1.6.1 -> 1.6.7"
   },
   "570519": {
-   "head": "b37bf9203b013e044573f7c8874c29fc1f1ec563",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39562690874,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41098490681,
+   "status": "dispatched",
+   "time": "2026-10-30T17:24:04+00:00",
    "title": "templ: 0.3.1020 -> 0.3.1100"
   },
   "570532": {
-   "head": "806a44453c23975e18f210bbe6809be67714518d",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39561925785,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41098406325,
+   "status": "dispatched",
+   "time": "2026-10-30T17:23:30+00:00",
    "title": "postcss: 8.5.28 -> 8.5.32"
   },
   "570539": {
@@ -8113,9 +8180,13 @@
    "title": "vscode-extensions.reditorsupport.r: 2.8.8 -> 3.2.0"
   },
   "570568": {
-   "head": "3ed01f4ce0a8c42eed252670d3b43e149e7edf8c",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39561023580,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41098071864,
+   "status": "dispatched",
+   "time": "2026-10-30T17:21:11+00:00",
    "title": "python3Packages.victron-mqtt: 2026.9.10 -> 2026.10.3"
   },
   "570576": {
@@ -8125,9 +8196,13 @@
    "title": "python3Packages.pyadjoint-ad: 2026.9.0 -> 2026.10.0"
   },
   "570581": {
-   "head": "7b164a13ce83b30109ee74690028f3abdeee8451",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39559716101,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41097817128,
+   "status": "dispatched",
+   "time": "2026-10-30T17:19:31+00:00",
    "title": "freescout: 1.8.241 -> 1.8.248"
   },
   "570592": {
@@ -8928,8 +9003,6 @@
    "on_success": "nothing",
    "previous_run_id": 39449293322,
    "requeued": true,
-   "rerun": "no runner",
-   "rerun_after": "2026-10-30T17:18:34+00:00",
    "run_id": 41084906106,
    "status": "dispatched",
    "time": "2026-10-30T15:53:48+00:00",
