@@ -28,11 +28,15 @@ arrived until there is room.
 Pull requests by COMMENT_ONLY_AUTHORS get the review result as a comment
 but no approval.  A committer asked on #550000 for no automated approvals of
 r-ryantm's pull requests, and said that the results are still useful, since
-r-ryantm only builds on x86_64-linux.  Records with the status "requeue" ask
-for a pull request to be reviewed again, for example after an update, and go
-to the front of the queue.  The state file can also hold re-reviews of pull
-requests that are not candidates, such as the user's own, which run with
-their own on-success setting and are tracked like any other review.
+r-ryantm only builds on x86_64-linux.  Such a pull request is reviewed unless
+a result for its current head exists already, whoever posted it.  Records
+with the status "requeue" ask for a pull request to be reviewed, for example
+again after an update, and go to the front of the queue, newest first.  The
+state file can also hold re-reviews of pull requests that are not candidates,
+such as the user's own, which run with their own on-success setting and are
+tracked like any other review.  A pull request whose CI evaluation has
+expired is reviewed with --eval local, and none is dispatched while a review
+of it is still running in the fork.
 
 A run lasts up to TIME_BUDGET seconds, commits the state file every
 COMMIT_INTERVAL seconds, and then dispatches the next batch-review run, so
@@ -130,6 +134,9 @@ ALLOWED = [
     re.compile(r'^\s*"' + HASHVAL + r'"\s*[;,]?\s*$'),
 ]
 RUN_TITLE = re.compile(r"^review #(\d+)\b")
+# Head commit line of a nixpkgs-review-gha result comment
+RESULT_COMMIT = re.compile(r"^Commit: \[?`([0-9a-f]{40})`", re.M)
+EVAL_WORKFLOWS = {"Eval", "PR"}
 
 
 def log(*args):
@@ -281,23 +288,59 @@ def needs_darwin(pr):
     return bucket([l["name"] for l in pr["labels"]], "10.rebuild-darwin") != "0"
 
 
+def reviewed_heads(comments):
+    """Return the pull request heads that nixpkgs-review-gha result comments report."""
+    return {
+        sha
+        for c in comments
+        if "nixpkgs-review-gha" in (c["body"] or "")
+        for sha in RESULT_COMMIT.findall(c["body"])
+    }
+
+
+def ci_eval(head):
+    """Return whether the nixpkgs CI evaluation of a head is "available", "pending" or "missing".
+
+    nixpkgs-review takes the packages to build from the comparison artifact
+    of this evaluation.  Without it, nixpkgs-review waits for ten minutes and
+    then gives up, so the review needs --eval local instead.  The artifact
+    expires a few months after the evaluation.
+    """
+    runs = api(f"repos/NixOS/nixpkgs/actions/runs?head_sha={head}&per_page=100")["workflow_runs"]
+    runs = [r for r in runs if r["name"] in EVAL_WORKFLOWS]
+    if any(r["status"] != "completed" for r in runs):
+        return "pending"
+    for r in runs:
+        artifacts = api(f"repos/NixOS/nixpkgs/actions/runs/{r['id']}/artifacts?per_page=100")["artifacts"]
+        if any(a["name"] == "comparison" and not a["expired"] for a in artifacts):
+            return "available"
+    return "missing"
+
+
 def check_pr(cand, ignore_own=False):
     """Check a candidate just before its review is dispatched.
 
-    Return a (status, reason, title, darwin, on_success) tuple.  The status
-    is "ok" when the review can be dispatched, "skipped" when the pull request
-    no longer qualifies, and "retry" when the check could not be decided yet,
-    for example while GitHub is still computing mergeability.  The darwin
-    flag tells whether the review needs the aarch64-darwin job, and
-    on_success whether a successful review may approve.  With ignore_own,
-    earlier results and reviews by the owner do not count, as when a pull
-    request is reviewed again after an update.
+    Return a (status, reason, title, darwin, on_success, extra_args) tuple.
+    The status is "ok" when the review can be dispatched, "skipped" when the
+    pull request no longer qualifies, and "retry" when the check could not be
+    decided yet, for example while GitHub is still computing mergeability.
+    The darwin flag tells whether the review needs the aarch64-darwin job,
+    on_success whether a successful review may approve, and extra_args holds
+    the extra nixpkgs-review arguments, such as --eval local when the CI
+    evaluation of the head is gone.  With ignore_own, earlier results and
+    reviews by the owner do not count, as when a pull request is reviewed
+    again after an update.
+
+    Pull requests by COMMENT_ONLY_AUTHORS need no triviality check, since
+    their review only posts a comment.  For them, only a result for the
+    current head counts as an earlier review, whoever posted it.
     """
     n = cand["number"]
     pr = api(f"repos/NixOS/nixpkgs/pulls/{n}")
+    comment_only = pr["user"]["login"] in COMMENT_ONLY_AUTHORS
 
     def skip(reason, status="skipped"):
-        return status, reason, pr["title"], None, None
+        return status, reason, pr["title"], None, None, None
 
     if pr["state"] != "open":
         return skip("not open")
@@ -309,7 +352,7 @@ def check_pr(cand, ignore_own=False):
         return skip("own PR")
     if not BUMP.match(pr["title"].strip()):
         return skip("title no longer a plain bump")
-    if pr["head"]["sha"] != cand["headRefOid"]:
+    if pr["head"]["sha"] != cand["headRefOid"] and not comment_only:
         files = api(f"repos/NixOS/nixpkgs/pulls/{n}/files?per_page=100", paginate=True)
         reasons = classify(pr["title"], files)
         if reasons:
@@ -330,15 +373,26 @@ def check_pr(cand, ignore_own=False):
     if "nixpkgs-review-gha" in (pr["body"] or ""):
         return skip("gha in PR body")
     comments = api(f"repos/NixOS/nixpkgs/issues/{n}/comments?per_page=100", paginate=True)
-    if ignore_own:
-        comments = [c for c in comments if (c["user"] or {}).get("login") != OWNER]
-    if any("nixpkgs-review-gha" in (c["body"] or "") for c in comments):
-        return skip("has nixpkgs-review-gha comment")
-    reviews = api(f"repos/NixOS/nixpkgs/pulls/{n}/reviews?per_page=100", paginate=True)
-    if not ignore_own and any((r["user"] or {}).get("login") == OWNER for r in reviews):
-        return skip("already reviewed by owner")
-    on_success = "nothing" if pr["user"]["login"] in COMMENT_ONLY_AUTHORS else "approve"
-    return "ok", None, pr["title"], needs_darwin(pr), on_success
+    if comment_only:
+        if pr["head"]["sha"] in reviewed_heads(comments):
+            return skip("has a result for the current head")
+    else:
+        if ignore_own:
+            comments = [c for c in comments if (c["user"] or {}).get("login") != OWNER]
+        if any("nixpkgs-review-gha" in (c["body"] or "") for c in comments):
+            return skip("has nixpkgs-review-gha comment")
+        reviews = api(f"repos/NixOS/nixpkgs/pulls/{n}/reviews?per_page=100", paginate=True)
+        if not ignore_own and any((r["user"] or {}).get("login") == OWNER for r in reviews):
+            return skip("already reviewed by owner")
+    extra_args = cand.get("extra_args")
+    if not extra_args:
+        evaluation = ci_eval(pr["head"]["sha"])
+        if evaluation == "pending":
+            return skip("CI evaluation still running", "retry")
+        if evaluation == "missing":
+            extra_args = "--eval local"
+    on_success = "nothing" if comment_only else "approve"
+    return "ok", None, pr["title"], needs_darwin(pr), on_success, extra_args
 
 
 def dispatch(n, on_success="approve", darwin=True, extra_args=None):
@@ -477,13 +531,18 @@ def rerun(n, rec, cand):
             return False, rec["final"]
         return True, f"re-ran the failed jobs of run {run_id}"
     head = head or rec.get("head") or (cand or {}).get("headRefOid") or pr["head"]["sha"]
+    extra_args = rec.get("extra_args")
     if on_success != "approve":
         # Without an approval, a review of the latest head needs no triviality check
         status, reason, title, darwin = "ok", None, pr["title"], needs_darwin(pr)
+        if not extra_args and ci_eval(pr["head"]["sha"]) == "missing":
+            extra_args = "--eval local"
     else:
         # The head that will be built has not been checked yet
-        cand = {"number": n, "headRefOid": head}
-        status, reason, title, darwin, on_success = check_pr(cand, ignore_own=rec.get("requeued", False))
+        cand = {"number": n, "headRefOid": head, "extra_args": extra_args}
+        status, reason, title, darwin, on_success, extra_args = check_pr(
+            cand, ignore_own=rec.get("requeued", False)
+        )
     if status == "retry" and rec.get("tries", 0) < MAX_TRIES:
         rec["tries"] = rec.get("tries", 0) + 1
         rec["rerun"] = kind
@@ -496,11 +555,13 @@ def rerun(n, rec, cand):
         if not rerun_failed_jobs(run_id, rec):
             return False, rec["final"]
         return True, f"re-ran run {run_id}"
-    new_id = None if DRY_RUN else dispatch(n, on_success, darwin, rec.get("extra_args"))
+    new_id = None if DRY_RUN else dispatch(n, on_success, darwin, extra_args)
     for key in ("examined", "no_runner_at", "tries"):
         rec.pop(key, None)
     rec.update(run_id=new_id, title=title, time=iso(time.time()), head=pr["head"]["sha"], darwin=darwin)
     rec.update(on_success=on_success, redispatched=True)
+    if extra_args:
+        rec["extra_args"] = extra_args
     return True, f"dispatched run {new_id} in place of run {run_id}: {title}"
 
 
@@ -578,10 +639,16 @@ def run(start):
         due = [n for n, r in records.items() if r.get("rerun") and epoch(r["rerun_after"]) <= now]
         return sorted(due, key=lambda n: records[n]["rerun_after"])
 
-    # Requested re-reviews go first, compared against the head they last reviewed
+    # Requested re-reviews go first, newest first, compared against the head they last reviewed
     requeued = [
-        {"number": int(n), "title": r.get("title", ""), "headRefOid": r.get("head"), "requeue": True}
-        for n, r in records.items()
+        {
+            "number": int(n),
+            "title": r.get("title", ""),
+            "headRefOid": r.get("head"),
+            "requeue": True,
+            "extra_args": r.get("extra_args"),
+        }
+        for n, r in sorted(records.items(), key=lambda item: -int(item[0]))
         if r["status"] == "requeue"
     ]
     queue = requeued + [c for c in candidates if pending(c)]
@@ -722,12 +789,15 @@ def run(start):
         requeue = cand.get("requeue", False)
         old = records.get(str(n), {})
         if n in seen and not requeue:
-            status, reason, title, darwin, on_success = "skipped", "fork already has a run", cand["title"], None, None
+            status, reason, title, darwin, on_success, extra_args = "skipped", "fork already has a run", cand["title"], None, None, None
+        elif any(pr_of(r) == n for r in active):
+            # A review dispatched by hand or by another session is still running
+            status, reason, title, darwin, on_success, extra_args = "skipped", "fork run in flight", cand["title"], None, None, None
         else:
             try:
-                status, reason, title, darwin, on_success = check_pr(cand, ignore_own=requeue)
+                status, reason, title, darwin, on_success, extra_args = check_pr(cand, ignore_own=requeue)
             except LookupError as e:
-                status, reason, title, darwin, on_success = "skipped", f"lookup failed: {e}", cand["title"], None, None
+                status, reason, title, darwin, on_success, extra_args = "skipped", f"lookup failed: {e}", cand["title"], None, None, None
         darwin_hint[n] = darwin
         if status == "ok" and darwin and not darwin_room:
             waiting_for_mac.append(cand)
@@ -747,12 +817,12 @@ def run(start):
             if status == "retry" and tries < MAX_TRIES:
                 queue.insert(min(len(queue), RETRY_POSITION), cand)
             continue
+        flags = ("" if darwin else " without Darwin") + ("" if on_success == "approve" else " comment only")
+        flags += f" ({extra_args})" if extra_args else ""
         if DRY_RUN:
-            flags = ("" if darwin else " without Darwin") + ("" if on_success == "approve" else " comment only")
             log(f"#{n} would dispatch{flags}: {title}")
             dispatched += 1
             continue
-        extra_args = old.get("extra_args") if requeue else None
         run_id = dispatch(n, on_success, darwin, extra_args)
         last = time.time()
         fetched = 0.0
@@ -768,7 +838,6 @@ def run(start):
             **({"requeued": True, "previous_run_id": old.get("previous_run_id")} if requeue else {}),
             **({"extra_args": extra_args} if extra_args else {}),
         }
-        flags = ("" if darwin else " without Darwin") + ("" if on_success == "approve" else " comment only")
         log(f"#{n} dispatched run {run_id}{flags}: {title}")
         save()
 
