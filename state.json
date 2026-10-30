@@ -13625,28 +13625,53 @@
    "title": "shelfmark: 1.4.0 -> 1.5.1"
   },
   "579864": {
-   "head": "6101e3a78c170b2ce2972b11a6f1465bfeae00bc",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41023072506,
+   "status": "dispatched",
+   "time": "2026-10-30T07:55:37+00:00",
    "title": "python3Packages.linearmodels: 7.0 -> 7.1"
   },
   "579866": {
-   "head": "ebec49924df9c936fa5e64620f4f36d160b3f975",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41022832782,
+   "status": "dispatched",
+   "time": "2026-10-30T07:53:16+00:00",
    "title": "hl-log-viewer: 0.36.3 -> 0.36.5"
   },
   "579867": {
-   "head": "45f05bc37fc224b5e42fcc76c60e1c576c3c6390",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41022445468,
+   "status": "dispatched",
+   "time": "2026-10-30T07:49:28+00:00",
    "title": "go-ethereum: 1.17.8 -> 1.17.10"
   },
   "579868": {
-   "head": "558b9283ac6d7b5cf83bcb9629fc02cb18b9b2e2",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41022316853,
+   "status": "dispatched",
+   "time": "2026-10-30T07:48:11+00:00",
    "title": "ssh-tools: 1.9 -> 1.10"
   },
   "579879": {
-   "head": "96f23692d1c17d0f27ade027d7eb95f5cac39b88",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41021979880,
+   "status": "dispatched",
+   "time": "2026-10-30T07:44:54+00:00",
    "title": "siege: 4.2.0 -> 4.2.2"
   },
   "579886": {
@@ -13690,18 +13715,33 @@
    "title": "sylkserver: 6.6.0 -> 7.0.0"
   },
   "579913": {
-   "head": "3cf895a9b37f67c8df7c325e9aa09b901fd84975",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41021919509,
+   "status": "dispatched",
+   "time": "2026-10-30T07:44:18+00:00",
    "title": "got: 0.129 -> 0.130"
   },
   "579917": {
-   "head": "909b9a52c14233b5b0067c7e74e1dbed104e43ff",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41021782109,
+   "status": "dispatched",
+   "time": "2026-10-30T07:42:59+00:00",
    "title": "python3Packages.svglib: 2.2.0 -> 2.3.2"
   },
   "579920": {
-   "head": "5faa4d835ac7d522e0bf151ca603221ee862f768",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41021609933,
+   "status": "dispatched",
+   "time": "2026-10-30T07:41:18+00:00",
    "title": "python3Packages.termgraph: 0.7.6 -> 0.8.0"
   },
   "579938": {
@@ -13725,13 +13765,23 @@
    "title": "libloot: 0.29.6 -> 0.29.7"
   },
   "579947": {
-   "head": "a977537aa05625d8152c3ee2644c25cf1a05d947",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41021380321,
+   "status": "dispatched",
+   "time": "2026-10-30T07:39:05+00:00",
    "title": "otel-desktop-viewer: 0.5.0 -> 0.6.0"
   },
   "579948": {
-   "head": "76c0609cd0e292664aebb2fe55a7f0483627a9df",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41021137909,
+   "status": "dispatched",
+   "time": "2026-10-30T07:36:42+00:00",
    "title": "guesswidth: 0.5.0 -> 0.6.0"
   },
   "579962": {
@@ -13755,8 +13805,13 @@
    "title": "chameleon-cli: 2.2.0-unstable-2026-10-07 -> 2.3.0-unstable-2026-10-24"
   },
   "580000": {
-   "head": "6a3b2621212391a72ea19e73d08234db75bda32b",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41021017700,
+   "status": "dispatched",
+   "time": "2026-10-30T07:35:31+00:00",
    "title": "octavePackages.datatypes: 1.5.0 -> 1.6.0"
   },
   "580008": {
