@@ -3656,8 +3656,13 @@
    "title": "github-commenter: 0.29.0 -> 0.30.0"
   },
   "552073": {
-   "head": "a892f76eb8710eb0cb5baca08840348926af333c",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41127776523,
+   "status": "dispatched",
+   "time": "2026-10-30T21:01:16+00:00",
    "title": "coc-yaml: 1.9.1 -> 1.9.3"
   },
   "552088": {
@@ -3671,8 +3676,13 @@
    "title": "coc-json: 1.9.3 -> 1.9.17"
   },
   "552089": {
-   "head": "23ba4e5174c450fdb438f83efdb4637f78df81d2",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41127341111,
+   "status": "dispatched",
+   "time": "2026-10-30T20:57:57+00:00",
    "title": "coc-pairs: 1.5.2 -> 1.5.6"
   },
   "552090": {
@@ -3712,21 +3722,33 @@
    "tries": 0
   },
   "552547": {
-   "head": "5e846b472951725fe98c672a7ee3ec835d3c68b5",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39949056411,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41126920580,
+   "status": "dispatched",
+   "time": "2026-10-30T20:54:38+00:00",
    "title": "bosh-cli: 7.10.8 -> 7.11.2"
   },
   "552571": {
-   "head": "8e6f595d30daeeb77b50279e3b5ae79182ab4684",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39948383263,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41126845188,
+   "status": "dispatched",
+   "time": "2026-10-30T20:54:05+00:00",
    "title": "stax: 0.102.2 -> 0.118.0"
   },
   "552573": {
-   "head": "8b066d0d3e43e66e10457589e8a8e79ab402a371",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39948013901,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41126431872,
+   "status": "dispatched",
+   "time": "2026-10-30T20:50:52+00:00",
    "title": "karate: 2.1.1 -> 2.1.4"
   },
   "552674": {
@@ -3830,8 +3852,13 @@
    "title": "groovy: 5.0.4 -> 6.0.0"
   },
   "553269": {
-   "head": "fb59f76a726117d9e64983244d622e9e51069ca8",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41126267824,
+   "status": "dispatched",
+   "time": "2026-10-30T20:49:38+00:00",
    "title": "tmuxPlugins.tokyo-night-tmux: 1.8.1 -> 1.9.0"
   },
   "553271": {
