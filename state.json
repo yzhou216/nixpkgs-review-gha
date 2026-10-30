@@ -13244,8 +13244,13 @@
    "title": "prjpeppercorn: 1.13 -> 1.14"
   },
   "579044": {
-   "head": "ee8655a258ca0ab4ab0c301453381e62d364e20f",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41047161750,
+   "status": "dispatched",
+   "time": "2026-10-30T11:18:40+00:00",
    "title": "udns: 0.6 -> 0.7"
   },
   "579047": {
@@ -13269,18 +13274,33 @@
    "title": "hcxtools: 7.1.2 -> 8.0.0"
   },
   "579051": {
-   "head": "23214352654705d321fe84dc8907469a63d577a7",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41046622982,
+   "status": "dispatched",
+   "time": "2026-10-30T11:14:15+00:00",
    "title": "noxdir: 1.2.2 -> 1.2.3"
   },
   "579068": {
-   "head": "71c98f1ec2de1e08840990e79f742c338212dda5",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41046219570,
+   "status": "dispatched",
+   "time": "2026-10-30T11:10:59+00:00",
    "title": "tcpreplay: 4.6.1 -> 4.6.2"
   },
   "579070": {
-   "head": "47af8ad2e8357f04a7277f205fc1ec9d447e17ae",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41045534335,
+   "status": "dispatched",
+   "time": "2026-10-30T11:05:31+00:00",
    "title": "ghidra-extensions.findcrypt: 3.1.10 -> 3.1.11"
   },
   "579074": {
@@ -13294,8 +13314,13 @@
    "title": "streamdeck-ui: 4.1.4 -> 4.1.5"
   },
   "579079": {
-   "head": "7f958f4394178d73aa70e61b61fbe2c6def88e81",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41044828530,
+   "status": "dispatched",
+   "time": "2026-10-30T11:00:01+00:00",
    "title": "gguf: 10798 -> 11889"
   },
   "579087": {
