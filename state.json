@@ -2427,9 +2427,14 @@
    "title": "js-beautify: 1.15.4 -> 2.0.3"
   },
   "538852": {
-   "head": "5aa970298730491826e16db4527b22a84a54b9e7",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40186980237,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41138739816,
+   "status": "dispatched",
+   "time": "2026-10-30T22:31:57+00:00",
    "title": "openntpd: 6.8p1 -> 7.9p1"
   },
   "538875": {
@@ -2449,9 +2454,14 @@
    "tries": 0
   },
   "538920": {
-   "head": "a6ca1b2be67e492f2c0811db980a435e299f6ca4",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40157164513,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41138652942,
+   "status": "dispatched",
+   "time": "2026-10-30T22:31:11+00:00",
    "title": "python3Packages.azure-mgmt-cosmosdb: 9.9.0 -> 10.0.0"
   },
   "539020": {
@@ -2581,8 +2591,13 @@
    "title": "python3Packages.conda-package-streaming: 0.12.0 -> 0.13.0"
   },
   "539693": {
-   "head": "8a8a6195ed60046e35c078bfcffd303adcd4ecd4",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41138582904,
+   "status": "dispatched",
+   "time": "2026-10-30T22:30:35+00:00",
    "title": "python3Packages.types-pytz: 2026.3.1.20260727 -> 2026.5.0.20261006"
   },
   "539742": {
@@ -2648,9 +2663,13 @@
    "title": "prometheus-graphite-exporter: 0.16.0 -> 0.17.0"
   },
   "540567": {
-   "head": "71a6aee93bf32d6fccabbd2a0a28111bd6729aaa",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 40015114014,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41138100081,
+   "status": "dispatched",
+   "time": "2026-10-30T22:26:06+00:00",
    "title": "python3Packages.tt-perf-report: 1.2.4 -> 1.5.0"
   },
   "540630": {
@@ -2694,14 +2713,25 @@
    "title": "hyperion-ng: 2.1.1 -> 2.2.1"
   },
   "541091": {
-   "head": "224e3bac4254033e82fb001dfed0a0093c2313bd",
-   "status": "requeue",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41137360147,
+   "status": "dispatched",
+   "time": "2026-10-30T22:19:34+00:00",
    "title": "python3Packages.azure-mgmt-servicefabricmanagedclusters: 2.1.0b3 -> 3.0.0"
   },
   "541126": {
-   "head": "84e087f4ee6cf7eea5db90620f0f8889bdb26aec",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40135582436,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41137295102,
+   "status": "dispatched",
+   "time": "2026-10-30T22:18:59+00:00",
    "title": "python3Packages.cohere: 7.0.4 -> 7.0.5"
   },
   "541194": {
@@ -2790,9 +2820,13 @@
    "title": "tmuxPlugins.session-wizard: 1.4.0 -> 1.6.0"
   },
   "541472": {
-   "head": "94f91c6050faf5fc84efc2dfcb5d2e5240846651",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 40160374838,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41136050588,
+   "status": "dispatched",
+   "time": "2026-10-30T22:08:08+00:00",
    "title": "kubernetes-metrics-server: 0.6.4 -> 0.9.1"
   },
   "541502": {
@@ -2913,8 +2947,13 @@
    "title": "svix-server: 1.96.1 -> 2.9.0"
   },
   "543002": {
-   "head": "1f47168b4cae16e0fa840561ba9c764895d0a761",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41135647640,
+   "status": "dispatched",
+   "time": "2026-10-30T22:04:46+00:00",
    "title": "python3Packages.jianpu-ly: 1.889 -> 1.891"
   },
   "543098": {
@@ -3113,6 +3152,8 @@
   },
   "545264": {
    "darwin": true,
+   "examined": 1,
+   "final": "review (aarch64-linux): The operation was canceled.; review (x86_64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ",
    "on_success": "nothing",
    "previous_run_id": 39994927237,
    "requeued": true,
@@ -6897,6 +6938,7 @@
   },
   "565710": {
    "darwin": true,
+   "final": "cancelled after 4 hours",
    "on_success": "nothing",
    "previous_run_id": 39753103517,
    "requeued": true,
