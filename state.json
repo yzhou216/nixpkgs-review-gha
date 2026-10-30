@@ -4181,6 +4181,8 @@
   },
   "555869": {
    "darwin": false,
+   "examined": 1,
+   "final": "review (aarch64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ; review (x86_64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ",
    "on_success": "nothing",
    "previous_run_id": 39913379250,
    "requeued": true,
@@ -9964,9 +9966,13 @@
    "title": "obs-studio-plugins.obs-vertical-canvas: 1.6.5 -> 1.6.6"
   },
   "575038": {
-   "head": "e998f91d153a1d8d5fc284d809c64155831619ff",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39365095275,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41079832956,
+   "status": "dispatched",
+   "time": "2026-10-30T15:20:42+00:00",
    "title": "hcloud: 1.70.0 -> 1.70.2"
   },
   "575045": {
@@ -10018,8 +10024,13 @@
    "title": "tomcat11: 11.0.24 -> 11.0.27"
   },
   "575092": {
-   "head": "30fbe3535b4a1827e6f98edc2457937fa8c30b35",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41078694576,
+   "status": "dispatched",
+   "time": "2026-10-30T15:13:27+00:00",
    "title": "subcat: 1.6.0 -> 1.6.1"
   },
   "575093": {
@@ -10029,9 +10040,13 @@
    "tries": 0
   },
   "575105": {
-   "head": "3b096b988cd42b98ee17cef224500530bc339169",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39361288289,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41078515196,
+   "status": "dispatched",
+   "time": "2026-10-30T15:12:17+00:00",
    "title": "llmfit: 1.1.16 -> 1.1.18"
   },
   "575112": {
@@ -10053,9 +10068,13 @@
    "title": "dufs: 0.46.0 -> 0.47.0"
   },
   "575124": {
-   "head": "452cc3e251d9df97e6d5adbf527bf378f657ded3",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39359452553,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41076429822,
+   "status": "dispatched",
+   "time": "2026-10-30T14:58:43+00:00",
    "title": "python3Packages.json-repair: 0.64.1 -> 0.64.2"
   },
   "575127": {
@@ -10089,8 +10108,13 @@
    "title": "stashcat: 6.55.0 -> 6.56.0"
   },
   "575144": {
-   "head": "ac0bf59d2285ff83cdf39ed0ee6dc4612ea81df4",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41075775739,
+   "status": "dispatched",
+   "time": "2026-10-30T14:54:16+00:00",
    "title": "podman-desktop: 1.29.3 -> 1.30.5"
   },
   "575151": {
@@ -10124,9 +10148,13 @@
    "tries": 0
   },
   "575181": {
-   "head": "693cbd89585b6ff035110b11b6bac7e2b3238ec2",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39356876899,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41075687526,
+   "status": "dispatched",
+   "time": "2026-10-30T14:53:41+00:00",
    "title": "python3Packages.gdown: 6.4.1 -> 6.5.1"
   },
   "575185": {
