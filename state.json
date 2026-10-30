@@ -3996,8 +3996,13 @@
    "title": "python3Packages.protobuf-py-ext: 0.3.0 -> 0.6.0"
   },
   "554135": {
-   "head": "a95a87879eb28ab7a85dd6e3e996ecc214ae2537",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41125479257,
+   "status": "dispatched",
+   "time": "2026-10-30T20:43:39+00:00",
    "title": "goimapnotify: 2.5.7 -> 2.5.8"
   },
   "554143": {
@@ -4072,8 +4077,14 @@
    "title": "masterpdfeditor: 5.9.98 -> 5.9.99"
   },
   "554415": {
-   "head": "ac5d9aa317b46ba233a02ee702998f8557cec6ca",
-   "status": "requeue",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41125398453,
+   "status": "dispatched",
+   "time": "2026-10-30T20:43:05+00:00",
    "title": "python3Packages.reqif: 0.0.54 -> 0.1.0"
   },
   "554472": {
@@ -4095,8 +4106,13 @@
    "title": "filebeat8: 8.19.19 -> 8.19.23"
   },
   "554504": {
-   "head": "c5878634f0a6777ec1e4711f614bafe22cff09cf",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41123863093,
+   "status": "dispatched",
+   "time": "2026-10-30T20:31:16+00:00",
    "title": "aacgain: 2.0.0-unstable-2022-07-12 -> 2.0.0-unstable-2022-07-13"
   },
   "554507": {
@@ -4118,9 +4134,15 @@
    "title": "iceshelf: 0-unstable-2025-06-29 -> 0-unstable-2026-09-17"
   },
   "554560": {
-   "head": "3bbbd26f4afd1cf2bdd2cfcd5f89140ced486b8c",
+   "darwin": true,
+   "examined": 1,
+   "final": "review (x86_64-linux): Process completed with exit code 1.; review (aarch64-darwin): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.",
+   "on_success": "nothing",
    "previous_run_id": 39925130990,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41123346160,
+   "status": "dispatched",
+   "time": "2026-10-30T20:27:24+00:00",
    "title": "python3Packages.sklearn2pmml: 0.132.0 -> 0.133.1"
   },
   "554589": {
@@ -4260,9 +4282,13 @@
    "title": "vespa-cli: 8.697.20 -> 8.738.17"
   },
   "555016": {
-   "head": "c6c39b24294d6eef48c7045071abee65c4a6502d",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39918996667,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41122975812,
+   "status": "dispatched",
+   "time": "2026-10-30T20:24:43+00:00",
    "title": "dart-bin: 3.13.0 -> 3.13.7"
   },
   "555053": {
@@ -4345,8 +4371,14 @@
    "tries": 0
   },
   "555458": {
-   "head": "11c777768d3f5ed77f6c274fca35e2fe8c9b93e1",
-   "status": "requeue",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41122357696,
+   "status": "dispatched",
+   "time": "2026-10-30T20:20:19+00:00",
    "title": "python3Packages.zope-security: 8.3 -> 8.4"
   },
   "555506": {
@@ -4402,8 +4434,13 @@
    "title": "steel: 0.8.2 -> 0.8.3"
   },
   "555760": {
-   "head": "077e22b2fe2d4824755d306e8a1cb022848f0e95",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41122275172,
+   "status": "dispatched",
+   "time": "2026-10-30T20:19:45+00:00",
    "title": "jchempaint: 3.4-SNAPSHOT-2026-04-24 -> 3.4b"
   },
   "555764": {
@@ -4443,9 +4480,13 @@
    "title": "toolhive: 0.43.0 -> 0.46.0"
   },
   "555953": {
-   "head": "09fbf7ecf5b164cd927570eef1e2493d58738f47",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39912451782,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41122034760,
+   "status": "dispatched",
+   "time": "2026-10-30T20:17:57+00:00",
    "title": "python3Packages.django-treebeard: 7.0.0 -> 7.0.3"
   },
   "555984": {
@@ -4969,6 +5010,8 @@
   },
   "558326": {
    "darwin": true,
+   "examined": 1,
+   "final": "review (aarch64-darwin): Process completed with exit code 1.; review (aarch64-linux): Process completed with exit code 1.; review (x86_64-linux): Process completed with exit code 1.",
    "on_success": "nothing",
    "previous_run_id": null,
    "requeued": true,
