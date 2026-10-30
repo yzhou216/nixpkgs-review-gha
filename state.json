@@ -80,13 +80,25 @@
    "title": "python3Packages.mistletoe: 1.5.1 -> 1.6.0"
   },
   "455214": {
-   "head": "1f4e90d90a9b66e09e74a31b63b781dfed9ce408",
-   "status": "requeue",
+   "darwin": false,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41118445567,
+   "status": "dispatched",
+   "time": "2026-10-30T19:49:58+00:00",
    "title": "xpra-html5: 17.1 -> 21"
   },
   "460109": {
-   "head": "e5d60eb5e317f2d1a358456f775fc0260980b30a",
-   "status": "requeue",
+   "darwin": false,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41118295945,
+   "status": "dispatched",
+   "time": "2026-10-30T19:48:50+00:00",
    "title": "numad: 0.5-unstable-2023-09-06 -> 0.5-unstable-2025-11-04"
   },
   "460414": {
@@ -4640,8 +4652,13 @@
    "title": "debianutils: 5.23.2 -> 5.24"
   },
   "557214": {
-   "head": "3080489fc9f98352a7c5ba80bf28bc700e2dec0f",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41121708519,
+   "status": "dispatched",
+   "time": "2026-10-30T20:15:13+00:00",
    "title": "tree-sitter-grammars.tree-sitter-scfg: 0-unstable-2025-10-29 -> 1.0"
   },
   "557249": {
@@ -4767,8 +4784,13 @@
    "tries": 0
   },
   "557737": {
-   "head": "f22fd25a8e498fcc67bf9558b602315176fa54be",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41121230703,
+   "status": "dispatched",
+   "time": "2026-10-30T20:11:19+00:00",
    "title": "slack: 4.51.180 -> 4.52.182"
   },
   "557802": {
@@ -4946,8 +4968,13 @@
    "title": "python3Packages.lingva: 5.0.6 -> 5.0.7"
   },
   "558326": {
-   "head": "028b33c9949d453a9cccc83f74681ccc69588307",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41120796439,
+   "status": "dispatched",
+   "time": "2026-10-30T20:07:39+00:00",
    "title": "graalvmPackages.graalpy: 25.2.4 -> 25.4.4"
   },
   "558517": {
@@ -4991,8 +5018,13 @@
    "title": "mongoc: 1.30.9 -> 2.5.7"
   },
   "558663": {
-   "head": "3b6c3795a90b3449eb4aee8ef8837aa4fb204460",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41120358243,
+   "status": "dispatched",
+   "time": "2026-10-30T20:04:20+00:00",
    "title": "python3Packages.llama-index-readers-database: 0.6.0 -> 0.7.0"
   },
   "558705": {
@@ -5112,15 +5144,23 @@
    "title": "mandown: 1.1.0 -> 1.1.1"
   },
   "559033": {
-   "head": "2fc8f78901aa21d4df537267ad9380debf95c3ec",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39890825255,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41120277687,
+   "status": "dispatched",
+   "time": "2026-10-30T20:03:46+00:00",
    "title": "python3Packages.harlequin-postgres: 1.3.1 -> 1.5.2"
   },
   "559178": {
-   "head": "ac43b306d43b3b87237648c6c261579e201fb33c",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39890649659,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41120064073,
+   "status": "dispatched",
+   "time": "2026-10-30T20:02:08+00:00",
    "title": "zarf: 0.83.0 -> 0.88.0"
   },
   "559186": {
@@ -5202,9 +5242,13 @@
    "title": "surelog: 1.86 -> 1.87"
   },
   "559396": {
-   "head": "25ec4b51e0d3c671b9f3aa4d3d0d43fa2554077a",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39888451427,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41119816316,
+   "status": "dispatched",
+   "time": "2026-10-30T20:00:23+00:00",
    "title": "byobu: 7.18 -> 7.22"
   },
   "559518": {
@@ -5254,15 +5298,23 @@
    "title": "vscode-extensions.sourcery.sourcery: 1.44.0 -> 1.46.0"
   },
   "559686": {
-   "head": "e009b590309a28aac88dac958966197eec9ad72a",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39887278339,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41119264498,
+   "status": "dispatched",
+   "time": "2026-10-30T19:56:09+00:00",
    "title": "google-cloud-sql-proxy: 2.25.3 -> 2.26.3"
   },
   "559696": {
-   "head": "557e9149992d6344273c9c5c5dbe4a393d526f5d",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39887081436,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41117855248,
+   "status": "dispatched",
+   "time": "2026-10-30T19:45:35+00:00",
    "title": "netbird-dashboard: 2.94.0 -> 2.96.0"
   },
   "559710": {
@@ -5868,6 +5920,8 @@
   },
   "561978": {
    "darwin": true,
+   "examined": 1,
+   "final": "review (aarch64-darwin): Process completed with exit code 1.",
    "on_success": "nothing",
    "previous_run_id": 39843419352,
    "requeued": true,
@@ -9039,6 +9093,7 @@
   },
   "572418": {
    "darwin": true,
+   "final": "cancelled after 4 hours",
    "on_success": "nothing",
    "previous_run_id": 39461823196,
    "requeued": true,
