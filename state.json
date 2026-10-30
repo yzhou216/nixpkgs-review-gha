@@ -3318,8 +3318,13 @@
    "title": "python3Packages.lazr-delegates: 2.1.1 -> 4.0.0"
   },
   "548267": {
-   "head": "c89e8075dde6c8c4b694a4924e0685e36fcc39a4",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41131089970,
+   "status": "dispatched",
+   "time": "2026-10-30T21:26:42+00:00",
    "title": "python3Packages.envisage: 7.0.4-unstable-2026-07-07 -> 7.0.4"
   },
   "548273": {
@@ -3335,8 +3340,13 @@
    "title": "python3Packages.nsz: 4.6.1 -> 5.0.0"
   },
   "548835": {
-   "head": "5290ec24e36b6b0f7a46e95057350858b912c20d",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41129961231,
+   "status": "dispatched",
+   "time": "2026-10-30T21:17:51+00:00",
    "title": "python3Packages.plyfile: 1.1.4 -> 1.1.5"
   },
   "549247": {
@@ -3396,8 +3406,13 @@
    "title": "ostree-full: 2026.2 -> 2026.5"
   },
   "549856": {
-   "head": "c12750aa4548feee231d9c07880f934c046703b3",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41129887629,
+   "status": "dispatched",
+   "time": "2026-10-30T21:17:15+00:00",
    "title": "python3Packages.python-engineio: 4.13.5 -> 4.15.0"
   },
   "549952": {
@@ -3417,15 +3432,23 @@
    "title": "questdb: 9.4.3 -> 10.1.0"
   },
   "550000": {
-   "head": "bc2ef0f56487c21115ae504a017641dc76274ca8",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39958496922,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41129241808,
+   "status": "dispatched",
+   "time": "2026-10-30T21:12:15+00:00",
    "title": "python3Packages.ttkbootstrap: 2.0.1 -> 2.2.6"
   },
   "550020": {
-   "head": "925d92e4a39249c27b67a2df944446ef3a56a64c",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39957370532,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41128875923,
+   "status": "dispatched",
+   "time": "2026-10-30T21:09:31+00:00",
    "title": "python3Packages.pyside6-qtads: 5.0.0 -> 5.1.1.1"
   },
   "550040": {
@@ -3460,9 +3483,13 @@
    "title": "flat-remix-icon-theme: 20240201 -> 20250709"
   },
   "550391": {
-   "head": "e2311a873bce50dc0e36d38c41da8088e9ad3026",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39965688567,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41128727454,
+   "status": "dispatched",
+   "time": "2026-10-30T21:08:22+00:00",
    "title": "rocksdb: 10.10.1 -> 11.12"
   },
   "550395": {
@@ -3601,8 +3628,13 @@
    "title": "vulkan-hdr-layer-kwin6: 0-unstable-2026-03-25 -> 0-unstable-2026-08-05"
   },
   "551871": {
-   "head": "aa7c800eb2d4766bfc9f988960d0debbf45d66d5",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41128275996,
+   "status": "dispatched",
+   "time": "2026-10-30T21:04:59+00:00",
    "title": "python3Packages.molecule: 26.8.0 -> 26.10.0"
   },
   "551879": {
