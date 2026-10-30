@@ -7680,9 +7680,13 @@
    "title": "libretro.vice-x128: 0-unstable-2026-09-22 -> 0-unstable-2026-10-03"
   },
   "569918": {
-   "head": "093690baf1e5634b7a3e73a9e856cbc58d1d03f7",
+   "darwin": false,
+   "on_success": "nothing",
    "previous_run_id": 39578843843,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41037839204,
+   "status": "dispatched",
+   "time": "2026-10-30T10:02:52+00:00",
    "title": "copyq: 16.0.0 -> 17.0.0"
   },
   "569941": {
@@ -13389,13 +13393,23 @@
    "title": "xlockmore: 5.89 -> 5.90"
   },
   "579470": {
-   "head": "22dd7d00682021031592a716304cb29091a6765e",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41036651278,
+   "status": "dispatched",
+   "time": "2026-10-30T09:53:01+00:00",
    "title": "debcraft: 0.9.5 -> 1.0.0"
   },
   "579472": {
-   "head": "a468222cf6235097227de65f6fbf07e6b152bced",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41034371399,
+   "status": "dispatched",
+   "time": "2026-10-30T09:34:04+00:00",
    "title": "cel-go: 0.32.0 -> 0.33.0"
   },
   "579473": {
@@ -13480,6 +13494,8 @@
   },
   "579499": {
    "darwin": true,
+   "examined": 1,
+   "final": "review (aarch64-linux): Process completed with exit code 137.",
    "on_success": "nothing",
    "previous_run_id": null,
    "requeued": true,
