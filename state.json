@@ -2935,8 +2935,13 @@
    "title": "libaacs: 0.11.1 -> 0.12.0"
   },
   "543131": {
-   "head": "12c0f5e9c411f60f71b55198e21519e5f915063f",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41135096366,
+   "status": "dispatched",
+   "time": "2026-10-30T22:00:16+00:00",
    "title": "python3Packages.unicode-segmentation-rs: 0.3.3 -> 1.0.0"
   },
   "543137": {
@@ -2951,8 +2956,13 @@
    "title": "python3Packages.nampa: 1.0-unstable-2024-12-18 -> 1.0-unstable-2026-07-10"
   },
   "543164": {
-   "head": "60297a4f16597de796c861205f9e01272a448ac4",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41134785998,
+   "status": "dispatched",
+   "time": "2026-10-30T21:57:31+00:00",
    "title": "liboqs: 0.15.0 -> 0.16.0"
   },
   "543187": {
@@ -3000,9 +3010,13 @@
    "title": "cminpack: 1.3.11 -> 1.3.14"
   },
   "543431": {
-   "head": "d5d0558755af883fb94b097729fa2f24cdaf15e4",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 40163304080,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41134331540,
+   "status": "dispatched",
+   "time": "2026-10-30T21:53:35+00:00",
    "title": "python3Packages.scp: 0.16.1 -> 0.16.2"
   },
   "543500": {
@@ -3024,8 +3038,14 @@
    "title": "pkg: 2.7.5 -> 2.8.2"
   },
   "544023": {
-   "head": "8cbe06fa8fdb387bb54054721209786bb450919e",
-   "status": "requeue",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41132526855,
+   "status": "dispatched",
+   "time": "2026-10-30T21:38:22+00:00",
    "title": "python3Packages.starlark: 0.5.0 -> 0.6.0"
   },
   "544025": {
@@ -3092,9 +3112,13 @@
    "title": "packer: 1.15.4 -> 1.16.1"
   },
   "545264": {
-   "head": "61b1d69676de646994a5cdfe6b51567a05232135",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39994927237,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41132391315,
+   "status": "dispatched",
+   "time": "2026-10-30T21:37:13+00:00",
    "title": "python3Packages.glfw: 2.10.0 -> 2.11.0"
   },
   "545541": {
@@ -3109,8 +3133,13 @@
    "title": "python3Packages.backtesting: 0.6.5 -> 0.6.6"
   },
   "545593": {
-   "head": "630eec83ce5d9853df43a19f40b5e3a89ce16a3e",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41131833779,
+   "status": "dispatched",
+   "time": "2026-10-30T21:32:45+00:00",
    "title": "s9fes: 20181205 -> 20250812"
   },
   "545755": {
