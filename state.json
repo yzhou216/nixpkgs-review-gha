@@ -359,8 +359,13 @@
    "title": "maltego: 4.11.1 -> 4.14.0"
   },
   "493880": {
-   "head": "3464f741d0f52835a956d31c82bca0d3d6cd594c",
-   "status": "requeue",
+   "darwin": false,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41102462922,
+   "status": "dispatched",
+   "time": "2026-10-30T17:55:33+00:00",
    "title": "knobkraft-orm: 2.7.2 -> 2.10.2"
   },
   "494311": {
@@ -369,9 +374,10 @@
    "title": "python3Packages.yfinance: 1.5.1 -> 1.7.0"
   },
   "494317": {
-   "head": "d3ea306990f8c2e0bb237bad0ff9fb6d389c1ea7",
-   "status": "requeue",
-   "title": "python3Packages.types-psycopg2: 2.9.21.20251012 -> 2.9.21.20261008"
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "python3Packages.types-psycopg2: 2.9.21.20251012 -> 2.9.21.20261008",
+   "tries": 0
   },
   "494460": {
    "darwin": false,
@@ -6934,9 +6940,13 @@
    "title": "python3Packages.govee-ble: 1.4.0 -> 1.5.2"
   },
   "566968": {
-   "head": "6c96c5d24cf96b4ea9721160b68f3141cfe80513",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39704371696,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41104674899,
+   "status": "dispatched",
+   "time": "2026-10-30T18:11:05+00:00",
    "title": "python3Packages.troposphere: 4.10.2 -> 4.11.1"
   },
   "566999": {
@@ -6952,14 +6962,23 @@
    "title": "python3Packages.pygit2: 1.20.0 -> 1.20.1"
   },
   "567007": {
-   "head": "0e828b95133dc3e05c9a273e3785c2afb1974653",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39699616457,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41104104619,
+   "status": "dispatched",
+   "time": "2026-10-30T18:07:12+00:00",
    "title": "openscadPackages.bosl2: 2.0.755 -> 2.0.779"
   },
   "567016": {
-   "head": "8a18d9690047eedacaad97eb91436349301ac12b",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41103527232,
+   "status": "dispatched",
+   "time": "2026-10-30T18:03:20+00:00",
    "title": "clion: 2026.2.0.1 -> 2026.2.4"
   },
   "567019": {
@@ -6975,8 +6994,13 @@
    "title": "elmPackages.elm-language-server: 2.8.0 -> 2.10.0"
   },
   "567033": {
-   "head": "b261929c914668774bb7ae4f6d96bd0ca8f99630",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41103055188,
+   "status": "dispatched",
+   "time": "2026-10-30T18:00:04+00:00",
    "title": "flutter: 3.47.4 -> 3.47.8"
   },
   "567044": {
@@ -7399,9 +7423,13 @@
    "title": "python3Packages.plantuml-markdown: 3.11.2 -> 3.11.3"
   },
   "568327": {
-   "head": "fd9ba401c8f3c12f34c33e7296a3f7b4271a3bbe",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39657665283,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41102751146,
+   "status": "dispatched",
+   "time": "2026-10-30T17:57:46+00:00",
    "title": "eccodes: 2.48.0 -> 2.50.0"
   },
   "568332": {
@@ -7503,8 +7531,13 @@
    "title": "python3Packages.aiothreads: 1.1.1 -> 1.1.4"
   },
   "568596": {
-   "head": "08952ae110c07b6f2ffdedb92eb83103f3bd29f8",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41102369006,
+   "status": "dispatched",
+   "time": "2026-10-30T17:54:50+00:00",
    "title": "crc: 2.63.0 -> 2.64.0"
   },
   "568605": {
@@ -8029,6 +8062,8 @@
   },
   "570136": {
    "darwin": true,
+   "examined": 1,
+   "final": "review (aarch64-darwin): Process completed with exit code 1.",
    "on_success": "nothing",
    "previous_run_id": 39575885485,
    "requeued": true,
@@ -9209,6 +9244,8 @@
   },
   "573113": {
    "darwin": true,
+   "examined": 1,
+   "final": "review (x86_64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ",
    "on_success": "nothing",
    "previous_run_id": 39438664023,
    "requeued": true,
