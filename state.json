@@ -1082,10 +1082,10 @@
    "title": "python3Packages.flask-wtf: 1.2.2 -> 1.3.0"
   },
   "514755": {
-   "head": "6bff33ab178abcb57f62eb4fba6192c0599a96c1",
-   "previous_run_id": 40210185802,
-   "status": "requeue",
-   "title": "verdict: 1.4.4 -> 1.4.5"
+   "reason": "not open",
+   "status": "skipped",
+   "title": "verdict: 1.4.4 -> 1.4.5",
+   "tries": 0
   },
   "514781": {
    "darwin": false,
@@ -2335,32 +2335,57 @@
    "title": "python3Packages.azure-mgmt-billing: 7.0.0 -> 8.0.0"
   },
   "537273": {
-   "head": "5446a2d3b0bc214f5156e0c9235944a319bfe679",
-   "status": "requeue",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41142053852,
+   "status": "dispatched",
+   "time": "2026-10-30T23:03:10+00:00",
    "title": "python3Packages.azure-mgmt-kusto: 3.4.0 -> 4.0.0"
   },
   "537302": {
-   "head": "32e0ec1304012fe36e33a3cd713f9f0f1e8e1084",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40190155092,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41141649500,
+   "status": "dispatched",
+   "time": "2026-10-30T22:59:26+00:00",
    "title": "python3Packages.azure-mgmt-frontdoor: 1.2.0 -> 2.0.0"
   },
   "537483": {
-   "head": "a1b12c3a50114a72e3f95bdf1d3def94f3aafd3a",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 40189809469,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41141165452,
+   "status": "dispatched",
+   "time": "2026-10-30T22:54:35+00:00",
    "title": "python3Packages.conda-libmamba-solver: 26.4.2 -> 26.10.0"
   },
   "537654": {
-   "head": "f4cf176b4685e7ff8a6c06e0bb3b0f0e5d207895",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40189361589,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41140432621,
+   "status": "dispatched",
+   "time": "2026-10-30T22:47:39+00:00",
    "title": "python3Packages.azure-mgmt-managementgroups: 1.1.0 -> 2.0.0"
   },
   "537682": {
-   "head": "bc934f323ddd559538e384a23b580c7f5ae5c4bc",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40188865603,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41139452689,
+   "status": "dispatched",
+   "time": "2026-10-30T22:38:25+00:00",
    "title": "python3Packages.treq: 25.5.0 -> 26.7.0"
   },
   "537834": {
@@ -2391,9 +2416,14 @@
    "title": "tmuxPlugins.catppuccin: 2.1.3 -> 2.3.2"
   },
   "538110": {
-   "head": "c79b92db542b3ffe45887175882910ca38b7026f",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40187938116,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41139301116,
+   "status": "dispatched",
+   "time": "2026-10-30T22:37:00+00:00",
    "title": "python3Packages.dataclass-wizard: 0.39.1 -> 1.0.0"
   },
   "538292": {
@@ -2421,9 +2451,14 @@
    "title": "python3Packages.livekit-protocol: 1.1.17 -> 1.1.27"
   },
   "538791": {
-   "head": "870ed1103f080e153e24e82f501ca93c1b8f98b7",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40199369021,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41138997365,
+   "status": "dispatched",
+   "time": "2026-10-30T22:34:16+00:00",
    "title": "js-beautify: 1.15.4 -> 2.0.3"
   },
   "538852": {
@@ -6780,6 +6815,7 @@
   },
   "564803": {
    "darwin": true,
+   "final": "cancelled after 4 hours",
    "on_success": "nothing",
    "previous_run_id": 39770513760,
    "requeued": true,
@@ -6836,6 +6872,7 @@
   },
   "565143": {
    "darwin": true,
+   "final": "cancelled after 4 hours",
    "on_success": "nothing",
    "previous_run_id": 39769195800,
    "requeued": true,
