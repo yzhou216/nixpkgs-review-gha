@@ -9524,9 +9524,13 @@
    "title": "backintime-common: 1.6.1 -> 1.6.2"
   },
   "574608": {
-   "head": "c6f97b8092caba5c790a365580e2880f210be149",
+   "darwin": false,
+   "on_success": "nothing",
    "previous_run_id": 39376363285,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41014564306,
+   "status": "dispatched",
+   "time": "2026-10-30T06:31:18+00:00",
    "title": "bngblaster: 0.9.39 -> 1.0.2"
   },
   "574613": {
@@ -10038,8 +10042,13 @@
    "title": "python3Packages.pyschlage: 2026.9.0 -> 2026.10.0"
   },
   "575213": {
-   "head": "410e97bd1101f05b4eb178c37d7d1bd7cb5eaf7e",
-   "status": "requeue",
+   "darwin": false,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41014423074,
+   "status": "dispatched",
+   "time": "2026-10-30T06:29:56+00:00",
    "title": "vivaldi-ffmpeg-codecs: 0-unstable-2026-05-18 -> 0-unstable-2026-08-25"
   },
   "575216": {
@@ -10488,9 +10497,10 @@
    "tries": 0
   },
   "575579": {
-   "head": "81cda270220544547f75a02ab94ac44e5167a4b5",
-   "status": "requeue",
-   "title": "ergohaven-entropy: 0.3.20 -> 0.5.0"
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "ergohaven-entropy: 0.3.20 -> 0.5.0",
+   "tries": 0
   },
   "575583": {
    "run_id": 39246952294,
@@ -11334,9 +11344,10 @@
    "tries": 0
   },
   "576611": {
-   "head": "24fe9b98ea58af69354e6e5d98521c7b9a5e72e4",
-   "status": "requeue",
-   "title": "nextcloud-notify_push: 1.4.1 -> 1.4.2"
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "nextcloud-notify_push: 1.4.1 -> 1.4.2",
+   "tries": 0
   },
   "576614": {
    "darwin": true,
@@ -12094,9 +12105,10 @@
    "title": "roswell: 26.10.117 -> 26.10.118"
   },
   "577771": {
-   "head": "99ab0bdecac7597aec00ad381c56b3ea1f308396",
-   "status": "requeue",
-   "title": "protonup-qt: 2.15.1 -> 2.16.0"
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "protonup-qt: 2.15.1 -> 2.16.0",
+   "tries": 0
   },
   "577774": {
    "darwin": true,
@@ -13031,8 +13043,13 @@
    "title": "confluent-cli: 4.79.0 -> 4.81.0"
   },
   "578762": {
-   "head": "26b9255b269e2076df37f824b5713af6e951e83b",
-   "status": "requeue",
+   "darwin": false,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41014215153,
+   "status": "dispatched",
+   "time": "2026-10-30T06:27:45+00:00",
    "title": "sonata: 1.7.3 -> 1.7.4"
   },
   "578765": {
@@ -13041,8 +13058,13 @@
    "title": "python3Packages.pyhdfe: 0.2.0 -> 0.2.1"
   },
   "578769": {
-   "head": "cdc119164b68050777996485b84234ed88282214",
-   "status": "requeue",
+   "darwin": false,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41014149226,
+   "status": "dispatched",
+   "time": "2026-10-30T06:27:04+00:00",
    "title": "home-assistant-custom-components.tibber_local: 2026.10.4 -> 2026.10.7"
   },
   "578790": {
@@ -13071,13 +13093,23 @@
    "title": "vscode-extensions.ms-vscode-remote.remote-wsl: 0.104.3 -> 1.104.6"
   },
   "578861": {
-   "head": "3e97bf07247ec838018b8ce675ba324d4bbfb7c2",
-   "status": "requeue",
+   "darwin": false,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41014071597,
+   "status": "dispatched",
+   "time": "2026-10-30T06:26:16+00:00",
    "title": "azure-cli-extensions.confcom: 2.3.0 -> 2.4.1"
   },
   "578881": {
-   "head": "8764c9b2584bef9a3245ef98557e75ad301c2c59",
-   "status": "requeue",
+   "darwin": false,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41013938489,
+   "status": "dispatched",
+   "time": "2026-10-30T06:24:56+00:00",
    "title": "emiluaPlugins.qt6: 1.2.2 -> 1.2.3"
   },
   "578890": {
@@ -13086,8 +13118,13 @@
    "title": "slackdump: 4.5.0 -> 4.5.2"
   },
   "578898": {
-   "head": "ee49b7e0ecc9340781751ff048a8fbdba95abd45",
-   "status": "requeue",
+   "darwin": false,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41013875201,
+   "status": "dispatched",
+   "time": "2026-10-30T06:24:16+00:00",
    "title": "hydralauncher: 4.1.6 -> 4.2.0"
   },
   "578900": {
@@ -13136,13 +13173,23 @@
    "title": "udns: 0.6 -> 0.7"
   },
   "579047": {
-   "head": "f6bdeb466b1974e83b4732692828184e7aa5fa8c",
-   "status": "requeue",
+   "darwin": false,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41013777758,
+   "status": "dispatched",
+   "time": "2026-10-30T06:23:17+00:00",
    "title": "hcxdumptool: 7.1.2 -> 8.0.0"
   },
   "579049": {
-   "head": "6868abe639c00f47730cdf5e5316b7de197ab377",
-   "status": "requeue",
+   "darwin": false,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41013717099,
+   "status": "dispatched",
+   "time": "2026-10-30T06:22:40+00:00",
    "title": "hcxtools: 7.1.2 -> 8.0.0"
   },
   "579051": {
@@ -13161,8 +13208,13 @@
    "title": "ghidra-extensions.findcrypt: 3.1.10 -> 3.1.11"
   },
   "579074": {
-   "head": "d74f88548ea089ae2c8da8d3384100afa52d9702",
-   "status": "requeue",
+   "darwin": false,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41013647900,
+   "status": "dispatched",
+   "time": "2026-10-30T06:21:57+00:00",
    "title": "streamdeck-ui: 4.1.4 -> 4.1.5"
   },
   "579079": {
@@ -13181,8 +13233,13 @@
    "title": "async-profiler: 4.5 -> 4.6"
   },
   "579120": {
-   "head": "6e7c53e735e5c8ee6ebad1c65c1fd9e755708b04",
-   "status": "requeue",
+   "darwin": false,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41013515596,
+   "status": "dispatched",
+   "time": "2026-10-30T06:20:35+00:00",
    "title": "expresslrs-configurator: 1.8.3 -> 1.8.4"
   },
   "579121": {
@@ -13196,8 +13253,13 @@
    "title": "cargo-codspeed: 5.0.3 -> 6.0.0"
   },
   "579164": {
-   "head": "5f064e8ad590a9dcb2a0d54b4e1d4533811e6362",
-   "status": "requeue",
+   "darwin": false,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41013281828,
+   "status": "dispatched",
+   "time": "2026-10-30T06:18:09+00:00",
    "title": "halo: 2.27.0 -> 2.27.1"
   },
   "579194": {
@@ -13206,8 +13268,13 @@
    "title": "github-runner: 2.338.0 -> 2.338.1"
   },
   "579208": {
-   "head": "90b619666a1af449b521ff7a280d5cf474a0bd28",
-   "status": "requeue",
+   "darwin": false,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41013056599,
+   "status": "dispatched",
+   "time": "2026-10-30T06:15:48+00:00",
    "title": "westonLite: 16.0.0 -> 16.0.2"
   },
   "579237": {
@@ -13241,8 +13308,13 @@
    "title": "python3Packages.parsedmarc: 11.0.4 -> 11.0.5"
   },
   "579295": {
-   "head": "7c6a63a2db0cd1bdcdabde2c967c15a838b6150b",
-   "status": "requeue",
+   "darwin": false,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41012955064,
+   "status": "dispatched",
+   "time": "2026-10-30T06:14:49+00:00",
    "title": "python3Packages.vtherm-api: 0.5.0 -> 0.6.2"
   },
   "579338": {
@@ -13266,8 +13338,13 @@
    "title": "minetest-mapserver: 4.10.0 -> 4.11.0"
   },
   "579449": {
-   "head": "eac5d9a034bf2b54fc8df8842d6a043f4d7388fb",
-   "status": "requeue",
+   "darwin": false,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41012880708,
+   "status": "dispatched",
+   "time": "2026-10-30T06:14:03+00:00",
    "title": "wine-staging: 11.19 -> 11.20"
   },
   "579463": {
@@ -13281,8 +13358,13 @@
    "title": "commons-bcel: 6.12.0 -> 6.13.0"
   },
   "579465": {
-   "head": "8e619d8785ba810c83bb3f86a06dadb362ff0f46",
-   "status": "requeue",
+   "darwin": false,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41012549886,
+   "status": "dispatched",
+   "time": "2026-10-30T06:10:39+00:00",
    "title": "xlockmore: 5.89 -> 5.90"
   },
   "579470": {
@@ -13306,8 +13388,13 @@
    "title": "python3Packages.doclang: 0.7.3 -> 0.8.0"
   },
   "579477": {
-   "head": "1a7b1bf503403810f71af3d2e023b6cb0278266c",
-   "status": "requeue",
+   "darwin": false,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41012409551,
+   "status": "dispatched",
+   "time": "2026-10-30T06:09:12+00:00",
    "title": "portmaster: 2.2.4 -> 2.2.7"
   },
   "579481": {
@@ -13316,8 +13403,13 @@
    "title": "python3Packages.ezdxf: 1.4.4 -> 1.4.5"
   },
   "579482": {
-   "head": "01eabe95a23eadbe50270ae242a42d97df774c04",
-   "status": "requeue",
+   "darwin": false,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41012293103,
+   "status": "dispatched",
+   "time": "2026-10-30T06:08:00+00:00",
    "title": "conky: 1.25.3 -> 1.25.5"
   },
   "579484": {
@@ -13351,13 +13443,23 @@
    "title": "pangolin-cli: 0.18.1 -> 0.19.0"
   },
   "579558": {
-   "head": "db7b5ee7d5758eb9e58abc0bbbc1ebebab128693",
-   "status": "requeue",
+   "darwin": false,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41012206617,
+   "status": "dispatched",
+   "time": "2026-10-30T06:07:08+00:00",
    "title": "webex: 46.8.0.35631 -> 46.10.0.36042"
   },
   "579559": {
-   "head": "b022ddf524587f0897d62225798aa2d483b23154",
-   "status": "requeue",
+   "darwin": false,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41012149501,
+   "status": "dispatched",
+   "time": "2026-10-30T06:06:32+00:00",
    "title": "budslink: 0.2.1 -> 0.2.2"
   },
   "579567": {
@@ -13366,8 +13468,13 @@
    "title": "groonga: 16.1.3 -> 16.1.4"
   },
   "579572": {
-   "head": "94589b7fe1b5feecd8bb5fc6ee1214fe10e354fe",
-   "status": "requeue",
+   "darwin": false,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41012027787,
+   "status": "dispatched",
+   "time": "2026-10-30T06:05:17+00:00",
    "title": "xsnow: 3.9.7 -> 3.9.9"
   },
   "579577": {
@@ -13401,8 +13508,13 @@
    "title": "python3Packages.python-sat: 1.9.dev15 -> 1.9.dev17"
   },
   "579602": {
-   "head": "e812bd3029e609be263b5794764803b9066249cd",
-   "status": "requeue",
+   "darwin": false,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41011813302,
+   "status": "dispatched",
+   "time": "2026-10-30T06:03:04+00:00",
    "title": "raffi: 0.25.0 -> 0.26.0"
   },
   "579619": {
@@ -13411,8 +13523,13 @@
    "title": "kodiPackages.upnext: 1.1.9+matrix.1 -> 1.3.0"
   },
   "579629": {
-   "head": "8b20bcf8d8119c4f84b57c385d053727e7a77051",
-   "status": "requeue",
+   "darwin": false,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41011695455,
+   "status": "dispatched",
+   "time": "2026-10-30T06:01:49+00:00",
    "title": "memtree: 0.1.0-unstable-2025-06-10 -> 0-unstable-2025-06-10"
   },
   "579635": {
@@ -13857,18 +13974,33 @@
    "title": "temporal-ui-server: 2.56.0 -> 2.57.0"
   },
   "580373": {
-   "head": "fe032744d1f69c2e628b13e328e6fad80de66573",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41014009235,
+   "status": "dispatched",
+   "time": "2026-10-30T06:25:37+00:00",
    "title": "yamlscript: 0.3.5 -> 0.3.6"
   },
   "580377": {
-   "head": "0a00a49da370959c52e855ce0929b1887ea509a0",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41013573984,
+   "status": "dispatched",
+   "time": "2026-10-30T06:21:11+00:00",
    "title": "terraform-backend: 0.2.3 -> 0.2.4"
   },
   "580379": {
-   "head": "926ea53d9271eb51a02c9d5c7ce45d600bf3cf39",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41012608353,
+   "status": "dispatched",
+   "time": "2026-10-30T06:11:14+00:00",
    "title": "katex: 0.19.0 -> 0.19.1"
   },
   "580386": {
@@ -13882,23 +14014,43 @@
    "title": "nwg-displays: 0.4.4 -> 0.5.0"
   },
   "580388": {
-   "head": "a8967d0fb6984ba256be5230a00688669afaf5e2",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41012083970,
+   "status": "dispatched",
+   "time": "2026-10-30T06:05:52+00:00",
    "title": "python3Packages.flask-caching: 2.5.0 -> 2.5.1"
   },
   "580389": {
-   "head": "fa455aea11a6afd09bd299cf54da2f1757ec3996",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41011929184,
+   "status": "dispatched",
+   "time": "2026-10-30T06:04:17+00:00",
    "title": "wallet-engine: 0.0.7-unstable-2026-10-02 -> 0.0.7"
   },
   "580390": {
-   "head": "fca85704db0f36ad32e36062b76d42e6416cee2d",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41011873828,
+   "status": "dispatched",
+   "time": "2026-10-30T06:03:42+00:00",
    "title": "promptfoo: 0.118.14 -> 0.125.1"
   },
   "580392": {
-   "head": "7131ee2f892f588d87d90a5a80f1e53f259c133f",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41011754044,
+   "status": "dispatched",
+   "time": "2026-10-30T06:02:26+00:00",
    "title": "kubefwd: 1.25.17 -> 1.25.18"
   },
   "580393": {
