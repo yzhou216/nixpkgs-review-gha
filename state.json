@@ -13153,23 +13153,43 @@
    "title": "python3Packages.petl: 1.7.29 -> 1.7.30"
   },
   "578685": {
-   "head": "79d0160ffb6705a53a98f19965f202908724aaea",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41054811146,
+   "status": "dispatched",
+   "time": "2026-10-30T12:22:10+00:00",
    "title": "sudachidict: 20260428 -> 20261015"
   },
   "578693": {
-   "head": "0c91618981360bcd2b5da263965b600b057bd87b",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41054599413,
+   "status": "dispatched",
+   "time": "2026-10-30T12:20:28+00:00",
    "title": "oath-toolkit: 2.6.14 -> 2.6.15"
   },
   "578746": {
-   "head": "39c518042b1059aea559a9439f478be37d9b907a",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41054113613,
+   "status": "dispatched",
+   "time": "2026-10-30T12:16:33+00:00",
    "title": "azure-cli-extensions.azure-devops: 1.0.9 -> 1.0.10"
   },
   "578756": {
-   "head": "d47a68e88ea118078c14ea95c44feee55b799586",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41053692633,
+   "status": "dispatched",
+   "time": "2026-10-30T12:13:09+00:00",
    "title": "confluent-cli: 4.79.0 -> 4.81.0"
   },
   "578762": {
@@ -13183,8 +13203,13 @@
    "title": "sonata: 1.7.3 -> 1.7.4"
   },
   "578765": {
-   "head": "971f493064214e298072f035dcbaf3783570f875",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41053621188,
+   "status": "dispatched",
+   "time": "2026-10-30T12:12:35+00:00",
    "title": "python3Packages.pyhdfe: 0.2.0 -> 0.2.1"
   },
   "578769": {
@@ -13198,23 +13223,43 @@
    "title": "home-assistant-custom-components.tibber_local: 2026.10.4 -> 2026.10.7"
   },
   "578790": {
-   "head": "e5dc7b29463d91a3a6441160a0d892c73199eb41",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41053081712,
+   "status": "dispatched",
+   "time": "2026-10-30T12:08:07+00:00",
    "title": "carapace-bridge: 1.7.0 -> 1.8.0"
   },
   "578794": {
-   "head": "494e0cdd2f8734d928bd3185ac8d2d7d3ca8d531",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41052938889,
+   "status": "dispatched",
+   "time": "2026-10-30T12:06:57+00:00",
    "title": "opentrack: 2026.1.0-unstable-2026-09-21 -> 2026.1.0-unstable-2026-10-24"
   },
   "578805": {
-   "head": "24a623797bb263b405b973d1d5e2a7070c9b8da2",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41052393903,
+   "status": "dispatched",
+   "time": "2026-10-30T12:02:32+00:00",
    "title": "ocamlPackages.curl: 0.10.0 -> 0.10.1"
   },
   "578806": {
-   "head": "ddbbca084934ba38198c2e913c2be326c5861493",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41051183959,
+   "status": "dispatched",
+   "time": "2026-10-30T11:52:21+00:00",
    "title": "jitsi-excalidraw: 2026.3.0 -> 2026.10.0"
   },
   "578824": {
