@@ -6293,9 +6293,13 @@
    "title": "leocad: 25.09 -> 26.09"
   },
   "565633": {
-   "head": "913ed5ec370b2f0e94e49e28633010e1f5459728",
+   "darwin": false,
+   "on_success": "nothing",
    "previous_run_id": 39764855506,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41040085801,
+   "status": "dispatched",
+   "time": "2026-10-30T10:21:00+00:00",
    "title": "sitespeed-io: 42.6.0 -> 42.10.0"
   },
   "565638": {
@@ -6619,9 +6623,13 @@
    "title": "gdown: 6.4.1 -> 6.4.2"
   },
   "566798": {
-   "head": "292a7aa60b0b77403e79b15884e649c2627686bc",
+   "darwin": false,
+   "on_success": "nothing",
    "previous_run_id": 39706601660,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41039778062,
+   "status": "dispatched",
+   "time": "2026-10-30T10:18:29+00:00",
    "title": "bitcomet: 2.21.2 -> 2.23.1"
   },
   "566809": {
@@ -6667,9 +6675,13 @@
    "title": "xfstests: 2026.09.02 -> 2026.09.22"
   },
   "566963": {
-   "head": "2137b35e73fa453bcf6050646f9b024d24f47c26",
+   "darwin": false,
+   "on_success": "nothing",
    "previous_run_id": 39704509614,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41039621553,
+   "status": "dispatched",
+   "time": "2026-10-30T10:17:12+00:00",
    "title": "python3Packages.govee-ble: 1.4.0 -> 1.5.2"
   },
   "566968": {
@@ -6779,8 +6791,13 @@
    "title": "trailbase: 0.32.2 -> 0.33.22"
   },
   "567269": {
-   "head": "8087c2ba9416f85a8da9db9a334d7df154ad3588",
-   "status": "requeue",
+   "darwin": false,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41039374702,
+   "status": "dispatched",
+   "time": "2026-10-30T10:15:14+00:00",
    "title": "multiviewer-for-f1: 2.8.4 -> 2.11.0"
   },
   "567282": {
@@ -6988,8 +7005,13 @@
    "title": "python3Packages.stackit-objectstorage: 1.6.0 -> 1.7.0"
   },
   "568052": {
-   "head": "1f0044c82968a2a839d7b4a6d1149e38e6872d26",
-   "status": "requeue",
+   "darwin": false,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41039131664,
+   "status": "dispatched",
+   "time": "2026-10-30T10:13:18+00:00",
    "title": "sublime4-dev: 4212 -> 4214"
   },
   "568066": {
@@ -7674,9 +7696,13 @@
    "title": "python3Packages.python-pooldose: 0.9.14 -> 0.9.15"
   },
   "569879": {
-   "head": "e942341506fb061b3fb3c09e151be4ac6b575fa0",
+   "darwin": false,
+   "on_success": "nothing",
    "previous_run_id": 39580662888,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41038482694,
+   "status": "dispatched",
+   "time": "2026-10-30T10:08:01+00:00",
    "title": "libretro.vice-x128: 0-unstable-2026-09-22 -> 0-unstable-2026-10-03"
   },
   "569918": {
@@ -9311,6 +9337,8 @@
   },
   "573967": {
    "darwin": false,
+   "examined": 1,
+   "final": "review (aarch64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ; review (x86_64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ",
    "on_success": "nothing",
    "previous_run_id": 39395477005,
    "requeued": true,
@@ -13328,8 +13356,13 @@
    "title": "vscode-extensions.astral-sh.ty: 2026.78.0 -> 2026.84.0"
   },
   "579294": {
-   "head": "5035710136b58beec8551b3a90989dcd06c1259f",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41039995369,
+   "status": "dispatched",
+   "time": "2026-10-30T10:20:17+00:00",
    "title": "python3Packages.parsedmarc: 11.0.4 -> 11.0.5"
   },
   "579295": {
@@ -13343,27 +13376,48 @@
    "title": "python3Packages.vtherm-api: 0.5.0 -> 0.6.2"
   },
   "579338": {
-   "head": "d369aa789f3676b361cccbfb05d88d499bbd3157",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41039697647,
+   "status": "dispatched",
+   "time": "2026-10-30T10:17:51+00:00",
    "title": "speakeasy-cli: 1.802.0 -> 1.803.2"
   },
   "579363": {
-   "head": "f745da10fc58519a9d7f162e1c11dd5d34475346",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41039523866,
+   "status": "dispatched",
+   "time": "2026-10-30T10:16:24+00:00",
    "title": "qtpass: 1.8.3 -> 1.8.4"
   },
   "579371": {
-   "head": "087ee710639803428abfe8d57be12786e6aff474",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41039230752,
+   "status": "dispatched",
+   "time": "2026-10-30T10:14:05+00:00",
    "title": "tdlib: 1.8.68 -> 1.8.69"
   },
   "579440": {
-   "head": "15147f5f2923303880fe4501fc009ae785c79c91",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41039046680,
+   "status": "dispatched",
+   "time": "2026-10-30T10:12:35+00:00",
    "title": "minetest-mapserver: 4.10.0 -> 4.11.0"
   },
   "579449": {
    "darwin": false,
+   "final": "cancelled after 4 hours",
    "on_success": "nothing",
    "previous_run_id": null,
    "requeued": true,
@@ -13373,13 +13427,23 @@
    "title": "wine-staging: 11.19 -> 11.20"
   },
   "579463": {
-   "head": "d46232ad879de52ca686d4518c68120403f084c7",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41038577541,
+   "status": "dispatched",
+   "time": "2026-10-30T10:08:46+00:00",
    "title": "commons-daemon: 1.5.1 -> 1.6.1"
   },
   "579464": {
-   "head": "aa0b302d090d6fe229c7493f3b41ebe2db6ae83e",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41038205691,
+   "status": "dispatched",
+   "time": "2026-10-30T10:05:48+00:00",
    "title": "commons-bcel: 6.12.0 -> 6.13.0"
   },
   "579465": {
@@ -14394,6 +14458,7 @@
   },
   "580389": {
    "darwin": true,
+   "final": "cancelled after 4 hours",
    "on_success": "nothing",
    "previous_run_id": null,
    "requeued": true,
