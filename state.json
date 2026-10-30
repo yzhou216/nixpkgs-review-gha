@@ -12168,18 +12168,33 @@
    "title": "dart-sass: 1.105.1 -> 1.106.1"
   },
   "577712": {
-   "head": "a92cd2effb76137dab4351b6ccf1a236732315d7",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41066258876,
+   "status": "dispatched",
+   "time": "2026-10-30T13:48:06+00:00",
    "title": "solana-platform-tools: 1.57 -> 1.58"
   },
   "577719": {
-   "head": "fbe82ad13189d0685005bac66057472079b2ce5a",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41065316541,
+   "status": "dispatched",
+   "time": "2026-10-30T13:41:34+00:00",
    "title": "solana-platform-tools_157: 1.57 -> 1.58"
   },
   "577722": {
-   "head": "be3153d9aac5cdd56f513dbc19e20c14fcea91ae",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41064204713,
+   "status": "dispatched",
+   "time": "2026-10-30T13:33:15+00:00",
    "title": "solana-platform-tools_154: 1.54 -> 1.58"
   },
   "577733": {
@@ -12627,9 +12642,13 @@
    "title": "python3Packages.gekko: 1.3.2 -> 1.3.3"
   },
   "578196": {
-   "head": "7213195c21766f272c3863e8b61c9245c07ec6bf",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 40179355510,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41064120909,
+   "status": "dispatched",
+   "time": "2026-10-30T13:32:40+00:00",
    "title": "python3Packages.kaldi-native-fbank: 1.22.3 -> 1.22.4"
   },
   "578199": {
@@ -13118,13 +13137,23 @@
    "title": "iosevka: 34.9.0 -> 34.9.1"
   },
   "578524": {
-   "head": "1e7ac8b609aed7e0ca3a368aec026d2155590466",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41063206674,
+   "status": "dispatched",
+   "time": "2026-10-30T13:26:08+00:00",
    "title": "go-camo: 2.7.7 -> 3.1"
   },
   "578534": {
-   "head": "75fed64e0ee4ee49eda077ed8b5cb0b154eac8fe",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41062804072,
+   "status": "dispatched",
+   "time": "2026-10-30T13:23:14+00:00",
    "title": "python3Packages.superqt: 0.8.3 -> 0.9.0"
   },
   "578554": {
@@ -13810,6 +13839,7 @@
   },
   "579485": {
    "darwin": true,
+   "final": "cancelled after 4 hours",
    "on_success": "nothing",
    "previous_run_id": null,
    "requeued": true,
