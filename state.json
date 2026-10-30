@@ -10142,9 +10142,13 @@
    "title": "nextcloud-talk-desktop: 2.3.2 -> 2.3.3"
   },
   "575199": {
-   "head": "596339d3fe00f8a9943619f0782a762eb693fe11",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39355402471,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41074775890,
+   "status": "dispatched",
+   "time": "2026-10-30T14:47:37+00:00",
    "title": "python3Packages.ghome-foyer-api: 1.2.3 -> 3.1.0"
   },
   "575200": {
@@ -10154,9 +10158,13 @@
    "tries": 0
   },
   "575201": {
-   "head": "9210b973932457055e21d1054865022c14b47215",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39354831677,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41074580924,
+   "status": "dispatched",
+   "time": "2026-10-30T14:46:18+00:00",
    "title": "python3Packages.ttp-templates: 0.6.18 -> 0.6.20"
   },
   "575202": {
@@ -10248,9 +10256,13 @@
    "tries": 0
   },
   "575293": {
-   "head": "1eddaae62e27888e88b696938935290b633a7dea",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39347364204,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41073277438,
+   "status": "dispatched",
+   "time": "2026-10-30T14:37:42+00:00",
    "title": "python3Packages.psd-tools: 1.12.2 -> 1.26.0"
   },
   "575296": {
@@ -10302,9 +10314,13 @@
    "tries": 0
   },
   "575324": {
-   "head": "ff815c3caece99cbbc12890c156b432302008aff",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39342796762,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41072657335,
+   "status": "dispatched",
+   "time": "2026-10-30T14:33:47+00:00",
    "title": "python3Packages.spyder-kernels: 3.1.5 -> 3.2.0a2"
   },
   "575328": {
@@ -10332,9 +10348,13 @@
    "tries": 0
   },
   "575352": {
-   "head": "bf51414d97ce6f776a9aa24ecafc63aafd2b3b8e",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39341367618,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41071817791,
+   "status": "dispatched",
+   "time": "2026-10-30T14:28:47+00:00",
    "title": "whitebophir: 1.19.1 -> 2.18.31"
   },
   "575355": {
@@ -10410,9 +10430,13 @@
    "tries": 0
   },
   "575446": {
-   "head": "c6a81456eede0f2ecdb8dd3d60e375db41090eac",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39338465272,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41071723791,
+   "status": "dispatched",
+   "time": "2026-10-30T14:28:08+00:00",
    "title": "python3Packages.typeshed-client: 2.13.0 -> 2.14.0"
   },
   "575449": {
