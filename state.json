@@ -706,8 +706,13 @@
    "title": "python3Packages.execnb: 0.3.2 -> 0.3.3"
   },
   "508974": {
-   "head": "02938111774ba0a6bb6c31277cfe520112c1972d",
-   "status": "requeue",
+   "darwin": false,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41096729682,
+   "status": "dispatched",
+   "time": "2026-10-30T17:12:06+00:00",
    "title": "projectm-sdl-cpp: 0-unstable-2026-01-20 -> 2.0.0-pre1-unstable-2026-10-05"
   },
   "509139": {
@@ -731,14 +736,21 @@
    "title": "python3Packages.pygmo: 2.19.7 -> 2.19.8"
   },
   "509528": {
-   "head": "be0578448762c93a7b20d45c2f997bba4a2c811b",
-   "status": "requeue",
+   "darwin": false,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41096517933,
+   "status": "dispatched",
+   "time": "2026-10-30T17:10:43+00:00",
    "title": "python3Packages.qtawesome: 1.4.1 -> 1.4.2"
   },
   "509561": {
-   "head": "2cdb729e9d3cb05481bcbe8df1244565e4d8a322",
-   "status": "requeue",
-   "title": "apk-tools: 3.0.5 -> 3.0.8"
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "apk-tools: 3.0.5 -> 3.0.8",
+   "tries": 0
   },
   "510384": {
    "head": "53b583633df1ad59e5993b5566ff13bfdea5fff5",
@@ -746,13 +758,23 @@
    "title": "implot: 0.17 -> 1.1"
   },
   "510464": {
-   "head": "e963f93a6799a6ba295b55c7c22301ecc75687f2",
-   "status": "requeue",
+   "darwin": false,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41096324273,
+   "status": "dispatched",
+   "time": "2026-10-30T17:09:26+00:00",
    "title": "seq66: 0.99.22 -> 0.99.24"
   },
   "510542": {
-   "head": "b5aef57a6383e91029ecfc92e028c664d9be7208",
-   "status": "requeue",
+   "darwin": false,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41096239719,
+   "status": "dispatched",
+   "time": "2026-10-30T17:08:51+00:00",
    "title": "kcc: 9.6.2 -> 12.0.0"
   },
   "510729": {
@@ -781,8 +803,13 @@
    "title": "python3Packages.pywebview: 6.1 -> 6.2.1"
   },
   "511249": {
-   "head": "a7ba21e4559612f419bfd166679a6a3d8af7e4ff",
-   "status": "requeue",
+   "darwin": false,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41095970087,
+   "status": "dispatched",
+   "time": "2026-10-30T17:07:00+00:00",
    "title": "m17n_db: 1.8.10 -> 1.8.15"
   },
   "511393": {
@@ -813,9 +840,10 @@
    "title": "python3Packages.devpi-ldap: 2.1.1-unstable-2026-01-22 -> 2.2.0"
   },
   "511749": {
-   "head": "b7b812128344883d6ce4bb3f0e6490d2b4a28257",
-   "status": "requeue",
-   "title": "moodle: 5.1.3 -> 5.2.3"
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "moodle: 5.1.3 -> 5.2.3",
+   "tries": 0
   },
   "512243": {
    "darwin": true,
@@ -863,15 +891,25 @@
    "title": "python3Packages.py2bit: 0.3.3 -> 1.0.1"
   },
   "513366": {
-   "head": "38da185e01caab2beecafb29de8a6e9c8086f2f8",
+   "darwin": false,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40167213579,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41095841970,
+   "status": "dispatched",
+   "time": "2026-10-30T17:06:08+00:00",
    "title": "intel-ipsec-mb: 2.0.1 -> 2.0.2"
   },
   "513377": {
-   "head": "5d5af9f06992ce964abe63804fa2cf33cc00046c",
+   "darwin": false,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40167094123,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41095754949,
+   "status": "dispatched",
+   "time": "2026-10-30T17:05:34+00:00",
    "title": "trinity: 1.9-unstable-2026-04-11 -> 1.9-unstable-2026-05-12"
   },
   "513382": {
@@ -1019,9 +1057,14 @@
    "title": "sydbox: 3.51.2 -> 3.59.0"
   },
   "517485": {
-   "head": "3637249985f7b5806398a4ee9ab0401bb869b4a3",
+   "darwin": false,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40166312557,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41095611959,
+   "status": "dispatched",
+   "time": "2026-10-30T17:04:38+00:00",
    "title": "antimicrox: 3.5.1 -> 3.6.1"
   },
   "517654": {
@@ -1088,9 +1131,10 @@
    "title": "gpac-unstable: 26.07.0-unstable-2026-08-04 -> 26.07.0-unstable-2026-10-19"
   },
   "518174": {
-   "head": "e5b90cffe9215e8cf63f4e03030d04c5e0af7f93",
-   "status": "requeue",
-   "title": "ocamlPackages.unisim_archisec: 0.0.13 -> 0.0.14"
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "ocamlPackages.unisim_archisec: 0.0.13 -> 0.0.14",
+   "tries": 0
   },
   "518224": {
    "darwin": true,
@@ -1193,9 +1237,14 @@
    "title": "python3Packages.snappy-manifolds: 1.4 -> 1.9"
   },
   "519489": {
-   "head": "c2d9f1f0f9a175961d77fd030ffc006bca91c045",
+   "darwin": false,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40166055705,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41095367034,
+   "status": "dispatched",
+   "time": "2026-10-30T17:03:00+00:00",
    "title": "voxinput: 1.0.0 -> 2.0.1"
   },
   "519618": {
@@ -1268,9 +1317,14 @@
    "title": "python3Packages.django-parler: 2.3 -> 2.4"
   },
   "521035": {
-   "head": "c23bd4aa0d25f8616de4ee6bd6766ec5ab084aa0",
+   "darwin": false,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40165207601,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41094978903,
+   "status": "dispatched",
+   "time": "2026-10-30T17:00:30+00:00",
    "title": "libucontext: 1.5 -> 1.5.2"
   },
   "521319": {
@@ -1354,9 +1408,14 @@
    "title": "python3Packages.litestar: 2.21.1 -> 2.23.0"
   },
   "522629": {
-   "head": "fbc4d3f84b3b1fde312e795fc8ffe02d4e2292a0",
+   "darwin": false,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40165104544,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41094148882,
+   "status": "dispatched",
+   "time": "2026-10-30T16:54:52+00:00",
    "title": "tartan: 0.3.0-unstable-2025-01-07 -> 0.3.0-unstable-2025-11-09"
   },
   "522717": {
@@ -1383,9 +1442,14 @@
    "title": "vkd3d-proton: 2.14.1 -> 3.0.1"
   },
   "522878": {
-   "head": "1639a5fa5781fd917cd4037a296ac9f64ec1e0a5",
+   "darwin": false,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40164298988,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41094062530,
+   "status": "dispatched",
+   "time": "2026-10-30T16:54:15+00:00",
    "title": "serviio: 2.4 -> 2.5"
   },
   "522922": {
@@ -1528,14 +1592,16 @@
    "title": "python3Packages.pydal: 20260313.1 -> 20260520.0"
   },
   "524597": {
-   "head": "8b1665c5bbd4f8669d1e7ece84f68e9f9d7e04f8",
-   "status": "requeue",
-   "title": "libsForQt5.quazip: 1.5 -> 1.7.2"
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "libsForQt5.quazip: 1.5 -> 1.7.2",
+   "tries": 0
   },
   "524598": {
-   "head": "653cb417b1a81395caa026f3a51f5977acf5900d",
-   "status": "requeue",
-   "title": "kdePackages.quazip: 1.5 -> 1.7.2"
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "kdePackages.quazip: 1.5 -> 1.7.2",
+   "tries": 0
   },
   "525005": {
    "darwin": true,
@@ -1546,9 +1612,10 @@
    "title": "graalvmPackages.graaljs: 25.2.4 -> 25.4.4.1.1"
   },
   "525095": {
-   "head": "c6ca5040f4a272d1bf15102746435a883fe396f3",
-   "status": "requeue",
-   "title": "qt6Packages.quazip: 1.5 -> 1.7.0"
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "qt6Packages.quazip: 1.5 -> 1.7.0",
+   "tries": 0
   },
   "525556": {
    "darwin": false,
@@ -1567,9 +1634,10 @@
    "title": "nvidia-modprobe: 595.71.05 -> 615.71.09"
   },
   "525654": {
-   "head": "2ca6a8c6fbf15acbdd99dec3e30422fe6864ff58",
-   "status": "requeue",
-   "title": "python3Packages.cfn-flip: 1.3.0 -> dist/cfn_flip-1.3.0.tar.gz"
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "python3Packages.cfn-flip: 1.3.0 -> dist/cfn_flip-1.3.0.tar.gz",
+   "tries": 0
   },
   "525788": {
    "head": "0bcdf608078114f9de64df54231be9c49f661a17",
@@ -1660,9 +1728,14 @@
    "title": "python3Packages.hyrule: 1.0.1 -> 1.1.0"
   },
   "529473": {
-   "head": "6187f527f5d6e8d46f417db70ef98bfa5f76355b",
+   "darwin": false,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40163137049,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41093854069,
+   "status": "dispatched",
+   "time": "2026-10-30T16:52:50+00:00",
    "title": "jose: 14 -> 15"
   },
   "529645": {
@@ -1714,15 +1787,21 @@
    "title": "pipekit: 6.65.5 -> 8.5.8"
   },
   "530253": {
-   "head": "1b3922dbda6c16b94a9d926399e4614156246f12",
+   "darwin": false,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40162354743,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41093690731,
+   "status": "dispatched",
+   "time": "2026-10-30T16:51:42+00:00",
    "title": "highscore-stella: 0-unstable-2026-06-01 -> 0-unstable-2026-06-27"
   },
   "530256": {
-   "head": "677f5afa2a8e8c77b697d6f77006a94ae75da2b8",
-   "status": "requeue",
-   "title": "octavePackages.doctest: 0.8.1 -> 0.8.2"
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "octavePackages.doctest: 0.8.1 -> 0.8.2",
+   "tries": 0
   },
   "530383": {
    "head": "71f44c701e13783bd67a2b3b33d04c7de1ede2aa",
@@ -1849,15 +1928,25 @@
    "tries": 0
   },
   "533348": {
-   "head": "5cc2a74ccd522794f2f99e5a754ac8cb506fe0f3",
+   "darwin": false,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40161486978,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41093514666,
+   "status": "dispatched",
+   "time": "2026-10-30T16:50:30+00:00",
    "title": "highscore-nestopia: 0-unstable-2026-05-31 -> 0-unstable-2026-06-27"
   },
   "533349": {
-   "head": "51db84f554027ce9a8aa2752c90d2400a23e4bcc",
+   "darwin": false,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40161385743,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41092461754,
+   "status": "dispatched",
+   "time": "2026-10-30T16:43:26+00:00",
    "title": "highscore-prosystem: 0-unstable-2026-05-16 -> 0-unstable-2026-06-27"
   },
   "533470": {
@@ -8160,9 +8249,13 @@
    "title": "libmediainfo: 26.05 -> 26.10"
   },
   "570879": {
-   "head": "9600bcdbd55c83719976ebfaf799fc60033e032d",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39541392469,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41093267106,
+   "status": "dispatched",
+   "time": "2026-10-30T16:48:51+00:00",
    "title": "quartoMinimal: 1.10.18 -> 1.10.19"
   },
   "570911": {
@@ -8281,6 +8374,8 @@
   },
   "571408": {
    "darwin": true,
+   "examined": 1,
+   "final": "review (x86_64-linux): Process completed with exit code 1.",
    "on_success": "nothing",
    "previous_run_id": 39530169882,
    "requeued": true,
@@ -8828,9 +8923,13 @@
   },
   "572783": {
    "darwin": true,
+   "examined": 1,
+   "no_runner_at": "2026-10-30T16:48:34+00:00",
    "on_success": "nothing",
    "previous_run_id": 39449293322,
    "requeued": true,
+   "rerun": "no runner",
+   "rerun_after": "2026-10-30T17:18:34+00:00",
    "run_id": 41084906106,
    "status": "dispatched",
    "time": "2026-10-30T15:53:48+00:00",
