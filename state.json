@@ -13399,13 +13399,23 @@
    "title": "cel-go: 0.32.0 -> 0.33.0"
   },
   "579473": {
-   "head": "638f37f6dff2e3f5a84d1b3cf0bc0312f016377f",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41034076505,
+   "status": "dispatched",
+   "time": "2026-10-30T09:31:38+00:00",
    "title": "certigo: 1.18.1 -> 1.18.2"
   },
   "579475": {
-   "head": "2915f9a2fa933e8cb6977d3c26185bb236cbb1f5",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41033796238,
+   "status": "dispatched",
+   "time": "2026-10-30T09:29:24+00:00",
    "title": "python3Packages.doclang: 0.7.3 -> 0.8.0"
   },
   "579477": {
@@ -13419,8 +13429,13 @@
    "title": "portmaster: 2.2.4 -> 2.2.7"
   },
   "579481": {
-   "head": "b03fe6b0aa892237dd6082583c6bcd385754d8b5",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41033320472,
+   "status": "dispatched",
+   "time": "2026-10-30T09:25:28+00:00",
    "title": "python3Packages.ezdxf: 1.4.4 -> 1.4.5"
   },
   "579482": {
@@ -13434,33 +13449,63 @@
    "title": "conky: 1.25.3 -> 1.25.5"
   },
   "579484": {
-   "head": "3f43837fb91d8e555e3b24033bfbc4a3a726409e",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41032977597,
+   "status": "dispatched",
+   "time": "2026-10-30T09:22:42+00:00",
    "title": "pixi: 0.82.1 -> 0.83.0"
   },
   "579485": {
-   "head": "fad75a5f634ca753a06f62fc280f93832af66f0b",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41032906938,
+   "status": "dispatched",
+   "time": "2026-10-30T09:22:07+00:00",
    "title": "python3Packages.pyrate-limiter: 4.5.0 -> 4.5.1"
   },
   "579498": {
-   "head": "3d43bf7790f9a89bd283e2eeeebb6f9bb5976f32",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41032026025,
+   "status": "dispatched",
+   "time": "2026-10-30T09:14:53+00:00",
    "title": "androidStudioPackages.beta: 2026.2.1.7 -> 2026.2.2.7"
   },
   "579499": {
-   "head": "c60203b1bd97c0a29db1bd1e9abafd17e1e16573",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41031955198,
+   "status": "dispatched",
+   "time": "2026-10-30T09:14:16+00:00",
    "title": "gallery-dl: 1.32.16 -> 1.32.18"
   },
   "579500": {
-   "head": "ccd1b58a893109f3b9ea9a89dee04a98503df85d",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41031473961,
+   "status": "dispatched",
+   "time": "2026-10-30T09:10:19+00:00",
    "title": "prometheus-nvidia-gpu-exporter: 1.15.1 -> 1.16.0"
   },
   "579536": {
-   "head": "8fd314273c140450c9fb1c02ec1be834ca475be4",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41031067013,
+   "status": "dispatched",
+   "time": "2026-10-30T09:07:02+00:00",
    "title": "pangolin-cli: 0.18.1 -> 0.19.0"
   },
   "579558": {
@@ -13484,8 +13529,13 @@
    "title": "budslink: 0.2.1 -> 0.2.2"
   },
   "579567": {
-   "head": "f117bb5806cfb32a5e10f819cabc7754ac36af52",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41030785993,
+   "status": "dispatched",
+   "time": "2026-10-30T09:04:42+00:00",
    "title": "groonga: 16.1.3 -> 16.1.4"
   },
   "579572": {
@@ -13499,8 +13549,13 @@
    "title": "xsnow: 3.9.7 -> 3.9.9"
   },
   "579577": {
-   "head": "cf3b0c9eab688e0de73d082ee99baaee87ed2e30",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41030584030,
+   "status": "dispatched",
+   "time": "2026-10-30T09:02:59+00:00",
    "title": "python3Packages.testrail-api: 1.13.6 -> 1.14.0"
   },
   "579578": {
@@ -14559,6 +14614,7 @@
   },
   "580591": {
    "darwin": true,
+   "final": "cancelled after 4 hours",
    "on_success": "nothing",
    "previous_run_id": null,
    "requeued": true,
