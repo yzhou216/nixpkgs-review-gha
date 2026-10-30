@@ -1918,27 +1918,47 @@
    "title": "livepeer: 0.8.10 -> 0.9.2"
   },
   "534990": {
-   "head": "abf782860fd82a8e4f9093e6dca70a6b2c77eb1a",
+   "darwin": false,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40161303371,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41092119203,
+   "status": "dispatched",
+   "time": "2026-10-30T16:41:08+00:00",
    "title": "asahi-btsync: 0.2.5 -> 0.2.6"
   },
   "534992": {
-   "head": "ae158215af6b1d5d002a4f5af0146096a2a19071",
+   "darwin": false,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40160694069,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41092018811,
+   "status": "dispatched",
+   "time": "2026-10-30T16:40:27+00:00",
    "title": "asahi-bless: 0.4.3 -> 0.4.4"
   },
   "534994": {
-   "head": "d0c1f97a42e8d7fb99075a9aa230771e15e397ea",
+   "darwin": false,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40160518276,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41090861652,
+   "status": "dispatched",
+   "time": "2026-10-30T16:32:44+00:00",
    "title": "asahi-wifisync: 0.2.3 -> 0.2.4"
   },
   "535000": {
-   "head": "a5369b7f7bdb31613544137a3fbdcba9c505056a",
+   "darwin": false,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40160480121,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41090413110,
+   "status": "dispatched",
+   "time": "2026-10-30T16:29:50+00:00",
    "title": "asahi-nvram: 0.2.4 -> 0.2.5"
   },
   "535010": {
@@ -1950,8 +1970,13 @@
    "title": "gaugePlugins.js: 5.0.6 -> 5.0.8"
   },
   "535062": {
-   "head": "9abaad71903ca87759ce333b9473dda1b8b57802",
-   "status": "requeue",
+   "darwin": false,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41090327196,
+   "status": "dispatched",
+   "time": "2026-10-30T16:29:15+00:00",
    "title": "kaniko: 1.25.15 -> 1.25.19"
   },
   "535100": {
@@ -8165,9 +8190,13 @@
    "title": "h2o: 2.3.0-rolling-2026-09-10 \u2192 2.3.0-rolling-2026-10-20"
   },
   "570986": {
-   "head": "71b700b2745bce47d8219e124d0267cfdfc65773",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39540024747,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41091461627,
+   "status": "dispatched",
+   "time": "2026-10-30T16:36:41+00:00",
    "title": "silver-platter: 0.8.4 -> 0.8.6"
   },
   "570997": {
@@ -8251,9 +8280,13 @@
    "title": "webtunnel: 0.0.5 -> 0.0.7"
   },
   "571408": {
-   "head": "2b2d1055066cfe37ee02cb9e061d71582af405fe",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39530169882,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41091195237,
+   "status": "dispatched",
+   "time": "2026-10-30T16:34:55+00:00",
    "title": "python3Packages.google-cloud-translate: 3.27.0 -> 3.28.0"
   },
   "571436": {
@@ -8375,9 +8408,13 @@
    "title": "mhost: 0.11.4 -> 0.12.1"
   },
   "571959": {
-   "head": "608d75e388c39c78781d215e8423201bbe007b2a",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39511882337,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41090607317,
+   "status": "dispatched",
+   "time": "2026-10-30T16:31:04+00:00",
    "title": "python3Packages.google-cloud-pubsub: 2.41.0 -> 2.43.0"
   },
   "571977": {
@@ -8387,8 +8424,13 @@
    "tries": 0
   },
   "571978": {
-   "head": "7f2d6a14caa5923feefc761bab3a465d27724157",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41090011647,
+   "status": "dispatched",
+   "time": "2026-10-30T16:27:10+00:00",
    "title": "libzakalwe: 1.0.0-unstable-2024-02-26 -> 1.0.0-unstable-2026-09-20"
   },
   "572029": {
@@ -13369,6 +13411,7 @@
   },
   "578678": {
    "darwin": true,
+   "final": "cancelled after 4 hours",
    "on_success": "nothing",
    "previous_run_id": null,
    "requeued": true,
