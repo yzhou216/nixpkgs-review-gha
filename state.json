@@ -13580,13 +13580,23 @@
    "title": "neil: 0.3.70 -> 0.3.71"
   },
   "579745": {
-   "head": "08dd544a1344f5fb9734726ac1b6f51ab2501ddc",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41026477125,
+   "status": "dispatched",
+   "time": "2026-10-30T08:26:44+00:00",
    "title": "avfs: 1.3.0 -> 1.4.0"
   },
   "579768": {
-   "head": "9132bae6d2ea98c34c76670ca2fa441fbad41a49",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41026040352,
+   "status": "dispatched",
+   "time": "2026-10-30T08:22:49+00:00",
    "title": "jdt-language-server: 1.62.0 -> 1.63.0"
   },
   "579777": {
@@ -13600,28 +13610,53 @@
    "title": "media-downloader: 5.6.6 -> 5.6.7"
   },
   "579788": {
-   "head": "0081a48e7d890b665828aa6df93a0ec80d2847be",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41025544781,
+   "status": "dispatched",
+   "time": "2026-10-30T08:18:20+00:00",
    "title": "libmamba: 2.9.0 -> 2.10.0"
   },
   "579832": {
-   "head": "e565102d8f40207ebd5159447745320ca95edffc",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41025181423,
+   "status": "dispatched",
+   "time": "2026-10-30T08:15:03+00:00",
    "title": "python3Packages.spacy-pkuseg: 1.0.1 -> 1.0.2"
   },
   "579833": {
-   "head": "21ee81e886cdb32985b280b6b575504e7097b146",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41024266609,
+   "status": "dispatched",
+   "time": "2026-10-30T08:06:47+00:00",
    "title": "esphome-device-builder: 1.24.0 -> 1.26.0"
   },
   "579854": {
-   "head": "de23e7e72b8ef0a6ba38e5642ef9784df1dde919",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41024081813,
+   "status": "dispatched",
+   "time": "2026-10-30T08:05:06+00:00",
    "title": "python3Packages.tabcmd: 2.0.20 -> 2.0.32"
   },
   "579860": {
-   "head": "a9649efde08c0e02f2afa0b75d8f3ee9595bc284",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41023823221,
+   "status": "dispatched",
+   "time": "2026-10-30T08:02:45+00:00",
    "title": "shelfmark: 1.4.0 -> 1.5.1"
   },
   "579864": {
@@ -13656,6 +13691,8 @@
   },
   "579868": {
    "darwin": true,
+   "examined": 1,
+   "final": "review (x86_64-linux): Process completed with exit code 2.",
    "on_success": "nothing",
    "previous_run_id": null,
    "requeued": true,
