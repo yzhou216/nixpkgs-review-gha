@@ -5308,8 +5308,13 @@
    "title": "fontc: 0.6.0 -> 1.0.0"
   },
   "561222": {
-   "head": "362c3b6b9fc7371084c492807a1e4f06bf123265",
-   "status": "requeue",
+   "darwin": false,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41042641195,
+   "status": "dispatched",
+   "time": "2026-10-30T10:41:54+00:00",
    "title": "fishnet: 2.14.0 -> 2.15.0"
   },
   "561229": {
@@ -5736,8 +5741,13 @@
    "title": "rush-parallel: 0.9.0 -> 0.11.0"
   },
   "562675": {
-   "head": "1bab9c55428b755f20ed6344413d2bcb4d709b7e",
-   "status": "requeue",
+   "darwin": false,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41042284701,
+   "status": "dispatched",
+   "time": "2026-10-30T10:38:58+00:00",
    "title": "tradingview: 3.4.0 -> 3.4.1"
   },
   "562701": {
@@ -5790,9 +5800,13 @@
    "title": "python3Packages.free-proxy: 1.2.3 -> 1.3.0"
   },
   "563086": {
-   "head": "2663547f5db412a8fdeb1a6af74f73d78b77a60f",
+   "darwin": false,
+   "on_success": "nothing",
    "previous_run_id": 39826054044,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41041370473,
+   "status": "dispatched",
+   "time": "2026-10-30T10:31:27+00:00",
    "title": "hyprmoncfg: 1.22.1 -> 1.25.1"
   },
   "563095": {
@@ -6044,9 +6058,13 @@
    "title": "python3Packages.aiocomelit: 2.0.7 -> 3.0.0"
   },
   "564317": {
-   "head": "d86dd343752948a5a96635107a2f31f4d88642e5",
+   "darwin": false,
+   "on_success": "nothing",
    "previous_run_id": 39801338915,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41041133454,
+   "status": "dispatched",
+   "time": "2026-10-30T10:29:33+00:00",
    "title": "mstflint: 4.37.0-1 -> 4.37.0-1.1"
   },
   "564319": {
@@ -6195,8 +6213,13 @@
    "title": "apfel-llm: 1.10.0 -> 1.16.0"
   },
   "565056": {
-   "head": "45260bf5aefa2fe89d81988079fe25f7cd4278f1",
-   "status": "requeue",
+   "darwin": false,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41040983791,
+   "status": "dispatched",
+   "time": "2026-10-30T10:28:16+00:00",
    "title": "sublime-merge-dev: 2126 -> 2131"
   },
   "565086": {
@@ -13276,13 +13299,23 @@
    "title": "gguf: 10798 -> 11889"
   },
   "579087": {
-   "head": "fd15f20c5fc3fff81cd3fa03baa1dbb0f28ffcb9",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41043059175,
+   "status": "dispatched",
+   "time": "2026-10-30T10:45:21+00:00",
    "title": "steampipe: 2.4.7 -> 2.4.8"
   },
   "579117": {
-   "head": "a34769ba5593d963c3be30020e711259be817574",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41042790165,
+   "status": "dispatched",
+   "time": "2026-10-30T10:43:09+00:00",
    "title": "async-profiler: 4.5 -> 4.6"
   },
   "579120": {
@@ -13296,13 +13329,23 @@
    "title": "expresslrs-configurator: 1.8.3 -> 1.8.4"
   },
   "579121": {
-   "head": "d562012d3c36e6d9517f837916bfc91f16f265f6",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41042209242,
+   "status": "dispatched",
+   "time": "2026-10-30T10:38:21+00:00",
    "title": "vscode-extensions.azdavis.millet: 0.15.2 -> 0.15.3"
   },
   "579157": {
-   "head": "094080988843786634d13cd7e86a6054965a0c61",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41041921214,
+   "status": "dispatched",
+   "time": "2026-10-30T10:36:00+00:00",
    "title": "cargo-codspeed: 5.0.3 -> 6.0.0"
   },
   "579164": {
@@ -13316,8 +13359,13 @@
    "title": "halo: 2.27.0 -> 2.27.1"
   },
   "579194": {
-   "head": "90338b7343e0e48c0712dd541cd6c03c8162daf0",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41041582616,
+   "status": "dispatched",
+   "time": "2026-10-30T10:33:13+00:00",
    "title": "github-runner: 2.338.0 -> 2.338.1"
   },
   "579208": {
@@ -13331,28 +13379,53 @@
    "title": "westonLite: 16.0.0 -> 16.0.2"
   },
   "579237": {
-   "head": "6fa89df5282508164218582cb02fcf8fcc62027c",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41041440066,
+   "status": "dispatched",
+   "time": "2026-10-30T10:32:02+00:00",
    "title": "gibo: 3.0.22 -> 3.0.23"
   },
   "579241": {
-   "head": "5cb815bb491d0343f58acb44c1e222c30f7f319f",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41041052837,
+   "status": "dispatched",
+   "time": "2026-10-30T10:28:52+00:00",
    "title": "fastjet: 3.5.1 -> 3.5.3"
   },
   "579249": {
-   "head": "ff9926a3d9a685230bac2b7d2d3a29288ac19e39",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41040752117,
+   "status": "dispatched",
+   "time": "2026-10-30T10:26:22+00:00",
    "title": "vscodium: 1.140.06880 -> 1.143.17183"
   },
   "579271": {
-   "head": "3323a0605ab16433a08252099798835be08d3028",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41040293989,
+   "status": "dispatched",
+   "time": "2026-10-30T10:22:42+00:00",
    "title": "bend2: 2.0.37 -> 2.0.39"
   },
   "579273": {
-   "head": "301040a5214d8c9e27519bbf523d9b6b5baf979c",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41040221991,
+   "status": "dispatched",
+   "time": "2026-10-30T10:22:07+00:00",
    "title": "vscode-extensions.astral-sh.ty: 2026.78.0 -> 2026.84.0"
   },
   "579294": {
