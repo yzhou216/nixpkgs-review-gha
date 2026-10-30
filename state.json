@@ -6391,9 +6391,13 @@
    "title": "scipopt-scip: 10.0.3 -> 10.1.0"
   },
   "564632": {
-   "head": "5f04d7d05d945a4da54685f5dbf0ec3e2bd23928",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39772668602,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41109555204,
+   "status": "dispatched",
+   "time": "2026-10-30T18:45:04+00:00",
    "title": "immichframe: 1.0.37.0 -> 1.0.39.0"
   },
   "564649": {
@@ -6427,9 +6431,13 @@
    "title": "stunnel: 5.80 -> 5.82"
   },
   "564803": {
-   "head": "a4be9f5f0ee9956c867ab8413e3281c99b3adf7b",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39770513760,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41108933245,
+   "status": "dispatched",
+   "time": "2026-10-30T18:40:37+00:00",
    "title": "libfreehand: 0.1.3 -> 0.1.4"
   },
   "564955": {
@@ -6461,8 +6469,13 @@
    "title": "sof-firmware: 2025.12.2 -> 2026.09.2"
   },
   "565089": {
-   "head": "308bff9b0b4d09a6f603cdc4ede953d376858d7e",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41108698499,
+   "status": "dispatched",
+   "time": "2026-10-30T18:38:57+00:00",
    "title": "graalvmPackages.truffleruby: 34.0.1 -> 40.0.0"
   },
   "565138": {
@@ -6472,9 +6485,13 @@
    "title": "mopidy-jellyfin: 1.0.6 -> 1.1.0"
   },
   "565143": {
-   "head": "e8c99a1ca3007bffd0fb0f1bcf2b839d02a8a720",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39769195800,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41108026331,
+   "status": "dispatched",
+   "time": "2026-10-30T18:34:01+00:00",
    "title": "python3Packages.gcp-storage-emulator: 2024.08.03 -> 2026.07.19"
   },
   "565159": {
@@ -6570,9 +6587,13 @@
    "title": "python3Packages.slepc4py: 3.25.1 -> 3.25.2"
   },
   "565710": {
-   "head": "b37fb2d7f05a0015519178300699016744d407ab",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39753103517,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41106789384,
+   "status": "dispatched",
+   "time": "2026-10-30T18:25:17+00:00",
    "title": "python3Packages.hydra-core: 1.3.5 -> 1.3.7"
   },
   "565754": {
@@ -6636,9 +6657,13 @@
    "title": "python3Packages.osxphotos: 0.76.1 -> 0.77.0"
   },
   "565941": {
-   "head": "41cc8e5dbcbadb680463a65168b18f56f54c75cb",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39748165800,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41106396569,
+   "status": "dispatched",
+   "time": "2026-10-30T18:22:36+00:00",
    "title": "python3Packages.wtforms: 3.2.1 -> 3.3.1"
   },
   "565971": {
@@ -6780,9 +6805,13 @@
    "title": "python3Packages.aiostream: 0.7.2 -> 0.8.1"
   },
   "566493": {
-   "head": "bef1cdd37f4af0bbeef2e4d205f9d66c2bd60f3b",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39710847975,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41105985204,
+   "status": "dispatched",
+   "time": "2026-10-30T18:19:48+00:00",
    "title": "steampipePackages.steampipe-plugin-azure: 1.13.0 -> 1.16.1"
   },
   "566502": {
@@ -6900,9 +6929,15 @@
    "tries": 0
   },
   "566826": {
-   "head": "0759b896e96c02df4dc583e79bda886d27804734",
+   "darwin": true,
+   "examined": 1,
+   "final": "report: Unable to download artifact(s): Unable to download and extract artifact: Artifact download failed af",
+   "on_success": "nothing",
    "previous_run_id": 39705676161,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41105671648,
+   "status": "dispatched",
+   "time": "2026-10-30T18:17:37+00:00",
    "title": "oxfmt: 0.68.0 -> 0.75.0"
   },
   "566853": {
