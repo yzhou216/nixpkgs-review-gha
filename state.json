@@ -13456,8 +13456,13 @@
    "title": "jdt-language-server: 1.62.0 -> 1.63.0"
   },
   "579777": {
-   "head": "c64c3fe952312faab3e9862857fef9b219d6afa8",
-   "status": "requeue",
+   "darwin": false,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41011599085,
+   "status": "dispatched",
+   "time": "2026-10-30T06:00:51+00:00",
    "title": "media-downloader: 5.6.6 -> 5.6.7"
   },
   "579788": {
@@ -13511,23 +13516,43 @@
    "title": "siege: 4.2.0 -> 4.2.2"
   },
   "579886": {
-   "head": "34dd6cbffcfe28c7e90207793c67e3bd7a3aeb5c",
-   "status": "requeue",
+   "darwin": false,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41011388206,
+   "status": "dispatched",
+   "time": "2026-10-30T05:58:36+00:00",
    "title": "gtklock-userinfo-module: 4.0.1 -> 5.0.0"
   },
   "579887": {
-   "head": "eaea96e1f49c40a48a70ae67335bc913a3e44008",
-   "status": "requeue",
+   "darwin": false,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41011332273,
+   "status": "dispatched",
+   "time": "2026-10-30T05:57:59+00:00",
    "title": "gtklock: 4.0.0 -> 5.0.0"
   },
   "579888": {
-   "head": "9d79620aaa901bda04269204859a4bfe612aa5ab",
-   "status": "requeue",
+   "darwin": false,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41011180372,
+   "status": "dispatched",
+   "time": "2026-10-30T05:56:14+00:00",
    "title": "gtklock-powerbar-module: 4.0.0 -> 5.0.0"
   },
   "579901": {
-   "head": "456815132235b3502cea0a92a0a4046f448d9205",
-   "status": "requeue",
+   "darwin": false,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41011065258,
+   "status": "dispatched",
+   "time": "2026-10-30T05:55:01+00:00",
    "title": "sylkserver: 6.6.0 -> 7.0.0"
   },
   "579913": {
@@ -13546,13 +13571,23 @@
    "title": "python3Packages.termgraph: 0.7.6 -> 0.8.0"
   },
   "579938": {
-   "head": "916006a34c5a7b59ac7c9350f1d85caaba914004",
-   "status": "requeue",
+   "darwin": false,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41010743078,
+   "status": "dispatched",
+   "time": "2026-10-30T05:51:29+00:00",
    "title": "postgresqlPackages.plpgsql_check: 2.10.15 -> 2.10.16"
   },
   "579945": {
-   "head": "8154204a565465c399bfcb15bd02de298fb375de",
-   "status": "requeue",
+   "darwin": false,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41010368685,
+   "status": "dispatched",
+   "time": "2026-10-30T05:47:24+00:00",
    "title": "libloot: 0.29.6 -> 0.29.7"
   },
   "579947": {
@@ -13566,13 +13601,23 @@
    "title": "guesswidth: 0.5.0 -> 0.6.0"
   },
   "579962": {
-   "head": "fbc7ace386daeb440bc77d8fcc9ced62df0f91d8",
-   "status": "requeue",
+   "darwin": false,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41010248969,
+   "status": "dispatched",
+   "time": "2026-10-30T05:46:06+00:00",
    "title": "libretro.puae: 0-unstable-2026-10-07 -> 0-unstable-2026-10-28"
   },
   "579969": {
-   "head": "c029e1f068ff1ef183ffb6c62c05b2d1f67373c0",
-   "status": "requeue",
+   "darwin": false,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41010133349,
+   "status": "dispatched",
+   "time": "2026-10-30T05:44:54+00:00",
    "title": "chameleon-cli: 2.2.0-unstable-2026-10-07 -> 2.3.0-unstable-2026-10-24"
   },
   "580000": {
@@ -13581,8 +13626,13 @@
    "title": "octavePackages.datatypes: 1.5.0 -> 1.6.0"
   },
   "580008": {
-   "head": "a47bc3d933402ba3159a1f09e8509cac1dda4eae",
-   "status": "requeue",
+   "darwin": false,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41010010205,
+   "status": "dispatched",
+   "time": "2026-10-30T05:43:32+00:00",
    "title": "grimblast: 0.1-unstable-2026-08-21 -> 0.1-unstable-2026-10-22"
   },
   "580012": {
@@ -13606,8 +13656,13 @@
    "title": "wallabag: 2.6.14 -> 2.6.15"
   },
   "580062": {
-   "head": "e6f19983941f78d15a582f6fe503d7520acae4b4",
-   "status": "requeue",
+   "darwin": false,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41009593189,
+   "status": "dispatched",
+   "time": "2026-10-30T05:38:54+00:00",
    "title": "ocamlPackages.ocaml-solo5: 1.3.4 -> 1.3.5"
   },
   "580064": {
@@ -13621,8 +13676,13 @@
    "title": "python3Packages.marko: 2.2.4 -> 2.2.5"
   },
   "580079": {
-   "head": "4d68e60f4f6b99f02d88af75da44f14202a78895",
-   "status": "requeue",
+   "darwin": false,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41009323807,
+   "status": "dispatched",
+   "time": "2026-10-30T05:35:57+00:00",
    "title": "jffi: 1.4.1 -> 1.4.4"
   },
   "580086": {
@@ -13631,8 +13691,13 @@
    "title": "vscode-extensions.kilocode.kilo-code: 7.8.12 -> 7.8.18"
   },
   "580094": {
-   "head": "d50ea65d0fee570cdcdc692fb6b22e2050b989ae",
-   "status": "requeue",
+   "darwin": false,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41009099010,
+   "status": "dispatched",
+   "time": "2026-10-30T05:33:35+00:00",
    "title": "wt: 4.14.4 -> 4.15.0"
   },
   "580100": {
@@ -13646,8 +13711,13 @@
    "title": "python3Packages.urwidtrees: 1.0.4 -> 1.1.0"
   },
   "580110": {
-   "head": "b9537371b0c33ca92e12f247c17c2b6b61f99009",
-   "status": "requeue",
+   "darwin": false,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41009024186,
+   "status": "dispatched",
+   "time": "2026-10-30T05:32:47+00:00",
    "title": "uefisettings: 0-unstable-2026-10-13 -> 0-unstable-2026-10-24"
   },
   "580112": {
@@ -13842,18 +13912,33 @@
    "title": "obs-studio-plugins.obs-vertical-canvas: 1.6.6 -> 1.6.7"
   },
   "580400": {
-   "head": "45bdc6786f7b6d78e09c691590ee9543b4b44fb9",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41011489158,
+   "status": "dispatched",
+   "time": "2026-10-30T05:59:46+00:00",
    "title": "vscode-extensions.illixion.vscode-vibrancy-continued: 1.4.0 -> 1.6.0"
   },
   "580404": {
-   "head": "118ff4a31ce7c6f6c459669f9a80940ec3023094",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41011283655,
+   "status": "dispatched",
+   "time": "2026-10-30T05:57:23+00:00",
    "title": "clouddrive2: 1.1.2 -> 1.1.3"
   },
   "580407": {
-   "head": "1ad2ef0d18897fe6c5f0a61e963219ce521b7e21",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41011125894,
+   "status": "dispatched",
+   "time": "2026-10-30T05:55:39+00:00",
    "title": "python3Packages.coinmetrics-api-client: 2026.9.2.14 -> 2026.10.23.19"
   },
   "580409": {
@@ -13883,8 +13968,13 @@
    "title": "xpipe: 24.6 -> 24.9"
   },
   "580433": {
-   "head": "c7b780930a9a6bc066443b6f0029a13ec6f798cf",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41010991323,
+   "status": "dispatched",
+   "time": "2026-10-30T05:54:12+00:00",
    "title": "python3Packages.matter-ble-proxy: 1.4.0 -> 1.5.5"
   },
   "580449": {
@@ -13898,13 +13988,23 @@
    "title": "wheelwizard: 2.6.2 -> 2.6.4"
   },
   "580471": {
-   "head": "ab011839a51d568974a7f0fad625166c8f085c97",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41010687255,
+   "status": "dispatched",
+   "time": "2026-10-30T05:50:51+00:00",
    "title": "python3Packages.chalice: 1.33.0 -> 1.34.0"
   },
   "580479": {
-   "head": "3a1c30f0221ee66e72a75e7663be0c6982327cdf",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41010630634,
+   "status": "dispatched",
+   "time": "2026-10-30T05:50:16+00:00",
    "title": "python3Packages.jq: 1.12.0 -> 1.13.0"
   },
   "580489": {
@@ -13918,23 +14018,43 @@
    "title": "libdaq: 3.0.27 -> 3.0.28"
   },
   "580495": {
-   "head": "0a8e33998cc7029fd71657b56e4ba88092289664",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41010302278,
+   "status": "dispatched",
+   "time": "2026-10-30T05:46:41+00:00",
    "title": "python3Packages.idasen: 0.13.1 -> 0.14.0"
   },
   "580498": {
-   "head": "eb17a5802c8d21136fc4fdafb7d64402e4009fd8",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41010192110,
+   "status": "dispatched",
+   "time": "2026-10-30T05:45:29+00:00",
    "title": "ffmpegthumbnailer: 2.3.1 -> 2.4.0"
   },
   "580511": {
-   "head": "07f2d063c84033bae2f5f038a2d4bc0b390c059d",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41010072812,
+   "status": "dispatched",
+   "time": "2026-10-30T05:44:14+00:00",
    "title": "omnictl: 1.12.4 -> 1.13.0"
   },
   "580548": {
-   "head": "eb78b856e6e314402f253383d492f96a175dff0b",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41009844314,
+   "status": "dispatched",
+   "time": "2026-10-30T05:41:40+00:00",
    "title": "nextcloud-whiteboard-server: 2.1.0 -> 2.1.2"
   },
   "580549": {
@@ -13948,13 +14068,23 @@
    "title": "openlinkhub: 0.9.2 -> 0.9.3"
   },
   "580562": {
-   "head": "4d191f1cd06ff320b5ead1aa1a54a06289f9d98e",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41009793232,
+   "status": "dispatched",
+   "time": "2026-10-30T05:41:05+00:00",
    "title": "python3Packages.xonsh: 0.24.2 -> 0.25.0"
   },
   "580568": {
-   "head": "fb46abcb1abdc7c0e87f872bc5b13f10f0ca6d41",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41009158666,
+   "status": "dispatched",
+   "time": "2026-10-30T05:34:13+00:00",
    "title": "python3Packages.tesla-fleet-api: 1.18.1 -> 1.20.0"
   },
   "580580": {
@@ -14009,6 +14139,8 @@
   },
   "580607": {
    "darwin": true,
+   "examined": 1,
+   "final": "review (x86_64-linux): Process completed with exit code 1.",
    "on_success": "nothing",
    "previous_run_id": null,
    "requeued": true,
