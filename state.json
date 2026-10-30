@@ -13128,28 +13128,53 @@
    "title": "python3Packages.superqt: 0.8.3 -> 0.9.0"
   },
   "578554": {
-   "head": "7f95e143fc6b3c5faac0e56a9eb6a21eaf664907",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41058235236,
+   "status": "dispatched",
+   "time": "2026-10-30T12:49:11+00:00",
    "title": "python3Packages.llama-index-workflows: 2.26.0 -> 2.26.1"
   },
   "578603": {
-   "head": "aeb4e830162d32d0b73db11751ca6541ddb767c8",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41057257787,
+   "status": "dispatched",
+   "time": "2026-10-30T12:41:37+00:00",
    "title": "vscode-extensions.biomejs.biome: 2026.8.190716 -> 2026.10.241124"
   },
   "578615": {
-   "head": "9e216ac3ad8912b268551e6a756c87466499d519",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41056435769,
+   "status": "dispatched",
+   "time": "2026-10-30T12:35:03+00:00",
    "title": "python3Packages.python-mpv-jsonipc: 1.4.0 -> 1.5.0"
   },
   "578635": {
-   "head": "c554855e90ba770c2368c9ce8b25edd6d2fe0014",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41055794082,
+   "status": "dispatched",
+   "time": "2026-10-30T12:30:02+00:00",
    "title": "vidmerger: 0.4.0 -> 0.4.2"
   },
   "578678": {
-   "head": "6f1b57b4d3e19f83ec0d2faa3ddb88c6060c7a25",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41055243104,
+   "status": "dispatched",
+   "time": "2026-10-30T12:25:37+00:00",
    "title": "python3Packages.petl: 1.7.29 -> 1.7.30"
   },
   "578685": {
