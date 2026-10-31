@@ -743,13 +743,23 @@
    "title": "python3Packages.dask-gateway: 2025.4.0 -> 2026.3.0"
   },
   "506496": {
-   "head": "20f8bb8e131db099a8eb9c6f30b749094ec8ffdb",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41182143147,
+   "status": "dispatched",
+   "time": "2026-10-31T07:50:00+00:00",
    "title": "zoekt: 0-unstable-2026-03-25 -> 0-unstable-2026-10-23"
   },
   "506794": {
-   "head": "58c6dbc464984034dac0f2cc19283f2dfcc55b1e",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41182070991,
+   "status": "dispatched",
+   "time": "2026-10-31T07:48:51+00:00",
    "title": "python3Packages.urwid: 4.0.11 -> 4.2.5"
   },
   "507194": {
@@ -763,8 +773,13 @@
    "title": "ssdfs-utils: 4.68 -> 4.76"
   },
   "507225": {
-   "head": "103622fa19180014bbf871f39973bd67403fceea",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41181860246,
+   "status": "dispatched",
+   "time": "2026-10-31T07:45:37+00:00",
    "title": "ocamlPackages.lambda-term: 3.3.3 -> 3.4.1"
   },
   "507437": {
@@ -785,8 +800,13 @@
    "tries": 0
   },
   "507956": {
-   "head": "9f7dd4282e709e958f05695ef1466aedda96c8af",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41181778358,
+   "status": "dispatched",
+   "time": "2026-10-31T07:44:22+00:00",
    "title": "python3Packages.python-hcl2: 7.3.1 -> 8.1.4"
   },
   "508027": {
@@ -796,18 +816,34 @@
    "tries": 0
   },
   "508263": {
-   "head": "5a3f11e514d87ae37cc3e4dce6d8116313d98200",
-   "status": "requeue",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41180841780,
+   "status": "dispatched",
+   "time": "2026-10-31T07:30:09+00:00",
    "title": "bash-supergenpass: 0-unstable-2024-03-24 -> 0-unstable-2026-04-09"
   },
   "508848": {
-   "head": "b5a46685eed620d28ad5e72aa7fbd5774117283c",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41180797572,
+   "status": "dispatched",
+   "time": "2026-10-31T07:29:30+00:00",
    "title": "python3Packages.pulumi-aws: 7.43.0 -> 7.51.1"
   },
   "508957": {
-   "head": "f17bdd8c5869881fa00791c83865ed02f5133ac8",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41180759814,
+   "status": "dispatched",
+   "time": "2026-10-31T07:28:56+00:00",
    "title": "python3Packages.execnb: 0.3.2 -> 0.3.3"
   },
   "508974": {
@@ -821,8 +857,14 @@
    "title": "projectm-sdl-cpp: 0-unstable-2026-01-20 -> 2.0.0-pre1-unstable-2026-10-05"
   },
   "509139": {
-   "head": "b68c9a45c2db6dbdf9f6307849ab175ae64005cc",
-   "status": "requeue",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41180530284,
+   "status": "dispatched",
+   "time": "2026-10-31T07:25:13+00:00",
    "title": "ocamlPackages.tsdl-ttf: 0.6 -> 0.7"
   },
   "509152": {
