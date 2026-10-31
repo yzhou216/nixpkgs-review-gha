@@ -1453,21 +1453,35 @@
    "title": "python3Packages.redshift-connector: 2.1.13 -> 2.2.0"
   },
   "521836": {
-   "head": "39e11ac362bf049a6597bd178624583168824ff6",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40204346166,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41163910297,
+   "status": "dispatched",
+   "time": "2026-10-31T03:20:01+00:00",
    "title": "elmPackages.elm-optimize-level-2: 0.3.4-unstable-2022-04-05 -> 0.4.0-unstable-2026-05-12"
   },
   "521902": {
-   "head": "13fd6e5d59efc510dde3421506aad8a62206c93d",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 40204280748,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41163793879,
+   "status": "dispatched",
+   "time": "2026-10-31T03:18:24+00:00",
    "title": "v2ray: 5.49.0 -> 5.55.0"
   },
   "521950": {
-   "head": "b4b63013929ffe997bca3dd719fc5ab83a64352c",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40204228536,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41162588653,
+   "status": "dispatched",
+   "time": "2026-10-31T03:02:12+00:00",
    "title": "python3Packages.sasmodels: 1.0.12 -> 1.1.0b1"
   },
   "522096": {
@@ -1493,9 +1507,14 @@
    "title": "python3Packages.cli-helpers: 2.15.1 -> 2.15.2"
   },
   "522187": {
-   "head": "d5ae4f3452803b95c1248f821b0268f4163e5980",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40203174888,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41162548227,
+   "status": "dispatched",
+   "time": "2026-10-31T03:01:38+00:00",
    "title": "python3Packages.doublemetaphone: 1.2i -> 1.2"
   },
   "522199": {
