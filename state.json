@@ -526,8 +526,13 @@
    "title": "fb303: 2026.07.27.00 -> 2026.08.31.00"
   },
   "496670": {
-   "head": "4efd6596e9ff3a3fb4a0f49b06aa2442c9444b2c",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41192753911,
+   "status": "dispatched",
+   "time": "2026-10-31T10:26:25+00:00",
    "title": "python3Packages.scikit-rf: 1.9.0 -> 2.1.0"
   },
   "497108": {
