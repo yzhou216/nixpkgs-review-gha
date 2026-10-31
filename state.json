@@ -463,13 +463,25 @@
    "title": "python3Packages.duo-client: 5.5.0 -> 5.7.0"
   },
   "494689": {
-   "head": "69fd0f70bda631c072496b56a92476648453e7e1",
-   "status": "requeue",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41197826681,
+   "status": "dispatched",
+   "time": "2026-10-31T11:40:29+00:00",
    "title": "python3Packages.pallets-sphinx-themes: 2.3.0 -> 2.5.0"
   },
   "494899": {
-   "head": "1455b31161de5461b08cb9f0693d9213f89064d1",
-   "status": "requeue",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41196409141,
+   "status": "dispatched",
+   "time": "2026-10-31T11:19:58+00:00",
    "title": "python3Packages.h5netcdf: 1.8.0 -> 1.8.1"
   },
   "495061": {
@@ -479,13 +491,25 @@
    "tries": 0
   },
   "495074": {
-   "head": "a915876305c4c80cd089158c5ac0dcabdf198403",
-   "status": "requeue",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41196295764,
+   "status": "dispatched",
+   "time": "2026-10-31T11:18:19+00:00",
    "title": "python3Packages.distorm3: 3.5.2 -> 3.5.2b"
   },
   "495285": {
-   "head": "9414d6ed9b4120a527c3a180f2ad72e4d70d79a6",
-   "status": "requeue",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41196102316,
+   "status": "dispatched",
+   "time": "2026-10-31T11:15:32+00:00",
    "title": "ocamlPackages.biotk: 0.3 -> 0.4"
   },
   "495360": {
