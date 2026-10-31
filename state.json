@@ -603,8 +603,13 @@
    "title": "git-credential-yahoo: 5.9.1 -> 5.9.5"
   },
   "500077": {
-   "head": "44781429d4048800b139f83ffb8d970669cb404f",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41188443748,
+   "status": "dispatched",
+   "time": "2026-10-31T09:22:32+00:00",
    "title": "git-credential-outlook: 5.9.1 -> 5.9.5"
   },
   "500080": {
@@ -614,13 +619,24 @@
    "tries": 0
   },
   "500081": {
-   "head": "8077994f608b2b3a5d984cbcac8f180eae668962",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41188033746,
+   "status": "dispatched",
+   "time": "2026-10-31T09:16:39+00:00",
    "title": "git-credential-email: 5.9.1 -> 5.9.4"
   },
   "501064": {
-   "head": "67c0fca566068004031b6349f1cf55c86355a2e4",
-   "status": "requeue",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41187616878,
+   "status": "dispatched",
+   "time": "2026-10-31T09:10:47+00:00",
    "title": "python3Packages.azure-mgmt-batch: 18.0.0 -> 19.0.0"
   },
   "501543": {
@@ -1219,6 +1235,7 @@
   "514448": {
    "darwin": true,
    "extra_args": "--eval local",
+   "final": "cancelled after 4 hours",
    "on_success": "nothing",
    "previous_run_id": 40210987906,
    "requeued": true,
@@ -1295,6 +1312,7 @@
   "515655": {
    "darwin": true,
    "extra_args": "--eval local",
+   "final": "cancelled after 4 hours",
    "on_success": "nothing",
    "previous_run_id": 40209410854,
    "requeued": true,
