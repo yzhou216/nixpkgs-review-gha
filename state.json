@@ -1931,9 +1931,14 @@
    "title": "scarlett2: 0-unstable-2024-04-06 -> 1.0"
   },
   "531070": {
-   "head": "d88d51df8f53a6119d03ae6c2f73845a852eb1f9",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40199758410,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41153427207,
+   "status": "dispatched",
+   "time": "2026-10-31T01:03:28+00:00",
    "title": "python3Packages.moonraker-api: 2.0.6 -> 4.0.0"
   },
   "531207": {
@@ -1947,18 +1952,33 @@
    "title": "kubernetes-helmPlugins.helm-secrets: 4.7.6 -> 4.7.10"
   },
   "531344": {
-   "head": "b65586f45058fc12691ccc40d20aa421c536fe00",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41153379011,
+   "status": "dispatched",
+   "time": "2026-10-31T01:02:54+00:00",
    "title": "python3Packages.asana: 5.2.4 -> 5.4.0"
   },
   "531567": {
-   "head": "ece923008fa95dfaa702758bf0b28ae10f3ef14a",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41151979489,
+   "status": "dispatched",
+   "time": "2026-10-31T00:46:29+00:00",
    "title": "python3Packages.qiskit: 2.5.2 -> 2.6.1"
   },
   "531611": {
-   "head": "c4bcf5a780fd1c02071ece6d21784fce14148fcd",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41151923846,
+   "status": "dispatched",
+   "time": "2026-10-31T00:45:54+00:00",
    "title": "python3Packages.ultralytics-thop: 2.0.19 -> 2.2.3"
   },
   "531630": {
