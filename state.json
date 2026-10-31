@@ -1042,9 +1042,14 @@
    "title": "python3Packages.ftputil: 5.1.0 -> 5.2.0"
   },
   "514448": {
-   "head": "b72c2128fbc621994b96a56da0f641f637ed5c78",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40210987906,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41172012785,
+   "status": "dispatched",
+   "time": "2026-10-31T05:17:45+00:00",
    "title": "python3Packages.openturns: 1.26 -> 1.27"
   },
   "514541": {
@@ -1096,9 +1101,14 @@
    "title": "ktls-utils: 1.3.0 -> 1.5.0"
   },
   "514893": {
-   "head": "dc97f1f242a87ef66f7bcb3175d318fd495d582f",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40209538101,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41171761069,
+   "status": "dispatched",
+   "time": "2026-10-31T05:14:01+00:00",
    "title": "python3Packages.jupyter-repo2docker: 2025.12.0 -> 2026.04.0"
   },
   "515635": {
@@ -1108,15 +1118,25 @@
    "tries": 0
   },
   "515655": {
-   "head": "6f8c5032ebf2612ad1a93bfc9ab5eea2defc544c",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40209410854,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41171720693,
+   "status": "dispatched",
+   "time": "2026-10-31T05:13:26+00:00",
    "title": "python3Packages.backrefs: 6.2 -> 7.0"
   },
   "515711": {
-   "head": "bf4ce16a634f3f0403b3ca842d9b4a491913ae6f",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40209361990,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41171465326,
+   "status": "dispatched",
+   "time": "2026-10-31T05:09:40+00:00",
    "title": "ocamlPackages.lem: 2025-03-13 -> 2026-05-01"
   },
   "515724": {
@@ -1129,14 +1149,25 @@
    "title": "python3Packages.s3fs: 2026.3.0 -> 2026.7.0"
   },
   "516691": {
-   "head": "92200067e3af35cb133eaa9b2bbf9b785ac08824",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40209186681,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41171425553,
+   "status": "dispatched",
+   "time": "2026-10-31T05:09:06+00:00",
    "title": "bozohttpd: 20240126 -> 20260503"
   },
   "516797": {
-   "head": "f2ece72365112067f91206f7cab625e9f652bda1",
-   "status": "requeue",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41171244342,
+   "status": "dispatched",
+   "time": "2026-10-31T05:06:28+00:00",
    "title": "nagiosPlugins.manubulon-snmp-plugins: 2.1.0-unstable-2024-03-13 -> 0-unstable-2024-03-13"
   },
   "516933": {
@@ -1181,8 +1212,13 @@
    "tries": 0
   },
   "517775": {
-   "head": "be52b8e115db7ea6e2e406844f7e299be288df1b",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41170625179,
+   "status": "dispatched",
+   "time": "2026-10-31T04:57:28+00:00",
    "title": "python3Packages.pyaxencoapi: 1.0.7 -> 2.0.1"
   },
   "517842": {
@@ -1194,9 +1230,14 @@
    "title": "python3Packages.python3-gnutls: 3.1.10 -> 3.1.14"
   },
   "517910": {
-   "head": "67d32f6e8adb7eded417343e520d6ea96ba1a934",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40208317633,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41170526934,
+   "status": "dispatched",
+   "time": "2026-10-31T04:55:52+00:00",
    "title": "devpi-client: 7.2.1 -> 7.3.0"
   },
   "517911": {
