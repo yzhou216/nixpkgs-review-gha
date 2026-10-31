@@ -3325,10 +3325,14 @@
    "title": "python3Packages.dataclass-wizard: 0.39.1 -> 1.0.0"
   },
   "538292": {
-   "head": "2bbf3a7fa5101a6eda6fc4e64bbf8861bc43cfe7",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 40187785747,
-   "status": "requeue",
-   "title": "cimg: 3.7.6 -> 4.0.6"
+   "requeued": true,
+   "run_id": 41238453403,
+   "status": "dispatched",
+   "time": "2026-10-31T20:20:35+00:00",
+   "title": "cimg: 3.7.6 -> 4.0.7"
   },
   "538562": {
    "darwin": true,
@@ -5739,10 +5743,14 @@
    "title": "ibus-engines.typing-booster-unwrapped: 2.30.11 -> 2.31.3"
   },
   "556936": {
-   "head": "4170b9335fa7eb5d8959ffd082db4e191258c838",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39906273758,
-   "status": "requeue",
-   "title": "python3Packages.sphinx-autoapi: 3.8.0 -> 3.8.1"
+   "requeued": true,
+   "run_id": 41238403894,
+   "status": "dispatched",
+   "time": "2026-10-31T20:20:01+00:00",
+   "title": "python3Packages.sphinx-autoapi: 3.8.0 -> 3.9.0"
   },
   "556981": {
    "run_id": 39906078401,
@@ -5775,10 +5783,14 @@
    "title": "tanka: 0.38.0 -> 0.39.4"
   },
   "557067": {
-   "head": "7df0d7f0ba5b6fef96135eee09f17c6dde23d25c",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39905266704,
-   "status": "requeue",
-   "title": "agru: 0.1.19 -> 0.3.0"
+   "requeued": true,
+   "run_id": 41238272689,
+   "status": "dispatched",
+   "time": "2026-10-31T20:18:19+00:00",
+   "title": "agru: 0.1.19 -> 0.4.0"
   },
   "557154": {
    "run_id": 39905083516,
@@ -7569,10 +7581,14 @@
    "title": "spdx-license-list-data: 3.28.0 -> 3.29.0"
   },
   "564081": {
-   "head": "f7456dddf64b5ca19dbbfcba9fa2cc9c50007c79",
+   "darwin": false,
+   "on_success": "nothing",
    "previous_run_id": 39806956000,
-   "status": "requeue",
-   "title": "otpclient: 5.1.8 -> 5.2.2"
+   "requeued": true,
+   "run_id": 41238171610,
+   "status": "dispatched",
+   "time": "2026-10-31T20:17:01+00:00",
+   "title": "otpclient: 5.1.8 -> 5.3.0"
   },
   "564100": {
    "run_id": 39806334343,
@@ -8515,10 +8531,14 @@
    "title": "guile-lsp-server: 0.4.8 -> 0.4.10"
   },
   "567504": {
-   "head": "5a5346073a2313a55d6333968abc163b6d10a612",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39691800249,
-   "status": "requeue",
-   "title": "amazon-ssm-agent: 3.3.5226.0 -> 3.3.5538.0"
+   "requeued": true,
+   "run_id": 41238225320,
+   "status": "dispatched",
+   "time": "2026-10-31T20:17:42+00:00",
+   "title": "amazon-ssm-agent: 3.3.5226.0 -> 3.3.5700.0"
   },
   "567543": {
    "run_id": 39691020309,
@@ -12488,10 +12508,14 @@
    "title": "mdwatch: 0.2.8 -> 0.2.9"
   },
   "575645": {
-   "head": "fd6e9fa13dd6ba50037811beb8470a432ac24908",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39244657050,
-   "status": "requeue",
-   "title": "grafanaPlugins.grafana-exploretraces-app: 2.2.1 -> 3.0.0"
+   "requeued": true,
+   "run_id": 41238122110,
+   "status": "dispatched",
+   "time": "2026-10-31T20:16:22+00:00",
+   "title": "grafanaPlugins.grafana-exploretraces-app: 2.2.1 -> 3.1.0"
   },
   "575649": {
    "run_id": 39244447158,
@@ -12536,10 +12560,14 @@
    "title": "material-symbols: 4.0.0-unstable-2026-10-02 -> 4.0.0-unstable-2026-10-09"
   },
   "575695": {
-   "head": "495530b118e1cc744a72879e7c35a99a14560659",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39242985366,
-   "status": "requeue",
-   "title": "grafanaPlugins.grafana-googlesheets-datasource: 2.7.0 -> 2.7.1"
+   "requeued": true,
+   "run_id": 41238074472,
+   "status": "dispatched",
+   "time": "2026-10-31T20:15:48+00:00",
+   "title": "grafanaPlugins.grafana-googlesheets-datasource: 2.7.0 -> 2.7.3"
   },
   "575711": {
    "run_id": 39242774675,
@@ -12560,10 +12588,14 @@
    "title": "plantuml-server: 1.2026.8 -> 1.2026.9"
   },
   "575725": {
-   "head": "45e5d69b87ae74ada6767559fdd2361d4e68f37d",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39241942807,
-   "status": "requeue",
-   "title": "lichess-bot: 2026.8.9.2 -> 2026.10.11.1"
+   "requeued": true,
+   "run_id": 41238024168,
+   "status": "dispatched",
+   "time": "2026-10-31T20:15:11+00:00",
+   "title": "lichess-bot: 2026.8.9.2 -> 2026.10.29.1"
   },
   "575726": {
    "run_id": 39241737252,
@@ -12582,10 +12614,14 @@
    "title": "numix-gtk-theme: 0-unstable-2021-06-08 -> 2.6.7-unstable-2021-06-08"
   },
   "575729": {
-   "head": "70bb4b1c694c43c2c24b9ba95402ba589d6de34e",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39241531504,
-   "status": "requeue",
-   "title": "nng: 1.12.4 -> 2.0.0"
+   "requeued": true,
+   "run_id": 41237979190,
+   "status": "dispatched",
+   "time": "2026-10-31T20:14:36+00:00",
+   "title": "nng: 1.12.4 -> 2.1.0"
   },
   "575731": {
    "run_id": 39241328686,
@@ -12683,16 +12719,24 @@
    "tries": 0
   },
   "575798": {
-   "head": "920f8188a80a4f4f5c1bda1ba15ea6fbaa70987a",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39238247409,
-   "status": "requeue",
-   "title": "llama-swap: 262 -> 265"
+   "requeued": true,
+   "run_id": 41237934468,
+   "status": "dispatched",
+   "time": "2026-10-31T20:14:00+00:00",
+   "title": "llama-swap: 262 -> 268"
   },
   "575799": {
-   "head": "e6bf34e81742710b40766ef6d1abb5665ca5e8de",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39237996050,
-   "status": "requeue",
-   "title": "ocamlPackages.dockerfile: 8.4.4 -> 8.4.5"
+   "requeued": true,
+   "run_id": 41237888932,
+   "status": "dispatched",
+   "time": "2026-10-31T20:13:26+00:00",
+   "title": "ocamlPackages.dockerfile: 8.4.4 -> 8.4.6"
   },
   "575802": {
    "run_id": 39237784446,
@@ -12719,10 +12763,14 @@
    "title": "vscode-extensions.streetsidesoftware.code-spell-checker-german: 2.3.4 -> 3.0.0"
   },
   "575810": {
-   "head": "5cd66385f986495a1a43df43bb57021fa3648925",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39235695421,
-   "status": "requeue",
-   "title": "python3Packages.jc: 1.26.0 -> 1.26.1"
+   "requeued": true,
+   "run_id": 41237841001,
+   "status": "dispatched",
+   "time": "2026-10-31T20:12:50+00:00",
+   "title": "python3Packages.jc: 1.26.0 -> 1.26.2"
   },
   "575811": {
    "run_id": 39235189399,
@@ -13495,10 +13543,14 @@
    "title": "leaf-markdown-viewer: 1.28.3 -> 1.29.1"
   },
   "576986": {
-   "head": "3e90d120a9cf6816f724f66c298575daa92d2d0b",
+   "darwin": true,
+   "on_success": "approve",
    "previous_run_id": 41172849075,
-   "status": "requeue",
-   "title": "xray: 26.9.9 -> 26.10.29"
+   "requeued": true,
+   "run_id": 41237797837,
+   "status": "dispatched",
+   "time": "2026-10-31T20:12:16+00:00",
+   "title": "xray: 26.9.9 -> 26.10.31"
   },
   "576990": {
    "darwin": false,
