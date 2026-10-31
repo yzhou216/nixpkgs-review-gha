@@ -1962,8 +1962,14 @@
    "title": "python3Packages.ultralytics-thop: 2.0.19 -> 2.2.3"
   },
   "531630": {
-   "head": "fb54d4a1ada0ab2dfaa44fadb0f1b6028f92b2bd",
-   "status": "requeue",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41150729587,
+   "status": "dispatched",
+   "time": "2026-10-31T00:32:31+00:00",
    "title": "python3Packages.pywatchman: 3.0.0 -> 4.0.0"
   },
   "531638": {
@@ -1987,9 +1993,14 @@
    "title": "python3Packages.mozart-api: 6.2.0.44.1 -> 6.2.0.44.2"
   },
   "532144": {
-   "head": "23e9e209ee425f90835325555bee864f25b84c7d",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40195894689,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41149817497,
+   "status": "dispatched",
+   "time": "2026-10-31T00:22:32+00:00",
    "title": "monit: 5.35.2 -> 6.0.0"
   },
   "532317": {
@@ -2001,15 +2012,25 @@
    "title": "cifs-utils: 7.5 -> 7.9"
   },
   "532580": {
-   "head": "dfedf3b10b7307beff6ea30b99745bd1ca2d815e",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40195512298,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41149278779,
+   "status": "dispatched",
+   "time": "2026-10-31T00:16:39+00:00",
    "title": "agdaPackages.standard-library: 2.3 -> 2.4"
   },
   "532593": {
-   "head": "aac4e73dc0b47cfafeb8935b1b51e2c6df722f44",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40194873780,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41148832607,
+   "status": "dispatched",
+   "time": "2026-10-31T00:11:54+00:00",
    "title": "go-toml: 2.3.1 -> 2.4.3"
   },
   "532837": {
@@ -4501,6 +4522,7 @@
   },
   "555016": {
    "darwin": true,
+   "final": "cancelled after 4 hours",
    "on_success": "nothing",
    "previous_run_id": 39918996667,
    "requeued": true,
