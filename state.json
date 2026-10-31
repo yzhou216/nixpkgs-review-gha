@@ -323,6 +323,7 @@
   },
   "473408": {
    "darwin": true,
+   "final": "cancelled after 4 hours",
    "on_success": "nothing",
    "previous_run_id": null,
    "requeued": true,
@@ -344,6 +345,7 @@
   "476090": {
    "darwin": true,
    "extra_args": "--eval local",
+   "final": "cancelled after 4 hours",
    "on_success": "nothing",
    "previous_run_id": null,
    "requeued": true,
@@ -365,6 +367,7 @@
   "477187": {
    "darwin": true,
    "extra_args": "--eval local",
+   "final": "cancelled after 4 hours",
    "on_success": "nothing",
    "previous_run_id": null,
    "requeued": true,
