@@ -1632,9 +1632,14 @@
    "tries": 0
   },
   "523970": {
-   "head": "75a685d7cc2b8086b77992c40cff625ca87e3ace",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40200184517,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41159575496,
+   "status": "dispatched",
+   "time": "2026-10-31T02:20:46+00:00",
    "title": "python3Packages.junos-eznc: 2.7.6 -> 2.8.2"
   },
   "524058": {
@@ -1693,9 +1698,14 @@
    "title": "n2n: 3.0 -> 3.1.1"
   },
   "524424": {
-   "head": "c4f7d7558fdf2efe9ca7310311062413c34fc08b",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40199162857,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41159009884,
+   "status": "dispatched",
+   "time": "2026-10-31T02:13:33+00:00",
    "title": "python3Packages.pydal: 20260313.1 -> 20260520.0"
   },
   "524597": {
@@ -1747,9 +1757,14 @@
    "tries": 0
   },
   "525788": {
-   "head": "0bcdf608078114f9de64df54231be9c49f661a17",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40198638569,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41158755718,
+   "status": "dispatched",
+   "time": "2026-10-31T02:10:16+00:00",
    "title": "python3Packages.hpccm: 26.1.0 -> 26.5.0"
   },
   "526159": {
