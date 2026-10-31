@@ -1771,9 +1771,14 @@
    "title": "faudio: 26.05 -> 26.10"
   },
   "526761": {
-   "head": "e40f906161d30ac8c43e713357c3743580ac5634",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40197983978,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41155574607,
+   "status": "dispatched",
+   "time": "2026-10-31T01:29:17+00:00",
    "title": "cpu_features: 0.10.1 -> 0.11.0"
   },
   "526845": {
@@ -1823,15 +1828,25 @@
    "title": "solo5: 0.10.1 -> 0.13.0"
   },
   "529113": {
-   "head": "92c065f658d521e39840d4c99efea8b9eb702098",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40197578755,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41155529193,
+   "status": "dispatched",
+   "time": "2026-10-31T01:28:42+00:00",
    "title": "python3Packages.starlette-wtf: 0.4.5 -> 0.5.0"
   },
   "529414": {
-   "head": "f4f3dfabfb893ae977f1d429f58cc5bf498daab7",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40197531579,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41155442729,
+   "status": "dispatched",
+   "time": "2026-10-31T01:27:33+00:00",
    "title": "python3Packages.hyrule: 1.0.1 -> 1.1.0"
   },
   "529473": {
@@ -1911,14 +1926,25 @@
    "tries": 0
   },
   "530383": {
-   "head": "71f44c701e13783bd67a2b3b33d04c7de1ede2aa",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40197033614,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41155305654,
+   "status": "dispatched",
+   "time": "2026-10-31T01:25:46+00:00",
    "title": "gmm: 5.4.4 -> 5.5"
   },
   "530467": {
-   "head": "940db1428f575982a76aa50948de4f640826e349",
-   "status": "requeue",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41155090379,
+   "status": "dispatched",
+   "time": "2026-10-31T01:23:04+00:00",
    "title": "python3Packages.dvclive: 3.49.0 -> 3.49.1"
   },
   "531046": {
