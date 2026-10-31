@@ -698,8 +698,14 @@
    "title": "python3Packages.google-cloud-runtimeconfig: 0.36.0 -> 0.37.2"
   },
   "504282": {
-   "head": "98e030d243407a8239e22a207543cd30d6d060ff",
-   "status": "requeue",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41184449639,
+   "status": "dispatched",
+   "time": "2026-10-31T08:24:01+00:00",
    "title": "python3Packages.pygithub: 2.8.1 -> 2.9.1"
   },
   "504310": {
@@ -712,18 +718,35 @@
    "title": "bum: init at 2.3"
   },
   "504360": {
-   "head": "b14d261036cdf72218a17db820678cd4be9114c3",
-   "status": "requeue",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41183809986,
+   "status": "dispatched",
+   "time": "2026-10-31T08:14:59+00:00",
    "title": "ocamlPackages.tsdl: 1.2.0 -> 1.3.0"
   },
   "504445": {
-   "head": "c4c48281519a3a36f1e059c5ae43c209a86e0761",
-   "status": "requeue",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41183340240,
+   "status": "dispatched",
+   "time": "2026-10-31T08:08:05+00:00",
    "title": "xmrig-proxy: 6.24.0 -> 6.26.0"
   },
   "504559": {
-   "head": "dbc588f3b4cd1a3782c83f8ff0f5d42c66ff3f20",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41183046876,
+   "status": "dispatched",
+   "time": "2026-10-31T08:03:45+00:00",
    "title": "steampipePackages.steampipe-plugin-github: 1.7.0 -> 1.11.0"
   },
   "504695": {
@@ -733,13 +756,24 @@
    "tries": 0
   },
   "504698": {
-   "head": "b7f27d713f2b11074a60d592fd4d6c518272924f",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41182737405,
+   "status": "dispatched",
+   "time": "2026-10-31T07:59:21+00:00",
    "title": "libdatachannel: 0.24.1 -> 0.24.6"
   },
   "506248": {
-   "head": "b278b2d847efd6f78fa635a4bc108bae4896bc9c",
-   "status": "requeue",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41182668286,
+   "status": "dispatched",
+   "time": "2026-10-31T07:58:13+00:00",
    "title": "python3Packages.dask-gateway: 2025.4.0 -> 2026.3.0"
   },
   "506496": {
@@ -1367,6 +1401,8 @@
   },
   "518041": {
    "darwin": true,
+   "examined": 1,
+   "final": "review (aarch64-linux): The operation was canceled.",
    "on_success": "nothing",
    "previous_run_id": 40207903566,
    "requeued": true,
