@@ -1723,7 +1723,9 @@
   },
   "523215": {
    "darwin": true,
+   "examined": 1,
    "extra_args": "--eval local",
+   "final": "review (aarch64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ",
    "on_success": "nothing",
    "previous_run_id": 40201414696,
    "requeued": true,
@@ -2433,10 +2435,14 @@
    "title": "gaugePlugins.js: 5.0.6 -> 5.0.8"
   },
   "535062": {
-   "head": "18dbbedfea5524b55a25232cdf088a8670b5da2f",
+   "darwin": false,
+   "on_success": "nothing",
    "previous_run_id": 41090327196,
-   "status": "requeue",
-   "title": "kaniko: 1.25.15 -> 1.25.19"
+   "requeued": true,
+   "run_id": 41172907798,
+   "status": "dispatched",
+   "time": "2026-10-31T05:31:09+00:00",
+   "title": "kaniko: 1.25.15 -> 1.25.20"
   },
   "535100": {
    "reason": "merge conflict",
@@ -4388,10 +4394,14 @@
    "title": "python3Packages.types-protobuf: 6.32.1.20260221 -> 7.35.1.20260906"
   },
   "553529": {
-   "head": "c51d499b2c91d0aa643f74200dd087f76bbc31e6",
+   "darwin": false,
+   "on_success": "nothing",
    "previous_run_id": 39937073243,
-   "status": "requeue",
-   "title": "waypipe: 0.11.0 -> 0.11.2"
+   "requeued": true,
+   "run_id": 41172806576,
+   "status": "dispatched",
+   "time": "2026-10-31T05:29:43+00:00",
+   "title": "waypipe: 0.11.0 -> 0.11.3"
   },
   "553538": {
    "run_id": 39936833295,
@@ -5098,10 +5108,14 @@
    "title": "python3Packages.appthreat-vulnerability-db: 6.7.2 -> 7.0.2"
   },
   "556926": {
-   "head": "6140bb0220ea49dbfbb04e0c5a216ceb0982f392",
+   "darwin": false,
+   "on_success": "nothing",
    "previous_run_id": 39906406176,
-   "status": "requeue",
-   "title": "ibus-engines.typing-booster-unwrapped: 2.30.11 -> 2.31.2"
+   "requeued": true,
+   "run_id": 41172763882,
+   "status": "dispatched",
+   "time": "2026-10-31T05:29:03+00:00",
+   "title": "ibus-engines.typing-booster-unwrapped: 2.30.11 -> 2.31.3"
   },
   "556936": {
    "run_id": 39906273758,
@@ -6002,10 +6016,14 @@
    "title": "python3Packages.colormath: 3.0.0-unstable-2021-04-17 -> 3.0.0"
   },
   "560158": {
-   "head": "f4e4174d0d5a5c36918e517c9836c760a28847f8",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39883725555,
-   "status": "requeue",
-   "title": "tree-sitter-grammars.tree-sitter-ssh-client-config: 2026.8.20 -> 2026.10.15"
+   "requeued": true,
+   "run_id": 41174086713,
+   "status": "dispatched",
+   "time": "2026-10-31T05:49:09+00:00",
+   "title": "tree-sitter-grammars.tree-sitter-ssh-client-config: 2026.8.20 -> 2026.10.29"
   },
   "560199": {
    "run_id": 39883584127,
@@ -6050,10 +6068,14 @@
    "title": "mmdoc: 0.26.0 -> 0.27.0"
   },
   "560390": {
-   "head": "bee3db8aa648183d3380ea62f6422e23d9a3acf3",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39882703154,
-   "status": "requeue",
-   "title": "mieru: 3.36.0 -> 3.38.1"
+   "requeued": true,
+   "run_id": 41173969515,
+   "status": "dispatched",
+   "time": "2026-10-31T05:47:21+00:00",
+   "title": "mieru: 3.36.0 -> 3.39.0"
   },
   "560436": {
    "run_id": 39882564555,
@@ -6894,10 +6916,14 @@
    "title": "goa: 3.30.0 -> 3.32.0"
   },
   "563930": {
-   "head": "3f556e444618d5e99828c737effe102bf17e0483",
+   "darwin": false,
+   "on_success": "nothing",
    "previous_run_id": 39809238304,
-   "status": "requeue",
-   "title": "gammu: 1.44.1 -> 1.45.0"
+   "requeued": true,
+   "run_id": 41172616618,
+   "status": "dispatched",
+   "time": "2026-10-31T05:26:41+00:00",
+   "title": "gammu: 1.44.1 -> 1.45.1"
   },
   "563943": {
    "examined": 1,
@@ -7782,10 +7808,14 @@
    "tries": 0
   },
   "567256": {
-   "head": "0c7012454ab2c985f016242a66af6fd3963a3028",
+   "darwin": false,
+   "on_success": "nothing",
    "previous_run_id": 39694556614,
-   "status": "requeue",
-   "title": "sstorytime: 1.0-beta-unstable-2026-09-15 -> 1.0-beta-unstable-2026-10-17"
+   "requeued": true,
+   "run_id": 41172579379,
+   "status": "dispatched",
+   "time": "2026-10-31T05:26:07+00:00",
+   "title": "sstorytime: 1.0-beta-unstable-2026-09-15 -> 1.0.0-unstable-2026-10-28"
   },
   "567264": {
    "run_id": 39694405182,
@@ -9227,10 +9257,14 @@
    "title": "python3Packages.google-cloud-translate: 3.27.0 -> 3.28.0"
   },
   "571436": {
-   "head": "f4d0f49a1bb485435e98d1114024ebc693d19590",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39529830829,
-   "status": "requeue",
-   "title": "python3Packages.frida-python: 17.19.0 -> 17.24.2"
+   "requeued": true,
+   "run_id": 41173937555,
+   "status": "dispatched",
+   "time": "2026-10-31T05:46:47+00:00",
+   "title": "python3Packages.frida-python: 17.19.0 -> 17.25.0"
   },
   "571484": {
    "run_id": 39529291341,
@@ -11607,10 +11641,14 @@
    "tries": 0
   },
   "575488": {
-   "head": "082e2bb8aae96a398922681655e5f0873f6afa90",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39336159757,
-   "status": "requeue",
-   "title": "inngest: 1.45.1 -> 1.46.0"
+   "requeued": true,
+   "run_id": 41173700210,
+   "status": "dispatched",
+   "time": "2026-10-31T05:43:03+00:00",
+   "title": "inngest: 1.45.1 -> 1.49.0"
   },
   "575491": {
    "run_id": 39335286090,
@@ -11631,10 +11669,14 @@
    "tries": 0
   },
   "575499": {
-   "head": "050b76955a30914aec7662c305214f2a277c6861",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39335115191,
-   "status": "requeue",
-   "title": "prometheus-zfs-exporter: 2.4.2 -> 2.5.0"
+   "requeued": true,
+   "run_id": 41173235042,
+   "status": "dispatched",
+   "time": "2026-10-31T05:35:51+00:00",
+   "title": "prometheus-zfs-exporter: 2.4.2 -> 2.5.1"
   },
   "575505": {
    "reason": "not open",
@@ -11715,10 +11757,14 @@
    "title": "python3Packages.besen: 0.4.7 -> 0.4.8"
   },
   "575550": {
-   "head": "fad99b9681e537e14b297c410f8a5b9a9f2407ac",
+   "darwin": false,
+   "on_success": "nothing",
    "previous_run_id": 39334516103,
-   "status": "requeue",
-   "title": "python3Packages.sofar-modbus: 0.18.0 -> 0.23.0"
+   "requeued": true,
+   "run_id": 41172497172,
+   "status": "dispatched",
+   "time": "2026-10-31T05:24:53+00:00",
+   "title": "python3Packages.sofar-modbus: 0.18.0 -> 0.25.3"
   },
   "575558": {
    "run_id": 39334356352,
@@ -12828,10 +12874,14 @@
    "title": "leaf-markdown-viewer: 1.28.3 -> 1.29.1"
   },
   "576986": {
-   "head": "5f31a174cbb11d2928c3bd1a9515d30b0329c2db",
+   "darwin": true,
+   "on_success": "approve",
    "previous_run_id": 40405535105,
-   "status": "requeue",
-   "title": "xray: 26.9.9 -> 26.10.21"
+   "requeued": true,
+   "run_id": 41172849075,
+   "status": "dispatched",
+   "time": "2026-10-31T05:30:20+00:00",
+   "title": "xray: 26.9.9 -> 26.10.29"
   },
   "576990": {
    "darwin": false,
