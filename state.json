@@ -102,7 +102,9 @@
   },
   "454774": {
    "darwin": true,
+   "examined": 1,
    "extra_args": "--eval local",
+   "final": "review (aarch64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ",
    "on_success": "nothing",
    "previous_run_id": null,
    "requeued": true,
