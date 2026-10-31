@@ -453,13 +453,24 @@
    "title": "singularity-overriden-nixos: 4.4.1 -> 4.6.0"
   },
   "494641": {
-   "head": "172ee029677f7e8385a309364c5ba44c45992ffd",
-   "status": "requeue",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41199701272,
+   "status": "dispatched",
+   "time": "2026-10-31T12:07:30+00:00",
    "title": "python3Packages.deform: 2.0.15 -> 3.0.1"
   },
   "494671": {
-   "head": "432eb9e4fdb4d9ee067aa52eb9af3f34ce09d733",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41198911830,
+   "status": "dispatched",
+   "time": "2026-10-31T11:56:24+00:00",
    "title": "python3Packages.duo-client: 5.5.0 -> 5.7.0"
   },
   "494689": {
@@ -669,7 +680,9 @@
   },
   "499285": {
    "darwin": true,
+   "examined": 1,
    "extra_args": "--eval local",
+   "final": "review (aarch64-linux): The operation was canceled.; review (x86_64-linux): The operation was canceled.",
    "on_success": "nothing",
    "previous_run_id": null,
    "requeued": true,
@@ -876,7 +889,9 @@
   },
   "504282": {
    "darwin": true,
+   "examined": 1,
    "extra_args": "--eval local",
+   "final": "review (x86_64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ; review (aarch64-linux): The operation was canceled.",
    "on_success": "nothing",
    "previous_run_id": null,
    "requeued": true,
