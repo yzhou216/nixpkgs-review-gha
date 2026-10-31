@@ -359,8 +359,14 @@
    "title": "python3Packages.guidance: 0.3.1 -> 0.3.2"
   },
   "488610": {
-   "head": "73b77213f28dae6db0544636433593fa954730dd",
-   "status": "requeue",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41202075322,
+   "status": "dispatched",
+   "time": "2026-10-31T12:39:24+00:00",
    "title": "python3Packages.azure-mgmt-resource: 24.0.0 -> 26.0.0"
   },
   "490292": {
@@ -370,8 +376,14 @@
    "tries": 0
   },
   "490384": {
-   "head": "6ff4be588653693885e321aab6264bd7e5d60f12",
-   "status": "requeue",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41201645772,
+   "status": "dispatched",
+   "time": "2026-10-31T12:33:33+00:00",
    "title": "python3Packages.face: 24.0.0 -> 26.0.0"
   },
   "491035": {
@@ -381,13 +393,23 @@
    "tries": 0
   },
   "491308": {
-   "head": "e7a19b2f265e7e9564c810ddde6d388ac7a9652c",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41201513193,
+   "status": "dispatched",
+   "time": "2026-10-31T12:31:49+00:00",
    "title": "python3Packages.pbs-installer: 2026.01.27 -> 2026.10.26"
   },
   "491537": {
-   "head": "cb2b0c34c4a8348c200cf60deb283ef7a990459c",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41201308692,
+   "status": "dispatched",
+   "time": "2026-10-31T12:29:08+00:00",
    "title": "python3Packages.rectangle-packer: 2.0.5 -> 2.1.1"
   },
   "491579": {
@@ -402,23 +424,46 @@
    "title": "libfprint-tod: 1.94.9+tod1 -> 1.94.10"
   },
   "493584": {
-   "head": "4a511357126ab73d95d67c609453447a6e20fee2",
-   "status": "requeue",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41201026024,
+   "status": "dispatched",
+   "time": "2026-10-31T12:25:19+00:00",
    "title": "getdata: 0.11.0 -> 0.12.0"
   },
   "493811": {
-   "head": "8d212972bfbdbbe9515d804a53990af7429ed99a",
-   "status": "requeue",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41200901834,
+   "status": "dispatched",
+   "time": "2026-10-31T12:23:40+00:00",
    "title": "ocamlPackages.cmarkit: 0.3.0 -> 0.4.0"
   },
   "493839": {
-   "head": "df664420d9f298dc8930ef63934932b22c94351a",
-   "status": "requeue",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41200691695,
+   "status": "dispatched",
+   "time": "2026-10-31T12:20:53+00:00",
    "title": "python3Packages.tubeup: 2025.5.11 -> 2026.5.8"
   },
   "493862": {
-   "head": "15941b32996facd8d05f8c77b18db3ef9dc763e1",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41200494805,
+   "status": "dispatched",
+   "time": "2026-10-31T12:18:13+00:00",
    "title": "maltego: 4.11.1 -> 4.14.0"
   },
   "493880": {
@@ -432,8 +477,13 @@
    "title": "knobkraft-orm: 2.7.2 -> 2.10.2"
   },
   "494311": {
-   "head": "5d4a17e2f05c95e18b68c73404b36263338ce912",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41200205655,
+   "status": "dispatched",
+   "time": "2026-10-31T12:14:24+00:00",
    "title": "python3Packages.yfinance: 1.5.1 -> 1.7.0"
   },
   "494317": {
@@ -669,7 +719,9 @@
   },
   "499116": {
    "darwin": true,
+   "examined": 1,
    "extra_args": "--eval local",
+   "final": "review (x86_64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ; review (aarch64-linux): The operation was canceled.",
    "on_success": "nothing",
    "previous_run_id": null,
    "requeued": true,
