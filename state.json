@@ -1403,8 +1403,14 @@
    "title": "python3Packages.limnoria: 2026.5.8 -> 2026.10.4"
   },
   "520757": {
-   "head": "5a8b7c886d8be5a4d1ccdec0902b1d7943486b42",
-   "status": "requeue",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41165862787,
+   "status": "dispatched",
+   "time": "2026-10-31T03:47:22+00:00",
    "title": "python3Packages.mypy-protobuf: 5.0.0 -> 5.1.0"
   },
   "520931": {
@@ -1418,9 +1424,14 @@
    "title": "python3Packages.broadbean: 0.14.0 -> 0.15.0"
   },
   "520979": {
-   "head": "99d34dc9c03b378be8377265087219b4e3e552ba",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40204448131,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41164704392,
+   "status": "dispatched",
+   "time": "2026-10-31T03:31:03+00:00",
    "title": "python3Packages.django-parler: 2.3 -> 2.4"
   },
   "521035": {
@@ -2375,6 +2386,7 @@
   "535280": {
    "darwin": true,
    "extra_args": "--eval local",
+   "final": "cancelled after 4 hours",
    "on_success": "nothing",
    "previous_run_id": 40192413002,
    "requeued": true,
