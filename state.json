@@ -1,8 +1,13 @@
 {
  "records": {
   "365932": {
-   "head": "8e2b43a791fd51c7d4bd7b5b7a5831c072c30783",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41214460258,
+   "status": "dispatched",
+   "time": "2026-10-31T15:21:22+00:00",
    "title": "edencommon: 2026.07.27.00 -> 2026.08.10.00"
   },
   "423352": {
@@ -45,8 +50,13 @@
    "title": "core: init at 0-unstable-2026-10-16"
   },
   "443347": {
-   "head": "bba26efd9eb07a1f9f34a3a8ead287fb47a0a469",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41214181361,
+   "status": "dispatched",
+   "time": "2026-10-31T15:18:00+00:00",
    "title": "ncnn: 20250503 -> 20261020"
   },
   "447527": {
@@ -710,6 +720,7 @@
   "494899": {
    "darwin": true,
    "extra_args": "--eval local",
+   "final": "cancelled after 4 hours",
    "on_success": "nothing",
    "previous_run_id": null,
    "requeued": true,
