@@ -1509,9 +1509,14 @@
    "title": "python3Packages.genshi: 0.7.10 -> 0.7.11"
   },
   "522435": {
-   "head": "b2eb622ed835b395149d0ef0de7a85e0cc0c5d35",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40202896916,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41161918338,
+   "status": "dispatched",
+   "time": "2026-10-31T02:52:38+00:00",
    "title": "python3Packages.litestar: 2.21.1 -> 2.23.0"
   },
   "522629": {
@@ -1534,9 +1539,14 @@
    "title": "uutils-hostname: 0-unstable-2026-05-12 -> 0-unstable-2026-10-17"
   },
   "522748": {
-   "head": "053b805ff1cb6c43e65461ee50db196ad27dfe1b",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40202050263,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41161364279,
+   "status": "dispatched",
+   "time": "2026-10-31T02:44:48+00:00",
    "title": "python3Packages.glymur: 0.14.7 -> 0.14.8"
   },
   "522873": {
@@ -1560,9 +1570,14 @@
    "title": "serviio: 2.4 -> 2.5"
   },
   "522922": {
-   "head": "6c0b65a6367a4f0cab9de9213e7ac6a2c601769d",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40201836345,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41161166677,
+   "status": "dispatched",
+   "time": "2026-10-31T02:42:01+00:00",
    "title": "python3Packages.diofant: 0.15.0 -> 0.16.0a2"
   },
   "523078": {
@@ -1572,15 +1587,25 @@
    "tries": 0
   },
   "523082": {
-   "head": "9289cb510baffe6bd8bb955b44472b8501a1abae",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40201788842,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41160386796,
+   "status": "dispatched",
+   "time": "2026-10-31T02:31:25+00:00",
    "title": "python3Packages.archspec: 0.2.5 -> 0.2.6"
   },
   "523215": {
-   "head": "4157c585ca6ba5cca6cb11d1e9cd81f5bdce13fa",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40201414696,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41160181837,
+   "status": "dispatched",
+   "time": "2026-10-31T02:28:44+00:00",
    "title": "python3Packages.pyshp: 3.0.3 -> 3.0.9"
   },
   "523217": {
@@ -1610,9 +1635,14 @@
    "title": "sunxi-tools: 0-unstable-2025-03-29 -> 0-unstable-2026-10-20"
   },
   "523751": {
-   "head": "5fad168d0d6d3bde6f8cc2f7c403b7f984b0f264",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40200773704,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41159818582,
+   "status": "dispatched",
+   "time": "2026-10-31T02:23:53+00:00",
    "title": "python3Packages.plone-testing: 9.0.7 -> 10.0.0"
   },
   "523755": {
