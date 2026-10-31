@@ -210,18 +210,36 @@
    "title": "python3Packages.pyocd: 0.42.0 -> 0.45.1"
   },
   "472102": {
-   "head": "fe79cfc54211aceb6bc5818c13904478fae2879c",
-   "status": "requeue",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41208677414,
+   "status": "dispatched",
+   "time": "2026-10-31T14:07:39+00:00",
    "title": "python3Packages.dbt-core: 1.11.2 -> 1.11.9"
   },
   "472208": {
-   "head": "c28e773dfd50b1230f1154aa5d7513e786c455f6",
-   "status": "requeue",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41207356324,
+   "status": "dispatched",
+   "time": "2026-10-31T13:50:13+00:00",
    "title": "python3Packages.pyvisa: 1.16.1 -> 1.16.2"
   },
   "473160": {
-   "head": "296a0ca60a0eaf055dfc54435d145e7a379e8a38",
-   "status": "requeue",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41207314471,
+   "status": "dispatched",
+   "time": "2026-10-31T13:49:38+00:00",
    "title": "python3Packages.pydantic_1: 1.10.24 -> 1.10.26"
   },
   "473408": {
@@ -755,6 +773,7 @@
   },
   "497263": {
    "darwin": true,
+   "final": "cancelled after 4 hours",
    "on_success": "nothing",
    "previous_run_id": null,
    "requeued": true,
