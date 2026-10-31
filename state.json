@@ -557,28 +557,57 @@
    "title": "pyocd: 0.42.0 -> 0.46.0"
   },
   "498398": {
-   "head": "fcade1c4b992e2d4b8d8a72ba577e23d7f1ad6a5",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41190601038,
+   "status": "dispatched",
+   "time": "2026-10-31T09:54:54+00:00",
    "title": "python3Packages.r2pipe: 1.9.8 -> 2.1.0"
   },
   "498561": {
-   "head": "24fd25c2c47a52a296868b70541f5bf93c08f72c",
-   "status": "requeue",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41190432365,
+   "status": "dispatched",
+   "time": "2026-10-31T09:52:14+00:00",
    "title": "python3Packages.azure-mgmt-postgresqlflexibleservers: 3.0.0b1 -> 2.0.0"
   },
   "499116": {
-   "head": "40f55e9a5a168ed1d06f9890b7a61232efc416df",
-   "status": "requeue",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41190244861,
+   "status": "dispatched",
+   "time": "2026-10-31T09:49:26+00:00",
    "title": "osi: 0.108.11 -> 0.108.12"
   },
   "499285": {
-   "head": "f8f5c11f3174b3f816f727c613e073c95808bef5",
-   "status": "requeue",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41190135470,
+   "status": "dispatched",
+   "time": "2026-10-31T09:47:47+00:00",
    "title": "cbc: 2.10.12 -> 2.10.13"
   },
   "499533": {
-   "head": "3d095d5602af02fb7592b95d72216297d305e8d0",
-   "status": "requeue",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41189879472,
+   "status": "dispatched",
+   "time": "2026-10-31T09:43:58+00:00",
    "title": "python3Packages.snakemake-interface-report-plugins: 1.3.0 -> 2.0.1"
   },
   "499665": {
@@ -588,18 +617,33 @@
    "tries": 0
   },
   "500074": {
-   "head": "fe45292fbc8b5754dba0c110d475bbf1d5ddefc6",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41189704043,
+   "status": "dispatched",
+   "time": "2026-10-31T09:41:19+00:00",
    "title": "git-protonmail: 5.9.1 -> 5.9.5"
   },
   "500075": {
-   "head": "3927fccfe626a9561339a0a93e0f33354a7b584f",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41189092937,
+   "status": "dispatched",
+   "time": "2026-10-31T09:32:16+00:00",
    "title": "git-msgraph: 5.9.1 -> 5.9.5"
   },
   "500076": {
-   "head": "bdec153e11c82f4da98f1219bc8b61f3e5544e00",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41188898379,
+   "status": "dispatched",
+   "time": "2026-10-31T09:29:34+00:00",
    "title": "git-credential-yahoo: 5.9.1 -> 5.9.5"
   },
   "500077": {
