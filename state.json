@@ -50,18 +50,34 @@
    "title": "ncnn: 20250503 -> 20261020"
   },
   "447527": {
-   "head": "55079fe03f73b0e9b4b39ff8a65901028ea230b4",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41213525569,
+   "status": "dispatched",
+   "time": "2026-10-31T15:09:54+00:00",
    "title": "openvdb: 12.1.0 -> 13.2.0"
   },
   "451122": {
-   "head": "cd143cffa9a004321a881f4a4175c37a56f3d305",
-   "status": "requeue",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41213433170,
+   "status": "dispatched",
+   "time": "2026-10-31T15:08:46+00:00",
    "title": "python3Packages.oci: 2.165.1 -> 2.168.1"
   },
   "452662": {
-   "head": "7669432f31d99d749d1b03b1f5b4975d4e15afbb",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41213207510,
+   "status": "dispatched",
+   "time": "2026-10-31T15:05:58+00:00",
    "title": "python3Packages.shap: 0.52.0 -> 0.54.1"
   },
   "453737": {
@@ -75,8 +91,14 @@
    "title": "glang: init at 0.2.0"
   },
   "454774": {
-   "head": "236ee270d5ee08ce823cc3a7c9c0da2310e4a944",
-   "status": "requeue",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41212636833,
+   "status": "dispatched",
+   "time": "2026-10-31T14:59:06+00:00",
    "title": "python3Packages.mistletoe: 1.5.1 -> 1.6.0"
   },
   "455214": {
@@ -135,13 +157,25 @@
    "tries": 0
   },
   "462031": {
-   "head": "ad4ff8f2a3b7f1d31b1399c39b6355f8ce65964f",
-   "status": "requeue",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41212284020,
+   "status": "dispatched",
+   "time": "2026-10-31T14:54:17+00:00",
    "title": "python3Packages.ripe-atlas-cousteau: 2.0.0 -> 2.3.0"
   },
   "462309": {
-   "head": "20fc997a3ec76d6f88918f7ee6feb8ab5ea20d3a",
-   "status": "requeue",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41212080058,
+   "status": "dispatched",
+   "time": "2026-10-31T14:51:37+00:00",
    "title": "nanoflann: 1.7.1 -> 1.9.0"
   },
   "462989": {
@@ -157,13 +191,24 @@
    "tries": 0
   },
   "463917": {
-   "head": "62424faa0d7f6153dc85fcd48ac22b9617de182b",
-   "status": "requeue",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41211953606,
+   "status": "dispatched",
+   "time": "2026-10-31T14:49:59+00:00",
    "title": "hmat-oss: 1.10.0 -> 1.11.1"
   },
   "464942": {
-   "head": "193458d99cb75c511dafbe387ba5018b3f2ddcca",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41211909636,
+   "status": "dispatched",
+   "time": "2026-10-31T14:49:24+00:00",
    "title": "xeus: 5.2.4 -> 6.0.6"
   },
   "466648": {
@@ -173,8 +218,13 @@
    "tries": 0
   },
   "467730": {
-   "head": "b2949924cbd25c7edcff4c93b7d29eda501c1afa",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41211701814,
+   "status": "dispatched",
+   "time": "2026-10-31T14:46:45+00:00",
    "title": "libyang: 3.13.6 -> 6.4.13"
   },
   "467914": {
