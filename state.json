@@ -2063,9 +2063,14 @@
    "tries": 0
   },
   "533478": {
-   "head": "526b1e87da96a1a3f76614a434190ba3d64b8341",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40194483606,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41147384452,
+   "status": "dispatched",
+   "time": "2026-10-30T23:56:31+00:00",
    "title": "liblo: 0.35 -> 0.36"
   },
   "533842": {
@@ -2085,9 +2090,13 @@
    "title": "dleyna: 0.8.3 -> 0.8.5"
   },
   "534675": {
-   "head": "5f38889f0c9e55018ef1359a115089dcbfc8b0e3",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 40193824884,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41146835144,
+   "status": "dispatched",
+   "time": "2026-10-30T23:50:39+00:00",
    "title": "python3Packages.inscriptis: 2.7.1 -> 2.7.6"
   },
   "534821": {
@@ -2100,9 +2109,14 @@
    "title": "bezel: init at 1.1.0, nixos/bezel: init"
   },
   "534856": {
-   "head": "45c9747b1475e1b5a8c8ba618e3286081d238486",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40193495094,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41146776954,
+   "status": "dispatched",
+   "time": "2026-10-30T23:50:04+00:00",
    "title": "piv-agent: 0.24.0 -> 2.0.0"
   },
   "534890": {
@@ -2202,9 +2216,14 @@
    "title": "python3Packages.pymunk: 7.3.0 -> 7.3.1"
   },
   "535223": {
-   "head": "280ed2fae9aab76e6e4c67c0dd52a762baf2fd6a",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40192809904,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41145507421,
+   "status": "dispatched",
+   "time": "2026-10-30T23:36:44+00:00",
    "title": "sharing: 1.2.2 -> 1.4.0"
   },
   "535280": {
