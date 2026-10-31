@@ -301,13 +301,24 @@
    "title": "particle-cli: 3.45.0 -> 3.52.3"
   },
   "483519": {
-   "head": "1833e296ae9bc3ff714af87051ca1d3578996bb4",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41204565078,
+   "status": "dispatched",
+   "time": "2026-10-31T13:13:06+00:00",
    "title": "python3Packages.sorl-thumbnail: 12.11.0 -> 13.4.0"
   },
   "483854": {
-   "head": "5c8a4f416e4681bb85785afc3cdbc76503719033",
-   "status": "requeue",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41204036952,
+   "status": "dispatched",
+   "time": "2026-10-31T13:06:05+00:00",
    "title": "python3Packages.pydsdl: 1.22.2 -> 1.25.0"
   },
   "484136": {
@@ -334,28 +345,55 @@
    "title": "azure-static-sites-client: 694f9b1be52be00b1b4cde5deb5bb4994154f9b6 -> 134664351bac2104cb9ec773226e5b3fc265675d"
   },
   "485970": {
-   "head": "6ad8b11ef86868406a7b6c1d2faad2644368d3bf",
-   "status": "requeue",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41203495342,
+   "status": "dispatched",
+   "time": "2026-10-31T12:59:12+00:00",
    "title": "python3Packages.coolname: 2.2.0 -> 3.0.1"
   },
   "487492": {
-   "head": "fd4201bbcab74935891f0c5aea27c707a2b89cdd",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41203159463,
+   "status": "dispatched",
+   "time": "2026-10-31T12:54:23+00:00",
    "title": "python3Packages.tableauserverclient: 0.41 -> 0.42"
   },
   "487865": {
-   "head": "b4f5017516da92b158dafb6e12160dbfea386a63",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41203043059,
+   "status": "dispatched",
+   "time": "2026-10-31T12:52:45+00:00",
    "title": "python3Packages.wn: 0.14.0 -> 1.1.1"
   },
   "487871": {
-   "head": "ef38190193c334330e46e2a8cafb9f2951f78a7d",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41202925963,
+   "status": "dispatched",
+   "time": "2026-10-31T12:51:06+00:00",
    "title": "libupnp: 1.14.25 -> 22.1.8"
   },
   "488453": {
-   "head": "6e5e1865fc52b3f72fbb411a031151063f78950a",
-   "status": "requeue",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41202883271,
+   "status": "dispatched",
+   "time": "2026-10-31T12:50:31+00:00",
    "title": "python3Packages.guidance: 0.3.1 -> 0.3.2"
   },
   "488610": {
