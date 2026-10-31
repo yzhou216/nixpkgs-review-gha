@@ -1753,21 +1753,36 @@
    "title": "python3Packages.hpccm: 26.1.0 -> 26.5.0"
   },
   "526159": {
-   "head": "ad5020f54c7877ce0286fcfe443be04af4933b97",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40198593331,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41158058743,
+   "status": "dispatched",
+   "time": "2026-10-31T02:01:27+00:00",
    "title": "python3Packages.hdbscan: 0.8.41 -> 0.8.44"
   },
   "526618": {
-   "head": "28e92484ee914b3f0405c020c3f7bf9f69a4f354",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40198173135,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41157961832,
+   "status": "dispatched",
+   "time": "2026-10-31T02:00:18+00:00",
    "title": "nengo-gui: 0.4.9 -> 0.6.0"
   },
   "526758": {
-   "head": "93586770f1b462b98fe22f5a495af4083cdce2e7",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40198034419,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41156621292,
+   "status": "dispatched",
+   "time": "2026-10-31T01:42:17+00:00",
    "title": "faudio: 26.05 -> 26.10"
   },
   "526761": {
@@ -2382,7 +2397,9 @@
   },
   "536356": {
    "darwin": true,
+   "examined": 1,
    "extra_args": "--eval local",
+   "final": "review (x86_64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ; review (aarch64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ",
    "on_success": "nothing",
    "previous_run_id": 40191358183,
    "requeued": true,
