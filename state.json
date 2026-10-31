@@ -643,8 +643,13 @@
    "title": "linuxPackages.rtw88: 0-unstable-2026-02-12 -> 0-unstable-2026-10-24"
   },
   "501697": {
-   "head": "ae2a715a383b449f6a62da3c851e761a67628e15",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41186003834,
+   "status": "dispatched",
+   "time": "2026-10-31T08:47:10+00:00",
    "title": "python3Packages.azure-mgmt-containerservice: 41.5.0 -> 41.8.0"
   },
   "501860": {
@@ -657,13 +662,24 @@
    "title": "driftwm: init at 0.19.0, nixos/driftwm: init"
   },
   "501869": {
-   "head": "13e9250f3f9b2194665b96efc1e83cbd54d5e76a",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41185966451,
+   "status": "dispatched",
+   "time": "2026-10-31T08:46:35+00:00",
    "title": "python3Packages.compliance-trestle: 5.0.0 -> 5.2.0"
   },
   "501936": {
-   "head": "ad2de2f68864057badc021c9cfa9351c53df6ec3",
-   "status": "requeue",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41185852441,
+   "status": "dispatched",
+   "time": "2026-10-31T08:44:57+00:00",
    "title": "libhdhomerun: 20250506 -> 20260326"
   },
   "502129": {
@@ -678,23 +694,45 @@
    "title": "libskk: 1.1.0 -> 1.1.1"
   },
   "502226": {
-   "head": "5abc01660c6d12aaf08e6f1a5a00af4abb7a8271",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41185746557,
+   "status": "dispatched",
+   "time": "2026-10-31T08:43:18+00:00",
    "title": "python3Packages.okta: 3.4.4 -> 3.4.6"
   },
   "503422": {
-   "head": "f2b817bd31790fd31efd43e7bcd650f100807cb4",
-   "status": "requeue",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41184996191,
+   "status": "dispatched",
+   "time": "2026-10-31T08:32:08+00:00",
    "title": "python3Packages.torchprofile: 0.0.4 -> 0.1.0"
   },
   "504167": {
-   "head": "7245f9b13a91ffbc0c4cb8904e0f1f9bfe8d5e67",
-   "status": "requeue",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41184673080,
+   "status": "dispatched",
+   "time": "2026-10-31T08:27:19+00:00",
    "title": "python3Packages.sunpy: 8.0.0 -> 8.1dev"
   },
   "504190": {
-   "head": "6f31b5a30b2b79f4c772faeb8a3147a81dce3ea3",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41184566319,
+   "status": "dispatched",
+   "time": "2026-10-31T08:25:41+00:00",
    "title": "python3Packages.google-cloud-runtimeconfig: 0.36.0 -> 0.37.2"
   },
   "504282": {
