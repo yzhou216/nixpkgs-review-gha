@@ -537,23 +537,45 @@
    "tries": 0
   },
   "497218": {
-   "head": "4506bc0fe7e9c188f7bbfa7bbb4baf03da096128",
-   "status": "requeue",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41191926738,
+   "status": "dispatched",
+   "time": "2026-10-31T10:14:17+00:00",
    "title": "prometheus-frr-exporter: 1.10.0 -> 1.12.0"
   },
   "497263": {
-   "head": "a5b38234e4abad65ec2be3e39d1a1d01878849d5",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41191586018,
+   "status": "dispatched",
+   "time": "2026-10-31T10:09:25+00:00",
    "title": "mujs: 1.3.6 -> 1.3.10"
   },
   "497411": {
-   "head": "d6698468791fc57c66b98493278698ea76895d38",
-   "status": "requeue",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41190817755,
+   "status": "dispatched",
+   "time": "2026-10-31T09:58:18+00:00",
    "title": "lhapdf: 6.5.5 -> 6.5.6"
   },
   "498049": {
-   "head": "8ccd1513bfd929a2dcb82e9e15743f687878219e",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41190641605,
+   "status": "dispatched",
+   "time": "2026-10-31T09:55:31+00:00",
    "title": "pyocd: 0.42.0 -> 0.46.0"
   },
   "498398": {
