@@ -1200,21 +1200,35 @@
    "title": "devpi-client: 7.2.1 -> 7.3.0"
   },
   "517911": {
-   "head": "0cc83b183484e15f60ebf81aa1e6fc4a393ece13",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40208264103,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41170216326,
+   "status": "dispatched",
+   "time": "2026-10-31T04:51:04+00:00",
    "title": "python3Packages.bubop: 0.2.3 -> 0.2.4a0"
   },
   "517959": {
-   "head": "3d7adb9093de7c00f35348b6ece1a9496dd56a12",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40208201454,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41170036091,
+   "status": "dispatched",
+   "time": "2026-10-31T04:48:19+00:00",
    "title": "anders: 5.0.0 -> 5.1.0"
   },
   "518041": {
-   "head": "f7eaa645a874685f55872ebb701f6697609cc302",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 40207903566,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41169521825,
+   "status": "dispatched",
+   "time": "2026-10-31T04:40:26+00:00",
    "title": "python3Packages.csvw: 3.7.0 -> 4.1.1"
   },
   "518145": {
@@ -1270,9 +1284,14 @@
    "title": "python3Packages.onedrive-personal-sdk: 0.1.7 -> 1.1.1"
   },
   "518502": {
-   "head": "5af78a0407edf420feb9216603002d454b0f6329",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40206920332,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41168910725,
+   "status": "dispatched",
+   "time": "2026-10-31T04:31:28+00:00",
    "title": "python3Packages.downloader-cli: 0.3.4 -> 2019.11.15"
   },
   "518559": {
@@ -1290,9 +1309,13 @@
    "title": "tree-sitter-grammars.tree-sitter-ocaml-interface: 0.24.2 -> 0.26.0"
   },
   "518565": {
-   "head": "e82aca88d17808c9f24789025c8c38d171d028fc",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 40206731068,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41168869378,
+   "status": "dispatched",
+   "time": "2026-10-31T04:30:53+00:00",
    "title": "python3Packages.azure-mgmt-netapp: 16.0.0 -> 18.0.0"
   },
   "518591": {
