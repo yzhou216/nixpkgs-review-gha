@@ -900,13 +900,24 @@
    "title": "python3Packages.huey: 2.6.0 -> 3.4.0"
   },
   "510845": {
-   "head": "eeb89ba3bd81695dcf3cad25f2e0d5fb7be6d697",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41178094933,
+   "status": "dispatched",
+   "time": "2026-10-31T06:48:41+00:00",
    "title": "rootlesskit: 2.3.6 -> 3.1.0"
   },
   "510959": {
-   "head": "7484ffeba0d62ae3ec90e3601b19cd27d3217392",
-   "status": "requeue",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41177854888,
+   "status": "dispatched",
+   "time": "2026-10-31T06:44:59+00:00",
    "title": "python3Packages.pywebview: 6.1 -> 6.2.1"
   },
   "511249": {
@@ -942,8 +953,14 @@
    "title": "python3Packages.azure-keyvault-secrets: 4.11.1 -> 4.11.3"
   },
   "511639": {
-   "head": "21911d5528c7c3f4e2719a414129ba4d265c995d",
-   "status": "requeue",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41177820711,
+   "status": "dispatched",
+   "time": "2026-10-31T06:44:25+00:00",
    "title": "python3Packages.devpi-ldap: 2.1.1-unstable-2026-01-22 -> 2.2.0"
   },
   "511749": {
@@ -1026,9 +1043,14 @@
    "tries": 0
   },
   "513601": {
-   "head": "371b06a0a820fbe19bc6452570cb21be1d680d05",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 40211349225,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41177580097,
+   "status": "dispatched",
+   "time": "2026-10-31T06:40:37+00:00",
    "title": "python3Packages.secure: 1.0.1 -> 2.0.1"
   },
   "514133": {
@@ -1594,10 +1616,14 @@
    "title": "python3Packages.sasmodels: 1.0.12 -> 1.1.0b1"
   },
   "522096": {
-   "head": "a363d06af7d8d97a72962f92b830a991c954b3a6",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 40204095551,
-   "status": "requeue",
-   "title": "python3Packages.gocardless-pro: 3.3.0 -> 3.21.0"
+   "requeued": true,
+   "run_id": 41176969614,
+   "status": "dispatched",
+   "time": "2026-10-31T06:31:34+00:00",
+   "title": "python3Packages.gocardless-pro: 3.3.0 -> 3.24.0"
   },
   "522102": {
    "reason": "merge conflict",
@@ -1606,10 +1632,14 @@
    "tries": 0
   },
   "522156": {
-   "head": "8a8488dd8ce8673d7e28a40d0d22b4efa9fac913",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 40203306118,
-   "status": "requeue",
-   "title": "python3Packages.cli-helpers: 2.15.1 -> 2.15.2"
+   "requeued": true,
+   "run_id": 41176844768,
+   "status": "dispatched",
+   "time": "2026-10-31T06:29:56+00:00",
+   "title": "python3Packages.cli-helpers: 2.15.1 -> 2.15.3"
   },
   "522187": {
    "darwin": true,
@@ -3639,10 +3669,14 @@
    "title": "docker-buildx: 0.35.0 -> 0.38.0"
   },
   "547264": {
-   "head": "26d8870b9bc71175ec89390030f206090b26f6fd",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39989500066,
-   "status": "requeue",
-   "title": "libmysqlconnectorcpp: 9.7.0 -> 26.7.0"
+   "requeued": true,
+   "run_id": 41176588986,
+   "status": "dispatched",
+   "time": "2026-10-31T06:26:08+00:00",
+   "title": "libmysqlconnectorcpp: 9.7.0 -> 26.10.0"
   },
   "547271": {
    "run_id": 39978393494,
