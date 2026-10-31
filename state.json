@@ -3663,10 +3663,14 @@
    "title": "qxmpp: 1.16.1 -> 1.16.3"
   },
   "547361": {
-   "head": "6fb4d3f9258d2fb579e8b8ffcefd2d884dce5b96",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39973230980,
-   "status": "requeue",
-   "title": "mysql_jdbc: 9.7.0 -> 26.7.0"
+   "requeued": true,
+   "run_id": 41176331285,
+   "status": "dispatched",
+   "time": "2026-10-31T06:22:23+00:00",
+   "title": "mysql_jdbc: 9.7.0 -> 26.10.0"
   },
   "547415": {
    "run_id": 39972861552,
@@ -4339,10 +4343,14 @@
    "tries": 0
   },
   "553462": {
-   "head": "c9277006a3fb8f97ff869a7580449e0847a0ed6f",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39939558353,
-   "status": "requeue",
-   "title": "python3Packages.pyreadstat: 1.3.5 -> 1.3.6"
+   "requeued": true,
+   "run_id": 41175693201,
+   "status": "dispatched",
+   "time": "2026-10-31T06:13:20+00:00",
+   "title": "python3Packages.pyreadstat: 1.3.5 -> 1.3.7"
   },
   "553466": {
    "run_id": 39938629210,
@@ -4351,10 +4359,14 @@
    "title": "fbthrift: 2026.07.27.00 -> 2026.08.03.00"
   },
   "553479": {
-   "head": "20afb12ff3921a1fc9f0e4218e1bbd1e466a0a33",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39938369606,
-   "status": "requeue",
-   "title": "zimfw: 1.20.0 -> 1.20.1"
+   "requeued": true,
+   "run_id": 41175505735,
+   "status": "dispatched",
+   "time": "2026-10-31T06:10:33+00:00",
+   "title": "zimfw: 1.20.0 -> 1.20.2"
   },
   "553481": {
    "run_id": 39938126697,
@@ -4363,10 +4375,14 @@
    "title": "putty: 0.84 -> 0.85"
   },
   "553483": {
-   "head": "ede53f27d6fd679c5a6dda58392afb645cfff517",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39937955737,
-   "status": "requeue",
-   "title": "freetds: 1.5.18 -> 1.5.19"
+   "requeued": true,
+   "run_id": 41175462425,
+   "status": "dispatched",
+   "time": "2026-10-31T06:09:58+00:00",
+   "title": "freetds: 1.5.18 -> 1.5.20"
   },
   "553491": {
    "run_id": 39937775651,
@@ -4381,10 +4397,15 @@
    "title": "fsel: 3.6.0 -> 3.7.0"
   },
   "553526": {
-   "head": "cfd39cd883f58232aa3d36adeb29ea0cd7734283",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
    "previous_run_id": 39937423463,
-   "status": "requeue",
-   "title": "prow: 0-unstable-2026-08-08 -> 0-unstable-2026-10-16"
+   "requeued": true,
+   "run_id": 41174996967,
+   "status": "dispatched",
+   "time": "2026-10-31T06:03:06+00:00",
+   "title": "prow: 0-unstable-2026-08-08 -> 0-unstable-2026-10-28"
   },
   "553528": {
    "final": "cancelled after 4 hours",
@@ -5054,10 +5075,14 @@
    "title": "duo-unix: 2.2.3 -> 2.3.0"
   },
   "556675": {
-   "head": "3ca367b98e515518e26b017896811b8ecd4d51ef",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39910221304,
-   "status": "requeue",
-   "title": "metabase: 0.63.5 -> 0.64.1"
+   "requeued": true,
+   "run_id": 41174958174,
+   "status": "dispatched",
+   "time": "2026-10-31T06:02:31+00:00",
+   "title": "metabase: 0.63.5 -> 0.65.2"
   },
   "556723": {
    "run_id": 39910081848,
@@ -5096,16 +5121,24 @@
    "title": "zsnes2: 2.2.2 -> 2.2.3"
   },
   "556780": {
-   "head": "26dc84d45d38ae01f918c807a7980d6e04ee7515",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39907303564,
-   "status": "requeue",
-   "title": "closurecompiler: 20260804 -> 20261015"
+   "requeued": true,
+   "run_id": 41174841996,
+   "status": "dispatched",
+   "time": "2026-10-31T06:00:54+00:00",
+   "title": "closurecompiler: 20260804 -> 20261028"
   },
   "556786": {
-   "head": "d699317c60fbdaad2a0e93e90f3609048fb1e416",
+   "darwin": true,
+   "on_success": "nothing",
    "previous_run_id": 39906828676,
-   "status": "requeue",
-   "title": "python3Packages.appthreat-vulnerability-db: 6.7.2 -> 7.0.2"
+   "requeued": true,
+   "run_id": 41174588646,
+   "status": "dispatched",
+   "time": "2026-10-31T05:57:06+00:00",
+   "title": "python3Packages.appthreat-vulnerability-db: 6.7.2 -> 7.0.3"
   },
   "556926": {
    "darwin": false,
