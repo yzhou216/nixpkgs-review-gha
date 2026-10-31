@@ -225,28 +225,55 @@
    "title": "python3Packages.pydantic_1: 1.10.24 -> 1.10.26"
   },
   "473408": {
-   "head": "d2f78423ef15f390a4995c8023a82aec85cecd85",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41206949801,
+   "status": "dispatched",
+   "time": "2026-10-31T13:44:46+00:00",
    "title": "python3Packages.google-cloud-logging: 3.16.0 -> 3.17.0"
   },
   "475537": {
-   "head": "1b1bbbf4adfd1c36228ba72cfdaffa75de3f1d0c",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41206906649,
+   "status": "dispatched",
+   "time": "2026-10-31T13:44:12+00:00",
    "title": "python3Packages.zope-proxy: 7.1 -> 7.3"
   },
   "476090": {
-   "head": "7fe9c6423057259b62e8055e2e4d3b513e15dc4d",
-   "status": "requeue",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41206469949,
+   "status": "dispatched",
+   "time": "2026-10-31T13:38:18+00:00",
    "title": "latex2html: 2025 -> 2026"
   },
   "476405": {
-   "head": "ea4afed179eaefe9087735c962233f9d561e106b",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41206426605,
+   "status": "dispatched",
+   "time": "2026-10-31T13:37:43+00:00",
    "title": "python3Packages.json-stream-rs-tokenizer: 0.5.1 -> 0.5.4"
   },
   "477187": {
-   "head": "0f866b41bc78b47feccd5d0b6e7a9e3a848910e0",
-   "status": "requeue",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41206219983,
+   "status": "dispatched",
+   "time": "2026-10-31T13:34:58+00:00",
    "title": "python3Packages.optree: 0.18.0 -> 0.19.1"
   },
   "478279": {
@@ -256,8 +283,13 @@
    "tries": 0
   },
   "479213": {
-   "head": "9f69455f300d5c366756842b16e4e8ea95605d51",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41206090062,
+   "status": "dispatched",
+   "time": "2026-10-31T13:33:20+00:00",
    "title": "python3Packages.azure-storage-file-share: 12.26.0 -> 12.27.0"
   },
   "479376": {
@@ -267,8 +299,14 @@
    "tries": 0
   },
   "481955": {
-   "head": "d181752b3172f66b464d85b9fb2281617a3187b9",
-   "status": "requeue",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41205716351,
+   "status": "dispatched",
+   "time": "2026-10-31T13:28:32+00:00",
    "title": "libmcfp: 1.4.2 -> 2.0.0"
   },
   "482412": {
@@ -281,13 +319,25 @@
    "title": "metalang99: init at 1.13.5, datatype99: init at 1.6.5, slice99: init at 0.7.8, interface99: init at 1.0.2"
   },
   "482556": {
-   "head": "b9281e79b8699213f9a974f8373614bff9fd9773",
-   "status": "requeue",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41204976863,
+   "status": "dispatched",
+   "time": "2026-10-31T13:18:35+00:00",
    "title": "python3Packages.dash: 3.4.0 -> 4.1.0"
   },
   "482928": {
-   "head": "3e48a3443e6d15bcba3df9119b94c2d600256c1f",
-   "status": "requeue",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41204842675,
+   "status": "dispatched",
+   "time": "2026-10-31T13:16:49+00:00",
    "title": "python3Packages.trainer: 0.3.2 -> 0.4.0"
   },
   "483307": {
