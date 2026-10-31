@@ -3325,11 +3325,9 @@
    "title": "python3Packages.dataclass-wizard: 0.39.1 -> 1.0.0"
   },
   "538292": {
-   "darwin": true,
-   "on_success": "nothing",
-   "run_id": 40187785747,
-   "status": "dispatched",
-   "time": "2026-10-25T11:10:55+00:00",
+   "head": "2bbf3a7fa5101a6eda6fc4e64bbf8861bc43cfe7",
+   "previous_run_id": 40187785747,
+   "status": "requeue",
    "title": "cimg: 3.7.6 -> 4.0.6"
   },
   "538562": {
@@ -5741,9 +5739,9 @@
    "title": "ibus-engines.typing-booster-unwrapped: 2.30.11 -> 2.31.3"
   },
   "556936": {
-   "run_id": 39906273758,
-   "status": "dispatched",
-   "time": "2026-10-23T05:31:56+00:00",
+   "head": "4170b9335fa7eb5d8959ffd082db4e191258c838",
+   "previous_run_id": 39906273758,
+   "status": "requeue",
    "title": "python3Packages.sphinx-autoapi: 3.8.0 -> 3.8.1"
   },
   "556981": {
@@ -5777,9 +5775,9 @@
    "title": "tanka: 0.38.0 -> 0.39.4"
   },
   "557067": {
-   "run_id": 39905266704,
-   "status": "dispatched",
-   "time": "2026-10-23T05:21:03+00:00",
+   "head": "7df0d7f0ba5b6fef96135eee09f17c6dde23d25c",
+   "previous_run_id": 39905266704,
+   "status": "requeue",
    "title": "agru: 0.1.19 -> 0.3.0"
   },
   "557154": {
@@ -7571,9 +7569,9 @@
    "title": "spdx-license-list-data: 3.28.0 -> 3.29.0"
   },
   "564081": {
-   "run_id": 39806956000,
-   "status": "dispatched",
-   "time": "2026-10-22T15:39:57+00:00",
+   "head": "f7456dddf64b5ca19dbbfcba9fa2cc9c50007c79",
+   "previous_run_id": 39806956000,
+   "status": "requeue",
    "title": "otpclient: 5.1.8 -> 5.2.2"
   },
   "564100": {
@@ -8517,9 +8515,9 @@
    "title": "guile-lsp-server: 0.4.8 -> 0.4.10"
   },
   "567504": {
-   "run_id": 39691800249,
-   "status": "dispatched",
-   "time": "2026-10-21T23:11:45+00:00",
+   "head": "5a5346073a2313a55d6333968abc163b6d10a612",
+   "previous_run_id": 39691800249,
+   "status": "requeue",
    "title": "amazon-ssm-agent: 3.3.5226.0 -> 3.3.5538.0"
   },
   "567543": {
@@ -12490,9 +12488,9 @@
    "title": "mdwatch: 0.2.8 -> 0.2.9"
   },
   "575645": {
-   "run_id": 39244657050,
-   "status": "dispatched",
-   "time": "2026-10-19T11:26:33+00:00",
+   "head": "fd6e9fa13dd6ba50037811beb8470a432ac24908",
+   "previous_run_id": 39244657050,
+   "status": "requeue",
    "title": "grafanaPlugins.grafana-exploretraces-app: 2.2.1 -> 3.0.0"
   },
   "575649": {
@@ -12538,9 +12536,9 @@
    "title": "material-symbols: 4.0.0-unstable-2026-10-02 -> 4.0.0-unstable-2026-10-09"
   },
   "575695": {
-   "run_id": 39242985366,
-   "status": "dispatched",
-   "time": "2026-10-19T11:12:42+00:00",
+   "head": "495530b118e1cc744a72879e7c35a99a14560659",
+   "previous_run_id": 39242985366,
+   "status": "requeue",
    "title": "grafanaPlugins.grafana-googlesheets-datasource: 2.7.0 -> 2.7.1"
   },
   "575711": {
@@ -12562,9 +12560,9 @@
    "title": "plantuml-server: 1.2026.8 -> 1.2026.9"
   },
   "575725": {
-   "run_id": 39241942807,
-   "status": "dispatched",
-   "time": "2026-10-19T11:04:12+00:00",
+   "head": "45e5d69b87ae74ada6767559fdd2361d4e68f37d",
+   "previous_run_id": 39241942807,
+   "status": "requeue",
    "title": "lichess-bot: 2026.8.9.2 -> 2026.10.11.1"
   },
   "575726": {
@@ -12584,9 +12582,9 @@
    "title": "numix-gtk-theme: 0-unstable-2021-06-08 -> 2.6.7-unstable-2021-06-08"
   },
   "575729": {
-   "run_id": 39241531504,
-   "status": "dispatched",
-   "time": "2026-10-19T11:00:45+00:00",
+   "head": "70bb4b1c694c43c2c24b9ba95402ba589d6de34e",
+   "previous_run_id": 39241531504,
+   "status": "requeue",
    "title": "nng: 1.12.4 -> 2.0.0"
   },
   "575731": {
@@ -12685,15 +12683,15 @@
    "tries": 0
   },
   "575798": {
-   "run_id": 39238247409,
-   "status": "dispatched",
-   "time": "2026-10-19T10:33:01+00:00",
+   "head": "920f8188a80a4f4f5c1bda1ba15ea6fbaa70987a",
+   "previous_run_id": 39238247409,
+   "status": "requeue",
    "title": "llama-swap: 262 -> 265"
   },
   "575799": {
-   "run_id": 39237996050,
-   "status": "dispatched",
-   "time": "2026-10-19T10:30:52+00:00",
+   "head": "e6bf34e81742710b40766ef6d1abb5665ca5e8de",
+   "previous_run_id": 39237996050,
+   "status": "requeue",
    "title": "ocamlPackages.dockerfile: 8.4.4 -> 8.4.5"
   },
   "575802": {
@@ -12721,9 +12719,9 @@
    "title": "vscode-extensions.streetsidesoftware.code-spell-checker-german: 2.3.4 -> 3.0.0"
   },
   "575810": {
-   "run_id": 39235695421,
-   "status": "dispatched",
-   "time": "2026-10-19T10:11:49+00:00",
+   "head": "5cd66385f986495a1a43df43bb57021fa3648925",
+   "previous_run_id": 39235695421,
+   "status": "requeue",
    "title": "python3Packages.jc: 1.26.0 -> 1.26.1"
   },
   "575811": {
@@ -13497,13 +13495,9 @@
    "title": "leaf-markdown-viewer: 1.28.3 -> 1.29.1"
   },
   "576986": {
-   "darwin": true,
-   "on_success": "approve",
-   "previous_run_id": 40405535105,
-   "requeued": true,
-   "run_id": 41172849075,
-   "status": "dispatched",
-   "time": "2026-10-31T05:30:20+00:00",
+   "head": "3e90d120a9cf6816f724f66c298575daa92d2d0b",
+   "previous_run_id": 41172849075,
+   "status": "requeue",
    "title": "xray: 26.9.9 -> 26.10.29"
   },
   "576990": {
