@@ -489,23 +489,46 @@
    "title": "ocamlPackages.biotk: 0.3 -> 0.4"
   },
   "495360": {
-   "head": "22b3de5c2b9efbfc16c26254b5c422939a7366ae",
-   "status": "requeue",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41195618337,
+   "status": "dispatched",
+   "time": "2026-10-31T11:08:37+00:00",
    "title": "python3Packages.automx2: 2026.0 -> 2026.1"
   },
   "495814": {
-   "head": "12788b98c6e9afa66a776068f7f330d9e22cb3ac",
-   "status": "requeue",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41195135287,
+   "status": "dispatched",
+   "time": "2026-10-31T11:01:45+00:00",
    "title": "python3Packages.pypika: 0.50.0 -> 0.51.1"
   },
   "496137": {
-   "head": "8be7dffc17a07514cc35d456427cbba754eb8579",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41194666776,
+   "status": "dispatched",
+   "time": "2026-10-31T10:54:52+00:00",
    "title": "python3Packages.lxml-html-clean: 0.4.5 -> 0.4.6"
   },
   "496165": {
-   "head": "1bbe255dbe3699db41ce3ac62477a0907dc3e74b",
-   "status": "requeue",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41194630212,
+   "status": "dispatched",
+   "time": "2026-10-31T10:54:18+00:00",
    "title": "aspellDicts.en: 2020.12.07-0 -> 2026.02.25-0"
   },
   "496208": {
@@ -521,8 +544,13 @@
    "tries": 0
   },
   "496500": {
-   "head": "33b376ee2e531ef35f68eb20ee285694eeae5e1e",
-   "status": "requeue",
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41194015023,
+   "status": "dispatched",
+   "time": "2026-10-31T10:45:07+00:00",
    "title": "fb303: 2026.07.27.00 -> 2026.08.31.00"
   },
   "496670": {
