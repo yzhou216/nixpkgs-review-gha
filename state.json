@@ -189,8 +189,14 @@
    "title": "gnu-efi: 4.0.2 -> 4.0.4"
   },
   "469805": {
-   "head": "e7111a6ecff52b144bb50b1b4070d3042987d816",
-   "status": "requeue",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41210428019,
+   "status": "dispatched",
+   "time": "2026-10-31T14:30:25+00:00",
    "title": "python3Packages.snowflake-sqlalchemy: 1.8.2 -> 1.10.2"
   },
   "470175": {
@@ -200,14 +206,25 @@
    "tries": 0
   },
   "471482": {
-   "head": "4e2ea5adb1150aa7b2df7c3cf64ad7a5af0e1baf",
-   "status": "requeue",
+   "darwin": true,
+   "extra_args": "--eval local",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41209992187,
+   "status": "dispatched",
+   "time": "2026-10-31T14:24:34+00:00",
    "title": "python3Packages.django-simple-history: 3.11.0 -> 3.13.0"
   },
   "472095": {
-   "head": "1d3a6436bc228c31c9545c4a05947dfc7e8a0786",
-   "status": "requeue",
-   "title": "python3Packages.pyocd: 0.42.0 -> 0.45.1"
+   "darwin": true,
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41209613208,
+   "status": "dispatched",
+   "time": "2026-10-31T14:19:45+00:00",
+   "title": "python3Packages.pyocd: 0.42.0 -> 0.46.0"
   },
   "472102": {
    "darwin": true,
