@@ -8,14 +8,17 @@ recorded in the state file so that later runs skip it.
 
 GitHub often has no macOS arm64 runner to spare during US working hours.
 The aarch64-darwin job of a review then fails after about fifteen minutes
-without starting, and the review posts nothing.  The script re-runs only the
-failed jobs of such a review once runners are available again, which keeps
-its Linux results, provided that the head of the pull request is unchanged.
-If the head changed, it checks the pull request again and dispatches a new
-review.  While these failures are recent, it keeps fewer Darwin reviews in
-flight and holds back re-runs.  The script cancels a review that is still
-running after MAX_RUNTIME seconds, since few of them finish before GitHub's
-six-hour job limit, and they hold runners that other reviews need.
+without starting, and the review posts nothing.  Once runners are available
+again, the script checks the pull request again and re-runs only the failed
+jobs of such a review, which keeps its Linux results, provided that the head
+of the pull request and the inputs of the review are unchanged.  Otherwise it
+dispatches a new review.  A review whose prepare job failed is re-run in the
+same way, and since the re-run fetches the pull request again, a changed head
+needs no new review.  While these failures are recent, it keeps fewer
+Darwin reviews in flight and holds back re-runs.  The script cancels a
+review that is still running after MAX_RUNTIME seconds, since few of them
+finish before GitHub's six-hour job limit, and they hold runners that other
+reviews need.
 
 GitHub Pro runs 40 jobs at a time but only 5 of them on macOS.  The script
 therefore counts the jobs that review runs occupy rather than the runs, and
@@ -31,7 +34,8 @@ r-ryantm's pull requests, and said that the results are still useful, since
 r-ryantm only builds on x86_64-linux.  Such a pull request is reviewed unless
 a result for its current head exists already, whoever posted it.  Records
 with the status "requeue" ask for a pull request to be reviewed, for example
-again after an update, and go to the front of the queue, newest first.  The
+again after an update, and go to the front of the queue, newest first.  None
+is reviewed again while a result for its current head exists.  The
 state file can also hold re-reviews of pull requests that are not candidates,
 such as the user's own, which run with their own on-success setting and are
 tracked like any other review.  A pull request whose CI evaluation has
@@ -83,7 +87,7 @@ MIN_INTERVAL = 30
 MIN_RATE_REMAINING = 1000
 MAX_TRIES = 5
 MAX_ATTEMPTS = 8
-RETRY_POSITION = 15
+RETRY_DELAY = 600
 RERUN_DELAY = 1800
 MAX_RERUN_DELAY = 14400
 CAPACITY_WINDOW = 1800
@@ -152,8 +156,12 @@ def iso(t):
     return datetime.datetime.fromtimestamp(t, datetime.timezone.utc).isoformat(timespec="seconds")
 
 
-def gh(args):
-    for attempt in range(6):
+class Refused(RuntimeError):
+    """GitHub rejected a request as such, so retrying it cannot help."""
+
+
+def gh(args, tries=6):
+    for attempt in range(tries):
         p = subprocess.run(["gh", *args], capture_output=True, text=True)
         if p.returncode == 0:
             return p.stdout
@@ -162,15 +170,22 @@ def gh(args):
             raise LookupError(err.strip()[:200])
         # Retrying cannot help with a request that GitHub rejects as such
         if "HTTP 409" in err or "HTTP 422" in err:
-            raise RuntimeError(err.strip()[:200])
-        log("gh error, retrying:", " ".join(args[:3]), err.strip()[:200])
-        time.sleep(15 * (attempt + 1))
+            raise Refused(err.strip()[:200])
+        if attempt + 1 < tries:
+            log("gh error, retrying:", " ".join(args[:3]), err.strip()[:200])
+            time.sleep(15 * (attempt + 1))
     raise RuntimeError(f"gh {' '.join(args[:3])} failed: {err.strip()[:300]}")
 
 
-def api(path, paginate=False):
+def api(path, paginate=False, key=None):
+    """Return the response to a GET request, or with paginate the items of every page.
+
+    The key names the list that holds the items of a page, for endpoints whose
+    pages are objects rather than lists.
+    """
     if paginate:
-        return [x for page in json.loads(gh(["api", "--paginate", "--slurp", path])) for x in page]
+        pages = json.loads(gh(["api", "--paginate", "--slurp", path]))
+        return [x for page in pages for x in (page[key] if key else page)]
     return json.loads(gh(["api", path]))
 
 
@@ -220,6 +235,8 @@ def classify(title, files):
     """
     m = BUMP.match(title.strip())
     old, new = m["old"], m["new"]
+    olds = version_variants(old) if len(old) >= 3 else set()
+    news = version_variants(new)
     reasons = []
     hash_changed = False
     for f in files:
@@ -240,8 +257,6 @@ def classify(title, files):
             continue
         removed = [l[1:] for l in patch.splitlines() if l.startswith("-")]
         added = [l[1:] for l in patch.splitlines() if l.startswith("+")]
-        olds = version_variants(old) if len(old) >= 3 else set()
-        news = version_variants(new)
         # Lines explained by substituting the old version with the new one
         subst = {r.replace(o, n) for r in removed for o in olds for n in news if o in r}
         bad = [
@@ -276,11 +291,15 @@ def classify(title, files):
 
 
 def bucket(labels, prefix):
-    vals = {l.split(": ", 1)[1] for l in labels if l.startswith(prefix + ": ")}
-    if not vals:
-        return None
-    big = [v for v in vals if "-" in v or "+" in v]
-    return big[0] if big else sorted(vals)[0]
+    """Return the largest rebuild count label with the prefix, such as "1-10", or None."""
+    vals = [l.split(": ", 1)[1] for l in labels if l.startswith(prefix + ": ")]
+
+    # Upper bound of a bucket, so that "1-10" wins over "1" and "101-500" over "11-100"
+    def upper(v):
+        nums = re.findall(r"\d+", v)
+        return int(nums[-1]) if nums else -1
+
+    return max(vals, key=upper, default=None)
 
 
 def needs_darwin(pr):
@@ -311,36 +330,59 @@ def ci_eval(head):
     if any(r["status"] != "completed" for r in runs):
         return "pending"
     for r in runs:
-        artifacts = api(f"repos/NixOS/nixpkgs/actions/runs/{r['id']}/artifacts?per_page=100")["artifacts"]
+        try:
+            artifacts = api(f"repos/NixOS/nixpkgs/actions/runs/{r['id']}/artifacts?per_page=100")["artifacts"]
+        except LookupError:
+            # Deleted since it was listed, so it holds no evaluation
+            continue
         if any(a["name"] == "comparison" and not a["expired"] for a in artifacts):
             return "available"
     return "missing"
 
 
+def eval_args(head, extra_args):
+    """Return whether a review of a head can start, and its extra nixpkgs-review arguments.
+
+    Without extra arguments given, the review waits while the CI evaluation of
+    the head is still running, and needs --eval local when it is gone.
+    """
+    if extra_args:
+        return True, extra_args
+    evaluation = ci_eval(head)
+    return evaluation != "pending", "--eval local" if evaluation == "missing" else None
+
+
+def not_dispatched(status, reason, title):
+    """Return the check_pr tuple of a pull request whose review is not dispatched."""
+    return status, reason, title, None, None, None, None
+
+
 def check_pr(cand, ignore_own=False):
     """Check a candidate just before its review is dispatched.
 
-    Return a (status, reason, title, darwin, on_success, extra_args) tuple.
-    The status is "ok" when the review can be dispatched, "skipped" when the
-    pull request no longer qualifies, and "retry" when the check could not be
-    decided yet, for example while GitHub is still computing mergeability.
-    The darwin flag tells whether the review needs the aarch64-darwin job,
-    on_success whether a successful review may approve, and extra_args holds
-    the extra nixpkgs-review arguments, such as --eval local when the CI
-    evaluation of the head is gone.  With ignore_own, earlier results and
-    reviews by the owner do not count, as when a pull request is reviewed
-    again after an update.
+    Return a (status, reason, title, darwin, on_success, extra_args, head)
+    tuple.  The status is "ok" when the review can be dispatched, "skipped"
+    when the pull request no longer qualifies, and "retry" when the check
+    could not be decided yet, for example while GitHub is still computing
+    mergeability.  The darwin flag tells whether the review needs the
+    aarch64-darwin job, on_success whether a successful review may approve,
+    extra_args holds the extra nixpkgs-review arguments, such as --eval local
+    when the CI evaluation of the head is gone, and head is the head that
+    passed the check.  A result for the current head always counts as an
+    earlier review, whoever posted it.  With ignore_own, the owner's results
+    for other heads and the owner's reviews do not count, as when a pull
+    request is reviewed again after an update.
 
     Pull requests by COMMENT_ONLY_AUTHORS need no triviality check, since
     their review only posts a comment.  For them, only a result for the
-    current head counts as an earlier review, whoever posted it.
+    current head counts as an earlier review.
     """
     n = cand["number"]
     pr = api(f"repos/NixOS/nixpkgs/pulls/{n}")
     comment_only = pr["user"]["login"] in COMMENT_ONLY_AUTHORS
 
     def skip(reason, status="skipped"):
-        return status, reason, pr["title"], None, None, None
+        return not_dispatched(status, reason, pr["title"])
 
     if pr["state"] != "open":
         return skip("not open")
@@ -373,26 +415,23 @@ def check_pr(cand, ignore_own=False):
     if "nixpkgs-review-gha" in (pr["body"] or ""):
         return skip("gha in PR body")
     comments = api(f"repos/NixOS/nixpkgs/issues/{n}/comments?per_page=100", paginate=True)
-    if comment_only:
-        if pr["head"]["sha"] in reviewed_heads(comments):
-            return skip("has a result for the current head")
-    else:
+    # A second review of the same head would post a second result, even after waiting for a fork run in flight
+    if pr["head"]["sha"] in reviewed_heads(comments):
+        return skip("has a result for the current head")
+    if not comment_only:
         if ignore_own:
             comments = [c for c in comments if (c["user"] or {}).get("login") != OWNER]
         if any("nixpkgs-review-gha" in (c["body"] or "") for c in comments):
             return skip("has nixpkgs-review-gha comment")
-        reviews = api(f"repos/NixOS/nixpkgs/pulls/{n}/reviews?per_page=100", paginate=True)
-        if not ignore_own and any((r["user"] or {}).get("login") == OWNER for r in reviews):
-            return skip("already reviewed by owner")
-    extra_args = cand.get("extra_args")
-    if not extra_args:
-        evaluation = ci_eval(pr["head"]["sha"])
-        if evaluation == "pending":
-            return skip("CI evaluation still running", "retry")
-        if evaluation == "missing":
-            extra_args = "--eval local"
+        if not ignore_own:
+            reviews = api(f"repos/NixOS/nixpkgs/pulls/{n}/reviews?per_page=100", paginate=True)
+            if any((r["user"] or {}).get("login") == OWNER for r in reviews):
+                return skip("already reviewed by owner")
+    ready, extra_args = eval_args(pr["head"]["sha"], cand.get("extra_args"))
+    if not ready:
+        return skip("CI evaluation still running", "retry")
     on_success = "nothing" if comment_only else "approve"
-    return "ok", None, pr["title"], needs_darwin(pr), on_success, extra_args
+    return "ok", None, pr["title"], needs_darwin(pr), on_success, extra_args, pr["head"]["sha"]
 
 
 def dispatch(n, on_success="approve", darwin=True, extra_args=None):
@@ -404,41 +443,52 @@ def dispatch(n, on_success="approve", darwin=True, extra_args=None):
         inputs["extra-args"] = extra_args
     args = ["workflow", "run", "review.yml", "-R", REPO, "--ref", "main", "-f", f"pr={n}"]
     args += [a for k, v in inputs.items() for a in ("-f", f"{k}={v}")]
-    started = datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(seconds=10)
-    m = re.search(r"/actions/runs/(\d+)", gh(args))
+    started = time.time() - 10
+    failure = None
+    try:
+        # A failed request may have created the run all the same, so repeating it could review twice
+        out = gh(args, tries=1)
+    except Refused:
+        raise
+    except RuntimeError as e:
+        failure, out = e, ""
+    m = re.search(r"/actions/runs/(\d+)", out)
     if m:
         return int(m[1])
     for _ in range(12):
         time.sleep(5)
         for run in fork_runs():
-            created = datetime.datetime.fromisoformat(run["created_at"].replace("Z", "+00:00"))
-            if pr_of(run) == n and created >= started:
+            if pr_of(run) == n and epoch(run["created_at"]) >= started:
                 return run["id"]
+    if failure:
+        raise failure
     return None
 
 
 def failure_kind(run_id):
     """Classify why the latest attempt of a failed review run failed.
 
-    Return a (kind, time, reason) tuple.  The kind is "no runner" when every
-    failed job is a review job that never got a runner, "prepare" when only
-    the prepare job failed, for example while GitHub was still computing
-    mergeability, and "other" otherwise.  The time is when the last failed
-    job ended.
+    Return a (kind, time, reason, mac) tuple.  The kind is "no runner" when
+    every failed job is a review job that never got a runner, "prepare" when
+    only the prepare job failed, for example while GitHub was still
+    computing mergeability, and "other" otherwise.  The time is when the
+    last failed job ended, and mac tells whether a Darwin job found no
+    runner, the sign of the afternoon shortage of macOS runners.
     """
     jobs = api(f"repos/{REPO}/actions/runs/{run_id}/jobs?per_page=50")["jobs"]
     bad = [j for j in jobs if j["conclusion"] not in ("success", "skipped")]
     if not bad:
-        return "other", time.time(), "no failed job found"
+        return "other", time.time(), "no failed job found", False
     for j in bad:
         notes = api(f"repos/{REPO}/check-runs/{j['id']}/annotations")
         j["notes"] = [a["message"] for a in notes if a["annotation_level"] == "failure"]
     when = max((epoch(j["completed_at"]) for j in bad if j["completed_at"]), default=time.time())
     if all(j["name"].startswith("review") and any(NOT_ACQUIRED in m for m in j["notes"]) for j in bad):
-        return "no runner", when, "no runner"
+        return "no runner", when, "no runner", any("darwin" in j["name"] for j in bad)
     if [j["name"] for j in bad] == ["prepare"]:
-        return "prepare", when, "prepare failed"
-    return "other", when, "; ".join(f"{j['name']}: {(j['notes'] or [j['conclusion']])[0][:100]}" for j in bad)
+        return "prepare", when, "prepare failed", False
+    reason = "; ".join(f"{j['name']}: {(j['notes'] or [j['conclusion']])[0][:100]}" for j in bad)
+    return "other", when, reason, False
 
 
 def scan_failures(records, since):
@@ -449,66 +499,85 @@ def scan_failures(records, since):
     total, and other failures are recorded as final.  The delay before a
     re-run doubles with every attempt, so that one busy afternoon does not
     use up all attempts.  Return the end time of the most recent failure for
-    lack of a runner.
+    lack of a macOS runner.
     """
     by_run = {r.get("run_id"): n for n, r in records.items() if r["status"] == "dispatched"}
-    page = 1
-    while True:
-        d = api(
-            f"repos/{REPO}/actions/workflows/review.yml/runs"
-            f"?status=failure&created=%3E%3D{since}&per_page=100&page={page}"
-        )
-        for run in d["workflow_runs"]:
-            n = by_run.get(run["id"])
-            rec = records.get(n) if n else None
-            if rec is None or rec.get("examined") == run["run_attempt"]:
-                continue
-            kind, when, reason = failure_kind(run["id"])
-            rec["examined"] = run["run_attempt"]
-            if kind == "no runner":
-                rec["no_runner_at"] = iso(when)
-            if kind != "other" and run["run_attempt"] < MAX_ATTEMPTS:
-                rec["rerun"] = kind
-                delay = min(RERUN_DELAY * 2 ** (run["run_attempt"] - 1), MAX_RERUN_DELAY)
-                rec["rerun_after"] = iso(when + delay)
-                rec.pop("final", None)
-                log(f"#{n} run {run['id']} attempt {run['run_attempt']} failed ({kind}), re-run scheduled")
-            else:
-                rec.pop("rerun", None)
-                rec.pop("rerun_after", None)
-                rec["final"] = reason if kind == "other" else f"{kind}, gave up after {run['run_attempt']} attempts"
-                log(f"#{n} run {run['id']} attempt {run['run_attempt']} failed: {rec['final']}")
-        if len(d["workflow_runs"]) < 100:
-            break
-        page += 1
+    path = f"repos/{REPO}/actions/workflows/review.yml/runs?status=failure&created=%3E%3D{since}&per_page=100"
+    for run in api(path, paginate=True, key="workflow_runs"):
+        n = by_run.get(run["id"])
+        rec = records.get(n) if n else None
+        if rec is None or rec.get("examined") == run["run_attempt"]:
+            continue
+        kind, when, reason, mac = failure_kind(run["id"])
+        rec["examined"] = run["run_attempt"]
+        # Only a Darwin job without a runner shows that Macs are short
+        if kind == "no runner" and mac:
+            rec["no_runner_at"] = iso(when)
+        if kind != "other" and run["run_attempt"] < MAX_ATTEMPTS:
+            rec["rerun"] = kind
+            delay = min(RERUN_DELAY * 2 ** (run["run_attempt"] - 1), MAX_RERUN_DELAY)
+            rec["rerun_after"] = iso(when + delay)
+            rec.pop("final", None)
+            log(f"#{n} run {run['id']} attempt {run['run_attempt']} failed ({kind}), re-run scheduled")
+        else:
+            rec.pop("rerun", None)
+            rec.pop("rerun_after", None)
+            rec["final"] = reason if kind == "other" else f"{kind}, gave up after {run['run_attempt']} attempts"
+            log(f"#{n} run {run['id']} attempt {run['run_attempt']} failed: {rec['final']}")
     return max((epoch(r["no_runner_at"]) for r in records.values() if r.get("no_runner_at")), default=0.0)
 
 
 def reviewed_head(run_id):
-    """Return the pull request head that a review run built, from its report artifacts."""
+    """Return the pull request head that a review run built, from its report artifacts, or None."""
     for a in api(f"repos/{REPO}/actions/runs/{run_id}/artifacts")["artifacts"]:
         if a["name"].startswith("report_") and not a["expired"]:
-            return json.loads(gh(["api", a["archive_download_url"]]))["head"]
+            try:
+                return json.loads(gh(["api", a["archive_download_url"]]))["head"]
+            except LookupError:
+                # Deleted since it was listed, so the head is unknown, as with an expired one
+                continue
     return None
 
 
-def rerun_failed_jobs(run_id, rec):
-    """Re-run the failed jobs of a run, and return whether GitHub accepted it."""
-    if DRY_RUN:
-        return True
-    try:
-        gh(["api", "-X", "POST", f"repos/{REPO}/actions/runs/{run_id}/rerun-failed-jobs"])
-    except RuntimeError as e:
-        rec["final"] = f"re-run refused: {e}"[:300]
-        return False
-    return True
+def rerun_failed_jobs(run_id, rec, kind, head):
+    """Re-run the failed jobs of a run that will build the given head.
+
+    Return whether GitHub accepted it, and a short description of what was
+    done.  The record notes the kind of failure that was re-run, since
+    re-running a failed prepare job runs every review job again.  Other
+    request failures propagate, so that the caller tries again later.
+    """
+    if not DRY_RUN:
+        try:
+            gh(["api", "-X", "POST", f"repos/{REPO}/actions/runs/{run_id}/rerun-failed-jobs"])
+        except Refused as e:
+            rec["final"] = f"re-run refused: {e}"[:300]
+            return False, rec["final"]
+    rec.pop("tries", None)
+    rec.update(reran=kind, head=head)
+    return True, f"re-ran the failed jobs of run {run_id}"
 
 
-def rerun(n, rec, cand):
-    """Re-run the failed jobs of a batch review, or review a changed head afresh.
+def postpone(rec, kind, reason):
+    """Schedule a re-run again for later, or give up after MAX_TRIES tries.
+
+    Return a short description of what was done.
+    """
+    if rec.get("tries", 0) >= MAX_TRIES:
+        rec["final"] = f"not re-run: {reason}"
+        return rec["final"]
+    rec["tries"] = rec.get("tries", 0) + 1
+    rec["rerun"] = kind
+    rec["rerun_after"] = iso(time.time() + RERUN_DELAY)
+    return f"re-run postponed: {reason}"
+
+
+def rerun(n, rec, candidate_head=None):
+    """Re-run the failed jobs of a batch review, or review it afresh when its head or inputs changed.
 
     Return whether a review was started, and a short description of what
-    was done.
+    was done.  The candidate head is the head of the pull request in the
+    candidate list, for a record that holds none.
     """
     kind = rec.pop("rerun")
     rec.pop("rerun_after", None)
@@ -522,43 +591,46 @@ def rerun(n, rec, cand):
         rec["final"] = f"{pr['state']} before the re-run"
         return False, rec["final"]
     ran_with = rec.get("on_success", "approve")
-    on_success = "nothing" if pr["user"]["login"] in COMMENT_ONLY_AUTHORS else ran_with
-    # Re-running failed jobs keeps the original inputs, including an approval
-    keeps_inputs = on_success == ran_with
-    head = reviewed_head(run_id) if kind == "no runner" else None
-    if kind == "no runner" and head == pr["head"]["sha"] and keeps_inputs:
-        if not rerun_failed_jobs(run_id, rec):
-            return False, rec["final"]
-        return True, f"re-ran the failed jobs of run {run_id}"
-    head = head or rec.get("head") or (cand or {}).get("headRefOid") or pr["head"]["sha"]
-    extra_args = rec.get("extra_args")
-    if on_success != "approve":
-        # Without an approval, a review of the latest head needs no triviality check
-        status, reason, title, darwin = "ok", None, pr["title"], needs_darwin(pr)
-        if not extra_args and ci_eval(pr["head"]["sha"]) == "missing":
-            extra_args = "--eval local"
-    else:
-        # The head that will be built has not been checked yet
-        cand = {"number": n, "headRefOid": head, "extra_args": extra_args}
-        status, reason, title, darwin, on_success, extra_args = check_pr(
+    current = pr["head"]["sha"]
+    # A re-run would post a second result if anyone posted one for the current head meanwhile
+    comments = api(f"repos/NixOS/nixpkgs/issues/{n}/comments?per_page=100", paginate=True)
+    if current in reviewed_heads(comments):
+        rec["final"] = "not re-run: has a result for the current head"
+        return False, rec["final"]
+    # A re-run of the failed jobs of a run without a runner builds the head that the run built
+    built = reviewed_head(run_id) if kind == "no runner" else None
+    if ran_with == "approve" or pr["user"]["login"] in COMMENT_ONLY_AUTHORS:
+        # The pull request must still qualify, as on the main path, and a new head is checked afresh
+        head = built or rec.get("head") or candidate_head
+        cand = {"number": n, "headRefOid": head, "extra_args": rec.get("extra_args")}
+        status, reason, title, darwin, on_success, extra_args, checked = check_pr(
             cand, ignore_own=rec.get("requeued", False)
         )
-    if status == "retry" and rec.get("tries", 0) < MAX_TRIES:
-        rec["tries"] = rec.get("tries", 0) + 1
-        rec["rerun"] = kind
-        rec["rerun_after"] = iso(time.time() + RERUN_DELAY)
-        return False, f"re-run postponed: {reason}"
+    else:
+        # Re-reviews without an approval outside COMMENT_ONLY_AUTHORS, such as the owner's own, need no check
+        status, reason, title, darwin, checked = "ok", None, pr["title"], needs_darwin(pr), current
+        on_success = ran_with
+        ready, extra_args = eval_args(checked, rec.get("extra_args"))
+        if not ready:
+            status, reason = "retry", "CI evaluation still running"
+    if status == "retry":
+        return False, postpone(rec, kind, reason)
     if status != "ok":
         rec["final"] = f"not re-run: {reason}"
         return False, rec["final"]
-    if kind == "prepare" and keeps_inputs:
-        if not rerun_failed_jobs(run_id, rec):
-            return False, rec["final"]
-        return True, f"re-ran run {run_id}"
-    new_id = None if DRY_RUN else dispatch(n, on_success, darwin, extra_args)
-    for key in ("examined", "no_runner_at", "tries"):
+    # Re-running failed jobs keeps the original inputs, including an approval, --eval local and the darwin job
+    same_inputs = on_success == ran_with and extra_args == rec.get("extra_args") and darwin == rec.get("darwin", True)
+    # A re-run of a failed prepare job fetches the pull request again, so it builds the checked head too
+    if same_inputs and (kind == "prepare" or built == checked):
+        return rerun_failed_jobs(run_id, rec, kind, checked)
+    try:
+        new_id = None if DRY_RUN else dispatch(n, on_success, darwin, extra_args)
+    except LookupError as e:
+        # As on the main path, a dispatch that GitHub answered with Not Found is tried again later
+        raise RuntimeError(f"dispatch failed: {e}") from e
+    for key in ("examined", "no_runner_at", "tries", "reran"):
         rec.pop(key, None)
-    rec.update(run_id=new_id, title=title, time=iso(time.time()), head=pr["head"]["sha"], darwin=darwin)
+    rec.update(run_id=new_id, title=title, time=iso(time.time()), head=checked, darwin=darwin)
     rec.update(on_success=on_success, redispatched=True)
     if extra_args:
         rec["extra_args"] = extra_args
@@ -589,7 +661,7 @@ def other_dispatcher_active():
 
 
 def commit_state(state_path):
-    """Commit the state file and push it to the batch-review branch."""
+    """Commit the state file, push it to the batch-review branch, and return whether the push succeeded."""
     repo_dir = os.path.dirname(os.path.abspath(state_path))
 
     def git(*args):
@@ -598,14 +670,20 @@ def commit_state(state_path):
     git("config", "user.name", "github-actions[bot]")
     git("config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com")
     git("add", os.path.basename(state_path))
-    if git("diff", "--cached", "--quiet").returncode == 0:
-        return
-    git("commit", "-q", "-m", "batch-review: update state")
+    # Push even without a new commit, in case an earlier push failed
+    if git("diff", "--cached", "--quiet").returncode != 0:
+        git("commit", "-q", "-m", "batch-review: update state")
     # Rebase onto commits pushed meanwhile, such as dispatcher updates
     url = f"https://x-access-token:{os.environ['GH_TOKEN']}@github.com/{REPO}.git"
-    git("pull", "-q", "--rebase", url, "batch-review")
+    p = git("pull", "-q", "--rebase", url, "batch-review")
+    if p.returncode != 0:
+        # Leave no rebase in progress, so that the next commit starts from a clean branch
+        git("rebase", "--abort")
+        log(f"state pull failed: {p.stderr.strip()[:200]}")
+        return False
     p = git("push", "-q", url, "HEAD:batch-review")
     log("committed state" if p.returncode == 0 else f"state push failed: {p.stderr.strip()[:200]}")
+    return p.returncode == 0
 
 
 def run(start):
@@ -619,8 +697,8 @@ def run(start):
     records = state["records"]
     # Re-reviews of pull requests outside the candidates count as batch reviews too
     numbers = {c["number"] for c in candidates} | {int(n) for n in records}
-    by_number = {c["number"]: c for c in candidates}
-    since = min(r["time"] for r in records.values() if r.get("time"))[:10]
+    candidate_heads = {c["number"]: c.get("headRefOid") for c in candidates}
+    since = min((r["time"] for r in records.values() if r.get("time")), default=iso(start))[:10]
 
     def save():
         if DRY_RUN:
@@ -635,8 +713,12 @@ def run(start):
         r = records.get(str(c["number"]))
         return r is None or r["status"] == "retry" and r.get("tries", 0) < MAX_TRIES
 
+    def awaits_rerun(r):
+        # Only a dispatched record tracks its run, and a requeued one is reviewed afresh instead
+        return r["status"] == "dispatched" and bool(r.get("rerun"))
+
     def due_reruns(now):
-        due = [n for n, r in records.items() if r.get("rerun") and epoch(r["rerun_after"]) <= now]
+        due = [n for n, r in records.items() if awaits_rerun(r) and epoch(r["rerun_after"]) <= now]
         return sorted(due, key=lambda n: records[n]["rerun_after"])
 
     # Requested re-reviews go first, newest first, compared against the head they last reviewed
@@ -652,8 +734,8 @@ def run(start):
         if r["status"] == "requeue"
     ]
     queue = requeued + [c for c in candidates if pending(c)]
+    # Candidates with a dispatched record never enter the queue, so only fork runs count
     seen = {pr_of(r) for r in fork_runs(pages=3)} - {None}
-    seen |= {int(n) for n, r in records.items() if r["status"] == "dispatched"}
     remaining, limit = rate()
     log(f"queue {len(queue)} of {len(candidates)}, rate limit {remaining}/{limit}, dry run {DRY_RUN}")
 
@@ -662,13 +744,33 @@ def run(start):
     fetched = scanned = seen_at = 0.0
     no_runner_at = 0.0
     cancelled = set()
-    # Whether a candidate needed Darwin when last checked, to pass over it while Macs are busy
-    darwin_hint = {}
-    # Checked candidates that need a Mac while the Darwin cap is full, served first come, first served
+    # Checked candidates that need a Mac while no Darwin review fits, served first come, first served
     waiting_for_mac = collections.deque()
+    # Requested re-reviews of pull requests that the fork is still reviewing
+    waiting_for_run = []
+    # Candidates whose check could not be decided yet, each with the time to check it again
+    retrying = []
     jobs = darwin_reviews = 0
+    # When nothing was left to do, so that a scan afterwards can find reviews that failed meanwhile
+    idle_since = None
     checked = committed = start
     chain = LIMIT is None and not DRY_RUN
+
+    def ours(r):
+        rec = records.get(str(pr_of(r)))
+        return rec if rec and rec.get("run_id") == r["id"] else None
+
+    def single_job(r):
+        # Re-run attempts repeat the darwin job, unless a failed prepare job brings back every review job
+        return r["run_attempt"] > 1 and (ours(r) or {}).get("reran") != "prepare"
+
+    def uses_mac(r):
+        # Other people's runs may use a Mac too, and a re-run of a Linux-only review never does
+        return (ours(r) or {}).get("darwin", True)
+
+    def footprint(r):
+        return 1 if single_job(r) else 3 if uses_mac(r) else 2
+
     while True:
         now = time.time()
         if now - start > TIME_BUDGET or LIMIT is not None and dispatched >= LIMIT:
@@ -683,7 +785,7 @@ def run(start):
             committed = now
             commit_state(state_path)
             remaining, limit = rate()
-            waiting = sum(bool(r.get("rerun")) for r in records.values())
+            waiting = sum(map(awaits_rerun, records.values()))
             log(
                 f"dispatched {dispatched} and re-ran {reran} so far, {len(queue)} left in queue,"
                 f" {waiting} waiting for a re-run, rate limit {remaining}/{limit}"
@@ -696,6 +798,11 @@ def run(start):
         if now - fetched > POLL_INTERVAL:
             active = active_runs()
             fetched = now
+            in_flight = {pr_of(r) for r in active}
+            queue[:0] = [c for c in waiting_for_run if c["number"] not in in_flight]
+            waiting_for_run = [c for c in waiting_for_run if c["number"] in in_flight]
+        queue[:0] = [c for due, c in retrying if due <= now]
+        retrying = [(due, c) for due, c in retrying if due > now]
         batch = [r for r in active if pr_of(r) in numbers]
         long_runs = [r for r in batch if now - epoch(r["run_started_at"]) > LONG_RUN]
         # Few reviews still running by now finish before the six-hour job limit
@@ -706,35 +813,29 @@ def run(start):
                 and records.get(n, {}).get("run_id") == r["id"]
                 and r["id"] not in cancelled
             ):
-                cancelled.add(r["id"])
                 if not DRY_RUN:
                     try:
                         gh(["api", "-X", "POST", f"repos/{REPO}/actions/runs/{r['id']}/cancel"])
-                    except RuntimeError as e:
+                    except (RuntimeError, LookupError) as e:
                         log(f"#{n} could not cancel run {r['id']}: {e}")
                         continue
+                cancelled.add(r["id"])
                 records[n]["final"] = f"cancelled after {MAX_RUNTIME // 3600} hours"
                 log(f"#{n} run {r['id']} cancelled after {MAX_RUNTIME // 3600} hours: {records[n]['title']}")
                 save()
         constrained = now - no_runner_at < CAPACITY_WINDOW
         reruns = [] if constrained else due_reruns(now)
-
-        def ours(r):
-            rec = records.get(str(pr_of(r)))
-            return rec if rec and rec.get("run_id") == r["id"] else None
-
-        def uses_mac(r):
-            # Re-run attempts repeat the darwin job, and other people's runs may use a Mac too
-            return r["run_attempt"] > 1 or (ours(r) or {}).get("darwin", True)
-
-        def footprint(r):
-            return 1 if r["run_attempt"] > 1 else 3 if uses_mac(r) else 2
-
         jobs = sum(footprint(r) for r in active)
         darwin_reviews = sum(1 for r in batch if r not in long_runs and uses_mac(r))
-        darwin_room = darwin_reviews < (MAX_DARWIN_CONSTRAINED if constrained else MAX_DARWIN)
-        if not queue and not reruns and not waiting_for_mac:
-            if not batch and not any(r.get("rerun") for r in records.values()):
+        # A review with the aarch64-darwin job takes three jobs, one without it two
+        darwin_room = darwin_reviews < (MAX_DARWIN_CONSTRAINED if constrained else MAX_DARWIN) and jobs + 3 <= MAX_JOBS
+        if not queue and not reruns and not waiting_for_mac and not waiting_for_run and not retrying:
+            if batch or any(map(awaits_rerun, records.values())):
+                idle_since = None
+            elif idle_since is None:
+                # A review that failed since the last scan may still need a re-run
+                idle_since = now
+            elif scanned > idle_since:
                 if not DRY_RUN:
                     log("all candidates handled and no batch review in flight, disabling batch-review")
                     gh(["workflow", "disable", "batch-review.yml", "-R", REPO])
@@ -743,6 +844,7 @@ def run(start):
             time.sleep(60)
             fetched = 0.0
             continue
+        idle_since = None
         remaining, _ = rate()
         if jobs + 2 > MAX_JOBS or len(long_runs) >= MAX_LONG or remaining < MIN_RATE_REMAINING:
             time.sleep(30)
@@ -756,11 +858,21 @@ def run(start):
         # Re-runs come first, since their pull requests are already half reviewed
         if reruns and darwin_room:
             n = reruns[0]
+            kind = records[n]["rerun"]
+            if int(n) in in_flight:
+                # A review dispatched by hand or by another session is still running
+                records[n]["rerun_after"] = iso(time.time() + RERUN_DELAY)
+                log(f"#{n} re-run waits for the fork run in flight")
+                save()
+                continue
             try:
-                started, what = rerun(int(n), records[n], by_number.get(int(n)))
+                started, what = rerun(int(n), records[n], candidate_heads.get(int(n)))
             except LookupError as e:
                 started, what = False, f"re-run lookup failed: {e}"
                 records[n]["final"] = what
+            except RuntimeError as e:
+                # GitHub refused or kept failing a request, so try again later
+                started, what = False, postpone(records[n], kind, f"request failed: {e}")
             log(f"#{n} {what}")
             save()
             if started:
@@ -775,64 +887,66 @@ def run(start):
         if time.time() - seen_at > SEEN_INTERVAL:
             seen |= {pr_of(r) for r in fork_runs()} - {None}
             seen_at = time.time()
-        if darwin_room and waiting_for_mac:
-            cand = waiting_for_mac.popleft()
-        else:
-            # With the Darwin cap full, pass over candidates known to need a Mac
-            pick = 0 if darwin_room else next((i for i, c in enumerate(queue) if darwin_hint.get(c["number"]) is not True), None)
-            if pick is None:
-                time.sleep(30)
-                fetched = 0.0
-                continue
-            cand = queue.pop(pick)
+        # While no Darwin review fits, a candidate that needs a Mac moves to waiting_for_mac once checked
+        cand = waiting_for_mac.popleft() if darwin_room and waiting_for_mac else queue.pop(0)
         n = cand["number"]
         requeue = cand.get("requeue", False)
         old = records.get(str(n), {})
         if n in seen and not requeue:
-            status, reason, title, darwin, on_success, extra_args = "skipped", "fork already has a run", cand["title"], None, None, None
-        elif any(pr_of(r) == n for r in active):
+            result = not_dispatched("skipped", "fork already has a run", cand["title"])
+        elif n in in_flight:
             # A review dispatched by hand or by another session is still running
-            status, reason, title, darwin, on_success, extra_args = "skipped", "fork run in flight", cand["title"], None, None, None
+            if requeue:
+                waiting_for_run.append(cand)
+                log(f"#{n} re-review waits for the fork run in flight")
+                continue
+            result = not_dispatched("skipped", "fork run in flight", cand["title"])
         else:
             try:
-                status, reason, title, darwin, on_success, extra_args = check_pr(cand, ignore_own=requeue)
+                result = check_pr(cand, ignore_own=requeue)
             except LookupError as e:
-                status, reason, title, darwin, on_success, extra_args = "skipped", f"lookup failed: {e}", cand["title"], None, None, None
-        darwin_hint[n] = darwin
+                result = not_dispatched("skipped", f"lookup failed: {e}", cand["title"])
+            except RuntimeError as e:
+                # GitHub refused or kept failing a request, so try again later
+                result = not_dispatched("retry", f"check failed: {e}", cand["title"])
+        status, reason, title, darwin, on_success, extra_args, head = result
         if status == "ok" and darwin and not darwin_room:
             waiting_for_mac.append(cand)
             continue
-        if requeue and status == "retry" and old.get("tries", 0) < MAX_TRIES:
-            old["tries"] = old.get("tries", 0) + 1
-            log(f"#{n} re-review postponed: {reason}")
-            save()
-            queue.insert(min(len(queue), RETRY_POSITION), cand)
-            continue
+        if status == "ok" and not DRY_RUN:
+            try:
+                run_id = dispatch(n, on_success, darwin, extra_args)
+            except (RuntimeError, LookupError) as e:
+                # GitHub refused or kept failing the dispatch, so try again later
+                status, reason = "retry", f"dispatch failed: {e}"
+            last = time.time()
+            fetched = 0.0
+        tries = old.get("tries", 0) + (status == "retry")
         if status != "ok":
-            tries = records.get(str(n), {}).get("tries", 0) + (status == "retry")
-            records[str(n)] = {"status": status, "reason": reason, "title": title, "tries": tries}
-            log(f"#{n} {status}: {reason} ({title})")
+            if requeue and status == "retry" and tries < MAX_TRIES:
+                # A requested re-review keeps its record while it waits, so that the request survives the run
+                old["tries"] = tries
+                log(f"#{n} re-review postponed: {reason}")
+            else:
+                records[str(n)] = {"status": status, "reason": reason, "title": title, "tries": tries}
+                log(f"#{n} {status}: {reason} ({title})")
             save()
-            # Give GitHub time to finish computing mergeability before trying again
+            # Give GitHub time to compute mergeability, or the CI time to evaluate, even at the end of the queue
             if status == "retry" and tries < MAX_TRIES:
-                queue.insert(min(len(queue), RETRY_POSITION), cand)
+                retrying.append((time.time() + RETRY_DELAY, cand))
             continue
         flags = ("" if darwin else " without Darwin") + ("" if on_success == "approve" else " comment only")
         flags += f" ({extra_args})" if extra_args else ""
+        dispatched += 1
         if DRY_RUN:
             log(f"#{n} would dispatch{flags}: {title}")
-            dispatched += 1
             continue
-        run_id = dispatch(n, on_success, darwin, extra_args)
-        last = time.time()
-        fetched = 0.0
-        dispatched += 1
-        seen.add(n)
         records[str(n)] = {
             "status": "dispatched",
             "run_id": run_id,
             "title": title,
             "time": iso(time.time()),
+            "head": head,
             "darwin": darwin,
             "on_success": on_success,
             **({"requeued": True, "previous_run_id": old.get("previous_run_id")} if requeue else {}),
@@ -847,6 +961,23 @@ def run(start):
 
 
 def start_next_run():
+    """Dispatch the next batch-review run.
+
+    The next run waits in the batch-review concurrency group until the save
+    state step of the run before it has finished.  A scheduled run has a
+    concurrency group of its own, though, so its successor starts at once
+    and would check out an older state file.  A scheduled run therefore
+    commits the state file itself first, and leaves the restart to the
+    schedule when the push fails, since a successor working from the older
+    state could never push its own.  Nothing is dispatched once the
+    workflow has been disabled, since GitHub would refuse it.
+    """
+    if not workflow_enabled():
+        log("batch-review is disabled, so no next run starts")
+        return
+    if EVENT == "schedule" and not commit_state(sys.argv[2]):
+        log("state not pushed, so the schedule restarts the chain instead")
+        return
     gh(["workflow", "run", "batch-review.yml", "-R", REPO, "--ref", "main"])
 
 
