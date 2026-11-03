@@ -151,9 +151,10 @@
    "title": "pekwm: 0.3.2 -> 0.4.1"
   },
   "461113": {
-   "head": "d6a63fdebcb7206e81924ac2b608b824c7e144ca",
-   "status": "requeue",
-   "title": "obs-studio-plugins.obs-livesplit-one: 0.4.1 -> 0.5.3"
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "obs-studio-plugins.obs-livesplit-one: 0.4.1 -> 0.5.3",
+   "tries": 0
   },
   "461125": {
    "reason": "merge conflict",
@@ -185,9 +186,10 @@
    "title": "nanoflann: 1.7.1 -> 1.9.0"
   },
   "462989": {
-   "head": "6d0b613a831336fdd1cd0c6f52dba3747e16d515",
-   "status": "requeue",
-   "title": "icingaweb2-ipl: 0.17.0 -> 1.0.1"
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "icingaweb2-ipl: 0.17.0 -> 1.0.1",
+   "tries": 0
   },
   "462990": {
    "head": "a2ddf10340f8eaffb716b53436cf1228f6a882cf",
@@ -17842,28 +17844,58 @@
    "title": "multi-scrobbler: 0.19.2 -> 0.20.3"
   },
   "581697": {
+   "darwin": true,
    "head": "dcb7d3717baa9098bb6ed8ec055a634648d3c3e5",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41602597622,
+   "status": "dispatched",
+   "time": "2026-11-03T08:20:52+00:00",
    "title": "python3Packages.lifx-emulator-core: 3.12.7 -> 3.15.0"
   },
   "581737": {
+   "darwin": true,
    "head": "3a60adca6e20f0f9d8e1ee43307f863e80abae89",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41602255569,
+   "status": "dispatched",
+   "time": "2026-11-03T08:18:06+00:00",
    "title": "verilator: 5.052 -> 5.054"
   },
   "581760": {
+   "darwin": true,
    "head": "5602cdeacb08bdbe0621462be43ffa0f988eacb7",
-   "status": "requeue",
+   "on_success": "approve",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41602042428,
+   "status": "dispatched",
+   "time": "2026-11-03T08:16:21+00:00",
    "title": "intelephense: 1.18.2 -> 1.18.5"
   },
   "581774": {
+   "darwin": true,
    "head": "35345853a544882e04944a96d2aec2912d28d0ef",
-   "status": "requeue",
+   "on_success": "approve",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41601063093,
+   "status": "dispatched",
+   "time": "2026-11-03T08:08:19+00:00",
    "title": "perlPackages.FinanceQuote: 1.71 -> 1.72"
   },
   "581785": {
+   "darwin": true,
    "head": "b858b6819d3acaabf0d9590f2a00b673753f8e0b",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41600580663,
+   "status": "dispatched",
+   "time": "2026-11-03T08:04:26+00:00",
    "title": "ghidra-extensions.lightkeeper: 1.4.1 -> 1.5.0"
   },
   "581796": {
@@ -17889,13 +17921,25 @@
    "title": "python3Packages.matter-python-client: 1.4.0 -> 1.5.5"
   },
   "581799": {
+   "darwin": true,
    "head": "3bbb048768dedb5fe4eee1bdd8ad93a3b9afe73d",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41600501413,
+   "status": "dispatched",
+   "time": "2026-11-03T08:03:46+00:00",
    "title": "civicrm: 6.19.1 -> 6.19.4"
   },
   "581803": {
+   "darwin": true,
    "head": "106c96592617c45f8657c439c896be179d2b5159",
-   "status": "requeue",
+   "on_success": "approve",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41600296532,
+   "status": "dispatched",
+   "time": "2026-11-03T08:02:00+00:00",
    "title": "gotosocial: 0.22.2 -> 0.22.3"
   },
   "581809": {
@@ -17910,13 +17954,25 @@
    "title": "adriconf: 2.7.3 -> 2.7.5"
   },
   "581812": {
+   "darwin": true,
    "head": "dc3f14c30754c5cabf120d9d46cee6207803e15c",
-   "status": "requeue",
+   "on_success": "approve",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41599723395,
+   "status": "dispatched",
+   "time": "2026-11-03T07:57:04+00:00",
    "title": "gcli: 2.13.0 -> 2.14.0"
   },
   "581824": {
+   "darwin": true,
    "head": "ff72b274b7a1e37585819276629c66b6995c0f71",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41599651529,
+   "status": "dispatched",
+   "time": "2026-11-03T07:56:24+00:00",
    "title": "avisynthplus: 3.7.5 -> 3.7.6"
   },
   "581830": {
