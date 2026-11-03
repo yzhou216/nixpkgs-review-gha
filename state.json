@@ -669,8 +669,14 @@
    "title": "python3Packages.yfinance: 1.5.1 -> 1.7.0"
   },
   "494317": {
+   "darwin": true,
    "head": "48894057fad4c1f1fdd86462120931ce7e5278e2",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41664962521,
+   "status": "dispatched",
+   "time": "2026-11-03T15:32:34+00:00",
    "title": "python3Packages.types-psycopg2: 2.9.21.20260724 -> 2.9.21.20261030"
   },
   "494460": {
@@ -901,15 +907,27 @@
    "title": "python3Packages.azure-mgmt-postgresqlflexibleservers: 3.0.0b1 -> 2.0.0"
   },
   "499116": {
+   "darwin": true,
+   "extra_args": "--eval local",
    "head": "40f55e9a5a168ed1d06f9890b7a61232efc416df",
+   "on_success": "nothing",
    "previous_run_id": 41190244861,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41663402147,
+   "status": "dispatched",
+   "time": "2026-11-03T15:23:33+00:00",
    "title": "osi: 0.108.11 -> 0.108.12"
   },
   "499285": {
+   "darwin": true,
+   "extra_args": "--eval local",
    "head": "f8f5c11f3174b3f816f727c613e073c95808bef5",
+   "on_success": "nothing",
    "previous_run_id": 41190135470,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41662351437,
+   "status": "dispatched",
+   "time": "2026-11-03T15:17:33+00:00",
    "title": "cbc: 2.10.12 -> 2.10.13"
   },
   "499533": {
@@ -1109,9 +1127,15 @@
    "title": "python3Packages.google-cloud-runtimeconfig: 0.36.0 -> 0.37.2"
   },
   "504282": {
+   "darwin": true,
+   "extra_args": "--eval local",
    "head": "98e030d243407a8239e22a207543cd30d6d060ff",
+   "on_success": "nothing",
    "previous_run_id": 41184449639,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41660374956,
+   "status": "dispatched",
+   "time": "2026-11-03T15:06:20+00:00",
    "title": "python3Packages.pygithub: 2.8.1 -> 2.9.1"
   },
   "504310": {
@@ -4062,6 +4086,8 @@
   },
   "545264": {
    "darwin": true,
+   "examined": 1,
+   "final": "review (aarch64-linux): The operation was canceled.; review (x86_64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ",
    "head": "61b1d69676de646994a5cdfe6b51567a05232135",
    "on_success": "nothing",
    "previous_run_id": 41132391315,
@@ -5923,6 +5949,8 @@
   },
   "557653": {
    "darwin": true,
+   "examined": 1,
+   "final": "review (aarch64-linux): Process completed with exit code 143.; review (x86_64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ",
    "head": "c71ded7995279366943a5f3e954a35cd73df21a6",
    "on_success": "nothing",
    "previous_run_id": 39901419539,
