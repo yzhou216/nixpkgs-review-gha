@@ -682,10 +682,14 @@
   },
   "494317": {
    "darwin": true,
+   "examined": 1,
    "head": "48894057fad4c1f1fdd86462120931ce7e5278e2",
+   "no_runner_at": "2026-11-03T17:04:18+00:00",
    "on_success": "nothing",
    "previous_run_id": null,
    "requeued": true,
+   "rerun": "no runner",
+   "rerun_after": "2026-11-03T17:34:18+00:00",
    "run_id": 41664962521,
    "status": "dispatched",
    "time": "2026-11-03T15:32:34+00:00",
@@ -932,7 +936,9 @@
   },
   "499285": {
    "darwin": true,
+   "examined": 1,
    "extra_args": "--eval local",
+   "final": "review (aarch64-linux): The operation was canceled.; review (x86_64-linux): The operation was canceled.",
    "head": "f8f5c11f3174b3f816f727c613e073c95808bef5",
    "on_success": "nothing",
    "previous_run_id": 41190135470,
@@ -6968,6 +6974,7 @@
   },
   "561354": {
    "darwin": true,
+   "final": "cancelled after 4 hours",
    "head": "46a8dd96db81d7bb2cf3438a453418b23d00db82",
    "on_success": "nothing",
    "previous_run_id": 39874423585,
