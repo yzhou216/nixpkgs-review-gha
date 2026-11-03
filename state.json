@@ -11075,6 +11075,8 @@
   },
   "573967": {
    "darwin": false,
+   "examined": 1,
+   "final": "review (aarch64-linux): Process completed with exit code 137.; review (x86_64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ",
    "head": "4f1bb1d96791e24ffb01f474199f3882b094359f",
    "on_success": "nothing",
    "previous_run_id": 41014707803,
@@ -17424,28 +17426,58 @@
    "title": "linear: 1.31.1 -> 1.32.8"
   },
   "581193": {
+   "darwin": true,
    "head": "11f818dce02bb57fa1e6f07db26f6ebf206719d4",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41621466382,
+   "status": "dispatched",
+   "time": "2026-11-03T10:42:16+00:00",
    "title": "quint: 0.33.0 -> 0.33.1"
   },
   "581202": {
+   "darwin": true,
    "head": "29070e53c4062b9f5623498e7aebbfc86595d162",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41621378734,
+   "status": "dispatched",
+   "time": "2026-11-03T10:41:38+00:00",
    "title": "aws-lambda-rie: 1.37 -> 1.38"
   },
   "581206": {
+   "darwin": true,
    "head": "431f373cf4bbe884d42742d7db894ae1f23fd874",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41620872341,
+   "status": "dispatched",
+   "time": "2026-11-03T10:37:53+00:00",
    "title": "lout: 3.43.4 -> 3.43.5"
   },
   "581208": {
+   "darwin": true,
    "head": "d3c68dbae79523aa605d57f5005873142d049984",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41620473977,
+   "status": "dispatched",
+   "time": "2026-11-03T10:35:02+00:00",
    "title": "decker: 1.71 -> 1.72"
   },
   "581211": {
+   "darwin": true,
    "head": "5362904c34448eadc42c04876d999d879bee21b5",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41619496602,
+   "status": "dispatched",
+   "time": "2026-11-03T10:28:04+00:00",
    "title": "defuddle: 0.19.5 -> 0.19.6"
   },
   "581213": {
@@ -17460,8 +17492,14 @@
    "title": "rustdesk: 1.5.0 -> 1.5.1"
   },
   "581219": {
+   "darwin": true,
    "head": "ba2623cfa0a9d3451e1075a22036c5e5370fc44c",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41619263894,
+   "status": "dispatched",
+   "time": "2026-11-03T10:26:21+00:00",
    "title": "python3Packages.flake8-bugbear: 26.9.30 -> 26.10.27"
   },
   "581222": {
@@ -17498,33 +17536,69 @@
    "title": "fluffychat: 2.11.1 -> 2.11.3"
   },
   "581229": {
+   "darwin": true,
    "head": "2bb8f895fef762d851afebe880ffc280d54c8b2c",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41618864608,
+   "status": "dispatched",
+   "time": "2026-11-03T10:23:29+00:00",
    "title": "python3Packages.glyphslib: 6.16.1 -> 6.16.2"
   },
   "581247": {
+   "darwin": true,
    "head": "c9df1049ca691b824b25d722e666fcb2144e1f63",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41618483970,
+   "status": "dispatched",
+   "time": "2026-11-03T10:20:45+00:00",
    "title": "tree-sitter-grammars.tree-sitter-dune: 0-unstable-2026-05-21 -> 0.1.0-unstable-2026-10-30"
   },
   "581255": {
+   "darwin": true,
    "head": "e1997fb32e3ab776f7e7ee4c6be2ad9524d61a21",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41618085368,
+   "status": "dispatched",
+   "time": "2026-11-03T10:17:53+00:00",
    "title": "melonds: 1.1-unstable-2026-08-24 -> 1.1-unstable-2026-10-27"
   },
   "581257": {
+   "darwin": true,
    "head": "bfcef820eccfe6cbdd5265021bd3a1be1d013205",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41617994084,
+   "status": "dispatched",
+   "time": "2026-11-03T10:17:14+00:00",
    "title": "uriparser: 1.0.2 -> 1.0.3"
   },
   "581259": {
+   "darwin": true,
    "head": "f0eaefc39263b6fd87b27c4c6962564f5918793c",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41617745959,
+   "status": "dispatched",
+   "time": "2026-11-03T10:15:30+00:00",
    "title": "python3Packages.rsl-rl-lib: 5.5.1 -> 5.5.2"
   },
   "581264": {
+   "darwin": true,
    "head": "bc25ff0d87792fd29a87b8f33c9267b13ca21cb6",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41617643233,
+   "status": "dispatched",
+   "time": "2026-11-03T10:14:48+00:00",
    "title": "openvi: 7.9.33 -> 8.0.34"
   },
   "581267": {
@@ -17539,8 +17613,14 @@
    "title": "blobfuse: 2.5.5 -> 2.5.6"
   },
   "581274": {
+   "darwin": true,
    "head": "e95f5a6b51583fd2709c8ee3a5adc255246bad32",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41617550560,
+   "status": "dispatched",
+   "time": "2026-11-03T10:14:10+00:00",
    "title": "shotcut: 26.9.27 -> 26.10.30"
   },
   "581277": {
