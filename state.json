@@ -5187,9 +5187,14 @@
    "title": "iceshelf: 0-unstable-2025-06-29 -> 0-unstable-2026-09-17"
   },
   "554560": {
+   "darwin": true,
    "head": "3bbbd26f4afd1cf2bdd2cfcd5f89140ced486b8c",
+   "on_success": "nothing",
    "previous_run_id": 41123346160,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41651589381,
+   "status": "dispatched",
+   "time": "2026-11-03T14:13:37+00:00",
    "title": "python3Packages.sklearn2pmml: 0.132.0 -> 0.133.1"
   },
   "554589": {
@@ -5702,9 +5707,14 @@
    "title": "ibus-engines.typing-booster-unwrapped: 2.30.11 -> 2.31.3"
   },
   "556936": {
+   "darwin": true,
    "head": "4170b9335fa7eb5d8959ffd082db4e191258c838",
+   "on_success": "nothing",
    "previous_run_id": 41238403894,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41650622266,
+   "status": "dispatched",
+   "time": "2026-11-03T14:07:37+00:00",
    "title": "python3Packages.sphinx-autoapi: 3.8.0 -> 3.9.0"
   },
   "556981": {
@@ -5869,15 +5879,25 @@
    "title": "orthanc: 1.12.11 -> 1.13.0"
   },
   "557650": {
+   "darwin": true,
    "head": "c59a5e4cc71bc37c632486dc010a9991cf717733",
+   "on_success": "nothing",
    "previous_run_id": 39901547823,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41650345023,
+   "status": "dispatched",
+   "time": "2026-11-03T14:05:53+00:00",
    "title": "python3Packages.pykcs11: 1.5.18 -> 1.5.21"
   },
   "557653": {
+   "darwin": true,
    "head": "c71ded7995279366943a5f3e954a35cd73df21a6",
+   "on_success": "nothing",
    "previous_run_id": 39901419539,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41647606674,
+   "status": "dispatched",
+   "time": "2026-11-03T13:48:11+00:00",
    "title": "python3Packages.google-cloud-audit-log: 0.6.1 -> 0.6.3"
   },
   "557656": {
@@ -10697,6 +10717,8 @@
   },
   "573113": {
    "darwin": true,
+   "examined": 1,
+   "final": "review (x86_64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ",
    "head": "042ac81c8582485cfe139ce583cefa4d3a1e2211",
    "on_success": "nothing",
    "previous_run_id": 41083883063,
