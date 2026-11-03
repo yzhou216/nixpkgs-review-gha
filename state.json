@@ -8254,9 +8254,14 @@
    "tries": 0
   },
   "566826": {
+   "darwin": true,
    "head": "0759b896e96c02df4dc583e79bda886d27804734",
+   "on_success": "nothing",
    "previous_run_id": 41105671648,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41642197220,
+   "status": "dispatched",
+   "time": "2026-11-03T13:11:57+00:00",
    "title": "oxfmt: 0.68.0 -> 0.75.0"
   },
   "566853": {
@@ -8669,9 +8674,14 @@
    "title": "archivemount: 1b -> 1c"
   },
   "568078": {
+   "darwin": true,
    "head": "00ab1cce8649c67fdea8c35c0d45a7259166205c",
+   "on_success": "nothing",
    "previous_run_id": 39678011642,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41639948240,
+   "status": "dispatched",
+   "time": "2026-11-03T12:56:31+00:00",
    "title": "petsc: 3.25.5 -> 3.26.1"
   },
   "568109": {
@@ -8774,8 +8784,14 @@
    "title": "steampipePackages.steampipe-plugin-aws: 1.33.0 -> 1.34.0"
   },
   "568287": {
+   "darwin": true,
    "head": "2009468c9c98683bddcaaa47fac4f6d34fcc3de7",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41639399029,
+   "status": "dispatched",
+   "time": "2026-11-03T12:52:37+00:00",
    "title": "endless-sky: 0.11.2 -> 0.11.3"
   },
   "568292": {
@@ -8800,9 +8816,14 @@
    "title": "python3Packages.plantuml-markdown: 3.11.2 -> 3.11.3"
   },
   "568327": {
+   "darwin": true,
    "head": "fd9ba401c8f3c12f34c33e7296a3f7b4271a3bbe",
+   "on_success": "nothing",
    "previous_run_id": 41102751146,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41639306178,
+   "status": "dispatched",
+   "time": "2026-11-03T12:51:58+00:00",
    "title": "eccodes: 2.48.0 -> 2.50.0"
   },
   "568332": {
@@ -9434,9 +9455,14 @@
    "tries": 0
   },
   "570136": {
+   "darwin": true,
    "head": "45be6ce2ea26481f68a7ceeff09edc9ff2046020",
+   "on_success": "nothing",
    "previous_run_id": 41099074793,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41638143676,
+   "status": "dispatched",
+   "time": "2026-11-03T12:43:40+00:00",
    "title": "u-config: 0.33.1 -> 0.35.0"
   },
   "570329": {
@@ -18213,6 +18239,7 @@
   },
   "581569": {
    "darwin": true,
+   "final": "cancelled after 4 hours",
    "head": "a981400f7af4b57a0b23e9ec9bac40f129832a03",
    "on_success": "approve",
    "previous_run_id": null,
