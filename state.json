@@ -15032,9 +15032,14 @@
    "title": "vscode-extensions.biomejs.biome: 2026.8.190716 -> 2026.10.241124"
   },
   "578615": {
+   "darwin": true,
    "head": "9e216ac3ad8912b268551e6a756c87466499d519",
+   "on_success": "nothing",
    "previous_run_id": 41056435769,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41633242659,
+   "status": "dispatched",
+   "time": "2026-11-03T12:08:43+00:00",
    "title": "python3Packages.python-mpv-jsonipc: 1.4.0 -> 1.5.0"
   },
   "578635": {
@@ -15532,8 +15537,14 @@
    "title": "vscode-extensions.astral-sh.ty: 2026.78.0 -> 2026.84.0"
   },
   "579282": {
+   "darwin": true,
    "head": "580fce1e315d521ff9a5d47bb3f6d1735fcc1eee",
-   "status": "requeue",
+   "on_success": "approve",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41633154674,
+   "status": "dispatched",
+   "time": "2026-11-03T12:08:05+00:00",
    "title": "mactop: 2.1.5 -> 2.1.6"
   },
   "579294": {
@@ -15557,8 +15568,14 @@
    "title": "python3Packages.vtherm-api: 0.5.0 -> 0.6.2"
   },
   "579315": {
+   "darwin": true,
    "head": "b7d9fcdf96be95dd9c7dc45eba1d6beb24b49f05",
-   "status": "requeue",
+   "on_success": "approve",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41632754016,
+   "status": "dispatched",
+   "time": "2026-11-03T12:05:13+00:00",
    "title": "limesurvey: 6.15.14+250924 -> 7.7.0+261020"
   },
   "579338": {
@@ -15745,9 +15762,14 @@
    "title": "androidStudioPackages.beta: 2026.2.1.7 -> 2026.2.2.7"
   },
   "579499": {
+   "darwin": true,
    "head": "c60203b1bd97c0a29db1bd1e9abafd17e1e16573",
+   "on_success": "nothing",
    "previous_run_id": 41031955198,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41632379204,
+   "status": "dispatched",
+   "time": "2026-11-03T12:02:29+00:00",
    "title": "gallery-dl: 1.32.16 -> 1.32.18"
   },
   "579500": {
@@ -15771,8 +15793,14 @@
    "title": "pangolin-cli: 0.18.1 -> 0.19.0"
   },
   "579543": {
+   "darwin": true,
    "head": "4a52117b515b9c49be20d1f013e54f840186ee81",
-   "status": "requeue",
+   "on_success": "approve",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41631965680,
+   "status": "dispatched",
+   "time": "2026-11-03T11:59:36+00:00",
    "title": "salt: 3008.3 -> 3008.5"
   },
   "579558": {
@@ -16017,8 +16045,14 @@
    "title": "albert: 35.1.0 -> 35.2.0"
   },
   "579823": {
+   "darwin": true,
    "head": "607e28fd6820e283db50853eeacf31fa6f30a9f5",
-   "status": "requeue",
+   "on_success": "approve",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41631472116,
+   "status": "dispatched",
+   "time": "2026-11-03T11:55:50+00:00",
    "title": "orbstack: 2.2.4-21120 -> 2.2.5-21124"
   },
   "579832": {
@@ -16092,9 +16126,14 @@
    "title": "go-ethereum: 1.17.8 -> 1.17.10"
   },
   "579868": {
+   "darwin": true,
    "head": "558b9283ac6d7b5cf83bcb9629fc02cb18b9b2e2",
+   "on_success": "nothing",
    "previous_run_id": 41022316853,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41630969574,
+   "status": "dispatched",
+   "time": "2026-11-03T11:52:04+00:00",
    "title": "ssh-tools: 1.9 -> 1.10"
   },
   "579879": {
@@ -16769,8 +16808,14 @@
    "title": "xpra: 6.5.4 -> 6.5.5"
   },
   "580410": {
+   "darwin": true,
    "head": "75ae21fc9803f2d58d66fa311e14258da2c55114",
-   "status": "requeue",
+   "on_success": "approve",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41630585669,
+   "status": "dispatched",
+   "time": "2026-11-03T11:49:13+00:00",
    "title": "exiftool: 13.59 -> 13.60"
   },
   "580415": {
@@ -16800,8 +16845,14 @@
    "title": "python3Packages.matter-ble-proxy: 1.4.0 -> 1.5.5"
   },
   "580438": {
+   "darwin": true,
    "head": "8c983564c46b5ac9c54486ecb2fa087af0294004",
-   "status": "requeue",
+   "on_success": "approve",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41630355912,
+   "status": "dispatched",
+   "time": "2026-11-03T11:47:30+00:00",
    "title": "mactrix: 0.3.0 -> 0.5.0"
   },
   "580449": {
@@ -17255,8 +17306,14 @@
    "title": "perplexity-mcp: 0-unstable-2026-10-17 -> 0-unstable-2026-10-21"
   },
   "580822": {
+   "darwin": true,
    "head": "5496416045730c76e53fac0b8bcca8805dd73fee",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41629972196,
+   "status": "dispatched",
+   "time": "2026-11-03T11:44:38+00:00",
    "title": "meteor: 3.5.2 -> 3.5.4"
   },
   "580868": {
@@ -17987,6 +18044,8 @@
   },
   "581520": {
    "darwin": true,
+   "examined": 1,
+   "final": "review (aarch64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ",
    "head": "bb9066f8c2acf197309a2d0c973ce8ebe3c526a6",
    "on_success": "approve",
    "previous_run_id": null,
