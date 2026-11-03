@@ -15034,8 +15034,14 @@
    "title": "home-assistant-custom-components.tibber_local: 2026.10.4 -> 2026.10.7"
   },
   "578782": {
+   "darwin": false,
    "head": "ada24634829989f36121226dff910ae796d39013",
-   "status": "requeue",
+   "on_success": "approve",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41592686139,
+   "status": "dispatched",
+   "time": "2026-11-03T06:53:00+00:00",
    "title": "tuxedo-rs: 0.3.1 -> 0.3.2"
   },
   "578790": {
@@ -15400,8 +15406,14 @@
    "title": "vscodium: 1.140.06880 -> 1.143.17183"
   },
   "579255": {
+   "darwin": false,
    "head": "85ea05aef7402f4107205d59bf0b27b6f28ba467",
-   "status": "requeue",
+   "on_success": "approve",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41592417098,
+   "status": "dispatched",
+   "time": "2026-11-03T06:50:23+00:00",
    "title": "xdg-desktop-portal-termfilechooser: 1.4.3 -> 1.5.0"
   },
   "579271": {
@@ -15899,8 +15911,14 @@
    "title": "libmamba: 2.9.0 -> 2.10.0"
   },
   "579795": {
+   "darwin": false,
    "head": "993316c1d15757a8c6475ad315c20a66085e2b62",
-   "status": "requeue",
+   "on_success": "approve",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41591895906,
+   "status": "dispatched",
+   "time": "2026-11-03T06:45:25+00:00",
    "title": "albert: 35.1.0 -> 35.2.0"
   },
   "579823": {
@@ -16326,8 +16344,14 @@
    "title": "python3Packages.pyrad: 2.5.4 -> 2.6.0"
   },
   "580141": {
+   "darwin": false,
    "head": "bdfc6461886e2d0caa56fd8d78c931df4188c6ec",
-   "status": "requeue",
+   "on_success": "approve",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41591394769,
+   "status": "dispatched",
+   "time": "2026-11-03T06:40:41+00:00",
    "title": "part-db: 2.13.1 -> 2.20.4"
   },
   "580143": {
@@ -16381,8 +16405,14 @@
    "title": "velocity: 4.2.1-unstable-2026-10-07 -> 4.3.2-unstable-2026-10-28"
   },
   "580226": {
+   "darwin": false,
    "head": "b568c256de9819f373457c0cf7c4194a90fbf268",
-   "status": "requeue",
+   "on_success": "approve",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41591245766,
+   "status": "dispatched",
+   "time": "2026-11-03T06:39:18+00:00",
    "title": "matrix-synapse-unwrapped: 1.163.2 -> 1.164.1"
   },
   "580238": {
@@ -16426,9 +16456,10 @@
    "title": "python3Packages.textual-textarea: 0.18.5 -> 0.19.0"
   },
   "580265": {
-   "head": "5643791c7fa8a0a65b03b57a690a1a5a2b3f7f6e",
-   "status": "requeue",
-   "title": "grafanaPlugins.grafana-github-datasource: 2.9.3 -> 2.9.4"
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "grafanaPlugins.grafana-github-datasource: 2.9.3 -> 2.9.4",
+   "tries": 0
   },
   "580282": {
    "darwin": false,
@@ -16491,8 +16522,14 @@
    "title": "janusgraph: 1.1.0 -> 1.2.0"
   },
   "580353": {
+   "darwin": false,
    "head": "dbbc7c24deb00e71d6528c35f0f4550426f4e645",
-   "status": "requeue",
+   "on_success": "approve",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41590755857,
+   "status": "dispatched",
+   "time": "2026-11-03T06:34:39+00:00",
    "title": "h2o: 2.3.0-rolling-2026-10-27 \u2192 2.3.0-rolling-2026-10-29"
   },
   "580370": {
@@ -16906,8 +16943,14 @@
    "title": "comrade: 0.2.2 -> 0.3.1"
   },
   "580680": {
+   "darwin": false,
    "head": "0ec7dd2d3d94cbd8319138872924323ae43e4113",
-   "status": "requeue",
+   "on_success": "approve",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41590664492,
+   "status": "dispatched",
+   "time": "2026-11-03T06:33:46+00:00",
    "title": "mixing-station: 3.1.3 -> 3.2.1"
   },
   "580683": {
@@ -17122,8 +17165,14 @@
    "title": "meteor: 3.5.2 -> 3.5.4"
   },
   "580868": {
+   "darwin": false,
    "head": "4e9e83e76b22e9b2f9393f0180f2fc88b87423e3",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41590209188,
+   "status": "dispatched",
+   "time": "2026-11-03T06:29:33+00:00",
    "title": "kata-runtime: 3.32.0 -> 4.3.1"
   },
   "580894": {
@@ -17932,8 +17981,14 @@
    "title": "libtoxcore: 0.2.23 -> 0.2.24"
   },
   "582032": {
+   "darwin": true,
    "head": "22cee572a6416958eafa2a7b534cd5b1c77d7547",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41592616468,
+   "status": "dispatched",
+   "time": "2026-11-03T06:52:19+00:00",
    "title": "zlint: 3.7.2 -> 3.7.3"
   },
   "582034": {
@@ -17948,8 +18003,14 @@
    "title": "openttd-jgrpp: 0.73.4 -> 0.73.5"
   },
   "582039": {
+   "darwin": true,
    "head": "888151dfafd882895b0362550fa6ebd703f1ca16",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41592490970,
+   "status": "dispatched",
+   "time": "2026-11-03T06:51:06+00:00",
    "title": "unconvert: 0-unstable-2026-08-16 -> 0-unstable-2026-10-20"
   },
   "582042": {
@@ -17981,43 +18042,91 @@
    "title": "vpl-gpu-rt: 26.3.5 -> 26.4.1"
   },
   "582067": {
+   "darwin": true,
    "head": "aa9172c99595ba588ee9fc577681a83f35ad89fc",
-   "status": "requeue",
+   "on_success": "approve",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41591318872,
+   "status": "dispatched",
+   "time": "2026-11-03T06:40:01+00:00",
    "title": "veilid: 0.5.7 -> 0.5.8"
   },
   "582073": {
+   "darwin": true,
    "head": "24e6c722c344b9d50809d3d43d93b30e528cb49d",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41591167946,
+   "status": "dispatched",
+   "time": "2026-11-03T06:38:34+00:00",
    "title": "python3Packages.lizard: 1.24.1 -> 1.24.3"
   },
   "582078": {
+   "darwin": true,
    "head": "7bb7a6c141e7810c27058091f591c9ddc55cb41e",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41590974818,
+   "status": "dispatched",
+   "time": "2026-11-03T06:36:43+00:00",
    "title": "phpPackages.php-cs-fixer: 3.95.1 -> 3.95.27"
   },
   "582080": {
+   "darwin": true,
    "head": "0e14fb8d8aba97fabb32eba174241a7322dcc954",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41590900603,
+   "status": "dispatched",
+   "time": "2026-11-03T06:36:00+00:00",
    "title": "phpPackages.castor: 1.8.1 -> 1.9.1"
   },
   "582089": {
+   "darwin": true,
    "head": "5aec0b58ed3a6919c7d88ccf3e3ea4cb371ba8cb",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41590831011,
+   "status": "dispatched",
+   "time": "2026-11-03T06:35:21+00:00",
    "title": "ocamlPackages.ssl: 0.8.0 -> 0.8.1"
   },
   "582100": {
+   "darwin": true,
    "head": "d469688455c95bd1cf473f1aac1fb2c34944ff4f",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41590279414,
+   "status": "dispatched",
+   "time": "2026-11-03T06:30:13+00:00",
    "title": "bitwarden-desktop: 2026.10.0 -> 2026.10.2"
   },
   "582114": {
+   "darwin": true,
    "head": "7c37581a646141e819ef090544ee97f4797894c4",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41590087984,
+   "status": "dispatched",
+   "time": "2026-11-03T06:28:23+00:00",
    "title": "devcontainer: 0.89.0 -> 0.90.0"
   },
   "582117": {
+   "darwin": true,
    "head": "078a283fe0662053a2d82fe5351cf6cb75fc1a37",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41589729427,
+   "status": "dispatched",
+   "time": "2026-11-03T06:24:56+00:00",
    "title": "lean-lsp-mcp: 0.31.0 -> 0.32.0"
   },
   "582125": {
