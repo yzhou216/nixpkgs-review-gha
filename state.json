@@ -5510,6 +5510,7 @@
   },
   "555869": {
    "darwin": false,
+   "final": "cancelled after 4 hours",
    "head": "ad6d34214fac3acb4afde14d8db42e0886e1e22c",
    "on_success": "nothing",
    "previous_run_id": 41049192758,
@@ -17270,23 +17271,47 @@
    "title": "kata-runtime: 3.32.0 -> 4.3.1"
   },
   "580894": {
+   "darwin": true,
    "head": "c18653de0c0b5a33704ebff7e7c7f84c2688b5da",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41629332333,
+   "status": "dispatched",
+   "time": "2026-11-03T11:39:50+00:00",
    "title": "python3Packages.pysmartthings: 4.0.3 -> 4.1.0"
   },
   "580898": {
+   "darwin": true,
    "head": "5d8aab8081aa16d011881d2108c0fb9f43c8b53b",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41628975028,
+   "status": "dispatched",
+   "time": "2026-11-03T11:37:06+00:00",
    "title": "pkl: 0.32.1 -> 0.32.2"
   },
   "580900": {
+   "darwin": true,
    "head": "9ed0f7088ead27699fc2796fc380854a7b09bd7c",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41628304703,
+   "status": "dispatched",
+   "time": "2026-11-03T11:32:11+00:00",
    "title": "jellyfin-desktop: 2.0.0-unstable-2026-08-31 -> 2.0.0-unstable-2026-10-28"
   },
   "580921": {
+   "darwin": true,
    "head": "dde5f4fba691938f039c5c64e0499d3bd7f389cf",
-   "status": "requeue",
+   "on_success": "approve",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41627921695,
+   "status": "dispatched",
+   "time": "2026-11-03T11:29:26+00:00",
    "title": "github-runner: 2.338.0 -> 2.338.2"
   },
   "580964": {
@@ -17334,13 +17359,25 @@
    "title": "tiny-dfr: 0.3.7 -> 0.3.8"
   },
   "581009": {
+   "darwin": true,
    "head": "5dc7fe599b1123eec1bafda2b4d7f7113997952c",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41627287949,
+   "status": "dispatched",
+   "time": "2026-11-03T11:24:38+00:00",
    "title": "nexusd: 3.3.1 -> 3.4.0"
   },
   "581029": {
+   "darwin": true,
    "head": "272372c7b3eb5fdde4d22a09e80866772cc90a55",
-   "status": "requeue",
+   "on_success": "approve",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41625800711,
+   "status": "dispatched",
+   "time": "2026-11-03T11:13:51+00:00",
    "title": "python3Packages.google-cloud-pubsub: 2.41.0 -> 2.43.0"
   },
   "581058": {
