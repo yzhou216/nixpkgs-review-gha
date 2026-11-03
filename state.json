@@ -1807,9 +1807,14 @@
    "title": "anders: 5.0.0 -> 5.1.0"
   },
   "518041": {
+   "darwin": true,
    "head": "f7eaa645a874685f55872ebb701f6697609cc302",
+   "on_success": "nothing",
    "previous_run_id": 41169521825,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41658610165,
+   "status": "dispatched",
+   "time": "2026-11-03T14:56:06+00:00",
    "title": "python3Packages.csvw: 3.7.0 -> 4.1.1"
   },
   "518145": {
@@ -2272,9 +2277,15 @@
    "title": "python3Packages.archspec: 0.2.5 -> 0.2.6"
   },
   "523215": {
+   "darwin": true,
+   "extra_args": "--eval local",
    "head": "4157c585ca6ba5cca6cb11d1e9cd81f5bdce13fa",
+   "on_success": "nothing",
    "previous_run_id": 41160181837,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41657785858,
+   "status": "dispatched",
+   "time": "2026-11-03T14:51:11+00:00",
    "title": "python3Packages.pyshp: 3.0.3 -> 3.0.9"
   },
   "523217": {
@@ -6111,6 +6122,8 @@
   },
   "558227": {
    "darwin": true,
+   "examined": 1,
+   "final": "review (aarch64-linux): The operation was canceled.; review (x86_64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ",
    "head": "ba9eca82fafaec1aaa7f6cc2ae6d09dd4298634f",
    "on_success": "nothing",
    "previous_run_id": 39896109442,
@@ -7110,6 +7123,8 @@
   },
   "561978": {
    "darwin": true,
+   "examined": 1,
+   "final": "review (aarch64-darwin): Process completed with exit code 1.",
    "head": "3d8573d56e9c418177425e9df4630a1fa912c953",
    "on_success": "nothing",
    "previous_run_id": 41112159136,
