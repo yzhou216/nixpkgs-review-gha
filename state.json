@@ -17362,8 +17362,14 @@
    "title": "aptakube: 1.21.4 -> 1.22.1"
   },
   "581302": {
+   "darwin": false,
    "head": "3d91830e29100c93629857c823df0be667dcec54",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41583375273,
+   "status": "dispatched",
+   "time": "2026-11-03T05:20:48+00:00",
    "title": "miniaudio: 0.11.25 -> 0.11.26"
   },
   "581303": {
@@ -17372,8 +17378,14 @@
    "title": "wlink: 0.1.2 -> 0.1.3"
   },
   "581312": {
+   "darwin": false,
    "head": "199cf04a38cca630286541df092101eeb2ce146c",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41583294900,
+   "status": "dispatched",
+   "time": "2026-11-03T05:20:03+00:00",
    "title": "nwg-hello: 0.5.0 -> 0.5.1"
   },
   "581345": {
@@ -17402,8 +17414,14 @@
    "title": "tree-sitter-grammars.tree-sitter-cmake: 0.7.5 -> 0.7.6"
   },
   "581416": {
+   "darwin": false,
    "head": "5a5f36d8fbb4fae0b968e45def37cb9b19079ba2",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41583174973,
+   "status": "dispatched",
+   "time": "2026-11-03T05:18:46+00:00",
    "title": "descent3-unwrapped: 1.5.0-beta-unstable-2026-09-16 -> 1.5.0-beta-unstable-2026-10-23"
   },
   "581417": {
@@ -17457,8 +17475,14 @@
    "title": "granian: 2.8.4 -> 2.8.7"
   },
   "581528": {
+   "darwin": false,
    "head": "42254322548a00c6dec3088cf7d25d69be6c03f9",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41582997000,
+   "status": "dispatched",
+   "time": "2026-11-03T05:16:56+00:00",
    "title": "vnstat: 2.13 -> 2.14"
   },
   "581535": {
@@ -17507,8 +17531,14 @@
    "title": "python3Packages.pylibjpeg-libjpeg: 2.4.0 -> 2.5.0"
   },
   "581563": {
+   "darwin": false,
    "head": "6a4e96bbb8eb25a956428e00b6cea2cfc1c8c9ae",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41582557736,
+   "status": "dispatched",
+   "time": "2026-11-03T05:12:38+00:00",
    "title": "yay: 13.0.1 -> 13.1.0"
   },
   "581569": {
@@ -17547,14 +17577,21 @@
    "title": "zsh-forgit: 26.10.0 -> 26.11.0"
   },
   "581650": {
+   "darwin": false,
    "head": "0672ea5952f8ca3ce1fc348e300656e2e9b206de",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41582357349,
+   "status": "dispatched",
+   "time": "2026-11-03T05:10:40+00:00",
    "title": "hyprlandPlugins.hypr-dynamic-cursors: 0-unstable-2026-07-21 -> 0-unstable-2026-10-05"
   },
   "581652": {
-   "head": "d71d5dac543a6783912e5b4908ead06201bb8d97",
-   "status": "requeue",
-   "title": "llama-swap-minimal: 262 -> 269"
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "llama-swap-minimal: 262 -> 269",
+   "tries": 0
   },
   "581657": {
    "head": "7b6262197528e9db767a988268019de9e8812e69",
@@ -17607,13 +17644,25 @@
    "title": "ghidra-extensions.lightkeeper: 1.4.1 -> 1.5.0"
   },
   "581796": {
+   "darwin": false,
    "head": "201aac88310f1a3144f0d87060bb75c43fce7493",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41582097747,
+   "status": "dispatched",
+   "time": "2026-11-03T05:08:07+00:00",
    "title": "doublecmd: 1.2.9 -> 1.2.10"
   },
   "581797": {
+   "darwin": false,
    "head": "41b49b4ecae93de730cda022995f48adfd4a2541",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41582033268,
+   "status": "dispatched",
+   "time": "2026-11-03T05:07:28+00:00",
    "title": "python3Packages.matter-python-client: 1.4.0 -> 1.5.5"
   },
   "581799": {
@@ -17627,8 +17676,14 @@
    "title": "gotosocial: 0.22.2 -> 0.22.3"
   },
   "581809": {
+   "darwin": false,
    "head": "3d132285435c05b735ccd2020a913de0cf37e235",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41581940415,
+   "status": "dispatched",
+   "time": "2026-11-03T05:06:31+00:00",
    "title": "adriconf: 2.7.3 -> 2.7.5"
   },
   "581812": {
@@ -17642,14 +17697,21 @@
    "title": "avisynthplus: 3.7.5 -> 3.7.6"
   },
   "581830": {
+   "darwin": false,
    "head": "3a97efd7fd3d42e74857157adff9bead93965111",
-   "status": "requeue",
+   "on_success": "approve",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41581855904,
+   "status": "dispatched",
+   "time": "2026-11-03T05:05:41+00:00",
    "title": "fittrackee: 1.3.6 -> 1.3.8"
   },
   "581849": {
-   "head": "5a28435592bc6047c5fc89722565923d4276af99",
-   "status": "requeue",
-   "title": "python3Packages.spmd-types: 0.2.5 -> 0.3.1"
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "python3Packages.spmd-types: 0.2.5 -> 0.3.1",
+   "tries": 0
   },
   "581855": {
    "head": "b3606831b121f3b2da15d7b2263a20235e0479d1",
@@ -17692,8 +17754,14 @@
    "title": "tree-sitter-grammars.tree-sitter-scala: 0.26.3 -> 0.26.4"
   },
   "581892": {
+   "darwin": false,
    "head": "0240f78d8b0554db185c93797d71a92bba936c31",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41580985916,
+   "status": "dispatched",
+   "time": "2026-11-03T04:56:34+00:00",
    "title": "qtox: 1.18.5 -> 1.18.6"
   },
   "581899": {
@@ -17712,8 +17780,14 @@
    "title": "js-beautify: 1.15.4 -> 2.0.3"
   },
   "581929": {
+   "darwin": false,
    "head": "a3640aefa037d6aaccf9aa05ff58387d19e54c3f",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41580841753,
+   "status": "dispatched",
+   "time": "2026-11-03T04:55:00+00:00",
    "title": "python3Packages.aioshelly: 13.35.0 -> 14.0.1"
   },
   "581935": {
@@ -18117,8 +18191,14 @@
    "title": "foxglove-studio: 3.4.0 -> 3.5.0"
   },
   "582382": {
+   "darwin": true,
    "head": "4077619f7b494c75a55330efe4ee853adba767a5",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41583441960,
+   "status": "dispatched",
+   "time": "2026-11-03T05:21:30+00:00",
    "title": "octavePackages.control: 4.2.3 -> 4.3.0"
   },
   "582384": {
@@ -18133,13 +18213,25 @@
    "title": "firezone-gateway: 1.6.3 -> 1.6.4"
   },
   "582389": {
+   "darwin": true,
    "head": "f283eb5c64bb681511f609c0725bce8b35c0020c",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41582835685,
+   "status": "dispatched",
+   "time": "2026-11-03T05:15:21+00:00",
    "title": "matterircd: 0.33.0 -> 0.34.0"
   },
   "582401": {
+   "darwin": true,
    "head": "5eb98eb6cbe768d253de4bf3df98f6fe449c33fa",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41582751051,
+   "status": "dispatched",
+   "time": "2026-11-03T05:14:31+00:00",
    "title": "python3Packages.yalexs-ble: 7.2.2 -> 10.0.0"
   },
   "582404": {
@@ -18154,18 +18246,36 @@
    "title": "sone: 0.22.1 -> 0.23.0"
   },
   "582412": {
+   "darwin": true,
    "head": "61472d9e5171a2f6d036fd1d9e1433334f91a3e7",
-   "status": "requeue",
+   "on_success": "approve",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41582680950,
+   "status": "dispatched",
+   "time": "2026-11-03T05:13:52+00:00",
    "title": "ntfy-sh: 2.34.0 -> 2.37.1"
   },
   "582413": {
+   "darwin": true,
    "head": "1f509957c2d9a9bf204b31dc416b01014d9b9e17",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41581786653,
+   "status": "dispatched",
+   "time": "2026-11-03T05:05:02+00:00",
    "title": "diffoscope: 335 -> 336"
   },
   "582414": {
+   "darwin": true,
    "head": "3e951b752c65a21b5a56ca356a58f45fb2f11f0f",
-   "status": "requeue",
+   "on_success": "approve",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41581447610,
+   "status": "dispatched",
+   "time": "2026-11-03T05:01:34+00:00",
    "title": "omp: 18.15.0 -> 18.16.0"
   },
   "582420": {
