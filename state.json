@@ -6069,9 +6069,14 @@
    "title": "zuban: 0.9.1 -> 0.10.1"
   },
   "558227": {
+   "darwin": true,
    "head": "ba9eca82fafaec1aaa7f6cc2ae6d09dd4298634f",
+   "on_success": "nothing",
    "previous_run_id": 39896109442,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41645252505,
+   "status": "dispatched",
+   "time": "2026-11-03T13:32:36+00:00",
    "title": "python3Packages.petsc4py: 3.25.5 -> 3.26.1"
   },
   "558286": {
@@ -6087,9 +6092,14 @@
    "title": "python3Packages.lingva: 5.0.6 -> 5.0.7"
   },
   "558326": {
+   "darwin": true,
    "head": "028b33c9949d453a9cccc83f74681ccc69588307",
+   "on_success": "nothing",
    "previous_run_id": 41120796439,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41644663804,
+   "status": "dispatched",
+   "time": "2026-11-03T13:28:40+00:00",
    "title": "graalvmPackages.graalpy: 25.2.4 -> 25.4.4"
   },
   "558517": {
@@ -6863,9 +6873,14 @@
    "title": "opengrok: 1.14.17 -> 1.14.20"
   },
   "561354": {
+   "darwin": true,
    "head": "46a8dd96db81d7bb2cf3438a453418b23d00db82",
+   "on_success": "nothing",
    "previous_run_id": 39874423585,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41644100496,
+   "status": "dispatched",
+   "time": "2026-11-03T13:24:47+00:00",
    "title": "python3Packages.streamlit: 1.62.0 -> 1.66.1"
   },
   "561364": {
@@ -7053,9 +7068,14 @@
    "title": "python3Packages.pyhanko-certvalidator: 0.31.4 -> 0.33.0"
   },
   "561978": {
+   "darwin": true,
    "head": "3d8573d56e9c418177425e9df4630a1fa912c953",
+   "on_success": "nothing",
    "previous_run_id": 41112159136,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41643838098,
+   "status": "dispatched",
+   "time": "2026-11-03T13:23:01+00:00",
    "title": "python3Packages.bitarray: 3.10.1 -> 3.12.3"
   },
   "562055": {
@@ -7796,9 +7816,14 @@
    "title": "sof-firmware: 2025.12.2 -> 2026.09.2"
   },
   "565089": {
+   "darwin": true,
    "head": "308bff9b0b4d09a6f603cdc4ede953d376858d7e",
+   "on_success": "nothing",
    "previous_run_id": 41108698499,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41643395362,
+   "status": "dispatched",
+   "time": "2026-11-03T13:20:01+00:00",
    "title": "graalvmPackages.truffleruby: 34.0.1 -> 40.0.0"
   },
   "565138": {
