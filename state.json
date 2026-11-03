@@ -17721,33 +17721,69 @@
    "title": "rustical: 0.16.7 -> 0.18.0"
   },
   "581539": {
+   "darwin": true,
    "head": "e81f86dd183fa69041f66f858744c6f33cbd918d",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41608279579,
+   "status": "dispatched",
+   "time": "2026-11-03T09:06:11+00:00",
    "title": "tweag-credential-helper: 0.0.9 -> 1.0.0"
   },
   "581543": {
+   "darwin": true,
    "head": "bbbadc8d2bc8ab3b89914877a40273d2df486f5e",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41608188883,
+   "status": "dispatched",
+   "time": "2026-11-03T09:05:31+00:00",
    "title": "iosevka-bin: 34.9.0 -> 34.9.1"
   },
   "581544": {
+   "darwin": true,
    "head": "cb8ba758bfa4d8bfd8449b6d092a1575418212ba",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41607958483,
+   "status": "dispatched",
+   "time": "2026-11-03T09:03:46+00:00",
    "title": "vscode-extensions.charliermarsh.ruff: 2026.88.0 -> 2026.92.0"
   },
   "581550": {
+   "darwin": true,
    "head": "ca270494c32488777d7782256e798cc730d96e41",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41607436839,
+   "status": "dispatched",
+   "time": "2026-11-03T08:59:50+00:00",
    "title": "skim: 5.7.4 -> 5.9.0"
   },
   "581555": {
+   "darwin": true,
    "head": "8348000566329c0902d6a6be0cb275790e771b2f",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41607226856,
+   "status": "dispatched",
+   "time": "2026-11-03T08:58:06+00:00",
    "title": "go-swagger: 0.36.6 -> 0.36.7"
   },
   "581560": {
+   "darwin": true,
    "head": "4683a0d826f70fa5032340282c9d3e2dec6f05a0",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41607016139,
+   "status": "dispatched",
+   "time": "2026-11-03T08:56:22+00:00",
    "title": "gecode: 6.4.0 -> 6.5.0"
   },
   "581561": {
@@ -18893,6 +18929,7 @@
   },
   "582413": {
    "darwin": true,
+   "final": "cancelled after 4 hours",
    "head": "1f509957c2d9a9bf204b31dc416b01014d9b9e17",
    "on_success": "nothing",
    "previous_run_id": null,
