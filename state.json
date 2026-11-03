@@ -102,9 +102,15 @@
    "title": "glang: init at 0.2.0"
   },
   "454774": {
+   "darwin": true,
+   "extra_args": "--eval local",
    "head": "236ee270d5ee08ce823cc3a7c9c0da2310e4a944",
+   "on_success": "nothing",
    "previous_run_id": 41212636833,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41669843699,
+   "status": "dispatched",
+   "time": "2026-11-03T16:01:20+00:00",
    "title": "python3Packages.mistletoe: 1.5.1 -> 1.6.0"
   },
   "455214": {
@@ -192,8 +198,14 @@
    "tries": 0
   },
   "462990": {
+   "darwin": true,
    "head": "a2ddf10340f8eaffb716b53436cf1228f6a882cf",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41665995674,
+   "status": "dispatched",
+   "time": "2026-11-03T15:38:34+00:00",
    "title": "icingaweb2-thirdparty: 0.13.1 -> 1.1.0"
   },
   "463917": {
@@ -16985,6 +16997,7 @@
   },
   "580410": {
    "darwin": true,
+   "final": "cancelled after 4 hours",
    "head": "75ae21fc9803f2d58d66fa311e14258da2c55114",
    "on_success": "approve",
    "previous_run_id": null,
