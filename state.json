@@ -926,7 +926,9 @@
   },
   "499116": {
    "darwin": true,
+   "examined": 1,
    "extra_args": "--eval local",
+   "final": "review (x86_64-linux): The operation was canceled.; review (aarch64-linux): The operation was canceled.",
    "head": "40f55e9a5a168ed1d06f9890b7a61232efc416df",
    "on_success": "nothing",
    "previous_run_id": 41190244861,
@@ -2325,7 +2327,9 @@
   },
   "523215": {
    "darwin": true,
+   "examined": 1,
    "extra_args": "--eval local",
+   "final": "review (x86_64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ",
    "head": "4157c585ca6ba5cca6cb11d1e9cd81f5bdce13fa",
    "on_success": "nothing",
    "previous_run_id": 41160181837,
@@ -3173,6 +3177,7 @@
   "536356": {
    "darwin": true,
    "extra_args": "--eval local",
+   "final": "cancelled after 4 hours",
    "head": "ca82d30424b82a6539f62876214278acb54b07cd",
    "on_success": "nothing",
    "previous_run_id": 41143369853,
