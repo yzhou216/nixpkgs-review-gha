@@ -17660,43 +17660,91 @@
    "title": "pipe-viewer: 0.5.8 -> 0.5.9"
   },
   "581439": {
+   "darwin": true,
    "head": "b148f651fe58fa8a3147508b62c0d9bb30ceebb5",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41613165220,
+   "status": "dispatched",
+   "time": "2026-11-03T09:42:15+00:00",
    "title": "eilmeldung: 1.9.0 -> 1.10.0"
   },
   "581445": {
+   "darwin": true,
    "head": "3781ede80652caca1f51bec3e39683fd927de7d9",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41612641934,
+   "status": "dispatched",
+   "time": "2026-11-03T09:38:21+00:00",
    "title": "python3Packages.reactivex: 6.0.0 -> 6.1.0"
   },
   "581455": {
+   "darwin": true,
    "head": "bed9e796c064b622030a8a5bd4e16275dfb3e50c",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41612132535,
+   "status": "dispatched",
+   "time": "2026-11-03T09:34:35+00:00",
    "title": "ghorg: 1.11.16 -> 1.11.17"
   },
   "581473": {
+   "darwin": true,
    "head": "a2b303979ecf65e4f5197a432067201848e4eb73",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41611456945,
+   "status": "dispatched",
+   "time": "2026-11-03T09:29:39+00:00",
    "title": "cargo-bundle-licenses: 4.2.0 -> 5.0.0"
   },
   "581482": {
+   "darwin": true,
    "head": "c82668e6a9be5393d476be563c17e36c8edd84bc",
-   "status": "requeue",
+   "on_success": "approve",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41611050211,
+   "status": "dispatched",
+   "time": "2026-11-03T09:26:33+00:00",
    "title": "infisical: 0.44.2 -> 0.44.11"
   },
   "581508": {
+   "darwin": true,
    "head": "af84b502de90e28ebc7633206e3a89d97992756c",
-   "status": "requeue",
+   "on_success": "approve",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41610336599,
+   "status": "dispatched",
+   "time": "2026-11-03T09:21:19+00:00",
    "title": "vale: 3.25.1 -> 3.26.0"
   },
   "581511": {
+   "darwin": true,
    "head": "37293b80cea171fb08fc8fd99695f3a4eec3fd7b",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41609939385,
+   "status": "dispatched",
+   "time": "2026-11-03T09:18:22+00:00",
    "title": "vscode-extensions.streetsidesoftware.code-spell-checker-german: 3.0.0 -> 3.0.1"
   },
   "581520": {
+   "darwin": true,
    "head": "bb9066f8c2acf197309a2d0c973ce8ebe3c526a6",
-   "status": "requeue",
+   "on_success": "approve",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41609703230,
+   "status": "dispatched",
+   "time": "2026-11-03T09:16:35+00:00",
    "title": "granian: 2.8.4 -> 2.8.7"
   },
   "581528": {
@@ -17711,13 +17759,25 @@
    "title": "vnstat: 2.13 -> 2.14"
   },
   "581535": {
+   "darwin": true,
    "head": "4ab4af3dcfaf84b5bd4e1ab88f58477e2c631bc9",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41609378116,
+   "status": "dispatched",
+   "time": "2026-11-03T09:14:17+00:00",
    "title": "oras: 1.3.5 -> 1.3.6"
   },
   "581537": {
+   "darwin": true,
    "head": "61effc74cfc92cae3fe3123890bbb1adbe5259ce",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41609149767,
+   "status": "dispatched",
+   "time": "2026-11-03T09:12:36+00:00",
    "title": "rustical: 0.16.7 -> 0.18.0"
   },
   "581539": {
