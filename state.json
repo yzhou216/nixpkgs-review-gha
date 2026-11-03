@@ -17952,13 +17952,25 @@
    "title": "libretro.mrboom: 0-unstable-2026-03-31 -> 0-unstable-2026-06-25"
   },
   "582347": {
+   "darwin": false,
    "head": "a167df4046078415b5effc4167e77204ef546052",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41577563409,
+   "status": "dispatched",
+   "time": "2026-11-03T04:20:37+00:00",
    "title": "ledger-live-desktop: 4.24.0 -> 4.24.1"
   },
   "582348": {
+   "darwin": false,
    "head": "07e54cc58f7ca41a1a7c8379ddd71518967a7f6d",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41577335817,
+   "status": "dispatched",
+   "time": "2026-11-03T04:18:21+00:00",
    "title": "nwjs: 0.119.0 -> 0.119.2"
   },
   "582351": {
@@ -17972,8 +17984,14 @@
    "title": "handy: 0.9.8 -> 0.10.0"
   },
   "582358": {
+   "darwin": false,
    "head": "c447599b986e1e793880b6517d56b6a746ef3c66",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41577065437,
+   "status": "dispatched",
+   "time": "2026-11-03T04:15:39+00:00",
    "title": "iotop-c: 1.32 -> 1.33"
   },
   "582362": {
@@ -17987,18 +18005,36 @@
    "title": "amazon-cloudwatch-agent: 1.300074.0 -> 1.300074.1"
   },
   "582375": {
+   "darwin": false,
    "head": "5ea992c990487c013e1b6e8b10c5f3e7a7eb50fe",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41576849707,
+   "status": "dispatched",
+   "time": "2026-11-03T04:13:32+00:00",
    "title": "rcp: 0.40.0 -> 0.41.0"
   },
   "582376": {
+   "darwin": false,
    "head": "9105e685dab6ba4fe5318af3c562525533ce9543",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41576783440,
+   "status": "dispatched",
+   "time": "2026-11-03T04:12:50+00:00",
    "title": "edhm-ui: 3.0.74 -> 3.0.75"
   },
   "582381": {
+   "darwin": false,
    "head": "468648900212f749912833c3437ca3b9935c091d",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41576538362,
+   "status": "dispatched",
+   "time": "2026-11-03T04:10:24+00:00",
    "title": "foxglove-studio: 3.4.0 -> 3.5.0"
   },
   "582382": {
@@ -18007,8 +18043,14 @@
    "title": "octavePackages.control: 4.2.3 -> 4.3.0"
   },
   "582384": {
+   "darwin": false,
    "head": "41bc88492f29fcdae6e8298e1c3a2736fbf84411",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41576396370,
+   "status": "dispatched",
+   "time": "2026-11-03T04:09:00+00:00",
    "title": "firezone-gateway: 1.6.3 -> 1.6.4"
   },
   "582389": {
@@ -18022,8 +18064,14 @@
    "title": "python3Packages.yalexs-ble: 7.2.2 -> 10.0.0"
   },
   "582404": {
+   "darwin": false,
    "head": "589df9bbd0cc43cbed5682674c05d454c556fe97",
-   "status": "requeue",
+   "on_success": "approve",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41576125739,
+   "status": "dispatched",
+   "time": "2026-11-03T04:06:20+00:00",
    "title": "sone: 0.22.1 -> 0.23.0"
   },
   "582412": {
@@ -18047,13 +18095,25 @@
    "title": "smoked-salmon: 0.20.0 -> 0.22.0"
   },
   "582421": {
+   "darwin": false,
    "head": "b05f149c429e709daaff6a1356967877a68d61ad",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41575972474,
+   "status": "dispatched",
+   "time": "2026-11-03T04:04:54+00:00",
    "title": "python3Packages.bluetooth-sensor-state-data: 1.9.0 -> 1.9.2"
   },
   "582422": {
+   "darwin": false,
    "head": "411736211b7e8b63714acd8d0f9769b23d96ac34",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41575912923,
+   "status": "dispatched",
+   "time": "2026-11-03T04:04:17+00:00",
    "title": "aquamarine: 0.15.1 -> 0.16.0"
   },
   "582431": {
@@ -18062,143 +18122,306 @@
    "title": "python3Packages.langgraph-checkpoint: 4.3.0 -> 4.3.1"
   },
   "582433": {
+   "darwin": false,
    "head": "90020fbad0458e8deb3c381d7808c78603c62111",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41575849353,
+   "status": "dispatched",
+   "time": "2026-11-03T04:03:39+00:00",
    "title": "automatic-timezoned: 2.0.162 -> 2.0.164"
   },
   "582434": {
+   "darwin": true,
    "head": "bd6f64bbb44f5776011afdec122e234ddc97e561",
-   "status": "requeue",
+   "on_success": "approve",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41577674721,
+   "status": "dispatched",
+   "time": "2026-11-03T04:21:46+00:00",
    "title": "libdeltachat: 2.66.0 -> 2.67.0"
   },
   "582435": {
+   "darwin": false,
    "head": "82fbabd5ec1f1d04b49af2d03c346b51f361389e",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41575591215,
+   "status": "dispatched",
+   "time": "2026-11-03T04:01:07+00:00",
    "title": "actiona: 3.11.4 -> 3.11.5"
   },
   "582438": {
+   "darwin": true,
    "head": "651548cbbb9ac8814ab2a44a9af785f4b867b3b1",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41577184469,
+   "status": "dispatched",
+   "time": "2026-11-03T04:16:48+00:00",
    "title": "grafanaPlugins.marcusolsson-csv-datasource: 1.0.6 -> 1.0.7"
   },
   "582440": {
+   "darwin": true,
    "head": "c911154adbfe77ebfc5939aa621020764397dd02",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41576973414,
+   "status": "dispatched",
+   "time": "2026-11-03T04:14:45+00:00",
    "title": "pdfcpu: 0.16.3 -> 0.16.4"
   },
   "582443": {
+   "darwin": true,
    "head": "f40fe0a43849dd7ac16caebfe8821871de467a4a",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41576909620,
+   "status": "dispatched",
+   "time": "2026-11-03T04:14:07+00:00",
    "title": "spruce: 1.35.23 -> 1.35.24"
   },
   "582446": {
+   "darwin": true,
    "head": "0f0cdb5dfd0bf3fb3bbf5f940f3c347541cf9ab5",
-   "status": "requeue",
+   "on_success": "approve",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41576706451,
+   "status": "dispatched",
+   "time": "2026-11-03T04:12:04+00:00",
    "title": "vunnel: 0.65.1 -> 0.66.0"
   },
   "582447": {
+   "darwin": true,
    "head": "e2d74ba55122115a00f62f9212dae302943794e3",
-   "status": "requeue",
+   "on_success": "approve",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41576451997,
+   "status": "dispatched",
+   "time": "2026-11-03T04:09:35+00:00",
    "title": "python3Packages.std-uritemplate: 2.0.12 -> 2.0.13"
   },
   "582448": {
+   "darwin": true,
    "head": "6eef488baa83006db421d09918446c3b2c17e730",
-   "status": "requeue",
+   "on_success": "approve",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41576183376,
+   "status": "dispatched",
+   "time": "2026-11-03T04:06:55+00:00",
    "title": "python3Packages.python-fullykiosk: 0.0.16 -> 0.0.17"
   },
   "582455": {
-   "head": "2f40f273dfda201c40c98d9a213c8f55437bde2d",
-   "status": "requeue",
-   "title": "air-formatter: 0.12.0 -> 0.13.0"
+   "reason": "not open",
+   "status": "skipped",
+   "title": "air-formatter: 0.12.0 -> 0.13.0",
+   "tries": 0
   },
   "582457": {
+   "darwin": false,
    "head": "ebb016e96f43645499ba544d98f09aa5b32e2930",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41575496665,
+   "status": "dispatched",
+   "time": "2026-11-03T04:00:15+00:00",
    "title": "xlights: 2026.18 -> 2026.19"
   },
   "582461": {
+   "darwin": true,
    "head": "6e41834b92a187487377d3203c22604ec6901849",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41576036117,
+   "status": "dispatched",
+   "time": "2026-11-03T04:05:29+00:00",
    "title": "swiftPackages.swift-asn1: 1.7.3 -> 1.7.4"
   },
   "582464": {
+   "darwin": true,
    "head": "37b1ed91833c76bf247865aa70e08e396a0e58be",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41575780225,
+   "status": "dispatched",
+   "time": "2026-11-03T04:03:00+00:00",
    "title": "swiftPackages.swift-certificates: 1.21.0 -> 1.21.1"
   },
   "582468": {
+   "darwin": false,
    "head": "2a319827e958854dd9599d346aa6ed2ae4703b38",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41575433058,
+   "status": "dispatched",
+   "time": "2026-11-03T03:59:36+00:00",
    "title": "plus42: 1.4 -> 1.5.1"
   },
   "582471": {
+   "darwin": true,
    "head": "8709bc90d013d69a9b41df47389dd0bb2fb0e3b4",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41575723705,
+   "status": "dispatched",
+   "time": "2026-11-03T04:02:25+00:00",
    "title": "avbroot: 3.37.0 -> 3.37.1"
   },
   "582487": {
+   "darwin": true,
    "head": "55177b9347396821ff6d84130b30dc2fd126845a",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41575651993,
+   "status": "dispatched",
+   "time": "2026-11-03T04:01:42+00:00",
    "title": "fzf-zsh-plugin: 1.0.0-unstable-2026-09-07 -> 1.0.0-unstable-2026-11-02"
   },
   "582488": {
+   "darwin": true,
    "head": "a958e0e99dbb94a8fcf4faf85c26c1ca911d9339",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41575368430,
+   "status": "dispatched",
+   "time": "2026-11-03T03:58:53+00:00",
    "title": "mithril: 0.3.0 -> 0.4.0"
   },
   "582489": {
+   "darwin": true,
    "head": "4c3a554f0f8592ad43bd3aa4ca73ee7947a9b57f",
-   "status": "requeue",
+   "on_success": "approve",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41575318749,
+   "status": "dispatched",
+   "time": "2026-11-03T03:58:18+00:00",
    "title": "quickwit: 0.9.1 -> 0.9.3"
   },
   "582490": {
+   "darwin": true,
    "head": "b6091f2451036dc5d82e0ccfc03fb9e42335898d",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41575262265,
+   "status": "dispatched",
+   "time": "2026-11-03T03:57:42+00:00",
    "title": "python3Packages.rpkg: 1.69 -> 1.70"
   },
   "582492": {
+   "darwin": true,
    "head": "9c76b52b5e4c0464d8b8b04973a287665e6a6e32",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41575209544,
+   "status": "dispatched",
+   "time": "2026-11-03T03:57:07+00:00",
    "title": "python3Packages.pynndescent: 0.6.0 -> 0.7.0"
   },
   "582496": {
+   "darwin": true,
    "head": "d28da5f1bed96e07b93f99f276480e9f49b95808",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41575155928,
+   "status": "dispatched",
+   "time": "2026-11-03T03:56:30+00:00",
    "title": "fedpkg: 1.47 -> 1.48"
   },
   "582497": {
+   "darwin": true,
    "head": "44a6e857f5a14a480a6ab5394b3fb698fd693b4b",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41575100615,
+   "status": "dispatched",
+   "time": "2026-11-03T03:55:55+00:00",
    "title": "python3Packages.koji: 1.36.0 -> 1.36.1"
   },
   "582505": {
+   "darwin": false,
    "head": "0eea652611a370b3d09823d7ce481c6bd4b13597",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41575040066,
+   "status": "dispatched",
+   "time": "2026-11-03T03:55:18+00:00",
    "title": "gimp: 3.2.6 -> 3.2.8"
   },
   "582510": {
+   "darwin": true,
    "head": "420bbaa4080bcb1e72af73c3175ca84db0993cd1",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41574981770,
+   "status": "dispatched",
+   "time": "2026-11-03T03:54:43+00:00",
    "title": "python3Packages.stookwijzer: 1.6.1 -> 1.6.2"
   },
   "582514": {
+   "darwin": true,
    "head": "9193f93af4f45b6d2ff5677b0cd4d585af897c0d",
-   "status": "requeue",
+   "on_success": "approve",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41574921254,
+   "status": "dispatched",
+   "time": "2026-11-03T03:54:07+00:00",
    "title": "prometheus-alertmanager: 0.33.1 -> 0.34.2"
   },
   "582523": {
+   "darwin": true,
    "head": "03b19c7a1178d1c7e2991bcab612a20afe116212",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41574863356,
+   "status": "dispatched",
+   "time": "2026-11-03T03:53:32+00:00",
    "title": "function-runner: 9.2.2 -> 9.2.3"
   },
   "582524": {
+   "darwin": true,
    "head": "b6f175c19b9e14ccbfa06de7a033b1841597bd66",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41574803330,
+   "status": "dispatched",
+   "time": "2026-11-03T03:52:54+00:00",
    "title": "home-assistant-custom-lovelace-modules.sonos-card: 10.8.5 -> 10.8.6"
   },
   "582526": {
+   "darwin": true,
    "head": "691406a2f6394f573fa07c775d89c2e26b7b7153",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41574748247,
+   "status": "dispatched",
+   "time": "2026-11-03T03:52:20+00:00",
    "title": "ziglint: 0.7.1 -> 0.8.0"
   }
  }
