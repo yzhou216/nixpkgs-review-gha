@@ -3113,9 +3113,15 @@
    "title": "cloud-utils: 0.33 -> 0.34"
   },
   "536356": {
+   "darwin": true,
+   "extra_args": "--eval local",
    "head": "ca82d30424b82a6539f62876214278acb54b07cd",
+   "on_success": "nothing",
    "previous_run_id": 41143369853,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41654458822,
+   "status": "dispatched",
+   "time": "2026-11-03T14:31:05+00:00",
    "title": "highs: 1.14.0 -> 1.15.1"
   },
   "536371": {
@@ -4044,9 +4050,14 @@
    "title": "packer: 1.15.4 -> 1.16.1"
   },
   "545264": {
+   "darwin": true,
    "head": "61b1d69676de646994a5cdfe6b51567a05232135",
+   "on_success": "nothing",
    "previous_run_id": 41132391315,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41654167427,
+   "status": "dispatched",
+   "time": "2026-11-03T14:29:22+00:00",
    "title": "python3Packages.glfw: 2.10.0 -> 2.11.0"
   },
   "545541": {
@@ -5071,9 +5082,14 @@
    "title": "python3Packages.azure-mgmt-recoveryservices: 4.1.0 -> 4.2.0"
   },
   "554296": {
+   "darwin": true,
    "head": "80a751a32a04755b2530906e3119e3e2b1601679",
+   "on_success": "nothing",
    "previous_run_id": 39932351486,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41653025089,
+   "status": "dispatched",
+   "time": "2026-11-03T14:22:21+00:00",
    "title": "confy: 0.9.0 -> 0.9.2"
   },
   "554315": {
@@ -5106,9 +5122,14 @@
    "title": "ticcutils: 0.37 -> 0.38"
   },
   "554354": {
+   "darwin": true,
    "head": "eeb5a88475ecdd5d48352a8cb9c5b98d9c0a6dce",
+   "on_success": "nothing",
    "previous_run_id": 39930045493,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 41651689231,
+   "status": "dispatched",
+   "time": "2026-11-03T14:14:13+00:00",
    "title": "python3Packages.bitstruct: 8.22.1 -> 8.24.0"
   },
   "554361": {
@@ -8720,6 +8741,8 @@
   },
   "568078": {
    "darwin": true,
+   "examined": 1,
+   "final": "review (x86_64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ; review (aarch64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ",
    "head": "00ab1cce8649c67fdea8c35c0d45a7259166205c",
    "on_success": "nothing",
    "previous_run_id": 39678011642,
@@ -8862,6 +8885,8 @@
   },
   "568327": {
    "darwin": true,
+   "examined": 1,
+   "final": "review (x86_64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ",
    "head": "fd9ba401c8f3c12f34c33e7296a3f7b4271a3bbe",
    "on_success": "nothing",
    "previous_run_id": 41102751146,
