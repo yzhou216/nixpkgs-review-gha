@@ -17147,8 +17147,14 @@
    "title": "github-runner: 2.338.0 -> 2.338.2"
   },
   "580964": {
+   "darwin": false,
    "head": "8611389de3231d8cc924e4039763910d352161bf",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41586534891,
+   "status": "dispatched",
+   "time": "2026-11-03T05:53:35+00:00",
    "title": "sentry-native: 0.17.4 -> 0.17.5"
   },
   "580974": {
@@ -18026,8 +18032,14 @@
    "title": "syncstorage-rs: 0.23.3 -> 0.24.0"
   },
   "582135": {
+   "darwin": true,
    "head": "fde5ca69d34a7f95ca746ea72136c385a010edb2",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41589429660,
+   "status": "dispatched",
+   "time": "2026-11-03T06:22:07+00:00",
    "title": "python3Packages.citeproc-py: 0.11.1 -> 0.12.1"
   },
   "582178": {
@@ -18042,13 +18054,25 @@
    "title": "oscar: 2.1.0 -> 2.1.1"
   },
   "582179": {
+   "darwin": true,
    "head": "499bee4c351c73d06dfb2a11c950ab7e547c8acb",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41588914995,
+   "status": "dispatched",
+   "time": "2026-11-03T06:17:05+00:00",
    "title": "python3Packages.brian2: 2.10.1 -> 2.11.0"
   },
   "582219": {
+   "darwin": true,
    "head": "6624a1531df028535c4938b9e9f43422b1881921",
-   "status": "requeue",
+   "on_success": "approve",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41588555157,
+   "status": "dispatched",
+   "time": "2026-11-03T06:13:40+00:00",
    "title": "gh-stack: 0.2.1 -> 0.3.0"
   },
   "582222": {
@@ -18063,28 +18087,58 @@
    "title": "python3Packages.kestra: 2.0.0 -> 1.3.0"
   },
   "582241": {
+   "darwin": true,
    "head": "46d851f26984a3983085769d67402304d205ebb3",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41588136283,
+   "status": "dispatched",
+   "time": "2026-11-03T06:09:41+00:00",
    "title": "python3Packages.pyfaup-rs: 0.4.27 -> 0.4.28"
   },
   "582247": {
+   "darwin": true,
    "head": "89c6cf4a40c3844c4beb1771c512bc09dc970ad7",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41588020477,
+   "status": "dispatched",
+   "time": "2026-11-03T06:08:32+00:00",
    "title": "python3Packages.redisvl: 0.28.0 -> 0.30.0"
   },
   "582257": {
+   "darwin": true,
    "head": "7848522680b2d877378468e8127a8ef71b92e341",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41587344419,
+   "status": "dispatched",
+   "time": "2026-11-03T06:01:55+00:00",
    "title": "ioquake3: 0-unstable-2026-07-19 -> 0-unstable-2026-10-12"
   },
   "582259": {
+   "darwin": true,
    "head": "c9477425abcc7f5b7c1f3c9163f7087ae4e56de8",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41587087356,
+   "status": "dispatched",
+   "time": "2026-11-03T05:59:30+00:00",
    "title": "python3Packages.kopf: 1.45.1 -> 1.45.2"
   },
   "582269": {
+   "darwin": true,
    "head": "8c94995856e1e5eb8dc72b85328694d0c243f478",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41587027378,
+   "status": "dispatched",
+   "time": "2026-11-03T05:58:51+00:00",
    "title": "python3Packages.raylib: 6.0.1.0 -> 6.2.0.0"
   },
   "582273": {
@@ -18099,8 +18153,14 @@
    "title": "yap: 8.0.1-unstable-2025-10-27 -> 8.0.2-unstable-2026-10-28"
   },
   "582274": {
+   "darwin": true,
    "head": "88a947b5ff2506be328105f1da8e2aa0405f0c02",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41586860726,
+   "status": "dispatched",
+   "time": "2026-11-03T05:57:01+00:00",
    "title": "surfpool: 1.5.0 -> 1.7.0"
   },
   "582277": {
