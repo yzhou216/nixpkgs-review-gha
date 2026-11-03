@@ -17344,23 +17344,47 @@
    "title": "python3Packages.google-cloud-pubsub: 2.41.0 -> 2.43.0"
   },
   "581058": {
+   "darwin": true,
    "head": "8855c4c8057f3dbfdd82d4a8e0ff28f20227dd84",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41625535500,
+   "status": "dispatched",
+   "time": "2026-11-03T11:11:56+00:00",
    "title": "lis: 2.1.16 -> 2.1.20"
   },
   "581065": {
+   "darwin": true,
    "head": "d0269909b61a372c38d823eefc7e21287c6141a4",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41624940152,
+   "status": "dispatched",
+   "time": "2026-11-03T11:07:40+00:00",
    "title": "python3Packages.xcffib: 1.12.0 -> 1.13.0"
   },
   "581066": {
+   "darwin": true,
    "head": "c67bd67218d8a4c7eba8b8ba796bd82b64afc885",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41624603132,
+   "status": "dispatched",
+   "time": "2026-11-03T11:05:17+00:00",
    "title": "blender: 5.2.2 -> 5.2.3"
   },
   "581104": {
+   "darwin": true,
    "head": "056ba1d2adb6b2ac487775539354c2709647f60c",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41623696537,
+   "status": "dispatched",
+   "time": "2026-11-03T10:58:40+00:00",
    "title": "python3Packages.mailsuite: 2.3.2 -> 2.3.4"
   },
   "581136": {
@@ -17386,43 +17410,91 @@
    "title": "labwc: 0.20.2 -> 0.20.3"
   },
   "581153": {
+   "darwin": true,
    "head": "5e56714bc7754442b2422194824e4e909ba15970",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41623311465,
+   "status": "dispatched",
+   "time": "2026-11-03T10:55:46+00:00",
    "title": "python3Packages.django-allauth: 65.20.0 -> 65.21.1"
   },
   "581155": {
+   "darwin": true,
    "head": "88138a52939e2bf800a9b0e046ef318f812416d3",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41623001585,
+   "status": "dispatched",
+   "time": "2026-11-03T10:53:29+00:00",
    "title": "ghidra-extensions.ghidra-delinker-extension: 0.9.2 -> 0.9.3"
   },
   "581163": {
+   "darwin": true,
    "head": "24091540d4901138b532f7a5aa8e1c1f880f7203",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41622835286,
+   "status": "dispatched",
+   "time": "2026-11-03T10:52:15+00:00",
    "title": "python3Packages.genshi: 0.7.11 -> 0.7.12"
   },
   "581168": {
+   "darwin": true,
    "head": "5711dd871dd52234db8012df814d206c5828c7e3",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41622650740,
+   "status": "dispatched",
+   "time": "2026-11-03T10:50:53+00:00",
    "title": "bob-nvim: 4.2.0 -> 4.3.0"
   },
   "581171": {
+   "darwin": true,
    "head": "c55f6fe23418d8d965983772c2117aff4021e8f6",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41622268848,
+   "status": "dispatched",
+   "time": "2026-11-03T10:48:07+00:00",
    "title": "sway-contrib.inactive-windows-transparency: 1.11 -> 1.12"
   },
   "581173": {
+   "darwin": true,
    "head": "d823510f3b59fcb4c185b5cb83827646d1e5821a",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41622174909,
+   "status": "dispatched",
+   "time": "2026-11-03T10:47:25+00:00",
    "title": "flyway: 13.3.0 -> 13.12.0"
   },
   "581181": {
+   "darwin": true,
    "head": "f1436617d011d030317fcdc72d653d20af1484cf",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41622088139,
+   "status": "dispatched",
+   "time": "2026-11-03T10:46:47+00:00",
    "title": "python3Packages.python-hotspring: 3.1.0 -> 4.0.0"
   },
   "581191": {
+   "darwin": true,
    "head": "62b53e133dbc0c1138d251efd5b45f907d3781ec",
-   "status": "requeue",
+   "on_success": "approve",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41621842735,
+   "status": "dispatched",
+   "time": "2026-11-03T10:45:03+00:00",
    "title": "linear: 1.31.1 -> 1.32.8"
   },
   "581193": {
