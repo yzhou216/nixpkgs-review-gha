@@ -17751,8 +17751,14 @@
    "title": "gecode: 6.4.0 -> 6.5.0"
   },
   "581561": {
+   "darwin": true,
    "head": "f8aea6464aca53d37f3779e6dd019418183f4f75",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41606246089,
+   "status": "dispatched",
+   "time": "2026-11-03T08:50:14+00:00",
    "title": "python3Packages.pylibjpeg-libjpeg: 2.4.0 -> 2.5.0"
   },
   "581563": {
@@ -17767,38 +17773,80 @@
    "title": "yay: 13.0.1 -> 13.1.0"
   },
   "581569": {
+   "darwin": true,
    "head": "a981400f7af4b57a0b23e9ec9bac40f129832a03",
-   "status": "requeue",
+   "on_success": "approve",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41606161319,
+   "status": "dispatched",
+   "time": "2026-11-03T08:49:34+00:00",
    "title": "telegram-desktop: 7.3.2 -> 7.3.3"
   },
   "581570": {
+   "darwin": true,
    "head": "039e296d78e2e8b6a3ca3a119ea89bb8c89aa2e5",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41605679843,
+   "status": "dispatched",
+   "time": "2026-11-03T08:45:42+00:00",
    "title": "zathuraPkgs.zathura_core: 2026.10.4 -> 2026.10.23"
   },
   "581591": {
+   "darwin": true,
    "head": "0836f17372929f235db8923c486c96823d41b145",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41605442700,
+   "status": "dispatched",
+   "time": "2026-11-03T08:43:51+00:00",
    "title": "vscode-extensions.tuttieee.emacs-mcx: 0.111.5 -> 0.111.6"
   },
   "581609": {
+   "darwin": true,
    "head": "7218902318c114c1cac5ec36345dc02853729d88",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41605356750,
+   "status": "dispatched",
+   "time": "2026-11-03T08:43:09+00:00",
    "title": "guile-fibers: 1.4.3 -> 2.0.0"
   },
   "581616": {
+   "darwin": true,
    "head": "85e4ccdb06f45876fee2fc1c620286c4982cc746",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41605273713,
+   "status": "dispatched",
+   "time": "2026-11-03T08:42:28+00:00",
    "title": "libopenshot-audio: 1.0.1 -> 1.0.2"
   },
   "581618": {
+   "darwin": true,
    "head": "98f171192beb5469c0fb6c6f4e01f2743eff9dac",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41604915415,
+   "status": "dispatched",
+   "time": "2026-11-03T08:39:33+00:00",
    "title": "python3Packages.pytest-testmon: 2.2.0 -> 2.3.0b0"
   },
   "581636": {
+   "darwin": true,
    "head": "5e50e47648aebe59fef54af52d146eeeab4232a5",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41604835543,
+   "status": "dispatched",
+   "time": "2026-11-03T08:38:53+00:00",
    "title": "zsh-forgit: 26.10.0 -> 26.11.0"
   },
   "581650": {
@@ -17819,28 +17867,58 @@
    "tries": 0
   },
   "581657": {
+   "darwin": true,
    "head": "7b6262197528e9db767a988268019de9e8812e69",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41604362272,
+   "status": "dispatched",
+   "time": "2026-11-03T08:35:06+00:00",
    "title": "sqlfluff: 4.4.0 -> 4.5.0"
   },
   "581681": {
+   "darwin": true,
    "head": "522e320cd0eddc6368c423fde5381eaa02cf1a01",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41604003123,
+   "status": "dispatched",
+   "time": "2026-11-03T08:32:12+00:00",
    "title": "atheme: 7.2.12-unstable-2026-08-18 -> 7.2.12-unstable-2026-10-30"
   },
   "581682": {
+   "darwin": true,
    "head": "a6bf2c35b02341b863314cd6079386dcf78deffe",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41603914192,
+   "status": "dispatched",
+   "time": "2026-11-03T08:31:29+00:00",
    "title": "gemini-cli-bin: 0.64.0 -> 0.66.0"
   },
   "581683": {
+   "darwin": true,
    "head": "60f052a7a2eb2ed85073dc8af3940db7b05e25d5",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41603830068,
+   "status": "dispatched",
+   "time": "2026-11-03T08:30:49+00:00",
    "title": "todoist: 0.24.0 -> 0.25.0"
   },
   "581687": {
+   "darwin": true,
    "head": "e420d56eec81efa3e357f36d66e1fb63a1c31ef6",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41603340449,
+   "status": "dispatched",
+   "time": "2026-11-03T08:26:53+00:00",
    "title": "multi-scrobbler: 0.19.2 -> 0.20.3"
   },
   "581697": {
@@ -18870,6 +18948,7 @@
   },
   "582431": {
    "darwin": true,
+   "final": "cancelled after 4 hours",
    "head": "ee8ac8b5cbd1b4a1818b246e7d1556c80a42618c",
    "on_success": "nothing",
    "previous_run_id": null,
