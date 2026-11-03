@@ -17566,8 +17566,14 @@
    "title": "morgen: 4.0.6 -> 4.1.0"
   },
   "581287": {
+   "darwin": true,
    "head": "5a2add34b386433624aef8c8974a96cb3dba46c3",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41617138888,
+   "status": "dispatched",
+   "time": "2026-11-03T10:11:14+00:00",
    "title": "python3Packages.yangson: 1.7.8 -> 1.7.9"
   },
   "581293": {
@@ -17582,8 +17588,14 @@
    "title": "dput-ng: 1.46 -> 1.47"
   },
   "581294": {
+   "darwin": true,
    "head": "cc12a12c0c68e0a4833aacddc515582ca543d22f",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41617048996,
+   "status": "dispatched",
+   "time": "2026-11-03T10:10:35+00:00",
    "title": "aptakube: 1.21.4 -> 1.22.1"
   },
   "581302": {
@@ -17598,8 +17610,14 @@
    "title": "miniaudio: 0.11.25 -> 0.11.26"
   },
   "581303": {
+   "darwin": true,
    "head": "5dcfbec1d5f928e1f470aa9cda53975e8f362090",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41615924891,
+   "status": "dispatched",
+   "time": "2026-11-03T10:02:37+00:00",
    "title": "wlink: 0.1.2 -> 0.1.3"
   },
   "581312": {
@@ -17614,28 +17632,58 @@
    "title": "nwg-hello: 0.5.0 -> 0.5.1"
   },
   "581345": {
+   "darwin": true,
    "head": "6b849bd35c770c9489ebe2b1baa53521e89bc5c6",
-   "status": "requeue",
+   "on_success": "approve",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41615517050,
+   "status": "dispatched",
+   "time": "2026-11-03T09:59:46+00:00",
    "title": "python3Packages.home-connect-async: 0.8.6 -> 0.8.8"
   },
   "581369": {
+   "darwin": true,
    "head": "e41a4acc6cf96e3be9c669e7e066af7a10844cda",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41615294517,
+   "status": "dispatched",
+   "time": "2026-11-03T09:58:04+00:00",
    "title": "python3Packages.django-phonenumber-field: 8.5.0 -> 9.0.0"
   },
   "581379": {
+   "darwin": true,
    "head": "c7eaf7efd0222655a0719e4ca01daa3622a1af2c",
-   "status": "requeue",
+   "on_success": "approve",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41614640025,
+   "status": "dispatched",
+   "time": "2026-11-03T09:53:10+00:00",
    "title": "kew: 4.4.1 -> 4.4.2"
   },
   "581397": {
+   "darwin": true,
    "head": "9cc851b7ccc4a6423dbcef793292cd526ad569b3",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41613985024,
+   "status": "dispatched",
+   "time": "2026-11-03T09:48:16+00:00",
    "title": "weasis: 4.7.3 -> 4.8.0"
   },
   "581401": {
+   "darwin": true,
    "head": "472329435532d1651ec5fa72a9075dac4fc80d50",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41613757820,
+   "status": "dispatched",
+   "time": "2026-11-03T09:46:34+00:00",
    "title": "tree-sitter-grammars.tree-sitter-cmake: 0.7.5 -> 0.7.6"
   },
   "581416": {
@@ -17650,13 +17698,25 @@
    "title": "descent3-unwrapped: 1.5.0-beta-unstable-2026-09-16 -> 1.5.0-beta-unstable-2026-10-23"
   },
   "581417": {
+   "darwin": true,
    "head": "db14c13b57377d5e2962188f0d1d77709d4515df",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41613357358,
+   "status": "dispatched",
+   "time": "2026-11-03T09:43:40+00:00",
    "title": "vscode-extensions.ziglang.vscode-zig: 0.6.19 -> 0.7.0"
   },
   "581433": {
+   "darwin": true,
    "head": "a3b215c2bd265465729adb42214ff80f21f1a61b",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 41613264881,
+   "status": "dispatched",
+   "time": "2026-11-03T09:42:59+00:00",
    "title": "pipe-viewer: 0.5.8 -> 0.5.9"
   },
   "581439": {
