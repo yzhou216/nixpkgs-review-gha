@@ -14,4 +14,6 @@ Since 2026-10-24, r-ryantm's pull requests get their results as comments without
 
 On 2026-10-30, every open r-ryantm pull request on master without a result for its current head was queued as a `requeue` record, 629 in all.  Left out were drafts, pull requests with more than 100 rebuilds or a merge conflict, and 39 that hit the 4-hour cutoff or the 6-hour job limit at the same head before.  Superseded ones were closed instead.  The dispatcher reviews a pull request with `--eval local` when the comparison artifact of its CI evaluation has expired, and dispatches no review of a pull request that the fork is still reviewing.
 
+On 2026-11-03, 323 more were queued the same way: 248 r-ryantm pull requests opened, rebased or updated since, 49 trivial bumps by other authors created since 2026-10-24, which get an approval on success, and 26 reviews that had failed in a job without posting a result.  Five superseded r-ryantm pull requests were closed instead.
+
 `tests/` holds stub tests of `dispatch.py`, which replace `gh` and every GitHub request, so they never touch GitHub.  Run each with CPython from this directory, for example `PATH=/nonexistent python3 -I tests/test_rerun.py .`, where the last argument is the directory that holds `dispatch.py`.
