@@ -1314,16 +1314,26 @@
    "title": "bash-supergenpass: 0-unstable-2024-03-24 -> 0-unstable-2026-04-09"
   },
   "508848": {
+   "darwin": true,
    "head": "f9071ccd513284b5f4c91c612b675592e42f7ea6",
+   "on_success": "nothing",
    "previous_run_id": 41180797572,
-   "status": "requeue",
-   "title": "python3Packages.pulumi-aws: 7.43.0 -> 7.51.1"
+   "requeued": true,
+   "run_id": 41803404621,
+   "status": "dispatched",
+   "time": "2026-11-04T08:56:42+00:00",
+   "title": "python3Packages.pulumi-aws: 7.43.0 -> 7.53.0"
   },
   "508957": {
+   "darwin": true,
    "head": "2a757031d2bb7949b1c0e55e7531894437510fc3",
+   "on_success": "nothing",
    "previous_run_id": 41180759814,
-   "status": "requeue",
-   "title": "python3Packages.execnb: 0.3.2 -> 0.3.3"
+   "requeued": true,
+   "run_id": 41803317846,
+   "status": "dispatched",
+   "time": "2026-11-04T08:56:03+00:00",
+   "title": "python3Packages.execnb: 0.3.2 -> 0.3.4"
   },
   "508974": {
    "darwin": false,
@@ -2309,10 +2319,15 @@
    "tries": 0
   },
   "523082": {
+   "darwin": true,
    "head": "8c076ee3d734e1253aa6ec9ee0eaa65f5c298308",
+   "on_success": "nothing",
    "previous_run_id": 41160386796,
-   "status": "requeue",
-   "title": "python3Packages.archspec: 0.2.5 -> 0.2.6"
+   "requeued": true,
+   "run_id": 41803091147,
+   "status": "dispatched",
+   "time": "2026-11-04T08:54:19+00:00",
+   "title": "python3Packages.archspec: 0.2.5 -> 0.2.7"
   },
   "523215": {
    "darwin": true,
@@ -2673,10 +2688,15 @@
    "title": "python3Packages.ihm: 2.10 -> 2.12"
   },
   "529827": {
+   "darwin": true,
    "head": "5688e87469d6c21281576500f85e411cc08158a9",
+   "on_success": "nothing",
    "previous_run_id": 40197081621,
-   "status": "requeue",
-   "title": "uutils-acl: 0.0.1-unstable-2026-05-29 -> 0.0.1-unstable-2026-10-17"
+   "requeued": true,
+   "run_id": 41802451743,
+   "status": "dispatched",
+   "time": "2026-11-04T08:49:22+00:00",
+   "title": "uutils-acl: 0.0.1-unstable-2026-05-29 -> 0.0.1-unstable-2026-11-02"
   },
   "530202": {
    "darwin": false,
@@ -3130,10 +3150,15 @@
    "title": "toml-f: 0.5.1 -> 0.5.2"
   },
   "536175": {
+   "darwin": true,
    "head": "97d59da3f73e03ffc90f693f87d71a58b08edd1d",
+   "on_success": "nothing",
    "previous_run_id": 40191463067,
-   "status": "requeue",
-   "title": "python3Packages.coloraide: 8.8.1 -> 8.13.1"
+   "requeued": true,
+   "run_id": 41802104050,
+   "status": "dispatched",
+   "time": "2026-11-04T08:46:37+00:00",
+   "title": "python3Packages.coloraide: 8.8.1 -> 8.14"
   },
   "536193": {
    "darwin": false,
@@ -3353,10 +3378,15 @@
    "title": "python3Packages.apprise: 1.13.0 -> 2.0.1"
   },
   "538677": {
+   "darwin": true,
    "head": "937519b4527dd35ebf38d9213f1c516970e8a853",
+   "on_success": "nothing",
    "previous_run_id": 40187255036,
-   "status": "requeue",
-   "title": "python3Packages.livekit-protocol: 1.1.17 -> 1.1.27"
+   "requeued": true,
+   "run_id": 41801876679,
+   "status": "dispatched",
+   "time": "2026-11-04T08:44:54+00:00",
+   "title": "python3Packages.livekit-protocol: 1.1.17 -> 1.1.29"
   },
   "538791": {
    "darwin": true,
@@ -4621,10 +4651,15 @@
    "title": "python3Packages.azure-mgmt-synapse: 2.1.0b5 -> 2.0.0"
   },
   "551603": {
+   "darwin": true,
    "head": "945e03ef4aec013365657489a040d2f74da9ea02",
+   "on_success": "nothing",
    "previous_run_id": 39953425728,
-   "status": "requeue",
-   "title": "clusterctl: 1.13.4 -> 1.14.3"
+   "requeued": true,
+   "run_id": 41801793965,
+   "status": "dispatched",
+   "time": "2026-11-04T08:44:14+00:00",
+   "title": "clusterctl: 1.13.4 -> 1.14.4"
   },
   "551643": {
    "reason": "merge conflict",
@@ -5238,10 +5273,15 @@
    "title": "systemdgenie: 0.99.0-unstable-2026-07-27 -> 0.99.0-unstable-2026-11-03"
   },
   "554497": {
+   "darwin": true,
    "head": "f819cd68a666a25b575a88c608d2561371ac0f2a",
+   "on_success": "nothing",
    "previous_run_id": 39926645267,
-   "status": "requeue",
-   "title": "filebeat8: 8.19.19 -> 8.19.23"
+   "requeued": true,
+   "run_id": 41800494682,
+   "status": "dispatched",
+   "time": "2026-11-04T08:34:04+00:00",
+   "title": "filebeat8: 8.19.19 -> 8.19.24"
   },
   "554504": {
    "darwin": true,
@@ -5348,10 +5388,15 @@
    "title": "gridtracker2: 2.260723.0 -> 260808.2"
   },
   "554791": {
+   "darwin": true,
    "head": "36c8e3c82ff5062ec90d4647161d155b07575523",
+   "on_success": "nothing",
    "previous_run_id": 39921341287,
-   "status": "requeue",
-   "title": "apprise: 1.13.0 -> 2.0.1"
+   "requeued": true,
+   "run_id": 41800417206,
+   "status": "dispatched",
+   "time": "2026-11-04T08:33:29+00:00",
+   "title": "apprise: 1.13.0 -> 2.1.0"
   },
   "554799": {
    "darwin": true,
