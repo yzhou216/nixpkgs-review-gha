@@ -3411,10 +3411,15 @@
    "title": "openntpd: 6.8p1 -> 7.9p1"
   },
   "538875": {
+   "darwin": true,
    "head": "5e49bd1ebc950423445de064098e2958c0f3789e",
+   "on_success": "nothing",
    "previous_run_id": 40157126709,
-   "status": "requeue",
-   "title": "python3Packages.bracex: 3.0.1 -> 3.2"
+   "requeued": true,
+   "run_id": 41906591287,
+   "status": "dispatched",
+   "time": "2026-11-04T20:26:16+00:00",
+   "title": "python3Packages.bracex: 3.0.1 -> 3.2.1"
   },
   "538895": {
    "reason": "merge conflict",
@@ -4664,10 +4669,15 @@
    "tries": 0
   },
   "551703": {
+   "darwin": true,
    "head": "f450ebe57f41a2517dde8c4cbe51019aef6691cf",
+   "on_success": "nothing",
    "previous_run_id": 39953228764,
-   "status": "requeue",
-   "title": "adminer: 5.5.1 -> 6.1.2"
+   "requeued": true,
+   "run_id": 41906498993,
+   "status": "dispatched",
+   "time": "2026-11-04T20:25:41+00:00",
+   "title": "adminer: 5.5.1 -> 6.3.0"
   },
   "551742": {
    "run_id": 39952857203,
@@ -5433,10 +5443,15 @@
    "title": "kamailio: 6.1.3 -> 6.1.5"
   },
   "554916": {
+   "darwin": true,
    "head": "80dcca84ae2b8fa2b9192883cd46a47b700b0b74",
+   "on_success": "nothing",
    "previous_run_id": 40177495523,
-   "status": "requeue",
-   "title": "yandex-cloud: 1.25.0 -> 1.41.0"
+   "requeued": true,
+   "run_id": 41906383799,
+   "status": "dispatched",
+   "time": "2026-11-04T20:24:58+00:00",
+   "title": "yandex-cloud: 1.25.0 -> 1.43.0"
   },
   "554968": {
    "darwin": true,
@@ -6179,28 +6194,48 @@
    "tries": 0
   },
   "558177": {
+   "darwin": false,
    "head": "8eb6fa8ea6ed6ed12b26f475b8bc5900fc1ee5e2",
+   "on_success": "nothing",
    "previous_run_id": 39897435516,
-   "status": "requeue",
-   "title": "calico-typha: 3.32.1 -> 3.32.2"
+   "requeued": true,
+   "run_id": 41906292203,
+   "status": "dispatched",
+   "time": "2026-11-04T20:24:23+00:00",
+   "title": "calico-typha: 3.32.1 -> 3.32.3"
   },
   "558178": {
+   "darwin": false,
    "head": "0aded12b55cb66b83987711382897b784fa3caeb",
+   "on_success": "nothing",
    "previous_run_id": 39897311427,
-   "status": "requeue",
-   "title": "calico-cni-plugin: 3.32.1 -> 3.32.2"
+   "requeued": true,
+   "run_id": 41906172434,
+   "status": "dispatched",
+   "time": "2026-11-04T20:23:39+00:00",
+   "title": "calico-cni-plugin: 3.32.1 -> 3.32.3"
   },
   "558179": {
+   "darwin": false,
    "head": "04b474da6731e5c4795d8215635fe88a757b041b",
+   "on_success": "nothing",
    "previous_run_id": 39897182150,
-   "status": "requeue",
-   "title": "calico-pod2daemon: 3.32.1 -> 3.32.2"
+   "requeued": true,
+   "run_id": 41906081148,
+   "status": "dispatched",
+   "time": "2026-11-04T20:23:04+00:00",
+   "title": "calico-pod2daemon: 3.32.1 -> 3.32.3"
   },
   "558182": {
+   "darwin": false,
    "head": "a09695c04d18bf710341136d324dc666db38f8e7",
+   "on_success": "nothing",
    "previous_run_id": 39897054393,
-   "status": "requeue",
-   "title": "calico-kube-controllers: 3.32.1 -> 3.32.2"
+   "requeued": true,
+   "run_id": 41905981981,
+   "status": "dispatched",
+   "time": "2026-11-04T20:22:27+00:00",
+   "title": "calico-kube-controllers: 3.32.1 -> 3.32.3"
   },
   "558188": {
    "run_id": 39896747822,
@@ -9207,10 +9242,16 @@
    "title": "libretro.dolphin: 0-unstable-2026-09-19 -> 0-unstable-2026-10-11"
   },
   "568720": {
+   "darwin": true,
+   "extra_args": "--eval local",
    "head": "11dcc0b22ff71697b4669f4e9dbb9c4bbf92ebb6",
+   "on_success": "nothing",
    "previous_run_id": 40167616697,
-   "status": "requeue",
-   "title": "yeswiki: 4.6.7 -> 4.7.1"
+   "requeued": true,
+   "run_id": 41905879357,
+   "status": "dispatched",
+   "time": "2026-11-04T20:21:48+00:00",
+   "title": "yeswiki: 4.6.7 -> 4.7.2"
   },
   "568784": {
    "examined": 1,
@@ -10780,10 +10821,15 @@
    "tries": 0
   },
   "572908": {
+   "darwin": true,
    "head": "6c7b684a56aaca4c713b3bac204809c6587f73ec",
+   "on_success": "nothing",
    "previous_run_id": 40137818154,
-   "status": "requeue",
-   "title": "shopify-cli: 4.8.3 -> 4.9.4"
+   "requeued": true,
+   "run_id": 41905777746,
+   "status": "dispatched",
+   "time": "2026-11-04T20:21:10+00:00",
+   "title": "shopify-cli: 4.8.3 -> 5.0.0"
   },
   "572910": {
    "reason": "has nixpkgs-review-gha comment",
@@ -14370,10 +14416,15 @@
    "tries": 0
   },
   "577735": {
+   "darwin": true,
    "head": "500c0d794e7c597d15b4ca1ba901f3b42897b5c7",
+   "on_success": "nothing",
    "previous_run_id": 40181951295,
-   "status": "requeue",
-   "title": "davis: 5.5.0 -> 5.5.1"
+   "requeued": true,
+   "run_id": 41905669624,
+   "status": "dispatched",
+   "time": "2026-11-04T20:20:30+00:00",
+   "title": "davis: 5.5.0 -> 5.6.3"
   },
   "577742": {
    "darwin": true,
@@ -14406,10 +14457,15 @@
    "title": "envoy-bin: 1.40.0 -> 1.40.1"
   },
   "577761": {
+   "darwin": true,
    "head": "5d8f0ad9a60fb381e8cc92a4dbe5c1134398919a",
+   "on_success": "nothing",
    "previous_run_id": 40181436728,
-   "status": "requeue",
-   "title": "roswell: 26.10.117 -> 26.10.118"
+   "requeued": true,
+   "run_id": 41905555204,
+   "status": "dispatched",
+   "time": "2026-11-04T20:19:48+00:00",
+   "title": "roswell: 26.10.117 -> 26.10.119"
   },
   "577771": {
    "reason": "merge conflict",
@@ -14621,10 +14677,15 @@
    "tries": 0
   },
   "578079": {
+   "darwin": true,
    "head": "17f81469e278cd389e6d6fd53b9427c6ac3870a3",
+   "on_success": "nothing",
    "previous_run_id": 40142244991,
-   "status": "requeue",
-   "title": "piped: 0-unstable-2026-09-11 -> 0-unstable-2026-10-17"
+   "requeued": true,
+   "run_id": 41905451037,
+   "status": "dispatched",
+   "time": "2026-11-04T20:19:08+00:00",
+   "title": "piped: 0-unstable-2026-09-11 -> 0-unstable-2026-10-24"
   },
   "578098": {
    "darwin": true,
