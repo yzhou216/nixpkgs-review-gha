@@ -3411,13 +3411,9 @@
    "title": "openntpd: 6.8p1 -> 7.9p1"
   },
   "538875": {
-   "darwin": true,
-   "on_success": "nothing",
-   "previous_run_id": 40027932815,
-   "requeued": true,
-   "run_id": 40157126709,
-   "status": "dispatched",
-   "time": "2026-10-25T03:08:48+00:00",
+   "head": "5e49bd1ebc950423445de064098e2958c0f3789e",
+   "previous_run_id": 40157126709,
+   "status": "requeue",
    "title": "python3Packages.bracex: 3.0.1 -> 3.2"
   },
   "538895": {
@@ -4668,9 +4664,9 @@
    "tries": 0
   },
   "551703": {
-   "run_id": 39953228764,
-   "status": "dispatched",
-   "time": "2026-10-23T12:25:44+00:00",
+   "head": "f450ebe57f41a2517dde8c4cbe51019aef6691cf",
+   "previous_run_id": 39953228764,
+   "status": "requeue",
    "title": "adminer: 5.5.1 -> 6.1.2"
   },
   "551742": {
@@ -5437,13 +5433,9 @@
    "title": "kamailio: 6.1.3 -> 6.1.5"
   },
   "554916": {
-   "darwin": true,
-   "on_success": "nothing",
-   "previous_run_id": 39920246467,
-   "requeued": true,
-   "run_id": 40177495523,
-   "status": "dispatched",
-   "time": "2026-10-25T08:39:38+00:00",
+   "head": "80dcca84ae2b8fa2b9192883cd46a47b700b0b74",
+   "previous_run_id": 40177495523,
+   "status": "requeue",
    "title": "yandex-cloud: 1.25.0 -> 1.41.0"
   },
   "554968": {
@@ -6187,27 +6179,27 @@
    "tries": 0
   },
   "558177": {
-   "run_id": 39897435516,
-   "status": "dispatched",
-   "time": "2026-10-23T03:53:53+00:00",
+   "head": "8eb6fa8ea6ed6ed12b26f475b8bc5900fc1ee5e2",
+   "previous_run_id": 39897435516,
+   "status": "requeue",
    "title": "calico-typha: 3.32.1 -> 3.32.2"
   },
   "558178": {
-   "run_id": 39897311427,
-   "status": "dispatched",
-   "time": "2026-10-23T03:52:27+00:00",
+   "head": "0aded12b55cb66b83987711382897b784fa3caeb",
+   "previous_run_id": 39897311427,
+   "status": "requeue",
    "title": "calico-cni-plugin: 3.32.1 -> 3.32.2"
   },
   "558179": {
-   "run_id": 39897182150,
-   "status": "dispatched",
-   "time": "2026-10-23T03:50:58+00:00",
+   "head": "04b474da6731e5c4795d8215635fe88a757b041b",
+   "previous_run_id": 39897182150,
+   "status": "requeue",
    "title": "calico-pod2daemon: 3.32.1 -> 3.32.2"
   },
   "558182": {
-   "run_id": 39897054393,
-   "status": "dispatched",
-   "time": "2026-10-23T03:49:32+00:00",
+   "head": "a09695c04d18bf710341136d324dc666db38f8e7",
+   "previous_run_id": 39897054393,
+   "status": "requeue",
    "title": "calico-kube-controllers: 3.32.1 -> 3.32.2"
   },
   "558188": {
@@ -9215,13 +9207,9 @@
    "title": "libretro.dolphin: 0-unstable-2026-09-19 -> 0-unstable-2026-10-11"
   },
   "568720": {
-   "darwin": true,
-   "on_success": "nothing",
-   "previous_run_id": 39638583312,
-   "requeued": true,
-   "run_id": 40167616697,
-   "status": "dispatched",
-   "time": "2026-10-25T06:01:25+00:00",
+   "head": "11dcc0b22ff71697b4669f4e9dbb9c4bbf92ebb6",
+   "previous_run_id": 40167616697,
+   "status": "requeue",
    "title": "yeswiki: 4.6.7 -> 4.7.1"
   },
   "568784": {
@@ -10792,13 +10780,9 @@
    "tries": 0
   },
   "572908": {
-   "darwin": true,
-   "on_success": "nothing",
-   "previous_run_id": 39452245191,
-   "requeued": true,
-   "run_id": 40137818154,
-   "status": "dispatched",
-   "time": "2026-10-24T22:16:07+00:00",
+   "head": "6c7b684a56aaca4c713b3bac204809c6587f73ec",
+   "previous_run_id": 40137818154,
+   "status": "requeue",
    "title": "shopify-cli: 4.8.3 -> 4.9.4"
   },
   "572910": {
@@ -14386,11 +14370,9 @@
    "tries": 0
   },
   "577735": {
-   "darwin": true,
-   "on_success": "nothing",
-   "run_id": 40181951295,
-   "status": "dispatched",
-   "time": "2026-10-25T09:45:18+00:00",
+   "head": "500c0d794e7c597d15b4ca1ba901f3b42897b5c7",
+   "previous_run_id": 40181951295,
+   "status": "requeue",
    "title": "davis: 5.5.0 -> 5.5.1"
   },
   "577742": {
@@ -14424,11 +14406,9 @@
    "title": "envoy-bin: 1.40.0 -> 1.40.1"
   },
   "577761": {
-   "darwin": true,
-   "on_success": "nothing",
-   "run_id": 40181436728,
-   "status": "dispatched",
-   "time": "2026-10-25T09:37:51+00:00",
+   "head": "5d8f0ad9a60fb381e8cc92a4dbe5c1134398919a",
+   "previous_run_id": 40181436728,
+   "status": "requeue",
    "title": "roswell: 26.10.117 -> 26.10.118"
   },
   "577771": {
@@ -14641,11 +14621,9 @@
    "tries": 0
   },
   "578079": {
-   "darwin": true,
-   "on_success": "nothing",
-   "run_id": 40142244991,
-   "status": "dispatched",
-   "time": "2026-10-24T23:19:14+00:00",
+   "head": "17f81469e278cd389e6d6fd53b9427c6ac3870a3",
+   "previous_run_id": 40142244991,
+   "status": "requeue",
    "title": "piped: 0-unstable-2026-09-11 -> 0-unstable-2026-10-17"
   },
   "578098": {
