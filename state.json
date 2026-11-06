@@ -3513,15 +3513,25 @@
    "title": "ocamlPackages.ocamlformat-mlx-lib: 0.28.1.2 -> 0.29.0.2"
   },
   "539367": {
+   "darwin": true,
    "head": "b140d2badca436f4aaedb937a6cb49deade03494",
+   "on_success": "nothing",
    "previous_run_id": 40019635524,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 42181566318,
+   "status": "dispatched",
+   "time": "2026-11-06T07:32:43+00:00",
    "title": "ocamlPackages.ocamlformat-mlx: 0.28.1.2 -> 0.29.0.2"
   },
   "539394": {
+   "darwin": true,
    "head": "15704142228a58b76e1f3cc11d93b6564425affe",
+   "on_success": "nothing",
    "previous_run_id": 40019111121,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 42181139087,
+   "status": "dispatched",
+   "time": "2026-11-06T07:28:51+00:00",
    "title": "coc-markdownlint: 0-unstable-2026-06-17 -> 0-unstable-2026-11-02"
   },
   "539422": {
@@ -4762,9 +4772,14 @@
    "title": "coc-yaml: 1.9.1 -> 1.9.3"
   },
   "552088": {
+   "darwin": true,
    "head": "054012f636c3c79d7f63618d66a5b88f059da144",
+   "on_success": "nothing",
    "previous_run_id": 40267087442,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 42181053465,
+   "status": "dispatched",
+   "time": "2026-11-06T07:28:02+00:00",
    "title": "coc-json: 1.9.3 -> 1.9.19"
   },
   "552089": {
@@ -5434,9 +5449,14 @@
    "title": "yandex-cloud: 1.25.0 -> 1.43.0"
   },
   "554968": {
+   "darwin": true,
    "head": "41ed5602c4435e641bf8ad4453e1165036955d8d",
+   "on_success": "nothing",
    "previous_run_id": 40165999065,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 42180984639,
+   "status": "dispatched",
+   "time": "2026-11-06T07:27:22+00:00",
    "title": "govc: 0.55.1 -> 0.56.2"
   },
   "554977": {
@@ -5831,9 +5851,14 @@
    "title": "ibus-engines.typing-booster-unwrapped: 2.30.11 -> 2.31.3"
   },
   "556936": {
+   "darwin": true,
    "head": "4170b9335fa7eb5d8959ffd082db4e191258c838",
+   "on_success": "nothing",
    "previous_run_id": 41650622266,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 42180311720,
+   "status": "dispatched",
+   "time": "2026-11-06T07:21:16+00:00",
    "title": "python3Packages.sphinx-autoapi: 3.8.0 -> 3.9.0"
   },
   "556981": {
@@ -6009,9 +6034,14 @@
    "title": "python3Packages.pykcs11: 1.5.18 -> 1.5.21"
   },
   "557653": {
+   "darwin": true,
    "head": "c71ded7995279366943a5f3e954a35cd73df21a6",
+   "on_success": "nothing",
    "previous_run_id": 41647606674,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 42180066637,
+   "status": "dispatched",
+   "time": "2026-11-06T07:19:03+00:00",
    "title": "python3Packages.google-cloud-audit-log: 0.6.1 -> 0.6.3"
   },
   "557656": {
@@ -6223,9 +6253,14 @@
    "title": "python3Packages.bx-python: 0.14.0 -> 0.15.1"
   },
   "558201": {
+   "darwin": true,
    "head": "75239dd31aef3281670ecd1a52bbfbbd30703be9",
+   "on_success": "nothing",
    "previous_run_id": 40136806058,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 42180006075,
+   "status": "dispatched",
+   "time": "2026-11-06T07:18:28+00:00",
    "title": "octavePackages.statistics: 1.8.4 -> 2.1.1"
   },
   "558219": {
@@ -6260,9 +6295,14 @@
    "title": "python3Packages.lingva: 5.0.6 -> 5.0.7"
   },
   "558326": {
+   "darwin": true,
    "head": "d9720246a844aa6a9cb6a8520d63f54324e5717c",
+   "on_success": "nothing",
    "previous_run_id": 41644663804,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 42179693084,
+   "status": "dispatched",
+   "time": "2026-11-06T07:15:35+00:00",
    "title": "graalvmPackages.graalpy: 25.2.4 -> 25.5.5"
   },
   "558517": {
@@ -7242,9 +7282,14 @@
    "title": "python3Packages.pyhanko-certvalidator: 0.31.4 -> 0.33.0"
   },
   "561978": {
+   "darwin": true,
    "head": "3d8573d56e9c418177425e9df4630a1fa912c953",
+   "on_success": "nothing",
    "previous_run_id": 41643838098,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 42179613387,
+   "status": "dispatched",
+   "time": "2026-11-06T07:14:55+00:00",
    "title": "python3Packages.bitarray: 3.10.1 -> 3.12.3"
   },
   "562055": {
@@ -8874,6 +8919,8 @@
   },
   "568078": {
    "darwin": true,
+   "examined": 1,
+   "final": "review (x86_64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ; review (aarch64-linux): The operation was canceled.",
    "head": "00ab1cce8649c67fdea8c35c0d45a7259166205c",
    "on_success": "nothing",
    "previous_run_id": 41639948240,
@@ -9034,6 +9081,8 @@
   },
   "568327": {
    "darwin": true,
+   "examined": 1,
+   "final": "review (x86_64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ; review (aarch64-linux): The operation was canceled.",
    "head": "fd9ba401c8f3c12f34c33e7296a3f7b4271a3bbe",
    "on_success": "nothing",
    "previous_run_id": 41639306178,
