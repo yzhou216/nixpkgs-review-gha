@@ -1233,9 +1233,14 @@
    "title": "python3Packages.dask-gateway: 2025.4.0 -> 2026.3.0"
   },
   "506496": {
+   "darwin": true,
    "head": "4e4d1f1d6ab6cfa62aadb7fdd5ac6f80421ddc55",
+   "on_success": "nothing",
    "previous_run_id": 41182143147,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 42192746475,
+   "status": "dispatched",
+   "time": "2026-11-06T09:08:20+00:00",
    "title": "zoekt: 0-unstable-2026-03-25 -> 0-unstable-2026-11-03"
   },
   "506794": {
@@ -1514,9 +1519,14 @@
    "tries": 0
   },
   "511633": {
+   "darwin": true,
    "head": "d55a28defc074acda71ad72036f444fdc970ae5d",
+   "on_success": "nothing",
    "previous_run_id": 40212637463,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 42191979532,
+   "status": "dispatched",
+   "time": "2026-11-06T09:02:13+00:00",
    "title": "python3Packages.azure-keyvault-secrets: 4.11.1 -> 4.12.0"
   },
   "511639": {
@@ -2327,9 +2337,15 @@
    "title": "python3Packages.archspec: 0.2.5 -> 0.2.7"
   },
   "523215": {
+   "darwin": true,
+   "extra_args": "--eval local",
    "head": "4157c585ca6ba5cca6cb11d1e9cd81f5bdce13fa",
+   "on_success": "nothing",
    "previous_run_id": 41657785858,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 42190462849,
+   "status": "dispatched",
+   "time": "2026-11-06T08:49:38+00:00",
    "title": "python3Packages.pyshp: 3.0.3 -> 3.0.9"
   },
   "523217": {
@@ -3359,9 +3375,14 @@
    "title": "cimg: 3.7.6 -> 4.0.7"
   },
   "538562": {
+   "darwin": true,
    "head": "eab9ee3684425534ae92ec007918d07284f7fdb3",
+   "on_success": "nothing",
    "previous_run_id": 40187700687,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 42189994335,
+   "status": "dispatched",
+   "time": "2026-11-06T08:45:41+00:00",
    "title": "python3Packages.apprise: 1.13.0 -> 2.1.0"
   },
   "538677": {
@@ -10969,6 +10990,8 @@
   },
   "573113": {
    "darwin": true,
+   "examined": 1,
+   "final": "review (aarch64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ",
    "head": "042ac81c8582485cfe139ce583cefa4d3a1e2211",
    "on_success": "nothing",
    "previous_run_id": 41633927769,
@@ -14373,6 +14396,7 @@
   },
   "577700": {
    "darwin": true,
+   "final": "cancelled after 4 hours",
    "head": "30ebb024c57cd060a0684d631cfcd4239873db2a",
    "on_success": "nothing",
    "previous_run_id": 41796765665,
