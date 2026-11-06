@@ -20107,18 +20107,36 @@
    "title": "testkube: 2.14.0 -> 2.15.0"
   },
   "582976": {
+   "darwin": true,
    "head": "9fb165e88ecdda3219b53db53dae59d8b079373b",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42155548352,
+   "status": "dispatched",
+   "time": "2026-11-06T03:16:38+00:00",
    "title": "babashka-unwrapped: 1.13.226 -> 1.13.229"
   },
   "582980": {
+   "darwin": true,
    "head": "68b6c248e7e9a0a335b1c220acaae66bca0c0906",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42155254003,
+   "status": "dispatched",
+   "time": "2026-11-06T03:13:54+00:00",
    "title": "json-repair: 0.64.1 -> 0.64.4"
   },
   "582981": {
+   "darwin": true,
    "head": "7152c961059347818e542bb245bd36ca0df6948e",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42155187168,
+   "status": "dispatched",
+   "time": "2026-11-06T03:13:15+00:00",
    "title": "python3Packages.devpi-common: 4.1.1 -> 4.1.2"
   },
   "583006": {
@@ -20144,8 +20162,14 @@
    "title": "extra-container: 0.17 -> 1.0.1"
   },
   "583044": {
+   "darwin": true,
    "head": "c27b00613816c641e70f5f4b6d34edc59d4afeca",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42154995636,
+   "status": "dispatched",
+   "time": "2026-11-06T03:11:25+00:00",
    "title": "vscode-extensions.betterthantomorrow.calva: 2.0.601 -> 2.0.609"
   },
   "583094": {
@@ -20160,18 +20184,36 @@
    "title": "rpcs3: 0.0.43-unstable-2026-10-23 -> 0.0.43-unstable-2026-11-03"
   },
   "583096": {
+   "darwin": true,
    "head": "ac605d67792a703c9aa0b010b930a2f5a4d0c70b",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42154811770,
+   "status": "dispatched",
+   "time": "2026-11-06T03:09:41+00:00",
    "title": "python3Packages.comet-ml: 3.58.8 -> 3.58.9"
   },
   "583098": {
+   "darwin": true,
    "head": "f6c0824d47942c9860d2e4c7053fdcbca5b82239",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42154631453,
+   "status": "dispatched",
+   "time": "2026-11-06T03:07:57+00:00",
    "title": "trilium-desktop: 0.106.0 -> 0.106.1"
   },
   "583117": {
+   "darwin": true,
    "head": "0c4a1bd92f1ecc8d697986616497e475d6bf0c6c",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42154443005,
+   "status": "dispatched",
+   "time": "2026-11-06T03:06:07+00:00",
    "title": "reposilite: 3.6.4 -> 3.6.6"
   },
   "583136": {
@@ -20186,23 +20228,47 @@
    "title": "python3Packages.kaco-modbus: 1.1.0 -> 2.0.0"
   },
   "583183": {
+   "darwin": true,
    "head": "deaf508f8b0bb3a39e3c898088cfe97621440e38",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42154371348,
+   "status": "dispatched",
+   "time": "2026-11-06T03:05:27+00:00",
    "title": "tree-sitter-grammars.tree-sitter-drools: 0.1.0 -> 0.2.0"
   },
   "583221": {
+   "darwin": true,
    "head": "0e0b65f6299f59554a69a3ce249142cc1f63e429",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42154188342,
+   "status": "dispatched",
+   "time": "2026-11-06T03:03:44+00:00",
    "title": "vue-language-server: 3.3.13 -> 3.3.14"
   },
   "583227": {
+   "darwin": true,
    "head": "3d06f081c4d2ead650c88379a98314a8e772d8df",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42154011036,
+   "status": "dispatched",
+   "time": "2026-11-06T03:02:01+00:00",
    "title": "python3Packages.apispec: 6.10.0 -> 6.10.1"
   },
   "583228": {
+   "darwin": true,
    "head": "151a01ce5fec3b22c7a8a0818f0c6ef3d04911ad",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42153296756,
+   "status": "dispatched",
+   "time": "2026-11-06T02:54:55+00:00",
    "title": "tcl9Packages.yajl-tcl: 1.8.1 -> 1.9.0"
   },
   "583246": {
@@ -20273,6 +20339,8 @@
   },
   "583337": {
    "darwin": true,
+   "examined": 1,
+   "final": "review (x86_64-linux): The operation was canceled.; review (aarch64-linux): The operation was canceled.",
    "head": "fb4665e74e26935f47dff9fe14ea429f67a088eb",
    "on_success": "nothing",
    "previous_run_id": null,
