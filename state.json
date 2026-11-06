@@ -20034,18 +20034,36 @@
    "title": "hyprpicker: 0.4.7 -> 0.4.8"
   },
   "582792": {
+   "darwin": true,
    "head": "6a3d944c61338b84d74e3ed45d2b4447cadd9ac9",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42158736429,
+   "status": "dispatched",
+   "time": "2026-11-06T03:48:27+00:00",
    "title": "libspectrum: 1.6.3 -> 1.8.0"
   },
   "582826": {
+   "darwin": true,
    "head": "1d99bb7a8e4ecc1156e448ddc4205c7310f9ad21",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42158263228,
+   "status": "dispatched",
+   "time": "2026-11-06T03:43:34+00:00",
    "title": "packer: 1.16.1 -> 1.16.2"
   },
   "582828": {
+   "darwin": true,
    "head": "51263ee724c65678e516d46bc707fbb59933ab34",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42157687746,
+   "status": "dispatched",
+   "time": "2026-11-06T03:37:35+00:00",
    "title": "enzyme: 0.0.303 -> 0.0.304"
   },
   "582832": {
@@ -20060,13 +20078,25 @@
    "title": "google-lighthouse: 13.5.0 -> 13.6.0"
   },
   "582847": {
+   "darwin": true,
    "head": "45e0b722de7da26466284e57a4e9138aac1d16b1",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42157410079,
+   "status": "dispatched",
+   "time": "2026-11-06T03:34:50+00:00",
    "title": "wails: 2.17.0 -> 3.1.0"
   },
   "582867": {
+   "darwin": true,
    "head": "418ac3023b5ac05c35c7ced6c478924fe9c688c6",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42157327245,
+   "status": "dispatched",
+   "time": "2026-11-06T03:34:02+00:00",
    "title": "python3Packages.ouman-eh-800-api: 1.1.0 -> 2.0.0"
   },
   "582933": {
@@ -20092,18 +20122,36 @@
    "title": "mendeley: 2.150.0 -> 2.151.0"
   },
   "582943": {
+   "darwin": true,
    "head": "edde72ef93f21fcd9193509b1e045c06d55552c3",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42157269808,
+   "status": "dispatched",
+   "time": "2026-11-06T03:33:27+00:00",
    "title": "libastyle: 3.6.20 -> 3.6.21"
   },
   "582946": {
+   "darwin": true,
    "head": "3c8ff299167207bada5e58b96846ded962d9e81a",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42156670939,
+   "status": "dispatched",
+   "time": "2026-11-06T03:27:32+00:00",
    "title": "python3Packages.findpython: 0.8.0 -> 0.9.0"
   },
   "582970": {
+   "darwin": true,
    "head": "b9f1ba98834a021f40fba372b0f8f8a79c47aff4",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42156285334,
+   "status": "dispatched",
+   "time": "2026-11-06T03:23:46+00:00",
    "title": "testkube: 2.14.0 -> 2.15.0"
   },
   "582976": {
