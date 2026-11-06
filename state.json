@@ -2357,6 +2357,7 @@
   "523215": {
    "darwin": true,
    "extra_args": "--eval local",
+   "final": "cancelled after 4 hours",
    "head": "4157c585ca6ba5cca6cb11d1e9cd81f5bdce13fa",
    "on_success": "nothing",
    "previous_run_id": 41657785858,
