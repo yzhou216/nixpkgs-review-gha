@@ -3507,9 +3507,14 @@
    "title": "python3Packages.nocasedict: 2.2.0 -> 2.3.0a0"
   },
   "539366": {
+   "darwin": true,
    "head": "178be09bf0072195c433d087b07dff97f40e3c8d",
+   "on_success": "nothing",
    "previous_run_id": 40135016360,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 42186645596,
+   "status": "dispatched",
+   "time": "2026-11-06T08:17:44+00:00",
    "title": "ocamlPackages.ocamlformat-mlx-lib: 0.28.1.2 -> 0.29.0.2"
   },
   "539367": {
@@ -20111,6 +20116,7 @@
   },
   "582566": {
    "darwin": true,
+   "final": "cancelled after 4 hours",
    "head": "da92ae3b3514fc371ee28d40c45537d6e947d4ed",
    "on_success": "nothing",
    "previous_run_id": null,
@@ -20133,6 +20139,7 @@
   },
   "582568": {
    "darwin": true,
+   "final": "cancelled after 4 hours",
    "head": "02b6c240cc3aa3369dc387dd4a6389b3de618d5b",
    "on_success": "nothing",
    "previous_run_id": null,
