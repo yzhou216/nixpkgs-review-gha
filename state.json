@@ -20206,8 +20206,14 @@
    "title": "tcl9Packages.yajl-tcl: 1.8.1 -> 1.9.0"
   },
   "583246": {
+   "darwin": true,
    "head": "2eb389e0fea895210a936b3b6ef16fbe0b2bdf95",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42152798767,
+   "status": "dispatched",
+   "time": "2026-11-06T02:49:59+00:00",
    "title": "i3a: 2.4.0 -> 2.4.1"
   },
   "583253": {
@@ -20233,8 +20239,14 @@
    "title": "calico-apiserver: 3.32.1 -> 3.32.3"
   },
   "583256": {
+   "darwin": true,
    "head": "783b9ddc2b03d5ce7588b2cf2731d9ee9826af57",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42152412915,
+   "status": "dispatched",
+   "time": "2026-11-06T02:46:14+00:00",
    "title": "vscode-extensions.aaron-bond.better-comments: 3.0.2 -> 3.2.0"
   },
   "583266": {
@@ -20249,13 +20261,25 @@
    "title": "htpdate: 2.0.2 -> 2.1.0"
   },
   "583278": {
+   "darwin": true,
    "head": "977a7742084016ca008d3d884ce28dcfd803ccfa",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42152352968,
+   "status": "dispatched",
+   "time": "2026-11-06T02:45:39+00:00",
    "title": "python3Packages.django-ninja: 1.7.1 -> 1.7.3"
   },
   "583337": {
+   "darwin": true,
    "head": "fb4665e74e26935f47dff9fe14ea429f67a088eb",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42151945228,
+   "status": "dispatched",
+   "time": "2026-11-06T02:41:43+00:00",
    "title": "dlpack: 1.3 -> 1.4"
   },
   "583369": {
@@ -20292,18 +20316,36 @@
    "title": "home-assistant-custom-components.scheduler: 3.3.8 -> 3.3.9"
   },
   "583426": {
+   "darwin": true,
    "head": "5bfabb9986ca734c9c1b7c8fb30f0cd999b59191",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42151879451,
+   "status": "dispatched",
+   "time": "2026-11-06T02:41:04+00:00",
    "title": "home-assistant-custom-lovelace-modules.material-you-utilities: 2.1.27 -> 2.1.28"
   },
   "583441": {
+   "darwin": true,
    "head": "90e3142ae11bec4c5dfdf13dcbc7a8ff3b262d0e",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42151696019,
+   "status": "dispatched",
+   "time": "2026-11-06T02:39:20+00:00",
    "title": "keepass: 2.61.1 -> 2.62"
   },
   "583443": {
+   "darwin": true,
    "head": "b4bf1397f0faafbf3dca59183e5ad68c728ccaa7",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42151519997,
+   "status": "dispatched",
+   "time": "2026-11-06T02:37:37+00:00",
    "title": "testssl: 3.2.4 -> 3.2.5"
   },
   "583446": {
@@ -20329,8 +20371,14 @@
    "title": "sogo: 5.12.12 -> 5.12.13"
   },
   "583455": {
+   "darwin": true,
    "head": "3fa87742d75704a633a2ab88788b2e3931e98940",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42150883970,
+   "status": "dispatched",
+   "time": "2026-11-06T02:31:39+00:00",
    "title": "libphonenumber: 9.0.42 -> 9.0.43"
   },
   "583456": {
@@ -20345,8 +20393,14 @@
    "title": "indicator-sound-switcher: 2.3.10.1 -> 2.4.0.0"
   },
   "583462": {
+   "darwin": true,
    "head": "4c5c7eb783d0db3a201d6425c624ec7208952019",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42150812958,
+   "status": "dispatched",
+   "time": "2026-11-06T02:31:00+00:00",
    "title": "aperture: 0.5.0 -> 0.6.0"
   },
   "583474": {
@@ -20361,18 +20415,36 @@
    "title": "gale: 1.23.2 -> 1.23.3"
   },
   "583479": {
+   "darwin": true,
    "head": "9d6127c42a539ec155447f0213ea76ab95e3c3e3",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42150502012,
+   "status": "dispatched",
+   "time": "2026-11-06T02:28:07+00:00",
    "title": "python3Packages.kaldi-native-fbank: 1.22.4 -> 1.22.5"
   },
   "583493": {
+   "darwin": true,
    "head": "c07a482cfb6bb22a29f684eee7a0030e3fe80acd",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42149995466,
+   "status": "dispatched",
+   "time": "2026-11-06T02:23:19+00:00",
    "title": "adminneo: 5.8.0 -> 5.9.0"
   },
   "583506": {
+   "darwin": true,
    "head": "a5e42723a4b808b9ab8403445fe0794ce5179d9d",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42149702975,
+   "status": "dispatched",
+   "time": "2026-11-06T02:20:35+00:00",
    "title": "libretro-shaders-slang: 0-unstable-2026-08-25 -> 0-unstable-2026-11-04"
   },
   "583518": {
