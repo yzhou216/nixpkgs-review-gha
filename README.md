@@ -16,4 +16,6 @@ On 2026-10-30, every open r-ryantm pull request on master without a result for i
 
 On 2026-11-03, 323 more were queued the same way: 248 r-ryantm pull requests opened, rebased or updated since, 49 trivial bumps by other authors created since 2026-10-24, which get an approval on success, and 26 reviews that had failed in a job without posting a result.  Five superseded r-ryantm pull requests were closed instead.
 
+On 2026-11-06, 200 more r-ryantm pull requests without a result for their head were queued the same way, 49 of them without aarch64-darwin.  Left out were 60 whose review had hit the 4-hour cutoff, the 6-hour job limit or repeated runner losses at the same head, and 54 superseded ones were closed instead.
+
 `tests/` holds stub tests of `dispatch.py`, which replace `gh` and every GitHub request, so they never touch GitHub.  Run each with CPython from this directory, for example `PATH=/nonexistent python3 -I tests/test_rerun.py .`, where the last argument is the directory that holds `dispatch.py`.
