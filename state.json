@@ -15158,9 +15158,14 @@
    "title": "ogre: 14.6.1 -> 14.6.2"
   },
   "578432": {
+   "darwin": true,
    "head": "6a47517f39d6aef56f1eb4f1b21d25b4454e1ac7",
+   "on_success": "nothing",
    "previous_run_id": 40139658253,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 42165038431,
+   "status": "dispatched",
+   "time": "2026-11-06T04:52:22+00:00",
    "title": "tutanota-desktop: 361.261006.0 -> 365.261103.0"
   },
   "578440": {
@@ -15277,9 +15282,14 @@
    "title": "go-camo: 2.7.7 -> 3.1"
   },
   "578534": {
+   "darwin": true,
    "head": "a92cbc8d851ea86a4cc3de99433e56bea97baedd",
+   "on_success": "nothing",
    "previous_run_id": 41062804072,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 42164923058,
+   "status": "dispatched",
+   "time": "2026-11-06T04:51:09+00:00",
    "title": "python3Packages.superqt: 0.8.3 -> 0.9.1"
   },
   "578554": {
@@ -15293,9 +15303,14 @@
    "title": "python3Packages.llama-index-workflows: 2.26.0 -> 2.26.1"
   },
   "578603": {
+   "darwin": true,
    "head": "010d51a432e4c08139b028b99ed10e895db0e3b3",
+   "on_success": "nothing",
    "previous_run_id": 41057257787,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 42164271971,
+   "status": "dispatched",
+   "time": "2026-11-06T04:44:25+00:00",
    "title": "vscode-extensions.biomejs.biome: 2026.8.190716 -> 2026.11.20920"
   },
   "578615": {
@@ -19947,13 +19962,25 @@
    "title": "material-maker: 1.7 -> 1.8"
   },
   "582543": {
+   "darwin": true,
    "head": "ef9e31d5085ff508272c890b53c82eba750b203c",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42163394166,
+   "status": "dispatched",
+   "time": "2026-11-06T04:35:18+00:00",
    "title": "tirith: 0.4.2 -> 0.5.0"
   },
   "582544": {
+   "darwin": true,
    "head": "2be10ec7bec3bf4886effbe0b61bd61c983804a9",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42162294873,
+   "status": "dispatched",
+   "time": "2026-11-06T04:24:14+00:00",
    "title": "python3Packages.diff-cover: 10.6.0 -> 11.0.0"
   },
   "582545": {
