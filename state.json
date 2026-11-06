@@ -7286,9 +7286,14 @@
    "title": "asmjit: 0-unstable-2026-03-26 -> 0-unstable-2026-10-12"
   },
   "562237": {
+   "darwin": true,
    "head": "a39ed0cfad2bae24c1424422284198a38eaab3bb",
+   "on_success": "nothing",
    "previous_run_id": 40166431349,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 42175160018,
+   "status": "dispatched",
+   "time": "2026-11-06T06:33:15+00:00",
    "title": "mssql_jdbc: 13.4.0 -> 13.6.2"
   },
   "562278": {
@@ -7310,9 +7315,14 @@
    "title": "python3Packages.django-countries: 9.0.0 -> 9.1.0"
   },
   "562314": {
+   "darwin": true,
    "head": "bdb9065c56e5960f03cfbf68aacc5d0610bd7220",
+   "on_success": "nothing",
    "previous_run_id": 40166722446,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 42174974903,
+   "status": "dispatched",
+   "time": "2026-11-06T06:31:30+00:00",
    "title": "schemacrawler: 17.14.1 -> 18.0.1"
   },
   "562319": {
@@ -8055,9 +8065,14 @@
    "tries": 0
   },
   "565589": {
+   "darwin": true,
    "head": "d24a7a1b2d90e92798260d5ddee2295155a21fc3",
+   "on_success": "nothing",
    "previous_run_id": 40167171759,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 42174210999,
+   "status": "dispatched",
+   "time": "2026-11-06T06:24:19+00:00",
    "title": "storj-uplink: 1.153.2 -> 1.166.1"
   },
   "565599": {
@@ -8858,9 +8873,14 @@
    "title": "archivemount: 1b -> 1c"
   },
   "568078": {
+   "darwin": true,
    "head": "00ab1cce8649c67fdea8c35c0d45a7259166205c",
+   "on_success": "nothing",
    "previous_run_id": 41639948240,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 42173244719,
+   "status": "dispatched",
+   "time": "2026-11-06T06:15:05+00:00",
    "title": "petsc: 3.25.5 -> 3.26.1"
   },
   "568109": {
@@ -15348,6 +15368,8 @@
   },
   "578603": {
    "darwin": true,
+   "examined": 1,
+   "final": "review (x86_64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ",
    "head": "010d51a432e4c08139b028b99ed10e895db0e3b3",
    "on_success": "nothing",
    "previous_run_id": 41057257787,
@@ -20304,6 +20326,8 @@
   },
   "582980": {
    "darwin": true,
+   "examined": 1,
+   "final": "review (aarch64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ",
    "head": "68b6c248e7e9a0a335b1c220acaae66bca0c0906",
    "on_success": "nothing",
    "previous_run_id": null,
@@ -20625,6 +20649,7 @@
   },
   "583455": {
    "darwin": true,
+   "final": "cancelled after 4 hours",
    "head": "3fa87742d75704a633a2ab88788b2e3931e98940",
    "on_success": "nothing",
    "previous_run_id": null,
