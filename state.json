@@ -20092,18 +20092,36 @@
    "title": "dlpack: 1.3 -> 1.4"
   },
   "583369": {
+   "darwin": false,
    "head": "1b74f1770f075f5bbe37b0cb004a22cd03df534e",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42142987391,
+   "status": "dispatched",
+   "time": "2026-11-06T01:18:51+00:00",
    "title": "vscode-extensions.ufo5260987423.magic-scheme: 0.0.17 -> 0.0.18"
   },
   "583376": {
+   "darwin": false,
    "head": "47150e266609591f9bf23c5d15572b5e2be3aca2",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42142910593,
+   "status": "dispatched",
+   "time": "2026-11-06T01:18:12+00:00",
    "title": "icinga2-agent: 2.16.3 -> 2.16.6"
   },
   "583422": {
+   "darwin": false,
    "head": "9edcd46f805b705731f1d315047ff79bc9bf8cf3",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42142631938,
+   "status": "dispatched",
+   "time": "2026-11-06T01:15:47+00:00",
    "title": "home-assistant-custom-components.scheduler: 3.3.8 -> 3.3.9"
   },
   "583426": {
@@ -20122,13 +20140,25 @@
    "title": "testssl: 3.2.4 -> 3.2.5"
   },
   "583446": {
+   "darwin": false,
    "head": "032330b4527fb76f05aa4ecbcd0502e8ac6dd8d5",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42142240711,
+   "status": "dispatched",
+   "time": "2026-11-06T01:12:20+00:00",
    "title": "kdePackages.drumstick: 2.11.1 -> 2.11.2"
   },
   "583450": {
+   "darwin": false,
    "head": "133fa06598db000dc033922d0588b68e2c383c2b",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42142041040,
+   "status": "dispatched",
+   "time": "2026-11-06T01:10:36+00:00",
    "title": "sogo: 5.12.12 -> 5.12.13"
   },
   "583455": {
@@ -20137,8 +20167,14 @@
    "title": "libphonenumber: 9.0.42 -> 9.0.43"
   },
   "583456": {
+   "darwin": false,
    "head": "57d51047654b46b2e87b380a356f1af887a749ef",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42141940840,
+   "status": "dispatched",
+   "time": "2026-11-06T01:09:47+00:00",
    "title": "indicator-sound-switcher: 2.3.10.1 -> 2.4.0.0"
   },
   "583462": {
@@ -20147,8 +20183,14 @@
    "title": "aperture: 0.5.0 -> 0.6.0"
   },
   "583474": {
+   "darwin": false,
    "head": "22bf9738461ba58855fc9c03185798d4f57e55c2",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42141854382,
+   "status": "dispatched",
+   "time": "2026-11-06T01:09:02+00:00",
    "title": "gale: 1.23.2 -> 1.23.3"
   },
   "583479": {
@@ -20182,8 +20224,14 @@
    "title": "python3Packages.django-import-export: 4.4.3 -> 4.4.4"
   },
   "583536": {
+   "darwin": false,
    "head": "440a907d42f6836b2f409a948c9285a7b89c8f0d",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42141622825,
+   "status": "dispatched",
+   "time": "2026-11-06T01:07:03+00:00",
    "title": "home-assistant-custom-components.llm_intents: 1.11.1 -> 1.12.0"
   },
   "583545": {
@@ -20227,8 +20275,14 @@
    "title": "typos: 1.51.1 -> 1.52.0"
   },
   "583623": {
+   "darwin": false,
    "head": "34b44887b2196b483bd5ad089433a16761bf5f51",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42141460192,
+   "status": "dispatched",
+   "time": "2026-11-06T01:05:40+00:00",
    "title": "libretro.stella: 0-unstable-2026-10-24 -> 0-unstable-2026-11-04"
   },
   "583624": {
@@ -20237,8 +20291,14 @@
    "title": "jetbrains-toolbox: 3.9.0.88839 -> 3.9.1.89198"
   },
   "583653": {
+   "darwin": false,
    "head": "abd55fd82334744adac31eb0e679716deef7823c",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42141280205,
+   "status": "dispatched",
+   "time": "2026-11-06T01:04:10+00:00",
    "title": "envfs: 1.2.0 -> 1.3.0"
   },
   "583663": {
@@ -20267,13 +20327,25 @@
    "title": "python3Packages.huum: 0.8.3 -> 0.8.4"
   },
   "583694": {
+   "darwin": false,
    "head": "58ba699f231fa495ace73f978717511ea0a17a70",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42141062000,
+   "status": "dispatched",
+   "time": "2026-11-06T01:02:16+00:00",
    "title": "mozillavpn: 2.40.0 -> 2.40.1"
   },
   "583699": {
+   "darwin": false,
    "head": "fb5b3520e84657191ee6230dd5012f88120ea3fb",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42140814193,
+   "status": "dispatched",
+   "time": "2026-11-06T01:00:12+00:00",
    "title": "megasync: 6.6.2.0 -> 6.7.0.3"
   },
   "583708": {
@@ -20292,118 +20364,256 @@
    "title": "python3Packages.allure-python-commons: 2.16.0 -> 2.16.2"
   },
   "583753": {
+   "darwin": true,
    "head": "6b1f27fc8aba30e1f1c79777b626baf66e88e3ec",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42142773314,
+   "status": "dispatched",
+   "time": "2026-11-06T01:16:59+00:00",
    "title": "tcl8Packages.tclcurl: 7.22.1 -> 7.23.0"
   },
   "583755": {
+   "darwin": true,
    "head": "fb72f0b03a6530be820bb07ebf80b72966a7f0db",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42142705938,
+   "status": "dispatched",
+   "time": "2026-11-06T01:16:24+00:00",
    "title": "freelens-bin: 1.10.3 -> 2.0.0"
   },
   "583762": {
+   "darwin": true,
    "head": "3ccef178adbd9dcf50ca578eeb77e03b704f7b48",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42142314523,
+   "status": "dispatched",
+   "time": "2026-11-06T01:13:01+00:00",
    "title": "amass: 5.1.2 -> 5.1.3"
   },
   "583771": {
+   "darwin": true,
    "head": "d1b4347905688d9b2667757e95c9531dbbcded77",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42141763241,
+   "status": "dispatched",
+   "time": "2026-11-06T01:08:14+00:00",
    "title": "oauth2-proxy: 7.15.5 -> 7.15.6"
   },
   "583772": {
+   "darwin": true,
    "head": "e836411708b0b384828c79c4343cee8b555dcf2e",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42141373479,
+   "status": "dispatched",
+   "time": "2026-11-06T01:04:59+00:00",
    "title": "okteto: 3.24.1 -> 3.25.0"
   },
   "583776": {
+   "darwin": true,
    "head": "6b8db5d11423242578376279fb4b39edbee9fc46",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42141202736,
+   "status": "dispatched",
+   "time": "2026-11-06T01:03:31+00:00",
    "title": "python3Packages.mergecal: 0.5.0 -> 0.6.1"
   },
   "583777": {
+   "darwin": true,
    "head": "6f948e5d980abe290a11cf7558aac563e56d1735",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42140979756,
+   "status": "dispatched",
+   "time": "2026-11-06T01:01:35+00:00",
    "title": "livekit-ingress: 1.5.0 -> 1.6.0"
   },
   "583778": {
+   "darwin": true,
    "head": "9be0a622cdf6dbe269a1a54482acac5c24361a91",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42140901867,
+   "status": "dispatched",
+   "time": "2026-11-06T01:00:56+00:00",
    "title": "reaper: 7.83 -> 7.84"
   },
   "583788": {
+   "darwin": true,
    "head": "0cf21231236adc37bfc2e3073b8a79877a8aa189",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42140588663,
+   "status": "dispatched",
+   "time": "2026-11-06T00:58:09+00:00",
    "title": "python3Packages.pyscf: 2.14.0 -> 2.15.0"
   },
   "583793": {
+   "darwin": false,
    "head": "c16ce1df2a4a436e0074dfcbee38bef8b041d664",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42140510307,
+   "status": "dispatched",
+   "time": "2026-11-06T00:57:27+00:00",
    "title": "home-assistant-custom-components.local_openai: 1.13.0 -> 1.15.0"
   },
   "583794": {
+   "darwin": true,
    "head": "106b83162c884a80f53bc55a542c7bb3cfc54485",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42140437283,
+   "status": "dispatched",
+   "time": "2026-11-06T00:56:48+00:00",
    "title": "oxlint: 1.89.0 -> 1.91.0"
   },
   "583798": {
+   "darwin": true,
    "head": "38f4dddd0b8f3a9cecc167b9e60594534c34c741",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42140362904,
+   "status": "dispatched",
+   "time": "2026-11-06T00:56:06+00:00",
    "title": "python3Packages.mscerts: 2026.8.28 -> 2026.10.27"
   },
   "583800": {
+   "darwin": false,
    "head": "cfdb68384c2942945644997c998db4cf4f11e7de",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42140295202,
+   "status": "dispatched",
+   "time": "2026-11-06T00:55:27+00:00",
    "title": "cyan-skillfish-governor-smu: 0.4.14 -> 0.4.15"
   },
   "583801": {
+   "darwin": true,
    "head": "a0996710be639f214f3fa012d978974217655fb8",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42140210297,
+   "status": "dispatched",
+   "time": "2026-11-06T00:54:46+00:00",
    "title": "coc-rust-analyzer: 0-unstable-2026-10-01 -> 0-unstable-2026-11-05"
   },
   "583804": {
+   "darwin": true,
    "head": "4f097a111d36a93771db1267d8e86cc7d1e9db41",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42140138792,
+   "status": "dispatched",
+   "time": "2026-11-06T00:54:07+00:00",
    "title": "boringssl: 0.20261020.0 -> 0.20261105.0"
   },
   "583809": {
+   "darwin": false,
    "head": "bb6ae2332711eeaced3d17bbe6c89230695e4735",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42140057567,
+   "status": "dispatched",
+   "time": "2026-11-06T00:53:26+00:00",
    "title": "lenovo-legion: 0.1.4-unstable-2026-10-24 -> 0.1.5-unstable-2026-11-04"
   },
   "583812": {
+   "darwin": true,
    "head": "f92d62e46369c5207959c64464e1a22cc525c80e",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42139995105,
+   "status": "dispatched",
+   "time": "2026-11-06T00:52:51+00:00",
    "title": "_1password-cli: 2.41.1 -> 2.42.0"
   },
   "583814": {
+   "darwin": true,
    "head": "fc386c041cf800b8f2fc218cc06d181433e9b164",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42139918817,
+   "status": "dispatched",
+   "time": "2026-11-06T00:52:14+00:00",
    "title": "bcftools: 1.24 -> 1.25"
   },
   "583815": {
+   "darwin": true,
    "head": "19d48bcdf6578080a91a1ae6cb85caad9873c9dc",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42139848966,
+   "status": "dispatched",
+   "time": "2026-11-06T00:51:39+00:00",
    "title": "pingtunnel: 3.0 -> 3.1"
   },
   "583816": {
+   "darwin": false,
    "head": "d1a1bc59b6bddd1015bc13de40d52805c1be05d0",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42139784882,
+   "status": "dispatched",
+   "time": "2026-11-06T00:51:03+00:00",
    "title": "lms: 3.81.0 -> 3.82.0"
   },
   "583823": {
+   "darwin": false,
    "head": "7204151f5166ab50564162db88f1294be2019fcf",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42139724109,
+   "status": "dispatched",
+   "time": "2026-11-06T00:50:28+00:00",
    "title": "home-assistant-custom-components.anker_solix_official: 1.5.0 -> 1.5.1"
   },
   "583826": {
+   "darwin": true,
    "head": "4047199f5cd99275dedc985d2f3909cd82f9ec56",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42139645205,
+   "status": "dispatched",
+   "time": "2026-11-06T00:49:51+00:00",
    "title": "pijul: 1.0.0-beta.24 -> 1.0.0-beta.26"
   },
   "583828": {
+   "darwin": false,
    "head": "f153059090b0298d2bfcedce416e43be7c8a4882",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42139576699,
+   "status": "dispatched",
+   "time": "2026-11-06T00:49:17+00:00",
    "title": "home-assistant-custom-components.gtfs-realtime: 0.4.10 -> 0.4.11"
   }
  }
