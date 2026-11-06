@@ -11044,9 +11044,14 @@
    "title": "gretl: 2026b -> 2026d"
   },
   "573447": {
+   "darwin": true,
    "head": "022924bc2f41d549db0f9c1dcc1ba991f04899f7",
+   "on_success": "nothing",
    "previous_run_id": 39425036912,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 42167362571,
+   "status": "dispatched",
+   "time": "2026-11-06T05:15:41+00:00",
    "title": "python3Packages.ansible: 14.4.0 -> 14.6.0"
   },
   "573458": {
@@ -14271,9 +14276,14 @@
    "title": "spacenavd: 1.3.1 -> 1.4"
   },
   "577700": {
+   "darwin": true,
    "head": "30ebb024c57cd060a0684d631cfcd4239873db2a",
+   "on_success": "nothing",
    "previous_run_id": 41796765665,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 42165851100,
+   "status": "dispatched",
+   "time": "2026-11-06T05:00:56+00:00",
    "title": "python3Packages.azure-storage-queue: 12.17.0 -> 12.18.1"
   },
   "577709": {
@@ -14753,9 +14763,14 @@
    "tries": 5
   },
   "578190": {
+   "darwin": true,
    "head": "fcccb05b63079cd931e409632b06cfb2639cb7ca",
+   "on_success": "nothing",
    "previous_run_id": 40141634296,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 42165486060,
+   "status": "dispatched",
+   "time": "2026-11-06T04:57:06+00:00",
    "title": "python3Packages.odfdo: 3.27.1 -> 3.27.3"
   },
   "578191": {
@@ -15027,9 +15042,16 @@
    "title": "python3Packages.pydyf: 0.12.1 -> 0.13.0"
   },
   "578372": {
+   "darwin": true,
+   "examined": 1,
+   "final": "report: Process completed with exit code 1.",
    "head": "1474e19fa40a31ef108a62595075cb986ce7ba72",
+   "on_success": "nothing",
    "previous_run_id": 40172370768,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 42165360997,
+   "status": "dispatched",
+   "time": "2026-11-06T04:55:44+00:00",
    "title": "vscode-extensions.ionide.ionide-fsharp: 7.31.1 -> 8.1.0"
   },
   "578373": {
