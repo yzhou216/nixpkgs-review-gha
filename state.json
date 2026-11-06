@@ -50,8 +50,14 @@
    "title": "core: init at 0-unstable-2026-10-16"
   },
   "436553": {
+   "darwin": true,
    "head": "aeacc63b7a3b728cb913cb77a9ea6b64ad4037f4",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42194153312,
+   "status": "dispatched",
+   "time": "2026-11-06T09:19:20+00:00",
    "title": "exabgp: 5.0.1 -> 5.0.13"
   },
   "443347": {
@@ -171,8 +177,14 @@
    "tries": 0
   },
   "461125": {
+   "darwin": true,
    "head": "b9fd3e32ced5428d967a91c12f712f974ce3e5c6",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42193864846,
+   "status": "dispatched",
+   "time": "2026-11-06T09:17:02+00:00",
    "title": "grafanaPlugins.grafana-sentry-datasource: 2.2.1 -> 2.2.11"
   },
   "462031": {
@@ -199,8 +211,14 @@
    "title": "nanoflann: 1.7.1 -> 1.9.0"
   },
   "462989": {
+   "darwin": true,
    "head": "2c3e1c6b9d82c48d918e4146ad94bb94a34351e6",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42193274208,
+   "status": "dispatched",
+   "time": "2026-11-06T09:12:27+00:00",
    "title": "icingaweb2-ipl: 0.17.0 -> 1.2.0"
   },
   "462990": {
