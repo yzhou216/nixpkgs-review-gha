@@ -15690,9 +15690,14 @@
    "title": "gguf: 10798 -> 12176"
   },
   "579087": {
+   "darwin": true,
    "head": "3319e46f1c7d4e2a597f05ec8e4e61227c8fd96f",
+   "on_success": "nothing",
    "previous_run_id": 41043059175,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 42360274603,
+   "status": "dispatched",
+   "time": "2026-11-07T09:33:59+00:00",
    "title": "steampipe: 2.4.7 -> 2.4.9"
   },
   "579117": {
@@ -20269,9 +20274,14 @@
    "title": "babashka-unwrapped: 1.13.226 -> 1.13.229"
   },
   "582980": {
+   "darwin": true,
    "head": "68b6c248e7e9a0a335b1c220acaae66bca0c0906",
+   "on_success": "nothing",
    "previous_run_id": 42155254003,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 42359878336,
+   "status": "dispatched",
+   "time": "2026-11-07T09:28:28+00:00",
    "title": "json-repair: 0.64.1 -> 0.64.4"
   },
   "582981": {
@@ -20762,9 +20772,14 @@
    "title": "rolldown: 1.2.15 -> 1.2.16"
   },
   "583578": {
+   "darwin": true,
    "head": "2ac97780125c3bda282f3d52bd74ef7b3457c8d1",
+   "on_success": "nothing",
    "previous_run_id": 42145634056,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 42359001639,
+   "status": "dispatched",
+   "time": "2026-11-07T09:16:01+00:00",
    "title": "python3Packages.multi-key-dict: 2.0.3 -> 2.0.4"
   },
   "583606": {
