@@ -557,9 +557,14 @@
    "title": "python3Packages.wn: 0.14.0 -> 1.1.1"
   },
   "487871": {
+   "darwin": true,
    "head": "4c2b747133e27f4c70e5f34757bef33997ae8a49",
+   "on_success": "nothing",
    "previous_run_id": 41202925963,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 42372193803,
+   "status": "dispatched",
+   "time": "2026-11-07T12:22:29+00:00",
    "title": "libupnp: 1.14.25 -> 22.2.0"
   },
   "488453": {
@@ -932,9 +937,14 @@
    "title": "python3Packages.r2pipe: 1.9.8 -> 2.1.0"
   },
   "498561": {
+   "darwin": true,
    "head": "6983cadc268e4b623ce98bcbbf8f8b968b6c0e53",
+   "on_success": "nothing",
    "previous_run_id": 41190432365,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 42371816278,
+   "status": "dispatched",
+   "time": "2026-11-07T12:17:31+00:00",
    "title": "python3Packages.azure-mgmt-postgresqlflexibleservers: 3.0.0b1 -> 3.0.0"
   },
   "499116": {
@@ -1254,9 +1264,14 @@
    "title": "zoekt: 0-unstable-2026-03-25 -> 0-unstable-2026-11-03"
   },
   "506794": {
+   "darwin": true,
    "head": "b98bde7e25fe2893909bdbefdcdb9d57880035ed",
+   "on_success": "nothing",
    "previous_run_id": 41182070991,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 42371497204,
+   "status": "dispatched",
+   "time": "2026-11-07T12:13:10+00:00",
    "title": "python3Packages.urwid: 4.0.11 -> 5.0.1"
   },
   "507194": {
@@ -1378,9 +1393,14 @@
    "title": "python3Packages.gsd: 4.2.0 -> 5.0.1"
   },
   "509417": {
+   "darwin": true,
    "head": "1f39e6cba6426156b0718c00a965663ae2c66600",
+   "on_success": "nothing",
    "previous_run_id": 41180306633,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 42371358470,
+   "status": "dispatched",
+   "time": "2026-11-07T12:11:18+00:00",
    "title": "python3Packages.dbt-protos: 1.0.455 -> 1.0.623"
   },
   "509427": {
@@ -1866,9 +1886,14 @@
    "title": "anders: 5.0.0 -> 5.1.0"
   },
   "518041": {
+   "darwin": true,
    "head": "dd1287ffcfea8d0d1c681fb61a3c84c1657a35da",
+   "on_success": "nothing",
    "previous_run_id": 41658610165,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 42371104809,
+   "status": "dispatched",
+   "time": "2026-11-07T12:07:50+00:00",
    "title": "python3Packages.csvw: 3.7.0 -> 4.2.0"
   },
   "518145": {
@@ -21324,6 +21349,8 @@
   },
   "583822": {
    "darwin": true,
+   "examined": 1,
+   "final": "review (aarch64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ",
    "head": "b412d7344610f9babc29d78adc0fc97ac5acf2a8",
    "on_success": "nothing",
    "previous_run_id": null,
