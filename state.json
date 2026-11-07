@@ -21154,8 +21154,14 @@
    "title": "lms: 3.81.0 -> 3.82.0"
   },
   "583822": {
+   "darwin": true,
    "head": "b412d7344610f9babc29d78adc0fc97ac5acf2a8",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42358826299,
+   "status": "dispatched",
+   "time": "2026-11-07T09:13:38+00:00",
    "title": "python3Packages.pyiceberg-core: 0.10.1 -> 0.11.0"
   },
   "583823": {
@@ -21192,23 +21198,47 @@
    "title": "home-assistant-custom-components.gtfs-realtime: 0.4.10 -> 0.4.11"
   },
   "583832": {
+   "darwin": true,
    "head": "165439b375ba87e7c11ab1b9a9ce22e54e38837c",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42358735976,
+   "status": "dispatched",
+   "time": "2026-11-07T09:12:25+00:00",
    "title": "sigil: 2.8.1 -> 2.8.5"
   },
   "583852": {
+   "darwin": true,
    "head": "885bd785a0fcd1ee4b9f7e70511182132080afa3",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42358686347,
+   "status": "dispatched",
+   "time": "2026-11-07T09:11:45+00:00",
    "title": "python3Packages.tika-client: 1.0.0 -> 2.0.0"
   },
   "583856": {
+   "darwin": true,
    "head": "b1a912382ea2e39e8544d8e8325d592469e63a5c",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42358597087,
+   "status": "dispatched",
+   "time": "2026-11-07T09:10:32+00:00",
    "title": "parallel-hashmap: 2.0.0 -> 2.1.0"
   },
   "583863": {
+   "darwin": true,
    "head": "e9363c4ec5ca57c7fef2aaaa7d40c8cdb6de8fd2",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42358495451,
+   "status": "dispatched",
+   "time": "2026-11-07T09:09:11+00:00",
    "title": "highlight: 4.21 -> 4.22"
   },
   "583865": {
@@ -21234,13 +21264,25 @@
    "title": "livi: 0.6.0 -> 0.6.1"
   },
   "583872": {
+   "darwin": true,
    "head": "ead0d7a33364cc4fb0d1d02ab434d192fc75b22c",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42358454821,
+   "status": "dispatched",
+   "time": "2026-11-07T09:08:37+00:00",
    "title": "proton-pass: 1.42.0 -> 1.43.0"
   },
   "583881": {
+   "darwin": true,
    "head": "778f6f5d5a29100ad8adc0ce1a4f403e5aa21ee7",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42358010337,
+   "status": "dispatched",
+   "time": "2026-11-07T09:02:34+00:00",
    "title": "python3Packages.gpsoauth: 2.0.0 -> 3.0.0"
   },
   "583884": {
@@ -21266,13 +21308,25 @@
    "title": "python3Packages.hyprland-schema: 0.7.2 -> 0.8.1"
   },
   "583906": {
+   "darwin": true,
    "head": "ac26aa255f9fc0abde3eeadcb0f7b79ded330f34",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42357962847,
+   "status": "dispatched",
+   "time": "2026-11-07T09:01:55+00:00",
    "title": "vscode-extensions.jdinhlife.gruvbox: 1.29.1 -> 1.29.2"
   },
   "583927": {
+   "darwin": true,
    "head": "67213435883fc008473ca859df150a0890131a33",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42357786215,
+   "status": "dispatched",
+   "time": "2026-11-07T08:59:40+00:00",
    "title": "tinyssh: 20261016 -> 20261101"
   },
   "583931": {
@@ -21287,13 +21341,25 @@
    "title": "home-assistant-custom-components.tibber_local: 2026.10.7 -> 2026.11.0"
   },
   "583932": {
+   "darwin": true,
    "head": "9eec8f492fda8ed747b0ebbb783ac9b45f699e21",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42357701820,
+   "status": "dispatched",
+   "time": "2026-11-07T08:58:21+00:00",
    "title": "python3Packages.rendercanvas: 2.7.2 -> 3.0.0"
   },
   "583939": {
+   "darwin": true,
    "head": "bece02a804b920629778fa22bd03b532dd77113f",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42357452106,
+   "status": "dispatched",
+   "time": "2026-11-07T08:54:35+00:00",
    "title": "autobrr: 1.89.0 -> 1.90.0"
   },
   "583946": {
@@ -21330,8 +21396,14 @@
    "title": "seconlay: 0-unstable-2026-10-22 -> 0-unstable-2026-11-05"
   },
   "583999": {
+   "darwin": true,
    "head": "a1dc6505d4ab936be78a8f8a971dbe4c49f15e9f",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42357406832,
+   "status": "dispatched",
+   "time": "2026-11-07T08:53:56+00:00",
    "title": "annapurna-sil: 2.100 -> 3.000"
   },
   "584000": {
@@ -21346,8 +21418,14 @@
    "title": "osu-micro-benchmarks: 7.5.2 -> 7.5.3"
   },
   "584003": {
+   "darwin": true,
    "head": "b00c2e856e57ce1338c020ed391a056fc49427e4",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42357144326,
+   "status": "dispatched",
+   "time": "2026-11-07T08:50:06+00:00",
    "title": "androidStudioPackages.canary: 2026.2.3.1 -> 2026.2.3.3"
   },
   "584054": {
@@ -21373,13 +21451,20 @@
    "title": "kodiPackages.orftvthek: 1.0.3+matrix.1 -> 1.0.4+matrix.1"
   },
   "584075": {
-   "head": "0a09068882015b2361ccc26d2bf6b91ab6e76cde",
-   "status": "requeue",
-   "title": "git-town: 24.1.0 -> 24.1.1"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "git-town: 24.1.0 -> 24.1.1",
+   "tries": 0
   },
   "584078": {
+   "darwin": true,
    "head": "d1e6e56fd32f070378105ac2adebff6514cb5a3d",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42357025869,
+   "status": "dispatched",
+   "time": "2026-11-07T08:48:22+00:00",
    "title": "release-plz: 0.4.1 -> 0.4.3"
   },
   "584092": {
