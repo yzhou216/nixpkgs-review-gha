@@ -1882,9 +1882,14 @@
    "title": "python3Packages.quil: 0.35.0 -> 0.36.0"
   },
   "518151": {
+   "darwin": true,
    "head": "440d7a4e50133dcfb91a844486e13e784b4c04f2",
+   "on_success": "nothing",
    "previous_run_id": 40403621167,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 42370498608,
+   "status": "dispatched",
+   "time": "2026-11-07T11:59:45+00:00",
    "title": "gpac-unstable: 26.07.0-unstable-2026-08-04 -> 26.07.0-unstable-2026-11-06"
   },
   "518174": {
@@ -2356,9 +2361,14 @@
    "title": "python3Packages.mercadopago: 2.4.0 -> 3.6.0"
   },
   "523710": {
+   "darwin": true,
    "head": "2c1da48d03e8887155ab0f405d825a06bb01aa3f",
+   "on_success": "nothing",
    "previous_run_id": 40266944906,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 42370384774,
+   "status": "dispatched",
+   "time": "2026-11-07T11:58:01+00:00",
    "title": "sunxi-tools: 0-unstable-2025-03-29 -> 0-unstable-2026-11-05"
   },
   "523751": {
@@ -2389,9 +2399,14 @@
    "tries": 0
   },
   "523970": {
+   "darwin": true,
    "head": "69215935915d56b652869b2ac40c24ad9c1b9a02",
+   "on_success": "nothing",
    "previous_run_id": 41159575496,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 42370117849,
+   "status": "dispatched",
+   "time": "2026-11-07T11:54:05+00:00",
    "title": "python3Packages.junos-eznc: 2.7.6 -> 2.8.3"
   },
   "524058": {
