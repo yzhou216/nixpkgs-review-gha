@@ -8221,9 +8221,14 @@
    "title": "python3Packages.iminuit: 2.32.0 -> 2.33.0"
   },
   "565996": {
+   "darwin": true,
    "head": "0480ce7e9316e189499327c7fafaa9006450908d",
+   "on_success": "nothing",
    "previous_run_id": 39722885671,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 42367227013,
+   "status": "dispatched",
+   "time": "2026-11-07T11:12:51+00:00",
    "title": "jbang: 0.141.0 -> 0.143.0"
   },
   "565997": {
@@ -9464,9 +9469,14 @@
    "title": "cloud-custodian: 0.9.52.0 -> 0.9.53.0"
   },
   "569378": {
+   "darwin": true,
    "head": "78908ce0755e1974ac62bbbd843ed8ef355ac758",
+   "on_success": "nothing",
    "previous_run_id": 40267991722,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 42367063467,
+   "status": "dispatched",
+   "time": "2026-11-07T11:10:36+00:00",
    "title": "vscode-extensions.teabyii.ayu: 1.1.12 -> 1.6.0"
   },
   "569384": {
@@ -10933,9 +10943,14 @@
    "title": "unrtf: 0.21.10 -> 0.21.13"
   },
   "573113": {
+   "darwin": true,
    "head": "042ac81c8582485cfe139ce583cefa4d3a1e2211",
+   "on_success": "nothing",
    "previous_run_id": 42170265261,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 42366971024,
+   "status": "dispatched",
+   "time": "2026-11-07T11:09:23+00:00",
    "title": "python3Packages.eccodes: 2.48.0 -> 2.50.0"
   },
   "573120": {
@@ -11221,33 +11236,58 @@
    "title": "python3Packages.ansible-core: 2.21.4 -> 2.21.5"
   },
   "573749": {
+   "darwin": true,
    "head": "032d502a4b9e9535ab8ec38d241701b2707e38e4",
+   "on_success": "nothing",
    "previous_run_id": 40268227957,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 42366642987,
+   "status": "dispatched",
+   "time": "2026-11-07T11:04:53+00:00",
    "title": "kumactl: 2.14.5 -> 3.0.1"
   },
   "573750": {
+   "darwin": true,
    "head": "c31bee4976a6c83a0641639f94a717ee61ffa210",
+   "on_success": "nothing",
    "previous_run_id": 40268278018,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 42366518356,
+   "status": "dispatched",
+   "time": "2026-11-07T11:03:09+00:00",
    "title": "kuma-cp: 2.14.5 -> 3.0.1"
   },
   "573751": {
+   "darwin": true,
    "head": "bf0c4b1e04152b8280d2942f5e5669d322e1a090",
+   "on_success": "nothing",
    "previous_run_id": 40268431866,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 42366153243,
+   "status": "dispatched",
+   "time": "2026-11-07T10:58:10+00:00",
    "title": "kuma-experimental: 2.14.5 -> 3.0.1"
   },
   "573754": {
+   "darwin": true,
    "head": "ab3da4454486544782a4915cd1ceb2b4c1e81572",
+   "on_success": "nothing",
    "previous_run_id": 40268578207,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 42365822870,
+   "status": "dispatched",
+   "time": "2026-11-07T10:53:11+00:00",
    "title": "kuma: 2.14.5 -> 3.0.1"
   },
   "573756": {
+   "darwin": true,
    "head": "390b8992ed4db411b80ec03eef50cc8440d66e01",
+   "on_success": "nothing",
    "previous_run_id": 40268626839,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 42365444372,
+   "status": "dispatched",
+   "time": "2026-11-07T10:47:42+00:00",
    "title": "kuma-dp: 2.14.5 -> 3.0.1"
   },
   "573769": {
@@ -11390,6 +11430,8 @@
   },
   "573967": {
    "darwin": false,
+   "examined": 1,
+   "final": "review (aarch64-linux): The operation was canceled.; review (x86_64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ",
    "head": "4f1bb1d96791e24ffb01f474199f3882b094359f",
    "on_success": "nothing",
    "previous_run_id": 42146612875,
@@ -15735,6 +15777,8 @@
   },
   "579079": {
    "darwin": true,
+   "examined": 1,
+   "final": "review (aarch64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ",
    "head": "8c143ddd6f6835a61cb4d324b62d013143bd1df1",
    "on_success": "nothing",
    "previous_run_id": 41044828530,
@@ -22039,6 +22083,7 @@
   },
   "584266": {
    "darwin": true,
+   "final": "cancelled after 4 hours",
    "head": "b1ec1e8b9c45372981e846b31fb7704ff45c738d",
    "on_success": "nothing",
    "previous_run_id": null,
