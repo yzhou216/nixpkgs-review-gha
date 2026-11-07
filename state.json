@@ -15495,9 +15495,14 @@
    "title": "jitsi-excalidraw: 2026.3.0 -> 2026.10.0"
   },
   "578824": {
+   "darwin": true,
    "head": "01315633093bd8768ce2f2bd603a17d58e43cb44",
+   "on_success": "nothing",
    "previous_run_id": 41051033968,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 42362932095,
+   "status": "dispatched",
+   "time": "2026-11-07T10:12:01+00:00",
    "title": "vscode-extensions.ms-vscode-remote.remote-wsl: 0.104.3 -> 1.104.7"
   },
   "578861": {
@@ -15521,9 +15526,14 @@
    "title": "emiluaPlugins.qt6: 1.2.2 -> 1.2.3"
   },
   "578890": {
+   "darwin": true,
    "head": "62aee13055f6b26bd55282f04cb981e496ba0176",
+   "on_success": "nothing",
    "previous_run_id": 41050585319,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 42362340363,
+   "status": "dispatched",
+   "time": "2026-11-07T10:03:55+00:00",
    "title": "slackdump: 4.5.0 -> 4.5.4"
   },
   "578898": {
@@ -15567,9 +15577,14 @@
    "title": "prometheus-snmp-exporter: 0.30.1 -> 0.31.0"
   },
   "578963": {
+   "darwin": true,
    "head": "a6bba969561df6789948642b4a1ab2810a2bbc14",
+   "on_success": "nothing",
    "previous_run_id": 41049448151,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 42361971737,
+   "status": "dispatched",
+   "time": "2026-11-07T09:58:57+00:00",
    "title": "vassal: 3.7.29 -> 3.8.0"
   },
   "578993": {
@@ -15684,9 +15699,14 @@
    "title": "streamdeck-ui: 4.1.4 -> 4.1.5"
   },
   "579079": {
+   "darwin": true,
    "head": "8c143ddd6f6835a61cb4d324b62d013143bd1df1",
+   "on_success": "nothing",
    "previous_run_id": 41044828530,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 42361286380,
+   "status": "dispatched",
+   "time": "2026-11-07T09:48:38+00:00",
    "title": "gguf: 10798 -> 12176"
   },
   "579087": {
