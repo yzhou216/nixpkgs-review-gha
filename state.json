@@ -21383,13 +21383,25 @@
    "title": "release-plz: 0.4.1 -> 0.4.3"
   },
   "584092": {
+   "darwin": true,
    "head": "dd6d3d5e8b50f2c09a8507f0b616dab987df5e24",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42356611142,
+   "status": "dispatched",
+   "time": "2026-11-07T08:42:24+00:00",
    "title": "lldpd: 1.0.22 -> 1.0.23"
   },
   "584112": {
+   "darwin": true,
    "head": "597c545345c4436fb7f2067eb15081afe2553d54",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42356418469,
+   "status": "dispatched",
+   "time": "2026-11-07T08:39:40+00:00",
    "title": "garnet: 2.2.4 -> 2.2.8"
   },
   "584117": {
@@ -21404,13 +21416,25 @@
    "title": "figma-agent: 0.4.3 -> 0.4.4"
   },
   "584121": {
+   "darwin": true,
    "head": "89e422b84355e80cfcf03f88541fa5062c261562",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42356157963,
+   "status": "dispatched",
+   "time": "2026-11-07T08:35:46+00:00",
    "title": "uv: 0.13.5 -> 0.13.7"
   },
   "584123": {
+   "darwin": true,
    "head": "ccb68416b199efa4eb286c17c2cbccb66a724e12",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42356031196,
+   "status": "dispatched",
+   "time": "2026-11-07T08:34:04+00:00",
    "title": "vscode-extensions.graphql.vscode-graphql: 0.13.4 -> 1.0.0"
   },
   "584130": {
@@ -21425,28 +21449,58 @@
    "title": "xpraWithNvenc: 6.5.5 -> 6.5.6"
   },
   "584134": {
+   "darwin": true,
    "head": "22913b2d05b6dce899847800b229f6329dda7fdc",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42355674099,
+   "status": "dispatched",
+   "time": "2026-11-07T08:29:08+00:00",
    "title": "sshified: 1.2.8 -> 1.2.9"
   },
   "584135": {
+   "darwin": true,
    "head": "94c54c1fc7327ed032e4d8e574dafcb3db992ddf",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42355632041,
+   "status": "dispatched",
+   "time": "2026-11-07T08:28:29+00:00",
    "title": "clever-tools: 5.2.0 -> 5.4.0"
   },
   "584136": {
+   "darwin": true,
    "head": "ce6771eac490645fe21de45c2b35e801264bd5eb",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42355586800,
+   "status": "dispatched",
+   "time": "2026-11-07T08:27:48+00:00",
    "title": "rhvoice: 1.18.4 -> 1.18.5"
   },
   "584137": {
+   "darwin": true,
    "head": "8d32808d6aea7de8ea52156088a4c2b2b0075e4b",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42355543256,
+   "status": "dispatched",
+   "time": "2026-11-07T08:27:09+00:00",
    "title": "python3Packages.nexusrpc: 1.4.0 -> 1.5.0"
   },
   "584138": {
+   "darwin": true,
    "head": "df8cfcdecc0faefa9e1fe771902f579752a28f25",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42355269026,
+   "status": "dispatched",
+   "time": "2026-11-07T08:23:18+00:00",
    "title": "cudaPackages.nvtx: 3.6.0 -> 3.7.0"
   },
   "584141": {
@@ -21461,13 +21515,25 @@
    "title": "libretro.beetle-saturn: 0-unstable-2026-10-21 -> 0-unstable-2026-11-02"
   },
   "584148": {
+   "darwin": true,
    "head": "f37c7c161caad45b20c8863cb2428e43b0523780",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42355222046,
+   "status": "dispatched",
+   "time": "2026-11-07T08:22:39+00:00",
    "title": "kerbwolf: 0.4.0 -> 1.1.0"
   },
   "584164": {
+   "darwin": true,
    "head": "3f540bb89b17d01ed1dc12c5e1b5a1603de0e16f",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42354788365,
+   "status": "dispatched",
+   "time": "2026-11-07T08:16:42+00:00",
    "title": "prometheus-snowflake-exporter: 0-unstable-2026-10-07 -> 0-unstable-2026-11-03"
   },
   "584168": {
