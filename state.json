@@ -15521,6 +15521,7 @@
   },
   "578678": {
    "darwin": true,
+   "final": "cancelled after 4 hours",
    "head": "af4778c6e8b06a13453d5a77eda05a8521772b0c",
    "on_success": "nothing",
    "previous_run_id": 41055243104,
