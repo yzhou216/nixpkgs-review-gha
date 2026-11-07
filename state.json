@@ -21185,8 +21185,14 @@
    "title": "tinyssh: 20261016 -> 20261101"
   },
   "583931": {
+   "darwin": false,
    "head": "89aa55863b4847bd5d1b979b9c9c67c8a57e1899",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42350189278,
+   "status": "dispatched",
+   "time": "2026-11-07T07:11:03+00:00",
    "title": "home-assistant-custom-components.tibber_local: 2026.10.7 -> 2026.11.0"
   },
   "583932": {
@@ -21200,18 +21206,36 @@
    "title": "autobrr: 1.89.0 -> 1.90.0"
   },
   "583946": {
+   "darwin": false,
    "head": "f54dc8b6d1b50c055fbc6a33f1cf7f366c918af9",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42350124344,
+   "status": "dispatched",
+   "time": "2026-11-07T07:10:09+00:00",
    "title": "river-channel: 0.4.1 -> 0.5.2"
   },
   "583952": {
+   "darwin": false,
    "head": "37f4f8ca2477ce317c7ba2f602dd33428b0ccbf9",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42350076071,
+   "status": "dispatched",
+   "time": "2026-11-07T07:09:31+00:00",
    "title": "bilibili: 1.19.0-3 -> 1.20.0-2"
   },
   "583973": {
+   "darwin": false,
    "head": "ebbe6ea3d0848562ab1d5c06c5811bd5c98f6aba",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42350028237,
+   "status": "dispatched",
+   "time": "2026-11-07T07:08:50+00:00",
    "title": "seconlay: 0-unstable-2026-10-22 -> 0-unstable-2026-11-05"
   },
   "583999": {
@@ -21220,8 +21244,14 @@
    "title": "annapurna-sil: 2.100 -> 3.000"
   },
   "584000": {
+   "darwin": false,
    "head": "826a6f1b3bb7376cf6cfa8691087c29e4992dd56",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42349967154,
+   "status": "dispatched",
+   "time": "2026-11-07T07:07:57+00:00",
    "title": "osu-micro-benchmarks: 7.5.2 -> 7.5.3"
   },
   "584003": {
@@ -21230,13 +21260,25 @@
    "title": "androidStudioPackages.canary: 2026.2.3.1 -> 2026.2.3.3"
   },
   "584054": {
+   "darwin": false,
    "head": "7004019998ff79f1b507a33b6b72606a2fe9fa30",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42349909513,
+   "status": "dispatched",
+   "time": "2026-11-07T07:07:09+00:00",
    "title": "bottles-unwrapped: 67.5 -> 67.6"
   },
   "584060": {
+   "darwin": false,
    "head": "41fe78509adb2150920e61e863689b0641700ea9",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42349814182,
+   "status": "dispatched",
+   "time": "2026-11-07T07:05:48+00:00",
    "title": "kodiPackages.orftvthek: 1.0.3+matrix.1 -> 1.0.4+matrix.1"
   },
   "584075": {
@@ -21260,8 +21302,14 @@
    "title": "garnet: 2.2.4 -> 2.2.8"
   },
   "584117": {
+   "darwin": false,
    "head": "0496fbfd96bdaf8b50f6de50e144c54e4ed8a542",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42349684537,
+   "status": "dispatched",
+   "time": "2026-11-07T07:04:04+00:00",
    "title": "figma-agent: 0.4.3 -> 0.4.4"
   },
   "584121": {
@@ -21275,8 +21323,14 @@
    "title": "vscode-extensions.graphql.vscode-graphql: 0.13.4 -> 1.0.0"
   },
   "584130": {
+   "darwin": false,
    "head": "cc0a54ba12cc5a97842cdc89da626003c4950a52",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42349609197,
+   "status": "dispatched",
+   "time": "2026-11-07T07:03:03+00:00",
    "title": "xpraWithNvenc: 6.5.5 -> 6.5.6"
   },
   "584134": {
@@ -21305,8 +21359,14 @@
    "title": "cudaPackages.nvtx: 3.6.0 -> 3.7.0"
   },
   "584141": {
+   "darwin": false,
    "head": "dae4eae944b1c16f5a002916bc8c95a639067ff8",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42349469337,
+   "status": "dispatched",
+   "time": "2026-11-07T07:01:08+00:00",
    "title": "libretro.beetle-saturn: 0-unstable-2026-10-21 -> 0-unstable-2026-11-02"
   },
   "584148": {
@@ -21350,9 +21410,10 @@
    "title": "python3Packages.drf-pydantic: 2.9.2 -> 2.9.3"
   },
   "584197": {
-   "head": "86a904965d4d65fb063e309c735a367b2f831048",
-   "status": "requeue",
-   "title": "osslsigncode: 2.14 -> 2.15"
+   "reason": "not open",
+   "status": "skipped",
+   "title": "osslsigncode: 2.14 -> 2.15",
+   "tries": 0
   },
   "584199": {
    "head": "54d1b5d31f6abc7021f6c38109dc828f98b64a97",
@@ -21395,8 +21456,14 @@
    "title": "python3Packages.microsoft-kiota-abstractions: 1.16.0 -> 1.17.0"
   },
   "584218": {
+   "darwin": false,
    "head": "8ffe21bf52023727b87bd7fd9aa08e5b98503ca8",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42349113314,
+   "status": "dispatched",
+   "time": "2026-11-07T06:55:56+00:00",
    "title": "vmpk: 0.9.2 -> 0.9.3"
   },
   "584220": {
@@ -21410,8 +21477,14 @@
    "title": "cargo-cyclonedx: 0.5.9 -> 0.5.10"
   },
   "584222": {
+   "darwin": false,
    "head": "1d990cd7c88fd3c73ae929511a4fea12bef53a96",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42349051198,
+   "status": "dispatched",
+   "time": "2026-11-07T06:55:03+00:00",
    "title": "clipman: 1.7.0 -> 1.7.1"
   },
   "584223": {
@@ -21425,128 +21498,278 @@
    "title": "python3Packages.disposable-email-domains: 0.0.287 -> 0.0.292"
   },
   "584229": {
+   "darwin": false,
    "head": "1de15b7e8bcb11b40ccf6a44918115442a734124",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42348917860,
+   "status": "dispatched",
+   "time": "2026-11-07T06:53:02+00:00",
    "title": "kchat: 3.5.2 -> 3.5.3"
   },
   "584236": {
+   "darwin": false,
    "head": "835b700278e016309f9b8b66a4907ac32fb7b336",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42348863656,
+   "status": "dispatched",
+   "time": "2026-11-07T06:52:13+00:00",
    "title": "mattermostLatest: 12.0.1 -> 12.0.2"
   },
   "584238": {
+   "darwin": true,
    "head": "8d17235560bc6340770111636d161c5c6f546179",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42350231904,
+   "status": "dispatched",
+   "time": "2026-11-07T07:11:37+00:00",
    "title": "gtk-vnc: 1.5.0 -> 1.6.0"
   },
   "584241": {
+   "darwin": true,
    "head": "f953f1d2d061d23e5a6399f95d3a5d1b38a14d37",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42349862946,
+   "status": "dispatched",
+   "time": "2026-11-07T07:06:30+00:00",
    "title": "conduit: 0.9.9 -> 0.9.10"
   },
   "584244": {
+   "darwin": true,
    "head": "f0d028ee27ae8228435f9e4e71c48ac38592b4e2",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42349728603,
+   "status": "dispatched",
+   "time": "2026-11-07T07:04:42+00:00",
    "title": "dua: 2.46.0 -> 3.0.0"
   },
   "584245": {
+   "darwin": false,
    "head": "884ae6745602ff130448909783011f2fcd13bcb3",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42348793759,
+   "status": "dispatched",
+   "time": "2026-11-07T06:51:12+00:00",
    "title": "halo: 2.27.1 -> 2.27.2"
   },
   "584253": {
+   "darwin": true,
    "head": "3741bf2d0176d5735e2ce7fa676e0d646460cdb5",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42349518361,
+   "status": "dispatched",
+   "time": "2026-11-07T07:01:46+00:00",
    "title": "python3Packages.setuptools-gettext: 0.1.19 -> 0.1.20"
   },
   "584254": {
+   "darwin": true,
    "head": "685c30b07d7d362159820934fc6f4ba06a3b5090",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42349385901,
+   "status": "dispatched",
+   "time": "2026-11-07T07:00:07+00:00",
    "title": "code-server: 4.143.1 -> 4.145.2"
   },
   "584259": {
+   "darwin": false,
    "head": "ce8ad448590857dfb45a4fd7f11b632a114038bd",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42348689139,
+   "status": "dispatched",
+   "time": "2026-11-07T06:49:43+00:00",
    "title": "linux-wallpaperengine: 0.0.1-unstable-2026-06-09 -> 0.0.1-unstable-2026-10-30"
   },
   "584264": {
+   "darwin": true,
    "head": "888fb1014e64af10f9838cee8cec18b5688c0e16",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42349274555,
+   "status": "dispatched",
+   "time": "2026-11-07T06:58:24+00:00",
    "title": "python3Packages.arxiv: 4.0.1 -> 4.0.2"
   },
   "584265": {
+   "darwin": true,
    "head": "3e98910eeb71ffd09514981d4416c6b6b21b392b",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42349220403,
+   "status": "dispatched",
+   "time": "2026-11-07T06:57:34+00:00",
    "title": "python3Packages.mistral-common: 1.12.0 -> 1.13.1"
   },
   "584266": {
+   "darwin": true,
    "head": "b1ec1e8b9c45372981e846b31fb7704ff45c738d",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42349184626,
+   "status": "dispatched",
+   "time": "2026-11-07T06:57:00+00:00",
    "title": "python3Packages.pyvo: 1.9.1 -> 1.10.0"
   },
   "584267": {
+   "darwin": true,
    "head": "9a07de07ece841c29fe967601361c7ba9a686128",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42348995759,
+   "status": "dispatched",
+   "time": "2026-11-07T06:54:12+00:00",
    "title": "mcp-server-git: 2.1.0 -> 2.3.0"
   },
   "584268": {
+   "darwin": true,
    "head": "b0a4307c83338d3d0c405297513cdceae92c13a1",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42348956909,
+   "status": "dispatched",
+   "time": "2026-11-07T06:53:36+00:00",
    "title": "mcp-server-time: 2.1.0 -> 2.3.0"
   },
   "584271": {
+   "darwin": true,
    "head": "43a9853c1816cf2e94ce72daf308d790fb8f3344",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42348732711,
+   "status": "dispatched",
+   "time": "2026-11-07T06:50:19+00:00",
    "title": "papermc: 26.3-223 -> 26.3-244"
   },
   "584273": {
+   "darwin": true,
    "head": "8c0da522186188886339738808086276a002413f",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42348598483,
+   "status": "dispatched",
+   "time": "2026-11-07T06:48:22+00:00",
    "title": "koboldcpp: 1.119 -> 1.124.2"
   },
   "584274": {
+   "darwin": true,
    "head": "5e5c0e7835fe99441153add9573c1e8ed9fa6d86",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42348553024,
+   "status": "dispatched",
+   "time": "2026-11-07T06:47:43+00:00",
    "title": "snac2: 2.96 -> 2.97"
   },
   "584279": {
+   "darwin": true,
    "head": "771b8170f42ec93e29f52427bbd4c7a2b9e1a355",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42348499172,
+   "status": "dispatched",
+   "time": "2026-11-07T06:46:56+00:00",
    "title": "python3Packages.robotframework-assertion-engine: 3.5.0 -> 5.0.1"
   },
   "584280": {
+   "darwin": true,
    "head": "85b64298ca2d6a25d39c1cb018e4e19b5a255e3e",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42348454957,
+   "status": "dispatched",
+   "time": "2026-11-07T06:46:18+00:00",
    "title": "monkeys-audio: 13.43 -> 13.45"
   },
   "584285": {
+   "darwin": true,
    "head": "1bddc5317fd3bf5a6113e1fc486735eb57bbda47",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42348408437,
+   "status": "dispatched",
+   "time": "2026-11-07T06:45:37+00:00",
    "title": "kuna: 1.980 -> 1.992"
   },
   "584287": {
+   "darwin": true,
    "head": "f7b102723b735294c695dbbd79d025dbe39e8521",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42348357752,
+   "status": "dispatched",
+   "time": "2026-11-07T06:44:59+00:00",
    "title": "wasmtime: 50.0.0 -> 50.0.1"
   },
   "584292": {
+   "darwin": true,
    "head": "d414fbdb17a6b128e28054bb6c5715aacf8fade5",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42348317515,
+   "status": "dispatched",
+   "time": "2026-11-07T06:44:23+00:00",
    "title": "vscodium: 1.143.17183 -> 1.143.17232"
   },
   "584297": {
+   "darwin": false,
    "head": "fa7f9210412600c90cb62fd19eb0aa2fa86e4801",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42348277370,
+   "status": "dispatched",
+   "time": "2026-11-07T06:43:48+00:00",
    "title": "enlightenment.evisum: 2.0.12 -> 2.0.13"
   },
   "584301": {
+   "darwin": false,
    "head": "ec81d496d9a51d4443cc324d483f504ecc1423d1",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42348237410,
+   "status": "dispatched",
+   "time": "2026-11-07T06:43:12+00:00",
    "title": "nzbhydra2: 9.1.1 -> 9.2.0"
   },
   "584303": {
+   "darwin": true,
    "head": "67211fdc286d844074bf5e7a2f8472187dd648a0",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42348197547,
+   "status": "dispatched",
+   "time": "2026-11-07T06:42:38+00:00",
    "title": "ast-grep: 0.51.0 -> 0.51.1"
   }
  }
