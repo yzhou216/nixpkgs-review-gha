@@ -21471,33 +21471,64 @@
    "title": "prometheus-snowflake-exporter: 0-unstable-2026-10-07 -> 0-unstable-2026-11-03"
   },
   "584168": {
+   "darwin": true,
    "head": "e158cbbef8ab19bce94348bce6aa4e95b1645cc1",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42354501301,
+   "status": "dispatched",
+   "time": "2026-11-07T08:12:46+00:00",
    "title": "zerofs: 2.3.5 -> 2.3.6"
   },
   "584176": {
+   "darwin": true,
    "head": "79cfa44905d88f96a7e35d47fa755313ec75edb7",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42354227327,
+   "status": "dispatched",
+   "time": "2026-11-07T08:09:01+00:00",
    "title": "aks-mcp-server: 0.0.20 -> 0.0.22"
   },
   "584179": {
+   "darwin": true,
    "head": "313f92ce2d3027a622b7726b200461b9a3d9cf93",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42354099517,
+   "status": "dispatched",
+   "time": "2026-11-07T08:07:12+00:00",
    "title": "daktari: 0.0.360 -> 0.0.363"
   },
   "584180": {
+   "darwin": true,
    "head": "1837a131e2a16e40ff852019bdae9bf99422b3e7",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42353905396,
+   "status": "dispatched",
+   "time": "2026-11-07T08:04:33+00:00",
    "title": "melos: 8.9.0 -> 8.10.1"
   },
   "584185": {
-   "head": "79048e8795f1c6d7029dd8dd1ed20c77b8e1459f",
-   "status": "requeue",
-   "title": "dokieli: 0-unstable-2026-08-10 -> 0-unstable-2026-11-03"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "dokieli: 0-unstable-2026-08-10 -> 0-unstable-2026-11-03",
+   "tries": 0
   },
   "584195": {
+   "darwin": true,
    "head": "7d7a8ce895a129c2866388d09c589876f1829f63",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42353618154,
+   "status": "dispatched",
+   "time": "2026-11-07T08:00:39+00:00",
    "title": "python3Packages.drf-pydantic: 2.9.2 -> 2.9.3"
   },
   "584197": {
@@ -21507,23 +21538,47 @@
    "tries": 0
   },
   "584199": {
+   "darwin": true,
    "head": "54d1b5d31f6abc7021f6c38109dc828f98b64a97",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42352943496,
+   "status": "dispatched",
+   "time": "2026-11-07T07:50:32+00:00",
    "title": "python3Packages.microsoft-kiota-http: 1.16.0 -> 1.17.0"
   },
   "584201": {
+   "darwin": true,
    "head": "84cd62bdff042e54cb169643ab34838997f42158",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42352896714,
+   "status": "dispatched",
+   "time": "2026-11-07T07:49:53+00:00",
    "title": "moon: 2.6.4 -> 2.6.5"
   },
   "584205": {
+   "darwin": true,
    "head": "0361efdf140d9bda18319027d50c56abe7585455",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42352561419,
+   "status": "dispatched",
+   "time": "2026-11-07T07:45:01+00:00",
    "title": "kitops: 1.16.0 -> 1.17.0"
   },
   "584206": {
+   "darwin": true,
    "head": "f4a266b8b208d08a35470b1aa43c09d6a13a8029",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 42352518630,
+   "status": "dispatched",
+   "time": "2026-11-07T07:44:22+00:00",
    "title": "hk: 2.8.1 -> 2.11.1"
   },
   "584208": {
