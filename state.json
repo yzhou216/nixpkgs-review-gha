@@ -3566,9 +3566,14 @@
    "title": "python3Packages.conda-package-streaming: 0.12.0 -> 0.13.0"
   },
   "539693": {
+   "darwin": true,
    "head": "64ada792aab8f4d6747a038d52740e675fd8bf4d",
+   "on_success": "nothing",
    "previous_run_id": 41138582904,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 42368950284,
+   "status": "dispatched",
+   "time": "2026-11-07T11:37:17+00:00",
    "title": "python3Packages.types-pytz: 2026.3.1.20260727 -> 2026.6.0.20261031"
   },
   "539742": {
@@ -4193,9 +4198,14 @@
    "title": "patatt: 0.7.0 -> 0.8.0"
   },
   "546050": {
+   "darwin": true,
    "head": "d1ec3b88d43d7274619d75408ef71fda9c074d61",
+   "on_success": "nothing",
    "previous_run_id": 40403953988,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 42368831358,
+   "status": "dispatched",
+   "time": "2026-11-07T11:35:34+00:00",
    "title": "lightwalletd: 0.4.19 -> 0.6.1"
   },
   "546090": {
@@ -5389,10 +5399,10 @@
    "title": "gridtracker2: 2.260723.0 -> 260808.2"
   },
   "554791": {
-   "head": "1236dced86dff468e62e55e20d46788ec7c382d2",
-   "previous_run_id": 41800417206,
-   "status": "requeue",
-   "title": "apprise: 1.13.0 -> 2.1.0"
+   "reason": "not open",
+   "status": "skipped",
+   "title": "apprise: 1.13.0 -> 2.1.0",
+   "tries": 0
   },
   "554799": {
    "darwin": true,
@@ -5568,10 +5578,10 @@
    "tries": 0
   },
   "555458": {
-   "head": "ee5389d7a566801bd01e1b903ac8a816f29ab496",
-   "previous_run_id": 41122357696,
-   "status": "requeue",
-   "title": "python3Packages.zope-security: 8.3 -> 8.5"
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "python3Packages.zope-security: 8.3 -> 8.5",
+   "tries": 0
   },
   "555506": {
    "run_id": 39916270589,
@@ -6334,9 +6344,14 @@
    "title": "sqlcl: 26.2.1.222.1617 -> 26.3.1.301.1413"
   },
   "558661": {
+   "darwin": true,
    "head": "2715bcd68f50031403ed2d237c7eb09d6aaa6e81",
+   "on_success": "nothing",
    "previous_run_id": 40267185872,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 42368610965,
+   "status": "dispatched",
+   "time": "2026-11-07T11:32:33+00:00",
    "title": "mongoc: 1.30.9 -> 2.5.8"
   },
   "558663": {
@@ -7276,9 +7291,14 @@
    "title": "python3Packages.pyhanko-certvalidator: 0.31.4 -> 0.33.0"
   },
   "561978": {
+   "darwin": true,
    "head": "3d8573d56e9c418177425e9df4630a1fa912c953",
+   "on_success": "nothing",
    "previous_run_id": 42179613387,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 42367856892,
+   "status": "dispatched",
+   "time": "2026-11-07T11:21:42+00:00",
    "title": "python3Packages.bitarray: 3.10.1 -> 3.12.3"
   },
   "562055": {
@@ -7416,9 +7436,14 @@
    "title": "python3Packages.demetriek: 1.3.0 -> 1.4.1"
   },
   "562539": {
+   "darwin": true,
    "head": "bbc665550e707896717a569edfc93baebcc39b7d",
+   "on_success": "nothing",
    "previous_run_id": 40267395261,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 42367810741,
+   "status": "dispatched",
+   "time": "2026-11-07T11:21:04+00:00",
    "title": "officecli: 1.0.146 -> 1.0.160"
   },
   "562568": {
@@ -7485,9 +7510,14 @@
    "title": "tradingview: 3.4.0 -> 3.5.0"
   },
   "562701": {
+   "darwin": true,
    "head": "b1529dbfaf648b7bcfe0e96f5e96a0cc7ee084cf",
+   "on_success": "nothing",
    "previous_run_id": 41111101765,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 42367717496,
+   "status": "dispatched",
+   "time": "2026-11-07T11:19:52+00:00",
    "title": "phpExtensions.relay: 0.40.0 -> 0.61.0"
   },
   "562758": {
@@ -8137,9 +8167,14 @@
    "title": "python3Packages.slepc4py: 3.25.1 -> 3.25.2"
   },
   "565710": {
+   "darwin": true,
    "head": "bc1bdeb947c1919bba50790af12468726af38ba9",
+   "on_success": "nothing",
    "previous_run_id": 41106789384,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 42367673353,
+   "status": "dispatched",
+   "time": "2026-11-07T11:19:12+00:00",
    "title": "python3Packages.hydra-core: 1.3.5 -> 1.3.8"
   },
   "565754": {
@@ -8203,9 +8238,14 @@
    "title": "python3Packages.osxphotos: 0.76.1 -> 0.77.0"
   },
   "565941": {
+   "darwin": true,
    "head": "f0caf0f10eef2a4800bd5349cd2fa0bff275a12e",
+   "on_success": "nothing",
    "previous_run_id": 41106396569,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 42367540370,
+   "status": "dispatched",
+   "time": "2026-11-07T11:17:21+00:00",
    "title": "python3Packages.wtforms: 3.2.1 -> 3.3.2"
   },
   "565971": {
@@ -21616,6 +21656,8 @@
   },
   "584121": {
    "darwin": true,
+   "examined": 1,
+   "final": "review (aarch64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ",
    "head": "89e422b84355e80cfcf03f88541fa5062c261562",
    "on_success": "nothing",
    "previous_run_id": null,
