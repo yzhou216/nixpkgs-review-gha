@@ -4086,6 +4086,7 @@
    "title": "python3Packages.pyghmi: 1.6.18 -> 1.6.19"
   },
   "543188": {
+   "final": "cancelled after 4 hours",
    "head": "e58da260d61c813e6291fca37874c0977f8d436b",
    "on_success": "nothing",
    "previous_run_id": 40162631452,
@@ -11615,6 +11616,7 @@
    "title": "python3Packages.jack-client: 0.5.5 -> 0.5.7"
   },
   "574044": {
+   "final": "cancelled after 4 hours",
    "head": "e20f67a7460bcfc36f0e4e8c6c37e1d85b0912f0",
    "on_success": "nothing",
    "previous_run_id": 39390374158,
