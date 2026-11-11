@@ -24307,6 +24307,7 @@
    "title": "spinshare: 3.33.0 -> 3.35.1"
   },
   "586280": {
+   "final": "cancelled after 4 hours",
    "head": "2f03b7bfd5ebaa460b1169276e761ecbb7ad6393",
    "on_success": "nothing",
    "previous_run_id": null,
@@ -24322,6 +24323,7 @@
    "title": "libsForQt5.qtkeychain: 0.17.0 -> 0.18.0"
   },
   "586281": {
+   "final": "cancelled after 4 hours",
    "head": "6ab942d75737d845cd533bf1c816af45ff6f9fd8",
    "on_success": "nothing",
    "previous_run_id": null,
