@@ -24,7 +24,9 @@ GitHub Pro runs 40 jobs at a time but only 5 of them on macOS.  The script
 therefore counts the jobs that review runs occupy rather than the runs, and
 caps Darwin reviews separately.  A pull request whose CI label reports no
 Darwin rebuilds is reviewed without the aarch64-darwin job, so it needs no
-Mac at all.  While the Darwin cap is full, the script keeps dispatching such
+Mac at all.  More generally, a review runs only on the systems on which the
+comparison artifact of the CI evaluation lists rebuilds, since a job on any
+other system would build nothing.  While the Darwin cap is full, the script keeps dispatching such
 Linux-only reviews, and the reviews that need a Mac wait in the order they
 arrived until there is room.
 
@@ -62,12 +64,14 @@ chain.
 
 import collections
 import datetime
+import io
 import json
 import os
 import re
 import subprocess
 import sys
 import time
+import zipfile
 
 REPO = os.environ["REPO"]
 OWNER = os.environ["OWNER"]
@@ -100,6 +104,9 @@ ACTIVE = {"queued", "in_progress", "waiting", "pending", "requested"}
 NOT_ACQUIRED = "was not acquired by Runner"
 SMALL = {"1", "1-10", "11-100"}
 COMMENT_ONLY_AUTHORS = {"r-ryantm"}
+# Systems that a review may run on, in the order of the review.yml inputs
+SYSTEMS = ("x86_64-linux", "aarch64-linux", "aarch64-darwin")
+LINUX = ("x86_64-linux", "aarch64-linux")
 INPUTS = {
     "x86_64-linux": "true",
     "aarch64-linux": "true",
@@ -307,6 +314,60 @@ def needs_darwin(pr):
     return bucket([l["name"] for l in pr["labels"]], "10.rebuild-darwin") != "0"
 
 
+def comparison_rebuilds(head):
+    """Return the rebuildsByPlatform map of the CI comparison artifact of a head, or None.
+
+    nixpkgs-review builds the packages that this map lists for the system it
+    runs on.  None means that the artifact is gone or could not be read.
+    """
+    runs = api(f"repos/NixOS/nixpkgs/actions/runs?head_sha={head}&per_page=100")["workflow_runs"]
+    for r in runs:
+        if r["name"] not in EVAL_WORKFLOWS or r["status"] != "completed":
+            continue
+        try:
+            artifacts = api(f"repos/NixOS/nixpkgs/actions/runs/{r['id']}/artifacts?per_page=100")["artifacts"]
+        except LookupError:
+            continue
+        for a in artifacts:
+            if a["name"] != "comparison" or a["expired"]:
+                continue
+            for attempt in range(3):
+                p = subprocess.run(["gh", "api", f"repos/NixOS/nixpkgs/actions/artifacts/{a['id']}/zip"],
+                                   capture_output=True)
+                if p.returncode == 0:
+                    try:
+                        with zipfile.ZipFile(io.BytesIO(p.stdout)) as z:
+                            return json.loads(z.read("changed-paths.json"))["rebuildsByPlatform"]
+                    except (zipfile.BadZipFile, KeyError, ValueError) as e:
+                        log(f"comparison artifact {a['id']} unreadable: {e}")
+                        return None
+                time.sleep(5 * (attempt + 1))
+            log(f"comparison artifact {a['id']} not downloaded: {p.stderr.decode(errors='replace').strip()[:200]}")
+            return None
+    return None
+
+
+def review_systems(pr):
+    """Return the systems to review a pull request on, as a tuple in SYSTEMS order.
+
+    These are the systems on which the CI comparison of the head lists
+    rebuilds.  Without the comparison, the CI labels decide, which tell Linux
+    and Darwin apart but not the architectures.
+    """
+    rebuilds = comparison_rebuilds(pr["head"]["sha"])
+    if rebuilds is not None:
+        return tuple(s for s in SYSTEMS if rebuilds.get(s))
+    linux = bucket([l["name"] for l in pr["labels"]], "10.rebuild-linux") != "0"
+    return tuple(s for s in SYSTEMS if (needs_darwin(pr) if s.endswith("-darwin") else linux))
+
+
+def record_systems(rec):
+    """Return the systems that a recorded review ran on, also for records from before systems were stored."""
+    if "systems" in rec:
+        return tuple(rec["systems"])
+    return SYSTEMS if rec.get("darwin", True) else LINUX
+
+
 def reviewed_heads(comments):
     """Return the pull request heads that nixpkgs-review-gha result comments report."""
     return {
@@ -360,12 +421,12 @@ def not_dispatched(status, reason, title):
 def check_pr(cand, ignore_own=False):
     """Check a candidate just before its review is dispatched.
 
-    Return a (status, reason, title, darwin, on_success, extra_args, head)
+    Return a (status, reason, title, systems, on_success, extra_args, head)
     tuple.  The status is "ok" when the review can be dispatched, "skipped"
     when the pull request no longer qualifies, and "retry" when the check
     could not be decided yet, for example while GitHub is still computing
-    mergeability.  The darwin flag tells whether the review needs the
-    aarch64-darwin job, on_success whether a successful review may approve,
+    mergeability.  The systems tuple lists the systems to review on, from
+    review_systems, on_success whether a successful review may approve,
     extra_args holds the extra nixpkgs-review arguments, such as --eval local
     when the CI evaluation of the head is gone, and head is the head that
     passed the check.  A result for the current head always counts as an
@@ -430,13 +491,18 @@ def check_pr(cand, ignore_own=False):
     ready, extra_args = eval_args(pr["head"]["sha"], cand.get("extra_args"))
     if not ready:
         return skip("CI evaluation still running", "retry")
+    systems = review_systems(pr)
+    if not systems:
+        return skip("no rebuilds on the reviewed systems")
     on_success = "nothing" if comment_only else "approve"
-    return "ok", None, pr["title"], needs_darwin(pr), on_success, extra_args, pr["head"]["sha"]
+    return "ok", None, pr["title"], systems, on_success, extra_args, pr["head"]["sha"]
 
 
-def dispatch(n, on_success="approve", darwin=True, extra_args=None):
+def dispatch(n, on_success="approve", systems=SYSTEMS, extra_args=None):
     inputs = INPUTS | {"on-success": on_success}
-    if not darwin:
+    for s in LINUX:
+        inputs[s] = "true" if s in systems else "false"
+    if "aarch64-darwin" not in systems:
         inputs["aarch64-darwin"] = "no"
     # For example --eval local, when the CI evaluation of an old pull request has expired
     if extra_args:
@@ -603,34 +669,37 @@ def rerun(n, rec, candidate_head=None):
         # The pull request must still qualify, as on the main path, and a new head is checked afresh
         head = built or rec.get("head") or candidate_head
         cand = {"number": n, "headRefOid": head, "extra_args": rec.get("extra_args")}
-        status, reason, title, darwin, on_success, extra_args, checked = check_pr(
+        status, reason, title, systems, on_success, extra_args, checked = check_pr(
             cand, ignore_own=rec.get("requeued", False)
         )
     else:
         # Re-reviews without an approval outside COMMENT_ONLY_AUTHORS, such as the owner's own, need no check
-        status, reason, title, darwin, checked = "ok", None, pr["title"], needs_darwin(pr), current
+        status, reason, title, checked = "ok", None, pr["title"], current
         on_success = ran_with
         ready, extra_args = eval_args(checked, rec.get("extra_args"))
+        systems = review_systems(pr) if ready else ()
         if not ready:
             status, reason = "retry", "CI evaluation still running"
+        elif not systems:
+            status, reason = "skipped", "no rebuilds on the reviewed systems"
     if status == "retry":
         return False, postpone(rec, kind, reason)
     if status != "ok":
         rec["final"] = f"not re-run: {reason}"
         return False, rec["final"]
-    # Re-running failed jobs keeps the original inputs, including an approval, --eval local and the darwin job
-    same_inputs = on_success == ran_with and extra_args == rec.get("extra_args") and darwin == rec.get("darwin", True)
+    # Re-running failed jobs keeps the original inputs, including an approval, --eval local and the systems
+    same_inputs = on_success == ran_with and extra_args == rec.get("extra_args") and systems == record_systems(rec)
     # A re-run of a failed prepare job fetches the pull request again, so it builds the checked head too
     if same_inputs and (kind == "prepare" or built == checked):
         return rerun_failed_jobs(run_id, rec, kind, checked)
     try:
-        new_id = None if DRY_RUN else dispatch(n, on_success, darwin, extra_args)
+        new_id = None if DRY_RUN else dispatch(n, on_success, systems, extra_args)
     except LookupError as e:
         # As on the main path, a dispatch that GitHub answered with Not Found is tried again later
         raise RuntimeError(f"dispatch failed: {e}") from e
-    for key in ("examined", "no_runner_at", "tries", "reran"):
+    for key in ("examined", "no_runner_at", "tries", "reran", "darwin"):
         rec.pop(key, None)
-    rec.update(run_id=new_id, title=title, time=iso(time.time()), head=checked, darwin=darwin)
+    rec.update(run_id=new_id, title=title, time=iso(time.time()), head=checked, systems=list(systems))
     rec.update(on_success=on_success, redispatched=True)
     if extra_args:
         rec["extra_args"] = extra_args
@@ -766,10 +835,11 @@ def run(start):
 
     def uses_mac(r):
         # Other people's runs may use a Mac too, and a re-run of a Linux-only review never does
-        return (ours(r) or {}).get("darwin", True)
+        return "aarch64-darwin" in record_systems(ours(r) or {})
 
     def footprint(r):
-        return 1 if single_job(r) else 3 if uses_mac(r) else 2
+        # A review takes a job for each system, and other people's runs count as reviews on every system
+        return 1 if single_job(r) else len(record_systems(ours(r) or {}))
 
     while True:
         now = time.time()
@@ -827,7 +897,7 @@ def run(start):
         reruns = [] if constrained else due_reruns(now)
         jobs = sum(footprint(r) for r in active)
         darwin_reviews = sum(1 for r in batch if r not in long_runs and uses_mac(r))
-        # A review with the aarch64-darwin job takes three jobs, one without it two
+        # A review with the aarch64-darwin job takes up to three jobs
         darwin_room = darwin_reviews < (MAX_DARWIN_CONSTRAINED if constrained else MAX_DARWIN) and jobs + 3 <= MAX_JOBS
         if not queue and not reruns and not waiting_for_mac and not waiting_for_run and not retrying:
             if batch or any(map(awaits_rerun, records.values())):
@@ -909,13 +979,13 @@ def run(start):
             except RuntimeError as e:
                 # GitHub refused or kept failing a request, so try again later
                 result = not_dispatched("retry", f"check failed: {e}", cand["title"])
-        status, reason, title, darwin, on_success, extra_args, head = result
-        if status == "ok" and darwin and not darwin_room:
+        status, reason, title, systems, on_success, extra_args, head = result
+        if status == "ok" and "aarch64-darwin" in systems and not darwin_room:
             waiting_for_mac.append(cand)
             continue
         if status == "ok" and not DRY_RUN:
             try:
-                run_id = dispatch(n, on_success, darwin, extra_args)
+                run_id = dispatch(n, on_success, systems, extra_args)
             except (RuntimeError, LookupError) as e:
                 # GitHub refused or kept failing the dispatch, so try again later
                 status, reason = "retry", f"dispatch failed: {e}"
@@ -935,7 +1005,8 @@ def run(start):
             if status == "retry" and tries < MAX_TRIES:
                 retrying.append((time.time() + RETRY_DELAY, cand))
             continue
-        flags = ("" if darwin else " without Darwin") + ("" if on_success == "approve" else " comment only")
+        flags = ("" if systems == SYSTEMS else f" on {', '.join(systems)}")
+        flags += "" if on_success == "approve" else " comment only"
         flags += f" ({extra_args})" if extra_args else ""
         dispatched += 1
         if DRY_RUN:
@@ -947,7 +1018,7 @@ def run(start):
             "title": title,
             "time": iso(time.time()),
             "head": head,
-            "darwin": darwin,
+            "systems": list(systems),
             "on_success": on_success,
             **({"requeued": True, "previous_run_id": old.get("previous_run_id")} if requeue else {}),
             **({"extra_args": extra_args} if extra_args else {}),

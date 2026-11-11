@@ -134,9 +134,9 @@ def run_queue(dispatch_error=None, reviewing=(), budget=1000):
 
     def check_pr(cand, ignore_own=False):
         checks.append(cand["number"])
-        return "ok", None, cand["title"], cand["number"] == 7, "approve", None, "a" * 40
+        return "ok", None, cand["title"], d.SYSTEMS if cand["number"] == 7 else d.LINUX, "approve", None, "a" * 40
 
-    def dispatch(n, on_success, darwin, extra_args):
+    def dispatch(n, on_success, systems, extra_args):
         dispatches.append(n)
         dispatch_times.append(clock.t)
         if dispatch_error:
@@ -191,7 +191,7 @@ def run_pending_eval(pending_checks):
         check_times.append(clock.t)
         if len(check_times) <= pending_checks:
             return d.not_dispatched("retry", "CI evaluation still running", cand["title"])
-        return "ok", None, cand["title"], True, "approve", None, "a" * 40
+        return "ok", None, cand["title"], d.SYSTEMS, "approve", None, "a" * 40
 
     d.DRY_RUN, d.LIMIT, d.TIME_BUDGET = False, None, 10 * d.RETRY_DELAY
     d.fork_runs = lambda pages=1: []
@@ -201,7 +201,7 @@ def run_pending_eval(pending_checks):
     d.scan_failures = lambda records, since: 0.0
     d.commit_state = lambda path: True
     d.check_pr = check_pr
-    d.dispatch = lambda n, on_success, darwin, extra_args: dispatches.append(n) or 907
+    d.dispatch = lambda n, on_success, systems, extra_args: dispatches.append(n) or 907
     d.gh = lambda args, tries=6: disabled.append(args[:2]) or ""
     chain = d.run(clock.t)
     return chain, check_times, dispatches, disabled, json.load(open(state_path))["records"]["7"]
@@ -233,7 +233,7 @@ def run_requeue(record, check_status, budget=10 * d.RETRY_DELAY):
         checks.append(ignore_own)
         if check_status == "retry":
             return d.not_dispatched("retry", "CI evaluation still running", cand["title"])
-        return "ok", None, cand["title"], True, "approve", None, "a" * 40
+        return "ok", None, cand["title"], d.SYSTEMS, "approve", None, "a" * 40
 
     d.DRY_RUN, d.LIMIT, d.TIME_BUDGET = False, None, budget
     d.fork_runs = lambda pages=1: []
@@ -243,7 +243,7 @@ def run_requeue(record, check_status, budget=10 * d.RETRY_DELAY):
     d.scan_failures = lambda records, since: 0.0
     d.commit_state = lambda path: True
     d.check_pr = check_pr
-    d.dispatch = lambda n, on_success, darwin, extra_args: dispatches.append(n) or 907
+    d.dispatch = lambda n, on_success, systems, extra_args: dispatches.append(n) or 907
     d.rerun = lambda n, rec, candidate_head=None: reruns.append(n) or (True, "re-ran")
     d.gh = lambda args, tries=6: ""
     d.run(clock.t)

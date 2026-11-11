@@ -8,6 +8,7 @@ sys.path.insert(0, sys.argv[1])
 import dispatch as d  # noqa: E402
 
 HEAD_OLD, HEAD_NEW = "a" * 40, "b" * 40
+ALL = ",".join(d.SYSTEMS)
 calls = []
 
 
@@ -35,7 +36,8 @@ def setup(head, author="r-ryantm", comments=(), evaluation="available", reviewed
     d.ci_eval = lambda h: evaluation
     d.reviewed_head = lambda run_id: reviewed
     d.gh = lambda args: calls.append(" ".join(args[:4])) or ""
-    d.dispatch = lambda n, on_success, darwin, extra: calls.append(f"dispatch {n} {on_success} {darwin} {extra}") or 99
+    d.comparison_rebuilds = lambda h: None
+    d.dispatch = lambda n, on_success, systems, extra: calls.append(f"dispatch {n} {on_success} {','.join(systems)} {extra}") or 99
 
 
 def result_comment(sha):
@@ -70,17 +72,17 @@ setup(HEAD_NEW, evaluation="missing")
 rec = {"rerun": "no runner", "run_id": 1, "on_success": "nothing", "darwin": True, "reran": "prepare"}
 started, what = d.rerun(5, rec, None)
 assert started and rec["run_id"] == 99 and rec["head"] == HEAD_NEW and rec["extra_args"] == "--eval local", rec
-assert "reran" not in rec and "dispatch 5 nothing True --eval local" in calls, (rec, calls)
+assert "reran" not in rec and f"dispatch 5 nothing {ALL} --eval local" in calls, (rec, calls)
 
 # E: prepare failure, approve record of another author: check_pr decides, same inputs re-run the jobs
 setup(HEAD_OLD, author="someone")
-d.check_pr = lambda cand, ignore_own=False: ("ok", None, "foo: 1 -> 2", True, "approve", None, HEAD_OLD)
+d.check_pr = lambda cand, ignore_own=False: ("ok", None, "foo: 1 -> 2", d.SYSTEMS, "approve", None, HEAD_OLD)
 rec = {"rerun": "prepare", "run_id": 1, "on_success": "approve", "darwin": True}
 started, what = d.rerun(5, rec, None)
 assert started and rec["reran"] == "prepare", (what, rec)
 
 # F: prepare failure whose fresh check now needs --eval local: a new review instead of a re-run
-d.check_pr = lambda cand, ignore_own=False: ("ok", None, "foo: 1 -> 2", True, "approve", "--eval local", HEAD_OLD)
+d.check_pr = lambda cand, ignore_own=False: ("ok", None, "foo: 1 -> 2", d.SYSTEMS, "approve", "--eval local", HEAD_OLD)
 rec = {"rerun": "prepare", "run_id": 1, "on_success": "approve", "darwin": True}
 started, what = d.rerun(5, rec, None)
 assert started and rec["run_id"] == 99 and rec["extra_args"] == "--eval local", rec
@@ -94,7 +96,7 @@ assert not any("rerun-failed-jobs" in c or c.startswith("dispatch") for c in cal
 
 # H: prepare failure after the head changed, still trivial: the re-run records the new head
 setup(HEAD_NEW, author="someone")
-d.check_pr = lambda cand, ignore_own=False: ("ok", None, "foo: 1 -> 2", True, "approve", None, HEAD_NEW)
+d.check_pr = lambda cand, ignore_own=False: ("ok", None, "foo: 1 -> 2", d.SYSTEMS, "approve", None, HEAD_NEW)
 rec = {"rerun": "prepare", "run_id": 1, "on_success": "approve", "darwin": True, "head": HEAD_OLD}
 started, what = d.rerun(5, rec, None)
 assert started and rec["head"] == HEAD_NEW and rec["reran"] == "prepare", rec
@@ -144,7 +146,7 @@ d.check_pr = lambda cand, ignore_own=False: (_ for _ in ()).throw(AssertionError
 rec = {"rerun": "no runner", "run_id": 1, "on_success": "nothing", "darwin": True}
 started, what = d.rerun(5, rec, None)
 assert started and rec["run_id"] == 99 and rec["head"] == HEAD_NEW, rec
-assert "dispatch 5 nothing True None" in calls, calls
+assert f"dispatch 5 nothing {ALL} None" in calls, calls
 
 # L2: another author's re-review without an approval: no check_pr either, and it keeps its on-success setting
 setup(HEAD_OLD, author="someone")
@@ -158,7 +160,7 @@ setup(HEAD_OLD)
 rec = {"rerun": "no runner", "run_id": 1, "on_success": "approve", "darwin": True}
 started, what = d.rerun(5, rec, None)
 assert started and rec["run_id"] == 99 and rec["on_success"] == "nothing", (what, rec)
-assert "dispatch 5 nothing True None" in calls and any("/pulls/5" in c for c in calls), calls
+assert f"dispatch 5 nothing {ALL} None" in calls and any("/pulls/5" in c for c in calls), calls
 
 # M:a scheduled run commits the state file before it starts the next run, a chained one leaves it to the workflow,
 # and a scheduled run whose push failed leaves the restart to the schedule
@@ -302,7 +304,7 @@ print("re-run head paths ok")
 # U: a fresh review whose dispatch GitHub answers with Not Found propagates as a request failure, which the caller
 # postpones, instead of a lookup failure, which the caller records as final
 setup(HEAD_NEW, evaluation="missing")
-d.dispatch = lambda n, on_success, darwin, extra: (_ for _ in ()).throw(LookupError("HTTP 404: Not Found"))
+d.dispatch = lambda n, on_success, systems, extra: (_ for _ in ()).throw(LookupError("HTTP 404: Not Found"))
 rec = {"rerun": "no runner", "run_id": 1, "on_success": "nothing", "darwin": True}
 try:
     d.rerun(5, rec, None)
@@ -326,3 +328,23 @@ rec = {"rerun": "prepare", "run_id": 1, "on_success": "approve", "darwin": True}
 started, what = d.rerun(5, rec, HEAD_OLD)
 assert started and rec["reran"] == "prepare" and rec["head"] == HEAD_OLD, (what, rec)
 print("re-run dispatch paths ok")
+
+# Systems: a review whose systems changed since it ran is dispatched afresh, and one with the same systems re-run
+setup(HEAD_OLD)
+d.comparison_rebuilds = lambda h: {"x86_64-linux": ["foo"], "aarch64-darwin": ["foo"]}
+rec = {"rerun": "no runner", "run_id": 1, "on_success": "nothing", "darwin": True}
+started, what = d.rerun(5, rec, None)
+assert started and "dispatch 5 nothing x86_64-linux,aarch64-darwin None" in calls, (what, calls)
+assert rec["systems"] == ["x86_64-linux", "aarch64-darwin"] and "darwin" not in rec, rec
+setup(HEAD_OLD)
+d.comparison_rebuilds = lambda h: {"x86_64-linux": ["foo"], "aarch64-darwin": ["foo"]}
+rec = {"rerun": "no runner", "run_id": 1, "on_success": "nothing", "systems": ["x86_64-linux", "aarch64-darwin"]}
+started, what = d.rerun(5, rec, None)
+assert started and any("rerun-failed-jobs" in c for c in calls), (what, calls)
+# No rebuilds on any reviewed system: no review
+setup(HEAD_NEW)
+d.comparison_rebuilds = lambda h: {"x86_64-darwin": ["foo"]}
+rec = {"rerun": "no runner", "run_id": 1, "on_success": "nothing", "darwin": True}
+started, what = d.rerun(5, rec, None)
+assert not started and rec["final"] == "not re-run: no rebuilds on the reviewed systems", rec
+print("re-run systems paths ok")
