@@ -22923,12 +22923,31 @@
   },
   "585560": {
    "head": "c689169cefa17a9db4b481926c8de9356c4e64bf",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43025358116,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-11T13:01:15+00:00",
    "title": "telepresence2: 2.31.2 -> 2.33.0"
   },
   "585593": {
    "head": "fd23b02471e86d86367f0ef1b85f70c628f2cd1f",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43025244712,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-11T13:00:32+00:00",
    "title": "hoppscotch: 26.9.0-0 -> 26.10.1-0"
   },
   "585610": {
@@ -22961,7 +22980,17 @@
   },
   "585687": {
    "head": "687e24088a59d219787ea326f66e54494c6702cd",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43025138774,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-11T12:59:51+00:00",
    "title": "perses: 0.54.0 -> 0.55.1"
   },
   "585699": {
@@ -22980,12 +23009,32 @@
   },
   "585730": {
    "head": "bc8b5ca83659c4cbc307b01613b4ff696962d612",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43025040892,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-11T12:59:08+00:00",
    "title": "nb: 7.25.5 -> 7.25.6"
   },
   "585733": {
    "head": "5e4eb273c8ec5a1f5b9afc8176a00a27cf047678",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43024949342,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-11T12:58:28+00:00",
    "title": "libcloudproviders: 0.4.1 -> 0.4.2"
   },
   "585742": {
@@ -23004,12 +23053,32 @@
   },
   "585756": {
    "head": "b7c6a8030b72c38670f903c403ecafe8ec05b6b4",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43024244874,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-11T12:53:27+00:00",
    "title": "openshift: 4.22.0-202605222050 -> 5.0.0-202610271435"
   },
   "585766": {
    "head": "5c1eab3b79bc85c25839dc656c1eeffa675e4118",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43024141355,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-11T12:52:43+00:00",
    "title": "tree-sitter-grammars.tree-sitter-sql: 0.3.11 -> 0.3.12"
   },
   "585780": {
@@ -23028,12 +23097,32 @@
   },
   "585784": {
    "head": "b3e450f3b0ff0102bd6e44692f7bdd6f7c68a6a8",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43024046015,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-11T12:52:03+00:00",
    "title": "github-copilot-cli: 1.0.105 -> 1.0.108"
   },
   "585794": {
    "head": "22ab7ba0091933417e47f6017280dd97f35a5bed",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43023546940,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-11T12:48:35+00:00",
    "title": "oxfmt: 0.75.0 -> 0.78.0"
   },
   "585803": {
@@ -23066,7 +23155,17 @@
   },
   "585824": {
    "head": "1daed8cdc5323469a066bcf8e3c5bf19314cd22e",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43023201230,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-11T12:46:11+00:00",
    "title": "roadrunner: 3.1.0 -> 2025.1.15"
   },
   "585844": {
