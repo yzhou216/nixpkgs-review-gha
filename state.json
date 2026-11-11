@@ -23272,6 +23272,7 @@
    "title": "sauce-connect: 5.5.3 -> 5.5.4"
   },
   "585255": {
+   "final": "cancelled after 4 hours",
    "head": "bd4ed39c7459821430f01d5aa9745966f2be761c",
    "on_success": "nothing",
    "previous_run_id": null,
