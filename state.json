@@ -23071,22 +23071,62 @@
   },
   "585844": {
    "head": "723d4f2df13ea8c9f26855b8ce4d91c58c9f5b7b",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43022641380,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-11T12:42:20+00:00",
    "title": "_9router: 0.5.112 -> 0.5.116"
   },
   "585867": {
    "head": "74a729c15960352d7774417eb044f8143531ac0a",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43022536810,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-11T12:41:37+00:00",
    "title": "cloudlog: 2.8.21 -> 2.8.22"
   },
   "585873": {
    "head": "4e8959c7c3164711b19eb3f99b9988bd258e1f3f",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43022427931,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-11T12:40:50+00:00",
    "title": "positron-bin: 2026.09.1-2 -> 2026.11.1-4"
   },
   "585904": {
    "head": "7f7e362dbb62d9b9d3a8e702a71aac7aed5adadd",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43022026789,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-11T12:38:04+00:00",
    "title": "python3Packages.srsly: 2.5.3 -> 2.5.6"
   },
   "585906": {
@@ -23105,7 +23145,17 @@
   },
   "585909": {
    "head": "e8ccd22e8fa398beba6aa050205e31208978195e",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43021776719,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-11T12:36:18+00:00",
    "title": "drawterm: 0-unstable-2026-10-12 -> 0-unstable-2026-11-01"
   },
   "585910": {
@@ -23116,12 +23166,32 @@
   },
   "585918": {
    "head": "75186a3c0de59aad5b24c67dbfa6ffce91de06a3",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43020901013,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-11T12:30:20+00:00",
    "title": "python3Packages.ansible-core: 2.21.5 -> 2.22.0"
   },
   "585921": {
    "head": "0eb5e2c97a2806a6414568a2fcf9f8e13fc330fb",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43020779837,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-11T12:29:31+00:00",
    "title": "dolt: 2.5.0 -> 2.7.2"
   },
   "585925": {
@@ -23140,32 +23210,92 @@
   },
   "585934": {
    "head": "cc4579b459bdd8961f4a63d82ea5d2e905fdc340",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43020678951,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-11T12:28:49+00:00",
    "title": "fulcio: 1.8.8 -> 1.10.0"
   },
   "585943": {
    "head": "3fdd419d8e1b8c6a8e425b02aa1c6ff7c5ac3c0c",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43020286574,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-11T12:26:03+00:00",
    "title": "aws-sso-cli: 2.3.4 -> 2.4.0"
   },
   "585965": {
    "head": "93679bb63a1ba0b7e43796da3ea0cc55c7b00c0b",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43019866541,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-11T12:23:09+00:00",
    "title": "prismlauncher-unwrapped: 11.1.1 -> 12.0.0-pre1"
   },
   "585966": {
    "head": "d01bd82b42ff1396ad7361bba61a21e8c0056ab9",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43019766512,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-11T12:22:27+00:00",
    "title": "openscadPackages.bosl2: 2.0.779 -> 2.0.785"
   },
   "585977": {
    "head": "a178725bb013ad52baeb7fbbfc029853e59dd968",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43019670547,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-11T12:21:47+00:00",
    "title": "webstorm: 2026.2.4 -> 2026.3"
   },
   "585980": {
    "head": "b5e958797d4d7377eae9c13125ade45b0a71259e",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43019273736,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-11T12:19:01+00:00",
    "title": "datagrip: 2026.2.6.1 -> 2026.3"
   },
   "585981": {
