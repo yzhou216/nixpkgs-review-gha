@@ -22331,7 +22331,16 @@
   },
   "584496": {
    "head": "7d26bad841d84ba3597adc38036f4480f34e384a",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43014426120,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-11T11:44:27+00:00",
    "title": "prometheus-script-exporter: 3.2.1 -> 3.3.0"
   },
   "584502": {
@@ -22385,9 +22394,10 @@
    "title": "vscode-extensions.stylelint.vscode-stylelint: 2.2.1 -> 3.0.0"
   },
   "584629": {
-   "head": "ff8e85c92766d0ed925bbe1b7c16a762e56c0d43",
-   "status": "requeue",
-   "title": "dayon: 18.0.4 -> 19.0.0"
+   "reason": "not open",
+   "status": "skipped",
+   "title": "dayon: 18.0.4 -> 19.0.0",
+   "tries": 0
   },
   "584631": {
    "head": "bc75eb870ee9286b013b8bbc99b8f1b89a491419",
@@ -22406,7 +22416,15 @@
   },
   "584678": {
    "head": "623ace056e40a6f75cacdb6d46c62c1fb3bffa2b",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43013677076,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux"
+   ],
+   "time": "2026-11-11T11:38:57+00:00",
    "title": "xsnow: 3.9.9 -> 3.9.10"
   },
   "584685": {
@@ -22426,7 +22444,16 @@
   },
   "584715": {
    "head": "7a6f31fb1f727c1d1e52c3169c01eae4ef392f84",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43013517298,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-11T11:37:45+00:00",
    "title": "python3Packages.modbus-connection: 4.12.4 -> 4.12.7"
   },
   "584723": {
@@ -22446,12 +22473,30 @@
   },
   "584779": {
    "head": "968df56bfe175b299ec892c9b3af9bda8bbaea95",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43013133988,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-11T11:34:59+00:00",
    "title": "newlab-plugins: 0-unstable-2025-08-15 -> stn-v7.0.3-unstable-2026-10-27"
   },
   "584786": {
    "head": "ae536c776c86f77f513db08f9735ddfd6c1ecf98",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43013040523,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-11T11:34:19+00:00",
    "title": "gbsplay: 0.0.103 -> 0.0.104"
   },
   "584794": {
@@ -22466,7 +22511,16 @@
   },
   "584823": {
    "head": "9e979f123313778580557f78e45396f13d83d139",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43012743733,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-11T11:32:13+00:00",
    "title": "jwasm: 2.20 -> 2.21"
   },
   "584826": {
@@ -22476,12 +22530,30 @@
   },
   "584834": {
    "head": "6adc1be2779f4a6b92c8457c8ff5814f42add7c7",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43012626191,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-11T11:31:22+00:00",
    "title": "sos: 4.11.2 -> 4.12.1"
   },
   "584885": {
    "head": "4a5bbe0dce7a032b619af5023a1e8bb5657f8610",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43012528101,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-11T11:30:41+00:00",
    "title": "pegasus-frontend: 0-unstable-2026-10-26 -> 0-unstable-2026-10-29"
   },
   "584941": {
@@ -22491,7 +22563,16 @@
   },
   "584945": {
    "head": "e508e2e06ffc91d5f10bd213790472ca82ce70af",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43012225811,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-11T11:28:27+00:00",
    "title": "tartube-yt-dlp: 2.5.231 -> 2.5.253"
   },
   "584967": {
@@ -22501,7 +22582,16 @@
   },
   "584968": {
    "head": "abcb99813dc67a1519c4de77f6921857b71998e8",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43012117477,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-11T11:27:37+00:00",
    "title": "kicad-testing: 10.0-2026-11-02 -> 10.0-2026-11-04"
   },
   "584983": {
@@ -22510,13 +22600,23 @@
    "title": "musescore-evolution: 3.7.0-unstable-2026-10-27 -> 3.7.0-unstable-2026-11-08"
   },
   "585014": {
-   "head": "4d9ee46de5d9819a97f1b6cefa8ee037e62033b1",
-   "status": "requeue",
-   "title": "ft2-clone: 2.27 -> 2.29"
+   "reason": "not open",
+   "status": "skipped",
+   "title": "ft2-clone: 2.27 -> 2.29",
+   "tries": 0
   },
   "585034": {
    "head": "8f48fafe6b5671cc7cb730c5533697ea99056d07",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43011986069,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-11T11:26:38+00:00",
    "title": "bngblaster: 1.0.2 -> 1.1.0"
   },
   "585038": {
@@ -22526,17 +22626,44 @@
   },
   "585041": {
    "head": "6a341725a6b8812274faa1d0c8b68b94188c3486",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43011872395,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-11T11:25:48+00:00",
    "title": "home-assistant-custom-components.smartir: 1.18.1 -> 1.18.2"
   },
   "585055": {
    "head": "ed26e76cd58f047c281f20a52ec956d2009f816b",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43011627023,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-11T11:24:01+00:00",
    "title": "roxterm: 3.18.2 -> 3.18.3"
   },
   "585068": {
    "head": "9161a7004e808a8a6ca4813fec4f4559e8d50e54",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43011527489,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-11T11:23:17+00:00",
    "title": "gtklock-playerctl-module: 5.0.0 -> 5.0.2"
   },
   "585092": {
@@ -22546,17 +22673,44 @@
   },
   "585099": {
    "head": "1c76e2aa16008fdbbf80f1268f2353f8709ba027",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43011410861,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-11T11:22:27+00:00",
    "title": "simplebluez: 1.3.0 -> 1.4.0"
   },
   "585128": {
    "head": "0f43e7692ee3fd6618290f89e9900df5f31fe99d",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43011220443,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-11T11:21:05+00:00",
    "title": "irods: 5.0.2 -> 5.1.0"
   },
   "585134": {
    "head": "962c11b9ccb7dde20aea21829e409e923155c687",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43011126268,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-11T11:20:25+00:00",
    "title": "vanilla-wiiu: 0-unstable-2026-09-22 -> 0-unstable-2026-11-05"
   },
   "585163": {
@@ -22571,7 +22725,16 @@
   },
   "585209": {
    "head": "b6e8b946872dcf471f903804accd301c7c5ca83b",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43010982439,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-11T11:19:24+00:00",
    "title": "ganttproject-bin: 3.3.3316 -> 3.3.3323"
   },
   "585215": {
@@ -22586,7 +22749,15 @@
   },
   "585269": {
    "head": "0ceb4c69e151021275c0314b5343a0fb92bdb4b0",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43010856540,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux"
+   ],
+   "time": "2026-11-11T11:18:30+00:00",
    "title": "unityhub: 3.22.5 -> 3.22.6"
   },
   "585285": {
@@ -22611,7 +22782,15 @@
   },
   "585418": {
    "head": "9b19e69c95d76579dd5bc371452c790ad607018d",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43010518524,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux"
+   ],
+   "time": "2026-11-11T11:16:05+00:00",
    "title": "reqable: 3.3.6 -> 3.3.11"
   },
   "585426": {
@@ -23040,17 +23219,47 @@
   },
   "586152": {
    "head": "0cf4527a90284d75a2f49d291f78d7ca8ddf162e",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43014054426,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-11T11:41:44+00:00",
    "title": "python3Packages.aioice: 0.10.2 -> 0.13.0"
   },
   "586155": {
    "head": "4d47f03d9cd915901091141d06d18af590708ab1",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43013339066,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-11T11:36:26+00:00",
    "title": "git-pages-cli: 1.12.1 -> 1.13.1"
   },
   "586160": {
    "head": "5508b0b54095b6b7ef8dea01b463ba7607c1f25f",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43013240472,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-11T11:35:43+00:00",
    "title": "netbird-combined: 0.82.0 -> 0.82.1"
   },
   "586182": {
@@ -23061,12 +23270,32 @@
   },
   "586189": {
    "head": "74d0cf8ca80d13cf967a4db1b58f95545ea3c8f5",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43012404278,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-11T11:29:50+00:00",
    "title": "aws-sso-creds: 2.1.0 -> 2.1.1"
   },
   "586242": {
    "head": "b8b05867939a50e57b0320e73f8322078e1bc0a8",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43012318651,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-11T11:29:10+00:00",
    "title": "mariadb-connector-java: 3.5.11 -> 4.0.0"
   },
   "586260": {
@@ -23084,7 +23313,17 @@
   },
   "586280": {
    "head": "2f03b7bfd5ebaa460b1169276e761ecbb7ad6393",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43010424630,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-11T11:15:24+00:00",
    "title": "libsForQt5.qtkeychain: 0.17.0 -> 0.18.0"
   },
   "586281": {
