@@ -51,3 +51,4 @@ d.dispatch(5, "nothing", d.SYSTEMS)
 inputs = dict(a.split("=", 1) for a in sent[1][sent[1].index("-f") + 1 :: 2])
 assert inputs["x86_64-linux"] == inputs["aarch64-linux"] == "true" and inputs["aarch64-darwin"] == "yes_sandbox_true", inputs
 print("pure helpers ok")
+assert d.APPROVE is False, "the batch must not approve while approvals are off"

@@ -7,6 +7,9 @@ os.environ.update(REPO="yzhou216/nixpkgs-review-gha", OWNER="yzhou216", DRY_RUN=
 sys.path.insert(0, sys.argv[1])
 import dispatch as d  # noqa: E402
 
+# Most paths below cover approving reviews, which run only with approvals on
+d.APPROVE = True
+
 HEAD_OLD, HEAD_NEW = "a" * 40, "b" * 40
 ALL = ",".join(d.SYSTEMS)
 calls = []
@@ -284,6 +287,7 @@ assert any("/files" in c for c in calls) and not any("rerun-failed-jobs" in c fo
 import importlib  # noqa: E402
 
 fresh = importlib.reload(d)
+fresh.APPROVE = True
 arts = [{"name": "report_x86_64-linux.json", "expired": False, "archive_download_url": "gone"},
         {"name": "report_aarch64-linux.json", "expired": False, "archive_download_url": "ok"}]
 fresh.api = lambda path, paginate=False: {"artifacts": arts}
@@ -348,3 +352,15 @@ rec = {"rerun": "no runner", "run_id": 1, "on_success": "nothing", "darwin": Tru
 started, what = d.rerun(5, rec, None)
 assert not started and rec["final"] == "not re-run: no rebuilds on the reviewed systems", rec
 print("re-run systems paths ok")
+
+# Approvals off: a review that ran with an approval is never re-run, and a comment-only one still is
+d.APPROVE = False
+setup(HEAD_OLD, author="someone")
+rec = {"rerun": "no runner", "run_id": 1, "on_success": "approve", "darwin": True}
+started, what = d.rerun(5, rec, None)
+assert not started and rec["final"] == "not re-run: approvals are off" and calls == [], (what, calls)
+setup(HEAD_OLD)
+rec = {"rerun": "no runner", "run_id": 1, "on_success": "nothing", "darwin": True}
+started, what = d.rerun(5, rec, None)
+assert started and any("rerun-failed-jobs" in c for c in calls), (what, calls)
+print("approvals off paths ok")

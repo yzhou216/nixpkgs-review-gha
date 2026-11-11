@@ -104,6 +104,8 @@ ACTIVE = {"queued", "in_progress", "waiting", "pending", "requested"}
 NOT_ACQUIRED = "was not acquired by Runner"
 SMALL = {"1", "1-10", "11-100"}
 COMMENT_ONLY_AUTHORS = {"r-ryantm"}
+# While False, every review only posts its result, and no review that ran with an approval is re-run
+APPROVE = False
 # Systems that a review may run on, in the order of the review.yml inputs
 SYSTEMS = ("x86_64-linux", "aarch64-linux", "aarch64-darwin")
 LINUX = ("x86_64-linux", "aarch64-linux")
@@ -494,7 +496,7 @@ def check_pr(cand, ignore_own=False):
     systems = review_systems(pr)
     if not systems:
         return skip("no rebuilds on the reviewed systems")
-    on_success = "nothing" if comment_only else "approve"
+    on_success = "approve" if APPROVE and not comment_only else "nothing"
     return "ok", None, pr["title"], systems, on_success, extra_args, pr["head"]["sha"]
 
 
@@ -648,6 +650,10 @@ def rerun(n, rec, candidate_head=None):
     kind = rec.pop("rerun")
     rec.pop("rerun_after", None)
     run_id = rec["run_id"]
+    # Re-running the failed jobs of such a review would keep its approval
+    if not APPROVE and rec.get("on_success", "approve") == "approve":
+        rec["final"] = "not re-run: approvals are off"
+        return False, rec["final"]
     # Someone else may have re-run it meanwhile, and the scan sees any new failure
     run = api(f"repos/{REPO}/actions/runs/{run_id}")
     if run["status"] != "completed" or run["conclusion"] != "failure":
