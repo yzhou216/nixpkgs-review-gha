@@ -22691,7 +22691,17 @@
   },
   "585038": {
    "head": "441bb55752e92fb78c89ddba9bef1a07c5f711c3",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43030005059,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-11T13:32:14+00:00",
    "title": "squawk: 2.70.0 -> 2.72.0"
   },
   "585041": {
@@ -22738,7 +22748,17 @@
   },
   "585092": {
    "head": "dc85a9cb9f173eb498b22205169ff66596937112",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43029896576,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-11T13:31:31+00:00",
    "title": "hyperrogue: 13.1o -> 13.1p"
   },
   "585099": {
@@ -22785,12 +22805,32 @@
   },
   "585163": {
    "head": "899e77ad0958d3f2e02d22c5829eaa8c6ca8bdbb",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43029791546,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-11T13:30:51+00:00",
    "title": "sshm: 1.11.0 -> 1.12.0"
   },
   "585204": {
    "head": "a6fe43720e5a1620dc2923580ef8fd1c941134dd",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43029355224,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-11T13:27:55+00:00",
    "title": "python3Packages.langgraph-sdk: 0.4.10 -> 0.4.14"
   },
   "585209": {
@@ -22809,12 +22849,32 @@
   },
   "585215": {
    "head": "fb5135608577ab920cf03c43b62d62499beb56df",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43029256841,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-11T13:27:15+00:00",
    "title": "sauce-connect: 5.5.3 -> 5.5.4"
   },
   "585255": {
    "head": "bd4ed39c7459821430f01d5aa9745966f2be761c",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43028992200,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-11T13:25:27+00:00",
    "title": "libexttextcat: 3.4.8 -> 3.4.9"
   },
   "585269": {
@@ -22832,22 +22892,62 @@
   },
   "585285": {
    "head": "a3f97a6c15104079a16b41135bb92b2b94143583",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43028782329,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-11T13:24:06+00:00",
    "title": "python3Packages.teslemetry-stream: 1.2.0 -> 1.5.0"
   },
   "585355": {
    "head": "6117214087603e7f429af4410276289914491dd3",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43028681649,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-11T13:23:25+00:00",
    "title": "python3Packages.phx-class-registry: 5.2.2 -> 6.0.0"
   },
   "585388": {
    "head": "7013de71398c1328baaf781108bd21ac61eda707",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43028415083,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-11T13:21:39+00:00",
    "title": "icingaweb2: 2.12.6 -> 2.14.1"
   },
   "585407": {
    "head": "2cd527976848f04657f9822d06ddf43d3511547b",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43028050820,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-11T13:19:14+00:00",
    "title": "quakespasm: 0.96.3 -> 0.97.0"
   },
   "585418": {
@@ -22879,7 +22979,17 @@
   },
   "585428": {
    "head": "5d7562b42d7ad2a742cb2352e8ca3b49166108d4",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43027702962,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-11T13:16:55+00:00",
    "title": "python3Packages.uritools: 6.1.3 -> 7.0.0"
   },
   "585431": {
@@ -22898,27 +23008,77 @@
   },
   "585439": {
    "head": "9f34126909ad886ab2166213f1f202a75834158f",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43027436780,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-11T13:15:13+00:00",
    "title": "vectorscan: 5.4.13 -> 5.4.14"
   },
   "585451": {
    "head": "e6f0788d7389e9d74470884913efa41989dc2a38",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43026917275,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-11T13:11:44+00:00",
    "title": "roundcube: 1.7.5 -> 1.7.6"
   },
   "585545": {
    "head": "26d6590fa0321cf66aaf2760d5ab07f54f97e12c",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43026736736,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-11T13:10:28+00:00",
    "title": "cyclonedds: 11.0.1 -> 11.1.0"
   },
   "585550": {
    "head": "2badfb26289c9d7764d6d701d0a7780b1086a3fa",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43026552282,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-11T13:09:14+00:00",
    "title": "cyclonedds-cxx: 11.0.1 -> 11.1.0"
   },
   "585554": {
    "head": "fcf918d9eb21374c2cea22ca0635393dd5ea7d43",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43025796077,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-11T13:04:12+00:00",
    "title": "ssmsh: 1.4.9 -> 2.1.0"
   },
   "585560": {
