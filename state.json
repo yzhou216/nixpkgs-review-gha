@@ -25274,12 +25274,31 @@
   },
   "586915": {
    "head": "49a07f28a07a48a67745c4399c372ffc9017154d",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43278293235,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-12T18:17:34+00:00",
    "title": "aptakube: 1.22.1 -> 1.22.3"
   },
   "586928": {
    "head": "d328fe5cac0cf13155cbdadab51e5da5dcca83c0",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43276204810,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-12T18:05:32+00:00",
    "title": "terraform-compliance: 1.15.1 -> 1.16.0"
   },
   "586939": {
