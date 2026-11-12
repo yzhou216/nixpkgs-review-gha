@@ -25159,7 +25159,16 @@
   },
   "586865": {
    "head": "7e9bc6fa66112bb53452e4645f551ed25044d5f7",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43246224679,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-12T15:17:42+00:00",
    "title": "cockpit: 370 -> 372"
   },
   "586885": {
@@ -25168,9 +25177,10 @@
    "title": "git-spice: 0.31.2 -> 0.33.0"
   },
   "586911": {
-   "head": "a6c52c3abbbccee703f98dd585701b17bcf7ce94",
-   "status": "requeue",
-   "title": "dotnet-outdated: 4.8.1 -> 4.9.0"
+   "reason": "not open",
+   "status": "skipped",
+   "title": "dotnet-outdated: 4.8.1 -> 4.9.0",
+   "tries": 0
   },
   "586915": {
    "head": "49a07f28a07a48a67745c4399c372ffc9017154d",
@@ -25184,7 +25194,15 @@
   },
   "586939": {
    "head": "57f103b5d9c528ee82abdf0d6cd3e935ddcf3bc1",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43246022259,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux"
+   ],
+   "time": "2026-11-12T15:16:35+00:00",
    "title": "framework-control: 0.5.4 -> 0.5.5"
   },
   "586940": {
@@ -25194,7 +25212,16 @@
   },
   "586949": {
    "head": "3db88d71dd28893745a6feb35777da763ae21d56",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43245768096,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-12T15:15:11+00:00",
    "title": "postgresqlPackages.pg_graphql: 1.6.2 -> 1.6.3"
   },
   "586956": {
@@ -25244,7 +25271,16 @@
   },
   "586991": {
    "head": "0203123556615937b6ed57838f1546e24bd66bd1",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43245339545,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-12T15:12:50+00:00",
    "title": "spedread: 2.8.1 -> 2.8.2"
   },
   "586992": {
@@ -25254,7 +25290,16 @@
   },
   "586998": {
    "head": "6f49a46016576ac848937d3cd3d30302466db765",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43245169930,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-12T15:11:53+00:00",
    "title": "fan2go: 0.15.0 -> 0.16.0"
   },
   "587007": {
@@ -25268,8 +25313,20 @@
    "title": "resvg: 0.49.0 -> 0.50.0"
   },
   "587012": {
+   "examined": 1,
    "head": "8ae7a6480ea38ab019616fb2fa2766435f0d3539",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "rerun": "prepare",
+   "rerun_after": "2026-11-12T15:40:59+00:00",
+   "run_id": 43244973754,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-12T15:10:47+00:00",
    "title": "bichon: 2.2.0 -> 2.4.0"
   },
   "587014": {
@@ -25299,7 +25356,15 @@
   },
   "587035": {
    "head": "7f63ba2028bd1e9b4ed1d6565442cc61b72d91ad",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43244534007,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux"
+   ],
+   "time": "2026-11-12T15:08:20+00:00",
    "title": "simpleitk: 2.5.6 -> 2.5.7"
   },
   "587037": {
@@ -25309,7 +25374,15 @@
   },
   "587039": {
    "head": "651053fe04fe38a5f533c8dfd5cec0a2aba5db88",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43244245802,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux"
+   ],
+   "time": "2026-11-12T15:06:44+00:00",
    "title": "linuxPackages.tuxedo-drivers: 4.25.0 -> 4.25.1_rc"
   },
   "587040": {
@@ -25363,8 +25436,20 @@
    "title": "mercure: 0.24.2 -> 1.1.6"
   },
   "587076": {
+   "examined": 1,
    "head": "0d70416e93db69aa490b46160efd9e812a572e4f",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "rerun": "prepare",
+   "rerun_after": "2026-11-12T15:34:00+00:00",
+   "run_id": 43243721027,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-12T15:03:51+00:00",
    "title": "imsprog: 1.9.1 -> 1.9.2"
   },
   "587077": {
@@ -25384,7 +25469,16 @@
   },
   "587089": {
    "head": "9b5455122d1ca9abc09ed95fd65781839941c0bd",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43243453226,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-12T15:02:22+00:00",
    "title": "ulauncher: 5.16.2 -> 5.16.3"
   },
   "587090": {
@@ -25394,7 +25488,16 @@
   },
   "587091": {
    "head": "09e6178dbebe69f9d60fce94ab8b6eae794dd89e",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43243290209,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-12T15:01:28+00:00",
    "title": "lasuite-docs: 6.0.4 -> 6.0.4-preprod"
   },
   "587095": {
@@ -25403,28 +25506,67 @@
    "title": "python3Packages.sabctools: 9.7.2 -> 10.0.0"
   },
   "587114": {
+   "examined": 1,
    "head": "39a9a9c55bfd6e42c7908b29ad050e55bdadb533",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "rerun": "prepare",
+   "rerun_after": "2026-11-12T15:30:52+00:00",
+   "run_id": 43243074622,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux"
+   ],
+   "time": "2026-11-12T15:00:17+00:00",
    "title": "steam-rom-manager: 2.6.0 -> 2.6.3"
   },
   "587123": {
    "head": "a8a351bb79222218a626502895912a14889e6899",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43242709024,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-12T14:58:09+00:00",
    "title": "tlp: 1.10.2 -> 1.11.0"
   },
   "587128": {
-   "head": "d8a887bf929a853bf335978ca72efea2fb225098",
-   "status": "requeue",
-   "title": "gitbeaker-cli: 44.0.2 -> 44.0.5"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "gitbeaker-cli: 44.0.2 -> 44.0.5",
+   "tries": 0
   },
   "587137": {
    "head": "2676e8b2ab68398bc444032766a0e0abac7c213b",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43242566707,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-12T14:57:18+00:00",
    "title": "grpc_cli: 1.85.1 -> 1.85.2"
   },
   "587138": {
    "head": "75e2f99c47128c5ef71f3bdc9e579bd5c70dd096",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43242346801,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-12T14:56:01+00:00",
    "title": "parla: 0.10.6 -> 0.10.8"
   },
   "587159": {
@@ -25434,77 +25576,227 @@
   },
   "587160": {
    "head": "dd9f2e7638b9e90d75edf2f8f72ec8aec332a496",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43246561439,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-12T15:19:36+00:00",
    "title": "gitoxide: 0.59.0 -> 0.61.0"
   },
   "587161": {
    "head": "b1e24ffe445b53cd5529ba4fc56b4c476c7b9857",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43246441846,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-12T15:18:55+00:00",
    "title": "imgpkg: 0.48.3 -> 0.49.0"
   },
   "587167": {
    "head": "ab5bd2ec2dad40815950d182d62edf23b330855e",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43244751135,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-12T15:09:34+00:00",
    "title": "python3Packages.kafka-python: 3.0.12 -> 3.0.13"
   },
   "587180": {
    "head": "acd1dcfda6ef484efbd0931c44a76152f54f3d8d",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43244380568,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-12T15:07:29+00:00",
    "title": "discordo: 0-unstable-2026-08-18 -> 0-unstable-2026-11-08"
   },
   "587185": {
    "head": "13199be8cf1e8a4807a80a0891445ed9b8452df9",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43242949590,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-12T14:59:34+00:00",
    "title": "omniorb: 4.3.4 -> 4.3.5"
   },
   "587191": {
    "head": "6941fc8c64b08b638a88757e36847fe6dde05a2e",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43242826623,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-12T14:58:50+00:00",
    "title": "exploitdb: 2026-10-27 -> 2026-11-12"
   },
   "587192": {
    "head": "2e955ca490291f93a8dfd4ce083001f7e05f608d",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43242460533,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-12T14:56:41+00:00",
    "title": "kyverno: 1.19.2 -> 1.20.0"
   },
   "587193": {
    "head": "3b0c6ec582893cdb7d03fc3e67106b1bd52d6581",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43242107966,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-12T14:54:40+00:00",
    "title": "tgpt: 2.15.0 -> 2.16.0"
   },
   "587197": {
    "head": "0e12bcef2d20c28b1253a9928e763b3cf6133bc5",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43241997715,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-12T14:54:03+00:00",
    "title": "python3Packages.wtforms_3_3: 3.3.1 -> 3.3.2"
   },
   "587203": {
    "head": "9080d6b7881a139d092be5f0d6457621bce9468b",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43241882228,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-12T14:53:23+00:00",
    "title": "terraform-providers.vancluever_acme: 3.2.0 -> 3.3.0"
   },
   "587207": {
    "head": "917425458b184733ea1483ec2bc30ec6e25d4371",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43241771874,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-12T14:52:45+00:00",
    "title": "node-glob: 10.3.3 -> 14.0.6"
   },
   "587209": {
    "head": "dba7e0ccfa3aadab21f913086da265cf98131177",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43241658163,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-12T14:52:06+00:00",
    "title": "firefox-devedition-unwrapped: 161.0b1 -> 161.0b2"
   },
   "587212": {
    "head": "c4827ea85ffcfd91a23d3f2f7c87720900471b34",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43241551578,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-12T14:51:29+00:00",
    "title": "ludtwig: 0.14.0 -> 0.15.0"
   },
   "587213": {
    "head": "63ae071c92812d9cb7b6cbc16d98a4faa88d7742",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43241439928,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-12T14:50:50+00:00",
    "title": "static-web-server: 2.44.1 -> 2.44.2"
   },
   "587214": {
    "head": "4533ee9ea87f90c7d99811d733014bb9a5ecf6ee",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43241330189,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-12T14:50:13+00:00",
    "title": "sonar-scanner-cli-minimal: 8.3.1.16491 -> 8.4.0.16527"
   }
  }
