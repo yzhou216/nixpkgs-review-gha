@@ -11084,8 +11084,17 @@
   },
   "573113": {
    "head": "042ac81c8582485cfe139ce583cefa4d3a1e2211",
+   "on_success": "nothing",
    "previous_run_id": 43042272824,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 43294034134,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-12T19:49:07+00:00",
    "title": "python3Packages.eccodes: 2.48.0 -> 2.50.0"
   },
   "573120": {
@@ -25101,17 +25110,47 @@
   },
   "586670": {
    "head": "c64cba4c011f52265058d651301322d6c0a1e8e3",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43293027141,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-12T19:43:11+00:00",
    "title": "sshfs: 3.7.6 -> 3.7.7"
   },
   "586676": {
    "head": "13dd59f678150d4e3334273ee549e57b13cffbf1",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43292186159,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-12T19:38:14+00:00",
    "title": "python3Packages.py-serializable: 2.1.0 -> 2.2.0"
   },
   "586687": {
    "head": "d069171ec5209a09a61a75b61c22b08cc4f1e017",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43292044083,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-12T19:37:23+00:00",
    "title": "whistle: 2.10.13 -> 2.10.14"
   },
   "586690": {
@@ -25130,7 +25169,17 @@
   },
   "586698": {
    "head": "30506c38b2f17525acd4340f45515d70214d68bd",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43291279338,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-12T19:32:56+00:00",
    "title": "jacoco: 0.8.15 -> 0.8.16"
   },
   "586699": {
@@ -25149,12 +25198,36 @@
   },
   "586724": {
    "head": "bf7f010c861ed507a00d9d19b8ffa4c010a766dd",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43290262181,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-12T19:26:58+00:00",
    "title": "kener: 4.1.10 -> 4.2.1"
   },
   "586735": {
+   "examined": 1,
    "head": "2ee2f567e095d5d839c57f1053fea168d00a58bb",
-   "status": "requeue",
+   "no_runner_at": "2026-11-12T19:46:59+00:00",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "rerun": "no runner",
+   "rerun_after": "2026-11-12T20:16:59+00:00",
+   "run_id": 43290146870,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-12T19:26:16+00:00",
    "title": "memtier-benchmark: 2.5.2 -> 2.6.0"
   },
   "586739": {
@@ -25360,8 +25433,7 @@
    "on_success": "nothing",
    "previous_run_id": null,
    "requeued": true,
-   "rerun": "no runner",
-   "rerun_after": "2026-11-12T19:33:40+00:00",
+   "reran": "no runner",
    "run_id": 43278293235,
    "status": "dispatched",
    "systems": [
@@ -25450,8 +25522,7 @@
    "on_success": "nothing",
    "previous_run_id": null,
    "requeued": true,
-   "rerun": "no runner",
-   "rerun_after": "2026-11-12T19:28:07+00:00",
+   "reran": "no runner",
    "run_id": 43271125265,
    "status": "dispatched",
    "systems": [
@@ -25535,8 +25606,7 @@
    "on_success": "nothing",
    "previous_run_id": null,
    "requeued": true,
-   "rerun": "no runner",
-   "rerun_after": "2026-11-12T19:02:57+00:00",
+   "reran": "no runner",
    "run_id": 43268911926,
    "status": "dispatched",
    "systems": [
@@ -25554,8 +25624,7 @@
    "on_success": "nothing",
    "previous_run_id": null,
    "requeued": true,
-   "rerun": "no runner",
-   "rerun_after": "2026-11-12T18:53:13+00:00",
+   "reran": "no runner",
    "run_id": 43268790138,
    "status": "dispatched",
    "systems": [
@@ -25715,6 +25784,8 @@
    "title": "stalwart-migrate: 1.0.7 -> 1.0.8"
   },
   "587033": {
+   "examined": 1,
+   "final": "review (x86_64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ; review (aarch64-linux): The operation was canceled.",
    "head": "0ec6f869d6725ca9fcf9380264365b39c99a9837",
    "on_success": "nothing",
    "previous_run_id": null,
