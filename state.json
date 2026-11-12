@@ -25159,7 +25159,17 @@
   },
   "586739": {
    "head": "a76caa9490ba2760507c64ab1ad12fe71f17b952",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43288389453,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-12T19:16:04+00:00",
    "title": "gildas: 20261001_a -> 20261101_a"
   },
   "586757": {
@@ -25170,17 +25180,47 @@
   },
   "586761": {
    "head": "7aaf1f3385657039d97c5e68b65f0b38f720b934",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43287353589,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-12T19:10:06+00:00",
    "title": "tree-sitter-grammars.tree-sitter-matlab: 1.3.1-unstable-2026-08-26 -> 1.3.3-unstable-2026-11-06"
   },
   "586762": {
    "head": "4dea8c736775c7c148bcdb8c0f2619f8a8196ffb",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43287232618,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-12T19:09:24+00:00",
    "title": "tree-sitter-grammars.tree-sitter-pkl: 0.21.0-unstable-2026-10-01 -> 0.22.0-unstable-2026-11-05"
   },
   "586773": {
    "head": "733bca7f76f545a259607891dcec3915b943ba1a",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43286556121,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-12T19:05:28+00:00",
    "title": "nano-syntax-highlighting: 2026.10.01 -> 2026.11.01"
   },
   "586797": {
@@ -25229,17 +25269,47 @@
   },
   "586819": {
    "head": "98e389d4f36fced08105f34cd71fa8a3aacdbfa5",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43286432144,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-12T19:04:47+00:00",
    "title": "cargo-tarpaulin: 0.37.5 -> 0.37.6"
   },
   "586822": {
    "head": "0d01b131f72c37cc752fe0024316316f5fc2d8b4",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43285559786,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-12T18:59:49+00:00",
    "title": "vscode-extensions.astro-build.astro-vscode: 2.16.20 -> 2.17.4"
   },
   "586825": {
    "head": "81b927ed39a6686f46d15b90cd40db28da083a23",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43285447590,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-12T18:59:08+00:00",
    "title": "prometheus-alertmanager: 0.34.2 -> 0.35.0"
   },
   "586833": {
@@ -25284,10 +25354,14 @@
    "tries": 0
   },
   "586915": {
+   "examined": 1,
    "head": "49a07f28a07a48a67745c4399c372ffc9017154d",
+   "no_runner_at": "2026-11-12T19:03:40+00:00",
    "on_success": "nothing",
    "previous_run_id": null,
    "requeued": true,
+   "rerun": "no runner",
+   "rerun_after": "2026-11-12T19:33:40+00:00",
    "run_id": 43278293235,
    "status": "dispatched",
    "systems": [
@@ -25370,10 +25444,14 @@
    "title": "fluxcd-operator-mcp: 0.58.1 -> 0.62.1"
   },
   "586958": {
+   "examined": 1,
    "head": "0ddcc34e9adf3a42e1da4eda06bb6357382b0685",
+   "no_runner_at": "2026-11-12T18:58:07+00:00",
    "on_success": "nothing",
    "previous_run_id": null,
    "requeued": true,
+   "rerun": "no runner",
+   "rerun_after": "2026-11-12T19:28:07+00:00",
    "run_id": 43271125265,
    "status": "dispatched",
    "systems": [
@@ -26204,6 +26282,7 @@
    "title": "node-glob: 10.3.3 -> 14.0.6"
   },
   "587209": {
+   "final": "cancelled after 4 hours",
    "head": "dba7e0ccfa3aadab21f913086da265cf98131177",
    "on_success": "nothing",
    "previous_run_id": null,
