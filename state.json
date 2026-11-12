@@ -25403,10 +25403,14 @@
    "title": "fan2go: 0.15.0 -> 0.16.0"
   },
   "587007": {
+   "examined": 1,
    "head": "19181ab929607e00511be97dfc3219663ab5364b",
+   "no_runner_at": "2026-11-12T16:49:11+00:00",
    "on_success": "nothing",
    "previous_run_id": null,
    "requeued": true,
+   "rerun": "no runner",
+   "rerun_after": "2026-11-12T17:19:11+00:00",
    "run_id": 43257777205,
    "status": "dispatched",
    "systems": [
@@ -25461,8 +25465,7 @@
    "on_success": "nothing",
    "previous_run_id": null,
    "requeued": true,
-   "rerun": "no runner",
-   "rerun_after": "2026-11-12T17:16:58+00:00",
+   "reran": "no runner",
    "run_id": 43256721137,
    "status": "dispatched",
    "systems": [
@@ -25566,8 +25569,7 @@
    "on_success": "nothing",
    "previous_run_id": null,
    "requeued": true,
-   "rerun": "no runner",
-   "rerun_after": "2026-11-12T17:00:59+00:00",
+   "reran": "no runner",
    "run_id": 43254261204,
    "status": "dispatched",
    "systems": [
@@ -25585,8 +25587,7 @@
    "on_success": "nothing",
    "previous_run_id": null,
    "requeued": true,
-   "rerun": "no runner",
-   "rerun_after": "2026-11-12T16:55:59+00:00",
+   "reran": "no runner",
    "run_id": 43253735640,
    "status": "dispatched",
    "systems": [
