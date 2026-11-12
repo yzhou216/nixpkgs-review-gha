@@ -25244,7 +25244,17 @@
   },
   "586833": {
    "head": "460200bb623ac0b4415d9df5d99a5ce01daa3065",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43279348925,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-12T18:23:39+00:00",
    "title": "ipsw: 3.1.736 -> 3.1.745"
   },
   "586865": {
@@ -25262,9 +25272,10 @@
    "title": "cockpit: 370 -> 372"
   },
   "586885": {
-   "head": "6ab6abc29d54a3489ca9b98011c6ab8b209e215d",
-   "status": "requeue",
-   "title": "git-spice: 0.31.2 -> 0.33.0"
+   "reason": "not open",
+   "status": "skipped",
+   "title": "git-spice: 0.31.2 -> 0.33.0",
+   "tries": 0
   },
   "586911": {
    "reason": "not open",
@@ -25440,10 +25451,14 @@
    "title": "precice: 3.4.1 -> 3.5.0"
   },
   "586986": {
+   "examined": 1,
    "head": "c01f698872d1a7612015a1f72a0e1c69d17bb2de",
+   "no_runner_at": "2026-11-12T18:32:57+00:00",
    "on_success": "nothing",
    "previous_run_id": null,
    "requeued": true,
+   "rerun": "no runner",
+   "rerun_after": "2026-11-12T19:02:57+00:00",
    "run_id": 43268911926,
    "status": "dispatched",
    "systems": [
@@ -25455,10 +25470,14 @@
    "title": "talosctl: 1.14.5 -> 1.14.6"
   },
   "586987": {
+   "examined": 1,
    "head": "14e26fb426aea6b9e334b8faa6cf5035a47ae352",
+   "no_runner_at": "2026-11-12T18:23:13+00:00",
    "on_success": "nothing",
    "previous_run_id": null,
    "requeued": true,
+   "rerun": "no runner",
+   "rerun_after": "2026-11-12T18:53:13+00:00",
    "run_id": 43268790138,
    "status": "dispatched",
    "systems": [
