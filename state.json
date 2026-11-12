@@ -25297,7 +25297,17 @@
   },
   "586940": {
    "head": "7ef06f53015ed69bf5d6fec0a6c54d012d37ae1f",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43273213508,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-12T17:47:59+00:00",
    "title": "open-policy-agent: 1.21.2 -> 1.22.3"
   },
   "586949": {
@@ -25316,47 +25326,128 @@
   },
   "586956": {
    "head": "2f1b891845de3105c78fa17f89212d8b35249da6",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43272886215,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-12T17:46:06+00:00",
    "title": "fluxcd-operator-mcp: 0.58.1 -> 0.62.1"
   },
   "586958": {
    "head": "0ddcc34e9adf3a42e1da4eda06bb6357382b0685",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43271125265,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-12T17:35:51+00:00",
    "title": "scrutiny-collector: 0.9.5 -> 0.10.0"
   },
   "586960": {
    "head": "f20b6111281d7c7d1173411fc05f4204b46fdf60",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43270997877,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-12T17:35:09+00:00",
    "title": "python3Packages.agate-excel: 0.4.2 -> 0.4.3"
   },
   "586961": {
    "head": "d1a1ef1cd438ea8a49b8a9c50aa5c0187372ac04",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43270496002,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-12T17:32:22+00:00",
    "title": "buck2: 2026-10-15 -> 2026-11-01"
   },
   "586973": {
    "head": "e142289910e054b66be23d91589f9be4b75f5cb5",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43270315658,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-12T17:31:20+00:00",
    "title": "clickhouse-backup: 2.8.0 -> 2.8.3"
   },
   "586979": {
-   "head": "305d91d2a0136abb1a86fba11ac8491d1631e363",
-   "status": "requeue",
-   "title": "aaa: 2.1.0 -> 2.2.0"
+   "reason": "not open",
+   "status": "skipped",
+   "title": "aaa: 2.1.0 -> 2.2.0",
+   "tries": 0
   },
   "586983": {
    "head": "dc3a969bdcb8c2797842eb79c98d7ccd9a780730",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43269609511,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-12T17:27:23+00:00",
    "title": "precice: 3.4.1 -> 3.5.0"
   },
   "586986": {
    "head": "c01f698872d1a7612015a1f72a0e1c69d17bb2de",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43268911926,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-12T17:23:25+00:00",
    "title": "talosctl: 1.14.5 -> 1.14.6"
   },
   "586987": {
    "head": "14e26fb426aea6b9e334b8faa6cf5035a47ae352",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43268790138,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-12T17:22:43+00:00",
    "title": "rapidraw: 1.6.7 -> 1.6.9"
   },
   "586991": {
@@ -25409,8 +25500,7 @@
    "on_success": "nothing",
    "previous_run_id": null,
    "requeued": true,
-   "rerun": "no runner",
-   "rerun_after": "2026-11-12T17:19:11+00:00",
+   "reran": "no runner",
    "run_id": 43257777205,
    "status": "dispatched",
    "systems": [
@@ -25492,6 +25582,8 @@
    "title": "ocamlPackages.dockerfile: 8.4.6 -> 8.4.7"
   },
   "587029": {
+   "examined": 1,
+   "final": "review (x86_64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ; review (aarch64-darwin): The job was not acquired by Runner of type hosted even after multiple attempts; review (aarch64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ",
    "head": "708680e5118b2eec29023e73d2f41ea462d552c4",
    "on_success": "nothing",
    "previous_run_id": null,
