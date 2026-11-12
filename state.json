@@ -25217,8 +25217,7 @@
    "on_success": "nothing",
    "previous_run_id": null,
    "requeued": true,
-   "rerun": "prepare",
-   "rerun_after": "2026-11-12T15:50:42+00:00",
+   "reran": "prepare",
    "run_id": 43246726990,
    "status": "dispatched",
    "systems": [
@@ -25400,7 +25399,17 @@
   },
   "587008": {
    "head": "7024c8b6ca91a6c8a46ec8f441335eb2818ae13b",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43257053450,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-12T16:17:33+00:00",
    "title": "resvg: 0.49.0 -> 0.50.0"
   },
   "587012": {
@@ -25420,28 +25429,69 @@
    "title": "bichon: 2.2.0 -> 2.4.0"
   },
   "587014": {
-   "head": "eff10bb7087f0ccc34691b7a5d3c8da53c7f0d65",
-   "status": "requeue",
-   "title": "vscode-extensions.visualjj.visualjj: 0.36.2 -> 0.36.3"
+   "reason": "not open",
+   "status": "skipped",
+   "title": "vscode-extensions.visualjj.visualjj: 0.36.2 -> 0.36.3",
+   "tries": 0
   },
   "587017": {
    "head": "8445a131d22908d1a1f1712e9053edafd622a536",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43256721137,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-12T16:15:44+00:00",
    "title": "atproto-goat: 0.2.4 -> 0.2.9"
   },
   "587019": {
    "head": "074e8096a0fadb34be3b7977e0c268cfd2ed086b",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43255987435,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-12T16:11:47+00:00",
    "title": "ocamlPackages.dockerfile: 8.4.6 -> 8.4.7"
   },
   "587029": {
    "head": "708680e5118b2eec29023e73d2f41ea462d552c4",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43255263988,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-12T16:07:46+00:00",
    "title": "stalwart-migrate: 1.0.7 -> 1.0.8"
   },
   "587033": {
    "head": "0ec6f869d6725ca9fcf9380264365b39c99a9837",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43254739761,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-12T16:04:54+00:00",
    "title": "stalwart-migrate-enterprise: 1.0.7 -> 1.0.8"
   },
   "587035": {
@@ -25459,7 +25509,17 @@
   },
   "587037": {
    "head": "9ab60022119ab851e115e1565180b56c9e444cd0",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43254387254,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-12T16:02:59+00:00",
    "title": "katriawm: 26.08 -> 26.11"
   },
   "587039": {
@@ -25477,27 +25537,77 @@
   },
   "587040": {
    "head": "85d8b225da14c3b0a1a884337e53c3f4f50d6ba4",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43254261204,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-12T16:02:17+00:00",
    "title": "pgschema: 1.13.4 -> 1.14.1"
   },
   "587044": {
    "head": "db8ebbbb582e8ddb9c0a4d7e00e57170dd22d761",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43253735640,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-12T15:59:28+00:00",
    "title": "vscode-extensions.streetsidesoftware.code-spell-checker-german: 3.0.1 -> 3.0.2"
   },
   "587046": {
    "head": "ca571dbe79cedfcf88f6eeff3ce1ff1a17e7cad6",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43252851481,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-12T15:54:29+00:00",
    "title": "render-cli: 2.24.0 -> 2.36.0"
   },
   "587049": {
    "head": "d1b0557ab6ea77d7eab226d43521b59d91e20eca",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43252684238,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-12T15:53:33+00:00",
    "title": "python3Packages.python-izone: 1.3.12 -> 2.1.0"
   },
   "587054": {
    "head": "2076dffb006f54336722aa1ee72e844998ac74e0",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43252365649,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-12T15:51:46+00:00",
    "title": "python3Packages.rebulk: 6.0.1 -> 6.0.2"
   },
   "587057": {
@@ -25750,12 +25860,11 @@
   },
   "587159": {
    "examined": 1,
+   "final": "closed before the re-run",
    "head": "dfad40e7983493a13353620d10cef6db0e400fa9",
    "on_success": "nothing",
    "previous_run_id": null,
    "requeued": true,
-   "rerun": "prepare",
-   "rerun_after": "2026-11-12T15:53:56+00:00",
    "run_id": 43247309632,
    "status": "dispatched",
    "systems": [
