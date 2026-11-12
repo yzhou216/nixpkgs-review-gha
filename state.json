@@ -25218,8 +25218,7 @@
    "on_success": "nothing",
    "previous_run_id": null,
    "requeued": true,
-   "rerun": "no runner",
-   "rerun_after": "2026-11-12T20:16:59+00:00",
+   "reran": "no runner",
    "run_id": 43290146870,
    "status": "dispatched",
    "systems": [
