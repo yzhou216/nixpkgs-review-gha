@@ -25375,7 +25375,17 @@
   },
   "586992": {
    "head": "7630287def58011fd473a5679eebf63da5a7dcc2",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43258106949,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-12T16:23:21+00:00",
    "title": "tanka: 0.39.4 -> 0.40.1"
   },
   "586998": {
@@ -25394,7 +25404,17 @@
   },
   "587007": {
    "head": "19181ab929607e00511be97dfc3219663ab5364b",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43257777205,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-12T16:21:34+00:00",
    "title": "python3Packages.libvirt-python: 12.8.0 -> 12.9.0"
   },
   "587008": {
@@ -25435,10 +25455,14 @@
    "tries": 0
   },
   "587017": {
+   "examined": 1,
    "head": "8445a131d22908d1a1f1712e9053edafd622a536",
+   "no_runner_at": "2026-11-12T16:46:58+00:00",
    "on_success": "nothing",
    "previous_run_id": null,
    "requeued": true,
+   "rerun": "no runner",
+   "rerun_after": "2026-11-12T17:16:58+00:00",
    "run_id": 43256721137,
    "status": "dispatched",
    "systems": [
@@ -25536,10 +25560,14 @@
    "title": "linuxPackages.tuxedo-drivers: 4.25.0 -> 4.25.1_rc"
   },
   "587040": {
+   "examined": 1,
    "head": "85d8b225da14c3b0a1a884337e53c3f4f50d6ba4",
+   "no_runner_at": "2026-11-12T16:30:59+00:00",
    "on_success": "nothing",
    "previous_run_id": null,
    "requeued": true,
+   "rerun": "no runner",
+   "rerun_after": "2026-11-12T17:00:59+00:00",
    "run_id": 43254261204,
    "status": "dispatched",
    "systems": [
@@ -25551,10 +25579,14 @@
    "title": "pgschema: 1.13.4 -> 1.14.1"
   },
   "587044": {
+   "examined": 1,
    "head": "db8ebbbb582e8ddb9c0a4d7e00e57170dd22d761",
+   "no_runner_at": "2026-11-12T16:25:59+00:00",
    "on_success": "nothing",
    "previous_run_id": null,
    "requeued": true,
+   "rerun": "no runner",
+   "rerun_after": "2026-11-12T16:55:59+00:00",
    "run_id": 43253735640,
    "status": "dispatched",
    "systems": [
