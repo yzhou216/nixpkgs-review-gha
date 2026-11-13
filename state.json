@@ -11084,8 +11084,17 @@
   },
   "573113": {
    "head": "042ac81c8582485cfe139ce583cefa4d3a1e2211",
+   "on_success": "nothing",
    "previous_run_id": 43294034134,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 43393597183,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-13T08:29:18+00:00",
    "title": "python3Packages.eccodes: 2.48.0 -> 2.50.0"
   },
   "573120": {
@@ -19010,7 +19019,17 @@
   },
   "581849": {
    "head": "8d7b6ada39a19e7d95f62ceb4f0f859f728c5c11",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43393225203,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-13T08:26:22+00:00",
    "title": "python3Packages.spmd-types: 0.2.5 -> 0.3.1"
   },
   "581855": {
@@ -26334,7 +26353,17 @@
   },
   "587206": {
    "head": "2a7d58709644d1025a331115778c15c6f2b5243b",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43392989774,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-13T08:24:35+00:00",
    "title": "postgresqlPackages.timescaledb-apache: 2.31.0 -> 2.32.0"
   },
   "587207": {
@@ -27079,6 +27108,8 @@
    "title": "scala-cli: 1.18.0 -> 1.19.0"
   },
   "587479": {
+   "examined": 1,
+   "final": "review (aarch64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ",
    "head": "2f263f0c519cbfaab2dea86b845e73277af28e0a",
    "on_success": "nothing",
    "previous_run_id": null,
