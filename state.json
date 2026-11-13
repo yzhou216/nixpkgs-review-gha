@@ -26415,15 +26415,37 @@
   },
   "587223": {
    "head": "bb078c405f3c7cb56c914bf03415913f3e65d587",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43392892980,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-13T08:23:52+00:00",
    "title": "yosys: 0.70 -> 0.71"
   },
   "587226": {
    "head": "b04ee9888f07415ad7d4637dc118b07305d5e417",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43392248398,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-13T08:18:52+00:00",
    "title": "gemini-cli-bin: 0.66.0 -> 0.68.0"
   },
   "587227": {
+   "examined": 1,
+   "final": "review (aarch64-linux): The operation was canceled.; review (x86_64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ",
    "head": "41788569d10b9209f4d9e5cd886e32dcf84d9a61",
    "on_success": "nothing",
    "previous_run_id": null,
@@ -26439,27 +26461,77 @@
   },
   "587228": {
    "head": "8a6c88cc0d8d4082dd2130e8e55f3fcdbdd0a074",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43391885725,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-13T08:16:03+00:00",
    "title": "xprin: 0.5.0 -> 0.6.0"
   },
   "587234": {
    "head": "0b04f56d0b8a242540b2818502f7339a9a94761d",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43391788191,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-13T08:15:20+00:00",
    "title": "wakatime-cli: 2.26.15 -> 2.28.4"
   },
   "587237": {
    "head": "9085d4fc4809250fa720e8018ad3a6bc240fd75c",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43391542956,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-13T08:13:29+00:00",
    "title": "multi-scrobbler: 0.19.2 -> 0.21.0"
   },
   "587240": {
    "head": "bcc457f1a44f000676177e743f92c1458d7505e8",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43391310312,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-13T08:11:41+00:00",
    "title": "tree-sitter-grammars.tree-sitter-tql: 1.2.0 -> 1.2.1"
   },
   "587248": {
    "head": "375152f5a5c5109bf4b5a6a6d431f23daa3b979a",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43391216697,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-13T08:10:58+00:00",
    "title": "tree-sitter-grammars.tree-sitter-sshclientconfig: 2026.10.29 -> 2026.11.12"
   },
   "587251": {
@@ -26470,22 +26542,62 @@
   },
   "587253": {
    "head": "bfc6d1f588075776a6f07d9902098410c1c76a1c",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43390981952,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-13T08:09:11+00:00",
    "title": "postgresqlPackages.pg_background: 2.0.4 -> 2.0.5"
   },
   "587262": {
    "head": "ee4b468600ee362d2fc7270372888ede1d0d37b4",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43390744639,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-13T08:07:24+00:00",
    "title": "python3Packages.mozjpeg_lossless_optimization: 1.3.2 -> 1.3.3"
   },
   "587264": {
    "head": "875dd1e44d5825ddeb6b1a49ce298c0b437c983f",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43390353724,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-13T08:04:26+00:00",
    "title": "openfga-cli: 0.8.2 -> 0.9.0"
   },
   "587269": {
    "head": "4e920477d1f91b0709ecbbe2c5bffcf171afe9c5",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43390258373,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-13T08:03:40+00:00",
    "title": "homer: 26.08.3 -> 26.11.2"
   },
   "587275": {
@@ -26496,17 +26608,47 @@
   },
   "587302": {
    "head": "a9f8b1399721402e311ed696d63977039d4227da",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43390167484,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-13T08:02:58+00:00",
    "title": "wal-g: 3.0.7 -> 3.0.9"
   },
   "587303": {
    "head": "7c0a057746c7c943ea4a151fb3a6801b5468c867",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43389943630,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-13T08:01:10+00:00",
    "title": "sprite: 2026-10-20-hotfix.1 -> 2026-11-03"
   },
   "587313": {
    "head": "b55ce579950caf43b400d456fb2553a9dbd9fdde",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43389564960,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-13T07:58:14+00:00",
    "title": "signal-cli: 0.14.9 -> 0.14.10"
   },
   "587330": {
