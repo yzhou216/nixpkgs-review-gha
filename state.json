@@ -26511,22 +26511,62 @@
   },
   "587330": {
    "head": "a602ee96b2f8a3e6ff1df0c68a9e6599076f269d",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43388839563,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-13T07:52:11+00:00",
    "title": "civicrm: 6.19.4 -> 6.20.0"
   },
   "587378": {
    "head": "372fd6c8e5703dfff976f4b460fa173ecd4f73ef",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43388487624,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-13T07:49:16+00:00",
    "title": "cdk8s-cli: 2.207.75 -> 2.207.81"
   },
   "587380": {
    "head": "bc0a51a29485c64ee2b6950af0541fafe5a839c6",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43388401378,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-13T07:48:33+00:00",
    "title": "python3Packages.genai-prices: 0.2.1 -> 0.2.3"
   },
   "587382": {
    "head": "af00f4bc081d774c166245433e517f6ec3490fd4",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43388189857,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-13T07:46:47+00:00",
    "title": "svelte-check: 4.7.7 -> 4.7.8"
   },
   "587383": {
@@ -26545,57 +26585,167 @@
   },
   "587385": {
    "head": "a3b3be6ee94ca8f9838f09bc5b287f1b45dc9d01",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43387968010,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-13T07:45:00+00:00",
    "title": "rssguard: 5.2.5 -> 5.3.0"
   },
   "587392": {
    "head": "e47ddeb3da8f43e688141ffa42c0204dd47a3e04",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43387869513,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-13T07:44:11+00:00",
    "title": "python3Packages.aiosql: 15.0 -> 16.0"
   },
   "587393": {
    "head": "ac1b3d5e75ca619a12a8024e0ae16e5896588895",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43387546832,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-13T07:41:28+00:00",
    "title": "doggo: 1.4.0 -> 1.4.2"
   },
   "587402": {
    "head": "3fdce10ef8b0c06bc2d2c2217dd704d147f5d4ef",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43387323983,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-13T07:39:35+00:00",
    "title": "infisical: 0.44.11 -> 0.45.6"
   },
   "587405": {
    "head": "fa81a03ccc7fd7a7ecb31130279720781d9b55ae",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43386980198,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-13T07:36:38+00:00",
    "title": "schemat: 0.5.13 -> 0.5.14"
   },
   "587411": {
    "head": "6c4e930e30c4fc0e3793fe6e8fe31b25d55dfa6e",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43386888470,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-13T07:35:53+00:00",
    "title": "wappalyzergo: 0.3.8 -> 0.3.9"
   },
   "587413": {
    "head": "4e199dfca2f9167e0319ab4b3b0ea84515928979",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43386800529,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-13T07:35:10+00:00",
    "title": "python3Packages.rchitect: 0.5.2 -> 0.6.0"
   },
   "587415": {
    "head": "5785b4b06c6fcbed8cb3987b31f43ea983dd43c3",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43386324923,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-13T07:31:12+00:00",
    "title": "vscode-extensions.ms-vscode.cpptools: 1.34.4 -> 1.35.6"
   },
   "587420": {
    "head": "436f44603dfcd5e5d804b1dcf897deabcb6867a0",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43385973015,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-13T07:28:13+00:00",
    "title": "tree-sitter-grammars.tree-sitter-tera: 0.1.2 -> 0.1.3"
   },
   "587423": {
    "head": "86577fb47630aa4c454a08cf35b33498bf9e2bac",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43385648573,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-13T07:25:23+00:00",
    "title": "nest-cli: 12.0.11 -> 12.0.12"
   },
   "587432": {
    "head": "b3ed1222ef572c123e5dae67112289c16fad4aa0",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43385432617,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-13T07:23:36+00:00",
    "title": "klog-time-tracker: 7.1 -> 7.2"
   },
   "587435": {
@@ -26949,6 +27099,8 @@
    "title": "python3Packages.deepl: 1.32.0 -> 1.33.0"
   },
   "587502": {
+   "examined": 1,
+   "final": "review (aarch64-linux): The operation was canceled.",
    "head": "3f161d2953f8fd88f18f381e82093b76eb20bc9e",
    "on_success": "nothing",
    "previous_run_id": null,
