@@ -28399,12 +28399,32 @@
   },
   "588169": {
    "head": "e34047b2f226fe26e3f339901a21452e4f6e8753",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43655300586,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-14T23:51:26+00:00",
    "title": "cook-cli: 0.39.0 -> 0.41.1"
   },
   "588175": {
    "head": "38ecb4f75566e25adb600f51bffe6e03e02279d9",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43655247057,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-14T23:50:45+00:00",
    "title": "python3Packages.hgvs: 1.5.7 -> 2.0.0a0"
   },
   "588178": {
@@ -28423,12 +28443,32 @@
   },
   "588184": {
    "head": "ff0001e731f57dbec084e89dea8b7a581f6e600a",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43655191740,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-14T23:50:06+00:00",
    "title": "python3Packages.ga4gh: 2.3.3 -> 2.4.0-a6"
   },
   "588191": {
    "head": "ee277dc8cfc56193aae459ffb1087030e208da21",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43654795621,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-14T23:45:15+00:00",
    "title": "pinniped: 0.47.0 -> 0.48.0"
   },
   "588196": {
@@ -28447,27 +28487,77 @@
   },
   "588213": {
    "head": "0f75f991dadf8f1ec7f66b83f3e8deda9fb738dd",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43654399546,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-14T23:40:22+00:00",
    "title": "proto: 0.63.2 -> 0.64.0"
   },
   "588216": {
    "head": "301718a128d82a85252fcd3e20817e6e4d0913db",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43654093767,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-14T23:36:31+00:00",
    "title": "spruce: 1.35.24 -> 1.35.26"
   },
   "588234": {
    "head": "df4940f7005f69c0f421e3cf6083fcaaf21ea0f5",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43653861556,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-14T23:33:47+00:00",
    "title": "rekor-cli: 1.5.4 -> 1.6.1"
   },
   "588235": {
    "head": "2f85187a267fa8c7b05a299c37eeb32910514931",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43653368713,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-14T23:27:56+00:00",
    "title": "rekor-server: 1.5.4 -> 1.6.1"
   },
   "588251": {
    "head": "c1f69778b5d284d04224dad991f7b1c7d8854b5a",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43653316217,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-14T23:27:17+00:00",
    "title": "phpExtensions.mongodb: 2.5.5 -> 2.5.7"
   },
   "588254": {
@@ -28485,6 +28575,8 @@
    "title": "bazaar: 0.9.9 -> 0.10.0"
   },
   "588263": {
+   "examined": 1,
+   "final": "report: Process completed with exit code 2.",
    "head": "d7e803f11eae48b0f7572dfdb049b7707f285a0d",
    "on_success": "nothing",
    "previous_run_id": null,
