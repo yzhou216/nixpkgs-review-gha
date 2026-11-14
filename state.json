@@ -28024,6 +28024,7 @@
    "title": "python3Packages.cardimpose: 0.2.2 -> 0.3.0"
   },
   "587933": {
+   "final": "cancelled after 4 hours",
    "head": "44f04f3b382f5c97e2113aa3f73baadf4002a072",
    "on_success": "nothing",
    "previous_run_id": null,
@@ -28098,6 +28099,7 @@
    "title": "libsigsegv: 2.15 -> 2.16"
   },
   "587966": {
+   "final": "cancelled after 4 hours",
    "head": "cac73382bb32d48173875f0a8ce2b75ca7ef3bf4",
    "on_success": "nothing",
    "previous_run_id": null,
@@ -28171,6 +28173,7 @@
    "title": "diskwatch: 0.7.1 -> 0.7.2"
   },
   "587982": {
+   "final": "cancelled after 4 hours",
    "head": "f4345f3fdd1483967ea7cb0c27bbd75a8acefc5a",
    "on_success": "nothing",
    "previous_run_id": null,
