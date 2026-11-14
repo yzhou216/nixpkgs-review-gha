@@ -28201,6 +28201,7 @@
    "title": "python3Packages.stackit-resourcemanager: 0.12.0 -> 0.13.0"
   },
   "587987": {
+   "final": "cancelled after 4 hours",
    "head": "2cea21c1c5c8de4244d410dd02b937fa78e39626",
    "on_success": "nothing",
    "previous_run_id": null,
@@ -28216,6 +28217,7 @@
    "title": "koboldcpp-cuda: 1.124 -> 1.124.2"
   },
   "587989": {
+   "final": "cancelled after 4 hours",
    "head": "aa2566638fa67cc681bb87d01cc1f2e28c67b3e1",
    "on_success": "nothing",
    "previous_run_id": null,
