@@ -27586,22 +27586,62 @@
   },
   "587870": {
    "head": "c7029cfa4644be85ed63eb894d1e5cc1bbb2bd60",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43575059144,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-14T08:16:55+00:00",
    "title": "mt32emu-smf2wav: 1.9.3 -> 1.9.4"
   },
   "587875": {
    "head": "55ae426887218329635cb419d7f36ca5e7a85fa3",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43574733897,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-14T08:13:01+00:00",
    "title": "mt32emu-qt: 1.12.2 -> 1.12.3"
   },
   "587877": {
    "head": "2a3628650a5ca3bfa01e18e50cf0585f645236e0",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43574257425,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-14T08:07:02+00:00",
    "title": "rura: 1.13.0 -> 1.14.0"
   },
   "587884": {
    "head": "a5e5d8702f1cf2054519b347f141beebc8964728",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43574199318,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-14T08:06:18+00:00",
    "title": "wtp: 2.10.4 -> 2.11.1"
   },
   "587886": {
@@ -27620,32 +27660,94 @@
   },
   "587891": {
    "head": "ad58a19f979ebff5ce2aab9de8891f2f29cbab7c",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43574145392,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-14T08:05:37+00:00",
    "title": "tree-sitter-grammars.tree-sitter-rescript: 6.0.0-unstable-2026-09-25 -> 6.0.0-unstable-2026-11-04"
   },
   "587896": {
+   "examined": 1,
+   "final": "review (aarch64-darwin): Connect Timeout Error (attempted address: api.github.com:443, timeout: 10000ms)",
    "head": "7ee61dab22df8468b322bcf64220e52babe046d4",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43573908594,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-14T08:02:44+00:00",
    "title": "python3Packages.pystrich: 0.20 -> 0.21"
   },
   "587914": {
    "head": "74c0214e219cea5ac31bc65b9189506f7dc8b01f",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43573668731,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-14T07:59:56+00:00",
    "title": "ogen: 1.24.0 -> 1.25.0"
   },
   "587919": {
    "head": "42b8569e45d1379d76aec52ae816e5af1f7b59eb",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43573608456,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-14T07:59:06+00:00",
    "title": "autotrace: 0.31.10 -> 0.31.11"
   },
   "587921": {
    "head": "0c419d8ad9782d4e8e8cff2b8d4ec7b9bfc137a8",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43573485009,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-14T07:57:22+00:00",
    "title": "rea: 6.8.0 -> 6.9.0"
   },
   "587922": {
    "head": "d0c9cdb285b9933903054006e0bd6e9ef103591b",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43573277460,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-14T07:54:35+00:00",
    "title": "git-sizer: 1.5.0 -> 1.6.0"
   },
   "587931": {
