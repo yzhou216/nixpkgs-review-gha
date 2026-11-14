@@ -27119,6 +27119,7 @@
    "title": "scala-cli: 1.18.0 -> 1.19.0"
   },
   "587479": {
+   "final": "cancelled after 4 hours",
    "head": "2f263f0c519cbfaab2dea86b845e73277af28e0a",
    "on_success": "nothing",
    "previous_run_id": 43383925873,
