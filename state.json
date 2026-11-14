@@ -7061,8 +7061,17 @@
   },
   "561141": {
    "head": "0d009abc63e16ae2e2d1fac86e3403fde0480706",
+   "on_success": "nothing",
    "previous_run_id": 39880473395,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 43579178085,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-14T09:09:12+00:00",
    "title": "python3Packages.llama-index-llms-openai: 0.7.10 -> 0.8.4"
   },
   "561186": {
@@ -27111,8 +27120,17 @@
   },
   "587479": {
    "head": "2f263f0c519cbfaab2dea86b845e73277af28e0a",
+   "on_success": "nothing",
    "previous_run_id": 43383925873,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 43578902959,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-14T09:05:49+00:00",
    "title": "python3Packages.google-cloud-pubsub: 2.41.0 -> 2.44.0"
   },
   "587480": {
@@ -27383,57 +27401,167 @@
   },
   "587574": {
    "head": "269d68cc5e4ea8abaa72f206e969a66570fce24b",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43578843938,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-14T09:05:08+00:00",
    "title": "ccusage: 20.0.48 -> 20.0.50"
   },
   "587584": {
    "head": "f8abd18614eada016468c8c494d7abf3f38e740d",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43578642364,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-14T09:02:42+00:00",
    "title": "gaugePlugins.screenshot: 0.3.2 -> 1.0.3"
   },
   "587597": {
    "head": "ab1652c12ad8bc07494f6d4d8431d5bb3a65f3ab",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43578538500,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-14T09:01:25+00:00",
    "title": "saldo: 0.8.4 -> 0.9.0"
   },
   "587611": {
    "head": "64b08a7acd7a99d971524eeb9e011cb4e759e596",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43578481842,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-14T09:00:48+00:00",
    "title": "python3Packages.cloudflare: 5.9.0 -> 5.10.0"
   },
   "587612": {
    "head": "8680d31fb265ad6f708018983152e19411733df8",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43578364620,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-14T08:59:24+00:00",
    "title": "melange: 0.59.2 -> 0.64.1"
   },
   "587613": {
    "head": "929dc04d9773b7eb35f4a03751e8a0b1c95cf679",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43578316486,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-14T08:58:43+00:00",
    "title": "kubernetes-helm: 4.3.1 -> 4.3.2"
   },
   "587637": {
    "head": "ed4b3308afedd49cf8e79dd82a02d28cd457e8cd",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43578071013,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-14T08:55:21+00:00",
    "title": "oh-my-zsh: 2026-11-02 -> 2026-11-09"
   },
   "587641": {
    "head": "bb52fdffdeb39bd238457ad5cd537661ff9f7dc8",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43578019909,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-14T08:54:40+00:00",
    "title": "python3Packages.yamlcore: 0.0.4 -> 0.1.1"
   },
   "587642": {
    "head": "557aa4e45cb2bbcfa49d0df9b7085abbd1aff321",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43577881052,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-14T08:52:48+00:00",
    "title": "crow: 1.3.4 -> 1.3.5"
   },
   "587649": {
    "head": "1742d04cae80ac950cf5cf819487d7e765ecce28",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43577746221,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-14T08:51:03+00:00",
    "title": "hermitcli: 0.55.1 -> 0.56.0"
   },
   "587653": {
    "head": "d75d8771b367056196847bf17c3d028c5dd40da4",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43577691364,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-14T08:50:19+00:00",
    "title": "ugs: 2.1.27 -> 2.1.30"
   },
   "587681": {
