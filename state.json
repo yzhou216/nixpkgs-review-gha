@@ -27934,8 +27934,17 @@
   },
   "587896": {
    "head": "7ee61dab22df8468b322bcf64220e52babe046d4",
+   "on_success": "nothing",
    "previous_run_id": 43573908594,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 43658050130,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-15T00:24:58+00:00",
    "title": "python3Packages.pystrich: 0.20 -> 0.21"
   },
   "587914": {
