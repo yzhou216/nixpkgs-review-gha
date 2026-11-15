@@ -28865,6 +28865,7 @@
    "title": "vals: 0.47.0 -> 0.51.1"
   },
   "588313": {
+   "final": "cancelled after 4 hours",
    "head": "8da232ab6f61d05ed9ce8868321e98e9d4a07da5",
    "on_success": "nothing",
    "previous_run_id": null,
