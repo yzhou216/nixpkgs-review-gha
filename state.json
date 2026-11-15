@@ -28937,6 +28937,7 @@
    "title": "go2tv: 2.8.0 -> 2.9.0"
   },
   "588345": {
+   "final": "cancelled after 4 hours",
    "head": "520d5be562e44c25552293db6fad38e9488bd332",
    "on_success": "nothing",
    "previous_run_id": null,
