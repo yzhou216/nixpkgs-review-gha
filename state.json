@@ -25453,10 +25453,10 @@
    "title": "morgen: 4.1.0 -> 4.1.4"
   },
   "586891": {
-   "head": "a520b888c03f834fd2036c7d8940bcd6e7beec36",
-   "status": "requeue",
+   "reason": "CI evaluation still running",
+   "status": "retry",
    "title": "cyclonedx-python: 7.6.0 -> 8.0.1",
-   "tries": 4
+   "tries": 5
   },
   "586911": {
    "reason": "not open",
@@ -29376,57 +29376,131 @@
   },
   "588768": {
    "head": "1583cf1a23610a0b69b35ab72c81b70ea7a57518",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43978880069,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-16T23:23:34+00:00",
    "title": "libtoxcore: 0.2.24 -> 0.2.25"
   },
   "588789": {
    "head": "c648cf642672689bce0382a0c7bf1b010bd74c07",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43978775215,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-16T23:22:51+00:00",
    "title": "pyxel: 2.9.9 -> 3.0.1"
   },
   "588792": {
    "head": "91d3d4abef9ecca2e354446742a735ed1fa81eca",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43978674073,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-16T23:22:10+00:00",
    "title": "sdrangel: 7.27.2 -> 8.2.0"
   },
   "588797": {
    "head": "c95c259d0bf7252349e5ce7288b7e71c695f3274",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43977949673,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-16T23:17:14+00:00",
    "title": "python3Packages.zwave-js-server-python: 0.74.0 -> 0.75.0"
   },
   "588799": {
-   "head": "08a3649e4f00bd59491863f92f1a8249a0704ef4",
-   "status": "requeue",
-   "title": "python3Packages.tika: 3.3.2 -> 3.4.0"
+   "reason": "not open",
+   "status": "skipped",
+   "title": "python3Packages.tika: 3.3.2 -> 3.4.0",
+   "tries": 0
   },
   "588802": {
-   "head": "4fbe1ea15ce5a2abe6a19f064161f87d7dd35265",
-   "status": "requeue",
-   "title": "riffdiff: 3.6.2 -> 3.7.0"
+   "reason": "not open",
+   "status": "skipped",
+   "title": "riffdiff: 3.6.2 -> 3.7.0",
+   "tries": 0
   },
   "588804": {
    "head": "b163ba472045a6233e4233871c1b4f0acb6e327d",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43977846089,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-16T23:16:33+00:00",
    "title": "libastyle: 3.6.21 -> 3.6.24"
   },
   "588806": {
    "head": "5f42ee91ba58107a101dafd49e4d7eacd80a47f2",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43977415772,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-16T23:13:40+00:00",
    "title": "python3Packages.django-simple-captcha: 0.7.0 -> 0.8.0"
   },
   "588817": {
-   "head": "c70e0d64761291160d6e476cbe9366ae1632e923",
-   "status": "requeue",
-   "title": "vi-mongo: 0.3.1 -> 0.3.2"
+   "reason": "not open",
+   "status": "skipped",
+   "title": "vi-mongo: 0.3.1 -> 0.3.2",
+   "tries": 0
   },
   "588835": {
-   "head": "d47d4e4c3eecf2e5c3acb4699434fa50bf1be274",
-   "status": "requeue",
-   "title": "wordwarvi: 1.0.4-unstable-2025-09-25 -> 1.0.4-unstable-2025-08-25"
+   "reason": "not open",
+   "status": "skipped",
+   "title": "wordwarvi: 1.0.4-unstable-2025-09-25 -> 1.0.4-unstable-2025-08-25",
+   "tries": 0
   },
   "588839": {
    "head": "86f1388448f694887c387e2465c99762e8acbf9b",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43976814295,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-16T23:09:47+00:00",
    "title": "python3Packages.elastic-transport_9: 9.2.1 -> 9.4.3"
   },
   "588846": {
@@ -29445,13 +29519,24 @@
   },
   "588849": {
    "head": "aa6cdb9b2006af4b79ef0806eabaeb62f07e32cf",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43976547579,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-16T23:08:04+00:00",
    "title": "ifm-web: 4.1.2 -> 4.2.0"
   },
   "588850": {
-   "head": "677aaf151474b4fd45d47ab4c814f034820ecd36",
-   "status": "requeue",
-   "title": "goctl: 1.10.2 -> 1.11.0"
+   "reason": "not open",
+   "status": "skipped",
+   "title": "goctl: 1.10.2 -> 1.11.0",
+   "tries": 0
   },
   "588852": {
    "head": "b8dae92b3d82e12d59f74ed09fe49c956eef01fd",
@@ -29468,9 +29553,10 @@
    "title": "igir: 5.8.0 -> 5.8.1"
   },
   "588855": {
-   "head": "8dd572f43da6bb43318ee2c8dcca51c08b5e976e",
-   "status": "requeue",
-   "title": "nextdns: 1.49.0 -> 1.50.2"
+   "reason": "not open",
+   "status": "skipped",
+   "title": "nextdns: 1.49.0 -> 1.50.2",
+   "tries": 0
   },
   "588865": {
    "head": "ef6c41fb2d8ce9b7bf84892ef7a3f0e082620e64",
@@ -29488,12 +29574,32 @@
   },
   "588869": {
    "head": "9b43cd06d0142cb111c5636e2da9e0bb0aefae46",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43975785338,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-16T23:03:11+00:00",
    "title": "grafana-loki: 3.7.9 -> 3.7.10"
   },
   "588870": {
    "head": "6beccfdf4db7ddfc45fd04ccab4d61e2ebe58404",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43975019974,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-16T22:58:10+00:00",
    "title": "libvisio: 0.1.11 -> 0.1.12"
   },
   "588871": {
@@ -29512,13 +29618,24 @@
   },
   "588877": {
    "head": "7ab80bd89c0a3cc19ef3e6a9b85c7e4e33a0d01a",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43974758909,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-16T22:56:27+00:00",
    "title": "roxctl: 4.11.7 -> 5.0.0"
   },
   "588884": {
-   "head": "fea26591b11231f99098207df401cd21c4cf1810",
-   "status": "requeue",
-   "title": "cf-terraforming: 0.30.0 -> 0.31.0"
+   "reason": "not open",
+   "status": "skipped",
+   "title": "cf-terraforming: 0.30.0 -> 0.31.0",
+   "tries": 0
   },
   "588885": {
    "head": "1da7ef667c86e58595c3cff81e159bdbbdd99157",
