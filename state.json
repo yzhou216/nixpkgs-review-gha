@@ -29181,7 +29181,16 @@
   },
   "588705": {
    "head": "bdea764b445563041004118e3898ab9dcef265e3",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43964733730,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-16T21:54:15+00:00",
    "title": "krankerl: 0.14.1 -> 0.14.3"
   },
   "588713": {
@@ -29216,7 +29225,16 @@
   },
   "588757": {
    "head": "99adba118fd68b92561123cdfecb7ffd31f86292",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43964487294,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-16T21:52:42+00:00",
    "title": "obs-studio-plugins.obs-3d-effect: 0.1.4 -> 0.1.5"
   },
   "588764": {
@@ -29286,7 +29304,16 @@
   },
   "588846": {
    "head": "6f100ea25ec024efe9688a3cd311bae798a4da86",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43963794380,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-16T21:48:30+00:00",
    "title": "libeduvpn-common: 5.0.3 -> 5.0.4"
   },
   "588849": {
@@ -29301,7 +29328,16 @@
   },
   "588852": {
    "head": "b8dae92b3d82e12d59f74ed09fe49c956eef01fd",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43963259152,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-16T21:45:17+00:00",
    "title": "igir: 5.8.0 -> 5.8.1"
   },
   "588855": {
@@ -29311,7 +29347,16 @@
   },
   "588865": {
    "head": "ef6c41fb2d8ce9b7bf84892ef7a3f0e082620e64",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43960383101,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-16T21:28:07+00:00",
    "title": "sysstat: 12.8.0 -> 12.8.1"
   },
   "588869": {
@@ -29326,7 +29371,16 @@
   },
   "588871": {
    "head": "736141019e37e5b2bf5f7ce89d3766433c8c9804",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43960221107,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-16T21:27:07+00:00",
    "title": "jay: 1.15.0 -> 1.15.1"
   },
   "588877": {
@@ -29350,9 +29404,10 @@
    "title": "sampo: 0.24.0 -> 0.24.1"
   },
   "588892": {
-   "head": "62c066964c9fe46d7080f8a709208c4008bc7237",
-   "status": "requeue",
-   "title": "python3Packages.satel-integra: 1.6.0 -> 1.7.0"
+   "reason": "draft",
+   "status": "skipped",
+   "title": "python3Packages.satel-integra: 1.6.0 -> 1.7.0",
+   "tries": 0
   },
   "588898": {
    "head": "a7a8f3f8a599b6bc831e25bd485d23499e6d4fa0",
@@ -29610,27 +29665,76 @@
   },
   "589100": {
    "head": "261a0de63c75173978036d9ea2d4158f528752fd",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43963376157,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-16T21:45:58+00:00",
    "title": "sonoscli: 0.3.5 -> 0.3.6"
   },
   "589101": {
    "head": "3eefe031355e28b71577c49aa9888ab2f6c8aec1",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43962767189,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-16T21:42:21+00:00",
    "title": "semantic-release: 25.0.9 -> 26.0.1"
   },
   "589103": {
    "head": "cee697850cd918fe53cf1917694a96b4c77f5b74",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43961558912,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-16T21:35:08+00:00",
    "title": "readium: 0.10.1 -> 0.11.0"
   },
   "589105": {
    "head": "f45f6a29187deab419d7fa08502bc70ceb1c4cb3",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43961257528,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-16T21:33:21+00:00",
    "title": "protonmail-bridge: 3.27.1 -> 3.27.2"
   },
   "589108": {
    "head": "6400b73480bd0e6c8f8ca67d00f1c3f4bf914fb0",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43960497504,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-16T21:28:49+00:00",
    "title": "ovh-ttyrec: 1.2.0.0 -> 1.2.0.1"
   },
   "589109": {
