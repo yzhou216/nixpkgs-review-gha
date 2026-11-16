@@ -29289,7 +29289,17 @@
   },
   "588683": {
    "head": "3ff99169149c57bff489b4bf2e932b8c991c1519",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43982963889,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-16T23:52:22+00:00",
    "title": "prometheus-mongodb-exporter: 0.53.0 -> 0.54.0"
   },
   "588701": {
@@ -29321,33 +29331,84 @@
    "title": "krankerl: 0.14.1 -> 0.14.3"
   },
   "588713": {
-   "head": "593e8bb4e0dde070f454eed823eb800cbe559c86",
-   "status": "requeue",
-   "title": "aws-vault: 7.17.5 -> 7.18.0"
+   "reason": "not open",
+   "status": "skipped",
+   "title": "aws-vault: 7.17.5 -> 7.18.0",
+   "tries": 0
   },
   "588714": {
    "head": "3738c09422c132b57dcf54b99dbc6f2748a4b32c",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43982594383,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-16T23:49:41+00:00",
    "title": "enzyme: 0.0.304 -> 0.0.310"
   },
   "588726": {
    "head": "a356b8945b8da0fe994ebae1016621f8ed141e4a",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43981770357,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-16T23:43:47+00:00",
    "title": "python3Packages.langchain-protocol: 0.0.20 -> 0.0.21"
   },
   "588730": {
    "head": "1a784ee2976dca895a4b4b3b8d22ea5488dbbecd",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43981093232,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-16T23:38:56+00:00",
    "title": "home-assistant-matter-hub: 2.0.59 -> 2.0.60"
   },
   "588737": {
    "head": "29ead6de8208edecae2f89dc52024184c94b1cd0",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43980386894,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-16T23:34:04+00:00",
    "title": "helmfile: 1.8.0 -> 1.8.4"
   },
   "588742": {
    "head": "50863e3a7795382f0307a061fbbaa5bf87221f7a",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43980292489,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-16T23:33:24+00:00",
    "title": "wails: 2.17.0 -> 3.1.0"
   },
   "588757": {
@@ -29366,13 +29427,23 @@
   },
   "588764": {
    "head": "0c5f8ec3dd8f97461722727803fdf77a5641c66a",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43979442760,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-16T23:27:30+00:00",
    "title": "gitkraken: 12.6.1 -> 12.6.2"
   },
   "588767": {
-   "head": "abbc9570e4780ab647357f8632c79e58b4a84d7a",
-   "status": "requeue",
-   "title": "lint-staged: 17.6.0 -> 17.6.1"
+   "reason": "not open",
+   "status": "skipped",
+   "title": "lint-staged: 17.6.0 -> 17.6.1",
+   "tries": 0
   },
   "588768": {
    "head": "1583cf1a23610a0b69b35ab72c81b70ea7a57518",
