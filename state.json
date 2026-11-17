@@ -23333,7 +23333,17 @@
   },
   "585364": {
    "head": "e1e441cb61af729656901745190a247b1dbf8b38",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44031220144,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-17T06:26:25+00:00",
    "title": "tun2proxy: 0.8.6 -> 0.8.7"
   },
   "585388": {
@@ -29015,12 +29025,32 @@
   },
   "588376": {
    "head": "5417f4dd27e2e86684a5bf2ce2d2d9c44694c6a0",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44031069125,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-17T06:25:11+00:00",
    "title": "python3Packages.awkward-cpp: 57 -> 58"
   },
   "588416": {
    "head": "8f562d2337a1c086c8be88abfb75eee2f2eb39dd",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44030446090,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-17T06:20:13+00:00",
    "title": "python3Packages.django-fsm-2: 4.2.4 -> 4.3.0"
   },
   "588423": {
