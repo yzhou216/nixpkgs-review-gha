@@ -1,7 +1,8 @@
 name: ghc-bootstrap
 run-name: "ghc-bootstrap ${{ github.event.head_commit.message }}"
 
-# Builds the attributes in target.env from a commit of yzhou216/nixpkgs and
+# Builds the attributes in target.env (of `file`, the repository root by
+# default) from a commit of yzhou216/nixpkgs and
 # pushes every store path it builds to Cachix, so that a run stopped by the
 # six-hour job limit resumes where it stopped when the branch is pushed again.
 
@@ -57,11 +58,12 @@ jobs:
       - name: build
         working-directory: nixpkgs
         env:
+          FILE: ${{ steps.target.outputs.file || '.' }}
           ATTRS: ${{ steps.target.outputs.attrs }}
         run: |
           # Stop before the job limit, so that the cache push still runs
           read -ra attrs <<< "$ATTRS"
-          timeout -s INT 335m nix build -L --keep-going --no-link -f . "${attrs[@]}"
+          timeout -s INT 335m nix build -L --keep-going --no-link -f "$FILE" "${attrs[@]}"
 
       - name: disk and memory
         if: always()
