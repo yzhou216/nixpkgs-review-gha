@@ -7285,8 +7285,17 @@
   },
   "561706": {
    "head": "6980009b48c8e4e6ce7fb475c2af31afa8eee537",
+   "on_success": "nothing",
    "previous_run_id": 39854406249,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 44037379848,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-17T07:16:06+00:00",
    "title": "python3Packages.llama-index-node-parser-docling: 0.4.2 -> 0.6.0"
   },
   "561721": {
@@ -9205,8 +9214,17 @@
   },
   "568327": {
    "head": "b40e008c61d5512f0470239612d17d6207d866b6",
+   "on_success": "nothing",
    "previous_run_id": 42170701258,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 44037289352,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-17T07:15:26+00:00",
    "title": "eccodes: 2.48.0 -> 2.50.1"
   },
   "568332": {
