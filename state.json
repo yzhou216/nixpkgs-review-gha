@@ -9213,6 +9213,8 @@
    "title": "python3Packages.plantuml-markdown: 3.11.2 -> 3.11.5"
   },
   "568327": {
+   "examined": 1,
+   "final": "review (x86_64-linux): Process completed with exit code 137.; review (aarch64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ",
    "head": "b40e008c61d5512f0470239612d17d6207d866b6",
    "on_success": "nothing",
    "previous_run_id": 42170701258,
@@ -29085,6 +29087,7 @@
    "title": "python3Packages.django-fsm-2: 4.2.4 -> 4.3.0"
   },
   "588423": {
+   "final": "cancelled after 4 hours",
    "head": "a28f42c3d92ad2717ff063748578a796299f3f28",
    "on_success": "nothing",
    "previous_run_id": null,
