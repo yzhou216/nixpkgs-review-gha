@@ -29100,7 +29100,17 @@
   },
   "588466": {
    "head": "150bde5d5eaff5f2a74afcbd42485d5c11b471eb",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44008389959,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-17T03:11:18+00:00",
    "title": "filebeat8: 8.19.24 -> 8.19.25"
   },
   "588471": {
@@ -29117,7 +29127,17 @@
   },
   "588483": {
    "head": "8e3aadc7207e65b149a27766486306eaed58f224",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44007908241,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-17T03:07:18+00:00",
    "title": "steampipePackages.steampipe-plugin-aws: 1.34.1 -> 1.35.0"
   },
   "588488": {
@@ -29128,12 +29148,32 @@
   },
   "588489": {
    "head": "2482c7418c0187e1cea1ce45466ed7b338c17c7d",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44007628534,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-17T03:05:06+00:00",
    "title": "asn1scc: 4.9.69.0 -> 4.9.109.0"
   },
   "588499": {
    "head": "265ef4e8e503c0cc10814528d17f9e62125d945e",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44007543317,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-17T03:04:25+00:00",
    "title": "dependabot-cli: 1.94.0 -> 1.97.0"
   },
   "588500": {
@@ -29144,7 +29184,17 @@
   },
   "588505": {
    "head": "32231ad2c4dc286b7d0375d8bf7d1cc430f148ec",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44007456022,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-17T03:03:42+00:00",
    "title": "endless-sky: 0.11.3 -> 0.11.4"
   },
   "588511": {
@@ -29161,7 +29211,17 @@
   },
   "588525": {
    "head": "1b59453e8b8c976e919d9713caeb71ceb41717c5",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44007370144,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-17T03:03:02+00:00",
    "title": "mudlet: 5.1.0 -> 5.1.1"
   },
   "588550": {
@@ -29722,6 +29782,7 @@
    "title": "grafana-loki: 3.7.9 -> 3.7.10"
   },
   "588870": {
+   "final": "cancelled after 4 hours",
    "head": "6beccfdf4db7ddfc45fd04ccab4d61e2ebe58404",
    "on_success": "nothing",
    "previous_run_id": null,
@@ -29878,6 +29939,7 @@
    "title": "paretosecurity: 0.3.24 -> 0.3.26"
   },
   "588948": {
+   "final": "cancelled after 4 hours",
    "head": "cc5536daf669cd3cd38ca1e5a06491a5e2136f16",
    "on_success": "nothing",
    "previous_run_id": null,
@@ -29893,6 +29955,7 @@
    "title": "python3Packages.ufoprocessor: 1.14.1 -> 1.14.2"
   },
   "588952": {
+   "final": "cancelled after 4 hours",
    "head": "2c5d2e91a65e104b1a2816ec9534e20342f9adb3",
    "on_success": "nothing",
    "previous_run_id": null,
