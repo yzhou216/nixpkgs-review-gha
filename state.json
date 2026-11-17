@@ -29070,7 +29070,17 @@
   },
   "588441": {
    "head": "ebcec0510699414d509adac22cb05df44d815972",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44017606974,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-17T04:30:08+00:00",
    "title": "infrastructure-agent: 1.80.5 -> 2.0.2"
   },
   "588456": {
@@ -29367,6 +29377,7 @@
    "title": "nushellPlugins.skim: 0.31.0 -> 0.32.0"
   },
   "588671": {
+   "final": "cancelled after 4 hours",
    "head": "07f2910bf8919ecd409ded6033f749a0dc41b1b2",
    "on_success": "nothing",
    "previous_run_id": null,
