@@ -19020,8 +19020,17 @@
   },
   "581849": {
    "head": "f51ef8b556c065cb2d546f9e35fbd24db7baea31",
+   "on_success": "nothing",
    "previous_run_id": 43393225203,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 44032750250,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-17T06:38:49+00:00",
    "title": "python3Packages.spmd-types: 0.2.5 -> 0.3.1"
   },
   "581855": {
