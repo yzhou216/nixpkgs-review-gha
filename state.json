@@ -29268,13 +29268,24 @@
   },
   "588674": {
    "head": "e7d09d8c1125bfd4267ca819993df23bc1f5449a",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43985499606,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-17T00:10:45+00:00",
    "title": "corrscope: 0.11.0 -> 0.11.1"
   },
   "588675": {
-   "head": "9d6491b126829b9176e58d1c57b6257b560026d1",
-   "status": "requeue",
-   "title": "instawow: 7.3.0 -> 7.3.1"
+   "reason": "not open",
+   "status": "skipped",
+   "title": "instawow: 7.3.0 -> 7.3.1",
+   "tries": 0
   },
   "588677": {
    "reason": "draft",
@@ -29283,9 +29294,10 @@
    "tries": 0
   },
   "588682": {
-   "head": "a133a9db2dcb8b0f9c1a043ec7e4bbee8ea82fe3",
-   "status": "requeue",
-   "title": "john: 1.9.0-Jumbo-1-unstable-2026-09-30 -> 1.9.0-Jumbo-1-unstable-2026-11-04"
+   "reason": "not open",
+   "status": "skipped",
+   "title": "john: 1.9.0-Jumbo-1-unstable-2026-09-30 -> 1.9.0-Jumbo-1-unstable-2026-11-04",
+   "tries": 0
   },
   "588683": {
    "head": "3ff99169149c57bff489b4bf2e932b8c991c1519",
