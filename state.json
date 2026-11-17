@@ -29081,7 +29081,17 @@
   },
   "588457": {
    "head": "0e8cb1dc4660eeec1792b83b874b8e0aba9e1731",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44012350530,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-17T03:44:55+00:00",
    "title": "python3Packages.pykodi: 0.2.7 -> 0.3.0"
   },
   "588461": {
@@ -29475,6 +29485,7 @@
    "title": "enzyme: 0.0.304 -> 0.0.310"
   },
   "588726": {
+   "final": "cancelled after 4 hours",
    "head": "a356b8945b8da0fe994ebae1016621f8ed141e4a",
    "on_success": "nothing",
    "previous_run_id": null,
