@@ -29253,7 +29253,17 @@
   },
   "588668": {
    "head": "8dec2d453b1fa1beff2e349c9b3b8a8a37c302d6",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43993046506,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-17T01:07:00+00:00",
    "title": "nushellPlugins.skim: 0.31.0 -> 0.32.0"
   },
   "588671": {
@@ -30331,6 +30341,7 @@
    "title": "ovh-ttyrec: 1.2.0.0 -> 1.2.0.1"
   },
   "589109": {
+   "final": "cancelled after 4 hours",
    "head": "6f279a287465956656fee6c314f26936106ca8d7",
    "on_success": "nothing",
    "previous_run_id": null,
