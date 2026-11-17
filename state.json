@@ -29258,13 +29258,24 @@
   },
   "588671": {
    "head": "07f2910bf8919ecd409ded6033f749a0dc41b1b2",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 43987995458,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-17T00:29:12+00:00",
    "title": "pulumiPackages.pulumi-java: 1.39.0 -> 1.40.0"
   },
   "588672": {
-   "head": "a29ff46727439fb0e072eab50447280c5a1502da",
-   "status": "requeue",
-   "title": "all-the-package-names: 2.0.2613 -> 2.0.2625"
+   "reason": "not open",
+   "status": "skipped",
+   "title": "all-the-package-names: 2.0.2613 -> 2.0.2625",
+   "tries": 0
   },
   "588674": {
    "head": "e7d09d8c1125bfd4267ca819993df23bc1f5449a",
