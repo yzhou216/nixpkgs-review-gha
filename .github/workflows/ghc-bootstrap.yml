@@ -1,0 +1,70 @@
+name: ghc-bootstrap
+run-name: "ghc-bootstrap ${{ github.event.head_commit.message }}"
+
+# Builds the attributes in target.env from a commit of yzhou216/nixpkgs and
+# pushes every store path it builds to Cachix, so that a run stopped by the
+# six-hour job limit resumes where it stopped when the branch is pushed again.
+
+on:
+  push:
+    branches:
+      - ghc-bootstrap
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ghc-bootstrap
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: checkout target
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          path: ci
+          persist-credentials: false
+
+      - name: read target
+        id: target
+        run: cat ci/target.env >> "$GITHUB_OUTPUT"
+
+      - name: checkout nixpkgs
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          repository: yzhou216/nixpkgs
+          ref: ${{ steps.target.outputs.rev }}
+          path: nixpkgs
+          persist-credentials: false
+
+      - name: install nix
+        uses: cachix/install-nix-action@13d8dd58da0234aa297dedd986986ccb8e7f3e24 # v31.11.1
+        with:
+          extra_nix_config: |
+            max-jobs = 2
+            cores = 2
+
+      - name: set up cachix
+        uses: cachix/cachix-action@38b082610b782e7e93e209c35fd730d399dee866 # v17
+        with:
+          name: ${{ vars.CACHIX_CACHE }}
+          authToken: ${{ secrets.CACHIX_AUTH_TOKEN }}
+
+      - name: build
+        working-directory: nixpkgs
+        env:
+          ATTRS: ${{ steps.target.outputs.attrs }}
+        run: |
+          # Stop before the job limit, so that the cache push still runs
+          read -ra attrs <<< "$ATTRS"
+          timeout -s INT 335m nix build -L --keep-going --no-link -f . "${attrs[@]}"
+
+      - name: disk and memory
+        if: always()
+        run: |
+          df -h /
+          free -m
