@@ -19037,6 +19037,8 @@
    "title": "fittrackee: 1.3.6 -> 1.3.8"
   },
   "581849": {
+   "examined": 1,
+   "final": "review (x86_64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ",
    "head": "f51ef8b556c065cb2d546f9e35fbd24db7baea31",
    "on_success": "nothing",
    "previous_run_id": 43393225203,
@@ -23359,6 +23361,8 @@
    "title": "python3Packages.phx-class-registry: 5.2.2 -> 6.0.0"
   },
   "585364": {
+   "examined": 1,
+   "final": "review (aarch64-linux): Process completed with exit code 1.",
    "head": "e1e441cb61af729656901745190a247b1dbf8b38",
    "on_success": "nothing",
    "previous_run_id": null,
