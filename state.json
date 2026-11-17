@@ -29115,6 +29115,7 @@
    "title": "stable-diffusion-cpp: master-1043-3be2378 -> master-1104-5dcfa79"
   },
   "588425": {
+   "final": "cancelled after 4 hours",
    "head": "5ced393daa601e80df4ffca91192775ed4b6e9f2",
    "on_success": "nothing",
    "previous_run_id": null,
@@ -29130,6 +29131,7 @@
    "title": "stable-diffusion-cpp-vulkan: master-1043-3be2378 -> master-1104-5dcfa79"
   },
   "588427": {
+   "final": "cancelled after 4 hours",
    "head": "32b23fa0eaf578ddbf6a7393e3e0846f632b9506",
    "on_success": "nothing",
    "previous_run_id": null,
