@@ -29025,22 +29025,62 @@
   },
   "588423": {
    "head": "a28f42c3d92ad2717ff063748578a796299f3f28",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44028210661,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-17T06:01:52+00:00",
    "title": "stable-diffusion-cpp-rocm: master-1043-3be2378 -> master-1104-5dcfa79"
   },
   "588424": {
    "head": "6a91c31ea464e6bb29fd0907a1bd91f26da8f9a7",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44026777282,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-17T05:49:31+00:00",
    "title": "stable-diffusion-cpp: master-1043-3be2378 -> master-1104-5dcfa79"
   },
   "588425": {
    "head": "5ced393daa601e80df4ffca91192775ed4b6e9f2",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44026265315,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-17T05:45:03+00:00",
    "title": "stable-diffusion-cpp-vulkan: master-1043-3be2378 -> master-1104-5dcfa79"
   },
   "588427": {
    "head": "32b23fa0eaf578ddbf6a7393e3e0846f632b9506",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44026189156,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-17T05:44:22+00:00",
    "title": "stable-diffusion-cpp-cuda: master-1043-3be2378 -> master-1104-5dcfa79"
   },
   "588428": {
@@ -29307,6 +29347,7 @@
    "tries": 0
   },
   "588609": {
+   "final": "cancelled after 4 hours",
    "head": "25c3751b5e729e5b252d3e5fd00577fd966cc643",
    "on_success": "nothing",
    "previous_run_id": null,
@@ -29336,6 +29377,7 @@
    "title": "freifunk-meshviewer: 13.2.0 -> 14.0.0"
   },
   "588649": {
+   "final": "cancelled after 4 hours",
    "head": "7d9a175235c330248728c4726e78735fa788cb2a",
    "on_success": "nothing",
    "previous_run_id": null,
@@ -29357,6 +29399,7 @@
    "tries": 0
   },
   "588661": {
+   "final": "cancelled after 4 hours",
    "head": "6f2010a750282734ca7912dc12c1c04dafa2d1dc",
    "on_success": "nothing",
    "previous_run_id": null,
