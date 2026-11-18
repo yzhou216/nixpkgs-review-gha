@@ -30856,7 +30856,17 @@
   },
   "589348": {
    "head": "d278d2a1291210bbdb60a83651efdbaa217c7cdc",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44417946180,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-18T23:07:29+00:00",
    "title": "vscode-js-debug: 1.140.0 -> 1.140.1"
   },
   "589358": {
@@ -30875,12 +30885,32 @@
   },
   "589376": {
    "head": "0dc416a5131c0351be439d64454bc9a4aaece1fa",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44417842403,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-18T23:06:48+00:00",
    "title": "coder: 2.38.6 -> 2.38.8"
   },
   "589385": {
    "head": "e4454e464e646cf7fdc21de602358095c51645ba",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44417556003,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-18T23:04:58+00:00",
    "title": "ngt: 2.8.1 -> 2.8.2"
   },
   "589387": {
@@ -30913,20 +30943,50 @@
   },
   "589397": {
    "head": "0fde2cd50840c58e42e7182061b4c5751e48bd66",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44417445369,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-18T23:04:15+00:00",
    "title": "discord: 1.0.168 -> 1.0.170"
   },
   "589410": {
    "head": "238e25ed768be16a1c58b4d81603c9ec40554723",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44417342167,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-18T23:03:34+00:00",
    "title": "asmjit: 0-unstable-2026-03-26 -> 0-unstable-2026-11-04"
   },
   "589413": {
    "head": "992fd9b2cc264fc129d041f5997187a671d16e00",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44414528996,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-18T22:45:08+00:00",
    "title": "python3Packages.django-admin-sortable2: 2.3.1 -> 2.4"
   },
   "589416": {
+   "final": "cancelled after 4 hours",
    "head": "a326e6e8537c14b0fbaf25c5ea26c5766aab1151",
    "on_success": "nothing",
    "previous_run_id": null,
@@ -31223,6 +31283,8 @@
    "title": "net-cpp: 3.2.2 -> 3.2.3"
   },
   "589645": {
+   "examined": 1,
+   "final": "review (aarch64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ; review (x86_64-linux): The operation was canceled.",
    "head": "90edb26a43f3a71edf9690699b6eaec5731fa64f",
    "on_success": "nothing",
    "previous_run_id": null,
