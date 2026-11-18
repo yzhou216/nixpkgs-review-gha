@@ -25,10 +25,6 @@ on:
 permissions:
   contents: read
 
-concurrency:
-  group: ghc-bootstrap-tests
-  cancel-in-progress: false
-
 jobs:
   plan:
     runs-on: ubuntu-latest
