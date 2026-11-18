@@ -10,6 +10,9 @@ on:
   push:
     branches:
       - ghc-bootstrap
+    paths:
+      - target.env
+      - .github/workflows/ghc-bootstrap.yml
   workflow_dispatch:
 
 permissions:

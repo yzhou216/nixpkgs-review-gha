@@ -1,0 +1,201 @@
+name: ghc-bootstrap-tests
+run-name: "ghc-bootstrap-tests ${{ github.event.head_commit.message }}"
+
+# Tests from tests.env, against a commit (`rev`) of yzhou216/nixpkgs:
+#
+#   attrs    space-separated entries of `file`, each built in its own job; an
+#            entry may join several attributes with commas, built in one job.
+#            The report.txt of every output is printed, and a line starting
+#            with FAIL fails the job.
+#   rebuild  attributes of the repository root; every derivation of the
+#            6.2.2 chain in their closure is rebuilt in its own job with
+#            `nix build --rebuild`, which fails if the output differs.
+#
+# Everything built is pushed to Cachix, like the ghc-bootstrap workflow.
+
+on:
+  push:
+    branches:
+      - ghc-bootstrap
+    paths:
+      - tests.env
+      - .github/workflows/ghc-bootstrap-tests.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ghc-bootstrap-tests
+  cancel-in-progress: false
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      rev: ${{ steps.target.outputs.rev }}
+      file: ${{ steps.target.outputs.file }}
+      rebuild: ${{ steps.target.outputs.rebuild }}
+      attrs: ${{ steps.matrix.outputs.attrs }}
+      drvs: ${{ steps.matrix.outputs.drvs }}
+    steps:
+      - name: checkout target
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          path: ci
+          persist-credentials: false
+
+      - name: read target
+        id: target
+        run: cat ci/tests.env >> "$GITHUB_OUTPUT"
+
+      - name: checkout nixpkgs
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          repository: yzhou216/nixpkgs
+          ref: ${{ steps.target.outputs.rev }}
+          path: nixpkgs
+          persist-credentials: false
+
+      - name: install nix
+        uses: cachix/install-nix-action@13d8dd58da0234aa297dedd986986ccb8e7f3e24 # v31.11.1
+
+      - name: list jobs
+        id: matrix
+        working-directory: nixpkgs
+        env:
+          ATTRS: ${{ steps.target.outputs.attrs }}
+          REBUILD: ${{ steps.target.outputs.rebuild }}
+        run: |
+          read -ra attrs <<< "$ATTRS"
+          echo "attrs=$(printf '%s\n' "${attrs[@]}" | jq -R . | jq -sc .)" >> "$GITHUB_OUTPUT"
+          drvs='[]'
+          if [ -n "$REBUILD" ]; then
+            read -ra roots <<< "$REBUILD"
+            # shellcheck disable=SC2046
+            drvs=$(nix-store -qR $(nix-instantiate $(printf -- '-A %s ' "${roots[@]}")) \
+              | grep -E -- '-(ghc-6\.2\.2|happy-mhs|gmp-6\.1\.2|microhs|microcabal)[^/]*\.drv$' \
+              | grep -vE '\.tar\.(bz2|xz|gz)\.drv$' \
+              | jq -R '{name: (sub("^/nix/store/[a-z0-9]+-"; "") | sub("\\.drv$"; "")), drv: .}' | jq -sc .)
+          fi
+          echo "drvs=$drvs" >> "$GITHUB_OUTPUT"
+          echo "$drvs" | jq -r '.[].name'
+
+  test:
+    needs: plan
+    if: needs.plan.outputs.attrs != '[]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    strategy:
+      fail-fast: false
+      matrix:
+        entry: ${{ fromJSON(needs.plan.outputs.attrs) }}
+    name: test (${{ matrix.entry }})
+    steps:
+      - name: checkout nixpkgs
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          repository: yzhou216/nixpkgs
+          ref: ${{ needs.plan.outputs.rev }}
+          path: nixpkgs
+          persist-credentials: false
+
+      - name: install nix
+        uses: cachix/install-nix-action@13d8dd58da0234aa297dedd986986ccb8e7f3e24 # v31.11.1
+        with:
+          extra_nix_config: |
+            max-jobs = 2
+
+      - name: set up cachix
+        uses: cachix/cachix-action@38b082610b782e7e93e209c35fd730d399dee866 # v17
+        with:
+          name: ${{ vars.CACHIX_CACHE }}
+          authToken: ${{ secrets.CACHIX_AUTH_TOKEN }}
+
+      - name: build
+        working-directory: nixpkgs
+        env:
+          FILE: ${{ needs.plan.outputs.file || '.' }}
+          ENTRY: ${{ matrix.entry }}
+        run: |
+          # Stop before the job limit, so that the cache push still runs
+          IFS=, read -ra attrs <<< "$ENTRY"
+          timeout -s INT 335m nix build -L --keep-going --no-link -f "$FILE" "${attrs[@]}"
+
+      - name: reports
+        if: always()
+        working-directory: nixpkgs
+        env:
+          FILE: ${{ needs.plan.outputs.file || '.' }}
+          ENTRY: ${{ matrix.entry }}
+        run: |
+          IFS=, read -ra attrs <<< "$ENTRY"
+          failed=0
+          for a in "${attrs[@]}"; do
+            out=$(nix eval --raw -f "$FILE" "$a.outPath")
+            if [ -f "$out/report.txt" ]; then
+              echo "::group::$a"
+              cat "$out/report.txt"
+              echo "::endgroup::"
+              { echo "### $a"; echo '```'; cat "$out/report.txt"; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
+              if grep -q '^FAIL' "$out/report.txt"; then failed=1; fi
+            elif [ -e "$out" ]; then
+              echo "$a: built, no report"
+            else
+              echo "$a: not built"
+              failed=1
+            fi
+          done
+          exit $failed
+
+  rebuild:
+    needs: plan
+    if: needs.plan.outputs.drvs != '[]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    strategy:
+      fail-fast: false
+      max-parallel: 16
+      matrix:
+        include: ${{ fromJSON(needs.plan.outputs.drvs) }}
+    name: rebuild (${{ matrix.name }})
+    steps:
+      - name: checkout nixpkgs
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          repository: yzhou216/nixpkgs
+          ref: ${{ needs.plan.outputs.rev }}
+          path: nixpkgs
+          persist-credentials: false
+
+      - name: install nix
+        uses: cachix/install-nix-action@13d8dd58da0234aa297dedd986986ccb8e7f3e24 # v31.11.1
+
+      - name: set up cachix
+        uses: cachix/cachix-action@38b082610b782e7e93e209c35fd730d399dee866 # v17
+        with:
+          name: ${{ vars.CACHIX_CACHE }}
+          authToken: ${{ secrets.CACHIX_AUTH_TOKEN }}
+
+      - name: rebuild
+        working-directory: nixpkgs
+        env:
+          ROOTS: ${{ needs.plan.outputs.rebuild }}
+          DRV: ${{ matrix.drv }}
+        run: |
+          set -o pipefail
+          read -ra roots <<< "$ROOTS"
+          # shellcheck disable=SC2046
+          nix-instantiate $(printf -- '-A %s ' "${roots[@]}") > /dev/null
+          test -f "$DRV"
+          nix build --no-link "$DRV^*"
+          rc=0
+          nix build -L --no-link --rebuild --keep-failed "$DRV^*" 2>&1 | tee rebuild.log || rc=$?
+          if [ $rc != 0 ]; then
+            for out in $(nix-store -q --outputs "$DRV"); do
+              if [ -e "$out.check" ]; then
+                bash ghc-bootstrap-tests/compare.sh "$out" "$out.check" "$(basename "$out")" | tee -a "$GITHUB_STEP_SUMMARY"
+              fi
+            done
+          fi
+          exit $rc
