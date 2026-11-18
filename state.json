@@ -31203,17 +31203,47 @@
   },
   "589761": {
    "head": "3c1dd53d4330459da4c59fd956b067d2f7901b9a",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44392822046,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-18T20:36:32+00:00",
    "title": "cliamp: 2.4.0 -> 2.4.1"
   },
   "589762": {
    "head": "1e83bce636e99d4265f8ed88563cd919f2475284",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44390678266,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-18T20:24:21+00:00",
    "title": "worktrunk-sync: 0.3.1 -> 0.5.1"
   },
   "589764": {
    "head": "38c637bbe74656a165729c7553dcc3ac7f3ad024",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44389038740,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-18T20:15:09+00:00",
    "title": "go-ecoflow-exporter: 1.6.0 -> 2.0.0"
   },
   "589766": {
@@ -31500,10 +31530,14 @@
    "title": "inotify-tools: 4.26.270 -> 4.26.287"
   },
   "589898": {
+   "examined": 1,
    "head": "5a8a5b17c9d5ff7cdb79a5cb4c566dabe4ee23bd",
+   "no_runner_at": "2026-11-18T20:20:23+00:00",
    "on_success": "nothing",
    "previous_run_id": null,
    "requeued": true,
+   "rerun": "no runner",
+   "rerun_after": "2026-11-18T20:50:23+00:00",
    "run_id": 44382145282,
    "status": "dispatched",
    "systems": [
@@ -31632,13 +31666,15 @@
    "title": "yices: 2.7.0 -> 2.8.0"
   },
   "589960": {
-   "examined": 1,
+   "examined": 2,
    "head": "3d1c1ce165b8579006229d2061fa25b202dbeb7a",
-   "no_runner_at": "2026-11-18T18:52:46+00:00",
+   "no_runner_at": "2026-11-18T20:17:34+00:00",
    "on_success": "nothing",
    "previous_run_id": null,
    "requeued": true,
    "reran": "no runner",
+   "rerun": "no runner",
+   "rerun_after": "2026-11-18T21:17:34+00:00",
    "run_id": 44370690804,
    "status": "dispatched",
    "systems": [
