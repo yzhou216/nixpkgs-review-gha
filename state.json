@@ -30891,12 +30891,29 @@
   },
   "589500": {
    "head": "66d7b1bd3205d256c8221cff4608c6d01620f962",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44371751849,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-18T18:37:34+00:00",
    "title": "flat-remix-gnome: 20250926 -> 20261117"
   },
   "589512": {
    "head": "62478cdc51256adf29b49caa54e0c9f9273140c9",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44371620109,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux"
+   ],
+   "time": "2026-11-18T18:36:50+00:00",
    "title": "snabb: 2024.08 -> 2026.11"
   },
   "589526": {
@@ -30926,7 +30943,16 @@
   },
   "589570": {
    "head": "b5fc91516cb22d1168f45cb5848e945bcd482c9e",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44371337542,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-18T18:35:16+00:00",
    "title": "tractor: 5.2.0 -> 5.1.0"
   },
   "589593": {
@@ -30941,7 +30967,16 @@
   },
   "589618": {
    "head": "583f0eb41d6c2525737e3bf0364180aaff761c82",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44371109450,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-18T18:34:02+00:00",
    "title": "net-cpp: 3.2.2 -> 3.2.3"
   },
   "589645": {
@@ -31031,7 +31066,16 @@
   },
   "589759": {
    "head": "fd44e21245fc191ef670ddc910a6216ff8b55933",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44369957259,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-18T18:27:42+00:00",
    "title": "atlauncher: 3.4.41.3 -> 3.4.42.0"
   },
   "589761": {
@@ -31060,14 +31104,16 @@
    "title": "python3Packages.aioptdevices: 2026.07.1 -> 2026.11.1"
   },
   "589773": {
-   "head": "b7d480fb0d1f63d454d9020c9b460f714f7f2d67",
-   "status": "requeue",
-   "title": "cosmic-ext-applet-sysinfo: 0-unstable-2026-10-30 -> 0-unstable-2026-11-17"
+   "reason": "not open",
+   "status": "skipped",
+   "title": "cosmic-ext-applet-sysinfo: 0-unstable-2026-10-30 -> 0-unstable-2026-11-17",
+   "tries": 0
   },
   "589774": {
-   "head": "d250491e9dcbcfa5438455e2813c51d5a6dce37b",
-   "status": "requeue",
-   "title": "cosmic-ext-applet-weather: 0-unstable-2026-10-30 -> 0-unstable-2026-11-17"
+   "reason": "not open",
+   "status": "skipped",
+   "title": "cosmic-ext-applet-weather: 0-unstable-2026-10-30 -> 0-unstable-2026-11-17",
+   "tries": 0
   },
   "589775": {
    "head": "bd9a91812f3994107381b903e11423ce0c721287",
@@ -31081,7 +31127,15 @@
   },
   "589781": {
    "head": "6956c1040b867566dc6729d349f8533f55a0631b",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44369625296,
+   "status": "dispatched",
+   "systems": [
+    "aarch64-linux"
+   ],
+   "time": "2026-11-18T18:25:53+00:00",
    "title": "python3Packages.hyprland-monitors: 0.9.0 -> 0.9.2"
   },
   "589783": {
@@ -31136,7 +31190,16 @@
   },
   "589858": {
    "head": "1084b2f5d8d777150bd34138e2bf9a557df5d359",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44369072570,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-18T18:22:52+00:00",
    "title": "jitsi-videobridge: 2.3-318-gbf271b11f -> 2.3-358-gf8efaa72c"
   },
   "589870": {
@@ -31156,7 +31219,16 @@
   },
   "589877": {
    "head": "f229a892a70034cc95cc7b9fd1830cf190d938fe",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44368861985,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-18T18:21:44+00:00",
    "title": "seconlay: 0-unstable-2026-11-05 -> 0-unstable-2026-11-14"
   },
   "589882": {
@@ -31176,12 +31248,29 @@
   },
   "589889": {
    "head": "dbd1685bb6417cf153a48c3e314a5dc232ca5591",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44368648313,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux"
+   ],
+   "time": "2026-11-18T18:20:35+00:00",
    "title": "amethyst-mod-manager: 2.6.2 -> 2.6.3"
   },
   "589894": {
    "head": "7ee2f0cbcd39666760535bfed736857ade767d92",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44368508068,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-18T18:19:51+00:00",
    "title": "sublime-merge: 2132 -> 2136"
   },
   "589895": {
@@ -31191,7 +31280,16 @@
   },
   "589897": {
    "head": "1e1f101fe5f73371af84425db1a368ac91a61f9f",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44368356918,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-18T18:19:01+00:00",
    "title": "inotify-tools: 4.26.270 -> 4.26.287"
   },
   "589898": {
@@ -31205,9 +31303,10 @@
    "title": "slackdump: 4.5.4 -> 4.5.5"
   },
   "589907": {
-   "head": "13fc58f382201c2df9d1b10799de7009a8e003ea",
-   "status": "requeue",
-   "title": "hydralauncher: 4.4.0 -> 4.4.1"
+   "reason": "not open",
+   "status": "skipped",
+   "title": "hydralauncher: 4.4.0 -> 4.4.1",
+   "tries": 0
   },
   "589917": {
    "head": "4cbb146e9e220e7c6259cef3238345ce8b914422",
@@ -31256,87 +31355,251 @@
   },
   "589957": {
    "head": "418bbaf19784b45e814fd92d7b538d509571d6a3",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44370901031,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-18T18:32:53+00:00",
    "title": "yices: 2.7.0 -> 2.8.0"
   },
   "589960": {
    "head": "3d1c1ce165b8579006229d2061fa25b202dbeb7a",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44370690804,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-18T18:31:45+00:00",
    "title": "charge-lnd: 0.3.1 -> 0.3.2"
   },
   "589963": {
    "head": "c946230c5c1fb7b6d4242f9cef33a8e65506f1ac",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44370330208,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-18T18:29:49+00:00",
    "title": "qownnotes: 26.11.5 -> 26.11.11"
   },
   "589966": {
    "head": "444cbd5f23fd5a94ab56c43007d5116dd89deba3",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44370191835,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-18T18:29:01+00:00",
    "title": "terraform-providers.selectel_selectel: 9.6.0 -> 9.7.0"
   },
   "589969": {
    "head": "5cfe8c4d6f757f21fe2e8f6429bd494ca7fec6e7",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44369198182,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-18T18:23:34+00:00",
    "title": "runpodctl: 3.1.0 -> 3.1.1"
   },
   "589972": {
    "head": "bd911dfdb930ed7b44916606e60bf6754a14883c",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44367522278,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-18T18:14:31+00:00",
    "title": "matrix-synapse-unwrapped: 1.164.2 -> 1.165.0"
   },
   "589975": {
    "head": "f0834d4abeb3d6f0207017397deef30d875cd276",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44368202705,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-18T18:18:12+00:00",
    "title": "vassal: 3.8.0 -> 3.8.2"
   },
   "589977": {
    "head": "e90a812bbcbc3eab66dc317dc02d4a73fd583e4e",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44367870043,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-18T18:16:22+00:00",
    "title": "lark-cli: 1.0.99 -> 1.0.100"
   },
   "589978": {
-   "head": "06dac372a22d6f69d99bbae250cb1cf0bb513215",
-   "status": "requeue",
-   "title": "bottles-unwrapped: 67.6 -> 67.7"
+   "reason": "not open",
+   "status": "skipped",
+   "title": "bottles-unwrapped: 67.6 -> 67.7",
+   "tries": 0
   },
   "589980": {
    "head": "1b13a5f72835b5f9d6dff91547708d289095751a",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44367329863,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-18T18:13:30+00:00",
    "title": "python3Packages.kagglesdk: 0.1.37 -> 0.1.38"
   },
   "589981": {
    "head": "7236a6a9f896466d1bde80883efd24205ce406aa",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44367186483,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-18T18:12:42+00:00",
    "title": "gitlab-duo: 10.1.0 -> 10.4.0"
   },
   "589987": {
    "head": "49cfad92f33d151d92cad2098999628f069eb7a3",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44367052332,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-18T18:11:59+00:00",
    "title": "minify: 2.24.25 -> 2.25.0"
   },
   "589989": {
+   "examined": 1,
    "head": "a95f010f10b3cc71c448b7e5f2cc960c2b85d4c8",
-   "status": "requeue",
+   "no_runner_at": "2026-11-18T18:32:45+00:00",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "rerun": "no runner",
+   "rerun_after": "2026-11-18T19:02:45+00:00",
+   "run_id": 44366927700,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-18T18:11:18+00:00",
    "title": "yle-dl: 20261002 -> 20261106"
   },
   "589995": {
    "head": "8b3b9c2ee3effbb5b209587f560057bcbbd2e0d0",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44366796450,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-18T18:10:34+00:00",
    "title": "ixwebsocket: 12.0.1 -> 12.1.0"
   },
   "590000": {
    "head": "a1b919e84898e3a94a231bfa253828426968dcb4",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44366664816,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-18T18:09:53+00:00",
    "title": "terraform-providers.charpand_openprovider: 1.3.0 -> 1.3.1"
   },
   "590005": {
    "head": "9eff66d8b17a0968172bc062526e3b0afdb046d4",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44366532895,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-18T18:09:09+00:00",
    "title": "terraform-providers.tasansga_lldap: 0.4.5 -> 0.5.0"
   },
   "590010": {
    "head": "57e6b852894da27e6881e76d711c5b6b10576bcf",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44366406943,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-18T18:08:28+00:00",
    "title": "git-town: 24.1.1 -> 24.2.0"
   }
  }
