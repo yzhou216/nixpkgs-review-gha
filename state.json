@@ -31218,12 +31218,32 @@
   },
   "589766": {
    "head": "22d1ff97980028ba1e717afdcfb5a991312c38ad",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44387598413,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-18T20:07:06+00:00",
    "title": "octodns-providers.cloudflare: 1.2.0 -> 2.0.0"
   },
   "589771": {
    "head": "f4e702f5fcf929053c4197ae2cd91c3ac740827d",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44387479839,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-18T20:06:25+00:00",
    "title": "python3Packages.aioptdevices: 2026.07.1 -> 2026.11.1"
   },
   "589773": {
@@ -31240,12 +31260,32 @@
   },
   "589775": {
    "head": "bd9a91812f3994107381b903e11423ce0c721287",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44386959862,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-18T20:03:32+00:00",
    "title": "python3Packages.configargparse: 1.9.0 -> 1.10.1"
   },
   "589779": {
    "head": "a9728b99414f853df9abd95bc8cc6c002d945c36",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44385362356,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-18T19:54:32+00:00",
    "title": "pwneye: 1.3.2 -> 1.4.0"
   },
   "589781": {
@@ -31263,53 +31303,90 @@
   },
   "589783": {
    "head": "d17830f6eca2c2ede1c552c9414b60f891974ad4",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44384270712,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-18T19:49:00+00:00",
    "title": "claude-powerline: 1.32.6 -> 1.32.8"
   },
   "589787": {
    "head": "9cd98a54d9ba9a222d9f1c7941f0085e470016a6",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44384094388,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-18T19:48:06+00:00",
    "title": "vanillara: 0-unstable-2026-07-16 -> 0-unstable-2026-11-13"
   },
   "589799": {
    "head": "88a5c5b5de9fbc39b6b8c2966145351ad071485b",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44383914049,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-18T19:47:10+00:00",
    "title": "algia: 0.0.138 -> 0.0.139"
   },
   "589803": {
    "head": "9b1e275966ceb1d64f4a0282608090a109d54b3e",
    "status": "requeue",
-   "title": "ocamlPackages.mrmime: 0.7.0 -> 0.8.1"
+   "title": "ocamlPackages.mrmime: 0.7.0 -> 0.8.1",
+   "tries": 1
   },
   "589809": {
    "head": "989ec23e740ed30001f21fb2f51b7714bd98adef",
    "status": "requeue",
-   "title": "android-cli: 1.1.16717390 -> 1.1.16919734"
+   "title": "android-cli: 1.1.16717390 -> 1.1.16919734",
+   "tries": 1
   },
   "589814": {
    "head": "7df082dea02388de22f39cdce7956b8374b05d1c",
    "status": "requeue",
-   "title": "mousam: 2.0.2 -> 3.0.0"
+   "title": "mousam: 2.0.2 -> 3.0.0",
+   "tries": 1
   },
   "589816": {
    "head": "3cd6a8dec95bb50dbb10751fc2f163301ac574d1",
    "status": "requeue",
-   "title": "confluent-cli: 4.82.0 -> 4.82.1"
+   "title": "confluent-cli: 4.82.0 -> 4.82.1",
+   "tries": 1
   },
   "589819": {
    "head": "0cd54afa80d5a18540f2fde7004c4c8b2485c152",
    "status": "requeue",
-   "title": "python3Packages.textual-image: 0.14.2 -> 0.14.4"
+   "title": "python3Packages.textual-image: 0.14.2 -> 0.14.4",
+   "tries": 1
   },
   "589835": {
    "head": "48c6584bd08556a74b25895503c3736efa9462cc",
    "status": "requeue",
-   "title": "python3Packages.env-canada: 0.20.5 -> 0.20.7"
+   "title": "python3Packages.env-canada: 0.20.5 -> 0.20.7",
+   "tries": 1
   },
   "589856": {
    "head": "dadfc6356530c30a229772cbda91978328612f5f",
    "status": "requeue",
-   "title": "phpExtensions.opentelemetry: 1.4.2 -> 1.5.0"
+   "title": "phpExtensions.opentelemetry: 1.4.2 -> 1.5.0",
+   "tries": 1
   },
   "589858": {
    "head": "1084b2f5d8d777150bd34138e2bf9a557df5d359",
@@ -31328,17 +31405,20 @@
   "589870": {
    "head": "b6399335ec754378388ddd5e2afae8e33657b9e4",
    "status": "requeue",
-   "title": "pkgsite: 0.6.0-unstable-2026-11-04 -> 0.6.0-unstable-2026-11-17"
+   "title": "pkgsite: 0.6.0-unstable-2026-11-04 -> 0.6.0-unstable-2026-11-17",
+   "tries": 1
   },
   "589871": {
    "head": "3fada4cc58250d6ccf6dde890ffb5ae7429eb22c",
    "status": "requeue",
-   "title": "sqlcmd: 1.10.0 -> 1.11.0"
+   "title": "sqlcmd: 1.10.0 -> 1.11.0",
+   "tries": 1
   },
   "589874": {
    "head": "ee4bb2df2bfe876512087de2cbee4c4acd69c75e",
    "status": "requeue",
-   "title": "terraform-backend: 0.2.4 -> 0.3.0"
+   "title": "terraform-backend: 0.2.4 -> 0.3.0",
+   "tries": 1
   },
   "589877": {
    "head": "f229a892a70034cc95cc7b9fd1830cf190d938fe",
@@ -31357,12 +31437,14 @@
   "589882": {
    "head": "cb0fcdd34a4328b71d6aeb6c75f58a1512acf0b3",
    "status": "requeue",
-   "title": "officecli: 1.0.160 -> 1.0.162"
+   "title": "officecli: 1.0.160 -> 1.0.162",
+   "tries": 1
   },
   "589885": {
    "head": "81b4754511665a246e67dca25f28ea4c2ade79d4",
    "status": "requeue",
-   "title": "ankiAddons.fsrs4anki-helper: 26.06.12-unstable-2026-06-08 -> 26.11.10-unstable-2026-11-10"
+   "title": "ankiAddons.fsrs4anki-helper: 26.06.12-unstable-2026-06-08 -> 26.11.10-unstable-2026-11-10",
+   "tries": 1
   },
   "589886": {
    "head": "b9ca466984b8aaff3231368be7ea75fe8ebd5bec",
