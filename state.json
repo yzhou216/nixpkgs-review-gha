@@ -30956,7 +30956,17 @@
   },
   "589421": {
    "head": "71e8d81e9b6b02c9c26e9d7648bc5bab11e04c16",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44411266504,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-18T22:24:26+00:00",
    "title": "python3Packages.hishel: 1.4.0 -> 2.0.0"
   },
   "589428": {
@@ -31924,6 +31934,7 @@
    "title": "mediamtx: 1.21.1 -> 1.21.4"
   },
   "589957": {
+   "final": "cancelled after 4 hours",
    "head": "418bbaf19784b45e814fd92d7b538d509571d6a3",
    "on_success": "nothing",
    "previous_run_id": null,
