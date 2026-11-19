@@ -15588,8 +15588,17 @@
   },
   "578678": {
    "head": "eed1a69e18627385e7827e39bacde2fa7cd05d3b",
+   "on_success": "nothing",
    "previous_run_id": 42363891247,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 44434860122,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-19T01:10:30+00:00",
    "title": "python3Packages.petl: 1.7.29 -> 1.7.33"
   },
   "578685": {
@@ -19010,8 +19019,17 @@
   },
   "581849": {
    "head": "f51ef8b556c065cb2d546f9e35fbd24db7baea31",
+   "on_success": "nothing",
    "previous_run_id": 44032750250,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 44434507635,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-19T01:07:44+00:00",
    "title": "python3Packages.spmd-types: 0.2.5 -> 0.3.1"
   },
   "581855": {
@@ -23323,8 +23341,17 @@
   },
   "585364": {
    "head": "e1e441cb61af729656901745190a247b1dbf8b38",
+   "on_success": "nothing",
    "previous_run_id": 44031220144,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 44433848734,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-19T01:02:51+00:00",
    "title": "tun2proxy: 0.8.6 -> 0.8.7"
   },
   "585388": {
@@ -30775,37 +30802,107 @@
   },
   "589186": {
    "head": "45e84996cd69955bfa129175bfc1ff2690a64dcd",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44433616857,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-19T01:01:06+00:00",
    "title": "python3Packages.django-ninja: 1.7.3 -> 1.8.0"
   },
   "589204": {
    "head": "cc7b31a4ec89a5e3a054d4a9f407d30642e11bdd",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44433245336,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-19T00:58:14+00:00",
    "title": "cfssl: 1.6.5 -> 1.7.1"
   },
   "589209": {
    "head": "fa4e8951e45338f011ed6a5fe523dddc1d6ff0a5",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44433162407,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-19T00:57:33+00:00",
    "title": "stalwart-cli: 1.0.14 -> 2.0.0"
   },
   "589250": {
    "head": "cc04eaa3550dac84c1547519a8cd4555df5985e0",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44432946576,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-19T00:55:50+00:00",
    "title": "kubectl-rook-ceph: 0.9.6 -> 0.10.0"
   },
   "589253": {
    "head": "309bb4adfcc587687cb83a554493ade83873d129",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44432843108,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-19T00:55:03+00:00",
    "title": "python3Packages.cassandra-driver: 3.30.1 -> 3.31.0"
   },
   "589255": {
    "head": "e0347143057e7042d9dd0b6d23d81ee456bea38b",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44432196749,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-19T00:50:15+00:00",
    "title": "python3Packages.django-scopes: 2.1.0 -> 2.2.0"
   },
   "589259": {
    "head": "e9484e6d34966a744d6244ccb8b7dc5d1797e502",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44431712306,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-19T00:46:33+00:00",
    "title": "toolblex: 0.17 -> 0.18"
   },
   "589268": {
@@ -30824,7 +30921,17 @@
   },
   "589287": {
    "head": "3c06a6e21e11a8d52db33063948d5e43edf8dcb8",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44430912355,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-19T00:40:37+00:00",
    "title": "headsetcontrol: 4.2.0 -> 4.3.0"
   },
   "589299": {
