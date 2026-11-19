@@ -30894,6 +30894,7 @@
    "title": "kubectl-rook-ceph: 0.9.6 -> 0.10.0"
   },
   "589253": {
+   "final": "cancelled after 4 hours",
    "head": "309bb4adfcc587687cb83a554493ade83873d129",
    "on_success": "nothing",
    "previous_run_id": null,
