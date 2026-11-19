@@ -19045,6 +19045,8 @@
    "title": "fittrackee: 1.3.6 -> 1.3.8"
   },
   "581849": {
+   "examined": 1,
+   "final": "review (x86_64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ",
    "head": "f51ef8b556c065cb2d546f9e35fbd24db7baea31",
    "on_success": "nothing",
    "previous_run_id": 44032750250,
