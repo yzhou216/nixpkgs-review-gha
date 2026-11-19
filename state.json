@@ -30842,17 +30842,47 @@
   },
   "589305": {
    "head": "57bdcf91a711da6275a4d73d4fbab029bf299cdb",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44430113093,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-19T00:34:40+00:00",
    "title": "betula: 1.8.1 -> 1.9.0"
   },
   "589338": {
    "head": "1263ea20f7792bc6c0200cc683d8cc693dd7f680",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44430019928,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-19T00:34:00+00:00",
    "title": "python3Packages.ldappool: 3.0.0 -> 3.1.0"
   },
   "589340": {
    "head": "192e7bbdca05d94cea4cdd705b45bbd38b808efd",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44429355205,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-19T00:29:06+00:00",
    "title": "gauge-unwrapped: 1.6.38 -> 1.6.43"
   },
   "589348": {
@@ -31728,9 +31758,18 @@
   },
   "589803": {
    "head": "9b1e275966ceb1d64f4a0282608090a109d54b3e",
-   "status": "requeue",
-   "title": "ocamlPackages.mrmime: 0.7.0 -> 0.8.1",
-   "tries": 1
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44429263265,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-19T00:28:23+00:00",
+   "title": "ocamlPackages.mrmime: 0.7.0 -> 0.8.1"
   },
   "589809": {
    "reason": "not open",
@@ -31740,15 +31779,33 @@
   },
   "589814": {
    "head": "7df082dea02388de22f39cdce7956b8374b05d1c",
-   "status": "requeue",
-   "title": "mousam: 2.0.2 -> 3.0.0",
-   "tries": 1
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44428968450,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-19T00:26:09+00:00",
+   "title": "mousam: 2.0.2 -> 3.0.0"
   },
   "589816": {
    "head": "3cd6a8dec95bb50dbb10751fc2f163301ac574d1",
-   "status": "requeue",
-   "title": "confluent-cli: 4.82.0 -> 4.82.1",
-   "tries": 1
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44428732299,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-19T00:24:24+00:00",
+   "title": "confluent-cli: 4.82.0 -> 4.82.1"
   },
   "589819": {
    "reason": "not open",
@@ -31758,9 +31815,18 @@
   },
   "589835": {
    "head": "48c6584bd08556a74b25895503c3736efa9462cc",
-   "status": "requeue",
-   "title": "python3Packages.env-canada: 0.20.5 -> 0.20.7",
-   "tries": 1
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44427369099,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-19T00:14:17+00:00",
+   "title": "python3Packages.env-canada: 0.20.5 -> 0.20.7"
   },
   "589856": {
    "head": "dadfc6356530c30a229772cbda91978328612f5f",
