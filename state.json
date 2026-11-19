@@ -11317,6 +11317,7 @@
    "title": "orbstack: 2.2.3-20963 -> 2.2.4-21120"
   },
   "573549": {
+   "final": "cancelled after 4 hours",
    "head": "d3aa7d71991c428f4a5665669ac885fb37025a5c",
    "on_success": "nothing",
    "previous_run_id": 39420836587,
@@ -15618,6 +15619,7 @@
    "title": "vidmerger: 0.4.0 -> 0.4.2"
   },
   "578678": {
+   "final": "cancelled after 4 hours",
    "head": "eed1a69e18627385e7827e39bacde2fa7cd05d3b",
    "on_success": "nothing",
    "previous_run_id": 42363891247,
@@ -30834,6 +30836,7 @@
    "title": "python3Packages.flatten-dict: 0.5.0 -> 0.6.0"
   },
   "589186": {
+   "final": "cancelled after 4 hours",
    "head": "45e84996cd69955bfa129175bfc1ff2690a64dcd",
    "on_success": "nothing",
    "previous_run_id": null,
