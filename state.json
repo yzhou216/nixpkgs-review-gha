@@ -9213,6 +9213,8 @@
    "title": "python3Packages.plantuml-markdown: 3.11.2 -> 3.11.5"
   },
   "568327": {
+   "examined": 1,
+   "final": "review (x86_64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ; review (aarch64-linux): Process completed with exit code 137.",
    "head": "b40e008c61d5512f0470239612d17d6207d866b6",
    "on_success": "nothing",
    "previous_run_id": 44037289352,
@@ -31182,6 +31184,7 @@
    "title": "hyprcursor: 0.1.13 -> 0.1.14"
   },
   "589421": {
+   "final": "cancelled after 4 hours",
    "head": "71e8d81e9b6b02c9c26e9d7648bc5bab11e04c16",
    "on_success": "nothing",
    "previous_run_id": null,
