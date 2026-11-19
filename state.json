@@ -3634,9 +3634,10 @@
    "title": "serfdom: 0.10.2 -> 0.11.0"
   },
   "539592": {
-   "head": "e350c160bf5aacaa95dffe2faacb44051f440a60",
-   "status": "requeue",
-   "title": "python3Packages.jupyterlite-core: 0.8.7 -> 0.9.0b1"
+   "reason": "not open",
+   "status": "skipped",
+   "title": "python3Packages.jupyterlite-core: 0.8.7 -> 0.9.0b1",
+   "tries": 0
   },
   "539685": {
    "darwin": true,
@@ -31732,8 +31733,8 @@
    "tries": 1
   },
   "589809": {
-   "head": "989ec23e740ed30001f21fb2f51b7714bd98adef",
-   "status": "requeue",
+   "reason": "not open",
+   "status": "skipped",
    "title": "android-cli: 1.1.16717390 -> 1.1.16919734",
    "tries": 1
   },
@@ -31750,8 +31751,8 @@
    "tries": 1
   },
   "589819": {
-   "head": "0cd54afa80d5a18540f2fde7004c4c8b2485c152",
-   "status": "requeue",
+   "reason": "not open",
+   "status": "skipped",
    "title": "python3Packages.textual-image: 0.14.2 -> 0.14.4",
    "tries": 1
   },
@@ -31763,9 +31764,18 @@
   },
   "589856": {
    "head": "dadfc6356530c30a229772cbda91978328612f5f",
-   "status": "requeue",
-   "title": "phpExtensions.opentelemetry: 1.4.2 -> 1.5.0",
-   "tries": 1
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44426688375,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-19T00:09:21+00:00",
+   "title": "phpExtensions.opentelemetry: 1.4.2 -> 1.5.0"
   },
   "589858": {
    "head": "1084b2f5d8d777150bd34138e2bf9a557df5d359",
@@ -31782,22 +31792,31 @@
    "title": "jitsi-videobridge: 2.3-318-gbf271b11f -> 2.3-358-gf8efaa72c"
   },
   "589870": {
-   "head": "b6399335ec754378388ddd5e2afae8e33657b9e4",
-   "status": "requeue",
+   "reason": "not open",
+   "status": "skipped",
    "title": "pkgsite: 0.6.0-unstable-2026-11-04 -> 0.6.0-unstable-2026-11-17",
    "tries": 1
   },
   "589871": {
-   "head": "3fada4cc58250d6ccf6dde890ffb5ae7429eb22c",
-   "status": "requeue",
+   "reason": "not open",
+   "status": "skipped",
    "title": "sqlcmd: 1.10.0 -> 1.11.0",
    "tries": 1
   },
   "589874": {
    "head": "ee4bb2df2bfe876512087de2cbee4c4acd69c75e",
-   "status": "requeue",
-   "title": "terraform-backend: 0.2.4 -> 0.3.0",
-   "tries": 1
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44426455532,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-19T00:07:38+00:00",
+   "title": "terraform-backend: 0.2.4 -> 0.3.0"
   },
   "589877": {
    "head": "f229a892a70034cc95cc7b9fd1830cf190d938fe",
@@ -31815,19 +31834,37 @@
   },
   "589882": {
    "head": "cb0fcdd34a4328b71d6aeb6c75f58a1512acf0b3",
-   "status": "requeue",
-   "title": "officecli: 1.0.160 -> 1.0.162",
-   "tries": 1
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44425489258,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-19T00:00:40+00:00",
+   "title": "officecli: 1.0.160 -> 1.0.162"
   },
   "589885": {
    "head": "81b4754511665a246e67dca25f28ea4c2ade79d4",
-   "status": "requeue",
-   "title": "ankiAddons.fsrs4anki-helper: 26.06.12-unstable-2026-06-08 -> 26.11.10-unstable-2026-11-10",
-   "tries": 1
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44425119246,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-18T23:57:55+00:00",
+   "title": "ankiAddons.fsrs4anki-helper: 26.06.12-unstable-2026-06-08 -> 26.11.10-unstable-2026-11-10"
   },
   "589886": {
-   "head": "b9ca466984b8aaff3231368be7ea75fe8ebd5bec",
-   "status": "requeue",
+   "reason": "not open",
+   "status": "skipped",
    "title": "mcp-server-fetch: 2.4.0 -> 2.5.0",
    "tries": 1
   },
@@ -31860,9 +31897,17 @@
   },
   "589895": {
    "head": "e8c5ec077cf67e5447054f6ed26f998f787876ec",
-   "status": "requeue",
-   "title": "androidStudioPackages.canary: 2026.2.3.3 -> 2026.3.1.1",
-   "tries": 1
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44424745809,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-18T23:55:05+00:00",
+   "title": "androidStudioPackages.canary: 2026.2.3.3 -> 2026.3.1.1"
   },
   "589897": {
    "head": "1e1f101fe5f73371af84425db1a368ac91a61f9f",
@@ -31897,8 +31942,8 @@
    "title": "python3Packages.django-reversion: 6.5.1 -> 6.5.2"
   },
   "589901": {
-   "head": "6d7edef9fb52944bfffdb4f6cac936c130dad8e3",
-   "status": "requeue",
+   "reason": "not open",
+   "status": "skipped",
    "title": "slackdump: 4.5.4 -> 4.5.5",
    "tries": 1
   },
@@ -31909,34 +31954,52 @@
    "tries": 0
   },
   "589917": {
-   "head": "4cbb146e9e220e7c6259cef3238345ce8b914422",
-   "status": "requeue",
+   "reason": "not open",
+   "status": "skipped",
    "title": "govulncheck: 1.9.0 -> 1.10.0",
    "tries": 1
   },
   "589919": {
-   "head": "68ec6b03d4889da22c67ef9abc80c329270e63a7",
-   "status": "requeue",
+   "reason": "not open",
+   "status": "skipped",
    "title": "eslint_d: 15.1.0 -> 15.1.1",
    "tries": 1
   },
   "589928": {
-   "head": "a39d55af314fe634597c14b9728fb8a6083a7742",
-   "status": "requeue",
+   "reason": "not open",
+   "status": "skipped",
    "title": "starlark-rust: 0.14.0 -> 0.14.2",
    "tries": 1
   },
   "589929": {
    "head": "96e573d3426779761736b004df0feafbd663755a",
-   "status": "requeue",
-   "title": "tree-sitter-grammars.tree-sitter-erlang: 0.21.0 -> 0.22.0",
-   "tries": 1
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44424649269,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-18T23:54:22+00:00",
+   "title": "tree-sitter-grammars.tree-sitter-erlang: 0.21.0 -> 0.22.0"
   },
   "589939": {
    "head": "f02afab880755257afeaf891da91a2b4b258214a",
-   "status": "requeue",
-   "title": "prometheus-node-exporter: 1.12.1 -> 1.13.0",
-   "tries": 1
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44424557389,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-18T23:53:42+00:00",
+   "title": "prometheus-node-exporter: 1.12.1 -> 1.13.0"
   },
   "589944": {
    "head": "846be743582fc21f848c8d0831e652ebb1b8ce8b",
