@@ -9214,8 +9214,17 @@
   },
   "568327": {
    "head": "b40e008c61d5512f0470239612d17d6207d866b6",
+   "on_success": "nothing",
    "previous_run_id": 44037289352,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 44435682383,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-19T01:16:45+00:00",
    "title": "eccodes: 2.48.0 -> 2.50.1"
   },
   "568332": {
@@ -11092,8 +11101,17 @@
   },
   "573113": {
    "head": "6885ae303419bb375b83a687b60508f7cdf4a59f",
+   "on_success": "nothing",
    "previous_run_id": 43393597183,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 44435595209,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-19T01:16:05+00:00",
    "title": "python3Packages.eccodes: 2.48.0 -> 2.50.1"
   },
   "573120": {
@@ -11296,8 +11314,17 @@
   },
   "573549": {
    "head": "d3aa7d71991c428f4a5665669ac885fb37025a5c",
+   "on_success": "nothing",
    "previous_run_id": 39420836587,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 44435097609,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-19T01:12:19+00:00",
    "title": "python3Packages.pybase64: 1.5.0 -> 1.5.2"
   },
   "573551": {
@@ -31241,6 +31268,7 @@
    "title": "mystmd: 1.12.0 -> 1.13.0"
   },
   "589481": {
+   "final": "cancelled after 4 hours",
    "head": "36d54f3282d47ff1b0e080589e12108effe2551c",
    "on_success": "nothing",
    "previous_run_id": null,
