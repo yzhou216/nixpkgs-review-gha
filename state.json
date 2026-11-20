@@ -32770,13 +32770,23 @@
   },
   "590686": {
    "head": "9dc74a9b9561e0b500b6c8c0cbac8e72cb152c35",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44814295346,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-20T20:45:57+00:00",
    "title": "conky: 1.25.5 -> 1.26.1"
   },
   "590689": {
-   "head": "74e111aa351b711cc3e21165e59bcf1da6da958a",
-   "status": "requeue",
-   "title": "python3Packages.dfir-ntfs: 1.1.19 -> 1.1.20"
+   "reason": "not open",
+   "status": "skipped",
+   "title": "python3Packages.dfir-ntfs: 1.1.19 -> 1.1.20",
+   "tries": 0
   },
   "590692": {
    "head": "8eab058ddaec7b4efb094675bb782da54f60cc22",
@@ -32810,12 +32820,30 @@
   },
   "590709": {
    "head": "b5b74cfe444ea0b39543d7e95a964fcba5859407",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44814023503,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-20T20:44:09+00:00",
    "title": "high-tide: 1.5.0 -> 1.7.0"
   },
   "590711": {
    "head": "38e1bc9fe41e90388ad1eca27d719d6569368a8d",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44813920342,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-20T20:43:27+00:00",
    "title": "home-assistant-custom-components.econet300: 1.3.6 -> 1.3.9"
   },
   "590722": {
@@ -32840,7 +32868,15 @@
   },
   "590735": {
    "head": "3300cdce9a3f555eae718dec2478a1d3cfd9f050",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44813728640,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux"
+   ],
+   "time": "2026-11-20T20:42:09+00:00",
    "title": "webex: 46.10.0.36042 -> 46.10.0.36183"
   },
   "590736": {
@@ -32915,7 +32951,15 @@
   },
   "590805": {
    "head": "3d1b317f92e16efd0eb8932b939a38b2d4659b7d",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44812793205,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux"
+   ],
+   "time": "2026-11-20T20:35:49+00:00",
    "title": "remnote: 1.29.7 -> 1.30.4"
   },
   "590813": {
@@ -32925,147 +32969,421 @@
   },
   "590816": {
    "head": "8bafc0b678c447df5497d112d7364f93019a46ba",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44814477159,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-20T20:47:12+00:00",
    "title": "kodiPackages.upnext: 1.3.4 -> 1.3.7"
   },
   "590826": {
    "head": "90efb99daac13393adc5b19584ecf28cc17174e5",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44813549164,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-20T20:40:58+00:00",
    "title": "forgejo-mcp: 3.4.0 -> 3.4.1"
   },
   "590831": {
    "head": "43dc5cb103990227d0c3be05d5eda42970fd931a",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44813448826,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-20T20:40:17+00:00",
    "title": "wiki-go: 1.9.3 -> 1.9.6"
   },
   "590839": {
    "head": "ff475d601ecf69efcfea7b1f766b6ef4421c8470",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44812466547,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-20T20:33:40+00:00",
    "title": "xdg-desktop-portal-generic: 1.2.0 -> 1.3.0"
   },
   "590841": {
    "head": "81f1cf20ff0e6e0a22b06245d2409e0a4f413ed0",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44812353888,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-20T20:32:56+00:00",
    "title": "xprintidle: 0.3.0 -> 0.4.0"
   },
   "590848": {
    "head": "a83adcccc887f99efc6b26c1da8223fdc6a10d2a",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44812027753,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-20T20:30:48+00:00",
    "title": "mtp-mount: 0.5.0 -> 0.6.0"
   },
   "590849": {
    "head": "224edd31880949488a9d42b80040a22b3ad54da2",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44813270732,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-20T20:39:04+00:00",
    "title": "libtexprintf: 1.31 -> .1.31"
   },
   "590852": {
    "head": "d29fcbfdab6df51f78d2f0ad74cf189f71244c9d",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44813163969,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-20T20:38:21+00:00",
    "title": "udp-over-tcp: 0.4.0 -> 0.5.0"
   },
   "590862": {
    "head": "a070a76a80b005d6544852acf1b6bbc9ad5b428c",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44811862486,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-20T20:29:46+00:00",
    "title": "mint-l-theme: 2.0.10 -> 2.0.11"
   },
   "590874": {
    "head": "3d7d3c7ff375376b2278c60a897a8c731abd43e5",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44812902282,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-20T20:36:32+00:00",
    "title": "python3Packages.dep-logic: 0.7.2 -> 0.8.0"
   },
   "590884": {
    "head": "f547f0c9180ecf0c7676ba8f415337ae0de583c6",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44812584364,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-20T20:34:27+00:00",
    "title": "python3Packages.oras: 0.2.43 -> 0.2.44"
   },
   "590891": {
    "head": "686a2bbb1f4f44a2c72969aab5b4fd601c2004da",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44812251035,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-20T20:32:15+00:00",
    "title": "libffcall: 2.5 -> 2.6"
   },
   "590895": {
    "head": "28679158ea6610eaefcca1455d117bc752ab1167",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44812134899,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-20T20:31:30+00:00",
    "title": "tantivy-go: 1.0.6 -> 1.0.7"
   },
   "590902": {
    "head": "d9e141e2eacd852d4dfacb8ae0608a40b8526be9",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44811761139,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-20T20:29:04+00:00",
    "title": "amp-cli: 0.0.1794124830-gd53e62 -> 0.0.1795176040-g0dd132"
   },
   "590907": {
    "head": "6877e3d99ebe464c85ce58c64564a6496425a7a5",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44811586805,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-20T20:27:52+00:00",
    "title": "python3Packages.django-dbbackup: 5.4.0 -> 5.4.1"
   },
   "590913": {
    "head": "c54a5332d31cd901d1c0ec39df8c7764f41e704d",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44811497759,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-20T20:27:13+00:00",
    "title": "libytnef: 2.1.2 -> 2.1.3"
   },
   "590914": {
    "head": "ddd4f56d43c41bca4be4a923702f71b43bf64430",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44811309606,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-20T20:25:57+00:00",
    "title": "meshcore-cli: 1.6.9 -> 1.6.10"
   },
   "590926": {
-   "head": "734db9cbc31333f21b76fead589126508ae9ad68",
-   "status": "requeue",
-   "title": "pegasus-frontend: 0-unstable-2026-10-29 -> 0-unstable-2026-11-11"
+   "reason": "not open",
+   "status": "skipped",
+   "title": "pegasus-frontend: 0-unstable-2026-10-29 -> 0-unstable-2026-11-11",
+   "tries": 0
   },
   "590927": {
    "head": "ee55049ec7942e564a107abf8e3b00db7ec04b3a",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44811203172,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-20T20:25:16+00:00",
    "title": "gomi: 1.10.1 -> 1.11.0"
   },
   "590936": {
    "head": "b2ccaefc62f81b0ffa6ceb46398e074de6832ca3",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44811095846,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-20T20:24:33+00:00",
    "title": "flannel: 0.28.10 -> 0.28.11"
   },
   "590941": {
    "head": "bb0fb05ede9a9361df7bf33f002c512df49c027d",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44810988188,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-20T20:23:52+00:00",
    "title": "stratis-cli: 3.9.2 -> 3.9.3"
   },
   "590943": {
    "head": "d21b5e7ee009d53f8ca4df7d47f244b147d2f9e0",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44810864608,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-20T20:23:04+00:00",
    "title": "flake-edit: 0.4.0 -> 0.4.1"
   },
   "590950": {
    "head": "1d75d5417d5209d42f98976ba10643f82223b2c5",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44810756745,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-20T20:22:23+00:00",
    "title": "python3Packages.infisicalsdk: 1.3.0 -> 1.4.1"
   },
   "590964": {
    "head": "f7e42ce9a6fef24205901cf87008df4ccee98f60",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44810657741,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-20T20:21:45+00:00",
    "title": "gitlabform: 6.3.2 -> 6.3.3"
   },
   "590965": {
    "head": "4ff1e7a85063f3bfeaf78af7683359aba4b0107f",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44810565897,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-20T20:21:09+00:00",
    "title": "python3Packages.flightradarapi: 1.6.3 -> 1.7.1"
   },
   "590969": {
    "head": "c6524e92b7314ac41565248638852dfa6b18a242",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44810466381,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux"
+   ],
+   "time": "2026-11-20T20:20:31+00:00",
    "title": "fluent-reader: 1.3.1 -> 1.3.2"
   },
   "590971": {
    "head": "4d62abf0c54fb90238d2df133a4fbce0914cc695",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44810372333,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-20T20:19:55+00:00",
    "title": "scip-go: 0.2.9 -> 0.2.10"
   },
   "590975": {
    "head": "90bd049e9440709ed23f061d604504b5a592a399",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44810277068,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-20T20:19:17+00:00",
    "title": "kcl: 0.13.2 -> 0.13.3"
   },
   "590980": {
    "head": "9d32513ad69933d6a7c7f492f4c16d173514a5fb",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44810185596,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-20T20:18:41+00:00",
    "title": "buildkit: 0.34.2 -> 0.35.1"
   }
  }
