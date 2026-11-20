@@ -25471,10 +25471,10 @@
    "title": "morgen: 4.1.0 -> 4.1.4"
   },
   "586891": {
-   "head": "a520b888c03f834fd2036c7d8940bcd6e7beec36",
-   "status": "requeue",
+   "reason": "CI evaluation still running",
+   "status": "retry",
    "title": "cyclonedx-python: 7.6.0 -> 8.0.1",
-   "tries": 3
+   "tries": 5
   },
   "586911": {
    "reason": "not open",
@@ -32851,12 +32851,32 @@
   },
   "590585": {
    "head": "dbfdd2e0d4276a58109dbf228b61d5134e6ef485",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44827318796,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-20T22:14:39+00:00",
    "title": "prometheus-pihole-exporter: 1.3.1 -> 1.4.0"
   },
   "590590": {
    "head": "258310ad0a47fb17133a3a763cbb3436f19fe929",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44827222638,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-20T22:13:59+00:00",
    "title": "libmt32emu: 2.8.5 -> 2.8.6"
   },
   "590608": {
@@ -32875,12 +32895,32 @@
   },
   "590609": {
    "head": "1d368e97f631dc76c6979e20f9498ce652805079",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44826020490,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-20T22:05:46+00:00",
    "title": "python3Packages.django-json-widget: 2.1.1 -> 2.2.0"
   },
   "590615": {
    "head": "e38519972e8f7c61cbab8a920ba8405804351d9e",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44825610720,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-20T22:03:01+00:00",
    "title": "python3Packages.evohome-async: 3.1.0 -> 3.4.0"
   },
   "590622": {
@@ -32918,17 +32958,49 @@
   },
   "590651": {
    "head": "d766e369bf9cff59ca200ffbbf9a0d8fece9e1dc",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44824458902,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-20T21:54:48+00:00",
    "title": "hiredis: 1.5.0 -> 1.5.1"
   },
   "590652": {
+   "examined": 1,
+   "final": "report: Failed to download archive 'https://codeload.github.com/yzhou216/nixpkgs-review-gha/tar.gz/d1a8f12f1",
    "head": "38baf9a8b7fd04d99758a7eee612ad4643c5e06c",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44824362668,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-20T21:54:08+00:00",
    "title": "fosrl-olm: 1.10.1 -> 1.10.2"
   },
   "590661": {
    "head": "a80b2e3a0b647f6385ec495e8a7344773fa41e26",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44823662370,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-20T21:49:14+00:00",
    "title": "py-spy: 0.4.2 -> 0.4.4"
   },
   "590665": {
