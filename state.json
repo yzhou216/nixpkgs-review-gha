@@ -32757,12 +32757,32 @@
   },
   "590273": {
    "head": "7335f804c98446197ed5a5a4e6b8b554b5757733",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44832065196,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-20T22:49:28+00:00",
    "title": "phpExtensions.relay: 0.61.0 -> 0.61.1"
   },
   "590290": {
    "head": "1ace81803fbcf14269fb169cba85ab91545dde13",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44831974050,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-20T22:48:45+00:00",
    "title": "sockseek: 3.0.6 -> 3.1.0"
   },
   "590291": {
@@ -32773,7 +32793,17 @@
   },
   "590323": {
    "head": "7b57a5d6b1ac3146eef02e3252cf161f0a4a2310",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44831885436,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-20T22:48:05+00:00",
    "title": "terraform-providers.checkly_checkly: 1.32.0 -> 2.0.1"
   },
   "590360": {
@@ -32792,32 +32822,92 @@
   },
   "590365": {
    "head": "b172078c8dfa4cb929e8d9f699a64458ff9351dc",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44831228951,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-20T22:43:11+00:00",
    "title": "python3Packages.knx-telegram-store: 0.15.2 -> 0.16.0"
   },
   "590406": {
    "head": "cf31bea43a0c1bf7273581f66338272e95ca9d9a",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44830987170,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-20T22:41:21+00:00",
    "title": "zlspectrumequalizer: 0.1.1 -> 0.1.2"
   },
   "590451": {
    "head": "d61a018c1339c01c29dbfbd4c261ee43dc25fcd8",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44830625579,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-20T22:38:36+00:00",
    "title": "monit: 6.0.0 -> 6.1.0"
   },
   "590453": {
    "head": "3354b7561f2d57592bce76c195c1b8296d47cb73",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44830398921,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-20T22:36:53+00:00",
    "title": "kuttl: 0.28.0 -> 0.29.0"
   },
   "590472": {
    "head": "7e7f1d09b8dda2bf6a0ac8adeba7d8de3896f894",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44830000741,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-20T22:34:02+00:00",
    "title": "incus-spawn: 0.3.12 -> 0.5.3"
   },
   "590473": {
    "head": "4ea7ec0a8dea26a442d58bb3be714833254f7254",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44829908269,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-20T22:33:21+00:00",
    "title": "speakeasy-cli: 1.806.0 -> 1.810.0"
   },
   "590494": {
@@ -32836,17 +32926,47 @@
   },
   "590500": {
    "head": "fbf2e03eba53eead771d8f6eecc70508654cfeaf",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44829224236,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-20T22:28:22+00:00",
    "title": "routinator: 0.15.3 -> 0.16.1"
   },
   "590568": {
    "head": "ba21a072841396c95fc5065d42760281ad769176",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44828854385,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-20T22:25:36+00:00",
    "title": "python3Packages.lib50: 3.2.2 -> 3.2.3"
   },
   "590570": {
    "head": "cc3d4de5bebe1068ebac5e56057249d85f185f23",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44828451603,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-20T22:22:45+00:00",
    "title": "python3Packages.fontpens: 0.4.0 -> 0.4.1"
   },
   "590585": {
