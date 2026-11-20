@@ -32727,32 +32727,92 @@
   },
   "590257": {
    "head": "bde6abda8aa12eef62614709dc18ea6049a26063",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44834788075,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-20T23:10:22+00:00",
    "title": "spellchecker-cli: 7.0.4 -> 7.0.6"
   },
   "590261": {
    "head": "e57dd745a3610cd8d4db738be6a334c65d09b2e3",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44833848253,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-20T23:03:08+00:00",
    "title": "python3Packages.diffusers: 0.42.1 -> 0.43.0"
   },
   "590267": {
    "head": "e6e1b8b5538a0bda909618b546cd0de15e64e8ec",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44833326462,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-20T22:59:17+00:00",
    "title": "kuna: 1.992 -> 1.1000"
   },
   "590269": {
    "head": "e0ebad758a00912d201765cad7350fb3e3d9ff63",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44832768257,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-20T22:54:49+00:00",
    "title": "iroh-dns-server: 1.4.1 -> 1.5.0"
   },
   "590270": {
    "head": "ac5dac3d99d57fcbd407ba9f7b4a9d9b9b018bae",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44832677006,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-20T22:54:07+00:00",
    "title": "iroh-relay: 1.4.1 -> 1.5.0"
   },
   "590272": {
    "head": "30657acc02e6da2b5b7f3842183b9faba949e8b0",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44832592551,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-20T22:53:27+00:00",
    "title": "orchard: 0.56.1 -> 0.58.0"
   },
   "590273": {
