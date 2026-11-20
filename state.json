@@ -32591,7 +32591,17 @@
   },
   "590190": {
    "head": "60560e25b67882dd7ff7b0f0f532262907f71ce8",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44839128689,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-20T23:45:41+00:00",
    "title": "haproxy: 3.4.7 -> 3.4.8"
   },
   "590192": {
@@ -32610,7 +32620,17 @@
   },
   "590193": {
    "head": "71957cfe2dc767e2f8b9d6192124f2a5c376199b",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44838612430,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-20T23:41:20+00:00",
    "title": "wireshark: 4.6.9 -> 4.6.10"
   },
   "590195": {
@@ -32643,7 +32663,17 @@
   },
   "590204": {
    "head": "d1395b683d2c4fd9ca3797e8265ff08680634a25",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44838332379,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-20T23:38:58+00:00",
    "title": "node-problem-detector: 1.36.0 -> 1.37.0"
   },
   "590205": {
@@ -32675,7 +32705,17 @@
   },
   "590213": {
    "head": "5e683d8954c9cc1e7e555e46be6a9ddf324e8bcf",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44836228864,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-20T23:21:48+00:00",
    "title": "python3Packages.emsutil: 0.8.3-unstable-2026-08-03 -> 1.1.6-unstable-2026-11-10"
   },
   "590220": {
