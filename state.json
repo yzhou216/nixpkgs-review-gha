@@ -33316,6 +33316,7 @@
    "title": "fosrl-olm: 1.10.1 -> 1.10.2"
   },
   "590661": {
+   "final": "cancelled after 4 hours",
    "head": "a80b2e3a0b647f6385ec495e8a7344773fa41e26",
    "on_success": "nothing",
    "previous_run_id": null,
