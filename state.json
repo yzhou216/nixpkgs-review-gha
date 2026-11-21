@@ -34356,7 +34356,16 @@
   },
   "591143": {
    "head": "f4314364ded308e363f5cbf663d9c6f138677503",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44954540955,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-21T22:01:28+00:00",
    "title": "vanilla-wiiu: 0-unstable-2026-11-05 -> 0-unstable-2026-11-20"
   },
   "591146": {
@@ -34376,7 +34385,16 @@
   },
   "591168": {
    "head": "b82965e815e4b24ac668f2febd8d7bce13aa3bfe",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44954376556,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-21T21:59:46+00:00",
    "title": "netboxPlugins.netbox-secrets: 3.1.2 -> 3.2.0"
   },
   "591171": {
@@ -34401,7 +34419,16 @@
   },
   "591180": {
    "head": "293fc1d1dad1efaf3a75826081e3e5dba86a1b8d",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44954278153,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-21T21:58:33+00:00",
    "title": "kokkos: 5.2.2 -> 5.3.0"
   },
   "591182": {
@@ -34471,7 +34498,16 @@
   },
   "591217": {
    "head": "a913bc40086b97e82c105f518b141a0960783017",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44953919623,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-21T21:54:08+00:00",
    "title": "xnviewmp: 1.12.2 -> 1.12.3"
   },
   "591233": {
@@ -34491,7 +34527,15 @@
   },
   "591254": {
    "head": "9aedbd83bf1b00b8f7103712fdf660e6b2b968f4",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44953777473,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux"
+   ],
+   "time": "2026-11-21T21:52:27+00:00",
    "title": "reqable: 3.3.11 -> 3.3.14"
   },
   "591267": {
@@ -34521,7 +34565,16 @@
   },
   "591325": {
    "head": "ed33c341e7134f3374f71ffb15b1589d5d124dd1",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44953618273,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-21T21:50:32+00:00",
    "title": "packagekit: 1.4.0 -> 1.4.1"
   },
   "591332": {
@@ -34546,7 +34599,16 @@
   },
   "591355": {
    "head": "c1c3523060696f1824000af56a44ebf97f10bb5d",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44953466727,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-21T21:48:47+00:00",
    "title": "jicofo: 1.0-1205 -> 1.0-1233"
   },
   "591356": {
@@ -34561,157 +34623,451 @@
   },
   "591358": {
    "head": "4ee694fdb35b20f2cd5480155f851d0e21a66a56",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44954712725,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-21T22:03:25+00:00",
    "title": "telepresence2: 2.33.0 -> 2.33.3"
   },
   "591375": {
    "head": "951276509db022dd26c10920e99e411256ad8aca",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44954648415,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-21T22:02:43+00:00",
    "title": "python3Packages.boto3-stubs: 1.44.7 -> 1.44.9"
   },
   "591383": {
    "head": "2fea9891f494dfc21760bfcfc5e2a53dcd4387b1",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44954436766,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-21T22:00:24+00:00",
    "title": "ntfy-sh: 2.37.2 -> 2.38.1"
   },
   "591394": {
    "head": "572cc331c6175f4da4819654b5c71f90b33177bd",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44954164856,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-21T21:57:08+00:00",
    "title": "grafanaPlugins.grafana-pyroscope-app: 3.1.0 -> 3.2.0"
   },
   "591397": {
    "head": "a11aaa4b176466b8c47bf8d1187f66d82ac7a953",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44954114955,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-21T21:56:31+00:00",
    "title": "clash-rs: 0.10.11 -> 0.10.12"
   },
   "591400": {
    "head": "bc6a620ac1fb6808a1b2b9e18f3344252940caf6",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44954063636,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-21T21:55:55+00:00",
    "title": "otel-tui: 0.7.5 -> 0.7.6"
   },
   "591404": {
    "head": "f64495f9298454f2d5755c92a77294f08b7cfcc2",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44953829767,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-21T21:53:03+00:00",
    "title": "superfile: 1.6.0 -> 1.6.1"
   },
   "591408": {
    "head": "6439d3dbeaa970fa4bd00746b9a7baf2b7a14886",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44953669220,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-21T21:51:10+00:00",
    "title": "slint-viewer: 1.18.1 -> 1.19.0"
   },
   "591409": {
    "head": "12a83602b322d8617e6e3dccca68e33af863d4e0",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44953526776,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-21T21:49:29+00:00",
    "title": "terraform-providers.tailscale_tailscale: 0.29.3 -> 0.30.0"
   },
   "591414": {
    "head": "bc2f357972456ae85115dd32137b2fd1297c68e3",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44953089521,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-21T21:44:24+00:00",
    "title": "soloist: 1.3.10 -> 1.4.0"
   },
   "591416": {
    "head": "834eac2bd94d2fda9f8662a31595d433680be61f",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44953398870,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-21T21:47:59+00:00",
    "title": "jfrog-cli: 2.131.0 -> 2.133.0"
   },
   "591424": {
    "head": "a607fbf015e111e34fe6486e397f10f1a0c53221",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44953348353,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-21T21:47:22+00:00",
    "title": "gaugePlugins.html-report: 4.3.2 -> 4.4.9"
   },
   "591429": {
    "head": "dc480d26005ddb545b1bbdb46ccdc0973b98f6da",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44952971404,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-21T21:42:59+00:00",
    "title": "python3Packages.python-xapp: 3.0.4 -> 3.0.5"
   },
   "591430": {
    "head": "0e1abeb5fba01fb2cda31567717010eb99703b77",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44953247499,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-21T21:46:11+00:00",
    "title": "python3Packages.tree-sitter-sql: 0.3.11 -> 0.3.13"
   },
   "591432": {
    "head": "b3ad331609801fa8b32fd7f472f6ca516f0706ae",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44953197539,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-21T21:45:36+00:00",
    "title": "adhammer: 1.5.2 -> 1.6.1"
   },
   "591433": {
    "head": "79e09991ca3059906783a884699ebeafa1688102",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44953020578,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-21T21:43:34+00:00",
    "title": "html2pdf: 0.9.1 -> 0.10.1"
   },
   "591434": {
    "head": "27e691eb2833ff278d446248607dc79d01e75c72",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44952797048,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-21T21:40:58+00:00",
    "title": "home-assistant-custom-components.hildebrand_glow_ihd: 1.8.0 -> 1.9.3"
   },
   "591435": {
    "head": "9e862b59947ebc98fc490d1f21c3f4b36e0428bf",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44952902673,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-21T21:42:12+00:00",
    "title": "vimPlugins.codediff-nvim: 4.0.6 -> 4.0.8"
   },
   "591439": {
    "head": "6398d8b32abb265142a66989374b0caff368fdfd",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44952851944,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-21T21:41:36+00:00",
    "title": "treemd: 0.10.0 -> 0.11.0"
   },
   "591441": {
    "head": "e46426f27cc1d2a431bfe697e2e91a28c5248fea",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44952719775,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-21T21:40:07+00:00",
    "title": "cargo-risczero: 3.0.6 -> 3.1.0"
   },
   "591448": {
    "head": "e712632d3ab006118e929f93f221dc48fab1dbf5",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44952661964,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-21T21:39:24+00:00",
    "title": "inori: 0.3.0 -> 0.4.1"
   },
   "591449": {
    "head": "4797fbd827442da4f5cbd20cbaa0449e217d14bc",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44952607272,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-21T21:38:45+00:00",
    "title": "shiru: 6.10.0 -> 6.10.1"
   },
   "591450": {
    "head": "b5ee23bad9a485fc22916bc7c6bbd934bef57486",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44952547438,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-21T21:38:02+00:00",
    "title": "leptosfmt: 0.1.33 -> 0.1.34"
   },
   "591455": {
    "head": "a9d896ebbf57a95d29dddfc2bca2cb1bbb7b9781",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44952497730,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-21T21:37:26+00:00",
    "title": "turtle-build: 0.5.16 -> 0.5.19"
   },
   "591459": {
    "head": "e02008b55440de44b7523d966ff8482083684d63",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44952444151,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-21T21:36:48+00:00",
    "title": "corsix-th: 0.70.2 -> 0.70.3"
   },
   "591469": {
    "head": "a309b9404fd08b2a7eec7750bbcd8acce0997e01",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44952395130,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-21T21:36:13+00:00",
    "title": "python3Packages.karton-config-extractor: 2.3.2 -> 3.0.0"
   },
   "591470": {
-   "head": "2e904bb7e10a3356f6f34771a8d3475bed0c86f0",
-   "status": "requeue",
-   "title": "mcp-k8s-go: 0.6.0 -> 0.6.7"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "mcp-k8s-go: 0.6.0 -> 0.6.7",
+   "tries": 0
   },
   "591473": {
    "head": "f203008c0f47758b14606b4215b43c7e1326e776",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44952337995,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-21T21:35:34+00:00",
    "title": "postgresqlPackages.timescaledb: 2.32.0 -> 2.32.1"
   },
   "591478": {
    "head": "0a99d96dec61d5a9eecb3d2fa14c54738f13ffaf",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44952283066,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-21T21:34:58+00:00",
    "title": "corrode-scanner: 0.5.4 -> 0.6.0"
   },
   "591479": {
    "head": "4d0c79bdfce461f08e1a7877ab46b5dc8b31ceaf",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44952227763,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-21T21:34:21+00:00",
    "title": "umbriel: 0-unstable-2026-11-18 -> 0-unstable-2026-11-21"
   },
   "591480": {
    "head": "ddc8153d85b052f4393a6ce9aa54440d6a2b484b",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44952175333,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-21T21:33:46+00:00",
    "title": "xdg-desktop-portal-umbriel: 0-unstable-2026-11-18 -> 0-unstable-2026-11-21"
   }
  }
