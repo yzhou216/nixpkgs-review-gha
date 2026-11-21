@@ -32810,6 +32810,8 @@
    "title": "eigenwallet: 4.16.1 -> 5.0.4"
   },
   "590213": {
+   "examined": 1,
+   "final": "review (aarch64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ",
    "head": "5e683d8954c9cc1e7e555e46be6a9ddf324e8bcf",
    "on_success": "nothing",
    "previous_run_id": null,
@@ -33161,6 +33163,7 @@
    "title": "python3Packages.lib50: 3.2.2 -> 3.2.3"
   },
   "590570": {
+   "final": "cancelled after 4 hours",
    "head": "cc3d4de5bebe1068ebac5e56057249d85f185f23",
    "on_success": "nothing",
    "previous_run_id": null,
