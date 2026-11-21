@@ -32525,12 +32525,32 @@
   },
   "590107": {
    "head": "1603b95c6fd2e93a39b3069c86a9b36b5a401f72",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44846393410,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-21T00:49:54+00:00",
    "title": "kubevirt: 1.9.1 -> 1.10.0"
   },
   "590108": {
    "head": "884aac82befd10df038c1bd2a8f74cbad372b5c9",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44844041137,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-21T00:28:23+00:00",
    "title": "steampipe: 2.4.9 -> 2.5.1"
   },
   "590159": {
@@ -32562,7 +32582,17 @@
   },
   "590178": {
    "head": "424beb724d41ca05a95b82b0eb696a9e25ca3925",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44843671798,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-21T00:25:05+00:00",
    "title": "npiet: 1.3f -> 1.3h"
   },
   "590180": {
