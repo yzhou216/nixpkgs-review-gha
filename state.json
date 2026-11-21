@@ -32567,12 +32567,32 @@
   },
   "590180": {
    "head": "df54ae8d8ce04de623c8a85a5ee646b6d0ee2321",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44840963397,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-21T00:01:24+00:00",
    "title": "python3Packages.spinev-ble: 0.5.0 -> 0.7.0"
   },
   "590185": {
    "head": "990454b4c82033b8cd802778cb9de348d0d69a5a",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 44840027805,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-20T23:53:20+00:00",
    "title": "qspeakers: 1.8.6 -> 1.8.7"
   },
   "590188": {
