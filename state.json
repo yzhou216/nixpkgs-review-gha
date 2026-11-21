@@ -1613,6 +1613,7 @@
    "tries": 0
   },
   "512243": {
+   "final": "cancelled after 4 hours",
    "head": "4e85380130112b1afeee4139187fc7449708086d",
    "on_success": "nothing",
    "previous_run_id": 40212248717,
@@ -4092,6 +4093,7 @@
    "title": "python3Packages.pyghmi: 1.6.18 -> 1.6.19"
   },
   "543188": {
+   "final": "cancelled after 4 hours",
    "head": "cc64f1f66151477eec6afbbffe9b62970e85695d",
    "on_success": "nothing",
    "previous_run_id": 43042503592,
