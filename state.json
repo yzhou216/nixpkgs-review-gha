@@ -25514,7 +25514,7 @@
    "head": "a520b888c03f834fd2036c7d8940bcd6e7beec36",
    "status": "requeue",
    "title": "cyclonedx-python: 7.6.0 -> 8.0.1",
-   "tries": 1
+   "tries": 4
   },
   "586911": {
    "reason": "not open",
@@ -35947,32 +35947,91 @@
   },
   "591572": {
    "head": "dc9ca2e19cf7d9407cbbe73d05b64b019bb10bd3",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45004777929,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-22T08:51:47+00:00",
    "title": "home-assistant-custom-lovelace-modules.windrose-card: 2.7.0 -> 2.8.1"
   },
   "591574": {
    "head": "978a0d0ccf47ec6b0006e16bcbdbc2424501f307",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45004642266,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-22T08:50:05+00:00",
    "title": "cloudlog: 2.8.22 -> 2.9.0"
   },
   "591576": {
    "head": "fa34fbd17e2efd4515ef77cec0dad43b1771278f",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45004592052,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-22T08:49:26+00:00",
    "title": "warp-terminal: 0.2026.11.04.08.17.stable_01 -> 0.2026.11.18.08.17.stable_04"
   },
   "591579": {
    "head": "f21011e499eaba3b373bcef782f6d83af025ce5a",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45004540666,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-22T08:48:45+00:00",
    "title": "gaugePlugins.go: 0.4.0 -> 0.5.2"
   },
   "591583": {
    "head": "afde2ee8095d56b22b23c3d638c18ff9d884e2ef",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45004495517,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-22T08:48:10+00:00",
    "title": "python3Packages.echo: 0.16.0 -> 0.17.0"
   },
   "591584": {
    "head": "9a6ce58e48e8a825b12d077e67fcd0d70ce1a6f9",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45004192220,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-22T08:44:15+00:00",
    "title": "libdatachannel: 0.24.6 -> 0.24.7"
   },
   "591585": {
@@ -35991,17 +36050,47 @@
   },
   "591587": {
    "head": "8a1762ab303d95f6fa4309ccf356360fc9f90a63",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45004063655,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-22T08:42:33+00:00",
    "title": "livekit-cli: 2.19.4 -> 2.20.1"
   },
   "591588": {
    "head": "dbe2bc1bfdbb737dfaea6d4dcde5dfb27865069f",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45003623377,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-22T08:36:41+00:00",
    "title": "yandex-music: 5.127.0 -> 5.128.0"
   },
   "591590": {
    "head": "931bbd5aa622fe66d1c68682b3d6e287cf5294f3",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45003394330,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-22T08:33:52+00:00",
    "title": "freescout: 1.8.251 -> 1.8.252"
   },
   "591592": {
@@ -36020,7 +36109,17 @@
   },
   "591594": {
    "head": "3b8c2c3a9fd749cfda352cdfbf11362e468d5b3a",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45002940592,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-22T08:28:00+00:00",
    "title": "python3Packages.asyncsleepiq: 1.9.0 -> 1.9.1"
   },
   "591595": {
