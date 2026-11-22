@@ -9226,8 +9226,17 @@
   },
   "568327": {
    "head": "b40e008c61d5512f0470239612d17d6207d866b6",
+   "on_success": "nothing",
    "previous_run_id": 44964293069,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 45008743510,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-22T09:41:13+00:00",
    "title": "eccodes: 2.48.0 -> 2.50.1"
   },
   "568332": {
@@ -11119,8 +11128,17 @@
   },
   "573113": {
    "head": "6885ae303419bb375b83a687b60508f7cdf4a59f",
+   "on_success": "nothing",
    "previous_run_id": 44964034620,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 45008606123,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-22T09:39:31+00:00",
    "title": "python3Packages.eccodes: 2.48.0 -> 2.50.1"
   },
   "573120": {
@@ -35713,7 +35731,17 @@
   },
   "591482": {
    "head": "df9e76dd79a2d5f0f84421a00f9a5a389619515a",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45008478111,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-22T09:37:49+00:00",
    "title": "rtk: 1.2.0 -> 1.2.1"
   },
   "591483": {
@@ -35732,17 +35760,47 @@
   },
   "591485": {
    "head": "719d9a61fea5c652db0874683758ba5794497cd2",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45008342672,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-22T09:36:07+00:00",
    "title": "mathic: 1.6 -> 1.7"
   },
   "591493": {
    "head": "331be97c808f3059ab66a523e08531d261aec60d",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45008119815,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-22T09:33:24+00:00",
    "title": "open-webui: 0.13.3 -> 0.13.4"
   },
   "591496": {
    "head": "a215e86e203c75b64c082613240751ec13f6370c",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45007792419,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-22T09:29:33+00:00",
    "title": "wgpu-utils: 29.0.1 -> 30.0.2"
   },
   "591500": {
@@ -35761,7 +35819,17 @@
   },
   "591504": {
    "head": "a5f1e19336d5dab13794a806475a399f7c8a0a4f",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45007741355,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-22T09:28:52+00:00",
    "title": "vscode-extensions.batisteo.vscode-django: 1.15.0 -> 1.19.0"
   },
   "591505": {
@@ -35780,7 +35848,17 @@
   },
   "591511": {
    "head": "90015886f02be0dbc286ac07f2184f49696cb801",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45007693239,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-22T09:28:13+00:00",
    "title": "vscode-extensions.rangav.vscode-thunder-client: 3.2.4 -> 3.2.6"
   },
   "591514": {
