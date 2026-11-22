@@ -1,7 +1,8 @@
 name: ghc-bootstrap-tests
 run-name: "ghc-bootstrap-tests ${{ github.event.head_commit.message }}"
 
-# Tests from tests.env, against a commit (`rev`) of yzhou216/nixpkgs:
+# Tests from tests.env, against a commit (`rev`) of yzhou216/nixpkgs, on the
+# runner `runner` (ubuntu-latest by default):
 #
 #   attrs    space-separated entries of `file`, each built in its own job; an
 #            entry may join several attributes with commas, built in one job.
@@ -26,8 +27,24 @@ permissions:
   contents: read
 
 jobs:
-  plan:
+  runner:
     runs-on: ubuntu-latest
+    outputs:
+      runner: ${{ steps.target.outputs.runner || 'ubuntu-latest' }}
+    steps:
+      - name: checkout target
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          path: ci
+          persist-credentials: false
+
+      - name: read target
+        id: target
+        run: cat ci/tests.env >> "$GITHUB_OUTPUT"
+
+  plan:
+    needs: runner
+    runs-on: ${{ needs.runner.outputs.runner }}
     outputs:
       rev: ${{ steps.target.outputs.rev }}
       file: ${{ steps.target.outputs.file }}
@@ -78,9 +95,9 @@ jobs:
           echo "$drvs" | jq -r '.[].name'
 
   test:
-    needs: plan
+    needs: [runner, plan]
     if: needs.plan.outputs.attrs != '[]'
-    runs-on: ubuntu-latest
+    runs-on: ${{ needs.runner.outputs.runner }}
     timeout-minutes: 360
     strategy:
       fail-fast: false
@@ -145,9 +162,9 @@ jobs:
           exit $failed
 
   rebuild:
-    needs: plan
+    needs: [runner, plan]
     if: needs.plan.outputs.drvs != '[]'
-    runs-on: ubuntu-latest
+    runs-on: ${{ needs.runner.outputs.runner }}
     timeout-minutes: 360
     strategy:
       fail-fast: false
