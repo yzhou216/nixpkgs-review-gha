@@ -37100,6 +37100,7 @@
    "title": "nextcloud-talk-desktop: 2.3.3 -> 2.3.5"
   },
   "591812": {
+   "final": "cancelled after 4 hours",
    "head": "e19378f71a26c07aa6f0804c82d7bc1a223a3d84",
    "on_success": "nothing",
    "previous_run_id": null,
