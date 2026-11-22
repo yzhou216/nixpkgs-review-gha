@@ -2,7 +2,8 @@ name: ghc-bootstrap
 run-name: "ghc-bootstrap ${{ github.event.head_commit.message }}"
 
 # Builds the attributes in target.env (of `file`, the repository root by
-# default) from a commit of yzhou216/nixpkgs and
+# default) from a commit of yzhou216/nixpkgs, on the runner `runner`
+# (ubuntu-latest by default), and
 # pushes every store path it builds to Cachix, so that a run stopped by the
 # six-hour job limit resumes where it stopped when the branch is pushed again.
 
@@ -23,8 +24,24 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build:
+  runner:
     runs-on: ubuntu-latest
+    outputs:
+      runner: ${{ steps.target.outputs.runner || 'ubuntu-latest' }}
+    steps:
+      - name: checkout target
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          path: ci
+          persist-credentials: false
+
+      - name: read target
+        id: target
+        run: cat ci/target.env >> "$GITHUB_OUTPUT"
+
+  build:
+    needs: runner
+    runs-on: ${{ needs.runner.outputs.runner }}
     timeout-minutes: 360
     steps:
       - name: checkout target
