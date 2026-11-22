@@ -25511,10 +25511,10 @@
    "title": "morgen: 4.1.0 -> 4.1.4"
   },
   "586891": {
-   "head": "a520b888c03f834fd2036c7d8940bcd6e7beec36",
-   "status": "requeue",
+   "reason": "CI evaluation still running",
+   "status": "retry",
    "title": "cyclonedx-python: 7.6.0 -> 8.0.1",
-   "tries": 4
+   "tries": 5
   },
   "586911": {
    "reason": "not open",
@@ -35785,7 +35785,17 @@
   },
   "591514": {
    "head": "31d95caace2e9e1da6b2597e26f8a81b311ee152",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45007219086,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-22T09:22:20+00:00",
    "title": "vault-bin: 2.2.1 -> 2.2.2"
   },
   "591518": {
@@ -35804,17 +35814,47 @@
   },
   "591523": {
    "head": "71c9c8828f39346d53f50bdfc79797052507bd02",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45007159021,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-22T09:21:39+00:00",
    "title": "github-copilot-cli: 1.0.108 -> 1.0.114"
   },
   "591526": {
    "head": "3f370e5d2a9c095591ca580584fd571b0bb17eec",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45007107561,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-22T09:21:00+00:00",
    "title": "mathicgb: 1.4 -> 1.6"
   },
   "591530": {
    "head": "bfcc573b6c9a494426e2861d51f8b171733fc596",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45007036857,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-22T09:20:13+00:00",
    "title": "grafanaPlugins.grafana-github-datasource: 2.10.0 -> 2.11.0"
   },
   "591531": {
@@ -35839,22 +35879,53 @@
   },
   "591533": {
    "head": "0092009e089f6fd8153b87ff3f71719ef8c16f79",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45006981412,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-22T09:19:34+00:00",
    "title": "atlantis: 0.49.0 -> 0.50.0"
   },
   "591534": {
-   "head": "d29e9129b477b1fb53590a3d7216d706171a4c28",
-   "status": "requeue",
-   "title": "bettercap: 2.41.7 -> 2.42.0"
+   "reason": "not open",
+   "status": "skipped",
+   "title": "bettercap: 2.41.7 -> 2.42.0",
+   "tries": 0
   },
   "591536": {
    "head": "cffb726b1a1055218611b39d1976845c5f912510",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45006682274,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-22T09:15:49+00:00",
    "title": "txr: 302 -> 303"
   },
   "591537": {
    "head": "2885382bb39b3cec71a79bb7b3bcb4d015995669",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45006526997,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-22T09:14:00+00:00",
    "title": "cjdns: 22.3 -> 22.4"
   },
   "591539": {
@@ -35873,32 +35944,83 @@
   },
   "591541": {
    "head": "0b90b9381f53dc93830ec6c0c6634526b5a8a2eb",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45006304053,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-22T09:11:17+00:00",
    "title": "jftui: 0.7.6 -> 0.7.7"
   },
   "591544": {
    "head": "068216b27fadb6c150000b35b6b17a25dbc6a3f2",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45006253229,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-22T09:10:38+00:00",
    "title": "numcpp: 2.17.0 -> 2.18.0"
   },
   "591546": {
    "head": "ec9e7b5a8a2c5dd586ff728a6612708e085b0876",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45006099665,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-22T09:08:46+00:00",
    "title": "onefetch: 3.2.0 -> 3.3.0"
   },
   "591550": {
    "head": "2d14eb4775e052996c9478a1c50db7d4b760ba3a",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45006047075,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-22T09:08:07+00:00",
    "title": "expr: 1.17.8 -> 1.18.0"
   },
   "591552": {
-   "head": "445a18c1d354318dd0ec13c96cb0c50826dbfdf3",
-   "status": "requeue",
-   "title": "python3Packages.llama-index-embeddings-google-genai: 0.6.0 -> 0.7.0"
+   "reason": "not open",
+   "status": "skipped",
+   "title": "python3Packages.llama-index-embeddings-google-genai: 0.6.0 -> 0.7.0",
+   "tries": 0
   },
   "591556": {
    "head": "329da0e7d6403d2fd120293c67cce74422b9bde4",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45005909682,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-22T09:06:25+00:00",
    "title": "blocky: 0.36.0 -> 0.37.0"
   },
   "591558": {
@@ -35917,32 +36039,83 @@
   },
   "591560": {
    "head": "617701f809f342e6e21817bf6af8d1d52fbe1afc",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45005768730,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-22T09:04:43+00:00",
    "title": "lego: 5.6.0 -> 5.7.0"
   },
   "591561": {
    "head": "c8c0395832e69adb0c293b5d413a26abe8760755",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45005542984,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-22T09:01:54+00:00",
    "title": "markdownlint-cli: 0.50.0 -> 0.50.1"
   },
   "591563": {
-   "head": "81eefc77644955c6a3094cf64bf99a24c76e649e",
-   "status": "requeue",
-   "title": "oc: 0.5.8 -> 0.5.10"
+   "reason": "not open",
+   "status": "skipped",
+   "title": "oc: 0.5.8 -> 0.5.10",
+   "tries": 0
   },
   "591564": {
    "head": "3b6a4f1c668b0bb0f00936424d80800b28d2de33",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45005395587,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-22T09:00:10+00:00",
    "title": "oapi-codegen: 2.8.2 -> 2.9.0"
   },
   "591567": {
    "head": "7066cbfba69e0ef16a1aaa46eeea0b6809606cae",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45005271703,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-22T08:58:25+00:00",
    "title": "_9router: 0.5.116 -> 0.5.119"
   },
   "591569": {
    "head": "31bee4d3593cd89783a093a8f483529cccd92b6a",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45004993622,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-22T08:54:37+00:00",
    "title": "secrethound: 1.3.0 -> 1.3.3"
   },
   "591572": {
