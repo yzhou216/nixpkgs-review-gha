@@ -25536,7 +25536,7 @@
    "head": "a520b888c03f834fd2036c7d8940bcd6e7beec36",
    "status": "requeue",
    "title": "cyclonedx-python: 7.6.0 -> 8.0.1",
-   "tries": 1
+   "tries": 4
   },
   "586911": {
    "reason": "not open",
@@ -36561,7 +36561,17 @@
   },
   "591649": {
    "head": "5a631ffb1d557946b3ca96a86c60c44fd4fa20c4",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45068586992,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-22T20:49:18+00:00",
    "title": "python3Packages.pym3u8downloader: 0.1.8 -> 0.1.9"
   },
   "591654": {
@@ -36579,17 +36589,47 @@
   },
   "591657": {
    "head": "5b32da98cbf6e578716abd5ac05c39d0d59a9899",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45068232149,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-22T20:45:28+00:00",
    "title": "python3Packages.aioaquarite: 0.13.1 -> 0.14.0b1"
   },
   "591659": {
    "head": "3eb4b1ae55739b42e8d60b6a10f0a0149aa62b8d",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45067858092,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-22T20:41:32+00:00",
    "title": "python3Packages.matter-ble-proxy: 1.5.5 -> 1.6.0"
   },
   "591664": {
    "head": "217c3dc113038d7c694c9e49a38b765eb45024d6",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45067313502,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-22T20:35:40+00:00",
    "title": "terraform-providers.keycloak_keycloak: 5.10.0 -> 5.11.0"
   },
   "591672": {
@@ -36608,22 +36648,62 @@
   },
   "591677": {
    "head": "d27d91c7e278428eb22720a2a745c308fbca5924",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45067246577,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-22T20:35:01+00:00",
    "title": "drupal: 11.4.12 -> 11.4.13"
   },
   "591678": {
    "head": "74c7b5db8410a2f5a95a177264c594e759f4b250",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45066303034,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-22T20:24:55+00:00",
    "title": "mtail: 3.4.20 -> 3.4.21"
   },
   "591698": {
    "head": "f026d1a030ed35ea8178ca3181b01bf428edfeb8",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45065826495,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-22T20:19:57+00:00",
    "title": "muffet: 2.11.8 -> 2.11.9"
   },
   "591700": {
    "head": "72b8aacb876befbd4d928b426ad4042b7d1f81fa",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45065766136,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-22T20:19:18+00:00",
    "title": "spotifast: 0.17.1 -> 0.17.2"
   },
   "591728": {
