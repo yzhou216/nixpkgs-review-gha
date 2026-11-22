@@ -34507,6 +34507,7 @@
    "title": "openfga: 1.22.1 -> 1.23.0"
   },
   "591098": {
+   "final": "cancelled after 4 hours",
    "head": "a12c6a8b016b7fa76cc05403186f56ae912fdae7",
    "on_success": "nothing",
    "previous_run_id": null,
