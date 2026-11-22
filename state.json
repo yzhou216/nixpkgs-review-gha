@@ -25533,10 +25533,10 @@
    "title": "morgen: 4.1.0 -> 4.1.4"
   },
   "586891": {
-   "head": "a520b888c03f834fd2036c7d8940bcd6e7beec36",
-   "status": "requeue",
+   "reason": "CI evaluation still running",
+   "status": "retry",
    "title": "cyclonedx-python: 7.6.0 -> 8.0.1",
-   "tries": 4
+   "tries": 5
   },
   "586911": {
    "reason": "not open",
@@ -36526,37 +36526,107 @@
   },
   "591628": {
    "head": "148437790a7b94f31e603c241f9572ccdeb68dc6",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45070420650,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-22T21:08:44+00:00",
    "title": "oci-cli: 3.96.0 -> 3.96.3"
   },
   "591634": {
    "head": "3c67d80d216b73be900fadf9b2e6a0351dc59c43",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45070040072,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-22T21:04:54+00:00",
    "title": "vscode-extensions.ms-python.pylint: 2026.6.0 -> 2026.8.0"
   },
   "591639": {
    "head": "fc075e311fb6ba2491b1c1c752283345f4e13a92",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45069773886,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-22T21:02:11+00:00",
    "title": "rbspy: 0.55.0 -> 0.56.0"
   },
   "591642": {
    "head": "4371450bfb42c73b71f6d33509287c7c1c3c8467",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45069712105,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-22T21:01:32+00:00",
    "title": "python3Packages.orbax-checkpoint: 0.12.11 -> 0.12.12"
   },
   "591643": {
    "head": "a29e38083e816ef649269172e8fbca90ad172f0e",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45069262976,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-22T20:56:41+00:00",
    "title": "phpExtensions.blackfire: 2026.11.0 -> 2026.11.3"
   },
   "591645": {
    "head": "7d988dd30a2f5111d960ba6ef3a55cc5f27d5fb0",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45069110317,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-22T20:54:58+00:00",
    "title": "fulcio: 1.10.0 -> 1.10.1"
   },
   "591648": {
    "head": "b0755998c7e5cc5c2090620306dea75d016c420f",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45068746335,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-22T20:51:01+00:00",
    "title": "python3Packages.sphinxcontrib-confluencebuilder: 3.2.0 -> 3.3.0"
   },
   "591649": {
