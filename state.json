@@ -36777,6 +36777,7 @@
    "title": "spotifast: 0.17.1 -> 0.17.2"
   },
   "591728": {
+   "final": "cancelled after 4 hours",
    "head": "8289ed09014798da5dcdc079c36f0c02eba09d9b",
    "on_success": "nothing",
    "previous_run_id": null,
@@ -36806,6 +36807,7 @@
    "title": "supertux: 0.7.0 -> 0.7.0.2"
   },
   "591740": {
+   "final": "cancelled after 4 hours",
    "head": "11fd05a96145aca25f98effd5b7abe36a6e241cd",
    "on_success": "nothing",
    "previous_run_id": null,
@@ -36836,6 +36838,7 @@
    "title": "python3Packages.python-sbom: 0.3.1 -> 0.5.0"
   },
   "591745": {
+   "final": "cancelled after 4 hours",
    "head": "24f881b6798acc3013476c06bc1e1368470fe006",
    "on_success": "nothing",
    "previous_run_id": null,
@@ -36880,6 +36883,7 @@
    "title": "video-compare: 20261004 -> 20261122"
   },
   "591753": {
+   "final": "cancelled after 4 hours",
    "head": "0cf4709916c30b18b5512ef5ab4b126af37700fb",
    "on_success": "nothing",
    "previous_run_id": null,
