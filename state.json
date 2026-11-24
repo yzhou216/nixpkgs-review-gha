@@ -37394,52 +37394,152 @@
   },
   "592103": {
    "head": "baf35280c4d3665a36c77593707d538fa96892ea",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45342223892,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T06:40:38+00:00",
    "title": "xmrig-mo: 6.26.0-mo5 -> 6.27.0-mo1"
   },
   "592104": {
    "head": "c637f5086f050268156308a8a5932f39a80896d9",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45341760637,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T06:36:53+00:00",
    "title": "python3Packages.pyprecice: 3.4.0 -> 3.5.0"
   },
   "592108": {
    "head": "6a94e00ea32486f6452e965fdb58b1000a8d5164",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45341029465,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T06:30:59+00:00",
    "title": "go-bindata: 4.0.2 -> 4.0.3"
   },
   "592111": {
    "head": "ede56cd0ed64843c1cfc39b26ef62c38cc27bc9d",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45339896205,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T06:21:54+00:00",
    "title": "python3Packages.cma: 4.5.0 -> 4.6.0"
   },
   "592116": {
    "head": "e89cbce31d33c8ccbc66ef70d153f0dd94794242",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45339684071,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T06:20:11+00:00",
    "title": "docker: 29.9.3 -> 29.10.0"
   },
   "592124": {
    "head": "8d136e39721aa81db83050666d0aa53b29b1a5c3",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45339211711,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T06:16:19+00:00",
    "title": "python3Packages.trakit: 0.4.0 -> 0.5.0"
   },
   "592134": {
    "head": "572c3ef337f26eb92224997cb2229274e7f8e334",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45339121948,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T06:15:37+00:00",
    "title": "lis: 2.1.20 -> 2.1.24"
   },
   "592137": {
    "head": "37a768f28623005d332edad78035ee636ca4f98c",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45339037967,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T06:14:57+00:00",
    "title": "obs-cmd: 1.0.3 -> 1.0.4"
   },
   "592140": {
    "head": "8fee60111fe9dd4ad1b627308e7909cb45c014f3",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45338823722,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T06:13:15+00:00",
    "title": "arnis: 3.4.0 -> 3.5.0"
   },
   "592146": {
    "head": "f9440943899f6dbbfc00e0749c39b92beb4e1f27",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45338597033,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T06:11:25+00:00",
    "title": "python3Packages.meshcore-cli: 1.6.9 -> 1.6.10"
   },
   "592149": {
