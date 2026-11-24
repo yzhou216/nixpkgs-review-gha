@@ -37444,27 +37444,77 @@
   },
   "592149": {
    "head": "0218e4b978b0cea05eb03db45862c82d3d6064bd",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45338250401,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T06:08:39+00:00",
    "title": "goshs: 2.1.7 -> 2.1.8"
   },
   "592150": {
    "head": "f2cf122645eb7a5980395b95a88eb2c3cb21663e",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45338163970,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T06:07:57+00:00",
    "title": "rustic: 0.11.4 -> 0.12.0"
   },
   "592151": {
    "head": "2eae78c2fd22d0ea981ff002dde8c5bf3de58433",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45338083416,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T06:07:17+00:00",
    "title": "play-with-mpv: unstable-2021-04-02 -> 0.1.0"
   },
   "592163": {
    "head": "3bb73d725edf388c64335158f233d910059d93d5",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45337732033,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T06:04:27+00:00",
    "title": "dsvpn: 0.1.5 -> 1.0.0"
   },
   "592165": {
    "head": "fe7a166f8ea45347b03b430ac9a90a29ef2f436f",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45337652421,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T06:03:47+00:00",
    "title": "whistle: 2.10.14 -> 2.10.15"
   },
   "592175": {
@@ -37483,27 +37533,77 @@
   },
   "592182": {
    "head": "e9352dfd75a5a99f6a1654f122f58e24d5fcf314",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45337310891,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T06:00:56+00:00",
    "title": "python3Packages.llama-index-readers-twitter: 0.6.0 -> 0.7.0"
   },
   "592187": {
    "head": "55ef334e2911c8915823e1eb5173ff11bd1ad1a6",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45337100729,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T05:59:13+00:00",
    "title": "vscode-extensions.leanprover.lean4: 0.0.240 -> 0.0.242"
   },
   "592188": {
    "head": "acc19b30719c8a2ef29e11626ce2488578a282eb",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45337028473,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T05:58:33+00:00",
    "title": "python3Packages.types-mysqlclient: 2.3.0.20260923 -> 2.3.0.20261122"
   },
   "592205": {
    "head": "2d2f7be7bbb5fee976d90aed8321d6a93a119b37",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45336594629,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T05:54:42+00:00",
    "title": "python3Packages.torchbenchmark: 0-unstable-2026-03-06 -> 0-unstable-2026-08-21"
   },
   "592207": {
    "head": "12ab2a341600e80c19139d10b9635c34aa257a31",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45336037255,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T05:49:49+00:00",
    "title": "gaugePlugins.dotnet: 0.7.5 -> 0.7.7"
   },
   "592226": {
@@ -37521,17 +37621,47 @@
   },
   "592249": {
    "head": "ea54a351e304294ff000b97dae32e3b9da1680db",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45335482729,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T05:45:03+00:00",
    "title": "python3Packages.alexapy: 1.35.0 -> 1.37.1"
   },
   "592253": {
    "head": "db335144f8e627d5c4f9bf285736ab05789b33a7",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45335408406,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T05:44:23+00:00",
    "title": "stackit-cli: 0.77.2 -> 0.78.0"
   },
   "592254": {
    "head": "16f2289b0a6cd71526fa1e84ab5b4eae8bc97039",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45335212636,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T05:42:40+00:00",
    "title": "rucio: 41.5.1 -> 41.5.2"
   },
   "592255": {
@@ -37564,12 +37694,32 @@
   },
   "592264": {
    "head": "222e9e898b1bc2c8c135c25b5d7cd5678d6680d0",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45335129051,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T05:41:57+00:00",
    "title": "p4est: 2.8.7 -> 2.8.8"
   },
   "592265": {
    "head": "6155424ed284f3c1742cecdabab707cd84c27649",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45335056757,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T05:41:18+00:00",
    "title": "p4est-sc: 2.8.7 -> 2.8.8"
   },
   "592266": {
