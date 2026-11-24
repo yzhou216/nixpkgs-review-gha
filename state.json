@@ -37302,27 +37302,77 @@
   },
   "591962": {
    "head": "4032652289385972ab11af1588c80060a3505372",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45346072657,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T07:11:27+00:00",
    "title": "markdownlint-cli2: 0.24.0 -> 0.24.2"
   },
   "591987": {
    "head": "9e89d7c7b73be44a4fb7f2e9f187b29d26fd2026",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45345988881,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T07:10:47+00:00",
    "title": "goose: 3.30.0 -> 3.30.1"
   },
   "591990": {
    "head": "3b1aaf24668ea3d0b7b6766d782015112bd2ba3d",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45345895801,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T07:10:04+00:00",
    "title": "pffft: 1.3.0 -> 1.3.1"
   },
   "591993": {
    "head": "f690bd931037793fdebfbecdc169018cab86a1e0",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45345810736,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T07:09:24+00:00",
    "title": "xmrig: 6.26.0 -> 6.27.0"
   },
   "592001": {
    "head": "0ecf6aa4e4e2e60259a5411ba6c25374f7bf791b",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45345175881,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T07:04:31+00:00",
    "title": "docker-credential-gcr: 2.2.1 -> 2.2.2"
   },
   "592005": {
@@ -37340,32 +37390,92 @@
   },
   "592012": {
    "head": "054bbd298f1503f2212902fff9e58a0e2b9364d0",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45345095522,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T07:03:51+00:00",
    "title": "gaugePlugins.java: 0.12.0 -> 1.0.5"
   },
   "592024": {
    "head": "a251e3ceb270a9bc3b54bc5e0ede92e5afa414cc",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45344590327,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T06:59:59+00:00",
    "title": "jellyfin-desktop: 2.1.0-pre1-unstable-2026-11-07 -> 2.1.0-pre2-unstable-2026-11-20"
   },
   "592025": {
    "head": "37a6b02be79751fa68c74927922e2ad561927c58",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45344512103,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T06:59:20+00:00",
    "title": "balena-compose-parser: 1.1.0 -> 1.3.2"
   },
   "592042": {
    "head": "6f8ed0ec2f68f0bb5ef9aa9ac257a953e165113f",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45343932600,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T06:54:26+00:00",
    "title": "svt-av1-hdr: 4.2.0 -> 4.3.1"
   },
   "592056": {
    "head": "0be10c0dc4ca7fc7d8612cc0abf1e551ce83d3e2",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45343849402,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T06:53:46+00:00",
    "title": "pint: 0.87.0 -> 0.90.0"
   },
   "592086": {
    "head": "e46a56403329b25ceb770121241caa40161331a1",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45343513714,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T06:51:02+00:00",
    "title": "vscode-extensions.divyanshuagrawal.competitive-programming-helper: 2026.10.1792170155 -> 2026.11.1795106943"
   },
   "592091": {
@@ -37384,12 +37494,32 @@
   },
   "592093": {
    "head": "18f1fc37ec59c2e1ce70aca8d78b046a92692fe1",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45343430273,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T06:50:21+00:00",
    "title": "python3Packages.tuya-device-handlers: 0.0.34 -> 2026.12.0"
   },
   "592095": {
    "head": "5c2e448353f3d440c0a6e5c174a6f128713c4f3a",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45342690768,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T06:44:27+00:00",
    "title": "imagineer: 0.24.0 -> 0.25.1"
   },
   "592103": {
@@ -37677,6 +37807,8 @@
    "title": "python3Packages.types-mysqlclient: 2.3.0.20260923 -> 2.3.0.20261122"
   },
   "592205": {
+   "examined": 1,
+   "final": "review (x86_64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ",
    "head": "2d2f7be7bbb5fee976d90aed8321d6a93a119b37",
    "on_success": "nothing",
    "previous_run_id": null,
