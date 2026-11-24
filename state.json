@@ -38430,6 +38430,8 @@
    "title": "aptakube: 1.22.3 -> 1.23.0"
   },
   "592457": {
+   "examined": 1,
+   "final": "review (x86_64-linux): The operation was canceled.",
    "head": "9d0326e65b422932940d59f1261b09c1e3f512ec",
    "on_success": "nothing",
    "previous_run_id": null,
