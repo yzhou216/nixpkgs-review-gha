@@ -5184,8 +5184,17 @@
   },
   "553528": {
    "head": "d5f47c8a924dee4c0e6c5c4c903f09395bbf7c4c",
+   "on_success": "nothing",
    "previous_run_id": 39937252101,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 45350538098,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T07:46:02+00:00",
    "title": "python3Packages.types-protobuf: 6.32.1.20260221 -> 7.35.1.20261122"
   },
   "553529": {
@@ -6890,8 +6899,17 @@
   },
   "560017": {
    "head": "3b01958f3e944805a8528082a7b498d05ad23e5d",
+   "on_success": "nothing",
    "previous_run_id": 39884142861,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 45350289132,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T07:44:12+00:00",
    "title": "python3Packages.llama-index-embeddings-openai: 0.6.0 -> 0.8.0"
   },
   "560053": {
@@ -37156,7 +37174,17 @@
   },
   "591820": {
    "head": "4f20b33a17bca6ae2bce322e1989d3aa88d39835",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45350212765,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T07:43:36+00:00",
    "title": "fromager: 0.103.0 -> 0.104.0"
   },
   "591821": {
