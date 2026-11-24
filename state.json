@@ -25538,10 +25538,10 @@
    "title": "morgen: 4.1.0 -> 4.1.4"
   },
   "586891": {
-   "head": "a520b888c03f834fd2036c7d8940bcd6e7beec36",
-   "status": "requeue",
+   "reason": "CI evaluation still running",
+   "status": "retry",
    "title": "cyclonedx-python: 7.6.0 -> 8.0.1",
-   "tries": 2
+   "tries": 5
   },
   "586911": {
    "reason": "not open",
@@ -37574,37 +37574,107 @@
   },
   "592266": {
    "head": "85ffc219265902fb1627130a4d2913b04c46560a",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45334498969,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T05:36:24+00:00",
    "title": "p4est-sc-dbg: 2.8.7 -> 2.8.8"
   },
   "592267": {
    "head": "e0052a2d4395d97878911f27a97fa1e915d8f58f",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45334420150,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T05:35:44+00:00",
    "title": "p4est-dbg: 2.8.7 -> 2.8.8"
   },
   "592269": {
    "head": "1da3bc4817eb076e1d448a80f056f7fc87625516",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45334334703,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T05:35:03+00:00",
    "title": "catppuccin-whiskers: 2.9.0 -> 2.10.0"
   },
   "592279": {
    "head": "669eef174d6d80f5c48872abe80500e1a02a1004",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45334256309,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T05:34:23+00:00",
    "title": "nsc: 2.15.0 -> 2.15.1"
   },
   "592282": {
    "head": "6638e61a63db7a8046199e6f10a3fc95360e9ad3",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45333783636,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T05:30:25+00:00",
    "title": "openhue-cli: 0.25 -> 0.26"
   },
   "592295": {
    "head": "8bc640b8c4b7ffb53134eae7c79be7f1eb71f657",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45333698606,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T05:29:42+00:00",
    "title": "just-lsp: 0.11.1 -> 0.11.2"
   },
   "592296": {
    "head": "8ce61d43a99a64b6d676036978f22b3822154085",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45333624695,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T05:29:03+00:00",
    "title": "keycloakPlugins.keycloak-orgs: 0.193 -> 0.200"
   },
   "592297": {
@@ -37623,22 +37693,62 @@
   },
   "592301": {
    "head": "899b46fe65bf8a55b5f28f05bad43921bc5d8f14",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45332552552,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T05:19:52+00:00",
    "title": "python3Packages.django-compressor: 4.6 -> 4.7"
   },
   "592307": {
    "head": "8ab506787c33e9a47eba6475f64633e6028f2ab7",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45332339052,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T05:18:03+00:00",
    "title": "tree-sitter-grammars.tree-sitter-php-only: 0.25.1-unstable-2026-10-06 -> 0.25.2-unstable-2026-11-19"
   },
   "592308": {
    "head": "3373d8604bde9569a17043d5f503b39921b1e083",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45332131748,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T05:16:20+00:00",
    "title": "tree-sitter-grammars.tree-sitter-vhdl: 2.0.3-unstable-2026-10-24 -> 2.1.0-unstable-2026-11-15"
   },
   "592310": {
    "head": "9ae38cf2196bfa18b13ea8feb64ce971e8915a39",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45331912610,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T05:14:37+00:00",
    "title": "tree-sitter-grammars.tree-sitter-fsharp: 0.3.12-unstable-2026-09-12 -> 0.3.13-unstable-2026-11-19"
   },
   "592313": {
@@ -37657,12 +37767,32 @@
   },
   "592314": {
    "head": "44f16d175bead4e62063fd3f2edb4ba6e9587b22",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45331561142,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T05:11:42+00:00",
    "title": "quint: 0.33.1 -> 0.34.0"
   },
   "592318": {
    "head": "3e07703a4bd9eaf86fe4c26e785a0757a8cd86b9",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45331480501,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T05:11:02+00:00",
    "title": "python3Packages.adafruit-pureio: 1.1.12 -> 1.1.13"
   },
   "592320": {
