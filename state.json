@@ -37744,6 +37744,7 @@
    "title": "python3Packages.pyprecice: 3.4.0 -> 3.5.0"
   },
   "592108": {
+   "final": "cancelled after 4 hours",
    "head": "6a94e00ea32486f6452e965fdb58b1000a8d5164",
    "on_success": "nothing",
    "previous_run_id": null,
