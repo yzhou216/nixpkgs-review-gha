@@ -26139,9 +26139,10 @@
    "title": "sioyek: 2.0.0-unstable-2026-10-31 -> 2.0.0-unstable-2026-11-04"
   },
   "587086": {
-   "head": "c393da787c7ce544c1683c4c8139bbb0325d4749",
-   "status": "requeue",
-   "title": "home-assistant-custom-components.localthings: 0.35.0 -> 0.38.0"
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "home-assistant-custom-components.localthings: 0.35.0 -> 0.38.0",
+   "tries": 0
   },
   "587089": {
    "head": "9b5455122d1ca9abc09ed95fd65781839941c0bd",
@@ -26711,9 +26712,10 @@
    "title": "homer: 26.08.3 -> 26.11.2"
   },
   "587275": {
-   "head": "ea81bbd9b58533a5288b64b73340e20754dcd960",
-   "status": "requeue",
-   "title": "python3Packages.pypdfium2: 5.14.0 -> 5.15.2"
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "python3Packages.pypdfium2: 5.14.0 -> 5.15.2",
+   "tries": 0
   },
   "587302": {
    "head": "a9f8b1399721402e311ed696d63977039d4227da",
@@ -34292,9 +34294,10 @@
    "title": "tree-sitter-grammars.tree-sitter-tcl: 0-unstable-2026-08-05 -> 0-unstable-2026-11-09"
   },
   "591017": {
-   "head": "5ea30c68cf8111111bba404056d14e85d31f9ba9",
-   "status": "requeue",
-   "title": "unsloth-desktop: 0.1.916-beta -> 0.1.921-beta"
+   "reason": "merge conflict",
+   "status": "skipped",
+   "title": "unsloth-desktop: 0.1.916-beta -> 0.1.921-beta",
+   "tries": 0
   },
   "591023": {
    "head": "332e6251ab4709571e137b99814e6fe4255948d8",
@@ -37118,52 +37121,52 @@
    "title": "terraform-providers.rancher_rancher2: 15.1.2 -> 15.3.0"
   },
   "591820": {
-   "head": "4f20b33a17bca6ae2bce322e1989d3aa88d39835",
-   "previous_run_id": 45350212765,
-   "status": "requeue",
-   "title": "fromager: 0.103.0 -> 0.104.0"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "fromager: 0.103.0 -> 0.104.0",
+   "tries": 0
   },
   "591821": {
-   "head": "1f349f1096ad14db0f0c1778b6f905a49b9365db",
-   "previous_run_id": 45349858296,
-   "status": "requeue",
-   "title": "parallel-disk-usage: 0.24.0 -> 0.24.1"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "parallel-disk-usage: 0.24.0 -> 0.24.1",
+   "tries": 0
   },
   "591826": {
-   "head": "16e286a69f923bcc1da2d608128d6d6ae5344ea2",
-   "previous_run_id": 45349634602,
-   "status": "requeue",
-   "title": "angrr: 0.2.7 -> 0.2.8"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "angrr: 0.2.7 -> 0.2.8",
+   "tries": 0
   },
   "591829": {
-   "head": "e8fac48f6e34821413bf9e1dc799db6afbdc9d18",
-   "previous_run_id": 45349561444,
-   "status": "requeue",
-   "title": "keystore-explorer: 5.7.0 -> 5.7.1"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "keystore-explorer: 5.7.0 -> 5.7.1",
+   "tries": 0
   },
   "591838": {
-   "head": "cb1b8c9b25591f285c69ebd74e3dcc770b80b0c3",
-   "previous_run_id": 45328957749,
-   "status": "requeue",
-   "title": "exfatprogs: 1.4.4 -> 1.4.5"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "exfatprogs: 1.4.4 -> 1.4.5",
+   "tries": 0
   },
   "591845": {
-   "head": "dbba80eae3cfb788a2230d3b67e26bce74dd6528",
-   "previous_run_id": 45348934574,
-   "status": "requeue",
-   "title": "python3Packages.py2bit: 1.0.1 -> 1.0.2"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "python3Packages.py2bit: 1.0.1 -> 1.0.2",
+   "tries": 0
   },
   "591851": {
-   "head": "681b5fd7882928a556f08a9999ae3cb8b9b237e8",
-   "previous_run_id": 45328747794,
-   "status": "requeue",
-   "title": "mouseless: 0.2.0 -> 0.4.0"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "mouseless: 0.2.0 -> 0.4.0",
+   "tries": 0
   },
   "591854": {
-   "head": "a8f0ad3276107849e90cb26d93c117abb144ea10",
-   "previous_run_id": 45348723182,
-   "status": "requeue",
-   "title": "rutorrent: 5.3.22 -> 5.3.23"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "rutorrent: 5.3.22 -> 5.3.23",
+   "tries": 0
   },
   "591860": {
    "head": "05e9442605b65e860af81439095c8aa17451726d",
@@ -37180,22 +37183,22 @@
    "title": "gthumb: 4.0.2 -> 4.0.3"
   },
   "591864": {
-   "head": "df7a12e8c55554468a3c15005d5fced4887a649d",
-   "previous_run_id": 45348232894,
-   "status": "requeue",
-   "title": "python3Packages.pyaprilaire: 0.9.1 -> 0.10.0"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "python3Packages.pyaprilaire: 0.9.1 -> 0.10.0",
+   "tries": 0
   },
   "591885": {
-   "head": "aedec5b857485022cd0a8d0a85b6341add68e71d",
-   "previous_run_id": 45328549365,
-   "status": "requeue",
-   "title": "python3Packages.dbt-postgres: 1.11.0 -> 1.17.3"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "python3Packages.dbt-postgres: 1.11.0 -> 1.17.3",
+   "tries": 0
   },
   "591886": {
-   "head": "42ce2c3445e71459edc525be71c8e73e74002c8c",
-   "previous_run_id": 45348156020,
-   "status": "requeue",
-   "title": "python3Packages.llm-gemini: 0.36 -> 0.38.1"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "python3Packages.llm-gemini: 0.36 -> 0.38.1",
+   "tries": 0
   },
   "591887": {
    "head": "ab910048567f1d5b1e09ed9c407a42dd92fc526d",
@@ -37213,28 +37216,28 @@
    "title": "commitizen: 4.19.3 -> 4.19.4"
   },
   "591893": {
-   "head": "7f626a719c9d13a9e86a3ce31cc646e32f1a7f46",
-   "previous_run_id": 45347446732,
-   "status": "requeue",
-   "title": "git-credential-gopass: 1.17.4 -> 1.17.5"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "git-credential-gopass: 1.17.4 -> 1.17.5",
+   "tries": 0
   },
   "591905": {
-   "head": "d7d9126f4f133a7440c62c1184f83c1838ca42e4",
-   "previous_run_id": 45347226620,
-   "status": "requeue",
-   "title": "mcat-unwrapped: 0.6.8 -> 0.6.9"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "mcat-unwrapped: 0.6.8 -> 0.6.9",
+   "tries": 0
   },
   "591911": {
-   "head": "d9c578e5ea583518ef8a6e3ef991da5faf766c8c",
-   "previous_run_id": 45347137865,
-   "status": "requeue",
-   "title": "python3Packages.fastapi-pagination: 0.16.2 -> 0.16.3"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "python3Packages.fastapi-pagination: 0.16.2 -> 0.16.3",
+   "tries": 0
   },
   "591921": {
-   "head": "f5b2b4b6d84afee307989815d4f54554548adc57",
-   "previous_run_id": 45346916983,
-   "status": "requeue",
-   "title": "rescrobbled: 0.10.0 -> 0.10.1"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "rescrobbled: 0.10.0 -> 0.10.1",
+   "tries": 0
   },
   "591926": {
    "reason": "not open",
@@ -37243,10 +37246,10 @@
    "tries": 0
   },
   "591927": {
-   "head": "6fbeca4a7ffaa45e96763228c7e7373b71bd9a03",
-   "previous_run_id": 45346829437,
-   "status": "requeue",
-   "title": "miller: 6.22.0 -> 6.23.0"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "miller: 6.22.0 -> 6.23.0",
+   "tries": 0
   },
   "591928": {
    "final": "cancelled after 4 hours",
@@ -37310,22 +37313,22 @@
    "title": "markdownlint-cli2: 0.24.0 -> 0.24.2"
   },
   "591987": {
-   "head": "9e89d7c7b73be44a4fb7f2e9f187b29d26fd2026",
-   "previous_run_id": 45345988881,
-   "status": "requeue",
-   "title": "goose: 3.30.0 -> 3.30.1"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "goose: 3.30.0 -> 3.30.1",
+   "tries": 0
   },
   "591990": {
-   "head": "3b1aaf24668ea3d0b7b6766d782015112bd2ba3d",
-   "previous_run_id": 45345895801,
-   "status": "requeue",
-   "title": "pffft: 1.3.0 -> 1.3.1"
+   "reason": "not open",
+   "status": "skipped",
+   "title": "pffft: 1.3.0 -> 1.3.1",
+   "tries": 0
   },
   "591993": {
-   "head": "f690bd931037793fdebfbecdc169018cab86a1e0",
-   "previous_run_id": 45345810736,
-   "status": "requeue",
-   "title": "xmrig: 6.26.0 -> 6.27.0"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "xmrig: 6.26.0 -> 6.27.0",
+   "tries": 0
   },
   "592001": {
    "head": "0ecf6aa4e4e2e60259a5411ba6c25374f7bf791b",
@@ -37343,10 +37346,10 @@
    "title": "docker-credential-gcr: 2.2.1 -> 2.2.2"
   },
   "592005": {
-   "head": "6d286b59f275ed68590422e01b9644d631203b9f",
-   "previous_run_id": 45328137007,
-   "status": "requeue",
-   "title": "wdt: 1.27.1612021-unstable-2026-11-02 -> 1.27.1612021-unstable-2026-11-12"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "wdt: 1.27.1612021-unstable-2026-11-02 -> 1.27.1612021-unstable-2026-11-12",
+   "tries": 0
   },
   "592012": {
    "head": "054bbd298f1503f2212902fff9e58a0e2b9364d0",
@@ -37364,46 +37367,46 @@
    "title": "gaugePlugins.java: 0.12.0 -> 1.0.5"
   },
   "592024": {
-   "head": "a251e3ceb270a9bc3b54bc5e0ede92e5afa414cc",
-   "previous_run_id": 45344590327,
-   "status": "requeue",
-   "title": "jellyfin-desktop: 2.1.0-pre1-unstable-2026-11-07 -> 2.1.0-pre2-unstable-2026-11-20"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "jellyfin-desktop: 2.1.0-pre1-unstable-2026-11-07 -> 2.1.0-pre2-unstable-2026-11-20",
+   "tries": 0
   },
   "592025": {
-   "head": "37a6b02be79751fa68c74927922e2ad561927c58",
-   "previous_run_id": 45344512103,
-   "status": "requeue",
-   "title": "balena-compose-parser: 1.1.0 -> 1.3.2"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "balena-compose-parser: 1.1.0 -> 1.3.2",
+   "tries": 0
   },
   "592042": {
-   "head": "6f8ed0ec2f68f0bb5ef9aa9ac257a953e165113f",
-   "previous_run_id": 45343932600,
-   "status": "requeue",
-   "title": "svt-av1-hdr: 4.2.0 -> 4.3.1"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "svt-av1-hdr: 4.2.0 -> 4.3.1",
+   "tries": 0
   },
   "592056": {
-   "head": "0be10c0dc4ca7fc7d8612cc0abf1e551ce83d3e2",
-   "previous_run_id": 45343849402,
-   "status": "requeue",
-   "title": "pint: 0.87.0 -> 0.90.0"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "pint: 0.87.0 -> 0.90.0",
+   "tries": 0
   },
   "592086": {
-   "head": "e46a56403329b25ceb770121241caa40161331a1",
-   "previous_run_id": 45343513714,
-   "status": "requeue",
-   "title": "vscode-extensions.divyanshuagrawal.competitive-programming-helper: 2026.10.1792170155 -> 2026.11.1795106943"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "vscode-extensions.divyanshuagrawal.competitive-programming-helper: 2026.10.1792170155 -> 2026.11.1795106943",
+   "tries": 0
   },
   "592091": {
-   "head": "26398361810d66d4f26961c1f182bd283c785145",
-   "previous_run_id": 45327880228,
-   "status": "requeue",
-   "title": "mariadb-galera: 26.4.27 -> 26.4.29"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "mariadb-galera: 26.4.27 -> 26.4.29",
+   "tries": 0
   },
   "592093": {
-   "head": "18f1fc37ec59c2e1ce70aca8d78b046a92692fe1",
-   "previous_run_id": 45343430273,
-   "status": "requeue",
-   "title": "python3Packages.tuya-device-handlers: 0.0.34 -> 2026.12.0"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "python3Packages.tuya-device-handlers: 0.0.34 -> 2026.12.0",
+   "tries": 0
   },
   "592095": {
    "head": "5c2e448353f3d440c0a6e5c174a6f128713c4f3a",
@@ -37421,16 +37424,16 @@
    "title": "imagineer: 0.24.0 -> 0.25.1"
   },
   "592103": {
-   "head": "baf35280c4d3665a36c77593707d538fa96892ea",
-   "previous_run_id": 45342223892,
-   "status": "requeue",
-   "title": "xmrig-mo: 6.26.0-mo5 -> 6.27.0-mo1"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "xmrig-mo: 6.26.0-mo5 -> 6.27.0-mo1",
+   "tries": 0
   },
   "592104": {
-   "head": "c637f5086f050268156308a8a5932f39a80896d9",
-   "previous_run_id": 45341760637,
-   "status": "requeue",
-   "title": "python3Packages.pyprecice: 3.4.0 -> 3.5.0"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "python3Packages.pyprecice: 3.4.0 -> 3.5.0",
+   "tries": 0
   },
   "592108": {
    "final": "cancelled after 4 hours",
@@ -37449,22 +37452,22 @@
    "title": "go-bindata: 4.0.2 -> 4.0.3"
   },
   "592111": {
-   "head": "ede56cd0ed64843c1cfc39b26ef62c38cc27bc9d",
-   "previous_run_id": 45339896205,
-   "status": "requeue",
-   "title": "python3Packages.cma: 4.5.0 -> 4.6.0"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "python3Packages.cma: 4.5.0 -> 4.6.0",
+   "tries": 0
   },
   "592116": {
-   "head": "e89cbce31d33c8ccbc66ef70d153f0dd94794242",
-   "previous_run_id": 45339684071,
-   "status": "requeue",
-   "title": "docker: 29.9.3 -> 29.10.0"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "docker: 29.9.3 -> 29.10.0",
+   "tries": 0
   },
   "592124": {
-   "head": "8d136e39721aa81db83050666d0aa53b29b1a5c3",
-   "previous_run_id": 45339211711,
-   "status": "requeue",
-   "title": "python3Packages.trakit: 0.4.0 -> 0.5.0"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "python3Packages.trakit: 0.4.0 -> 0.5.0",
+   "tries": 0
   },
   "592134": {
    "head": "572c3ef337f26eb92224997cb2229274e7f8e334",
@@ -37512,10 +37515,10 @@
    "title": "arnis: 3.4.0 -> 3.5.0"
   },
   "592146": {
-   "head": "f9440943899f6dbbfc00e0749c39b92beb4e1f27",
-   "previous_run_id": 45338597033,
-   "status": "requeue",
-   "title": "python3Packages.meshcore-cli: 1.6.9 -> 1.6.10"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "python3Packages.meshcore-cli: 1.6.9 -> 1.6.10",
+   "tries": 0
   },
   "592149": {
    "head": "0218e4b978b0cea05eb03db45862c82d3d6064bd",
@@ -37533,34 +37536,34 @@
    "title": "goshs: 2.1.7 -> 2.1.8"
   },
   "592150": {
-   "head": "f2cf122645eb7a5980395b95a88eb2c3cb21663e",
-   "previous_run_id": 45338163970,
-   "status": "requeue",
-   "title": "rustic: 0.11.4 -> 0.12.0"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "rustic: 0.11.4 -> 0.12.0",
+   "tries": 0
   },
   "592151": {
-   "head": "2eae78c2fd22d0ea981ff002dde8c5bf3de58433",
-   "previous_run_id": 45338083416,
-   "status": "requeue",
-   "title": "play-with-mpv: unstable-2021-04-02 -> 0.1.0"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "play-with-mpv: unstable-2021-04-02 -> 0.1.0",
+   "tries": 0
   },
   "592163": {
-   "head": "3bb73d725edf388c64335158f233d910059d93d5",
-   "previous_run_id": 45337732033,
-   "status": "requeue",
-   "title": "dsvpn: 0.1.5 -> 1.0.0"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "dsvpn: 0.1.5 -> 1.0.0",
+   "tries": 0
   },
   "592165": {
-   "head": "fe7a166f8ea45347b03b430ac9a90a29ef2f436f",
-   "previous_run_id": 45337652421,
-   "status": "requeue",
-   "title": "whistle: 2.10.14 -> 2.10.15"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "whistle: 2.10.14 -> 2.10.15",
+   "tries": 0
   },
   "592175": {
-   "head": "3d4836118ac88f2904af20a8280bfe7722634846",
-   "previous_run_id": 45327358283,
-   "status": "requeue",
-   "title": "kaniko: 1.25.22 -> 1.25.24"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "kaniko: 1.25.22 -> 1.25.24",
+   "tries": 0
   },
   "592182": {
    "head": "e9352dfd75a5a99f6a1654f122f58e24d5fcf314",
@@ -37578,16 +37581,16 @@
    "title": "python3Packages.llama-index-readers-twitter: 0.6.0 -> 0.7.0"
   },
   "592187": {
-   "head": "55ef334e2911c8915823e1eb5173ff11bd1ad1a6",
-   "previous_run_id": 45337100729,
-   "status": "requeue",
-   "title": "vscode-extensions.leanprover.lean4: 0.0.240 -> 0.0.242"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "vscode-extensions.leanprover.lean4: 0.0.240 -> 0.0.242",
+   "tries": 0
   },
   "592188": {
-   "head": "acc19b30719c8a2ef29e11626ce2488578a282eb",
-   "previous_run_id": 45337028473,
-   "status": "requeue",
-   "title": "python3Packages.types-mysqlclient: 2.3.0.20260923 -> 2.3.0.20261122"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "python3Packages.types-mysqlclient: 2.3.0.20260923 -> 2.3.0.20261122",
+   "tries": 0
   },
   "592205": {
    "examined": 2,
@@ -37622,16 +37625,16 @@
    "title": "gaugePlugins.dotnet: 0.7.5 -> 0.7.7"
   },
   "592226": {
-   "head": "3cb6ebccea89691b63f6aff55dd0aa0ae1f3ac1c",
-   "previous_run_id": 45327141114,
-   "status": "requeue",
-   "title": "openvino-intel-npu-compiler: 2026.38-rc1 -> 2026.44-rc1"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "openvino-intel-npu-compiler: 2026.38-rc1 -> 2026.44-rc1",
+   "tries": 0
   },
   "592249": {
-   "head": "ea54a351e304294ff000b97dae32e3b9da1680db",
-   "previous_run_id": 45335482729,
-   "status": "requeue",
-   "title": "python3Packages.alexapy: 1.35.0 -> 1.37.1"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "python3Packages.alexapy: 1.35.0 -> 1.37.1",
+   "tries": 0
   },
   "592253": {
    "head": "db335144f8e627d5c4f9bf285736ab05789b33a7",
@@ -37649,10 +37652,10 @@
    "title": "stackit-cli: 0.77.2 -> 0.78.0"
   },
   "592254": {
-   "head": "16f2289b0a6cd71526fa1e84ab5b4eae8bc97039",
-   "previous_run_id": 45335212636,
-   "status": "requeue",
-   "title": "rucio: 41.5.1 -> 41.5.2"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "rucio: 41.5.1 -> 41.5.2",
+   "tries": 0
   },
   "592255": {
    "head": "e83130e873ec0c8965b3ed3f7c9fdbe4d00348a0",
@@ -37669,10 +37672,10 @@
    "title": "libretro.fceumm: 0-unstable-2026-11-02 -> 0-unstable-2026-11-22"
   },
   "592258": {
-   "head": "8f07aab55c9bcdf29de6dcbda9f1e8dda27f3ed8",
-   "previous_run_id": 45326481812,
-   "status": "requeue",
-   "title": "rnnoise-plugin: 1.10 -> 1.22"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "rnnoise-plugin: 1.10 -> 1.22",
+   "tries": 0
   },
   "592264": {
    "head": "222e9e898b1bc2c8c135c25b5d7cd5678d6680d0",
@@ -37750,10 +37753,10 @@
    "title": "catppuccin-whiskers: 2.9.0 -> 2.10.0"
   },
   "592279": {
-   "head": "669eef174d6d80f5c48872abe80500e1a02a1004",
-   "previous_run_id": 45334256309,
-   "status": "requeue",
-   "title": "nsc: 2.15.0 -> 2.15.1"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "nsc: 2.15.0 -> 2.15.1",
+   "tries": 0
   },
   "592282": {
    "head": "6638e61a63db7a8046199e6f10a3fc95360e9ad3",
@@ -37801,46 +37804,46 @@
    "title": "keycloakPlugins.keycloak-orgs: 0.193 -> 0.200"
   },
   "592297": {
-   "head": "0af6bd852fa406d26b91e90a1c4cb3f1d9608499",
-   "previous_run_id": 45326267882,
-   "status": "requeue",
-   "title": "yoshimi: 2.3.6.5 -> 2.3.6.6"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "yoshimi: 2.3.6.5 -> 2.3.6.6",
+   "tries": 0
   },
   "592301": {
-   "head": "899b46fe65bf8a55b5f28f05bad43921bc5d8f14",
-   "previous_run_id": 45332552552,
-   "status": "requeue",
-   "title": "python3Packages.django-compressor: 4.6 -> 4.7"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "python3Packages.django-compressor: 4.6 -> 4.7",
+   "tries": 0
   },
   "592307": {
-   "head": "8ab506787c33e9a47eba6475f64633e6028f2ab7",
-   "previous_run_id": 45332339052,
-   "status": "requeue",
-   "title": "tree-sitter-grammars.tree-sitter-php-only: 0.25.1-unstable-2026-10-06 -> 0.25.2-unstable-2026-11-19"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "tree-sitter-grammars.tree-sitter-php-only: 0.25.1-unstable-2026-10-06 -> 0.25.2-unstable-2026-11-19",
+   "tries": 0
   },
   "592308": {
-   "head": "3373d8604bde9569a17043d5f503b39921b1e083",
-   "previous_run_id": 45332131748,
-   "status": "requeue",
-   "title": "tree-sitter-grammars.tree-sitter-vhdl: 2.0.3-unstable-2026-10-24 -> 2.1.0-unstable-2026-11-15"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "tree-sitter-grammars.tree-sitter-vhdl: 2.0.3-unstable-2026-10-24 -> 2.1.0-unstable-2026-11-15",
+   "tries": 0
   },
   "592310": {
-   "head": "9ae38cf2196bfa18b13ea8feb64ce971e8915a39",
-   "previous_run_id": 45331912610,
-   "status": "requeue",
-   "title": "tree-sitter-grammars.tree-sitter-fsharp: 0.3.12-unstable-2026-09-12 -> 0.3.13-unstable-2026-11-19"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "tree-sitter-grammars.tree-sitter-fsharp: 0.3.12-unstable-2026-09-12 -> 0.3.13-unstable-2026-11-19",
+   "tries": 0
   },
   "592313": {
-   "head": "aeb2d23b1d8485bf64e0116d5d8605d1ba84706b",
-   "previous_run_id": 45325994202,
-   "status": "requeue",
-   "title": "ndi: 6.3.2.0 -> 6.4.0.2"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "ndi: 6.3.2.0 -> 6.4.0.2",
+   "tries": 0
   },
   "592314": {
-   "head": "44f16d175bead4e62063fd3f2edb4ba6e9587b22",
-   "previous_run_id": 45331561142,
-   "status": "requeue",
-   "title": "quint: 0.33.1 -> 0.34.0"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "quint: 0.33.1 -> 0.34.0",
+   "tries": 0
   },
   "592318": {
    "head": "3e07703a4bd9eaf86fe4c26e785a0757a8cd86b9",
@@ -37858,10 +37861,10 @@
    "title": "python3Packages.adafruit-pureio: 1.1.12 -> 1.1.13"
   },
   "592320": {
-   "head": "e743a410e8884db839df7e8e319dd5f77d7b4d97",
-   "previous_run_id": 45330902355,
-   "status": "requeue",
-   "title": "_010editor: 17.0.1 -> 17.0.2"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "_010editor: 17.0.1 -> 17.0.2",
+   "tries": 0
   },
   "592323": {
    "head": "6b43ba6cd42b73a507689ee83867ec0076ec46c0",
@@ -37893,16 +37896,16 @@
    "title": "gaugePlugins.ruby: 0.9.3 -> 1.1.1"
   },
   "592328": {
-   "head": "6b0d7c0660ad01d59dd9f55e9085ca0f7ff5d317",
-   "previous_run_id": 45329923861,
-   "status": "requeue",
-   "title": "defuddle: 0.19.6 -> untagged-a48a23dbc4e902c144b3"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "defuddle: 0.19.6 -> untagged-a48a23dbc4e902c144b3",
+   "tries": 0
   },
   "592330": {
-   "head": "bca44f72013438a35d23f6c793834e39d46aca58",
-   "previous_run_id": 45329861247,
-   "status": "requeue",
-   "title": "ltex-ls-plus: 18.7.0 -> 19.0.0"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "ltex-ls-plus: 18.7.0 -> 19.0.0",
+   "tries": 0
   },
   "592332": {
    "head": "0cb2ddacbee3683d9433d0d7fd74ad532349636c",
@@ -37920,10 +37923,10 @@
    "title": "lagrange-tui: 2.0.3 -> 2.0.4"
   },
   "592336": {
-   "head": "3204b9dc791a4a89a58ef5e9b795f51cd7c36fe6",
-   "previous_run_id": 45329030983,
-   "status": "requeue",
-   "title": "vscode-extensions.discloud.discloud: 2.30.0 -> 2.30.1"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "vscode-extensions.discloud.discloud: 2.30.0 -> 2.30.1",
+   "tries": 0
   },
   "592338": {
    "head": "b9e7c4644871522ba936cef8e5dd16799917e397",
@@ -37941,10 +37944,10 @@
    "title": "pgsrip: 0.2.1 -> 0.3.0"
   },
   "592347": {
-   "head": "5d7447369bfe65537b8f6195ca84ece2d0088881",
-   "previous_run_id": 45327955684,
-   "status": "requeue",
-   "title": "go-mockery: 3.9.1 -> 3.9.2"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "go-mockery: 3.9.1 -> 3.9.2",
+   "tries": 0
   },
   "592348": {
    "final": "cancelled after 4 hours",
@@ -38080,22 +38083,22 @@
    "title": "python3Packages.opentype-feature-freezer: 1.32.3 -> 1.32.4"
   },
   "592377": {
-   "head": "b65e53e9d56586b32eea360542ab2187d84988ca",
-   "previous_run_id": 45325705536,
-   "status": "requeue",
-   "title": "checkmate: 1.5.3 -> 1.7.0"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "checkmate: 1.5.3 -> 1.7.0",
+   "tries": 0
   },
   "592378": {
-   "head": "7d5ffaaf8ff2295b983c0496d737e3ca643f888f",
-   "previous_run_id": 45325526424,
-   "status": "requeue",
-   "title": "yoda: 2.1.4 -> 2.1.5"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "yoda: 2.1.4 -> 2.1.5",
+   "tries": 0
   },
   "592382": {
-   "head": "98ac8128dded76cf052fbe0d87e15ef70ae0eda6",
-   "previous_run_id": 45325460286,
-   "status": "requeue",
-   "title": "python3Packages.cwcwidth: 0.1.12 -> 0.1.13"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "python3Packages.cwcwidth: 0.1.12 -> 0.1.13",
+   "tries": 0
   },
   "592385": {
    "head": "9e6f04649002143cb048e39b369a245a86cd7f36",
@@ -38113,10 +38116,10 @@
    "title": "plausible: 3.2.1 -> 3.2.2"
   },
   "592386": {
-   "head": "bf1d7d31e3d25f10ff44ecb10a4a68ea7980b3ad",
-   "previous_run_id": 45325319003,
-   "status": "requeue",
-   "title": "python3Packages.pyfibaro: 0.8.5 -> 0.8.6"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "python3Packages.pyfibaro: 0.8.5 -> 0.8.6",
+   "tries": 0
   },
   "592387": {
    "head": "f4e0883dae77059242b77c3aef9c71f29ca931eb",
@@ -38134,10 +38137,10 @@
    "title": "libeconf: 0.8.6 -> 0.8.8"
   },
   "592388": {
-   "head": "6881e525679608d219fadc83786e0bc9d5e669c1",
-   "previous_run_id": 45325175468,
-   "status": "requeue",
-   "title": "capacities: 1.72.7 -> 1.74.1"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "capacities: 1.72.7 -> 1.74.1",
+   "tries": 0
   },
   "592390": {
    "head": "63a03b0dc7ea449dbf0f6504a33512a65f221dba",
@@ -38155,16 +38158,16 @@
    "title": "dpp: 10.1.6 -> 10.1.7"
   },
   "592394": {
-   "head": "db8b07c3785ba8274271820a69745dbfe46a1a60",
-   "previous_run_id": 45325025282,
-   "status": "requeue",
-   "title": "parallel: 20261022 -> 20261122"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "parallel: 20261022 -> 20261122",
+   "tries": 0
   },
   "592399": {
-   "head": "bba4136a48d7dcdb7377998eba4e829511b8a7b1",
-   "previous_run_id": 45324941840,
-   "status": "requeue",
-   "title": "riotx: 1.15.4 -> 2.0.0"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "riotx: 1.15.4 -> 2.0.0",
+   "tries": 0
   },
   "592400": {
    "head": "a462447518de8c7404e811c4173a6162a1c50a94",
@@ -38182,16 +38185,16 @@
    "title": "python3Packages.adafruit-platformdetect: 3.90.0 -> 3.91.0"
   },
   "592401": {
-   "head": "f31295000a974fccd46f09230d287efafbe53c8c",
-   "previous_run_id": 45324796818,
-   "status": "requeue",
-   "title": "ausweisapp: 2.6.2 -> 2.6.3"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "ausweisapp: 2.6.2 -> 2.6.3",
+   "tries": 0
   },
   "592405": {
-   "head": "ef5d1211d28d9a2cd118acf1e9eb67a00732829f",
-   "previous_run_id": 45324720706,
-   "status": "requeue",
-   "title": "ipsw: 3.1.745 -> 3.1.750"
+   "reason": "has a result for the current head",
+   "status": "skipped",
+   "title": "ipsw: 3.1.745 -> 3.1.750",
+   "tries": 0
   },
   "592406": {
    "head": "cfc0fa5daea26dd89c40c1478a58f6d7ab100a4c",
@@ -38248,7 +38251,16 @@
   },
   "592418": {
    "head": "5a63ed5bb5191c6630a9556b043b9078332064e8",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45483632189,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-24T20:42:46+00:00",
    "title": "picgo: 3.0.3 -> 3.0.4"
   },
   "592420": {
@@ -38303,7 +38315,16 @@
   },
   "592464": {
    "head": "5ebca9cd0e264b981b05a353dace7e9f1f69043a",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45483235839,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-24T20:40:25+00:00",
    "title": "jibri: 8.0-235-g87bcd3c -> 8.0-245-gc238ad7"
   },
   "592466": {
@@ -38333,12 +38354,30 @@
   },
   "592481": {
    "head": "e7c2b1cbbb8a26ccce753855562a37f5b1e28ccd",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45482867179,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-24T20:38:12+00:00",
    "title": "ananicy-rules-cachyos: 0-unstable-2026-09-08 -> 0-unstable-2026-11-22"
   },
   "592491": {
    "head": "8253a8d12f2692a9b82022fd9f9345c2ed35f41d",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45482738914,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-24T20:37:28+00:00",
    "title": "python3Packages.html2pdf4doc: 0.0.35 -> 0.0.36"
   },
   "592492": {
@@ -38378,7 +38417,16 @@
   },
   "592522": {
    "head": "91389f10ee351a0158c78426d81fd6849014a339",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45482044619,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-24T20:33:29+00:00",
    "title": "dae: 2.1.1 -> 2.1.3"
   },
   "592525": {
@@ -38398,7 +38446,16 @@
   },
   "592538": {
    "head": "1a8d122ffa2c0084ab5ef51851a1b3834f5ec0f5",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45481697897,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-24T20:31:31+00:00",
    "title": "sentry-native: 0.17.6 -> 0.17.7"
   },
   "592544": {
@@ -38413,12 +38470,30 @@
   },
   "592550": {
    "head": "802330fa5be0d30b75e5e5b8499e3edd5f714668",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45481510250,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-24T20:30:29+00:00",
    "title": "xremap: 0.15.18 -> 0.15.19"
   },
   "592558": {
    "head": "8cbde61abcb0a3aa255359fa0ba35ff883d64166",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45481381442,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-24T20:29:44+00:00",
    "title": "janus-gateway: 1.4.3 -> 1.4.4"
   },
   "592561": {
@@ -38433,72 +38508,209 @@
   },
   "592581": {
    "head": "0231d9fdef24e2a48dd021b782ac39009d1e306a",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45482986458,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T20:38:55+00:00",
    "title": "python3Packages.smart-open: 9.0.3 -> 10.0.0"
   },
   "592584": {
    "head": "57313282d7da2f6ce4c4e09242101634b1d6f3c5",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45481178366,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-24T20:28:31+00:00",
    "title": "iio-hyprland: 0-unstable-2026-09-07 -> 0-unstable-2026-11-24"
   },
   "592586": {
    "head": "c88b09990dca9cea14790eb14ea26a8bbd4d7a9c",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45482608696,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T20:36:43+00:00",
    "title": "vscode-extensions.visualjj.visualjj: 0.36.3 -> 0.37.2"
   },
   "592587": {
    "head": "aeaae15468f94f3c33a6b5661da8c5eab6873354",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45481024427,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-24T20:27:38+00:00",
    "title": "python3Packages.keyboard: 0.13.5-unstable-2023-01-31 -> 0.13.5"
   },
   "592588": {
    "head": "01b1eb4cd6c01b75cfc279f6c5b828f632f2f607",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45482379983,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T20:35:23+00:00",
    "title": "seq-cli: 2026.1.02662 -> 2026.2.02674"
   },
   "592594": {
    "head": "c4a196dde477e782e2a5f6218e03931db3a1b94c",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45481829514,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T20:32:16+00:00",
    "title": "npkill: 0.12.2-1 -> 1.0.0"
   },
   "592644": {
    "head": "caafe8547a114ba7d41bd0553f984cda4cbff438",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45480829456,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T20:26:29+00:00",
    "title": "inconsolata-lgc: 3.420 -> 4.000"
   },
   "592650": {
    "head": "8ed7700b48e3fbd5bab0dc8370b066a4f6493e53",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45480724734,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T20:25:51+00:00",
    "title": "python3Packages.pyglm: 2.8.3 -> 2.8.4"
   },
   "592664": {
    "head": "a978e0ffc78ccf655f9c187f6f4b2b77fb2c4e36",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45480610908,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T20:25:12+00:00",
    "title": "rustical: 0.19.1 -> 0.20.0"
   },
   "592668": {
    "head": "b55f59d12ebd7eaafb75b2c21e20f7f1d9a1b36a",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45480504013,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T20:24:35+00:00",
    "title": "vscode-extensions.charliermarsh.ruff: 2026.94.0 -> 2026.98.0"
   },
   "592684": {
    "head": "5464b2a5216f088149f8bcd2ef04826f6cf69030",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45480390170,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux"
+   ],
+   "time": "2026-11-24T20:23:56+00:00",
    "title": "gmobile: 0.7.1 -> 0.7.5"
   },
   "592687": {
    "head": "61a747acbbad5bfbacc98c408ac7b981b710eedb",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45480280950,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T20:23:19+00:00",
    "title": "virter: 1.5.0 -> 1.5.1"
   },
   "592688": {
    "head": "8817f03c63a40f0e7125e0b1eb2a21cde97153db",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45480163945,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T20:22:39+00:00",
    "title": "python3Packages.pymetno: 0.13.0 -> 0.14.0"
   },
   "592691": {
    "head": "7e800d272cff283ef08464a449b386943bd13365",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45480043158,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T20:21:58+00:00",
    "title": "talosctl: 1.14.6 -> 1.14.7"
   }
  }
