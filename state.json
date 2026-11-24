@@ -38500,6 +38500,7 @@
    "title": "go-mockery: 3.9.1 -> 3.9.2"
   },
   "592348": {
+   "final": "cancelled after 4 hours",
    "head": "723fde5601d73a00d1ac277b86d69627d725f3ff",
    "on_success": "nothing",
    "previous_run_id": null,
