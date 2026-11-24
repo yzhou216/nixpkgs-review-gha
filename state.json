@@ -37447,6 +37447,7 @@
    "title": "miller: 6.22.0 -> 6.23.0"
   },
   "591928": {
+   "final": "cancelled after 4 hours",
    "head": "43cfbab572cc6333b7431921eb79ae0027d921e3",
    "on_success": "nothing",
    "previous_run_id": null,
@@ -37999,7 +38000,7 @@
    "title": "python3Packages.types-mysqlclient: 2.3.0.20260923 -> 2.3.0.20261122"
   },
   "592205": {
-   "examined": 1,
+   "examined": 2,
    "final": "review (x86_64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ",
    "head": "2d2f7be7bbb5fee976d90aed8321d6a93a119b37",
    "on_success": "nothing",
