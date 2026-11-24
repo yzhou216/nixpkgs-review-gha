@@ -5183,8 +5183,8 @@
    "title": "prow: 0-unstable-2026-08-08 -> 0-unstable-2026-10-28"
   },
   "553528": {
-   "examined": 1,
-   "final": "review (x86_64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ; review (aarch64-linux): The operation was canceled.",
+   "examined": 2,
+   "final": "review (x86_64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ; review (aarch64-linux): Process completed with exit code 143.",
    "head": "d5f47c8a924dee4c0e6c5c4c903f09395bbf7c4c",
    "on_success": "nothing",
    "previous_run_id": 39937252101,
@@ -38336,17 +38336,46 @@
   },
   "592456": {
    "head": "9c883d873b4fc8fabbcdc2c098f5f5722571865b",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45495276421,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T21:51:33+00:00",
    "title": "aptakube: 1.22.3 -> 1.23.0"
   },
   "592457": {
    "head": "9d0326e65b422932940d59f1261b09c1e3f512ec",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45494986038,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T21:49:47+00:00",
    "title": "python3Packages.looptime: 0.7 -> 0.9"
   },
   "592461": {
    "head": "3b19add63cb8c742a991eb3dab95e2c61bf82b0d",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45494180808,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T21:44:54+00:00",
    "title": "jwt-cpp: 0.7.2 -> 0.7.3"
   },
   "592464": {
@@ -38365,27 +38394,77 @@
   },
   "592466": {
    "head": "bb670ca8d2213b1ef8ac9dd18d20af61e573c696",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45494014078,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T21:43:51+00:00",
    "title": "terraform-compliance: 1.16.0 -> 1.17.2"
   },
   "592471": {
    "head": "4f565ec503e43ea75fe2413be27ef96cc7e96ddc",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45493561268,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T21:41:04+00:00",
    "title": "python3Packages.thriftpy2: 0.7.1 -> 0.8.0b1"
   },
   "592472": {
    "head": "b43d219995f9be982ad2bc7abfb7804181ca922b",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45492749554,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T21:36:07+00:00",
    "title": "python3Packages.nextdns: 5.2.0 -> 5.3.0"
   },
   "592473": {
    "head": "9561dc825db0f61e2ecb10291b266420babde1e5",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45492632548,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T21:35:26+00:00",
    "title": "bootdev-cli: 1.32.6 -> 1.33.1"
   },
   "592480": {
    "head": "5a41369bab5e7b3fd4afe13cb55966c39808126c",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45492480083,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T21:34:33+00:00",
    "title": "grafanaPlugins.grafana-googlesheets-datasource: 2.7.4 -> 2.7.5"
   },
   "592481": {
@@ -38418,22 +38497,62 @@
   },
   "592492": {
    "head": "f937e547d4670e98137792022af89ac8b14bdb7f",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45492366839,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T21:33:52+00:00",
    "title": "silo: 2026-11-09T00-00-00Z -> 2026-11-12T00-00-00Z"
   },
   "592495": {
    "head": "f5bb4b6cb3534ecd72a521396542d99fc55ae40a",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45491704309,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T21:30:03+00:00",
    "title": "buck2: 2026-11-01 -> 2026-11-15"
   },
   "592508": {
    "head": "24f548a1ced43416be028ee5d61392c8bdf4459c",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45491232613,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T21:27:09+00:00",
    "title": "unison-ucm: 1.5.0 -> 2.0.2"
   },
   "592511": {
    "head": "1453ae9aa1f5d6019cc24be24cd3226d24948d7f",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45491116010,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-24T21:26:27+00:00",
    "title": "python3Packages.aiohue: 4.9.0 -> 4.9.2"
   },
   "592516": {
