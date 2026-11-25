@@ -38306,6 +38306,7 @@
    "title": "libetpan: 1.10.1 -> 2.0.1"
   },
   "592418": {
+   "final": "cancelled after 4 hours",
    "head": "5a63ed5bb5191c6630a9556b043b9078332064e8",
    "on_success": "nothing",
    "previous_run_id": null,
