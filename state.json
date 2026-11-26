@@ -39452,12 +39452,32 @@
   },
   "593062": {
    "head": "45d90cc3139323707c008dccb1c9a74e44e9e3b1",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45743932450,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T02:40:01+00:00",
    "title": "python3Packages.llama-index-llms-ollama: 0.11.0 -> 0.12.0"
   },
   "593064": {
    "head": "61a0012b428e534fa0f7ec4035dffb68579bc615",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45743281358,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T02:34:07+00:00",
    "title": "stac-validator: 4.6.1 -> 4.6.3"
   },
   "593078": {
@@ -39476,47 +39496,137 @@
   },
   "593080": {
    "head": "b4b5093ce0f6ccd4a1d660f7605d6ac7daac87d4",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45743195779,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T02:33:18+00:00",
    "title": "python3Packages.types-mock: 5.2.0.20260518 -> 5.2.0.20261122"
   },
   "593090": {
    "head": "2b1fdd12d34d61dc0a5034db285ed9af74ce97eb",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45742882913,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T02:30:32+00:00",
    "title": "python3Packages.pubnub: 10.8.1 -> 10.9.1"
   },
   "593093": {
    "head": "240e7aa6ce16a12a3615a35341188e01defca641",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45742687005,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T02:28:47+00:00",
    "title": "python3Packages.oracledb: 26.1.0 -> 26.2.0"
   },
   "593094": {
    "head": "ec70f3823fb535ee3837d88d5d6f483a4bad789b",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45742497388,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T02:27:03+00:00",
    "title": "python3Packages.ohme: 1.9.2 -> 1.9.3"
   },
   "593102": {
    "head": "65f9f51bf031e27d5054343b4789c714f6913e92",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45742062888,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T02:23:12+00:00",
    "title": "sql-formatter: 15.9.0 -> 15.10.0"
   },
   "593103": {
    "head": "9e52a8322a7983865af1f6c8958d3ada0b9f3e25",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45741753031,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T02:20:27+00:00",
    "title": "vscode-extensions.oracle.oracle-java: 27.0.0 -> 27.0.1"
   },
   "593106": {
    "head": "dd1a667afbd9fc8cd8082cfce8189d87cf33899c",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45741558915,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T02:18:44+00:00",
    "title": "python3Packages.nbdev: 3.3.28 -> 3.3.31"
   },
   "593110": {
    "head": "83f5ebaa66d8f720ff53bb2a68da9bac3d3b8941",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45741358066,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T02:16:54+00:00",
    "title": "python3Packages.bsdiff4: 1.4.2 -> 1.4.4"
   },
   "593117": {
    "head": "b19c37079b017edb209c4ce8d9a4ae20a0698304",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45740698265,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T02:11:00+00:00",
    "title": "libresidfp: 1.2.3 -> 1.3.0"
   },
   "593124": {
