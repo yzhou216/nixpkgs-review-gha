@@ -40289,6 +40289,7 @@
    "title": "libfolia: 2.22 -> 2.23"
   },
   "593185": {
+   "final": "cancelled after 4 hours",
    "head": "2a99ddc23b895c143660924fa8c8d848bd59fe92",
    "on_success": "nothing",
    "previous_run_id": null,
@@ -40332,6 +40333,7 @@
    "title": "raiderio-client: 6.0.4 -> 6.0.6"
   },
   "593208": {
+   "final": "cancelled after 4 hours",
    "head": "cf769faaf67a1fd22065a3ec8fbac9e45aff1fac",
    "on_success": "nothing",
    "previous_run_id": null,
