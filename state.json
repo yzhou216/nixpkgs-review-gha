@@ -39070,12 +39070,32 @@
   },
   "592703": {
    "head": "bbb13d5e45293052186602295bb69b27fc603441",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45756737311,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T04:40:50+00:00",
    "title": "python3Packages.materialyoucolor: 3.0.4 -> 3.1.0"
   },
   "592715": {
    "head": "276933b117537575c9de927e7f598e39953ccbb3",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45756588761,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T04:39:24+00:00",
    "title": "python3Packages.aiorwlock: 1.5.1 -> 1.6.0"
   },
   "592719": {
@@ -39094,7 +39114,17 @@
   },
   "592722": {
    "head": "5a8a1bd502faecb920f610fa44a55a766c1c7359",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45756513171,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T04:38:38+00:00",
    "title": "python3Packages.smartthings-local: 0.1.24 -> 0.1.25"
   },
   "592724": {
@@ -39105,52 +39135,152 @@
   },
   "592725": {
    "head": "b06defdbebb03df7cd41009e52bbe6a96aa9676e",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45756054245,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T04:34:18+00:00",
    "title": "bun: 1.4.4 -> 1.4.5"
   },
   "592740": {
    "head": "12d7ceaa5ca00aeee6c75490bbcf72f5918c4703",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45755912814,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T04:32:59+00:00",
    "title": "python3Packages.css-inline: 0.23.1 -> 0.25.0"
   },
   "592742": {
    "head": "5a3b6d9e47834cea9433e5aebf1a7fb0daf1fa51",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45755375348,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T04:28:01+00:00",
    "title": "prometheus-solaredge-exporter: 0.1.10 -> 0.1.11"
   },
   "592745": {
    "head": "9ba3ff9b6f19483e3793b157b84ebc37fbe18f9f",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45755302930,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T04:27:21+00:00",
    "title": "python3Packages.google-cloud-datastore: 2.27.0 -> 2.27.1"
   },
   "592747": {
    "head": "540468b3d12cb1114275121172946d502ef85d34",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45755123498,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T04:25:36+00:00",
    "title": "pack: 0.40.10 -> 0.40.11"
   },
   "592749": {
    "head": "5d8616563abb72eb2879e8439e9ab2da9500c611",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45754939094,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T04:23:51+00:00",
    "title": "python3Packages.css-parser: 1.1.1 -> 1.1.2"
   },
   "592756": {
    "head": "3042d2791be9fb717e9361ae4ad90adb881b6929",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45754689552,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T04:21:30+00:00",
    "title": "comigo: 1.3.10 -> 1.4.0"
   },
   "592757": {
    "head": "6e11052e41c380747187d0fb7305a4faa06ee627",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45754295926,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T04:17:45+00:00",
    "title": "kompose: 1.38.0 -> 1.39.0"
   },
   "592758": {
    "head": "d457847b1ec3a9521cb9f56fe605a8037ab22ada",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45754163813,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T04:16:29+00:00",
    "title": "kubo: 0.43.1 -> 0.43.2"
   },
   "592760": {
    "head": "4269cdbce4c217026daddebb18292216ed495fc8",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45753918158,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T04:14:14+00:00",
    "title": "gifsicle: 1.98 -> 1.99"
   },
   "592771": {
