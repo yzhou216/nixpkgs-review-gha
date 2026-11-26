@@ -39356,7 +39356,17 @@
   },
   "592988": {
    "head": "74e07515b087e73561dbac4f95ebac15a19b63c3",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45746687064,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T03:05:45+00:00",
    "title": "python3Packages.types-retry: 0.9.9.20260408 -> 0.9.9.20261122"
   },
   "593002": {
@@ -39374,12 +39384,32 @@
   },
   "593012": {
    "head": "a7b6ecbc43425e0697b8c4c7ef9e6829d1c5b056",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45746608259,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T03:05:05+00:00",
    "title": "vscode-extensions.ms-windows-ai-studio.windows-ai-studio: 1.6.20 -> 1.6.22"
   },
   "593016": {
    "head": "fa32c056d9c9e2d148dff85a04158a26b6b8a166",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45746194290,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T03:01:13+00:00",
    "title": "python3Packages.django-mptt: 0.21.1 -> 0.22"
   },
   "593021": {
@@ -39390,12 +39420,32 @@
   },
   "593024": {
    "head": "c94999fb31c16ff4c58f2b3f6a6ec435807f11e2",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45746114683,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T03:00:32+00:00",
    "title": "python3Packages.deepl: 1.33.0 -> 2.0.0"
   },
   "593032": {
    "head": "b412ead9708889ce94662ff8f6aba58cf4e1337a",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45745829065,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T02:57:47+00:00",
    "title": "python3Packages.pylamarzocco: 2.5.6 -> 2.6.0"
   },
   "593038": {
@@ -39414,12 +39464,32 @@
   },
   "593039": {
    "head": "d9e538e09d4edc01b7f91bad58901b36ae096439",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45745327040,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T02:52:54+00:00",
    "title": "adno: 1.0.9 -> 1.1.2"
   },
   "593043": {
    "head": "379da11b4e16bb9e9e79de67c2cd6315a992e0e9",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45744804763,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T02:48:02+00:00",
    "title": "dps8m: 3.1.0 -> 3.2.0"
   },
   "593047": {
@@ -39437,17 +39507,47 @@
   },
   "593049": {
    "head": "dfdb80346036c5797e91170abc601f6b39d798ee",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45744507174,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T02:45:17+00:00",
    "title": "protolint: 0.58.0 -> 0.59.1"
   },
   "593052": {
    "head": "837cfb1374fcbbb162ed34480f3fa1cb4b3f6b8f",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45744305098,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T02:43:28+00:00",
    "title": "sngrep: 1.9.0 -> 1.10.0"
   },
   "593054": {
    "head": "32e7bf18cb8b3b93c9240b3f485ce752f4dde8a9",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45744233944,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T02:42:47+00:00",
    "title": "maltego: 4.14.0 -> 4.14.1"
   },
   "593062": {
