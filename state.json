@@ -39272,22 +39272,62 @@
   },
   "592834": {
    "head": "95a6fb0dac68db8fc1d9286c0a1b19c7a7168d53",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45750533879,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T03:41:36+00:00",
    "title": "pjsip: 2.17 -> 2.18"
   },
   "592839": {
    "head": "b17110bf9dae929bd04b40f5af72bff06d527b22",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45750463995,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T03:40:53+00:00",
    "title": "kamal-proxy: 0.10.2 -> 0.10.3"
   },
   "592840": {
    "head": "c07d372a911555a847cdb5134af03fdff5b590de",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45750392280,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T03:40:13+00:00",
    "title": "python3Packages.genai-prices: 0.2.3 -> 0.2.5"
   },
   "592851": {
    "head": "dfb5405ee71b461d0e8d3edcfb135e35e67c11c0",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45750107815,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T03:37:29+00:00",
    "title": "civicrm: 6.20.0 -> 6.20.1"
   },
   "592858": {
@@ -39306,52 +39346,152 @@
   },
   "592861": {
    "head": "616cb2b5dbbe3dddbe09d078a25b81687dc8e8e4",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45749583213,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T03:32:35+00:00",
    "title": "python3Packages.django-flags: 5.2.0 -> 5.3.0"
   },
   "592862": {
    "head": "10b330be75e58ec1d345ead1b44379f7b8a0fdf3",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45749508210,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T03:31:55+00:00",
    "title": "python3Packages.soco: 0.32.2 -> 0.32.4"
   },
   "592864": {
    "head": "7c358b9d1513e8feef98e700e3430e46c4ff142d",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45749315048,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T03:30:11+00:00",
    "title": "setconf: 0.7.7 -> 0.7.8"
   },
   "592876": {
    "head": "c20f019415963c33b1d020d2d0a25b0c3a84f596",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45748908750,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T03:26:19+00:00",
    "title": "cdk8s-cli: 2.207.81 -> 2.207.87"
   },
   "592912": {
    "head": "0c544a2826edfd8fb62a9ed3e75d72b5d923f5d7",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45748839663,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T03:25:39+00:00",
    "title": "python3Packages.types-openpyxl: 3.1.5.20261017 -> 3.1.5.20261122"
   },
   "592917": {
    "head": "0798a51ddc0fa55cd9fb17320084cacc13f08b5e",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45748760111,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T03:24:57+00:00",
    "title": "python3Packages.aiosql: 16.0 -> 16.2"
   },
   "592931": {
    "head": "7db6192aa36e957ff19dacb9c746f70c2ef63fac",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45748688644,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T03:24:17+00:00",
    "title": "diesel-cli: 2.3.14 -> 2.4.0"
   },
   "592939": {
    "head": "3ca0afd45e2d1506249c81a9484a7ecd343de61b",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45748052339,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T03:18:22+00:00",
    "title": "zaparoo: 2.23.0 -> 2.23.1"
   },
   "592967": {
    "head": "761a4f1344d7b3c1b7359ebfd39444b2e71fdb2e",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45747525542,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T03:13:29+00:00",
    "title": "python3Packages.click-option-group: 0.5.9 -> 0.5.10"
   },
   "592980": {
    "head": "d9827db96690dddd1e0ec61b4fc595627b6575aa",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45747451422,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T03:12:48+00:00",
    "title": "unftp: 0.16.0 -> 0.17.0"
   },
   "592988": {
