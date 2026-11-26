@@ -39155,7 +39155,17 @@
   },
   "592771": {
    "head": "3a58ed226aded17d815cb61ad997c17d51f93e4e",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45753658453,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T04:11:50+00:00",
    "title": "python3Packages.svgdigitizer: 0.14.5 -> 0.16.0"
   },
   "592772": {
@@ -39174,42 +39184,122 @@
   },
   "592776": {
    "head": "2b93f7862a02cd69bd219ecb0feaa62f1ab53c18",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45753587558,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T04:11:09+00:00",
    "title": "fastcdr: 2.4.0 -> 2.5.0"
   },
   "592777": {
    "head": "887d0f04b236a5abc0c76e5361b727b6c2d4fd66",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45753345279,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T04:08:54+00:00",
    "title": "python3Packages.tree-sitter-c-sharp: 0.23.5 -> 0.24.0"
   },
   "592778": {
    "head": "91d2155c8b1b7acf53e2d4568dd32edcf0738869",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45753093506,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T04:06:33+00:00",
    "title": "gitoxide: 0.61.0 -> 0.62.0"
   },
   "592779": {
    "head": "30f0246abfd6c5af21eeaaef9d310ac56c295483",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45752739932,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T04:03:15+00:00",
    "title": "imgpkg: 0.49.0 -> 0.49.2"
   },
   "592788": {
    "head": "cd17a8cb545329f1753aeef979e34218b3df1aeb",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45752670325,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T04:02:35+00:00",
    "title": "sonar-scanner-cli-minimal: 8.4.0.16527 -> 8.5.0.16571"
   },
   "592790": {
    "head": "bbefc96efb1749d22dff85677554eb37899cb730",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45752605700,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T04:01:57+00:00",
    "title": "python3Packages.pylsl: 1.18.6 -> 1.19.0"
   },
   "592793": {
    "head": "1f58e725f204af9bca65af88077fb7cae87c45f7",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45752522832,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T04:01:11+00:00",
    "title": "gemini-cli-bin: 0.68.0 -> 0.71.1"
   },
   "592794": {
    "head": "5ecc11b41311437aacbf18905471f68cf8dfbec3",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45752378689,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T03:59:56+00:00",
    "title": "python3Packages.aioautomower: 3.1.0 -> 3.2.0"
   },
   "592800": {
@@ -39228,32 +39318,92 @@
   },
   "592801": {
    "head": "4a28e37ef8773c21532ecacb86445171b6987fdd",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45752317629,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T03:59:16+00:00",
    "title": "tree-sitter-grammars.tree-sitter-tql: 1.2.1 -> 1.5.1"
   },
   "592808": {
    "head": "50baaf0504dd76550695086a53aece6568498b90",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45752052942,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T03:56:32+00:00",
    "title": "homer: 26.11.2 -> 26.11.4"
   },
   "592812": {
    "head": "6eff30baf3ba3ab9fcfad6d53ce0107167bb0db7",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45751981627,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T03:55:50+00:00",
    "title": "sox_ng: 14.8.1 -> 14.9.0"
   },
   "592820": {
    "head": "54eba27479b6f094f3e46a91780df3eca72385b3",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45751915837,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T03:55:10+00:00",
    "title": "python3Packages.uiprotect: 25.0.0 -> 25.8.1"
   },
   "592830": {
    "head": "3fa91813e791bae9641059f31106229cca292887",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45751540036,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T03:51:24+00:00",
    "title": "ejsonkms: 0.4.0 -> 0.4.1"
   },
   "592832": {
    "head": "1a26831aa6d43c1ce0874cab0501262c1ff16d02",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 45751151250,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-26T03:47:34+00:00",
    "title": "rancher: 2.15.3 -> 2.15.4"
   },
   "592833": {
