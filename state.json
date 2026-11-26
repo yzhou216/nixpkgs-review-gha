@@ -39154,6 +39154,7 @@
    "tries": 0
   },
   "592725": {
+   "final": "cancelled after 4 hours",
    "head": "b06defdbebb03df7cd41009e52bbe6a96aa9676e",
    "on_success": "nothing",
    "previous_run_id": null,
