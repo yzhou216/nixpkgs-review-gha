@@ -41027,6 +41027,7 @@
    "title": "cairo-lang: 2.21.0 -> 2.22.0"
   },
   "593416": {
+   "final": "cancelled after 4 hours",
    "head": "f70442d53299ae66e7672a189cd0d316736182ef",
    "on_success": "nothing",
    "previous_run_id": null,
