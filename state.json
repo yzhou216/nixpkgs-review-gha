@@ -29161,6 +29161,7 @@
    "title": "python3Packages.django-fsm-2: 4.2.4 -> 4.3.0"
   },
   "588423": {
+   "final": "cancelled after 4 hours",
    "head": "f834cf21908ea2351414e155ddd18dfa5c30b0c9",
    "on_success": "nothing",
    "previous_run_id": 44028210661,
@@ -29191,6 +29192,7 @@
    "title": "stable-diffusion-cpp: master-1043-3be2378 -> master-1104-5dcfa79"
   },
   "588425": {
+   "final": "cancelled after 4 hours",
    "head": "a6ad3be840917db23485edae8bb8f54abe3c1604",
    "on_success": "nothing",
    "previous_run_id": 44026265315,
@@ -29206,6 +29208,7 @@
    "title": "stable-diffusion-cpp-vulkan: master-1104-5dcfa79 -> master-1133-52491bd"
   },
   "588427": {
+   "final": "cancelled after 4 hours",
    "head": "bb7253053d10193ef4efd3a0c72ea05493eb374d",
    "on_success": "nothing",
    "previous_run_id": 44026189156,
