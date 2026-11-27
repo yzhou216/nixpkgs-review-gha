@@ -42947,6 +42947,7 @@
    "title": "home-assistant-matter-hub: 2.0.60 -> 2.1.0"
   },
   "594042": {
+   "final": "cancelled after 4 hours",
    "head": "d50d35f3f01cf803fb1d977eb38d13802d03ce83",
    "on_success": "nothing",
    "previous_run_id": null,
