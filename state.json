@@ -43122,32 +43122,92 @@
   },
   "594077": {
    "head": "4e6e133b512a41f6327018e50cfe6ac340219c1a",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 46081172890,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-27T23:12:32+00:00",
    "title": "pyxel: 3.0.1 -> 3.0.4"
   },
   "594079": {
    "head": "484ec87a16060340413d32ec4596331e542b29f8",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 46080890343,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-27T23:09:39+00:00",
    "title": "python3Packages.deltalake: 1.6.6 -> 1.7.0"
   },
   "594082": {
    "head": "e9bb7e15155aebb31f1a2479faa4ebd0d56021d9",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 46080305387,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-27T23:03:41+00:00",
    "title": "python3Packages.hydropeak-opendata: 0.3.0 -> 0.4.1"
   },
   "594084": {
    "head": "a5f811638729d484a7246b559fcabab58ac99d37",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 46080026117,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-27T23:00:54+00:00",
    "title": "python3Packages.aioengiebelgium: 0.8.2 -> 0.14.0"
   },
   "594087": {
    "head": "d435c348ee1bdcb98309d07c5d1c789deb64efd6",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 46079950058,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-27T23:00:13+00:00",
    "title": "torrserver: 150 -> 152"
   },
   "594088": {
    "head": "ae1992e573e671b081f3bfeee73bcdb8c220e8b1",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 46079687545,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-27T22:57:20+00:00",
    "title": "python3Packages.django-embed-video: 1.4.11 -> 1.5.0"
   },
   "594092": {
@@ -43166,7 +43226,17 @@
   },
   "594094": {
    "head": "8a6b2b01aec8f3542cdbf51b2e039bb221478bd4",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 46079524960,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-27T22:55:35+00:00",
    "title": "python3Packages.berkeleydb: 18.1.18 -> 18.1.19"
   },
   "594102": {
@@ -43185,12 +43255,32 @@
   },
   "594143": {
    "head": "1fc57a36bb3bd49de887315c8d1ee59e24185488",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 46079346246,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-27T22:53:44+00:00",
    "title": "python3Packages.ouster-sdk: 1.0.1 -> 2.0.0"
   },
   "594166": {
    "head": "1ea12d7a3242d8ff353d2f7889f4061be49e9c22",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 46079274221,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-27T22:53:00+00:00",
    "title": "gitea: 28.4.0 -> 29.0.0-dev"
   },
   "594192": {
@@ -43209,27 +43299,77 @@
   },
   "594203": {
    "head": "f166e8ab6186c23abeb40b38fc1ffead90b78c1c",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 46079210608,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-27T22:52:19+00:00",
    "title": "python3Packages.kaggle: 2.2.4 -> 2.2.5"
   },
   "594208": {
    "head": "a87cca8f9733cbc79212afac9e25e269892fc223",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 46079039650,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-27T22:50:34+00:00",
    "title": "thc-hydra: 9.7 -> 9.9"
   },
   "594210": {
    "head": "e682e1db4f17d0d550bf8eb778b1958935f14dd7",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 46078766621,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-27T22:47:41+00:00",
    "title": "python3Packages.libipld: 3.5.0 -> 4.0.0"
   },
   "594212": {
    "head": "b6f093ed1e5d6117717c00a6389bf8476ade81b4",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 46078706195,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-27T22:47:04+00:00",
    "title": "starfetch: 0.0.4 -> 0.0.5"
   },
   "594221": {
    "head": "3459b15dd6d4bb27f3c5b42e19f9cd23f927d1c9",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 46078436183,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-27T22:44:22+00:00",
    "title": "vscode-extensions.ltex-plus.vscode-ltex-plus: 15.7.1 -> 16.0.0"
   },
   "594225": {
