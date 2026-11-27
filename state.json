@@ -43117,7 +43117,17 @@
   },
   "594076": {
    "head": "88bfc2bd274ef6b2e84675d4ff5c69bb9807623c",
-   "status": "requeue",
+   "on_success": "nothing",
+   "previous_run_id": null,
+   "requeued": true,
+   "run_id": 46081245474,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-27T23:13:15+00:00",
    "title": "erlang-language-platform: 2026-10-14 -> 2026-11-20"
   },
   "594077": {
