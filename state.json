@@ -28311,8 +28311,17 @@
   },
   "587982": {
    "head": "05820b8897d839e8c296117502d02d0be85a6ba0",
+   "on_success": "nothing",
    "previous_run_id": 43570629886,
-   "status": "requeue",
+   "requeued": true,
+   "run_id": 45949877134,
+   "status": "dispatched",
+   "systems": [
+    "x86_64-linux",
+    "aarch64-linux",
+    "aarch64-darwin"
+   ],
+   "time": "2026-11-27T06:07:45+00:00",
    "title": "koboldcpp-rocm: 1.124 -> 1.125.1"
   },
   "587984": {
