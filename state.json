@@ -44452,6 +44452,8 @@
    "title": "kubevela: 1.11.1 -> 1.11.2"
   },
   "594531": {
+   "examined": 1,
+   "final": "review (x86_64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ; review (aarch64-linux): The operation was canceled.",
    "head": "a083f8b166059cad45b59d15ef1fb99acba2f494",
    "on_success": "nothing",
    "previous_run_id": null,
