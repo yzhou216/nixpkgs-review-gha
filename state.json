@@ -43828,6 +43828,7 @@
    "title": "omnisharp-roslyn: 1.40.0 -> 2.0.0"
   },
   "594367": {
+   "final": "cancelled after 4 hours",
    "head": "3571bfd0eb5b84f997e7ff4429dbfd559f3190ec",
    "on_success": "nothing",
    "previous_run_id": null,
