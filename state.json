@@ -44242,6 +44242,8 @@
    "title": "xl2tpd: 1.3.20 -> 1.3.21"
   },
   "594444": {
+   "examined": 1,
+   "final": "review (aarch64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ; review (x86_64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ",
    "head": "0ff3b9868dd5105e8dc02be427bbdfe3f9faf05f",
    "on_success": "nothing",
    "previous_run_id": null,
