@@ -43428,6 +43428,8 @@
    "title": "tparse: 0.18.0 -> 0.20.0"
   },
   "594266": {
+   "examined": 1,
+   "final": "review (x86_64-linux): The hosted runner lost communication with the server. Anything in your workflow that terminates the ; review (aarch64-linux): The operation was canceled.",
    "head": "31e0cb7844dab70ee0d98710e6e7bb4b45f409ef",
    "on_success": "nothing",
    "previous_run_id": null,
